@@ -44,6 +44,7 @@ function Answer() {
   const [value, setValue] = useState(`${answers.length}`);
   const [question, setQuestion] = useState("");
   const [navigate, setNavigate] = useState(false);
+  const [isExclusive, setIsExclusive] = useState(false);
 
   // LOCAL STATE TEXT QUESTION
   const [regex, setRegex] = useState("");
@@ -55,13 +56,14 @@ function Answer() {
   const [minText, setMinText] = useState("");
   const [midText, setMidText] = useState("");
   const [maxText, setMaxText] = useState("");
-  
+
   const [minValue, setMinValue] = useState("0");
   const [midValue, setMidValue] = useState("50");
   const [maxValue, setMaxValue] = useState("100");
 
   const [step, setStep] = useState(1.0);
-  const [hideAnalogScaleSelectorNumber, setHideAnalogScaleSelectorNumber] = useState(false);
+  const [hideAnalogScaleSelectorNumber, setHideAnalogScaleSelectorNumber] =
+    useState(false);
   // QUESTION TYPES
   const scaleType = ["ANALOG_SCALE", "DIGITAL_SCALE"];
   const numType = ["INTEGER", "DECIMAL"];
@@ -72,7 +74,7 @@ function Answer() {
 
   const resetFields = () => {
     setText("");
-    setValue(`${answers.length+1}`);
+    setValue(`${answers.length + 1}`);
   };
 
   const handleSubmit = () => {
@@ -80,13 +82,14 @@ function Answer() {
       dispatch(changeMessage("Champ(s) recquis manquant(s)"));
       dispatch(changeError(true));
     } else {
-      dispatch(changeAnswer({ text, value }));
+      dispatch(changeAnswer({ text, value, isExclusive }));
       dispatch(changeBaseAnswer());
       resetFields();
     }
   };
 
-  const handleSubmitQuestion = () => { // choice questions
+  const handleSubmitQuestion = () => {
+    // choice questions
     if (text === "" || value === "") {
       dispatch(changeMessage("Champ(s) recquis manquant(s)"));
       dispatch(changeError(true));
@@ -95,13 +98,16 @@ function Answer() {
         changeAnswer({
           text,
           value,
+          isExclusive,
         })
       );
       dispatch(changeBaseAnswer());
-      dispatch(changeQuestionWithAnswers({
-         answers,
-         text,
-         value
+      dispatch(
+        changeQuestionWithAnswers({
+          answers,
+          text,
+          value,
+          isExclusive,
         })
       );
       dispatch(changeBaseQuestion());
@@ -112,13 +118,14 @@ function Answer() {
   const handleSubmitTextQuestion = () => {
     dispatch(
       changeTextAnswer({
-        regex
+        regex,
       })
     );
     dispatch(changeBaseAnswer());
-    dispatch(changeQuestionWithTextAnswers({
+    dispatch(
+      changeQuestionWithTextAnswers({
         answers,
-        regex
+        regex,
       })
     );
     dispatch(changeBaseQuestion());
@@ -130,7 +137,7 @@ function Answer() {
       changeNumAnswer({
         min,
         max,
-        step
+        step,
       })
     );
     dispatch(changeBaseAnswer());
@@ -139,7 +146,7 @@ function Answer() {
         answers,
         min,
         max,
-        step
+        step,
       })
     );
     dispatch(changeBaseQuestion());
@@ -153,7 +160,7 @@ function Answer() {
         max,
         minText,
         maxText,
-        step
+        step,
       })
     );
     dispatch(changeBaseAnswer());
@@ -182,10 +189,10 @@ function Answer() {
         <List list={questions} key={question} title="Tags" />
         <h1>Réponse {answers.length}</h1>
         {textType.includes(`${currentQuestion.type}`) && (
-          <Text 
+          <Text
             regex={regex}
             setRegex={setRegex}
-            handleSubmitTextQuestion={handleSubmitTextQuestion} 
+            handleSubmitTextQuestion={handleSubmitTextQuestion}
           />
         )}
         {simpleType.includes(`${currentQuestion.type}`) && (
@@ -198,6 +205,8 @@ function Answer() {
             handleSubmitQuestion={handleSubmitQuestion}
             answers={answers}
             currentQuestion={currentQuestion}
+            isExclusive={isExclusive}
+            setIsExclusive={setIsExclusive}
           />
         )}
         {numType.includes(`${currentQuestion.type}`) && (

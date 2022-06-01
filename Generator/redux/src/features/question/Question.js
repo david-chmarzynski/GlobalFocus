@@ -16,7 +16,7 @@ import Error from "../error/Error";
 import List from "../list/List";
 
 // DATAS
-import { questionTypes, booleans } from "./datas.questions";
+import { questionTypes, booleans, scopes } from "./datas.questions";
 import { Link } from "react-router-dom";
 
 function Question() {
@@ -27,10 +27,17 @@ function Question() {
   const error = useSelector((state) => state.error.error);
   const form = useSelector((state) => state.form);
   const modules = useSelector((state) => state.module.modules);
+  const currentModule = useSelector((state) => state.module.module);
 
   // LOCAL STATES
   const [module, setModule] = useState("");
-  const [questionOID, setQuestionOID] = useState(`q_${questions.length.toString().padStart(3, '0')}`);
+  const [questionOID, setQuestionOID] = useState(
+    `q_${
+      currentModule.moduleOID +
+      "_" +
+      questions.length.toString().padStart(3, "0")
+    }`
+  );
   const [questionText, setQuestionText] = useState("");
   const [tag, setTag] = useState("");
   const [type, setType] = useState("SINGLE_CHOICE_RADIO");
@@ -45,6 +52,7 @@ function Question() {
   const [triggeredValue, setTriggeredValue] = useState(0);
   const [triggeredDefault, setTriggeredDefault] = useState(0);
   const [navigate, setNavigate] = useState(false);
+  const [scope, setScope] = useState("MODULE_SCOPE");
 
   // DEFAULT MODULE STATE
   useEffect(() => {
@@ -78,6 +86,7 @@ function Question() {
           triggeredQuestionOID,
           triggeredValue,
           triggeredDefault,
+          scope,
           isCalculation,
           calculation,
           isGlobal,
@@ -188,6 +197,24 @@ function Question() {
               onChange={(e) => setTriggeredDefault(e.target.value)}
             />
           </>
+        )}
+        {isTriggered && (
+          <TextField
+            id="outlined-select-currency-native"
+            select
+            label="Scope"
+            value={scope}
+            onChange={(e) => setScope(e.target.value)}
+            SelectProps={{
+              native: true,
+            }}
+          >
+            {scopes.map((option) => (
+              <option key={option.label} value={option.value}>
+                {option.value}
+              </option>
+            ))}
+          </TextField>
         )}
         <TextField
           id="outlined-select-currency-native"

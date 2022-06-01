@@ -12,6 +12,7 @@ const initialState = {
     triggeredValue: null,
     triggeredDefault: null,
     tag: null,
+    scope: null,
     isGlobal: null,
     isCalculation: null,
     calculation: null,
@@ -28,6 +29,7 @@ const initialState = {
     triggeredValue: null,
     triggeredDefault: null,
     tag: null,
+    scope: null,
     isGlobal: null,
     isCalculation: null,
     calculation: null,
@@ -58,6 +60,7 @@ export const questionSlice = createSlice({
         triggeredValue: action.payload.triggeredValue,
         triggeredDefault: action.payload.triggeredDefault,
         tag: action.payload.tag,
+        scope: action.payload.scope,
         isGlobal: action.payload.isGlobal,
         isCalculation: action.payload.isCalculation,
         calculation: action.payload.calculation,
@@ -76,6 +79,7 @@ export const questionSlice = createSlice({
         triggeredValue: state.question.triggeredValue,
         triggeredDefault: state.question.triggeredDefault,
         tag: state.question.tag,
+        scope: state.question.scope,
         isGlobal: state.question.isGlobal,
         isCalculation: state.question.isCalculation,
         calculation: state.question.calculation,
@@ -83,9 +87,10 @@ export const questionSlice = createSlice({
         conditions: state.question.conditions,
         answers: [
           ...action.payload.answers,
-          { 
+          {
             text: action.payload.text,
             value: action.payload.value,
+            isExclusive: action.payload.isExclusive,
           },
         ],
       };
@@ -99,6 +104,7 @@ export const questionSlice = createSlice({
         isTriggered: state.question.isTriggered,
         trigger: state.question.trigger,
         tag: state.question.tag,
+        scope: state.question.scope,
         isGlobal: state.question.isGlobal,
         isCalculation: state.question.isCalculation,
         calculation: state.question.calculation,
@@ -106,7 +112,7 @@ export const questionSlice = createSlice({
         conditions: state.question.conditions,
         answers: [
           ...action.payload.answers,
-          { 
+          {
             regex: action.payload.regex,
           },
         ],
@@ -121,6 +127,7 @@ export const questionSlice = createSlice({
         isTriggered: state.question.isTriggered,
         trigger: state.question.trigger,
         tag: state.question.tag,
+        scope: state.question.scope,
         isGlobal: state.question.isGlobal,
         isCalculation: state.question.isCalculation,
         calculation: state.question.calculation,
@@ -147,6 +154,7 @@ export const questionSlice = createSlice({
         triggeredValue: state.question.triggeredValue,
         triggeredDefault: state.question.triggeredDefault,
         tag: state.question.tag,
+        scope: state.question.scope,
         isGlobal: state.question.isGlobal,
         isCalculation: state.question.isCalculation,
         calculation: state.question.calculation,
@@ -164,7 +172,8 @@ export const questionSlice = createSlice({
             midValue: action.payload.midValue,
             maxValue: action.payload.maxValue,
             step: action.payload.step,
-            hideAnalogScaleSelectorNumber : action.payload.hideAnalogScaleSelectorNumber,
+            hideAnalogScaleSelectorNumber:
+              action.payload.hideAnalogScaleSelectorNumber,
           },
         ],
       };

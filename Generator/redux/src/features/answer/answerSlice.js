@@ -26,10 +26,19 @@ export const answerSlice = createSlice({
       state.answers = [...state.answers, state.answer];
     },
     changeAnswer: (state, action) => {
-      state.answer = {
-        text: action.payload.text,
-        value: action.payload.value,
-      };
+      if (isNaN(action.payload.value.replace('"', ""))) {
+        state.answer = {
+          text: action.payload.text,
+          value: action.payload.value,
+          isExclusive: action.payload.isExclusive,
+        };
+      } else {
+        state.answer = {
+          text: action.payload.text,
+          value: parseInt(action.payload.value),
+          isExclusive: action.payload.isExclusive,
+        };
+      }
     },
     changeTextAnswer: (state, action) => {
       state.answer = {
@@ -54,7 +63,8 @@ export const answerSlice = createSlice({
         midValue: action.payload.midValue,
         maxValue: action.payload.maxValue,
         step: action.payload.step,
-        hideAnalogScaleSelectorNumber : action.payload.hideAnalogScaleSelectorNumber,
+        hideAnalogScaleSelectorNumber:
+          action.payload.hideAnalogScaleSelectorNumber,
       };
     },
     clearAnswers: (state, action) => {

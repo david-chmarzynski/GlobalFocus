@@ -10,6 +10,9 @@ import { changeError, changeMessage } from "../error/errorSlice";
 // MUI
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
+import Checkbox from "@mui/material/Checkbox";
+import FormGroup from "@mui/material/FormGroup";
+import FormControlLabel from "@mui/material/FormControlLabel";
 
 // COMPONENTS
 import Range from "../range/Range";
@@ -35,16 +38,20 @@ function Tag() {
   const [tagOID, setTagOID] = useState("");
   const [tagTitle, setTagTitle] = useState("");
   const [tagDescription, setTagDescription] = useState("");
-  const [tagType, setTagType] = useState("Score");
+  const [tagType, setTagType] = useState("SCORE");
   const [parent, setParent] = useState("");
   const [rangeMin, setRangeMin] = useState([]);
   const [rangeMax, setRangeMax] = useState([]);
   const [navigate, setNavigate] = useState(false);
+  const [sunburstName, setSunburstName] = useState("");
+
+  console.log(sunburstName);
 
   const resetFields = () => {
     setTagOID("");
     setTagTitle("");
     setTagDescription("");
+    setSunburstName("");
   };
 
   const handleSubmit = () => {
@@ -67,6 +74,7 @@ function Tag() {
           parent,
           rangeMin,
           rangeMax,
+          sunburstName,
         })
       );
       resetFields();
@@ -142,6 +150,13 @@ function Tag() {
         )}
         <TextField
           required
+          id="outlined-required"
+          label="Nom du Tag (Sunburst)"
+          value={sunburstName}
+          onChange={(e) => setSunburstName(e.target.value)}
+        />
+        <TextField
+          required
           id="outlined-select-currency-native"
           select
           label="Nombre de ranges"
@@ -169,6 +184,16 @@ function Tag() {
         <Link to="/questions">
           <Button variant="outlined" onClick={handleTag}>
             Continuer
+          </Button>
+        </Link>
+        <Link to="/tags">
+          <Button variant="outlined" onClick={handleTag}>
+            Ajouter Tag sans question
+          </Button>
+        </Link>
+        <Link to="/modules">
+          <Button variant="outlined" onClick={handleTag}>
+            Terminer module
           </Button>
         </Link>
       </div>

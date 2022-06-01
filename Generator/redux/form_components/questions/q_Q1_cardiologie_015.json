@@ -1,0 +1,54 @@
+{
+  "oid": "q_Q1_cardiologie_015",
+  "title": "Quel type d’intervention avez-vous subi ?",
+  "text": "Quel type d’intervention avez-vous subi ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "Stent",
+      "text": "Stent"
+    },
+    {
+      "code": "Pontage",
+      "text": "Pontage"
+    },
+    {
+      "code": "Aucune intervention chrirugicale",
+      "text": "Aucune intervention chrirugicale",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_Q1_cardiologie_015 == \"Stent\"",
+      "tagOID": "S_CV_ATCD_TRAITEMENT_INTERVENTIONNEL_ANGOR_INFARCTUS",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Stent\" in q_Q1_cardiologie_015)",
+      "tagOID": "S_CV_ATCD_TRAITEMENT_INTERVENTIONNEL_ANGOR_INFARCTUS",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_cardiologie_015 == \"Pontage\"",
+      "tagOID": "S_CV_ATCD_TRAITEMENT_INTERVENTIONNEL_ANGOR_INFARCTUS",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Pontage\" in q_Q1_cardiologie_015)",
+      "tagOID": "S_CV_ATCD_TRAITEMENT_INTERVENTIONNEL_ANGOR_INFARCTUS",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_cardiologie_015 == \"Aucune intervention chrirugicale\"",
+      "tagOID": "S_CV_ATCD_TRAITEMENT_INTERVENTIONNEL_ANGOR_INFARCTUS",
+      "value": 0,
+      "exclusive": true
+    },
+    {
+      "conditions": "!(\"Aucune intervention chrirugicale\" in q_Q1_cardiologie_015)",
+      "tagOID": "S_CV_ATCD_TRAITEMENT_INTERVENTIONNEL_ANGOR_INFARCTUS",
+      "value": 1
+    }
+  ]
+}

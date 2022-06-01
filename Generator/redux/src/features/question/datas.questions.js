@@ -55,3 +55,14 @@ export const booleans = [
     value: false,
   },
 ];
+
+export const scopes = [
+  {
+    label: "MODULE_SCOPE",
+    value: "MODULE_SCOPE",
+  },
+  {
+    label: "PATIENT_SCOPE",
+    value: "PATIENT_SCOPE",
+  },
+];

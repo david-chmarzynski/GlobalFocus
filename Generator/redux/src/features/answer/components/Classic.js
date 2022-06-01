@@ -3,6 +3,9 @@ import React from "react";
 // MUI
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
+import FormGroup from "@mui/material/FormGroup";
+import FormControlLabel from "@mui/material/FormControlLabel";
+import Checkbox from "@mui/material/Checkbox";
 
 // ROUTER
 import { Link } from "react-router-dom";
@@ -16,6 +19,8 @@ const Classic = ({
   currentQuestion,
   handleSubmit,
   answers,
+  isExclusive,
+  setIsExclusive,
 }) => {
   return (
     <>
@@ -33,6 +38,9 @@ const Classic = ({
         value={value}
         onChange={(e) => setValue(e.target.value)}
       />
+      <FormGroup onChange={() => setIsExclusive(!isExclusive)}>
+        <FormControlLabel control={<Checkbox />} label="Is exclusive" />
+      </FormGroup>
       <Button variant="outlined" onClick={() => handleSubmit()}>
         Ajouter
       </Button>

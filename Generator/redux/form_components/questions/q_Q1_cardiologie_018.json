@@ -1,0 +1,53 @@
+{
+  "oid": "q_Q1_cardiologie_018",
+  "title": "Quel type d'intervention avez-vous subi ?",
+  "text": "Quel type d'intervention avez-vous subi ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "Ablation arythmie par cathéter",
+      "text": "Ablation arythmie par cathéter"
+    },
+    {
+      "code": "Pace Maker",
+      "text": "Pace Maker"
+    },
+    {
+      "code": "Aucune intervention chirurgicale",
+      "text": "Aucune intervention chirurgicale",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_Q1_cardiologie_018 == \"Ablation arythmie par cathéter\"",
+      "tagOID": "S_CV_ATCD_TRAITEMENT_INTERVENTIONNEL_TDR",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Ablation arythmie par cathéter\" in q_Q1_cardiologie_018)",
+      "tagOID": "S_CV_ATCD_TRAITEMENT_INTERVENTIONNEL_TDR",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_cardiologie_018 == \"Pace Maker\"",
+      "tagOID": "S_CV_ATCD_TRAITEMENT_INTERVENTIONNEL_TDR",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Pace Maker\" in q_Q1_cardiologie_018)",
+      "tagOID": "S_CV_ATCD_TRAITEMENT_INTERVENTIONNEL_TDR",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_cardiologie_018 == \"Aucune intervention chirurgicale\"",
+      "tagOID": "S_CV_ATCD_TRAITEMENT_INTERVENTIONNEL_TDR",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"Aucune intervention chirurgicale\" in q_Q1_cardiologie_018)",
+      "tagOID": "S_CV_ATCD_TRAITEMENT_INTERVENTIONNEL_TDR",
+      "value": 1
+    }
+  ]
+}

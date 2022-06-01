@@ -175,10 +175,13 @@ const createModules = (data) => {
             isGlobal: data.modules[m].questions[q].isGlobal,
             trigger: {
               conditions: `!("${data.modules[m].questions[q].triggeredValue}" in ${data.modules[m].questions[q].triggeredQuestionOID})`,
-              scope: "MODULE_SCOPE",
-              defaultValuesMap: {
-                [data.modules[m].questions[q]
-                  .questionOID]: `${data.modules[m].questions[q].triggeredDefault}`,
+              scope: `${data.modules[m].questions[q].scope}`,
+              defaultValues: {
+                [data.modules[m].questions[q].triggeredQuestionOID]: isNaN(
+                  data.modules[m].questions[q].triggeredDefault
+                )
+                  ? data.modules[m].questions[q].triggeredDefault
+                  : parseInt(data.modules[m].questions[q].triggeredDefault),
               },
             },
           };
@@ -225,14 +228,24 @@ const createQuestions = (data) => {
             a++
           ) {
             let choice = {
-              code: `${a}`,
+              code: `${data.modules[m].questions[q].answers[a].value}`,
               text: `${data.modules[m].questions[q].answers[a].text}`,
             };
-            let score = {
-              conditions: `${data.modules[m].questions[q].questionOID} == "${a}"`,
-              tagOID: `${data.modules[m].questions[q].tag}`,
-              value: data.modules[m].questions[q].answers[a].value,
-            };
+            let score;
+            if (data.modules[m].questions[q].answers[a].isExclusive === true) {
+              score = {
+                conditions: `${data.modules[m].questions[q].questionOID} == "${data.modules[m].questions[q].answers[a].value}"`,
+                tagOID: `${data.modules[m].questions[q].tag}`,
+                value: data.modules[m].questions[q].answers[a].value,
+                exclusive: true,
+              };
+            } else {
+              score = {
+                conditions: `${data.modules[m].questions[q].questionOID} == "${data.modules[m].questions[q].answers[a].value}"`,
+                tagOID: `${data.modules[m].questions[q].tag}`,
+                value: data.modules[m].questions[q].answers[a].value,
+              };
+            }
             baseChoices.push(choice);
             baseScores.push(score);
           }
@@ -246,14 +259,25 @@ const createQuestions = (data) => {
             a++
           ) {
             let choice = {
-              code: `${a}`,
+              code: `${data.modules[m].questions[q].answers[a].value}`,
               text: `${data.modules[m].questions[q].answers[a].text}`,
             };
-            let score = {
-              conditions: `${data.modules[m].questions[q].questionOID} == "${a}"`,
-              tagOID: `${data.modules[m].questions[q].tag}`,
-              value: data.modules[m].questions[q].answers[a].value,
-            };
+            console.log(isNaN(data.modules[m].questions[q].answers[a].value));
+            let score;
+            if (data.modules[m].questions[q].answers[a].isExclusive === true) {
+              score = {
+                conditions: `${data.modules[m].questions[q].questionOID} == "${data.modules[m].questions[q].answers[a].value}"`,
+                tagOID: `${data.modules[m].questions[q].tag}`,
+                value: data.modules[m].questions[q].answers[a].value,
+                exclusive: true,
+              };
+            } else {
+              score = {
+                conditions: `${data.modules[m].questions[q].questionOID} == "${data.modules[m].questions[q].answers[a].value}"`,
+                tagOID: `${data.modules[m].questions[q].tag}`,
+                value: data.modules[m].questions[q].answers[a].value,
+              };
+            }
             baseChoices.push(choice);
             baseScores.push(score);
           }
@@ -267,18 +291,28 @@ const createQuestions = (data) => {
             a++
           ) {
             let choice = {
-              code: `${a}`,
+              code: `${data.modules[m].questions[q].answers[a].value}`,
               text: `${data.modules[m].questions[q].answers[a].text}`,
             };
-            let score = {
-              conditions: `"${a}" in ${data.modules[m].questions[q].questionOID}`,
-              tagOID: `${data.modules[m].questions[q].tag}`,
-              value: data.modules[m].questions[q].answers[a].value,
-            };
+            let score;
+            if (data.modules[m].questions[q].answers[a].isExclusive === true) {
+              score = {
+                conditions: `${data.modules[m].questions[q].questionOID} == "${data.modules[m].questions[q].answers[a].value}"`,
+                tagOID: `${data.modules[m].questions[q].tag}`,
+                value: data.modules[m].questions[q].answers[a].value,
+                exclusive: true,
+              };
+            } else {
+              score = {
+                conditions: `${data.modules[m].questions[q].questionOID} == "${data.modules[m].questions[q].answers[a].value}"`,
+                tagOID: `${data.modules[m].questions[q].tag}`,
+                value: data.modules[m].questions[q].answers[a].value,
+              };
+            }
             let antiScore = {
-              conditions: `!("${a}" in ${data.modules[m].questions[q].questionOID})`,
+              conditions: `!("${data.modules[m].questions[q].answers[a].value}" in ${data.modules[m].questions[q].questionOID})`,
               tagOID: `${data.modules[m].questions[q].tag}`,
-              value: "0",
+              value: 0,
             };
             baseChoices.push(choice);
             baseScores.push(score);
@@ -301,14 +335,14 @@ const createQuestions = (data) => {
             scores: [],
           };
           for (
-            let val = 0;
-            val < data.modules[m].questions[q].answers[0].max;
+            let val = data.modules[m].questions[q].answers[0].min;
+            val <= data.modules[m].questions[q].answers[0].max;
             val++
           ) {
             let score = {
               conditions: `${data.modules[m].questions[q].questionOID} == ${val}`,
               tagOID: `${data.modules[m].questions[q].tag}`,
-              value: val,
+              value: parseInt(val),
             };
             baseScores.push(score);
             baseQuestion.scores = baseScores;
@@ -328,14 +362,14 @@ const createQuestions = (data) => {
             scores: [],
           };
           for (
-            let val = 0;
-            val < data.modules[m].questions[q].answers[0].max;
+            let val = data.modules[m].questions[q].answers[0].min;
+            val <= data.modules[m].questions[q].answers[0].max;
             val++
           ) {
             let score = {
               conditions: `${data.modules[m].questions[q].questionOID} == ${val}`,
               tagOID: `${data.modules[m].questions[q].tag}`,
-              value: val,
+              value: parseInt(val),
             };
             baseScores.push(score);
             baseQuestion.scores = baseScores;
@@ -355,14 +389,14 @@ const createQuestions = (data) => {
             scores: [],
           };
           for (
-            let val = 0;
-            val < data.modules[m].questions[q].answers[0].max;
+            let val = data.modules[m].questions[q].answers[0].min;
+            val <= data.modules[m].questions[q].answers[0].max;
             val++
           ) {
             let score = {
               conditions: `${data.modules[m].questions[q].questionOID} == ${val}`,
-              tagOID: `${data.modules[m].questions[q].answers[0].tag}`,
-              value: val,
+              tagOID: `${data.modules[m].questions[q].tag}`,
+              value: parseInt(val),
             };
             baseScores.push(score);
             baseQuestion.scores = baseScores;
@@ -382,14 +416,14 @@ const createQuestions = (data) => {
             scores: [],
           };
           for (
-            let val = 0;
-            val < data.modules[m].questions[q].answers[0].max;
+            let val = data.modules[m].questions[q].answers[0].min;
+            val <= data.modules[m].questions[q].answers[0].max;
             val++
           ) {
             let score = {
               conditions: `${data.modules[m].questions[q].questionOID} == ${val}`,
               tagOID: `${data.modules[m].questions[q].tag}`,
-              value: val,
+              value: parseInt(val),
             };
             baseScores.push(score);
             baseQuestion.scores = baseScores;
@@ -522,11 +556,13 @@ const createRanges = (child, ranges) => {
       min: child.rangeMin[0],
       max: child.rangeMax[0],
       color: "00FF00",
+      text: `${child.sunburstName}`,
     };
     let range2 = {
       min: child.rangeMin[1],
       max: child.rangeMin[1],
       color: "FF0000",
+      text: `${child.sunburstName}`,
     };
     ranges.push(range1, range2);
   } else if (child.rangeMin.length === 4) {
@@ -534,21 +570,25 @@ const createRanges = (child, ranges) => {
       min: child.rangeMin[0],
       max: child.rangeMax[0],
       color: "00FF00",
+      text: `${child.sunburstName}`,
     };
     let range2 = {
       min: child.rangeMin[1],
       max: child.rangeMax[1],
       color: "FFFF00",
+      text: `${child.sunburstName}`,
     };
     let range3 = {
       min: child.rangeMin[2],
       max: child.rangeMax[2],
       color: "FF9900",
+      text: `${child.sunburstName}`,
     };
     let range4 = {
       min: child.rangeMin[3],
       max: child.rangeMax[3],
       color: "FF0000",
+      text: `${child.sunburstName}`,
     };
     ranges.push(range1, range2, range3, range4);
   } else if (child.rangeMin.length === 6) {
@@ -556,31 +596,37 @@ const createRanges = (child, ranges) => {
       min: child.rangeMin[0],
       max: child.rangeMax[0],
       color: "00FF00",
+      text: `${child.sunburstName}`,
     };
     let range2 = {
       min: child.rangeMin[1],
       max: child.rangeMax[1],
       color: "CCFF33",
+      text: `${child.sunburstName}`,
     };
     let range3 = {
       min: child.rangeMin[2],
       max: child.rangeMax[2],
       color: "FFFF00",
+      text: `${child.sunburstName}`,
     };
     let range4 = {
       min: child.rangeMin[3],
       max: child.rangeMax[3],
       color: "FF9900",
+      text: `${child.sunburstName}`,
     };
     let range5 = {
       min: child.rangeMin[4],
       max: child.rangeMax[4],
       color: "FF0000",
+      text: `${child.sunburstName}`,
     };
     let range6 = {
       min: child.rangeMin[5],
       max: child.rangeMax[5],
       color: "990000",
+      text: `${child.sunburstName}`,
     };
 
     ranges.push(range1, range2, range3, range4, range5, range6);

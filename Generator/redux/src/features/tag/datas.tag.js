@@ -15,11 +15,11 @@ export const ranges = [
 
 export const tagTypes = [
   {
-    label: "Score",
-    value: "Score",
+    label: "SCORE",
+    value: "SCORE",
   },
   {
-    label: "Other",
-    value: "Other",
+    label: "OTHER",
+    value: "OTHER",
   },
 ];

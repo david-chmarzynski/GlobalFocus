@@ -1,0 +1,46 @@
+{
+  "oid": "q_stomatologie_005",
+  "title": "Quelles étaient les raisons de votre dernière visite chez le dentiste ? ",
+  "text": "Quelles étaient les raisons de votre dernière visite chez le dentiste ? ",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Visite de contrôle ou détartrage annuel"
+    },
+    {
+      "code": "1",
+      "text": "Plan de traitement dentaire"
+    },
+    {
+      "code": "2",
+      "text": "En urgence (douleurs…)"
+    },
+    {
+      "code": "3",
+      "text": "Traitement esthétique"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_stomatologie_005 == \"0\"",
+      "tagOID": "S_STO_PREVENTION_MOTIF_CONSULT",
+      "value": 0
+    },
+    {
+      "conditions": "q_stomatologie_005 == \"1\"",
+      "tagOID": "S_STO_PREVENTION_MOTIF_CONSULT",
+      "value": 1
+    },
+    {
+      "conditions": "q_stomatologie_005 == \"2\"",
+      "tagOID": "S_STO_PREVENTION_MOTIF_CONSULT",
+      "value": 2
+    },
+    {
+      "conditions": "q_stomatologie_005 == \"3\"",
+      "tagOID": "S_STO_PREVENTION_MOTIF_CONSULT",
+      "value": 3
+    }
+  ]
+}

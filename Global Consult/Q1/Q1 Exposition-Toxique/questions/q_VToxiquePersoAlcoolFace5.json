@@ -1,0 +1,22 @@
+{
+  "oid": "q_VToxiquePersoAlcoolFace5",
+  "title": "Vous arrive-til de boire et de ne plus vous souvenir ensuite de ce que vous avez pu dire ou faire ?",
+  "text": "Vous arrive-til de boire et de ne plus vous souvenir ensuite de ce que vous avez pu dire ou faire ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices":[
+    {"code": "0", "text": "Non"},
+    {"code": "1", "text": "Oui"}
+  ],
+  "scores":[
+    {
+      "tagOID": "Tag_VToxiquePersoAlcoolFace",
+      "conditions": "q_VToxiquePersoAlcoolFace5 == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "Tag_VToxiquePersoAlcoolFace",
+      "conditions": "q_VToxiquePersoAlcoolFace5 == '1'",
+      "value": 4
+    }
+  ]
+}

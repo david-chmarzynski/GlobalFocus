@@ -1,0 +1,8 @@
+{
+  "oid": "q_patient_adresse_code",
+  "title": "Veuillez renseigner votre code postal",
+  "text": "Veuillez renseigner votre code postal",
+  "type": "TEXT",
+  "choices": [],
+  "scores": []
+}

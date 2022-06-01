@@ -1,0 +1,46 @@
+{
+  "oid": "q_VSomSatisfactionGlobale",
+  "title": "Sur ces 3 derniers mois, comment évaluez-vous votre satisfaction globale en lien avec la quantité et/ou la qualité de votre sommeil ? ",
+  "text": "Sur ces 3 derniers mois, comment évaluez-vous votre satisfaction globale en lien avec la quantité et/ou la qualité de votre sommeil ? ",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisante"
+    },
+    {
+      "code": "1",
+      "text": "Légèrement insatisfaisante"
+    },
+    {
+      "code": "2",
+      "text": "Plutôt insatisfaisante"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisante"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VSomSatisfactionGlobale == '0'",
+      "tagOID": "tag_VSomSatisfactionGlobale",
+      "value": 0
+    },
+    {
+      "conditions": "q_VSomSatisfactionGlobale == '1'",
+      "tagOID": "tag_VSomSatisfactionGlobale",
+      "value": 1
+    },
+    {
+      "conditions": "q_VSomSatisfactionGlobale == '2'",
+      "tagOID": "tag_VSomSatisfactionGlobale",
+      "value": 2
+    },
+    {
+      "conditions": "q_VSomSatisfactionGlobale == '3'",
+      "tagOID": "tag_VSomSatisfactionGlobale",
+      "value": 3
+    }
+  ]
+}

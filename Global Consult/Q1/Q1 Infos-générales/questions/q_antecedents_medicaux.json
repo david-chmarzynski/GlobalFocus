@@ -1,0 +1,8 @@
+{
+  "oid": "q_antecedents_medicaux",
+  "title": "Avez-vous des antécédents médicaux ?",
+  "text": "Avez-vous des antécédents médicaux ?",
+  "type": "TEXT",
+  "choices": [],
+  "scores": []
+}

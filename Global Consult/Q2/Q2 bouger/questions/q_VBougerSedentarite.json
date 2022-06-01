@@ -1,0 +1,45 @@
+{
+  "oid": "q_VBougerSedentarite",
+  "title": "Combien de temps passez-vous en position assise ou allongée (hors sommeil) lors d’une journée habituelle : repas, travail, transports, loisirs : écrans, lecture… ?",
+  "text": "Combien de temps passez-vous en position assise ou allongée (hors sommeil) lors d’une journée habituelle : repas, travail, transports, loisirs : écrans, lecture… ?",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 0.0,
+    "max": 24.0,
+    "step": 1.0,
+    "maxText": "24",
+    "minText": "0"
+  },
+  "scores": [
+    {
+      "conditions": "q_VBougerSedentarite <= 3",
+      "tagOID": "tag_VBougerSedentarite",
+      "value": 0
+    },
+    {
+      "conditions": "q_VBougerSedentarite > 3 && q_VBougerSedentarite <= 4",
+      "tagOID": "tag_VBougerSedentarite",
+      "value": 1
+    },
+    {
+      "conditions": "q_VBougerSedentarite > 4 && q_VBougerSedentarite <= 5",
+      "tagOID": "tag_VBougerSedentarite",
+      "value": 2
+    },
+    {
+      "conditions": "q_VBougerSedentarite > 5 && q_VBougerSedentarite <= 8",
+      "tagOID": "tag_VBougerSedentarite",
+      "value": 3
+    },
+    {
+      "conditions": "q_VBougerSedentarite > 8 && q_VBougerSedentarite <= 9",
+      "tagOID": "tag_VBougerSedentarite",
+      "value": 4
+    },
+    {
+      "conditions": "q_VBougerSedentarite >= 9",
+      "tagOID": "tag_VBougerSedentarite",
+      "value": 5
+    }
+  ]
+}

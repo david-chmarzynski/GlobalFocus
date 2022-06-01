@@ -1,0 +1,17 @@
+{
+  "oid": "q_vie_couple_domicile",
+  "title": "Dans votre domicile habituel, vivez-vous en couple ?",
+  "text": "Dans votre domicile habituel, vivez-vous en couple ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": []
+}

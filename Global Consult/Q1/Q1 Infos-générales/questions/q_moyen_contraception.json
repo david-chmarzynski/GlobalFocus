@@ -1,0 +1,61 @@
+{
+  "oid": "q_moyen_contraception",
+  "title": "Quel moyen de contraception utilisez-vous ?",
+  "text": "Quel moyen de contraception utilisez-vous ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Contraception orale (pilule)"
+    },
+    {
+      "code": "1",
+      "text": "Patch hormonal"
+    },
+    {
+      "code": "2",
+      "text": "Contraception injectable"
+    },
+    {
+      "code": "3",
+      "text": "Stérilet au cuivre"
+    },
+    {
+      "code": "4",
+      "text": "Stérilet avec hormones"
+    },
+    {
+      "code": "5",
+      "text": "Implant"
+    },
+    {
+      "code": "6",
+      "text": "Spermicides"
+    },
+    {
+      "code": "7",
+      "text": "Moyen mécanique : anneau, cape, diaphragme, préservatif féminin"
+    },
+    {
+      "code": "8",
+      "text": "Préservatif masculin"
+    },
+    {
+      "code": "9",
+      "text": "Retrait"
+    },
+    {
+      "code": "10",
+      "text": "Méthode basée sur le cycle féminin : abstinence périodique, méthode des jours fixes, des 2 jours…"
+    },
+    {
+      "code": "11",
+      "text": "Stérilisation féminine"
+    },
+    {
+      "code": "12",
+      "text": "Stérilisation masculine"
+    }
+  ],
+  "scores": []
+}

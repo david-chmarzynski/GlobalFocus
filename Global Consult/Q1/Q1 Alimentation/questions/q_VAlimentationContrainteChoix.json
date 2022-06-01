@@ -1,0 +1,82 @@
+{
+  "oid": "q_VAlimentationContrainteChoix",
+  "title": "Choisissez la proposition qui est la plus proche de vos choix alimentaires :",
+  "text": "Choisissez la proposition qui est la plus proche de vos choix alimentaires :",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Omnivore diversifié : vous mangez de tout."
+    },
+    {
+      "code": "1",
+      "text": "Flexitarien : Consommation modérée de viande. Alimentation diversifiée par ailleurs."
+    },
+    {
+      "code": "2",
+      "text": "Semi-végétarien : Pas de viande. Alimentation diversifiée par ailleurs."
+    },
+    {
+      "code": "3",
+      "text": "Lacto-ovo-végétarien :  Pas de viande ni poisson. Alimentation diversifiée par ailleurs."
+    },
+    {
+      "code": "4",
+      "text": "Lacto-végétarien : Pas de viande ni poisson ni œuf. Alimentation à base de produits laitiers et de végétaux : fruits, légumes, céréales, légumineuses, féculents, graisses végétales."
+    },
+    {
+      "code": "5",
+      "text": "Végétalien : Pas d’aliment du monde animal. Alimentation uniquement à base de végétaux : fruits, légumes, céréales, légumineuses, féculents, graisses végétales."
+    },
+    {
+      "code": "6",
+      "text": "Vegan : vous refusez l’exploitation animale et vous ne consommez ni aliments ni produits dérivés provenant du monde animal. Alimentation uniquement à base de végétaux : fruits, légumes, céréales, légumineuses, féculents, graisses végétales."
+    },
+    {
+      "code": "7",
+      "text": "Kéto – alimentation cétogène : limitation drastique des glucides. Alimentation composée de protéines surtout animales + légumes + graisses."
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VAlimentationContrainteChoix == \"0\"",
+      "tagOID": "tag_VAlimentationContrainteChoix",
+      "value": 3
+    },
+    {
+      "conditions": "q_VAlimentationContrainteChoix == \"1\"",
+      "tagOID": "tag_VAlimentationContrainteChoix",
+      "value": 3
+    },
+    {
+      "conditions": "q_VAlimentationContrainteChoix == \"2\"",
+      "tagOID": "tag_VAlimentationContrainteChoix",
+      "value": 3
+    },
+    {
+      "conditions": "q_VAlimentationContrainteChoix == \"3\"",
+      "tagOID": "tag_VAlimentationContrainteChoix",
+      "value": 2
+    },
+    {
+      "conditions": "q_VAlimentationContrainteChoix == \"4\"",
+      "tagOID": "tag_VAlimentationContrainteChoix",
+      "value": 1
+    },
+    {
+      "conditions": "q_VAlimentationContrainteChoix == \"5\"",
+      "tagOID": "tag_VAlimentationContrainteChoix",
+      "value": 1
+    },
+    {
+      "conditions": "q_VAlimentationContrainteChoix == \"6\"",
+      "tagOID": "tag_VAlimentationContrainteChoix",
+      "value": 1
+    },
+    {
+      "conditions": "q_VAlimentationContrainteChoix == \"7\"",
+      "tagOID": "tag_VAlimentationContrainteChoix",
+      "value": 1
+    }
+  ]
+}

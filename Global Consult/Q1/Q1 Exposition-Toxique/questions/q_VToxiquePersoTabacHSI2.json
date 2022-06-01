@@ -1,0 +1,28 @@
+{
+  "oid": "q_VToxiquePersoTabacHSI2",
+  "title": "Combien de cigarettes fumez-vous par jour ?",
+  "text": "Combien de cigarettes fumez-vous par jour ?",
+  "type": "INTEGER",
+  "scores":[
+    {
+      "tagOID": "Tag_VToxiquePersoTabacHSI2",
+      "conditions": "q_VToxiquePersoTabacHSI2 <= 10",
+      "value": 0
+    },
+    {
+      "tagOID": "Tag_VToxiquePersoTabacHSI2",
+      "conditions": "q_VToxiquePersoTabacHSI2 >= 11 && q_VToxiquePersoTabacHSI2 <= 20",
+      "value": 1
+    },
+    {
+      "tagOID": "Tag_VToxiquePersoTabacHSI2",
+      "conditions": "q_VToxiquePersoTabacHSI2 >= 21 && q_VToxiquePersoTabacHSI2 <= 30",
+      "value": 2
+    },
+    {
+      "tagOID": "Tag_VToxiquePersoTabacHSI2",
+      "conditions": "q_VToxiquePersoTabacHSI2 >= 31",
+      "value": 3
+    }
+  ]
+}

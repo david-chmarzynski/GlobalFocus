@@ -1,0 +1,151 @@
+{
+  "oid": "q_S_STO_001",
+  "title": "Avez-vous eu ou vous a-t-on diagnostiqué ?",
+  "text": "Avez-vous eu ou vous a-t-on diagnostiqué ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Parodontite (inflammation chronique des gencives)"
+    },
+    {
+      "code": "1",
+      "text": "Bruxisme (serrement ou grincement involontaire des dents)"
+    },
+    {
+      "code": "2",
+      "text": "Traitement par biphosphonate pour ostéoporose"
+    },
+    {
+      "code": "3",
+      "text": "Appareil orthodontique, reçu un traitement orthodontique ou une correction de l’occlusion"
+    },
+    {
+      "code": "4",
+      "text": "Caries dentaires ces 3 dernières années"
+    },
+    {
+      "code": "5",
+      "text": "Greffe osseuse ou de gencive"
+    },
+    {
+      "code": "6",
+      "text": "Bridges et/ou couronnes dentaires"
+    },
+    {
+      "code": "7",
+      "text": "Implant dentaire"
+    },
+    {
+      "code": "8",
+      "text": "Aucun de ces antécédents",
+      "exclusive": true
+    },
+    {
+      "code": "9",
+      "text": "Autre(s) antécédents"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"0\" in q_S_STO_001",
+      "tagOID": "S_STO_ATCD_PARODONTITE",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"0\" in q_S_STO_001)",
+      "tagOID": "S_STO_ATCD_PARODONTITE",
+      "value": "0"
+    },
+    {
+      "conditions": "\"1\" in q_S_STO_001",
+      "tagOID": "S_STO_ATCD_BRUXISME",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"1\" in q_S_STO_001)",
+      "tagOID": "S_STO_ATCD_BRUXISME",
+      "value": "0"
+    },
+    {
+      "conditions": "\"2\" in q_S_STO_001",
+      "tagOID": "S_STO_ATCD_BIPHOSPHONATE",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"2\" in q_S_STO_001)",
+      "tagOID": "S_STO_ATCD_BIPHOSPHONATE",
+      "value": "0"
+    },
+    {
+      "conditions": "\"3\" in q_S_STO_001",
+      "tagOID": "S_STO_ATCD_ORTHODONTIE",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"3\" in q_S_STO_001)",
+      "tagOID": "S_STO_ATCD_ORTHODONTIE",
+      "value": "0"
+    },
+    {
+      "conditions": "\"4\" in q_S_STO_001",
+      "tagOID": "S_STO_ATCD_CARIE",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"4\" in q_S_STO_001)",
+      "tagOID": "S_STO_ATCD_CARIE",
+      "value": "0"
+    },
+    {
+      "conditions": "\"5\" in q_S_STO_001",
+      "tagOID": "S_STO_ATCD_GREFFE",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"5\" in q_S_STO_001)",
+      "tagOID": "S_STO_ATCD_GREFFE",
+      "value": "0"
+    },
+    {
+      "conditions": "\"6\" in q_S_STO_001",
+      "tagOID": "S_STO_ATCD_BRIDGE_COURONNE",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"6\" in q_S_STO_001)",
+      "tagOID": "S_STO_ATCD_BRIDGE_COURONNE",
+      "value": "0"
+    },
+    {
+      "conditions": "\"7\" in q_S_STO_001",
+      "tagOID": "S_STO_ATCD_IMPLANT",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"7\" in q_S_STO_001)",
+      "tagOID": "S_STO_ATCD_IMPLANT",
+      "value": "0"
+    },
+    {
+      "conditions": "\"8\" in q_S_STO_001",
+      "tagOID": "S_STO_ATCD",
+      "value": "0"
+    },
+    {
+      "conditions": "!(\"8\" in q_S_STO_001)",
+      "tagOID": "S_STO_ATCD",
+      "value": "1"
+    },
+    {
+      "conditions": "\"9\" in q_S_STO_001",
+      "tagOID": "S_STO_ATCD_autre",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"9\" in q_S_STO_001)",
+      "tagOID": "S_STO_ATCD_autre",
+      "value": "0"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "oid": "q_tel_medecin_traitant",
+  "title": "N° Téléphone portable du médecin traitant",
+  "text": "N° Téléphone portable du médecin traitant",
+  "type": "TEXT",
+  "regex": "(0|\\+33|0033)[1-9][0-9]{8}",
+  "choices": [],
+  "scores": []
+}

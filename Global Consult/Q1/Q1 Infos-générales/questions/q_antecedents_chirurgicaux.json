@@ -1,0 +1,8 @@
+{
+  "oid": "q_antecedents_chirurgicaux",
+  "title": "Avez-vous des antécédents chirurgicaux ?",
+  "text": "Avez-vous des antécédents chirurgicaux ?",
+  "type": "TEXT",
+  "choices": [],
+  "scores": []
+}

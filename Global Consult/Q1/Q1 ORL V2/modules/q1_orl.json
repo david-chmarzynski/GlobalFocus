@@ -1,0 +1,72 @@
+{
+  "oid": "q1_orl",
+  "title": "ORL",
+  "questions": [
+    {
+      "question": "q_orl_000",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_orl_001",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_orl_002",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_orl_003",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_orl_004",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_orl_009",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"5\" in q_orl_001 || \"4\" in q_orl_002 || \"6\" in q_orl_003 || \"7\" in q_orl_004 )",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {"q_orl_001":"6", "q_orl_002":"5", "q_orl_003":"7", "q_orl_004":"8"}
+      }
+    },
+    {
+      "question": "q_orl_005",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_orl_006",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_orl_007",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_orl_008",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_orl_010",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"4\" in q_orl_005 || \"3\" in q_orl_006 || \"5\" in q_orl_007 || \"5\" in q_orl_008)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {"q_orl_005":"5", "q_orl_006":"4", "q_orl_007":"6", "q_orl_008":"6"}
+      }
+    }
+    
+  ]
+}

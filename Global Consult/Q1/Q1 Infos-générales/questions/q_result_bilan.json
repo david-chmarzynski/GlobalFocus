@@ -1,0 +1,17 @@
+{
+  "oid": "q_result_bilan",
+  "title": "Souhaitez-vous que votre médecin traitant soit informé des résultats de votre bilan de santé ?",
+  "text": "Souhaitez-vous que votre médecin traitant soit informé des résultats de votre bilan de santé ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": []
+}

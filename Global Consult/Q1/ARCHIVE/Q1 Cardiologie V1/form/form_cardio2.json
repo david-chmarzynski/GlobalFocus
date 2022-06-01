@@ -1,0 +1,284 @@
+{
+  "oid": "f_cardio2",
+  "title": "Global Consult Q1 module Cardio sans niveau 1",
+  "estimatedTime": 5,
+  "pricing": 10,
+  "description": "Cardio Vasculaire - avec tags",
+  "levelMax": "1",
+  "authors": [
+    "Jacques Bassier"
+  ],
+  "chapters": [
+    "chap_cardio"
+  ],
+  "professions": [
+    "DENTIST"
+  ],
+  "diagnostics": [],
+  "formReport": {
+    "reports": {
+      "custom": ""
+    },
+    "reportDiagnostics": []
+  },
+  "reportingTrees": [
+    
+    {
+      "category": "HEALTH",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "t_cv",
+        "type": "SCORE",
+        "ranges": [
+            { "min": 0, "max": 0, "color": "00FF00", "text": "AUTO" },
+            { "min": 1, "max": 1, "color": "FFFF00", "text": "AUTO" },
+            { "min": 2, "max": 2, "color": "FF9900 ", "text": "AUTO" },
+            { "min": 3, "max": 3, "color": "FF0000 ", "text": "AUTO" }
+        ],
+        "children":[
+          
+          {
+            "tagOID": "t_cv_hta",
+            "type": "SCORE",
+            "ranges": [
+                { "min": 0, "max": 0, "color": "00FF00", "text":"HTA" },
+                { "min": 1, "max": 1, "color": "FF0000", "text":"HTA" }
+            ],
+            "children":[
+              {
+                "tagOID": "t_cv_hta1",
+                "type": "SCORE",
+                "ranges": [
+                  {  "min": -1, "max": -1, "text":"I","color": "808080" },
+                  {  "min": 0, "max": 0, "text":"I","color": "00FF00" },
+                  {  "min": 1, "max": 1, "text":"I","color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "t_cv_hta2",
+                "type": "SCORE",
+                "ranges": [
+                  {  "min": -1, "max": -1, "text":"II","color": "808080" },
+                  {  "min": 0, "max": 0, "text":"II","color": "00FF00" },
+                  {  "min": 1, "max": 1, "text":"II","color": "FF0000" }
+                ]
+              }
+            ]
+          },
+          {
+            "tagOID": "t_cv_angoridm",
+            "type": "SCORE",
+            "ranges": [
+                { "min": 0, "max": 0, "color": "00FF00", "text":"ANG-IDM" },
+                { "min": 1, "max": 1, "color": "FF0000", "text":"ANG-IDM" }
+            ],
+            "children":[
+              {
+                "tagOID": "t_cv_angoridm1",
+                "type": "SCORE",
+                "ranges": [
+                  {  "min": -1.0, "max": -1, "text":"I","color": "808080" },
+                  {  "min": 0.0, "max": 0, "text":"I","color": "00FF00" },
+                  {  "min": 1.0, "max": 1, "text":"I","color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "t_cv_angoridm2",
+                "type": "SCORE",
+                "ranges": [
+                  {  "min": -1.0, "max": -1, "text":"II","color": "808080" },
+                  {  "min": 0.0, "max": 0, "text":"II","color": "00FF00" },
+                  {  "min": 1.0, "max": 1, "text":"II","color": "FF0000" }
+                ]
+              }
+            ]
+          },
+          {
+            "tagOID": "t_cv_avc",
+            "type": "SCORE",
+            "ranges": [
+                { "min": 0, "max": 0.0, "color": "00FF00", "text":"AVC" },
+                { "min": 1, "max": 1.0, "color": "FF0000", "text":"AVC" }
+            ],
+            "children":[
+              {
+                "tagOID": "t_cv_avc1",
+                "type": "SCORE",
+                "ranges": [
+                  {  "min": -1.0, "max": -1, "text":"I","color": "808080" },
+                  {  "min": 0.0, "max": 0, "text":"I","color": "00FF00" },
+                  {  "min": 1.0, "max": 1, "text":"I","color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "t_cv_avc2",
+                "type": "SCORE",
+                "ranges": [
+                  {  "min": -1, "max": -1, "text":"II","color": "808080" },
+                  {  "min": 0.0, "max": 0, "text":"II","color": "00FF00" },
+                  {  "min": 1.0, "max": 1, "text":"II","color": "FF0000" }
+                ]
+              }
+            ]
+          },
+          {
+            "tagOID": "t_cv_arterite",
+            "type": "SCORE",
+            "ranges": [
+                { "min": 0, "max": 0.0, "color": "00FF00", "text":"ARTER" },
+                { "min": 1, "max": 1.0, "color": "FF0000", "text":"ARTER" }
+            ],
+            "children":[
+              {
+                "tagOID": "t_cv_arterite1",
+                "type": "SCORE",
+                "ranges": [
+                  {  "min": -1.0, "max": -1, "text":"I","color": "808080" },
+                  {  "min": 0.0, "max": 0, "text":"I","color": "00FF00" },
+                  {  "min": 1.0, "max": 1, "text":"I","color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "t_cv_arterite2",
+                "type": "SCORE",
+                "ranges": [
+                  {  "min": -1.0, "max": -1, "text":"II","color": "808080" },
+                  {  "min": 0.0, "max": 0, "text":"II","color": "00FF00" },
+                  {  "min": 1.0, "max": 1, "text":"II","color": "FF0000" }
+                ]
+              }
+            ]
+          },
+          {
+            "tagOID": "t_cv_epphleb",
+            "type": "SCORE",
+            "ranges": [
+                { "min": 0, "max": 0.0, "color": "00FF00", "text":"PLHEB" },
+                { "min": 1, "max": 1.0, "color": "FF0000", "text":"PHLEB" }
+            ],
+            "children":[
+              {
+                "tagOID": "t_cv_epphleb1",
+                "type": "SCORE",
+                "ranges": [
+                  {  "min": -1.0, "max": -1, "text":"I","color": "808080" },
+                  {  "min": 0.0, "max": 0, "text":"I","color": "00FF00" },
+                  {  "min": 1.0, "max": 1, "text":"I","color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "t_cv_epphleb2",
+                "type": "SCORE",
+                "ranges": [
+                  {  "min": -1.0, "max": -1, "text":"II","color": "808080" },
+                  {  "min": 0.0, "max": 0, "text":"II","color": "00FF00" },
+                  {  "min": 1.0, "max": 1, "text":"II","color": "FF0000" }
+                ]
+              }
+            ]
+          },
+          {
+            "tagOID": "t_cv_varice",
+            "type": "SCORE",
+            "ranges": [
+                { "min": 0, "max": 0.0, "color": "00FF00", "text":"VARIC" },
+                { "min": 1, "max": 1.0, "color": "FF0000", "text":"VARIC" }
+            ]
+          },
+          {
+            "tagOID": "t_cv_valv",
+            "type": "SCORE",
+            "ranges": [
+                { "min": 0, "max": 0.0, "color": "00FF00", "text":"VALV" },
+                { "min": 1, "max": 1.0, "color": "FF0000", "text":"VALV" }
+            ]
+          },
+          {
+            "tagOID": "t_cv_tdr",
+            "type": "SCORE",
+            "ranges": [
+                { "min": 0, "max": 0.0, "color": "00FF00", "text":"TDR" },
+                { "min": 1, "max": 1.0, "color": "FF0000", "text":"TDR" }
+            ]
+          },
+          {
+            "tagOID": "t_cv_cardiomyo",
+            "type": "SCORE",
+            "ranges": [
+                { "min": 0, "max": 0.0, "color": "00FF00", "text":"CARDIO" },
+                { "min": 1, "max": 1.0, "color": "FF0000", "text":"CARDIO" }
+            ],
+            "children":[
+              {
+                "tagOID": "t_cv_cardiomyo1",
+                "type": "SCORE",
+                "ranges": [
+                  {  "min": -1.0, "max": -1, "text":"I","color": "808080" },
+                  {  "min": 0.0, "max": 0, "text":"I","color": "00FF00" },
+                  {  "min": 1.0, "max": 1, "text":"I","color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "t_cv_cardiomyo2",
+                "type": "SCORE",
+                "ranges": [
+                  {  "min": -1.0, "max": -1, "text":"II", "color": "808080" },
+                  {  "min": 0.0, "max": 0, "text":"II","color": "00FF00" },
+                  {  "min": 1.0, "max": 1, "text":"II","color": "FF0000" }
+                ]
+              }
+            ]
+          },
+          { 
+            "tagOID": "t_cv_symp_dlrtho",
+            "type": "SCORE",
+            "ranges": [
+                { "min": 0, "max": 0.0, "color": "00FF00", "text":"DLRTHO" },
+                { "min": 1, "max": 1.0, "color": "FF0000", "text":"DRLTHO" }
+            ]
+          },
+          { 
+            "tagOID": "t_cv_symp_dyspn",
+            "type": "SCORE",
+            "ranges": [
+                { "min": 0, "max": 0.0, "color": "00FF00", "text":"DYSPN" },
+                { "min": 1, "max": 1.0, "color": "FF0000", "text":"DYSPN" }
+            ]
+          },
+          { 
+            "tagOID": "t_cv_symp_dlrmi",
+            "type": "SCORE",
+            "ranges": [
+                { "min": 0, "max": 0.0, "color": "00FF00", "text":"DLRMI" },
+                { "min": 1, "max": 1.0, "color": "FF0000", "text":"DLRMI" }
+            ]
+          },
+          { 
+            "tagOID": "t_cv_symp_tdr",
+            "type": "SCORE",
+            "ranges": [
+                { "min": 0, "max": 0.0, "color": "00FF00", "text":"DYSPN" },
+                { "min": 1, "max": 1.0, "color": "FF0000", "text":"DYSPN" }
+            ]
+          },
+          { 
+            "tagOID": "t_cv_symp_syncope",
+            "type": "SCORE",
+            "ranges": [
+                { "min": 0, "max": 0.0, "color": "00FF00", "text":"SYNC" },
+                { "min": 1, "max": 1.0, "color": "FF0000", "text":"SYNC" }
+            ]
+          },
+          { 
+            "tagOID": "t_cv_symp_oedem",
+            "type": "SCORE",
+            "ranges": [
+                { "min": 0, "max": 0.0, "color": "00FF00", "text":"OEDEM" },
+                { "min": 1, "max": 1.0, "color": "FF0000", "text":"OEDEM" }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

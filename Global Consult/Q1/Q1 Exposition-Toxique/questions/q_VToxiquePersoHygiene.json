@@ -1,0 +1,34 @@
+{
+  "oid": "q_VToxiquePersoHygiene",
+  "title": "Utilisez-vous, des produits d’hygiène (savon, gel douche, shampoing) et des cosmétiques (crème de jour, de nuit, désodorisant, rouge à lèvre, mascara, fond de teint, vernis…) sans vous préoccuper de leur composition (hors bio) ?",
+  "text": "Utilisez-vous, des produits d’hygiène (savon, gel douche, shampoing) et des cosmétiques (crème de jour, de nuit, désodorisant, rouge à lèvre, mascara, fond de teint, vernis…) sans vous préoccuper de leur composition (hors bio) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices":[
+    {"code": "0", "text": "Jamais"},
+    {"code": "1", "text": "Rarement"},
+    {"code": "2", "text": "Fréquemment"},
+    {"code": "3", "text": "Très fréquemment"}
+  ],
+  "scores":[
+    {
+      "tagOID": "Tag_VToxiquePersoHygiene",
+      "conditions": "q_VToxiquePersoHygiene == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "Tag_VToxiquePersoHygiene",
+      "conditions": "q_VToxiquePersoHygiene == '1'",
+      "value": 1
+    },
+    {
+      "tagOID": "Tag_VToxiquePersoHygiene",
+      "conditions": "q_VToxiquePersoHygiene == '2'",
+      "value": 2
+    },
+    {
+      "tagOID": "Tag_VToxiquePersoHygiene",
+      "conditions": "q_VToxiquePersoHygiene == '3'",
+      "value": 3
+    }
+  ]
+}

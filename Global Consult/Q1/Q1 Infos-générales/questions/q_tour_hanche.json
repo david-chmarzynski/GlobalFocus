@@ -1,0 +1,16 @@
+{
+  "oid": "q_tour_hanche",
+  "title": "Quel est votre tour de hanche (en cm) ?",
+  "text": "Quel est votre tour de hanche (en cm) ?",
+  "type": "INTEGER",
+  "choices": [],
+  "scores": [],
+  "scale": {
+    "min": 0.0,
+    "max": 300.0,
+    "maxValue": "300",
+    "minValue": "0",
+    "maxText": "300",
+    "minText": "0"
+  }
+}

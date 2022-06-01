@@ -1,0 +1,36 @@
+{
+  "oid": "q_VBougerMotivationEnvieSédentarité",
+  "title": "A quel point est-il important pour vous de diminuer votre sédentarité (temps passé assis) ?",
+  "text": "A quel point est-il important pour vous de diminuer votre sédentarité (temps passé assis) ?",
+  "type": "ANALOG_SCALE",
+  "scale":{
+    "min":0.0,
+    "max":10,
+    "step":1.0,
+    "minText": "Pas du tout",
+    "midText": "",
+    "maxText": "Extrêmement important"
+  },
+  "scores": [
+    {
+      "conditions": "q_VBougerMotivationEnvieSédentarité >= 9",
+      "tagOID": "tag_VBougerMotivationEnvieSédentarité",
+      "value": 0
+    },
+    {
+      "conditions": "q_VBougerMotivationEnvieSédentarité >= 7 && q_VBougerMotivationEnvieSédentarité < 9",
+      "tagOID": "tag_VBougerMotivationEnvieSédentarité",
+      "value": 1
+    },
+    {
+      "conditions": "q_VBougerMotivationEnvieSédentarité >= 5 && q_VBougerMotivationEnvieSédentarité < 7",
+      "tagOID": "tag_VBougerMotivationEnvieSédentarité",
+      "value": 2
+    },
+    {
+      "conditions": "q_VBougerMotivationEnvieSédentarité < 5",
+      "tagOID": "tag_VBougerMotivationEnvieSédentarité",
+      "value": 3
+    }
+  ]
+}

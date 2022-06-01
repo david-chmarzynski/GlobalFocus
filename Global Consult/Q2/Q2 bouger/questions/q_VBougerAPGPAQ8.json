@@ -1,0 +1,17 @@
+{
+  "oid": "q_VBougerAPGPAQ8",
+  "title": "Habituellement, combien de jours par semaine effectuez-vous des trajets d’au moins 10 minutes à pied, à vélo, roller ou trottinette ?",
+  "text": "Habituellement, combien de jours par semaine effectuez-vous des trajets d’au moins 10 minutes à pied, à vélo, roller ou trottinette ?",
+  "type": "ANALOG_SCALE",
+  "scale":{
+    "min":0.0,
+    "max":7.0,
+    "step":1.0,
+    "minText": "Jamais",
+    "midText": "",
+    "maxText": "Toute la semaine",
+    "minValue": "0",
+    "midValue": "",
+    "maxValue": "7"
+  }
+}

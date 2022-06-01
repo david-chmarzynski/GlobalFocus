@@ -1,0 +1,46 @@
+{
+  "oid": "q_VBougerSédentaritéSup2heures",
+  "title": "Avez-vous des périodes en position assise de 2 heures d’affilée (ou plus) sans vous lever au cours de vos journées habituelles (repas, travail, transports, loisirs : écrans, lecture…) ?",
+  "text": "Avez-vous des périodes en position assise de 2 heures d’affilée (ou plus) sans vous lever au cours de vos journées habituelles (repas, travail, transports, loisirs : écrans, lecture…) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Rarement (1 à 2 fois/semaine)"
+    },
+    {
+      "code": "1",
+      "text": "3 à 5 fois par semaine"
+    },
+    {
+      "code": "2",
+      "text": "Tous les jours ou presque"
+    },
+    {
+      "code": "3",
+      "text": "Plusieurs fois par jour"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VBougerSédentaritéSup2heures == \"0\"",
+      "tagOID": "tag_VBougerSédentaritéSup2heures",
+      "value": 0
+    },
+    {
+      "conditions": "q_VBougerSédentaritéSup2heures == \"1\"",
+      "tagOID": "tag_VBougerSédentaritéSup2heures",
+      "value": 1
+    },
+    {
+      "conditions": "q_VBougerSédentaritéSup2heures == \"2\"",
+      "tagOID": "tag_VBougerSédentaritéSup2heures",
+      "value": 2
+    },
+    {
+      "conditions": "q_VBougerSédentaritéSup2heures == \"3\"",
+      "tagOID": "tag_VBougerSédentaritéSup2heures",
+      "value": 3
+    }
+  ]
+}

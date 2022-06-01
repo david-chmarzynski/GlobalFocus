@@ -1,0 +1,87 @@
+{
+    "oid": "q_scvsymp_avectags",
+    "title": "Au cours des 3 derniers mois",
+    "type": "MULTI_CHOICES",
+    "text": "Au cours des 3 derniers mois",
+    "choices":[
+       {"code":"dlr-tho", "text":"avez-vous présenté des douleurs dans la poitrine (douleurs retro sternales) avec une sensation d’oppression, qui ont duré plusieurs minutes ?"},
+       {"code":"dyspn", "text":"avez-vous été essoufflé(e) de façon anormale ?"},
+       {"code":"dlr-mi", "text":"avez-vous eu des crampes et des douleurs dans les jambes à la marche ?"},
+       {"code":"tdr", "text":"avez-vous eu l’impression parfois que votre cœur battait de façon irrégulière ou très vite ?"},
+       {"code":"syncope", "text":"avez-vous eu une perte de connaissance, une syncope ?"},
+       {"code":"oedem", "text":"avez-vous eu des gonflements, des œdèmes notamment des membres inférieurs ?"},
+       {"code":"aucun", "text":"aucun de ces symptômes","exclusive":true}
+    ],
+    "scores":[ 
+    {
+        "tagOID":"t_cv_symp",
+        "conditions":"!(\"aucun\" in q_scvsymp_avectags)",
+        "value":1
+    },
+    {
+        "tagOID":"t_cv_symp",
+        "conditions":"\"aucun\" in q_scvsymp_avectags",
+        "value":0
+    },
+    {
+        "tagOID":"t_cv_symp_dlrtho",
+        "conditions":"\"dlr-tho\" in q_scvsymp_avectags",
+        "value":1
+    },
+    {
+        "tagOID":"t_cv_symp_dyspn",
+        "conditions":"\"dyspn\" in q_scvsymp_avectags",
+        "value":1
+    },
+    {
+        "tagOID":"t_cv_symp_dlrmi",
+        "conditions":"\"dlr-mi\" in q_scvsymp_avectags",
+        "value":1
+    },
+    {
+        "tagOID":"t_cv_symp_tdr",
+        "conditions":"\"tdr\" in q_scvsymp_avectags",
+        "value":1
+    },
+    {
+        "tagOID":"t_cv_symp_syncope",
+        "conditions":"\"syncope\" in q_scvsymp_avectags",
+        "value":1
+    },
+    {
+        "tagOID":"t_cv_symp_oedem",
+        "conditions":"\"oedem\" in q_scvsymp_avectags",
+        "value":1
+    },
+    {
+        "tagOID":"t_cv_symp_dlrtho",
+        "conditions":"!(\"dlr-tho\" in q_scvsymp_avectags)",
+        "value":0
+    },
+    {
+        "tagOID":"t_cv_symp_dyspn",
+        "conditions":"!(\"dyspn\" in q_scvsymp_avectags)",
+        "value":0
+    },
+    {
+        "tagOID":"t_cv_symp_dlrmi",
+        "conditions":"!(\"dlr-mi\" in q_scvsymp_avectags)",
+        "value":0
+    },
+    {
+        "tagOID":"t_cv_symp_tdr",
+        "conditions":"!(\"tdr\" in q_scvsymp_avectags)",
+        "value":0
+    },
+    {
+        "tagOID":"t_cv_symp_syncope",
+        "conditions":"!(\"syncope\" in q_scvsymp_avectags)",
+        "value":0
+    },
+    {
+        "tagOID":"t_cv_symp_oedem",
+        "conditions":"!(\"oedem\" in q_scvsymp_avectags)",
+        "value":0
+    }
+    ]
+}

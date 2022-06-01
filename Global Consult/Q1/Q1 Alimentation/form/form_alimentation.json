@@ -1,0 +1,372 @@
+{
+  "oid": "form_alimentation",
+  "title": "Global Consult Q1 module Alimentation",
+  "estimatedTime": 10,
+  "pricing": 1,
+  "description": "Comportement et contenu alimentaire",
+  "levelMax": "1",
+  "authors": ["Jean-Philippe Astruc"],
+  "chapters": ["chap_ALIMENTATION"],
+  "professions": ["DENTIST"],
+  "diagnostics": [],
+  "reportingTrees": [
+    {
+      "category": "LIFE_STYLE",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "tag_VAlimentationGlobal",
+        "type": "SCORE",
+        "ranges": [
+          {
+            "min": 0,
+            "max": 0.9,
+            "color": "00FF00",
+            "text": "EVAL/GLOB"
+          },
+          {
+            "min": 1,
+            "max": 1.9,
+            "color": "FFFF00",
+            "text": "EVAL/GLOB"
+          },
+          {
+            "min": 2,
+            "max": 2.9,
+            "color": "FF9900",
+            "text": "EVAL/GLOB"
+          },
+          {
+            "min": 3,
+            "max": 3.9,
+            "color": "FF0000",
+            "text": "EVAL/GLOB"
+          }
+        ],
+        "children": [
+          {
+            "tagOID": "tag_VAlimentationContenuGlobal",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0.9,
+                "color": "00FF00",
+                "text": "CONT/GLOB"
+              },
+              {
+                "min": 1,
+                "max": 1.9,
+                "color": "FFFF00",
+                "text": "CONT/GLOB"
+              },
+              {
+                "min": 2,
+                "max": 2.9,
+                "color": "FF9900",
+                "text": "CONT/GLOB"
+              },
+              {
+                "min": 3,
+                "max": 3.9,
+                "color": "FF0000",
+                "text": "CONT/GLOB"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "tag_VAlimentationContrainteChoix",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 3,
+                    "max": 3.9,
+                    "color": "00FF00",
+                    "text": "C/CHOIX"
+                  },
+                  {
+                    "min": 2,
+                    "max": 2.9,
+                    "color": "FFFF00",
+                    "text": "C/CHOIX"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "FF9900",
+                    "text": "C/CHOIX"
+                  },
+                  {
+                    "min": 0,
+                    "max": 0.9,
+                    "color": "FF0000",
+                    "text": "C/CHOIX"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VAlimentationTypologie",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "FFFF00",
+                    "text": "PDM"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF9900",
+                    "text": "GMD"
+                  },
+                  {
+                    "min": 2,
+                    "max": 2,
+                    "color": "00FF00",
+                    "text": "STAND"
+                  },
+                  {
+                    "min": 3,
+                    "max": 3,
+                    "color": "FF9900",
+                    "text": "PMP"
+                  },
+                  {
+                    "min": 4,
+                    "max": 4,
+                    "color": "990000",
+                    "text": "GMM"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "tag_VAlimentationComportementGlobal",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 4,
+                "max": 4.9,
+                "color": "00FF00",
+                "text": "ÉVAL/CA"
+              },
+              {
+                "min": 3,
+                "max": 3.9,
+                "color": "FFFF00",
+                "text": "ÉVAL/CA"
+              },
+              {
+                "min": 2,
+                "max": 2.9,
+                "color": "FF9900",
+                "text": "ÉVAL/CA"
+              },
+              {
+                "min": 1,
+                "max": 1.9,
+                "color": "FF0000",
+                "text": "ÉVAL/CA"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "tag_VAlimentationContrainteSante",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0.9,
+                    "color": "00FF00",
+                    "text": "C/SANTÉ"
+                  },
+                  {
+                    "min": 1,
+                    "max": 9,
+                    "color": "FF0000",
+                    "text": "C/SANTÉ"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VAlimentationContraintePoids",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "00FF00",
+                    "text": "C/POIDS"
+                  },
+                  {
+                    "min": 2,
+                    "max": 2.9,
+                    "color": "FFFF00",
+                    "text": "C/POIDS"
+                  },
+                  {
+                    "min": 3,
+                    "max": 3.9,
+                    "color": "FF9900",
+                    "text": "C/POIDS"
+                  },
+                  {
+                    "min": 4,
+                    "max": 4.9,
+                    "color": "FF0000",
+                    "text": "C/POIDS"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VAlimentationScoff",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0.9,
+                    "color": "00FF00",
+                    "text": "TCA/SCOFF"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "FF9900",
+                    "text": "TCA/SCOFF"
+                  },
+                  {
+                    "min": 2,
+                    "max": 5.9,
+                    "color": "FF0000",
+                    "text": "TCA/SCOFF"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VAlimentationAtcd",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0.9,
+                    "color": "00FF00",
+                    "text": "ATCD/ALIM"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "FF0000",
+                    "text": "ATCD/ALIM"
+                  }
+                ],
+                "children": [
+                  {
+                    "tagOID": "tag_VAlimentationAtcd1",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0.9,
+                        "color": "00FF00",
+                        "text": "CONDUITE"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1.9,
+                        "color": "FF0000",
+                        "text": "CONDUITE"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "tag_VAlimentationAtcd2",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0.9,
+                        "color": "00FF00",
+                        "text": "I/BARIA"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1.9,
+                        "color": "FF0000",
+                        "text": "I/BARIA"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "tag_VAlimentationAtcd3",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0.9,
+                        "color": "00FF00",
+                        "text": "I/ESTH"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1.9,
+                        "color": "FF0000",
+                        "text": "I/ESTH"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "tag_VAlimentationAtcd4",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0.9,
+                        "color": "00FF00",
+                        "text": "OBÉSITÉ"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1.9,
+                        "color": "FF0000",
+                        "text": "OBÉSITÉ"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "tag_VAlimentationAtcd5",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0.9,
+                        "color": "00FF00",
+                        "text": "RÉGIMES"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1.9,
+                        "color": "FF0000",
+                        "text": "RÉGIMES"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

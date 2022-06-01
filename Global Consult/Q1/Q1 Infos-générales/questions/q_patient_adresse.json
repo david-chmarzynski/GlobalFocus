@@ -1,0 +1,9 @@
+{
+  "oid": "q_patient_adresse",
+  "title": "Veuillez renseigner votre adresse complète",
+  "text": "Veuillez renseigner votre adresse complète",
+  "displaySkip":true,
+  "type": "TEXT",
+  "choices": [],
+  "scores": []
+}

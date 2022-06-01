@@ -1,0 +1,55 @@
+{
+  "oid": "q_VAlimentationTypologie",
+  "title": "Choisissez la proposition qui est la plus proche de votre manière habituelle de vous alimenter :",
+  "text": "Choisissez la proposition qui est la plus proche de votre manière habituelle de vous alimenter :",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Petit(e) mangeur(se) diversifié(e) :\n\t• alimentation variée ;\n\triche en fruits et légumes ;\n\t apports énergétiques modérés"
+    },
+    {
+      "code": "1",
+      "text": "Gros(se) mangeur(se) diversifié(e) :\n\t• alimentation diversifiée ;\n\t• riche en énergie avec consommation importante de pain, beurre, viande, sauces, féculents, sucre ;\n\t• grosses portions, Fruits et légumes présents"
+    },
+    {
+      "code": "2",
+      "text": "Mangeur(se) standard :\n\t• alimentation traditionnelle française :\n\t• équilibrée, classique ;\n\t• sans préférence alimentaire ;\n\t•  portions standard ;\n\t• fruits et légumes présents"
+    },
+    {
+      "code": "3",
+      "text": "Petit(e) mangeur(se) pressé(e) :\n\t•consommation d’aliments pratiques, facilement disponibles (viennoiseries, pizza, quiches, snack, plats composés) ;\n\t• consommation modérée de fruits et légumes ;\n\t• Apports caloriques raisonnables"
+    },
+    {
+      "code": "4",
+      "text": "Gros(se) mangeur(se) monotone :\n\t• apports énergétiques élevés ;\n\t• consommation importante de pomme de terre, viande, charcuterie, abats, fromage, alcool, café ;\n\t• grosses portion ;\n\t• consommation faible de fruits et légumes"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VAlimentationTypologie == \"0\"",
+      "tagOID": "tag_VAlimentationTypologie",
+      "value": 0
+    },
+    {
+      "conditions": "q_VAlimentationTypologie == \"1\"",
+      "tagOID": "tag_VAlimentationTypologie",
+      "value": 1
+    },
+    {
+      "conditions": "q_VAlimentationTypologie == \"2\"",
+      "tagOID": "tag_VAlimentationTypologie",
+      "value": 2
+    },
+    {
+      "conditions": "q_VAlimentationTypologie == \"3\"",
+      "tagOID": "tag_VAlimentationTypologie",
+      "value": 3
+    },
+    {
+      "conditions": "q_VAlimentationTypologie == \"4\"",
+      "tagOID": "tag_VAlimentationTypologie",
+      "value": 4
+    }
+  ]
+}

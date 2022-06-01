@@ -1,0 +1,17 @@
+{
+  "oid": "q_perimetre_cervical",
+  "title": "Quel est votre périmètre cervical (en cm) ?",
+  "text": "Quel est votre périmètre cervical (en cm) ?",
+  "type": "DIGITAL_SCALE",
+  "scale":{
+    "min":25.0,
+    "max":100.0,
+    "step":1.0,
+    "minText": "25 cm",
+    "midText": "",
+    "maxText": "100 cm",
+    "minValue": "25",
+    "midValue": "",
+    "maxValue": "100"
+  }
+}

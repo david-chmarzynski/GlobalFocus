@@ -1,0 +1,17 @@
+{
+  "oid": "q_VBougerAPGPAQ5",
+  "title": "Habituellement, combien de jours par semaine effectuez-vous des activités physiques d’intensité modérée dans le cadre de votre travail ou de vos tâches ménagères ?",
+  "text": "Habituellement, combien de jours par semaine effectuez-vous des activités physiques d’intensité modérée dans le cadre de votre travail ou de vos tâches ménagères ?",
+  "type": "ANALOG_SCALE",
+  "scale":{
+    "min":0.0,
+    "max":7.0,
+    "step":1.0,
+    "minText": "Jamais",
+    "midText": "",
+    "maxText": "Toute la semaine",
+    "minValue": "0",
+    "midValue": "",
+    "maxValue": "7"
+  }
+}

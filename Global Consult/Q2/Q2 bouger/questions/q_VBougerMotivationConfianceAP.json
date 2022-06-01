@@ -1,0 +1,36 @@
+{
+  "oid": "q_VBougerMotivationConfianceAP",
+  "title": "Avez-vous confiance dans votre capacité à être plus actif ?",
+  "text": "Avez-vous confiance dans votre capacité à être plus actif ?",
+  "type": "ANALOG_SCALE",
+  "scale":{
+    "min":0.0,
+    "max":10,
+    "step":1.0,
+    "minText": "Pas du tout confiance",
+    "midText": "",
+    "maxText": "Tout à fait confiance"
+  },
+  "scores": [
+    {
+      "conditions": "q_VBougerMotivationConfianceAP >= 9",
+      "tagOID": "tag_VBougerMotivationConfianceAP",
+      "value": 0
+    },
+    {
+      "conditions": "q_VBougerMotivationConfianceAP >= 7 && q_VBougerMotivationConfianceAP < 9",
+      "tagOID": "tag_VBougerMotivationConfianceAP",
+      "value": 1
+    },
+    {
+      "conditions": "q_VBougerMotivationConfianceAP >= 5 && q_VBougerMotivationConfianceAP < 7",
+      "tagOID": "tag_VBougerMotivationConfianceAP",
+      "value": 2
+    },
+    {
+      "conditions": "q_VBougerMotivationConfianceAP < 5",
+      "tagOID": "tag_VBougerMotivationConfianceAP",
+      "value": 3
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "oid": "q_naissance",
+  "title": "Date de naissance",
+  "text": "Date de naissance",
+  "type": "DATE",
+  "choices": [],
+  "scores": []
+}

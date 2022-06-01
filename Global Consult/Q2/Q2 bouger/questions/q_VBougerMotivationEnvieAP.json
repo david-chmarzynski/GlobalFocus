@@ -1,0 +1,36 @@
+{
+  "oid": "q_VBougerMotivationEnvieAP",
+  "title": "A quel point est-il important pour vous d’être plus actif ?",
+  "text": "A quel point est-il important pour vous d’être plus actif ?",
+  "type": "ANALOG_SCALE",
+  "scale":{
+    "min":0.0,
+    "max":10,
+    "step":1.0,
+    "minText": "Pas du tout",
+    "midText": "",
+    "maxText": "Extrêmement important"
+  },
+  "scores": [
+    {
+      "conditions": "q_VBougerMotivationEnvieAP >= 9",
+      "tagOID": "tag_VBougerMotivationEnvieAP",
+      "value": 0
+    },
+    {
+      "conditions": "q_VBougerMotivationEnvieAP >= 7 && q_VBougerMotivationEnvieAP < 9",
+      "tagOID": "tag_VBougerMotivationEnvieAP",
+      "value": 1
+    },
+    {
+      "conditions": "q_VBougerMotivationEnvieAP >= 5 && q_VBougerMotivationEnvieAP < 7",
+      "tagOID": "tag_VBougerMotivationEnvieAP",
+      "value": 2
+    },
+    {
+      "conditions": "q_VBougerMotivationEnvieAP < 5",
+      "tagOID": "tag_VBougerMotivationEnvieAP",
+      "value": 3
+    }
+  ]
+}

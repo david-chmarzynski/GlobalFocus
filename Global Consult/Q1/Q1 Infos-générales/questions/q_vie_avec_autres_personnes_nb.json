@@ -1,0 +1,8 @@
+{
+  "oid": "q_vie_avec_autres_personnes_nb",
+  "title": "Avec combien de personnes autres que des ascendant(s) ?",
+  "text": "Avec combien de personnes autres que des ascendant(s) ?",
+  "type": "INTEGER",
+  "choices": [],
+  "scores": []
+}

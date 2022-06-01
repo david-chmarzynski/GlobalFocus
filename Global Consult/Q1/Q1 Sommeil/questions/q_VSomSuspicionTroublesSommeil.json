@@ -1,0 +1,46 @@
+{
+  "oid": "q_VSomSuspicionTroublesSommeil",
+  "title": "Pensez-vous souffrir actuellement de troubles du sommeil (insomnie, syndrome d’apnée du sommeil, syndrome des jambes sans repos, hypersomnolence, somnambulisme, terreurs nocturnes, narcolepsie…) ?",
+  "text": "Pensez-vous souffrir actuellement de troubles du sommeil (insomnie, syndrome d’apnée du sommeil, syndrome des jambes sans repos, hypersomnolence, somnambulisme, terreurs nocturnes, narcolepsie…) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Très peu probable"
+    },
+    {
+      "code": "2",
+      "text": "Oui, peut-être"
+    },
+    {
+      "code": "3",
+      "text": "Oui, certainement"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VSomSuspicionTroublesSommeil == '0'",
+      "tagOID": "tag_VSomSuspicionTroublesSommeil",
+      "value": 1
+    },
+    {
+      "conditions": "q_VSomSuspicionTroublesSommeil == '1'",
+      "tagOID": "tag_VSomSuspicionTroublesSommeil",
+      "value": 2
+    },
+    {
+      "conditions": "q_VSomSuspicionTroublesSommeil == '2'",
+      "tagOID": "tag_VSomSuspicionTroublesSommeil",
+      "value": 3
+    },
+    {
+      "conditions": "q_VSomSuspicionTroublesSommeil == '3'",
+      "tagOID": "tag_VSomSuspicionTroublesSommeil",
+      "value": 4
+    }
+  ]
+}

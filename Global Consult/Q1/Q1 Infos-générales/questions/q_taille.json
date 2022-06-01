@@ -1,0 +1,17 @@
+{
+  "oid": "q_taille",
+  "title": "Quel est votre taille (en cm) ?",
+  "text": "Quel est votre taille (en cm) ?",
+  "type": "DIGITAL_SCALE",
+  "scale":{
+    "min":70.0,
+    "max":250.0,
+    "step":1.0,
+    "minText": "70 cm",
+    "midText": "",
+    "maxText": "250 cm",
+    "minValue": "70",
+    "midValue": "",
+    "maxValue": "250"
+  }
+}

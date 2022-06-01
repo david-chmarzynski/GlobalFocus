@@ -1,0 +1,14 @@
+{
+  "oid": "q_VBougerAPGPAQ15",
+  "title": "Lors d’une journée habituelle, combien de temps consacrez-vous à la pratique d'une activité  sportive, du fitness ou d'autres activités de loisirs d’intensité modérée ?",
+  "text": "Lors d’une journée habituelle, combien de temps consacrez-vous à la pratique d'une activité  sportive, du fitness ou d'autres activités de loisirs d’intensité modérée ?",
+  "type": "ANALOG_SCALE",
+  "scale":{
+    "min":0.0,
+    "max":24.0,
+    "step":1.0,
+    "minText": "0h",
+    "midText": "",
+    "maxText": "24h"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "oid": "q_stomatologie_004",
+  "title": "De quand date votre dernière visite chez le dentiste ? ",
+  "text": "De quand date votre dernière visite chez le dentiste ? ",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Moins de 6 mois"
+    },
+    {
+      "code": "1",
+      "text": "Entre 6 mois et 1 an"
+    },
+    {
+      "code": "2",
+      "text": "Entre 1 et 2 ans"
+    },
+    {
+      "code": "3",
+      "text": "Entre 2 et 3 ans"
+    },
+    {
+      "code": "4",
+      "text": "Entre 3 et 5 ans"
+    },
+    {
+      "code": "5",
+      "text": "Plus de 5 ans"
+    },
+    {
+      "code": "6",
+      "text": "Jamais"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_stomatologie_004 == \"0\"",
+      "tagOID": "S_STO_PREVENTION_CONSULT",
+      "value": 0
+    },
+    {
+      "conditions": "q_stomatologie_004 == \"1\"",
+      "tagOID": "S_STO_PREVENTION_CONSULT",
+      "value": 1
+    },
+    {
+      "conditions": "q_stomatologie_004 == \"2\"",
+      "tagOID": "S_STO_PREVENTION_CONSULT",
+      "value": 2
+    },
+    {
+      "conditions": "q_stomatologie_004 == \"3\"",
+      "tagOID": "S_STO_PREVENTION_CONSULT",
+      "value": 3
+    },
+    {
+      "conditions": "q_stomatologie_004 == \"4\"",
+      "tagOID": "S_STO_PREVENTION_CONSULT",
+      "value": 4
+    },
+    {
+      "conditions": "q_stomatologie_004 == \"5\"",
+      "tagOID": "S_STO_PREVENTION_CONSULT",
+      "value": 5
+    },
+    {
+      "conditions": "q_stomatologie_004 == \"6\"",
+      "tagOID": "S_STO_PREVENTION_CONSULT",
+      "value": 6
+    }
+  ]
+}

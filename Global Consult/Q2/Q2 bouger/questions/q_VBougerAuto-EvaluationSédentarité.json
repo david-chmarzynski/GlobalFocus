@@ -1,0 +1,64 @@
+{
+  "oid": "q_VBougerAutoEvaluationSédentarité",
+  "title": "Que pensez-vous de votre niveau de sédentarité actuel ?",
+  "text": "Que pensez-vous de votre niveau de sédentarité actuel ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Très satisfaisant"
+    },
+    {
+      "code": "1",
+      "text": "Satisfaisant"
+    },
+    {
+      "code": "2",
+      "text": "Assez satisfaisant"
+    },
+    {
+      "code": "3",
+      "text": "Plutôt insatisfaisant"
+    },
+    {
+      "code": "4",
+      "text": "Insatisfaisant"
+    },
+    {
+      "code": "5",
+      "text": "Très insatisfaisant"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VBougerAutoEvaluationSédentarité == '0'",
+      "tagOID": "tag_VBougerAutoEvaluationSedentarite",
+      "value": 0
+    },
+    {
+      "conditions": "q_VBougerAutoEvaluationSédentarité == '1'",
+      "tagOID": "tag_VBougerAutoEvaluationSedentarite",
+      "value": 1
+    },
+    {
+      "conditions": "q_VBougerAutoEvaluationSédentarité == '2'",
+      "tagOID": "tag_VBougerAutoEvaluationSedentarite",
+      "value": 2
+    },
+    {
+      "conditions": "q_VBougerAutoEvaluationSédentarité == '3'",
+      "tagOID": "tag_VBougerAutoEvaluationSedentarite",
+      "value": 3
+    },
+    {
+      "conditions": "q_VBougerAutoEvaluationSédentarité == '4'",
+      "tagOID": "tag_VBougerAutoEvaluationSedentarite",
+      "value": 4
+    },
+    {
+      "conditions": "q_VBougerAutoEvaluationSédentarité == '5'",
+      "tagOID": "tag_VBougerAutoEvaluationSedentarite",
+      "value": 5
+    }
+  ]
+}

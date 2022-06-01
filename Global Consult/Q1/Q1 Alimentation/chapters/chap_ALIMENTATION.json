@@ -1,0 +1,7 @@
+{
+  "oid": "chap_ALIMENTATION",
+  "title": "chap_ALIMENTATION",
+  "modules": [
+    "mod_alimentation"
+  ]
+}

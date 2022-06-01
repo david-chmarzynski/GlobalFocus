@@ -1,0 +1,148 @@
+{
+  "oid": "f_bouger_q1",
+  "title": "Global Consult Q1 module BOUGER",
+  "estimatedTime": 10,
+  "pricing": 1,
+  "description": "Module d'activité physique et sédentarité",
+  "levelMax": "1",
+  "authors": ["Jacques Bassier"],
+  "chapters": ["chap_bouger_q1"],
+  "professions": ["DENTIST"],
+  "diagnostics": [],
+  "reportingTrees": [
+    {
+      "category": "LIFE_STYLE",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "tag_VBougerGlobal",
+        "type": "SCORE",
+        "ranges": [
+          {
+            "min": 0,
+            "max": 0,
+            "color": "00FF00",
+            "text": "BOUGER"
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "color": "CCFF33",
+            "text": "BOUGER"
+          },
+          {
+            "min": 2,
+            "max": 2,
+            "color": "FFFF00",
+            "text": "BOUGER"
+          },
+          {
+            "min": 3,
+            "max": 3,
+            "color": "FF9900",
+            "text": "BOUGER"
+          },
+          {
+            "min": 4,
+            "max": 4,
+            "color": "FF0000",
+            "text": "BOUGER"
+          },
+          {
+            "min": 5,
+            "max": 5,
+            "color": "990000",
+            "text": "BOUGER"
+          }
+        ],
+        "children": [
+          {
+            "tagOID": "tag_VBougerAP",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 5,
+                "max": 5,
+                "color": "00FF00",
+                "text": "AP"
+              },
+              {
+                "min": 4,
+                "max": 4,
+                "color": "CCFF33",
+                "text": "AP"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "FFFF00",
+                "text": "AP"
+              },
+              {
+                "min": 2,
+                "max": 2,
+                "color": "FF9900",
+                "text": "AP"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "AP"
+              },
+              {
+                "min": 0,
+                "max": 0,
+                "color": "990000",
+                "text": "AP"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "tag_VBougerSedentarite",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "SEDENT"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "CCFF33",
+                "text": "SEDENT"
+              },
+              {
+                "min": 2,
+                "max": 2,
+                "color": "FFFF00",
+                "text": "SEDENT"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "FF9900",
+                "text": "SEDENT"
+              },
+              {
+                "min": 4,
+                "max": 4,
+                "color": "FF0000",
+                "text": "SEDENT"
+              },
+              {
+                "min": 5,
+                "max": 5,
+                "color": "990000",
+                "text": "SEDENT"
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    }
+  ]
+}

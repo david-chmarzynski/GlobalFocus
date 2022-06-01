@@ -1,0 +1,95 @@
+{
+  "oid": "q_stomatologie_003",
+  "title": "Au cours des 6 derniers mois, avez-vous présenté ? ( plusieurs réponses possibles )",
+  "text": "Au cours des 6 derniers mois, avez-vous présenté ? ( plusieurs réponses possibles )",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "gencives",
+      "text": "Des gencives irritées qui saignent ou qui sont douloureuses au brossage ou en passant le fil dentaire"
+    },
+    {
+      "code": "retracte",
+      "text": "Des gencives qui se rétractent et laissent apparaître le collet et la racine de la dent"
+    },
+    {
+      "code": "halitose",
+      "text": "Une odeur et/ou un goût désagréable(s) et persistant(s) dans la bouche ? "
+    },
+    {
+      "code": "carie",
+      "text": "Une dent sensible voire douloureuse, notamment à la mastication ou lors du contact avec un aliment froid ou chaud ?"
+    },
+    {
+      "code": "dechaussement",
+      "text": "Une sensation de dents mobiles, ayant tendance à changer de position ou à se chevaucher ?"
+    },
+    {
+      "code": "aucun",
+      "text": "Aucun de ces symptômes",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"gencives\" in q_stomatologie_003",
+      "tagOID": "S_STO_SYMP_SAIGNEMENT_GENCIVE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"gencives\" in q_stomatologie_003)",
+      "tagOID": "S_STO_SYMP_SAIGNEMENT_GENCIVE",
+      "value": 0
+    },
+    {
+      "conditions": "\"retracte\" in q_stomatologie_003",
+      "tagOID": "S_STO_SYMP_RETRACTATION_GENCIVE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"retracte\" in q_stomatologie_003)",
+      "tagOID": "S_STO_SYMP_RETRACTATION_GENCIVE",
+      "value": 0
+    },
+    {
+      "conditions": "\"halitose\" in q_stomatologie_003",
+      "tagOID": "S_STO_SYMP_HALITOSE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"halitose\" in q_stomatologie_003)",
+      "tagOID": "S_STO_SYMP_HALITOSE",
+      "value": 0
+    },
+    {
+      "conditions": "\"carie\" in q_stomatologie_003",
+      "tagOID": "S_STO_SYM_CARIEP",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"carie\" in q_stomatologie_003)",
+      "tagOID": "S_STO_SYMP_CARIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"dechaussement\" in q_stomatologie_003",
+      "tagOID": "S_STO_SYMP_DECHAUSSEMENT",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"dechaussement\" in q_stomatologie_003)",
+      "tagOID": "S_STO_SYMP_DECHAUSSEMENT",
+      "value": 0
+    },
+    {
+      "conditions": "\"aucun\" in q_stomatologie_003",
+      "tagOID": "S_STO_SYMP",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_stomatologie_003)",
+      "tagOID": "S_STO_SYMP",
+      "value": 1
+    }
+  ]
+}

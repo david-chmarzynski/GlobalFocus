@@ -1,0 +1,17 @@
+{
+  "oid": "q_contraception",
+  "title": "Utilisez-vous actuellement une contraception ?",
+  "text": "Utilisez-vous actuellement une contraception ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": []
+}

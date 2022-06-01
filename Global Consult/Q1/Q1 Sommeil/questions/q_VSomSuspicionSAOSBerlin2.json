@@ -1,0 +1,46 @@
+{
+  "oid": "q_VSomSuspicionSAOSBerlin2",
+  "title": "Votre ronflement est-il :",
+  "text": "Votre ronflement est-il :",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Légèrement plus bruyant que votre respiration"
+    },
+    {
+      "code": "1",
+      "text": "Aussi bruyant que votre voix lorsque vous parlez"
+    },
+    {
+      "code": "2",
+      "text": "Plus bruyant que votre voix lorsque vous parlez"
+    },
+    {
+      "code": "3",
+      "text": "Très bruyant, on vous entend dans les chambres voisines"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VSomSuspicionSAOSBerlin2 == '0'",
+      "tagOID": "tag_VSomSuspicionSAOSBerlinCAT1",
+      "value": 0
+    },
+    {
+      "conditions": "q_VSomSuspicionSAOSBerlin2 == '1'",
+      "tagOID": "tag_VSomSuspicionSAOSBerlinCAT1",
+      "value": 0
+    },
+    {
+      "conditions": "q_VSomSuspicionSAOSBerlin2 == '2'",
+      "tagOID": "tag_VSomSuspicionSAOSBerlinCAT1",
+      "value": 1
+    },
+    {
+      "conditions": "q_VSomSuspicionSAOSBerlin2 == '3'",
+      "tagOID": "tag_VSomSuspicionSAOSBerlinCAT1",
+      "value": 1
+    }
+  ]
+}

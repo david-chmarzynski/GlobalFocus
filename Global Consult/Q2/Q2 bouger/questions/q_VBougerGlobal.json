@@ -1,0 +1,64 @@
+{
+  "oid": "q_VBougerGlobal",
+  "title": "Comment évaluez-vous globalement votre activité physique habituelle dans une journée en prenant en compte les moments actifs ainsi que les moments d’inactivité (position assise) ?",
+  "text": "Comment évaluez-vous globalement votre activité physique habituelle dans une journée en prenant en compte les moments actifs ainsi que les moments d’inactivité (position assise) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Très bonne"
+    },
+    {
+      "code": "1",
+      "text": "Bonne"
+    },
+    {
+      "code": "2",
+      "text": "Légèrement insuffisante"
+    },
+    {
+      "code": "3",
+      "text": "Plutôt insuffisante"
+    },
+    {
+      "code": "4",
+      "text": "Insuffisante"
+    },
+    {
+      "code": "5",
+      "text": "Très insuffisante"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VBougerGlobal == '0'",
+      "tagOID": "tag_VBougerGlobal",
+      "value": 0
+    },
+    {
+      "conditions": "q_VBougerGlobal == 1'",
+      "tagOID": "tag_VBougerGlobal",
+      "value": 1
+    },
+    {
+      "conditions": "q_VBougerGlobal == '2'",
+      "tagOID": "tag_VBougerGlobal",
+      "value": 2
+    },
+    {
+      "conditions": "q_VBougerGlobal == '3'",
+      "tagOID": "tag_VBougerGlobal",
+      "value": 3
+    },
+    {
+      "conditions": "q_VBougerGlobal == '4'",
+      "tagOID": "tag_VBougerGlobal",
+      "value": 4
+    },
+    {
+      "conditions": "q_VBougerGlobal == '5'",
+      "tagOID": "tag_VBougerGlobal",
+      "value": 5
+    }
+  ]
+}

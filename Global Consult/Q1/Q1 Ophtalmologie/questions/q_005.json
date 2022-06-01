@@ -1,0 +1,28 @@
+{
+  "oid": "q_S_OPH_005",
+  "title": "Quand avez-vous consulté un ophtalmologiste ?",
+  "text": "Quand avez-vous consulté un ophtalmologiste ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "J'y vais tous les ans"
+    },
+    {
+      "code": "2",
+      "text": "Il y a moins de 2 ans"
+    },
+    {
+      "code": "3",
+      "text": "Il y a entre 2 et 5 ans"
+    },
+    {
+      "code": "4",
+      "text": "Il y a plus de 5 ans"
+    }
+  ]
+}

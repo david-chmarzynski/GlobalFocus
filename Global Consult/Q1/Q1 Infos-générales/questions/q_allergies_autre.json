@@ -1,0 +1,8 @@
+{
+  "oid": "q_allergies_autre",
+  "title": "Avez-vous d'autres allergies (poussières, pollens, poils de chat, aliment, nickel…) ?",
+  "text": "Avez-vous d'autres allergies (poussières, pollens, poils de chat, aliment, nickel…) ?",
+  "type": "TEXT",
+  "choices": [],
+  "scores": []
+}

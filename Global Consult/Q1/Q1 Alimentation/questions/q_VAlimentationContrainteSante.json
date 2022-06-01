@@ -1,0 +1,57 @@
+{
+  "oid": "q_VAlimentationContrainteSante",
+  "title": "Suivez-vous actuellement un régime alimentaire particulier pour raison(s) de santé ?",
+  "text": "Suivez-vous actuellement un régime alimentaire particulier pour raison(s) de santé ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Régime pauvre en sel (HTA, insuffisance cardiaque…)"
+    },
+    {
+      "code": "1",
+      "text": "Régime/Cholestérol-Triglycérides"
+    },
+    {
+      "code": "2",
+      "text": "Régime/acide urique"
+    },
+    {
+      "code": "3",
+      "text": "Régime limité en protéines (insuffisance rénale..)"
+    },
+    {
+      "code": "4",
+      "text": "Régime pauvre en Fodmap’s"
+    },
+    {
+      "code": "5",
+      "text": "Régime/maladie cœliaque"
+    },
+    {
+      "code": "6",
+      "text": "Régime/allergie alimentaire (arachide, lait, œuf, fruits de mer, blé, soja…)"
+    },
+    {
+      "code": "7",
+      "text": "Régimes/intolérances alimentaires (lactose, blé, arachide, noisette, kiwi, banane, crevette, œuf, etc….)"
+    },
+    {
+      "code": "8",
+      "text": "Aucune de ces réponses",
+      "exclusive" : true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"8\" in q_VAlimentationContrainteSante",
+      "tagOID": "tag_VAlimentationContrainteSante",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"8\" in q_VAlimentationContrainteSante)",
+      "tagOID": "tag_VAlimentationContrainteSante",
+      "value": 1
+    }
+  ]
+}

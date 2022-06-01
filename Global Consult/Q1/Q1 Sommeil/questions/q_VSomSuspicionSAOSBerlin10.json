@@ -1,0 +1,28 @@
+{
+  "oid": "q_VSomSuspicionSAOSBerlin10",
+  "title": "Avez-vous un antécédent d’hypertension artérielle (HTA) ? ",
+  "text": "Avez-vous un antécédent d’hypertension artérielle (HTA) ? ",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VSomSuspicionSAOSBerlin10 == '0'",
+      "tagOID": "tag_VSomSuspicionSAOSBerlinCAT3",
+      "value": 2
+    },
+    {
+      "conditions": "q_VSomSuspicionSAOSBerlin10 == '1'",
+      "tagOID": "tag_VSomSuspicionSAOSBerlinCAT3",
+      "value": 0
+    }
+  ]
+}

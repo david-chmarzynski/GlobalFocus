@@ -1,0 +1,34 @@
+{
+  "oid": "q_VToxiqueIntEntretien",
+  "title": "Utilisez-vous habituellement des produits ménagers (poudre, mousse, liquide, spray) pour entretenir votre maison (Ne prenez pas en compte dans votre réponse les produits écologiques : vinaigre, savon, bicarbonate…) ?",
+  "text": "Utilisez-vous habituellement des produits ménagers (poudre, mousse, liquide, spray) pour entretenir votre maison (Ne prenez pas en compte dans votre réponse les produits écologiques : vinaigre, savon, bicarbonate…) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices":[
+    {"code": "0", "text": "Jamais"},
+    {"code": "1", "text": "Rarement"},
+    {"code": "2", "text": "Fréquemment"},
+    {"code": "3", "text": "Très fréquemment"}
+  ],
+  "scores":[
+    {
+      "tagOID": "Tag_VToxiqueIntEntretien",
+      "conditions": "q_VToxiqueIntEntretien == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "Tag_VToxiqueIntEntretien",
+      "conditions": "q_VToxiqueIntEntretien == '1'",
+      "value": 1
+    },
+    {
+      "tagOID": "Tag_VToxiqueIntEntretien",
+      "conditions": "q_VToxiqueIntEntretien == '2'",
+      "value": 2
+    },
+    {
+      "tagOID": "Tag_VToxiqueIntEntretien",
+      "conditions": "q_VToxiqueIntEntretien == '3'",
+      "value": 3
+    }
+  ]
+}

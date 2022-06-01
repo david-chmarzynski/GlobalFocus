@@ -1,0 +1,36 @@
+{
+  "oid": "q_VBougerMotivationConfianceSédentarité",
+  "title": "Avez-vous confiance dans votre capacité à diminuer votre sédentarité (temps passé assis)?",
+  "text": "Avez-vous confiance dans votre capacité à diminuer votre sédentarité (temps passé assis)?",
+  "type": "ANALOG_SCALE",
+  "scale":{
+    "min":0.0,
+    "max":10,
+    "step":1.0,
+    "minText": "Pas du tout confiance",
+    "midText": "",
+    "maxText": "Tout à fait confiance"
+  },
+  "scores": [
+    {
+      "conditions": "q_VBougerMotivationConfianceSédentarité >= 9",
+      "tagOID": "tag_VBougerMotivationConfianceSédentarité",
+      "value": 0
+    },
+    {
+      "conditions": "q_VBougerMotivationConfianceSédentarité >= 7 && q_VBougerMotivationConfianceSédentarité < 9",
+      "tagOID": "tag_VBougerMotivationConfianceSédentarité",
+      "value": 1
+    },
+    {
+      "conditions": "q_VBougerMotivationConfianceSédentarité >= 5 && q_VBougerMotivationConfianceSédentarité < 7",
+      "tagOID": "tag_VBougerMotivationConfianceSédentarité",
+      "value": 2
+    },
+    {
+      "conditions": "q_VBougerMotivationConfianceSédentarité < 5",
+      "tagOID": "tag_VBougerMotivationConfianceSédentarité",
+      "value": 3
+    }
+  ]
+}

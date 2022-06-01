@@ -1,0 +1,51 @@
+{
+  "oid": "q_VBougerAddictionSport",
+  "title": "Vous sentez-vous dépendant d’une pratique régulière d’une activité physique ?",
+  "text": "Vous sentez-vous dépendant d’une pratique régulière d’une activité physique ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Légèrement"
+    },
+    {
+      "code": "2",
+      "text": "Moyennement"
+    },
+    {
+      "code": "3",
+      "text": "Oui, vraiment"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VBougerAddictionSport == '0'",
+      "tagOID": "tag_VBougerAddictionSport",
+      "value": 0
+    },
+    {
+      "conditions": "q_VBougerAddictionSport == '0'",
+      "tagOID": "tag_VBougerAddictionSportEAI",
+      "value": 0
+    },
+    {
+      "conditions": "q_VBougerAddictionSport == '1'",
+      "tagOID": "tag_VBougerAddictionSport",
+      "value": 1
+    },
+    {
+      "conditions": "q_VBougerAddictionSport == '2'",
+      "tagOID": "tag_VBougerAddictionSport",
+      "value": 2
+    },
+    {
+      "conditions": "q_VBougerAddictionSport == '3'",
+      "tagOID": "tag_VBougerAddictionSport",
+      "value": 3
+    }
+  ]
+}

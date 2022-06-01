@@ -1,0 +1,8 @@
+{
+  "oid": "q_detail_traitements_medicamenteux",
+  "title": "Veuillez noter attentivement votre traitement avec le nom de chaque médicament, son dosage et la quantité prise par jour (posologie)",
+  "text": "Veuillez noter attentivement votre traitement avec le nom de chaque médicament, son dosage et la quantité prise par jour (posologie)",
+  "type": "TEXT",
+  "choices": [],
+  "scores": []
+}

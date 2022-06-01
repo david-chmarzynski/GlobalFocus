@@ -1,0 +1,46 @@
+{
+  "oid": "q_S_STO_000",
+  "title": "Comment évaluez-vous votre santé dentaire (dents, gencives, mâchoires, occlusion dentaire,...)",
+  "text": "Comment évaluez-vous votre santé dentaire (dents, gencives, mâchoires, occlusion dentaire,...)",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisante"
+    },
+    {
+      "code": "1",
+      "text": "Légèrement insatisfaisante"
+    },
+    {
+      "code": "2",
+      "text": "Plutôt insatisfaisante"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisante"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_S_STO_000 == \"0\"",
+      "tagOID": "S_STO",
+      "value": "0"
+    },
+    {
+      "conditions": "q_S_STO_000 == \"1\"",
+      "tagOID": "S_STO",
+      "value": "1"
+    },
+    {
+      "conditions": "q_S_STO_000 == \"2\"",
+      "tagOID": "S_STO",
+      "value": "2"
+    },
+    {
+      "conditions": "q_S_STO_000 == \"3\"",
+      "tagOID": "S_STO",
+      "value": "3"
+    }
+  ]
+}

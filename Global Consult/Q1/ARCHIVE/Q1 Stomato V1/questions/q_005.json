@@ -1,0 +1,44 @@
+{
+  "oid": "q_S_STO_005",
+  "title": "De quand date votre dernière visite chez le dentiste ? ",
+  "text": "De quand date votre dernière visite chez le dentiste ? ",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Moins de 6 mois"
+    },
+    {
+      "code": "1",
+      "text": "6 mois ou plus mais moins d’1 an"
+    },
+    {
+      "code": "2",
+      "text": "Moins de 2 ans"
+    },
+    {
+      "code": "3",
+      "text": "1 an ou plus mais moins de 2 ans"
+    },
+    {
+      "code": "4",
+      "text": "2 ans ou plus moins de 3 ans"
+    },
+    {
+      "code": "5",
+      "text": "3 ans ou plus mais moins de 5 ans"
+    },
+    {
+      "code": "6",
+      "text": "Plus de 5 ans"
+    },
+    {
+      "code": "7",
+      "text": "Jamais"
+    },
+    {
+      "code": "8",
+      "text": "Je ne sais pas"
+    }
+  ]
+}

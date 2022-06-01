@@ -1,0 +1,320 @@
+{
+  "oid": "mod_info_gen",
+  "title": "INFOS GÉNÉRALES",
+  "questions": [
+    {
+      "question": "q_poids_actuel",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_poids_desire",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_taille",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_perimetre_ombilical",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_tour_hanche",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_perimetre_cervical",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_sexe",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_vie_genitale",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "q_sexe == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": { "q_sexe": "0" }
+      }
+    },
+    {
+      "question": "q_situation_familiale",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_date_situ",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "q_situation_familiale == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": { "q_situation_familiale": "0" }
+      }
+    },
+    {
+      "question": "q_enfants",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_nb_enfants",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "q_enfants == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": { "q_enfants": "1" }
+      }
+    },
+    {
+      "question": "q_etudes_emploi",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_type_travail",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "q_etudes_emploi == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": { "q_etudes_emploi": "1" }
+      }
+    },
+    {
+      "question": "q_raison_inactivite",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "q_etudes_emploi == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": { "q_etudes_emploi": "0" }
+      }
+    },
+    {
+      "question": "q_motif_consult_libre",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_motif_consult_choix",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_antecedents_chirurgicaux",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_antecedents_medicaux",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_allergies_medicamenteuse",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_allergies_autre",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_traitement_medicamenteux",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_detail_traitements_medicamenteux",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "q_traitement_medicamenteux == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": { "q_traitement_medicamenteux": "1" }
+      }
+    },
+    {
+      "question": "q_contraception",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "q_sexe == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": { "q_sexe": "0" }
+      }
+    },
+    {
+      "question": "q_moyen_contraception",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "q_sexe == '0' || q_contraception == '1' || q_vie_genital == '3' || q_vie_genitale == '4'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_sexe": "0",
+          "q_contraception": "1",
+          "q_vie_genitale": "4"
+        }
+      }
+    },
+    {
+      "question": "q_autre_traitements",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_detail_autre_traitements",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "q_autre_traitements == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": { "q_autre_traitements": "1" }
+      }
+    },
+    {
+      "question": "q_complement_alimentaire",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_detail_complement_alimentaire",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "q_complement_alimentaire == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": { "q_complement_alimentaire": "1" }
+      }
+    },
+    {
+      "question": "q_patient_adresse",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_tel_patient",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_medecin_traitant_declare",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_nom_medecin_traitant",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "q_medecin_traitant_declare == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": { "q_medecin_traitant_declare": "1" }
+      }
+    },
+    {
+      "question": "q_prenom_medecin_traitant",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "q_medecin_traitant_declare == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": { "q_medecin_traitant_declare": "1" }
+      }
+    },
+    {
+      "question": "q_adresse_medecin_traitant",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "q_medecin_traitant_declare == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": { "q_medecin_traitant_declare": "1" }
+      }
+    },
+    {
+      "question": "q_tel_medecin_traitant",
+      "level": 1,
+      "isGlobal": true,
+      "displaySkip":true,
+      "trigger": {
+        "conditions": "q_medecin_traitant_declare == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": { "q_medecin_traitant_declare": "1" }
+      }
+    },
+    {
+      "question": "q_mail_medecin_traitant",
+      "level": 1,
+      "isGlobal": true,
+      "displaySkip":true,
+      "trigger": {
+        "conditions": "q_medecin_traitant_declare == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": { "q_medecin_traitant_declare": "1" }
+      }
+    },
+    {
+      "question": "q_lettre_adressage",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "q_medecin_traitant_declare == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": { "q_medecin_traitant_declare": "1" }
+      }
+    },
+    {
+      "question": "q_result_bilan",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "q_medecin_traitant_declare == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": { "q_medecin_traitant_declare": "1" }
+      }
+    }
+  ],
+  "calculations": [
+    {
+      "oid": "imc",
+      "title": "imc",
+      "text": "imc",
+      "type": "NORMAL",
+      "calculation": "q_poids_actuel / (q_taille / 100) ** 2",
+      "scope":"PATIENT_SCOPE",
+      "isGlobal": true,
+      "scores": [
+        {
+          "conditions": "imc<25",
+          "tagOID": "tag_imc",
+          "value": 0
+        },
+        {
+          "conditions": "imc>=25 && imc<30",
+          "tagOID": "tag_imc",
+          "value": 1
+        },
+        {
+          "conditions": "imc>30",
+          "tagOID": "tag_imc",
+          "value": 3
+        }
+      ]
+    }
+  ]
+}

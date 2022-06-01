@@ -1,0 +1,29 @@
+{
+  "oid": "q_vie_genitale",
+  "title": "Dans quelle étape de vie génitale vous situez-vous ?",
+  "text": "Dans quelle étape de vie génitale vous situez-vous ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Période pré-pubertaire : vous n’avez encore jamais eu vos règles."
+    },
+    {
+      "code": "1",
+      "text": "Période d’activité génitale : vous êtes réglée habituellement (sauf grossesse ou traitement)."
+    },
+    {
+      "code": "2",
+      "text": "Vous êtes en pré-ménopause : vous approchez de la ménopause et vos règles deviennent plus abondantes et/ou irrégulières. Vous sautez des cycles et/ou vous n’avez plus été réglée depuis plusieurs mois."
+    },
+    {
+      "code": "3",
+      "text": "Vous êtes ménopausée : vous n’avez plus de règles depuis plus d’un an et vous ne prenez pas de traitement substitutif hormonal."
+    },
+    {
+      "code": "4",
+      "text": "Vous êtes ménopausée et vous prenez un traitement hormonal substitutif (THS)."
+    }
+  ],
+  "scores": []
+}

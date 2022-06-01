@@ -1,0 +1,17 @@
+{
+  "oid": "q_relation_amoureuse",
+  "title": "Avez-vous une relation amoureuse, sentimentale suivie ?",
+  "text": "Avez-vous une relation amoureuse, sentimentale suivie ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": []
+}

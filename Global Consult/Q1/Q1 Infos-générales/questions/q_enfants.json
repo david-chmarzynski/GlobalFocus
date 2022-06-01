@@ -1,0 +1,17 @@
+{
+  "oid": "q_enfants",
+  "title": "Avez-vous eu des enfants (biologiques ou adoptés) ?",
+  "text": "Avez-vous eu des enfants (biologiques ou adoptés) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": []
+}

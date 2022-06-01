@@ -1,0 +1,8 @@
+{
+  "oid": "q_patient_adresse_commune",
+  "title": "Veuillez renseigner votre commune",
+  "text": "Veuillez renseigner votre commune",
+  "type": "TEXT",
+  "choices": [],
+  "scores": []
+}

@@ -1,0 +1,17 @@
+{
+  "oid": "q_traitement_medicamenteux",
+  "title": "Prenez-vous un traitement médicamenteux ?",
+  "text": "Prenez-vous un traitement médicamenteux ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": []
+}

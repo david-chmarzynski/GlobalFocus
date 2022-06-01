@@ -1,0 +1,55 @@
+{
+  "oid": "q_VSomSuspicionSAOSBerlin7",
+  "title": "Vous sentez-vous fatigué, las ou peu en forme durant votre période d’éveil ?",
+  "text": "Vous sentez-vous fatigué, las ou peu en forme durant votre période d’éveil ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Presque tous les jours"
+    },
+    {
+      "code": "1",
+      "text": "3 à 4 jours par semaine"
+    },
+    {
+      "code": "2",
+      "text": "1 à 2 jours par semaine"
+    },
+    {
+      "code": "3",
+      "text": "1 à 2 jours par mois"
+    },
+    {
+      "code": "4",
+      "text": "Jamais ou presque jamais"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VSomSuspicionSAOSBerlin7 == '0'",
+      "tagOID": "tag_VSomSuspicionSAOSBerlinCAT2",
+      "value": 1
+    },
+    {
+      "conditions": "q_VSomSuspicionSAOSBerlin7 == '1'",
+      "tagOID": "tag_VSomSuspicionSAOSBerlinCAT2",
+      "value": 1
+    },
+    {
+      "conditions": "q_VSomSuspicionSAOSBerlin7 == '2'",
+      "tagOID": "tag_VSomSuspicionSAOSBerlinCAT2",
+      "value": 0
+    },
+    {
+      "conditions": "q_VSomSuspicionSAOSBerlin7 == '3'",
+      "tagOID": "tag_VSomSuspicionSAOSBerlinCAT2",
+      "value": 0
+    },
+    {
+      "conditions": "q_VSomSuspicionSAOSBerlin7 == '4'",
+      "tagOID": "tag_VSomSuspicionSAOSBerlinCAT2",
+      "value": 0
+    }
+  ]
+}

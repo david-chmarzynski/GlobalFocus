@@ -1,0 +1,81 @@
+{
+  "oid": "q_orl_006",
+  "title": "Présentez-vous actuellement au niveau de la gorge, un ou plusieurs des symptômes suivant(s) ?",
+  "text": "Présentez-vous actuellement au niveau de la gorge, un ou plusieurs des symptômes suivant(s) ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Une modification anormale et persistante de votre voix (enrouement...)"
+    },
+    {
+      "code": "1",
+      "text": "Des douleurs ou une gêne persistante à la déglutition des aliments solides et/ou liquides"
+    },
+    {
+      "code": "2",
+      "text": "Une douleur persistante au niveau de la gorge"
+    },
+    {
+      "code": "3",
+      "text": "Autre(s) symptôme(s)"
+    },
+    {
+      "code": "4",
+      "text": "Aucun de ces symptômes",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"0\" in q_orl_006",
+      "tagOID": "S_ORL_SYMP_GORGE_DYSPHONIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"0\" in q_orl_006)",
+      "tagOID": "S_ORL_SYMP_GORGE_DYSPHONIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"1\" in q_orl_006",
+      "tagOID": "S_ORL_SYMP_GORGE_DYSPHAGIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"1\" in q_orl_006)",
+      "tagOID": "S_ORL_SYMP_GORGE_DYSPHAGIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"2\" in q_orl_006",
+      "tagOID": "S_ORL_SYMP_GORGE_DOULEUR",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"2\" in q_orl_006)",
+      "tagOID": "S_ORL_SYMP_GORGE_DOULEUR",
+      "value": 0
+    },
+    {
+      "conditions": "\"3\" in q_orl_006",
+      "tagOID": "S_ORL_SYMP_GORGE_AUTRE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"3\" in q_orl_006)",
+      "tagOID": "S_ORL_SYMP_GORGE_AUTRE",
+      "value": 0
+    },
+    {
+      "conditions": "\"4\" in q_orl_006",
+      "tagOID": "S_ORL_SYMP_GORGE",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"4\" in q_orl_006)",
+      "tagOID": "S_ORL_SYMP_GORGE",
+      "value": 1
+    }
+  ]
+}

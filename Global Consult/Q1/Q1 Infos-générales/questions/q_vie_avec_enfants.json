@@ -1,0 +1,17 @@
+{
+  "oid": "q_vie_avec_enfants",
+  "title": "Dans votre domicile habituel, vivez-vous avec vos enfants ou ceux de votre conjoint(e) ?",
+  "text": "Dans votre domicile habituel, vivez-vous avec vos enfants ou ceux de votre conjoint(e) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": []
+}

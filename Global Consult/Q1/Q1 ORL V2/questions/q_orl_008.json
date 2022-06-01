@@ -1,0 +1,109 @@
+{
+  "oid": "q_orl_008",
+  "title": "Présentez-vous actuellement au niveau des oreilles, un ou plusieurs des symptômes suivants ?",
+  "text": "Présentez-vous actuellement au niveau des oreilles, un ou plusieurs des symptômes suivants ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Des bruits ou des sifflements continus dans les oreilles (acouphènes) "
+    },
+    {
+      "code": "1",
+      "text": "Une baisse progressive de l’audition "
+    },
+    {
+      "code": "2",
+      "text": "Une surdité brutale de survenue récente "
+    },
+    {
+      "code": "3",
+      "text": "Des vertiges"
+    },
+    {
+      "code": "4",
+      "text": "Des douleurs au niveau des oreilles"
+    },
+    {
+      "code": "5",
+      "text": "Autre(s) symptôme(s)"
+    },
+    {
+      "code": "6",
+      "text": "Aucun de ces symptômes",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"0\" in q_orl_008",
+      "tagOID": "S_ORL_SYMP_OREILLES_ACOUPH",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"0\" in q_orl_008)",
+      "tagOID": "S_ORL_SYMP_OREILLES_ACOUPH",
+      "value": 0
+    },
+    {
+      "conditions": "\"1\" in q_orl_008",
+      "tagOID": "S_ORL_SYMP_OREILLES_HYPOACOUSIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"1\" in q_orl_008)",
+      "tagOID": "S_ORL_SYMP_OREILLES_HYPOACOUSIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"2\" in q_orl_008",
+      "tagOID": "S_ORL_SYMP_OREILLES_SURDITE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"2\" in q_orl_008)",
+      "tagOID": "S_ORL_SYMP_OREILLES_SURDITE",
+      "value": 0
+    },
+    {
+      "conditions": "\"3\" in q_orl_008",
+      "tagOID": "S_ORL_SYMP_OREILLES_VERTIGE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"3\" in q_orl_008)",
+      "tagOID": "S_ORL_SYMP_OREILLES_VERTIGE",
+      "value": 0
+    },
+    {
+      "conditions": "\"4\" in q_orl_008",
+      "tagOID": "S_ORL_SYMP_OREILLES_OTALGIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"4\" in q_orl_008)",
+      "tagOID": "S_ORL_SYMP_OREILLES_OTALGIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"5\" in q_orl_008",
+      "tagOID": "S_ORL_SYMP_OREILLES_AUTRE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"5\" in q_orl_008)",
+      "tagOID": "S_ORL_SYMP_OREILLES_AUTRE",
+      "value": 0
+    },
+    {
+      "conditions": "\"6\" in q_orl_008",
+      "tagOID": "S_ORL_SYMP_OREILLES",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"6\" in q_orl_008)",
+      "tagOID": "S_ORL_SYMP_OREILLES",
+      "value": 1
+    }
+  ]
+}

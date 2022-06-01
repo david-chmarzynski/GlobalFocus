@@ -1,0 +1,46 @@
+{
+  "oid": "q_endocrinologie_092",
+  "title": "J’ai les gencives qui se rétractent",
+  "text": "J’ai les gencives qui se rétractent",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas du tout"
+    },
+    {
+      "code": "1",
+      "text": "Un peu"
+    },
+    {
+      "code": "2",
+      "text": "Moyennement"
+    },
+    {
+      "code": "3",
+      "text": "Beaucoup"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_endocrinologie_092 == \"0\"",
+      "tagOID": "S_ENDO_SYMP_HYPOGH",
+      "value": 0
+    },
+    {
+      "conditions": "q_endocrinologie_092 == \"1\"",
+      "tagOID": "S_ENDO_SYMP_HYPOGH",
+      "value": 1
+    },
+    {
+      "conditions": "q_endocrinologie_092 == \"2\"",
+      "tagOID": "S_ENDO_SYMP_HYPOGH",
+      "value": 2
+    },
+    {
+      "conditions": "q_endocrinologie_092 == \"3\"",
+      "tagOID": "S_ENDO_SYMP_HYPOGH",
+      "value": 3
+    }
+  ]
+}

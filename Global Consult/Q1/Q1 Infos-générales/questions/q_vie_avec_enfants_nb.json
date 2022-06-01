@@ -1,0 +1,8 @@
+{
+  "oid": "q_vie_avec_enfants_nb",
+  "title": "Combien d’enfant(s) ?",
+  "text": "Combien d’enfant(s) ?",
+  "type": "INTEGER",
+  "choices": [],
+  "scores": []
+}

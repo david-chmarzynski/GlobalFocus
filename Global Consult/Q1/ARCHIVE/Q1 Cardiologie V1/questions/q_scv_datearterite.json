@@ -1,0 +1,17 @@
+{
+  "oid": "q_scv_datearterite",
+  "title": "Date du diagnostic d’artérite des membres inférieurs",
+  "text": "En quelle année le diagnostic d’artérite des membres inférieursa-t'il été posé la première fois ?",
+  "type": "ANALOG_SCALE",
+  "scale":{
+    "min":1900,
+    "max":2022,
+    "step":1.0,
+    "minText": "",
+    "midText": "",
+    "maxText": "",
+    "minValue": "1900",
+    "midValue": "",
+    "maxValue": "Cette année"
+  }
+}

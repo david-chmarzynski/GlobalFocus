@@ -1,0 +1,55 @@
+{
+  "oid": "q_VBougerProjetSédentarité",
+  "title": " Par rapport à votre sédentarité (temps passé en position assise ou couchée, hors sommeil), choisissez la proposition la plus proche de ce que vous ressentez :",
+  "text": " Par rapport à votre sédentarité (temps passé en position assise ou couchée, hors sommeil), choisissez la proposition la plus proche de ce que vous ressentez :",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "J’ai l’intention de diminuer ma sédentarité dans les 6 mois qui viennent"
+    },
+    {
+      "code": "1",
+      "text": "J’ai l’intention de diminuer ma sédentarité dans le mois qui vient"
+    },
+    {
+      "code": "2",
+      "text": "J’ai commencé à diminuer ma sédentarité depuis moins de 6 mois"
+    },
+    {
+      "code": "3",
+      "text": "J’ai déjà diminué ma sédentarité de manière satisfaisante depuis plus de 6 mois"
+    },
+    {
+      "code": "4",
+      "text": "Aucune de ces propositions"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VBougerProjetSédentarité == '0'",
+      "tagOID": "tag_VBougerProjetSédentarité",
+      "value": 0
+    },
+    {
+      "conditions": "q_VBougerProjetSédentarité == '1'",
+      "tagOID": "tag_VBougerProjetSédentarité",
+      "value": 1
+    },
+    {
+      "conditions": "q_VBougerProjetSédentarité == '2'",
+      "tagOID": "tag_VBougerProjetSédentarité",
+      "value": 2
+    },
+    {
+      "conditions": "q_VBougerProjetSédentarité == '3'",
+      "tagOID": "tag_VBougerProjetSédentarité",
+      "value": 3
+    },
+    {
+      "conditions": "q_VBougerProjetSédentarité == '4'",
+      "tagOID": "tag_VBougerProjetSédentarité",
+      "value": 4
+    }
+  ]
+}

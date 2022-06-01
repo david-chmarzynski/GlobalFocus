@@ -1,0 +1,55 @@
+{
+  "oid": "q_VBougerProjetAP",
+  "title": "Par rapport à votre activité physique, choisissez la proposition la plus proche de ce que vous ressentez.",
+  "text": "Par rapport à votre activité physique, choisissez la proposition la plus proche de ce que vous ressentez.",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "J’ai l’intention d’augmenter mon activité physique dans les 6 mois qui viennent"
+    },
+    {
+      "code": "1",
+      "text": "J’ai l’intention d’augmenter mon activité physique dans le mois qui vient"
+    },
+    {
+      "code": "2",
+      "text": "J’ai commencé à augmenter mon activité physique depuis moins de 6 mois"
+    },
+    {
+      "code": "3",
+      "text": "J’ai un niveau d’activité physique satisfaisant depuis plus de 6 mois"
+    },
+    {
+      "code": "4",
+      "text": "Aucune de ces propositions"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VBougerProjetAP == '0'",
+      "tagOID": "tag_VBougerProjetAP",
+      "value": 0
+    },
+    {
+      "conditions": "q_VBougerProjetAP == '1'",
+      "tagOID": "tag_VBougerProjetAP",
+      "value": 1
+    },
+    {
+      "conditions": "q_VBougerProjetAP == '2'",
+      "tagOID": "tag_VBougerProjetAP",
+      "value": 2
+    },
+    {
+      "conditions": "q_VBougerProjetAP == '3'",
+      "tagOID": "tag_VBougerProjetAP",
+      "value": 3
+    },
+    {
+      "conditions": "q_VBougerProjetAP == '4'",
+      "tagOID": "tag_VBougerProjetAP",
+      "value": 4
+    }
+  ]
+}

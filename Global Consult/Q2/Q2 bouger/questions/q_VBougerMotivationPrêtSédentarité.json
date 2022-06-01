@@ -1,0 +1,36 @@
+{
+  "oid": "q_VBougerMotivationPrêtSédentarité",
+  "title": "Est-ce le bon moment pour diminuer votre sédentarité (temps passé assis)?",
+  "text": "Est-ce le bon moment pour diminuer votre sédentarité (temps passé assis)?",
+  "type": "ANALOG_SCALE",
+  "scale":{
+    "min":0.0,
+    "max":10,
+    "step":1.0,
+    "minText": "Pire moment",
+    "midText": "",
+    "maxText": "Meilleur moment"
+  },
+  "scores": [
+    {
+      "conditions": "q_VBougerMotivationPrêtSédentarité >= 9",
+      "tagOID": "tag_VBougerMotivationPrêtSédentarité",
+      "value": 0
+    },
+    {
+      "conditions": "q_VBougerMotivationPrêtSédentarité >= 7 && q_VBougerMotivationPrêtSédentarité < 9",
+      "tagOID": "tag_VBougerMotivationPrêtSédentarité",
+      "value": 1
+    },
+    {
+      "conditions": "q_VBougerMotivationPrêtSédentarité >= 5 && q_VBougerMotivationPrêtSédentarité < 7",
+      "tagOID": "tag_VBougerMotivationPrêtSédentarité",
+      "value": 2
+    },
+    {
+      "conditions": "q_VBougerMotivationPrêtSédentarité < 5",
+      "tagOID": "tag_VBougerMotivationPrêtSédentarité",
+      "value": 3
+    }
+  ]
+}

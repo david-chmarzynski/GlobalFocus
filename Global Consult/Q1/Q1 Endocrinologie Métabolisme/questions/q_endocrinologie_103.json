@@ -1,0 +1,46 @@
+{
+  "oid": "q_endocrinologie_103",
+  "title": "J’ai une augmentation de mon tour de taille (ventre)",
+  "text": "J’ai une augmentation de mon tour de taille (ventre)",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas du tout"
+    },
+    {
+      "code": "1",
+      "text": "Un peu"
+    },
+    {
+      "code": "2",
+      "text": "Moyennement"
+    },
+    {
+      "code": "3",
+      "text": "Beaucoup"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_endocrinologie_103 == \"0\"",
+      "tagOID": "S_ENDO_SYMP_HYPERINSULINISME",
+      "value": 0
+    },
+    {
+      "conditions": "q_endocrinologie_103 == \"1\"",
+      "tagOID": "S_ENDO_SYMP_HYPERINSULINISME",
+      "value": 1
+    },
+    {
+      "conditions": "q_endocrinologie_103 == \"2\"",
+      "tagOID": "S_ENDO_SYMP_HYPERINSULINISME",
+      "value": 2
+    },
+    {
+      "conditions": "q_endocrinologie_103 == \"3\"",
+      "tagOID": "S_ENDO_SYMP_HYPERINSULINISME",
+      "value": 3
+    }
+  ]
+}

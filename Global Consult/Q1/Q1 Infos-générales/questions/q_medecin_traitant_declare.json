@@ -1,0 +1,17 @@
+{
+  "oid": "q_medecin_traitant_declare",
+  "title": "Avez-vous un médecin traitant déclaré ?",
+  "text": "Avez-vous un médecin traitant déclaré ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": []
+}

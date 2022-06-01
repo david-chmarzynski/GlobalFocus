@@ -1,0 +1,8 @@
+{
+  "oid": "q_adresse_medecin_traitant_pays",
+  "title": "Veuillez renseigner le pays de votre médecin traitant",
+  "text": "Veuillez renseigner le pays de votre médecin traitant",
+  "type": "TEXT",
+  "choices": [],
+  "scores": []
+}

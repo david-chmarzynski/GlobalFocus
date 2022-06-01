@@ -1,0 +1,46 @@
+{
+  "oid": "q_endocrinologie_078",
+  "title": "Aux changements de position, j’ai des troubles de la vision avec des difficultés à me concentrer sur des objets",
+  "text": "Aux changements de position, j’ai des troubles de la vision avec des difficultés à me concentrer sur des objets",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas du tout"
+    },
+    {
+      "code": "1",
+      "text": "Un peu"
+    },
+    {
+      "code": "2",
+      "text": "Moyennement"
+    },
+    {
+      "code": "3",
+      "text": "Beaucoup"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_endocrinologie_078 == \"0\"",
+      "tagOID": "S_ENDO_SYMP_HYPOALDOSTERONISME",
+      "value": 0
+    },
+    {
+      "conditions": "q_endocrinologie_078 == \"1\"",
+      "tagOID": "S_ENDO_SYMP_HYPOALDOSTERONISME",
+      "value": 1
+    },
+    {
+      "conditions": "q_endocrinologie_078 == \"2\"",
+      "tagOID": "S_ENDO_SYMP_HYPOALDOSTERONISME",
+      "value": 2
+    },
+    {
+      "conditions": "q_endocrinologie_078 == \"3\"",
+      "tagOID": "S_ENDO_SYMP_HYPOALDOSTERONISME",
+      "value": 3
+    }
+  ]
+}

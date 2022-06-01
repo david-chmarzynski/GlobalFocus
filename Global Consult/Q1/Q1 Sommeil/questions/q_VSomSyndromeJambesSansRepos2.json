@@ -1,0 +1,46 @@
+{
+  "oid": "q_VSomSyndromeJambesSansRepos2",
+  "title": "Ce besoin pressant de bouger les jambes en réponse à des sensations pénibles et désagréables dans les jambes est-il à l’origine d’une détresse ou d’une altération de votre fonctionnement habituel (sommeil, activités quotidiennes) ?",
+  "text": "Ce besoin pressant de bouger les jambes en réponse à des sensations pénibles et désagréables dans les jambes est-il à l’origine d’une détresse ou d’une altération de votre fonctionnement habituel (sommeil, activités quotidiennes) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas de gêne"
+    },
+    {
+      "code": "1",
+      "text": "Gêne modérée"
+    },
+    {
+      "code": "2",
+      "text": "Gênant"
+    },
+    {
+      "code": "3",
+      "text": "Très gênant"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VSomSyndromeJambesSansRepos1 == '0'",
+      "tagOID": "tag_VSSJR",
+      "value": 0
+    },
+    {
+      "conditions": "q_VSomSyndromeJambesSansRepos1 == '1'",
+      "tagOID": "tag_VSSJR",
+      "value": 1
+    },
+    {
+      "conditions": "q_VSomSyndromeJambesSansRepos1 == '2'",
+      "tagOID": "tag_VSSJR",
+      "value": 2
+    },
+    {
+      "conditions": "q_VSomSyndromeJambesSansRepos1 == '3'",
+      "tagOID": "tag_VSSJR",
+      "value": 3
+    }
+  ]
+}

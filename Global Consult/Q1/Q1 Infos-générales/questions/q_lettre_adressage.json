@@ -1,0 +1,17 @@
+{
+  "oid": "q_lettre_adressage",
+  "title": "Votre médecin traitant vous a t’il rédigé une lettre de recommandation pour votre consultation (lettre d’adressage) ?",
+  "text": "Votre médecin traitant vous a t’il rédigé une lettre de recommandation pour votre consultation (lettre d’adressage) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": []
+}

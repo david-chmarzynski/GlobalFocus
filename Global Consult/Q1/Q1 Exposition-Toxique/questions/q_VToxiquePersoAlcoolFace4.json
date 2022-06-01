@@ -1,0 +1,22 @@
+{
+  "oid": "q_VToxiquePersoAlcoolFace4",
+  "title": "Avez-vous déjà eu besoin d’alcool dès le matin pour vous sentir en forme ?",
+  "text": "Avez-vous déjà eu besoin d’alcool dès le matin pour vous sentir en forme ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices":[
+    {"code": "0", "text": "Non"},
+    {"code": "1", "text": "Oui"}
+  ],
+  "scores":[
+    {
+      "tagOID": "Tag_VToxiquePersoAlcoolFace",
+      "conditions": "q_VToxiquePersoAlcoolFace4 == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "Tag_VToxiquePersoAlcoolFace",
+      "conditions": "q_VToxiquePersoAlcoolFace4 == '1'",
+      "value": 4
+    }
+  ]
+}

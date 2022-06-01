@@ -1,0 +1,8 @@
+{
+  "oid": "q_patient_adresse_pays",
+  "title": "Veuillez renseigner votre pays",
+  "text": "Veuillez renseigner votre pays",
+  "type": "TEXT",
+  "choices": [],
+  "scores": []
+}

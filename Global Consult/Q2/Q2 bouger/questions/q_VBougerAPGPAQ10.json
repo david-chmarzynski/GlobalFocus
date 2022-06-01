@@ -1,0 +1,16 @@
+{
+  "oid": "q_VBougerAPGPAQ10",
+  "title": "Est-ce que vous pratiquez des sports, du fitness ou des activités de loisirs de forte intensité qui nécessitent une augmentation importante de la respiration ou du rythme cardiaque comme la course à pieds, le football, le squash, le saut à la corde, le ski de fond à allure soutenue…) pendant au moins dix minutes d’affilée ?",
+  "text": "Est-ce que vous pratiquez des sports, du fitness ou des activités de loisirs de forte intensité qui nécessitent une augmentation importante de la respiration ou du rythme cardiaque comme la course à pieds, le football, le squash, le saut à la corde, le ski de fond à allure soutenue…) pendant au moins dix minutes d’affilée ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ]
+}

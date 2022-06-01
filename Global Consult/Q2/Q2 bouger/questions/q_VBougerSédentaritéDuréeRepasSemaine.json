@@ -1,0 +1,14 @@
+{
+  "oid": "q_VBougerSédentaritéDuréeRepasSemaine",
+  "title": "Lors d’une journée habituelle de semaine, combien de temps passez-vous en position assise pour vos repas (petit-déjeuner, midi, soir, collations) ?",
+  "text": "Lors d’une journée habituelle de semaine, combien de temps passez-vous en position assise pour vos repas (petit-déjeuner, midi, soir, collations) ?",
+  "type": "ANALOG_SCALE",
+  "scale":{
+    "min":0.0,
+    "max":24.0,
+    "step":1.0,
+    "minText": "0h",
+    "midText": "",
+    "maxText": "24h"
+  }
+}

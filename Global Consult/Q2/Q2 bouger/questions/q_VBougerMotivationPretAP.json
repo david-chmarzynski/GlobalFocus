@@ -1,0 +1,36 @@
+{
+  "oid": "q_VBougerMotivationPretAP",
+  "title": "Est-ce le bon moment pour être plus actif ?",
+  "text": "Est-ce le bon moment pour être plus actif ?",
+  "type": "ANALOG_SCALE",
+  "scale":{
+    "min":0.0,
+    "max":10,
+    "step":1.0,
+    "minText": "Pire moment",
+    "midText": "",
+    "maxText": "Meilleur moment"
+  },
+  "scores": [
+    {
+      "conditions": "q_VBougerMotivationPretAP >= 9",
+      "tagOID": "tag_VBougerMotivationPretAP",
+      "value": 0
+    },
+    {
+      "conditions": "q_VBougerMotivationPretAP >= 7 && q_VBougerMotivationPretAP < 9",
+      "tagOID": "tag_VBougerMotivationPretAP",
+      "value": 1
+    },
+    {
+      "conditions": "q_VBougerMotivationPretAP >= 5 && q_VBougerMotivationPretAP < 7",
+      "tagOID": "tag_VBougerMotivationPretAP",
+      "value": 2
+    },
+    {
+      "conditions": "q_VBougerMotivationPretAP < 5",
+      "tagOID": "tag_VBougerMotivationPretAP",
+      "value": 3
+    }
+  ]
+}

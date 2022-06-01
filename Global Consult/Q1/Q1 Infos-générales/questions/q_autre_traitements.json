@@ -1,0 +1,17 @@
+{
+  "oid": "q_autre_traitements",
+  "title": "Prenez-vous d’autres traitements (Homéopathie, Phytothérapie, huiles essentielles, tisanes, bicarbonate de sodium, argile…) ?",
+  "text": "Prenez-vous d’autres traitements (Homéopathie, Phytothérapie, huiles essentielles, tisanes, bicarbonate de sodium, argile…) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": []
+}

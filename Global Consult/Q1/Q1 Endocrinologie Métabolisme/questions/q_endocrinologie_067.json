@@ -1,0 +1,46 @@
+{
+  "oid": "q_endocrinologie_067",
+  "title": "J’ai le visage gonflé, arrondi et rougeaud",
+  "text": "J’ai le visage gonflé, arrondi et rougeaud",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas du tout"
+    },
+    {
+      "code": "1",
+      "text": "Un peu"
+    },
+    {
+      "code": "2",
+      "text": "Moyennement"
+    },
+    {
+      "code": "3",
+      "text": "Beaucoup"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_endocrinologie_067 == \"0\"",
+      "tagOID": "S_ENDO_SYMP_HYPERCORTICISME",
+      "value": 0
+    },
+    {
+      "conditions": "q_endocrinologie_067 == \"1\"",
+      "tagOID": "S_ENDO_SYMP_HYPERCORTICISME",
+      "value": 1
+    },
+    {
+      "conditions": "q_endocrinologie_067 == \"2\"",
+      "tagOID": "S_ENDO_SYMP_HYPERCORTICISME",
+      "value": 2
+    },
+    {
+      "conditions": "q_endocrinologie_067 == \"3\"",
+      "tagOID": "S_ENDO_SYMP_HYPERCORTICISME",
+      "value": 3
+    }
+  ]
+}

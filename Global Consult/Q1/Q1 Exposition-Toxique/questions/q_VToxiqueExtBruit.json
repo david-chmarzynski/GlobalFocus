@@ -1,0 +1,34 @@
+{
+  "oid": "q_VToxiqueExtBruit",
+  "title": "Comment évaluez-vous votre exposition au bruit à l’extérieur de votre domicile ?",
+  "text": "Comment évaluez-vous votre exposition au bruit à l’extérieur de votre domicile ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices":[
+    {"code": "0", "text": "Environnement calme"},
+    {"code": "1", "text": "Environnement assez calme"},
+    {"code": "2", "text": "Environnement assez bruyant"},
+    {"code": "3", "text": "Environnement bruyant"}
+  ],
+  "scores":[
+    {
+      "tagOID": "Tag_VToxiqueExtBruit",
+      "conditions": "q_VToxiqueExtBruit == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "Tag_VToxiqueExtBruit",
+      "conditions": "q_VToxiqueExtBruit == '1'",
+      "value": 1
+    },
+    {
+      "tagOID": "Tag_VToxiqueExtBruit",
+      "conditions": "q_VToxiqueExtBruit == '2'",
+      "value": 2
+    },
+    {
+      "tagOID": "Tag_VToxiqueExtBruit",
+      "conditions": "q_VToxiqueExtBruit == '3'",
+      "value": 3
+    }
+  ]
+}

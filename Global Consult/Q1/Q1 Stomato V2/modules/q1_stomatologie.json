@@ -1,0 +1,43 @@
+{
+  "oid": "q1_stomatologie",
+  "title": "Stomatologie",
+  "questions": [
+    {
+      "question": "q_stomatologie_000",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_stomatologie_001",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_stomatologie_002",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"autre\" in q_stomatologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_stomatologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_stomatologie_003",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_stomatologie_004",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_stomatologie_005",
+      "level": 1,
+      "isGlobal": true
+    }
+  ]
+}

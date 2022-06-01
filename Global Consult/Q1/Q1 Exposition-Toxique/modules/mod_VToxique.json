@@ -1,0 +1,286 @@
+{
+  "oid": "mod_VToxique",
+  "title": "Exposition / Produits toxiques",
+  "questions": [
+    {
+      "question": "q_VToxiqueGlobal",
+      "level": 1
+    },
+    {
+      "question": "q_VToxiqueW",
+      "level": 1
+    },
+    {
+      "question": "q_VToxiqueWAir",
+      "level": 1
+    },
+    {
+      "question": "q_VToxiqueWProduits",
+      "level": 1
+    },
+    {
+      "question": "q_VToxiqueWRisques",
+      "level": 1
+    },
+    {
+      "question": "q_VToxiqueWTemp",
+      "level": 1
+    },
+    {
+      "question": "q_VToxiqueExt",
+      "level": 1
+    },
+    {
+      "question": "q_VToxiqueExtBruit",
+      "level": 1
+    },
+    {
+      "question": "q_VToxiqueExtAir",
+      "level": 1
+    },
+    {
+      "question": "q_VToxiqueLogement",
+      "level": 1
+    },
+    {
+      "question": "q_VToxiqueIntAir",
+      "level": 1
+    },
+    {
+      "question": "q_VToxiqueIntAeration",
+      "level": 1
+    },
+    {
+      "question": "q_VToxiqueIntMobilier",
+      "level": 1
+    },
+    {
+      "question": "q_VToxiqueIntEntretien",
+      "level": 1
+    },
+    {
+      "question": "q_VToxiqueIntChimique",
+      "level": 1
+    },
+    {
+      "question": "q_VToxiquePerso",
+      "level": 1
+    },
+    {
+      "question": "q_VToxiquePersoHygiene",
+      "level": 1
+    },
+    {
+      "question": "q_VToxiquePersoAlimentation",
+      "level": 1
+    },
+    {
+      "question": "q_VToxiquePersoCuisine",
+      "level": 1
+    },
+    {
+      "question": "q_VToxiquePersoCuisson",
+      "level": 1
+    },
+    {
+      "question": "q_VToxiquePersoAliments",
+      "level": 1
+    },
+    {
+      "question": "q_VToxiquePersoDrogues",
+      "level": 1
+    },
+    {
+      "question": "q_VToxiquePersoAlcool",
+      "level": 1
+    },
+    {
+      "question": "q_VToxiquePersoAlcoolFace1",
+      "level": 1,
+      "trigger": {
+        "conditions": "q_VToxiquePersoAlcool == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VToxiquePersoAlcool":"0"}
+      }
+    },
+    {
+      "question": "q_VToxiquePersoAlcoolFace2",
+      "level": 1,
+      "trigger": {
+        "conditions": "q_VToxiquePersoAlcool == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VToxiquePersoAlcool":"0"}
+      }
+      
+    },
+    {
+      "question": "q_VToxiquePersoAlcoolFace3",
+      "level": 1,
+      "trigger": {
+        "conditions": "q_VToxiquePersoAlcool == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VToxiquePersoAlcool":"0"}
+      }
+    },
+    {
+      "question": "q_VToxiquePersoAlcoolFace4",
+      "level": 1,
+      "trigger": {
+        "conditions": "q_VToxiquePersoAlcool == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VToxiquePersoAlcool":"0"}
+      }
+    },
+    {
+      "question": "q_VToxiquePersoAlcoolFace5",
+      "level": 1,
+      "trigger": {
+        "conditions": "q_VToxiquePersoAlcool == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VToxiquePersoAlcool":"0"}
+      }
+    },
+    {
+      "question": "q_VToxiquePersoTabac",
+      "level": 1
+    },
+    {
+      "question": "q_VToxiquePersoTabacPA1",
+      "level": 1,
+      "trigger": {
+          "conditions": "q_VToxiquePersoTabac == '0'",
+          "scope": "MODULE_SCOPE",
+          "defaultValues":{"q_VToxiquePersoTabac":"0"}
+      }
+    },
+    {
+      "question": "q_VToxiquePersoTabacPAProduit",
+      "level": 1,
+      "trigger": {
+          "conditions": "q_VToxiquePersoTabac == '0'",
+          "scope": "MODULE_SCOPE",
+          "defaultValues":{"q_VToxiquePersoTabac":"0"}
+      }
+    },
+    {
+      "question": "q_VToxiquePersoTabacPACigarettes",
+      "level": 1,
+      "trigger": {
+          "conditions": "!('cigarettes' in q_VToxiquePersoTabacPAProduit)",
+          "scope": "MODULE_SCOPE",
+          "defaultValues":{"q_VToxiquePersoTabacPAProduit":""}
+      }
+    },
+    {
+      "question": "q_VToxiquePersoTabacPAPipes",
+      "level": 1,
+      "trigger": {
+          "conditions": "!('pipes' in q_VToxiquePersoTabacPAProduit)",
+          "scope": "MODULE_SCOPE",
+          "defaultValues":{"q_VToxiquePersoTabacPAProduit":""}
+      }
+    },
+    {
+      "question": "q_VToxiquePersoTabacPACigares",
+      "level": 1,
+      "trigger": {
+          "conditions": "!('cigares' in q_VToxiquePersoTabacPAProduit)",
+          "scope": "MODULE_SCOPE",
+          "defaultValues":{"q_VToxiquePersoTabacPAProduit":""}
+      }
+    },
+    {
+      "question": "q_VToxiquePersoTabacPAChichas",
+      "level": 1,
+      "trigger": {
+          "conditions": "!('chichas' in q_VToxiquePersoTabacPAProduit)",
+          "scope": "MODULE_SCOPE",
+          "defaultValues":{"q_VToxiquePersoTabacPAProduit":""}
+      }
+    },
+    {
+      "question": "q_VToxiquePersoTabacHSI1",
+      "level": 1,
+      "trigger": {
+          "conditions": "q_VToxiquePersoTabac != '3'",
+          "scope": "MODULE_SCOPE",
+          "defaultValues":{"q_VToxiquePersoTabac":"0"}
+      }
+    },
+    {
+      "question": "q_VToxiquePersoTabacHSI2",
+      "level": 1,
+      "trigger": {
+          "conditions": "q_VToxiquePersoTabac != '3'",
+          "scope": "MODULE_SCOPE",
+          "defaultValues":{"q_VToxiquePersoTabac":"0"}
+      }
+    },
+    {
+      "question": "q_VToxiquePersoTabacPassif",
+      "level": 1
+    }
+
+  ],
+  "calculations":[
+    {
+      "oid":"calc_VToxiquePersoTabacPA",
+      "type": "NORMAL",
+      "title": "PA",
+      "text": "Paquets/Année",
+      "calculation": "q_VToxiquePersoTabacPA1 * ((q_VToxiquePersoTabacPACigarettes / 20) + (q_VToxiquePersoTabacPAPipes / 10) + (q_VToxiquePersoTabacPACigares / 5) + (q_VToxiquePersoTabacPAChichas / 2))",
+      "scores": [
+        {
+          "tagOID": "Tag_VToxiquePersoTabacPA1",
+          "conditions": "calc_VToxiquePersoTabacPA < 0.1",
+          "value": 0
+        },
+        {
+          "tagOID": "Tag_VToxiquePersoTabacPA1",
+          "conditions": "calc_VToxiquePersoTabacPA >= 0.1 && calc_VToxiquePersoTabacPA < 1",
+          "value": 1
+        },
+        {
+          "tagOID": "Tag_VToxiquePersoTabacPA1",
+          "conditions": "calc_VToxiquePersoTabacPA >= 1 && calc_VToxiquePersoTabacPA < 10",
+          "value": 2
+        },
+        {
+          "tagOID": "Tag_VToxiquePersoTabacPA1",
+          "conditions": "calc_VToxiquePersoTabacPA >= 10",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "oid":"calc_VToxiquePersoTabacHSI",
+      "type": "WITH_CONDITIONS",
+      "title": "HSI",
+      "text": "Paquets/Année",
+      "calculationsWithConditions": {
+        "q_VToxiquePersoTabacHSI2 <= 10": "0 + Integer.parseInt(q_VToxiquePersoTabacHSI1)",
+        "q_VToxiquePersoTabacHSI2 >= 11 && q_VToxiquePersoTabacHSI2 <= 20": "1 + Integer.parseInt(q_VToxiquePersoTabacHSI1)",
+        "q_VToxiquePersoTabacHSI2 >= 21 && q_VToxiquePersoTabacHSI2 <= 30": "2 + Integer.parseInt(q_VToxiquePersoTabacHSI1)",
+        "q_VToxiquePersoTabacHSI2 >= 31": "3 + Integer.parseInt(q_VToxiquePersoTabacHSI1)"
+
+    },
+      "scores": [
+        {
+          "tagOID": "Tag_VToxiquePersoTabacHSI",
+          "conditions": "calc_VToxiquePersoTabacHSI < 2",
+          "value": 0
+        },
+        {
+          "tagOID": "Tag_VToxiquePersoTabacHSI",
+          "conditions": "calc_VToxiquePersoTabacHSI >= 2 && calc_VToxiquePersoTabacHSI <= 3",
+          "value": 1
+        },
+        {
+          "tagOID": "Tag_VToxiquePersoTabacHSI",
+          "conditions": "calc_VToxiquePersoTabacHSI > 3 ",
+          "value": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "oid": "q_VBougerAPGPAQ6",
+  "title": "Lors d’une journée habituelle durant laquelle vous effectuez des activités physiques d’intensité modérée, combien de temps consacrez-vous à ces activités ?",
+  "text": "Lors d’une journée habituelle durant laquelle vous effectuez des activités physiques d’intensité modérée, combien de temps consacrez-vous à ces activités ?",
+  "type": "ANALOG_SCALE",
+  "scale":{
+    "min":0.0,
+    "max":24.0,
+    "step":1.0,
+    "minText": "0h",
+    "midText": "",
+    "maxText": "24h"
+  }
+}

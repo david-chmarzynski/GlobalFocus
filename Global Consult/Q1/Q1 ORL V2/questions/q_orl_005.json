@@ -1,0 +1,95 @@
+{
+  "oid": "q_orl_005",
+  "title": "Présentez-vous actuellement au niveau de la bouche, un ou plusieurs des symptômes suivant(s) ?",
+  "text": "Présentez-vous actuellement au niveau de la bouche, un ou plusieurs des symptômes suivant(s) ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Une sensation de bouche sèche, de manque de salive"
+    },
+    {
+      "code": "1",
+      "text": "Une diminution ou une disparition du goût "
+    },
+    {
+      "code": "2",
+      "text": "Des aphtes"
+    },
+    {
+      "code": "3",
+      "text": "Une gêne douloureuse persistante au niveau de la langue (picotements, brûlure) "
+    },
+    {
+      "code": "4",
+      "text": "Autre(s) symptôme(s)"
+    },
+    {
+      "code": "5",
+      "text": "Aucun de ces symptômes",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"0\" in q_orl_005",
+      "tagOID": "S_ORL_SYMP_BOUCHE_XEROSTOMIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"0\" in q_orl_005)",
+      "tagOID": "S_ORL_SYMP_BOUCHE_XEROSTOMIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"1\" in q_orl_005",
+      "tagOID": "S_ORL_SYMP_BOUCHE_AGUEUSIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"1\" in q_orl_005)",
+      "tagOID": "S_ORL_SYMP_BOUCHE_AGUEUSIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"2\" in q_orl_005",
+      "tagOID": "S_ORL_SYMP_BOUCHE_APHTE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"2\" in q_orl_005)",
+      "tagOID": "S_ORL_SYMP_BOUCHE_APHTE",
+      "value": 0
+    },
+    {
+      "conditions": "\"3\" in q_orl_005",
+      "tagOID": "S_ORL_SYMP_BOUCHE_GLOSSODYNIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"3\" in q_orl_005)",
+      "tagOID": "S_ORL_SYMP_BOUCHE_GLOSSODYNIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"4\" in q_orl_005",
+      "tagOID": "S_ORL_SYMP_BOUCHE_AUTRE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"4\" in q_orl_005)",
+      "tagOID": "S_ORL_SYMP_BOUCHE_AUTRE",
+      "value": 0
+    },
+    {
+      "conditions": "\"5\" in q_orl_005",
+      "tagOID": "S_ORL_SYMP_BOUCHE",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"5\" in q_orl_005)",
+      "tagOID": "S_ORL_SYMP_BOUCHE",
+      "value": 1
+    } 
+  ]
+}

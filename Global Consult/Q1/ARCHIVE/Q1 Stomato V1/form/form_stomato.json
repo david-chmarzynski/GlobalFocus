@@ -1,0 +1,367 @@
+{
+  "oid": "form_stomato",
+  "title": "Global Consult Q1 module Stomatologie",
+  "estimatedTime": 5,
+  "pricing": 1,
+  "description": "Santé dentaire",
+  "levelMax": "1",
+  "authors": [
+    "Jacques Bassier"
+  ],
+  "chapters": [
+    "chap_Global_Consult_Q1_module_Stomatologie"
+  ],
+  "professions": [
+    "DENTIST"
+  ],
+  "formReport": {
+    "reportDiagnostics":[],
+    "reports": {
+      "preventive": "### Patient:  Mr/Mme {{patient_firstname}} {{patient_lastname}} ({{patient_age}}), né(e) le {{patient_dateofbirth}}  ### \n\n {{question_q_S_STO_005_text}} \n ---> {{question_q_S_STO_005_answer}} \n\n {{question_q_S_STO_006_text}} \n ---> {{question_q_S_STO_006_answer}}"
+    }
+  },
+  "reportingTrees": [
+    {
+      "category": "HEALTH",
+      "reportingNode": {
+        "tagOID": "S_STO",
+        "type": "SCORE",
+        "ranges": [
+          {
+            "min": 0,
+            "max": 0,
+            "color": "00FF00",
+            "text":"STO"
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "color": "FFFF00",
+            "text":"STO"
+          },
+          {
+            "min": 2,
+            "max": 2,
+            "color": "FF9900",
+            "text":"STO"
+          },
+          {
+            "min": 3,
+            "max": 3,
+            "color": "FF0000",
+            "text":"STO"
+          }
+        ],
+        "children": [
+          {
+            "tagOID": "S_STO_ATCD",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text":"ATCD"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text":"ATCD"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_STO_ATCD_PARODONTITE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"PARO"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"PARO"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_STO_ATCD_BRUXISME",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"BRUX"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"BRUX"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_STO_ATCD_BIPHOSPHONATE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"BIPHO"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF9900",
+                    "text":"BIPHO"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_STO_ATCD_ORTHODONTIE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"ORTHO"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FFFF00",
+                    "text":"ORTHO"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_STO_ATCD_CARIE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"CARIE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"CARIE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_STO_ATCD_GREFFE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"GREFFE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FFFF00",
+                    "text":"GREFFE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_STO_ATCD_BRIDGE_COURONNE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"COURON"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FFFF00",
+                    "text":"COURON"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_STO_ATCD_IMPLANT",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"IMPLT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FFFF00",
+                    "text":"IMPLT"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_STO_ATCD_autre",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"AUTRE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"AUTRE"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "S_STO_SYMP",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text":"SYMPTOMES"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text":"SYMPTOMES"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_STO_SYMP_SAIGNEMENT_GENCIVE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"SAIGN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"SAIGN"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_STO_SYMP_HALITOSE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"HALIT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"HALIT"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_STO_SYMP_RETRACTION_GENCIVE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"RETRAC"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"RETRAC"
+                    
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_STO_SYMP_DECHAUSSEMENT_DENT",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"DECH"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"DECH"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_STO_SYMP_AUTRE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"AUTRE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"AUTRE"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

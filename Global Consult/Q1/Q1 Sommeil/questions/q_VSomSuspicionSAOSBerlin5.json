@@ -1,0 +1,55 @@
+{
+  "oid": "q_VSomSuspicionSAOSBerlin5",
+  "title": "A-t-on déjà remarqué que vous cessiez de respirer durant votre sommeil ?",
+  "text": "A-t-on déjà remarqué que vous cessiez de respirer durant votre sommeil ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Presque toutes les nuits"
+    },
+    {
+      "code": "1",
+      "text": "3 à 4 nuits par semaine"
+    },
+    {
+      "code": "2",
+      "text": "1 à 2 nuits par semaine"
+    },
+    {
+      "code": "3",
+      "text": "1 à 2 nuits par mois"
+    },
+    {
+      "code": "4",
+      "text": "Jamais ou presque aucune nuit"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VSomSuspicionSAOSBerlin5 == '0'",
+      "tagOID": "tag_VSomSuspicionSAOSBerlinCAT1",
+      "value": 2
+    },
+    {
+      "conditions": "q_VSomSuspicionSAOSBerlin5 == '1'",
+      "tagOID": "tag_VSomSuspicionSAOSBerlinCAT1",
+      "value": 2
+    },
+    {
+      "conditions": "q_VSomSuspicionSAOSBerlin5 == '2'",
+      "tagOID": "tag_VSomSuspicionSAOSBerlinCAT1",
+      "value": 0
+    },
+    {
+      "conditions": "q_VSomSuspicionSAOSBerlin5 == '3'",
+      "tagOID": "tag_VSomSuspicionSAOSBerlinCAT1",
+      "value": 0
+    },
+    {
+      "conditions": "q_VSomSuspicionSAOSBerlin5 == '4'",
+      "tagOID": "tag_VSomSuspicionSAOSBerlinCAT1",
+      "value": 0
+    }
+  ]
+}

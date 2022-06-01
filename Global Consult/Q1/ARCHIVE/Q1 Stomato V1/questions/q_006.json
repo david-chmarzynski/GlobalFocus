@@ -1,0 +1,28 @@
+{
+  "oid": "q_S_STO_006",
+  "title": "Quelles étaient les raisons de votre dernière visite chez le dentiste ?",
+  "text": "Quelles étaient les raisons de votre dernière visite chez le dentiste ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "J’y suis allé(e) de moi-même pour un examen de contrôle ou un détartrage"
+    },
+    {
+      "code": "1",
+      "text": "J’ai été appelé(e) par le dentiste pour un examen de contrôle ou un détartrage"
+    },
+    {
+      "code": "2",
+      "text": "Quelque chose n’allait pas, me gênait ou me faisait mal"
+    },
+    {
+      "code": "3",
+      "text": "J’y suis allé(e) pour un traitement à la suite d’un précédent examen fait par le dentiste"
+    },
+    {
+      "code": "4",
+      "text": "J’y suis allé(e) parce que je voulais améliorer l’esthétique de mes dents"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "oid": "q_stomatologie_001",
+  "title": "Avez-vous eu ou vous a-t-on diagnostiqué ? ( plusieurs réponses possibles )",
+  "text": "Avez-vous eu ou vous a-t-on diagnostiqué ? ( plusieurs réponses possibles )",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "parodontite",
+      "text": "Parodontite ( inflammation chronique des gencives )"
+    },
+    {
+      "code": "bruxisme",
+      "text": "Bruxisme ( serrement ou grincement involontaire des dents )"
+    },
+    {
+      "code": "osteoporose",
+      "text": "Traitement par biphosphonate pour ostéoporose"
+    },
+    {
+      "code": "ortho",
+      "text": "Traitement orthodontique ( appareil type bague et/ou correction de l’occlusion ) "
+    },
+    {
+      "code": "caries",
+      "text": "Caries dentaires ces 3 dernières années"
+    },
+    {
+      "code": "greffe",
+      "text": "Greffe osseuse ou de gencive"
+    },
+    {
+      "code": "bridges",
+      "text": "Bridges et/ou couronnes dentaires"
+    },
+    {
+      "code": "implant",
+      "text": "Implant(s) dentaire(s)"
+    },
+    {
+      "code": "dentier",
+      "text": "Appareil dentaire amovible (dentier) "
+    },
+    {
+      "code": "orthese",
+      "text": "Orthèse avancée mandibulaire (traitement apnées du sommeil) "
+    },
+    {
+      "code": "autre",
+      "text": "Autre(s) antécédent(s)"
+    },
+    {
+      "code": "aucun",
+      "text": "Aucun de ces antécédents",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"parodontite\" in q_stomatologie_001",
+      "tagOID": "S_STO_ATCD_PARODONTITE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"parodontite\" in q_stomatologie_001)",
+      "tagOID": "S_STO_ATCD_PARODONTITE",
+      "value": 0
+    },
+    {
+      "conditions": "\"bruxisme\" in q_stomatologie_001",
+      "tagOID": "S_STO_ATCD_BRUXISME",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"bruxisme\" in q_stomatologie_001)",
+      "tagOID": "S_STO_ATCD_BRUXISME",
+      "value": 0
+    },
+    {
+      "conditions": "\"osteoporose\" in q_stomatologie_001",
+      "tagOID": "S_STO_ATCD_BIPHOSPHONATE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"osteoporose\" in q_stomatologie_001)",
+      "tagOID": "S_STO_ATCD_BIPHOSPHONATE",
+      "value": 0
+    },
+    {
+      "conditions": "\"ortho\" in q_stomatologie_001",
+      "tagOID": "S_STO_ATCD_ORTHODONTIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"ortho\" in q_stomatologie_001)",
+      "tagOID": "S_STO_ATCD_ORTHODONTIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"caries\" in q_stomatologie_001",
+      "tagOID": "S_STO_ATCD_CARIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"caries\" in q_stomatologie_001)",
+      "tagOID": "S_STO_ATCD_CARIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"greffe\" in q_stomatologie_001",
+      "tagOID": "S_STO_ATCD_GREFFE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"greffe\" in q_stomatologie_001)",
+      "tagOID": "S_STO_ATCD_GREFFE",
+      "value": 0
+    },
+    {
+      "conditions": "\"bridges\" in q_stomatologie_001",
+      "tagOID": "S_STO_ATCD_BRIDGE_COURONNE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"bridges\" in q_stomatologie_001)",
+      "tagOID": "S_STO_ATCD_BRIDGE_COURONNE",
+      "value": 0
+    },
+    {
+      "conditions": "\"implant\" in q_stomatologie_001",
+      "tagOID": "S_STO_ATCD_IMPLANT",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"implant\" in q_stomatologie_001)",
+      "tagOID": "S_STO_ATCD_IMPLANT",
+      "value": 0
+    },
+    {
+      "conditions": "\"dentier\" in q_stomatologie_001",
+      "tagOID": "S_STO_ATCD_DENTIER",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"dentier\" in q_stomatologie_001)",
+      "tagOID": "S_STO_ATCD_DENTIER",
+      "value": 0
+    },
+    {
+      "conditions": "\"orthese\" in q_stomatologie_001",
+      "tagOID": "S_STO_ATCD_ORTHESE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"orthese\" in q_stomatologie_001)",
+      "tagOID": "S_STO_ATCD_ORTHESE",
+      "value": 0
+    },
+    {
+      "conditions": "\"autre\" in q_stomatologie_001",
+      "tagOID": "S_STO_ATCD_AUTRE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"autre\" in q_stomatologie_001)",
+      "tagOID": "S_STO_ATCD_AUTRE",
+      "value": 0
+    },
+    {
+      "conditions": "\"aucun\" in q_stomatologie_001",
+      "tagOID": "S_STO_ATCD",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_stomatologie_001)",
+      "tagOID": "S_STO_ATCD",
+      "value": 1
+    }
+  ]
+}

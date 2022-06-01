@@ -1,0 +1,138 @@
+{
+  "oid": "q_orl_004",
+  "title": "Au niveau des oreilles, vous a-t-on déjà diagnostiqué ?",
+  "text": "Au niveau des oreilles, vous a-t-on déjà diagnostiqué ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Des acouphènes"
+    },
+    {
+      "code": "1",
+      "text": "Une baisse d'audition"
+    },
+    {
+      "code": "2",
+      "text": "Une surdité"
+    },
+    {
+      "code": "3",
+      "text": "Une chirurgie du tympan (drain-yoyo, greffe... )"
+    },
+    {
+      "code": "4",
+      "text": "Une neurinome"
+    },
+    {
+      "code": "5",
+      "text": "Des vertiges"
+    },
+    {
+      "code": "6",
+      "text": "Un cancer au niveau de l'oreille"
+    },
+    {
+      "code": "7",
+      "text": "Autre(s) antécédent(s)"
+    },
+    {
+      "code": "8",
+      "text": "Aucun de ces antécédents",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"0\" in q_orl_004",
+      "tagOID": "S_ORL_ATCD_OREILLE_ACOUPHENES",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"0\" in q_orl_004)",
+      "tagOID": "S_ORL_ATCD_OREILLE_ACOUPHENES",
+      "value": 0
+    },
+    {
+      "conditions": "\"1\" in q_orl_004",
+      "tagOID": "S_ORL_ATCD_OREILLE_HYPOACOUSIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"1\" in q_orl_004)",
+      "tagOID": "S_ORL_ATCD_OREILLE_HYPOACOUSIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"2\" in q_orl_004",
+      "tagOID": "S_ORL_ATCD_OREILLE_SURDITE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"2\" in q_orl_004)",
+      "tagOID": "S_ORL_ATCD_OREILLE_SURDITE",
+      "value": 0
+    },
+    {
+      "conditions": "\"3\" in q_orl_004",
+      "tagOID": "S_ORL_ATCD_OREILLE_CHIRURGIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"3\" in q_orl_004)",
+      "tagOID": "S_ORL_ATCD_OREILLE_CHIRURGIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"4\" in q_orl_004",
+      "tagOID": "S_ORL_ATCD_OREILLE_NEURINOME",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"4\" in q_orl_004)",
+      "tagOID": "S_ORL_ATCD_OREILLE_NEURINOME",
+      "value": 0
+    },
+    {
+      "conditions": "\"5\" in q_orl_004",
+      "tagOID": "S_ORL_ATCD_OREILLE_VERTIGES",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"5\" in q_orl_004)",
+      "tagOID": "S_ORL_ATCD_OREILLE_VERTIGES",
+      "value": 0
+    },
+    {
+      "conditions": "\"6\" in q_orl_004",
+      "tagOID": "S_ORL_ATCD_OREILLE_CANCER",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"6\" in q_orl_004)",
+      "tagOID": "S_ORL_ATCD_OREILLE_CANCER",
+      "value": 0
+    },
+    {
+      "conditions": "\"7\" in q_orl_004",
+      "tagOID": "S_ORL_ATCD_OREILLE_AUTRE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"7\" in q_orl_004)",
+      "tagOID": "S_ORL_ATCD_OREILLE_AUTRE",
+      "value": 0
+    },
+    {
+      "conditions": "\"8\" in q_orl_004",
+      "tagOID": "S_ORL_ATCD_OREILLE",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"8\" in q_orl_004)",
+      "tagOID": "S_ORL_ATCD_OREILLE",
+      "value": 1
+    }
+    
+  ]
+}

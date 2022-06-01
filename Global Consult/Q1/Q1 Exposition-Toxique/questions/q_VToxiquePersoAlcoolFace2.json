@@ -1,0 +1,40 @@
+{
+  "oid": "q_VToxiquePersoAlcoolFace2",
+  "title": "Combien de verres standard buvez-vous, les jours où vous buvez ?",
+  "text": "Combien de verres standard buvez-vous, les jours où vous buvez ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices":[
+    {"code": "0", "text": "1 ou 2"},
+    {"code": "1", "text": "3 ou 4"},
+    {"code": "2", "text": "5 ou 6"},
+    {"code": "3", "text": "7 ou 9"},
+    {"code": "4", "text": "10 ou plus"}
+  ],
+  "scores":[
+    {
+      "tagOID": "Tag_VToxiquePersoAlcoolFace",
+      "conditions": "q_VToxiquePersoAlcoolFace2 == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "Tag_VToxiquePersoAlcoolFace",
+      "conditions": "q_VToxiquePersoAlcoolFace2 == '1'",
+      "value": 1
+    },
+    {
+      "tagOID": "Tag_VToxiquePersoAlcoolFace",
+      "conditions": "q_VToxiquePersoAlcoolFace2 == '2'",
+      "value": 2
+    },
+    {
+      "tagOID": "Tag_VToxiquePersoAlcoolFace",
+      "conditions": "q_VToxiquePersoAlcoolFace2 == '3'",
+      "value": 3
+    },
+    {
+      "tagOID": "Tag_VToxiquePersoAlcoolFace",
+      "conditions": "q_VToxiquePersoAlcoolFace2 == '4'",
+      "value": 4
+    }
+  ]
+}

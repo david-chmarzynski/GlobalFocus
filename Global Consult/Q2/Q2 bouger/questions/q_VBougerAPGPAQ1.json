@@ -1,0 +1,16 @@
+{
+  "oid": "q_VBougerAPGPAQ1",
+  "title": "Est-ce que votre travail ou vos tâches ménagères impliquent des activités physiques de forte intensité qui nécessitent une augmentation conséquente de la respiration ou du rythme cardiaque, comme soulever des charges lourdes, travailler sur un chantier, effectuer du travail de maçonnerie pendant au moins 10 minutes d’affilée ? ",
+  "text": "Est-ce que votre travail ou vos tâches ménagères impliquent des activités physiques de forte intensité qui nécessitent une augmentation conséquente de la respiration ou du rythme cardiaque, comme soulever des charges lourdes, travailler sur un chantier, effectuer du travail de maçonnerie pendant au moins 10 minutes d’affilée ? ",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ]
+}

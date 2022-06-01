@@ -1,0 +1,34 @@
+{
+  "oid": "q_VToxiqueWTemp",
+  "title": "Êtes-vous exposé dans votre environnement de travail au bruit ou à des températures difficiles ?",
+  "text": "Êtes-vous exposé dans votre environnement de travail au bruit ou à des températures difficiles ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices":[
+    {"code": "0", "text": "Nulle ou très faible"},
+    {"code": "1", "text": "Modérée"},
+    {"code": "2", "text": "Moyenne"},
+    {"code": "3", "text": "Forte"}
+  ],
+  "scores":[
+    {
+      "tagOID": "Tag_VToxiqueWTemp",
+      "conditions": "q_VToxiqueWTemp == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "Tag_VToxiqueWTemp",
+      "conditions": "q_VToxiqueWTemp == '1'",
+      "value": 1
+    },
+    {
+      "tagOID": "Tag_VToxiqueWTemp",
+      "conditions": "q_VToxiqueWTemp == '2'",
+      "value": 2
+    },
+    {
+      "tagOID": "Tag_VToxiqueWTemp",
+      "conditions": "q_VToxiqueWTemp == '3'",
+      "value": 3
+    }
+  ]
+}

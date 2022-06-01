@@ -1,0 +1,2552 @@
+{
+  "oid": "f_global_consult_q1",
+  "title": "Global Consult Q1",
+  "estimatedTime": 40,
+  "pricing": 10,
+  "description": "Global Consult Q1 est un questionnaire d’évaluation globale de votre mode de vie et de votre santé.\n Indispensable lors de votre prochaine consultation, il facilitera la compréhension de vos problèmes de santé. Son analyse se fera dans un climat d’expertise partagée avec votre médecin pour une prise en charge la fois globale et personnalisée. Installez-vous confortablement et prenez votre temps pour répondre aux questions. En cas d’interruption, vos réponses seront sauvegardées et vous pourrez poursuivre le questionnaire à l’endroit où vous vous étiez arrêté.",
+  "levelMax": "1",
+  "authors": ["Jean-Philippe Astruc", "Jacques Bassier"],
+  "chapters": ["chap_global_consult_q1"],
+  "professions": ["DENTIST","NUTRITIONIST_MEDICINE","GENERAL_MEDICINE"],
+  "reportingTrees": [
+    {
+      "category": "LIFE_STYLE",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "tag_VTeteCouleur",
+        "type": "SCORE",
+        "ranges": [
+          {
+            "min": 0,
+            "max": 0.9,
+            "color": "00FF00",
+            "text": "P/COUL"
+          },
+          {
+            "min": 1,
+            "max": 1.9,
+            "color": "FFFF00",
+            "text": "P/COUL"
+          },
+          {
+            "min": 2,
+            "max": 2.9,
+            "color": "0070C0",
+            "text": "P/COUL"
+          },
+          {
+            "min": 3,
+            "max": 3.9,
+            "color": "FF0000",
+            "text": "P/COUL"
+          }
+        ],
+        "children": [
+          {
+            "tagOID": "tag_VTeteTensionEmotionnelle",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0.9,
+                "color": "00FF00",
+                "text": "TENS"
+              },
+              {
+                "min": 1,
+                "max": 1.9,
+                "color": "FFFF00",
+                "text": "TENS"
+              },
+              {
+                "min": 2,
+                "max": 2.9,
+                "color": "FF9900",
+                "text": "TENS"
+              },
+              {
+                "min": 3,
+                "max": 3.9,
+                "color": "FF0000",
+                "text": "TENS"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "tag_VTeteAnxieteTrait",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0.9,
+                    "color": "00FF00",
+                    "text": "ANX-TRT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "FFFF00",
+                    "text": "ANX-TRT"
+                  },
+                  {
+                    "min": 2,
+                    "max": 2.9,
+                    "color": "FF9900",
+                    "text": "ANX-TRT"
+                  },
+                  {
+                    "min": 3,
+                    "max": 3.9,
+                    "color": "FF0000",
+                    "text": "ANX-TRT"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "Tag_VTetePerfectionnisme",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0.9,
+                    "color": "00FF00",
+                    "text": "PERFECT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "FFFF00",
+                    "text": "PERFECT"
+                  },
+                  {
+                    "min": 2,
+                    "max": 2.9,
+                    "color": "FF9900",
+                    "text": "PERFECT"
+                  },
+                  {
+                    "min": 3,
+                    "max": 3.9,
+                    "color": "FF0000",
+                    "text": "PERFECT"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VTeteStressGlobal",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 3.9,
+                    "color": "00FF00",
+                    "text": "STRESS"
+                  },
+                  {
+                    "min": 4,
+                    "max": 5.9,
+                    "color": "FFFF00",
+                    "text": "STRESS"
+                  },
+                  {
+                    "min": 6,
+                    "max": 7.9,
+                    "color": "FF9900",
+                    "text": "STRESS"
+                  },
+                  {
+                    "min": 8,
+                    "max": 10.9,
+                    "color": "FF0000",
+                    "text": "STRESS"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "tag_VTeteMotivationStade",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 1,
+                "max": 1.9,
+                "color": "00FF00",
+                "text": "MOTIV"
+              },
+              {
+                "min": 2,
+                "max": 2.9,
+                "color": "CCFF33",
+                "text": "MOTIV"
+              },
+              {
+                "min": 3,
+                "max": 3.9,
+                "color": "FFFF00",
+                "text": "MOTIV"
+              },
+              {
+                "min": 4,
+                "max": 4.9,
+                "color": "FF9900",
+                "text": "MOTIV"
+              },
+              {
+                "min": 5,
+                "max": 5.9,
+                "color": "FF0000",
+                "text": "MOTIV"
+              },
+              {
+                "min": 10,
+                "max": 10.9,
+                "color": "990000",
+                "text": "MOTIV"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "tag_VTeteMotivationEnvie",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 9,
+                    "max": 10.9,
+                    "color": "00FF00",
+                    "text": "ENVI"
+                  },
+                  {
+                    "min": 7,
+                    "max": 8.9,
+                    "color": "FFFF00",
+                    "text": "ENVI"
+                  },
+                  {
+                    "min": 5,
+                    "max": 6.9,
+                    "color": "FF9900",
+                    "text": "ENVI"
+                  },
+                  {
+                    "min": 0,
+                    "max": 4.9,
+                    "color": "FF0000",
+                    "text": "ENVI"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VTeteMotivationConfiance",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 9,
+                    "max": 10.9,
+                    "color": "00FF00",
+                    "text": "CONFI"
+                  },
+                  {
+                    "min": 7,
+                    "max": 8.9,
+                    "color": "FFFF00",
+                    "text": "CONFI"
+                  },
+                  {
+                    "min": 5,
+                    "max": 6.9,
+                    "color": "FF9900",
+                    "text": "CONFI"
+                  },
+                  {
+                    "min": 0,
+                    "max": 4.9,
+                    "color": "FF0000",
+                    "text": "CONFI"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VTeteMotivationPret",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 9,
+                    "max": 10.9,
+                    "color": "00FF00",
+                    "text": "PRÊT"
+                  },
+                  {
+                    "min": 7,
+                    "max": 8.9,
+                    "color": "FFFF00",
+                    "text": "PRÊT"
+                  },
+                  {
+                    "min": 5,
+                    "max": 6.9,
+                    "color": "FF9900",
+                    "text": "PRÊT"
+                  },
+                  {
+                    "min": 0,
+                    "max": 4.9,
+                    "color": "FF0000",
+                    "text": "PRÊT"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "tag_VTeteVisionSoiGlobale",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 1,
+                "max": 1.9,
+                "color": "00FF00",
+                "text": "SOI/VIS"
+              },
+              {
+                "min": 2,
+                "max": 2.9,
+                "color": "CCFF33",
+                "text": "SOI/VIS"
+              },
+              {
+                "min": 3,
+                "max": 3.9,
+                "color": "FFFF00",
+                "text": "SOI/VIS"
+              },
+              {
+                "min": 4,
+                "max": 4.9,
+                "color": "FF9900",
+                "text": "SOI/VIS"
+              },
+              {
+                "min": 5,
+                "max": 5.9,
+                "color": "FF0000",
+                "text": "SOI/VIS"
+              },
+              {
+                "min": 6,
+                "max": 6.9,
+                "color": "990000",
+                "text": "SOI/VIS"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "tag_VTeteImageCorporelle",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "00FF00",
+                    "text": "IM/CORP"
+                  },
+                  {
+                    "min": 10,
+                    "max": 10.9,
+                    "color": "CCFF33",
+                    "text": "IM/CORP"
+                  },
+                  {
+                    "min": 2,
+                    "max": 2.9,
+                    "color": "FFFF00",
+                    "text": "IM/CORP"
+                  },
+                  {
+                    "min": 3,
+                    "max": 3.9,
+                    "color": "FF9900",
+                    "text": "IM/CORP"
+                  },
+                  {
+                    "min": 4,
+                    "max": 4.9,
+                    "color": "FF0000",
+                    "text": "IM/CORP"
+                  },
+                  {
+                    "min": 5,
+                    "max": 5.9,
+                    "color": "990000",
+                    "text": "IM/CORP"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VTeteADSGlobale",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "00FF00",
+                    "text": "ADS"
+                  },
+                  {
+                    "min": 10,
+                    "max": 10.9,
+                    "color": "CCFF33",
+                    "text": "ADS"
+                  },
+                  {
+                    "min": 2,
+                    "max": 2.9,
+                    "color": "FFFF00",
+                    "text": "ADS"
+                  },
+                  {
+                    "min": 3,
+                    "max": 3.9,
+                    "color": "FF9900",
+                    "text": "ADS"
+                  },
+                  {
+                    "min": 4,
+                    "max": 4.9,
+                    "color": "FF0000",
+                    "text": "ADS"
+                  },
+                  {
+                    "min": 5,
+                    "max": 5.9,
+                    "color": "990000",
+                    "text": "ADS"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VTeteConfianceSoi",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 8,
+                    "max": 10.9,
+                    "color": "00FF00",
+                    "text": "SOI/CONF"
+                  },
+                  {
+                    "min": 6,
+                    "max": 7.9,
+                    "color": "FFFF00",
+                    "text": "SOI/CONF"
+                  },
+                  {
+                    "min": 4,
+                    "max": 5.9,
+                    "color": "FF9900",
+                    "text": "SOI/CONF"
+                  },
+                  {
+                    "min": 0,
+                    "max": 3.9,
+                    "color": "FF0000",
+                    "text": "SOI/CONF"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VTeteEstimeSoi",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "00FF00",
+                    "text": "SOI/EST"
+                  },
+                  {
+                    "min": 2,
+                    "max": 2.9,
+                    "color": "CCFF33",
+                    "text": "SOI/EST"
+                  },
+                  {
+                    "min": 3,
+                    "max": 3.9,
+                    "color": "FFFF00",
+                    "text": "SOI/EST"
+                  },
+                  {
+                    "min": 4,
+                    "max": 4.9,
+                    "color": "FF9900",
+                    "text": "SOI/EST"
+                  },
+                  {
+                    "min": 5,
+                    "max": 5.9,
+                    "color": "FF0000",
+                    "text": "SOI/EST"
+                  },
+                  {
+                    "min": 6,
+                    "max": 6.9,
+                    "color": "990000",
+                    "text": "SOI/EST"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "category": "LIFE_STYLE",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "tag_VContexteVieGlobal",
+        "type": "SCORE",
+        "ranges": [
+          {
+            "min": 0,
+            "max": 0.9,
+            "color": "00FF00",
+            "text": "SATISF/VIE"
+          },
+          {
+            "min": 1,
+            "max": 1.9,
+            "color": "FFFF00",
+            "text": "SATISF/VIE"
+          },
+          {
+            "min": 2,
+            "max": 2.9,
+            "color": "FF9900",
+            "text": "SATISF/VIE"
+          },
+          {
+            "min": 3,
+            "max": 3.9,
+            "color": "FF0000",
+            "text": "SATISF/VIE"
+          }
+        ],
+        "children": [
+          {
+            "tagOID": "tag_VContexteVieWEtudesVecu",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0.9,
+                "color": "00FF00",
+                "text": "VÉCU/W"
+              },
+              {
+                "min": 1,
+                "max": 1.9,
+                "color": "FFFF00",
+                "text": "VÉCU/W"
+              },
+              {
+                "min": 2,
+                "max": 2.9,
+                "color": "FF9900",
+                "text": "VÉCU/W"
+              },
+              {
+                "min": 3,
+                "max": 3.9,
+                "color": "FF0000",
+                "text": "VÉCU/W"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "tag_VContexteVieEtudesWOrganisation",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0.9,
+                    "color": "00FF00",
+                    "text": "ORG/W"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "FFFF00",
+                    "text": "ORG/W"
+                  },
+                  {
+                    "min": 2,
+                    "max": 2.9,
+                    "color": "FF9900",
+                    "text": "ORG/W"
+                  },
+                  {
+                    "min": 3,
+                    "max": 3.9,
+                    "color": "FF0000",
+                    "text": "ORG/W"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VContexteVieEtudesWHumain",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0.9,
+                    "color": "00FF00",
+                    "text": "HUM/W"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "FFFF00",
+                    "text": "HUM/W"
+                  },
+                  {
+                    "min": 2,
+                    "max": 2.9,
+                    "color": "FF9900",
+                    "text": "HUM/W"
+                  },
+                  {
+                    "min": 3,
+                    "max": 3.9,
+                    "color": "FF0000",
+                    "text": "HUM/W"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VContexteVieEtudesStress",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 3.9,
+                    "color": "00FF00",
+                    "text": "STRESS/W"
+                  },
+                  {
+                    "min": 4,
+                    "max": 5.9,
+                    "color": "FFFF00",
+                    "text": "STRESS/W"
+                  },
+                  {
+                    "min": 6,
+                    "max": 7.9,
+                    "color": "FF9900",
+                    "text": "STRESS/W"
+                  },
+                  {
+                    "min": 8,
+                    "max": 10,
+                    "color": "FF0000",
+                    "text": "STRESS/W"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "tag_VContexteVieQDVGlobal",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0.9,
+                "color": "00FF00",
+                "text": "QDVGLOB"
+              },
+              {
+                "min": 1,
+                "max": 1.9,
+                "color": "FFFF00",
+                "text": "QDVGLOB"
+              },
+              {
+                "min": 2,
+                "max": 2.9,
+                "color": "FF9900",
+                "text": "QDVGLOB"
+              },
+              {
+                "min": 3,
+                "max": 3.9,
+                "color": "FF0000",
+                "text": "QDVGLOB"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "tag_VContexteQDVDouleurs",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 3.9,
+                    "color": "00FF00",
+                    "text": "QDV/DOUL"
+                    
+                  },
+                  {
+                    "min": 4,
+                    "max": 5.9,
+                    "color": "FFFF00",
+                    "text": "QDV/DOUL"
+                  },
+                  {
+                    "min": 6,
+                    "max": 7.9,
+                    "color": "FF9900",
+                    "text": "QDV/DOUL"
+                  },
+                  {
+                    "min": 8,
+                    "max": 10,
+                    "color": "FF0000",
+                    "text": "QDV/DOUL"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VContexteQDVEmotionnel",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0.9,
+                    "color": "00FF00",
+                    "text": "QDV/EMOT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "FFFF00",
+                    "text": "QDV/EMOT"
+                  },
+                  {
+                    "min": 2,
+                    "max": 2.9,
+                    "color": "FF9900",
+                    "text": "QDV/EMOT"
+                  },
+                  {
+                    "min": 3,
+                    "max": 3.9,
+                    "color": "FF0000",
+                    "text": "QDV/EMOT"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VContexteQDVSante",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 3.9,
+                    "color": "FF0000",
+                    "text": "QDV/SANT"
+                  },
+                  {
+                    "min": 4,
+                    "max": 5.9,
+                    "color": "FF9900",
+                    "text": "QDV/SANT"
+                  },
+                  {
+                    "min": 6,
+                    "max": 7.9,
+                    "color": "FFFF00",
+                    "text": "QDV/SANT"
+                  },
+                  {
+                    "min": 8,
+                    "max": 10,
+                    "color": "00FF00",
+                    "text": "QDV/SANT"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VContexteQDVCognitif",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0.9,
+                    "color": "00FF00",
+                    "text": "QDV/COGN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "FFFF00",
+                    "text": "QDV/COGN"
+                  },
+                  {
+                    "min": 2,
+                    "max": 2.9,
+                    "color": "FF9900",
+                    "text": "QDV/COGN"
+                  },
+                  {
+                    "min": 3,
+                    "max": 3.9,
+                    "color": "FF0000",
+                    "text": "QDV/COGN"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VContexteQDVMobilite",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0.9,
+                    "color": "00FF00",
+                    "text": "QDV/MOB"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "FFFF00",
+                    "text": "QDV/MOB"
+                  },
+                  {
+                    "min": 2,
+                    "max": 2.9,
+                    "color": "FF9900",
+                    "text": "QDV/MOB"
+                  },
+                  {
+                    "min": 3,
+                    "max": 3.9,
+                    "color": "FF0000",
+                    "text": "QDV/MOB"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VContexteQDVAutonomie",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0.9,
+                    "color": "00FF00",
+                    "text": "QDV/AUTO"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "FFFF00",
+                    "text": "QDV/AUTO"
+                  },
+                  {
+                    "min": 2,
+                    "max": 2.9,
+                    "color": "FF9900",
+                    "text": "QDV/AUTO"
+                  },
+                  {
+                    "min": 3,
+                    "max": 3.9,
+                    "color": "FF0000",
+                    "text": "QDV/AUTO"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VContexteQDVActivites",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0.9,
+                    "color": "00FF00",
+                    "text": "QDV/ACT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "FFFF00",
+                    "text": "QDV/ACT"
+                  },
+                  {
+                    "min": 2,
+                    "max": 2.9,
+                    "color": "FF9900",
+                    "text": "QDV/ACT"
+                  },
+                  {
+                    "min": 3,
+                    "max": 3.9,
+                    "color": "FF0000",
+                    "text": "QDV/ACT"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "tag_VContexteVieFamilleGlobal",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0.9,
+                "color": "00FF00",
+                "text": "FAM"
+              },
+              {
+                "min": 1,
+                "max": 1.9,
+                "color": "FFFF00",
+                "text": "FAM"
+              },
+              {
+                "min": 2,
+                "max": 2.9,
+                "color": "FF9900",
+                "text": "FAM"
+              },
+              {
+                "min": 3,
+                "max": 3.9,
+                "color": "FF0000",
+                "text": "FAM"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "tag_VContexteFamilleStress",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 3.9,
+                    "color": "00FF00",
+                    "text": "FAM/STRESS"
+                  },
+                  {
+                    "min": 4,
+                    "max": 5.9,
+                    "color": "FFFF00",
+                    "text": "FAM/STRESS"
+                  },
+                  {
+                    "min": 6,
+                    "max": 7.9,
+                    "color": "FF9900",
+                    "text": "FAM/STRESS"
+                  },
+                  {
+                    "min": 8,
+                    "max": 10,
+                    "color": "FF0000",
+                    "text": "FAM/STRESS"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VFamilleHumaine",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0.9,
+                    "color": "00FF00",
+                    "text": "FAM/HUM"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "FFFF00",
+                    "text": "FAM/HUM"
+                  },
+                  {
+                    "min": 2,
+                    "max": 2.9,
+                    "color": "FF9900",
+                    "text": "FAM/HUM"
+                  },
+                  {
+                    "min": 3,
+                    "max": 3.9,
+                    "color": "FF0000",
+                    "text": "FAM/HUM"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VFamillePratique",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0.9,
+                    "color": "00FF00",
+                    "text": "FAM/ORG"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "FFFF00",
+                    "text": "FAM/ORG"
+                  },
+                  {
+                    "min": 2,
+                    "max": 2.9,
+                    "color": "FF9900",
+                    "text": "FAM/ORG"
+                  },
+                  {
+                    "min": 3,
+                    "max": 3.9,
+                    "color": "FF0000",
+                    "text": "FAM/ORG"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "category": "LIFE_STYLE",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "Tag_VToxiqueGlobal",
+        "type": "SCORE",
+        "ranges": [
+            { "min": 0, "max": 0, "color": "00FF00", "text": "GLOBAL" },
+            { "min": 1, "max": 1, "color": "FFFF00", "text": "GLOBAL" },
+            { "min": 2, "max": 2, "color": "FF9900", "text": "GLOBAL" },
+            { "min": 3, "max": 3, "color": "FF0000", "text": "GLOBAL" },
+            { "min": 4, "max": 4, "color": "990000", "text": "GLOBAL" }
+        ],
+        "children":[
+          {
+            "tagOID": "Tag_VToxiqueW",
+            "type": "SCORE",
+            "ranges": [
+                { "min": 0, "max": 0, "color": "00FF00", "text": "TOX-W" },
+                { "min": 1, "max": 1, "color": "FFFF00", "text": "TOX-W" },
+                { "min": 2, "max": 2, "color": "FF9900", "text": "TOX-W" },
+                { "min": 3, "max": 3, "color": "FF0000", "text": "TOX-W" }
+            ],
+            "children":[
+              {
+                "tagOID": "Tag_VToxiqueWAir",
+                "type": "SCORE",
+                "ranges": [
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "W/AIR" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "W/AIR" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "W/AIR" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "W/AIR" }
+                ]
+              },
+              {
+                "tagOID": "Tag_VToxiqueWProduits",
+                "type": "SCORE",
+                "ranges": [
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "W/CHIM" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "W/CHIM" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "W/CHIM" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "W/CHIM" }
+                ]
+              },
+              {
+                "tagOID": "Tag_VToxiqueWRisques",
+                "type": "SCORE",
+                "ranges": [
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "W/RAD" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "W/RAD" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "W/RAD" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "W/RAD" }
+                ]
+              },
+              {
+                "tagOID": "Tag_VToxiqueWTemp",
+                "type": "SCORE",
+                "ranges": [
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "W/BRUI" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "W/BRUI" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "W/BRUI" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "W/BRUI" }
+                ]
+              }
+            ]
+          },
+          {
+            "tagOID": "Tag_VToxiqueExt",
+            "type": "SCORE",
+            "ranges": [
+                { "min": 0, "max": 0, "color": "00FF00", "text": "POLL-EXT" },
+                { "min": 1, "max": 1, "color": "FFFF00", "text": "POLL-EXT" },
+                { "min": 2, "max": 2, "color": "FF9900", "text": "POLL-EXT" },
+                { "min": 3, "max": 3, "color": "FF0000", "text": "POLL-EXT" }
+            ],
+            "children":[
+              {
+                "tagOID": "Tag_VToxiqueExtBruit",
+                "type": "SCORE",
+                "ranges": [
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "EXT/BRUIT" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "EXT/BRUIT" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "EXT/BRUIT" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "EXT/BRUIT" }
+                ]
+              },
+              {
+                "tagOID": "Tag_VToxiqueExtAir",
+                "type": "SCORE",
+                "ranges": [
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "EXT/AIR" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "EXT/AIR" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "EXT/AIR" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "EXT/AIR" }
+                ]
+              }
+            ]
+          },
+          {
+            "tagOID": "Tag_VToxiqueLogement",
+            "type": "SCORE",
+            "ranges": [
+                { "min": 0, "max": 0, "color": "00FF00", "text": "POLL-LOG" },
+                { "min": 1, "max": 1, "color": "FFFF00", "text": "POLL-LOG" },
+                { "min": 2, "max": 2, "color": "FF9900", "text": "POLL-LOG" },
+                { "min": 3, "max": 3, "color": "FF0000", "text": "POLL-LOG" }
+            ],
+            "children":[
+              {
+                "tagOID": "Tag_VToxiqueIntAir",
+                "type": "SCORE",
+                "ranges": [
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "L/AIR" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "L/AIR" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "L/AIR" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "L/AIR" }
+                ]
+              },
+              {
+                "tagOID": "Tag_VToxiqueIntAeration",
+                "type": "SCORE",
+                "ranges": [
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "L/AERA" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "L/AERA" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "L/AERA" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "L/AERA" }
+                ]
+              },
+              {
+                "tagOID": "Tag_VToxiqueIntMobilier",
+                "type": "SCORE",
+                "ranges": [
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "L/MOB" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "L/MOB" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "L/MOB" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "L/MOB" }
+                ]
+              },
+              {
+                "tagOID": "Tag_VToxiqueIntEntretien",
+                "type": "SCORE",
+                "ranges": [
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "L/MENAG" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "L/MENAG" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "L/MENAG" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "L/MENAG" }
+                ]
+              },
+              {
+                "tagOID": "Tag_VToxiqueIntChimique",
+                "type": "SCORE",
+                "ranges": [
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "L/CHIM" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "L/CHIM" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "L/CHIM" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "L/CHIM" }
+                ]
+              }
+            ]
+          },
+          {
+            "tagOID": "Tag_VToxiquePerso",
+            "type": "SCORE",
+            "ranges": [
+                { "min": 0, "max": 0, "color": "00FF00", "text": "TOX-PERS" },
+                { "min": 1, "max": 1, "color": "FFFF00", "text": "TOX-PERS" },
+                { "min": 2, "max": 2, "color": "FF9900", "text": "TOX-PERS" },
+                { "min": 3, "max": 3, "color": "FF0000", "text": "TOX-PERS" }
+            ],
+            "children":[
+              {
+                "tagOID": "Tag_VToxiquePersoHygiene",
+                "type": "SCORE",
+                "ranges": [
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "P/HYG" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "P/HYG" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "P/HYG" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "P/HYG" }
+                ]
+              },
+              {
+                "tagOID": "Tag_VToxiquePersoAlimentation",
+                "type": "SCORE",
+                "ranges": [
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "P/ALIM" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "P/ALIM" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "P/ALIM" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "P/ALIM" }
+                ],
+                "children":[
+                  {
+                    "tagOID": "Tag_VToxiquePersoCuisine",
+                    "type": "SCORE",
+                    "ranges": [
+                        { "min": 0, "max": 0, "color": "00FF00", "text": "A/PLAST" },
+                        { "min": 1, "max": 1, "color": "FFFF00", "text": "A/PLAST" },
+                        { "min": 2, "max": 2, "color": "FF9900", "text": "A/PLAST" },
+                        { "min": 3, "max": 3, "color": "FF0000", "text": "A/PLAST" }
+                    ]
+                  },
+                  {
+                    "tagOID": "Tag_VToxiquePersoCuisson",
+                    "type": "SCORE",
+                    "ranges": [
+                        { "min": 0, "max": 0, "color": "00FF00", "text": "A/CUISS" },
+                        { "min": 1, "max": 1, "color": "FFFF00", "text": "A/CUISS" },
+                        { "min": 2, "max": 2, "color": "FF9900", "text": "A/CUISS" },
+                        { "min": 3, "max": 3, "color": "FF0000", "text": "A/CUISS" }
+                    ]
+                  },
+                  {
+                    "tagOID": "Tag_VToxiquePersoAliments",
+                    "type": "SCORE",
+                    "ranges": [
+                        { "min": 0, "max": 0, "color": "00FF00", "text": "A/NOUR" },
+                        { "min": 1, "max": 1, "color": "FFFF00", "text": "A/NOUR" },
+                        { "min": 2, "max": 2, "color": "FF9900", "text": "A/NOUR" },
+                        { "min": 3, "max": 3, "color": "FF0000", "text": "A/NOUR" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tagOID": "Tag_VToxiquePersoDrogues",
+                "type": "SCORE",
+                "ranges": [
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "P/DROG" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "P/DROG" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "P/DROG" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "P/DROG" }
+                ]
+              },
+              {
+                "tagOID": "Tag_VToxiquePersoAlcool",
+                "type": "SCORE",
+                "ranges": [
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "P/OL" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "P/OL" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "P/OL" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "P/OL" }
+                ],
+                "children":[
+                  {
+                    "tagOID": "Tag_VToxiquePersoAlcoolFace",
+                    "type": "SCORE",
+                    "ranges": [
+                        { "min": 0, "max": 3, "color": "00FF00", "text": "OL/FACE" },
+                        { "min": 4, "max": 8, "color": "FFFF00", "text": "OL/FACE" },
+                        { "min": 9, "max": 50, "color": "FF0000", "text": "OL/FACE" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tagOID": "Tag_VToxiqueTabac",
+                "type": "SCORE",
+                "ranges": [
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "TABAC" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "TABAC" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "TABAC" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "TABAC" }
+                ],
+                "children":[
+                  {
+                    "tagOID": "Tag_VToxiquePersoTabacPA1",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": 0, "max": 0, "color": "00FF00", "text": "PA" },
+                      { "min": 1, "max": 1, "color": "FFFF00", "text": "PA" },
+                      { "min": 2, "max": 2, "color": "FF9900", "text": "PA" },
+                      { "min": 3, "max": 3, "color": "FF0000", "text": "PA" }
+                    ]
+                  },
+                  {
+                    "tagOID": "Tag_VToxiquePersoTabacHSI",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": 0, "max": 0, "color": "FFFF00", "text": "HSI" },
+                      { "min": 1, "max": 1, "color": "FF9900", "text": "HSI" },
+                      { "min": 2, "max": 2, "color": "FF0000", "text": "HSI" }
+                    ]
+                  },
+                  {
+                    "tagOID": "Tag_VToxiquePersoTabacPassif",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": 0, "max": 0, "color": "00FF00", "text": "PASSIF" },
+                      { "min": 1, "max": 1, "color": "FFFF00", "text": "PASSIF" },
+                      { "min": 2, "max": 2, "color": "FF9900", "text": "PASSIF" },
+                      { "min": 3, "max": 3, "color": "FF0000", "text": "PASSIF" }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "category": "LIFE_STYLE",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "tag_VSomSatisfactionGlobale",
+        "type": "SCORE",
+        "ranges": [
+          {
+            "min": 0,
+            "max": 0,
+            "color": "00FF00",
+            "text": "SATISF"
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "color": "CCFF33",
+            "text": "SATISF"
+          },
+          {
+            "min": 2,
+            "max": 2,
+            "color": "FFFF00",
+            "text": "SATISF"
+          },
+          {
+            "min": 3,
+            "max": 3,
+            "color": "990000",
+            "text": "SATISF"
+          }
+        ],
+        "children": [
+          {
+            "tagOID": "tag_VSomContexteRythmesGlobal",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "CTX/SOM"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "CCFF33",
+                "text": "CTX/SOM"
+              },
+              {
+                "min": 2,
+                "max": 2,
+                "color": "FFFF00",
+                "text": "CTX/SOM"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "990000",
+                "text": "CTX/SOM"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "tag_VSomAideMedicament",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 1,
+                "max": 1.9,
+                "color": "00FF00",
+                "text": "MED/SOM"
+              },
+              {
+                "min": 2,
+                "max": 2.9,
+                "color": "CCFF33",
+                "text": "MED/SOM"
+              },
+              {
+                "min": 3,
+                "max": 3.9,
+                "color": "FFFF00",
+                "text": "MED/SOM"
+              },
+              {
+                "min": 4,
+                "max": 4.9,
+                "color": "990000",
+                "text": "MED/SOM"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "tag_VSomEndormissement",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "ENDORM"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "CCFF33",
+                "text": "ENDORM"
+              },
+              {
+                "min": 2,
+                "max": 2,
+                "color": "FFFF00",
+                "text": "ENDORM"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "FF9900",
+                "text": "ENDORM"
+              },
+              {
+                "min": 4,
+                "max": 4,
+                "color": "FF0000",
+                "text": "ENDORM"
+              },
+              {
+                "min": 5,
+                "max": 5,
+                "color": "990000",
+                "text": "ENDORM"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "tag_VSomMaintien",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "MAINTIEN"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FFFF00",
+                "text": "MAINTIEN"
+              },
+              {
+                "min": 2,
+                "max": 2,
+                "color": "FF9900",
+                "text": "MAINTIEN"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "FF0000",
+                "text": "MAINTIEN"
+              },
+              {
+                "min": 4,
+                "max": 4,
+                "color": "990000",
+                "text": "MAINTIEN"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "tag_VSomSatisfactionQuantite",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "QTT/SOM"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF9900",
+                "text": "QTT/SOM"
+              },
+              {
+                "min": 2,
+                "max": 2,
+                "color": "FF0000",
+                "text": "QTT/SOM"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "990000",
+                "text": "QTT/SOM"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "tag_VSomSatisfactionQualite",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "QUAL/SOM"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF9900",
+                "text": "QUAL/SOM"
+              },
+              {
+                "min": 2,
+                "max": 2,
+                "color": "FF0000",
+                "text": "QUAL/SOM"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "990000",
+                "text": "QUAL/SOM"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "tag_VSomAsthenieMatinale",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 1,
+                "max": 1.9,
+                "color": "00FF00",
+                "text": "F/MAT"
+              },
+              {
+                "min": 2,
+                "max": 2.9,
+                "color": "CCFF33",
+                "text": "F/MAT"
+              },
+              {
+                "min": 3,
+                "max": 3.9,
+                "color": "FFFF00",
+                "text": "F/MAT"
+              },
+              {
+                "min": 4,
+                "max": 4.9,
+                "color": "FF9900",
+                "text": "F/MAT"
+              },
+              {
+                "min": 5,
+                "max": 5.9,
+                "color": "FF0000",
+                "text": "F/MAT"
+              },
+              {
+                "min": 6,
+                "max": 6.9,
+                "color": "990000",
+                "text": "F/MAT"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "tag_VSomAsthenieDiurne",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 1,
+                "max": 1.9,
+                "color": "00FF00",
+                "text": "F/JOUR"
+              },
+              {
+                "min": 10,
+                "max": 10.9,
+                "color": "CCFF33",
+                "text": "F/JOUR"
+              },
+              {
+                "min": 2,
+                "max": 2.9,
+                "color": "FFFF00",
+                "text": "F/JOUR"
+              },
+              {
+                "min": 3,
+                "max": 3.9,
+                "color": "FF9900",
+                "text": "F/JOUR"
+              },
+              {
+                "min": 4,
+                "max": 4.9,
+                "color": "FF0000",
+                "text": "F/JOUR"
+              },
+              {
+                "min": 5,
+                "max": 5.9,
+                "color": "990000",
+                "text": "F/JOUR"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "tag_VSomSuspicionTroublesSommeil",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 1,
+                "max": 1.9,
+                "color": "00FF00",
+                "text": "TRBLE/SOM"
+              },
+              {
+                "min": 2,
+                "max": 2.9,
+                "color": "FF9900",
+                "text": "TRBLE/SOM"
+              },
+              {
+                "min": 3,
+                "max": 3.9,
+                "color": "FF0000",
+                "text": "TRBLE/SOM"
+              },
+              {
+                "min": 4,
+                "max": 4.9,
+                "color": "990000",
+                "text": "TRBLE/SOM"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "tag_VSomSuspicionSAOS",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0.9,
+                    "color": "00FF00",
+                    "text": "SAOS"
+                  },
+                  {
+                    "min": 20,
+                    "max": 20.9,
+                    "color": "FF9900",
+                    "text": "SAOS"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "FF0000",
+                    "text": "SAOS"
+                  },
+                  {
+                    "min": 2,
+                    "max": 19.9,
+                    "color": "990000",
+                    "text": "SAOS"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VSSJR",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0.9,
+                    "color": "00FF00",
+                    "text": "SJSR"
+                  },
+                  {
+                    "min": 1,
+                    "max": 2.9,
+                    "color": "FF9900",
+                    "text": "SJSR"
+                  },
+                  {
+                    "min": 3,
+                    "max": 4.9,
+                    "color": "FF0000",
+                    "text": "SJSR"
+                  },
+                  {
+                    "min": 5,
+                    "max": 20.9,
+                    "color": "990000",
+                    "text": "SJSR"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "tag_VSomATCDTroublesSommeil",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0.9,
+                "color": "00FF00",
+                "text": "ATCD/SOM"
+              },
+              {
+                "min": 1,
+                "max": 1.9,
+                "color": "990000",
+                "text": "ATCD/SOM"
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    },
+    {
+      "category": "LIFE_STYLE",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "tag_VAlimentationGlobal",
+        "type": "SCORE",
+        "ranges": [
+          {
+            "min": 0,
+            "max": 0.9,
+            "color": "00FF00",
+            "text": "EVAL/GLOB"
+          },
+          {
+            "min": 1,
+            "max": 1.9,
+            "color": "FFFF00",
+            "text": "EVAL/GLOB"
+          },
+          {
+            "min": 2,
+            "max": 2.9,
+            "color": "FF9900",
+            "text": "EVAL/GLOB"
+          },
+          {
+            "min": 3,
+            "max": 3.9,
+            "color": "FF0000",
+            "text": "EVAL/GLOB"
+          }
+        ],
+        "children": [
+          {
+            "tagOID": "tag_VAlimentationContenuGlobal",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0.9,
+                "color": "00FF00",
+                "text": "CONT/GLOB"
+              },
+              {
+                "min": 1,
+                "max": 1.9,
+                "color": "FFFF00",
+                "text": "CONT/GLOB"
+              },
+              {
+                "min": 2,
+                "max": 2.9,
+                "color": "FF9900",
+                "text": "CONT/GLOB"
+              },
+              {
+                "min": 3,
+                "max": 3.9,
+                "color": "FF0000",
+                "text": "CONT/GLOB"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "tag_VAlimentationContrainteChoix",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 3,
+                    "max": 3.9,
+                    "color": "00FF00",
+                    "text": "C/CHOIX"
+                  },
+                  {
+                    "min": 2,
+                    "max": 2.9,
+                    "color": "FFFF00",
+                    "text": "C/CHOIX"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "FF9900",
+                    "text": "C/CHOIX"
+                  },
+                  {
+                    "min": 0,
+                    "max": 0.9,
+                    "color": "FF0000",
+                    "text": "C/CHOIX"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VAlimentationTypologie",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "00FF00",
+                    "text": "TYPO"
+                  },
+                  {
+                    "min": 2,
+                    "max": 2.9,
+                    "color": "FFFF00",
+                    "text": "TYPO"
+                  },
+                  {
+                    "min": 3,
+                    "max": 3.9,
+                    "color": "FF9900",
+                    "text": "TYPO"
+                  },
+                  {
+                    "min": 4,
+                    "max": 4.9,
+                    "color": "FF0000",
+                    "text": "TYPO"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "tag_VAlimentationComportementGlobal",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 4,
+                "max": 4.9,
+                "color": "00FF00",
+                "text": "ÉVAL/CA"
+              },
+              {
+                "min": 3,
+                "max": 3.9,
+                "color": "FFFF00",
+                "text": "ÉVAL/CA"
+              },
+              {
+                "min": 2,
+                "max": 2.9,
+                "color": "FF9900",
+                "text": "ÉVAL/CA"
+              },
+              {
+                "min": 1,
+                "max": 1.9,
+                "color": "FF0000",
+                "text": "ÉVAL/CA"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "tag_VAlimentationContrainteSante",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0.9,
+                    "color": "00FF00",
+                    "text": "C/SANTÉ"
+                  },
+                  {
+                    "min": 1,
+                    "max": 9,
+                    "color": "FF0000",
+                    "text": "C/SANTÉ"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VAlimentationContraintePoids",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "00FF00",
+                    "text": "C/POIDS"
+                  },
+                  {
+                    "min": 2,
+                    "max": 2.9,
+                    "color": "FFFF00",
+                    "text": "C/POIDS"
+                  },
+                  {
+                    "min": 3,
+                    "max": 3.9,
+                    "color": "FF9900",
+                    "text": "C/POIDS"
+                  },
+                  {
+                    "min": 4,
+                    "max": 4.9,
+                    "color": "FF0000",
+                    "text": "C/POIDS"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VAlimentationScoff",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0.9,
+                    "color": "00FF00",
+                    "text": "TCA/SCOFF"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "FF9900",
+                    "text": "TCA/SCOFF"
+                  },
+                  {
+                    "min": 2,
+                    "max": 5.9,
+                    "color": "FF0000",
+                    "text": "TCA/SCOFF"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VAlimentationAtcd",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0.9,
+                    "color": "00FF00",
+                    "text": "ATCD/ALIM"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "FF0000",
+                    "text": "ATCD/ALIM"
+                  }
+                ],
+                "children": [
+                  {
+                    "tagOID": "tag_VAlimentationAtcd1",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0.9,
+                        "color": "00FF00",
+                        "text": "CONDUITE"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1.9,
+                        "color": "FF0000",
+                        "text": "CONDUITE"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "tag_VAlimentationAtcd2",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0.9,
+                        "color": "00FF00",
+                        "text": "I/BARIA"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1.9,
+                        "color": "FF0000",
+                        "text": "I/BARIA"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "tag_VAlimentationAtcd3",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0.9,
+                        "color": "00FF00",
+                        "text": "I/ESTH"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1.9,
+                        "color": "FF0000",
+                        "text": "I/ESTH"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "tag_VAlimentationAtcd4",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0.9,
+                        "color": "00FF00",
+                        "text": "OBÉSITÉ"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1.9,
+                        "color": "FF0000",
+                        "text": "OBÉSITÉ"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "tag_VAlimentationAtcd5",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0.9,
+                        "color": "00FF00",
+                        "text": "RÉGIMES"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1.9,
+                        "color": "FF0000",
+                        "text": "RÉGIMES"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "category": "LIFE_STYLE",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "tag_VBougerGlobal",
+        "type": "SCORE",
+        "ranges": [
+          {
+            "min": 6,
+            "max": 6.9,
+            "color": "00FF00",
+            "text": "BOUGER"
+          },
+          {
+            "min": 5,
+            "max": 5.9,
+            "color": "CCFF33",
+            "text": "BOUGER"
+          },
+          {
+            "min": 4,
+            "max": 4.9,
+            "color": "FFFF00",
+            "text": "BOUGER"
+          },
+          {
+            "min": 3,
+            "max": 3.9,
+            "color": "FF9900",
+            "text": "BOUGER"
+          },
+          {
+            "min": 2,
+            "max": 2.9,
+            "color": "FF0000",
+            "text": "BOUGER"
+          },
+          {
+            "min": 1,
+            "max": 1.9,
+            "color": "990000",
+            "text": "BOUGER"
+          }
+        ],
+        "children": [
+          {
+            "tagOID": "tag_VBougerAP",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 5.9,
+                "max": 6.9,
+                "color": "00FF00",
+                "text": "AP"
+              },
+              {
+                "min": 4.9,
+                "max": 5.9,
+                "color": "CCFF33",
+                "text": "AP"
+              },
+              {
+                "min": 3.9,
+                "max": 4.9,
+                "color": "FFFF00",
+                "text": "AP"
+              },
+              {
+                "min": 2.9,
+                "max": 3.9,
+                "color": "FF9900",
+                "text": "AP"
+              },
+              {
+                "min": 1.9,
+                "max": 2.9,
+                "color": "FF0000",
+                "text": "AP"
+              },
+              {
+                "min": 0.9,
+                "max": 1.9,
+                "color": "990000",
+                "text": "AP"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "tag_VBougerSedentarite",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 1,
+                "max": 1.9,
+                "color": "00FF00",
+                "text": "SEDENT"
+              },
+              {
+                "min": 2,
+                "max": 2.9,
+                "color": "CCFF33",
+                "text": "SEDENT"
+              },
+              {
+                "min": 3,
+                "max": 3.9,
+                "color": "FFFF00",
+                "text": "SEDENT"
+              },
+              {
+                "min": 4,
+                "max": 4.9,
+                "color": "FF9900",
+                "text": "SEDENT"
+              },
+              {
+                "min": 5,
+                "max": 5.9,
+                "color": "FF0000",
+                "text": "SEDENT"
+              },
+              {
+                "min": 6,
+                "max": 6.9,
+                "color": "990000",
+                "text": "SEDENT"
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    },
+    {
+      "category": "HEALTH",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "t_cv",
+        "type": "SCORE",
+        "ranges": [
+            { "min": 0, "max": 0, "color": "00FF00", "text": "AUTO" },
+            { "min": 1, "max": 1, "color": "FFFF00", "text": "AUTO" },
+            { "min": 2, "max": 2, "color": "FF9900 ", "text": "AUTO" },
+            { "min": 3, "max": 3, "color": "FF0000 ", "text": "AUTO" }
+        ],
+        "children":[
+          
+          {
+            "tagOID": "t_atcd_perso",
+            "type": "SCORE",
+            "ranges": [
+                { "min": 0, "max": 0, "color": "00FF00", "text":"ATCD" },
+                { "min": 1, "max": 1, "color": "FF0000", "text":"ATCD" }
+            ],
+            "children":[
+              {
+                "tagOID": "t_cv_hta",
+                "type": "SCORE",
+                "ranges": [
+                    { "min": 0, "max": 0, "color": "00FF00", "text":"HTA" },
+                    { "min": 1, "max": 1, "color": "FF0000", "text":"HTA" }
+                ],
+                "children":[
+                  {
+                    "tagOID": "t_cv_hta1",
+                    "type": "SCORE",
+                    "ranges": [
+                      {  "min": -1, "max": -1, "text":"I","color": "808080" },
+                      {  "min": 0, "max": 0, "text":"I","color": "00FF00" },
+                      {  "min": 1, "max": 1, "text":"I","color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "t_cv_hta2",
+                    "type": "SCORE",
+                    "ranges": [
+                      {  "min": -1, "max": -1, "text":"II","color": "808080" },
+                      {  "min": 0, "max": 0, "text":"II","color": "00FF00" },
+                      {  "min": 1, "max": 1, "text":"II","color": "FF0000" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tagOID": "t_cv_angoridm",
+                "type": "SCORE",
+                "ranges": [
+                    { "min": 0, "max": 0, "color": "00FF00", "text":"ANG-IDM" },
+                    { "min": 1, "max": 1, "color": "FF0000", "text":"ANG-IDM" }
+                ],
+                "children":[
+                  {
+                    "tagOID": "t_cv_angoridm1",
+                    "type": "SCORE",
+                    "ranges": [
+                      {  "min": -1.0, "max": -1, "text":"I","color": "808080" },
+                      {  "min": 0.0, "max": 0, "text":"I","color": "00FF00" },
+                      {  "min": 1.0, "max": 1, "text":"I","color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "t_cv_angoridm2",
+                    "type": "SCORE",
+                    "ranges": [
+                      {  "min": -1.0, "max": -1, "text":"II","color": "808080" },
+                      {  "min": 0.0, "max": 0, "text":"II","color": "00FF00" },
+                      {  "min": 1.0, "max": 1, "text":"II","color": "FF0000" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tagOID": "t_cv_avc",
+                "type": "SCORE",
+                "ranges": [
+                    { "min": 0, "max": 0.0, "color": "00FF00", "text":"AVC" },
+                    { "min": 1, "max": 1.0, "color": "FF0000", "text":"AVC" }
+                ],
+                "children":[
+                  {
+                    "tagOID": "t_cv_avc1",
+                    "type": "SCORE",
+                    "ranges": [
+                      {  "min": -1.0, "max": -1, "text":"I","color": "808080" },
+                      {  "min": 0.0, "max": 0, "text":"I","color": "00FF00" },
+                      {  "min": 1.0, "max": 1, "text":"I","color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "t_cv_avc2",
+                    "type": "SCORE",
+                    "ranges": [
+                      {  "min": -1, "max": -1, "text":"II","color": "808080" },
+                      {  "min": 0.0, "max": 0, "text":"II","color": "00FF00" },
+                      {  "min": 1.0, "max": 1, "text":"II","color": "FF0000" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tagOID": "t_cv_arterite",
+                "type": "SCORE",
+                "ranges": [
+                    { "min": 0, "max": 0.0, "color": "00FF00", "text":"ARTER" },
+                    { "min": 1, "max": 1.0, "color": "FF0000", "text":"ARTER" }
+                ],
+                "children":[
+                  {
+                    "tagOID": "t_cv_arterite1",
+                    "type": "SCORE",
+                    "ranges": [
+                      {  "min": -1.0, "max": -1, "text":"I","color": "808080" },
+                      {  "min": 0.0, "max": 0, "text":"I","color": "00FF00" },
+                      {  "min": 1.0, "max": 1, "text":"I","color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "t_cv_arterite2",
+                    "type": "SCORE",
+                    "ranges": [
+                      {  "min": -1.0, "max": -1, "text":"II","color": "808080" },
+                      {  "min": 0.0, "max": 0, "text":"II","color": "00FF00" },
+                      {  "min": 1.0, "max": 1, "text":"II","color": "FF0000" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tagOID": "t_cv_epphleb",
+                "type": "SCORE",
+                "ranges": [
+                    { "min": 0, "max": 0.0, "color": "00FF00", "text":"PLHEB" },
+                    { "min": 1, "max": 1.0, "color": "FF0000", "text":"PHLEB" }
+                ],
+                "children":[
+                  {
+                    "tagOID": "t_cv_epphleb1",
+                    "type": "SCORE",
+                    "ranges": [
+                      {  "min": -1.0, "max": -1, "text":"I","color": "808080" },
+                      {  "min": 0.0, "max": 0, "text":"I","color": "00FF00" },
+                      {  "min": 1.0, "max": 1, "text":"I","color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "t_cv_epphleb2",
+                    "type": "SCORE",
+                    "ranges": [
+                      {  "min": -1.0, "max": -1, "text":"II","color": "808080" },
+                      {  "min": 0.0, "max": 0, "text":"II","color": "00FF00" },
+                      {  "min": 1.0, "max": 1, "text":"II","color": "FF0000" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tagOID": "t_cv_varice",
+                "type": "SCORE",
+                "ranges": [
+                    { "min": 0, "max": 0.0, "color": "00FF00", "text":"VARIC" },
+                    { "min": 1, "max": 1.0, "color": "FF0000", "text":"VARIC" }
+                ]
+              },
+              {
+                "tagOID": "t_cv_valv",
+                "type": "SCORE",
+                "ranges": [
+                    { "min": 0, "max": 0.0, "color": "00FF00", "text":"VALV" },
+                    { "min": 1, "max": 1.0, "color": "FF0000", "text":"VALV" }
+                ]
+              },
+              {
+                "tagOID": "t_cv_tdr",
+                "type": "SCORE",
+                "ranges": [
+                    { "min": 0, "max": 0.0, "color": "00FF00", "text":"TDR" },
+                    { "min": 1, "max": 1.0, "color": "FF0000", "text":"TDR" }
+                ]
+              },
+              {
+                "tagOID": "t_cv_cardiomyo",
+                "type": "SCORE",
+                "ranges": [
+                    { "min": 0, "max": 0.0, "color": "00FF00", "text":"CARDIO" },
+                    { "min": 1, "max": 1.0, "color": "FF0000", "text":"CARDIO" }
+                ],
+                "children":[
+                  {
+                    "tagOID": "t_cv_cardiomyo1",
+                    "type": "SCORE",
+                    "ranges": [
+                      {  "min": -1.0, "max": -1, "text":"I","color": "808080" },
+                      {  "min": 0.0, "max": 0, "text":"I","color": "00FF00" },
+                      {  "min": 1.0, "max": 1, "text":"I","color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "t_cv_cardiomyo2",
+                    "type": "SCORE",
+                    "ranges": [
+                      {  "min": -1.0, "max": -1, "text":"II", "color": "808080" },
+                      {  "min": 0.0, "max": 0, "text":"II","color": "00FF00" },
+                      {  "min": 1.0, "max": 1, "text":"II","color": "FF0000" }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tagOID": "t_cv_symp",
+            "type": "SCORE",
+            "ranges": [
+                { "min": 0, "max": 0.0, "color": "00FF00", "text":"SYMP" },
+                { "min": 1, "max": 1.0, "color": "FF0000", "text":"SYMP" }
+            ],
+            "children":[
+              { 
+                "tagOID": "t_cv_symp_dlrtho",
+                "type": "SCORE",
+                "ranges": [
+                    { "min": 0, "max": 0.0, "color": "00FF00", "text":"DLRTHO" },
+                    { "min": 1, "max": 1.0, "color": "FF0000", "text":"DRLTHO" }
+                ]
+              },
+              { 
+                "tagOID": "t_cv_symp_dyspn",
+                "type": "SCORE",
+                "ranges": [
+                    { "min": 0, "max": 0.0, "color": "00FF00", "text":"DYSPN" },
+                    { "min": 1, "max": 1.0, "color": "FF0000", "text":"DYSPN" }
+                ]
+              },
+              { 
+                "tagOID": "t_cv_symp_dlrmi",
+                "type": "SCORE",
+                "ranges": [
+                    { "min": 0, "max": 0.0, "color": "00FF00", "text":"DLRMI" },
+                    { "min": 1, "max": 1.0, "color": "FF0000", "text":"DLRMI" }
+                ]
+              },
+              { 
+                "tagOID": "t_cv_symp_tdr",
+                "type": "SCORE",
+                "ranges": [
+                    { "min": 0, "max": 0.0, "color": "00FF00", "text":"DYSPN" },
+                    { "min": 1, "max": 1.0, "color": "FF0000", "text":"DYSPN" }
+                ]
+              },
+              { 
+                "tagOID": "t_cv_symp_syncope",
+                "type": "SCORE",
+                "ranges": [
+                    { "min": 0, "max": 0.0, "color": "00FF00", "text":"SYNC" },
+                    { "min": 1, "max": 1.0, "color": "FF0000", "text":"SYNC" }
+                ]
+              },
+              { 
+                "tagOID": "t_cv_symp_oedem",
+                "type": "SCORE",
+                "ranges": [
+                    { "min": 0, "max": 0.0, "color": "00FF00", "text":"OEDEM" },
+                    { "min": 1, "max": 1.0, "color": "FF0000", "text":"OEDEM" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

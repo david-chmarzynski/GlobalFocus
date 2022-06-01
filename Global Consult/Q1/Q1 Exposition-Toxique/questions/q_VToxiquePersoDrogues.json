@@ -1,0 +1,34 @@
+{
+  "oid": "q_VToxiquePersoDrogues",
+  "title": "Consommez-vous parfois des drogues (hors alcool et tabac) ?",
+  "text": "Consommez-vous parfois des drogues (hors alcool et tabac) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices":[
+    {"code": "0", "text": "Jamais"},
+    {"code": "1", "text": "Rarement"},
+    {"code": "2", "text": "Parfois"},
+    {"code": "3", "text": "Régulièrement"}
+  ],
+  "scores":[
+    {
+      "tagOID": "Tag_VToxiquePersoDrogues",
+      "conditions": "q_VToxiquePersoDrogues == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "Tag_VToxiquePersoDrogues",
+      "conditions": "q_VToxiquePersoDrogues == '1'",
+      "value": 1
+    },
+    {
+      "tagOID": "Tag_VToxiquePersoDrogues",
+      "conditions": "q_VToxiquePersoDrogues == '2'",
+      "value": 2
+    },
+    {
+      "tagOID": "Tag_VToxiquePersoDrogues",
+      "conditions": "q_VToxiquePersoDrogues == '3'",
+      "value": 3
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "oid": "q_adresse_medecin_traitant_code",
+  "title": "Veuillez renseigner le code postal de votre médecin traitant",
+  "text": "Veuillez renseigner le code postal de votre médecin traitant",
+  "type": "TEXT",
+  "choices": [],
+  "scores": []
+}

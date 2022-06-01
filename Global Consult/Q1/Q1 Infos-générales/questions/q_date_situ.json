@@ -1,0 +1,8 @@
+{
+  "oid": "q_date_situ",
+  "title": "Quelle est la date de l'évènement correspondant à votre situation familiale actuelle (pacsé(e), marié(e), séparé(e), divorcé(e), veuf(ve)) ?",
+  "text": "Quelle est la date de l'évènement correspondant à votre situation familiale actuelle (pacsé(e), marié(e), séparé(e), divorcé(e), veuf(ve)) ?",
+  "type": "DATE",
+  "choices": [],
+  "scores": []
+}

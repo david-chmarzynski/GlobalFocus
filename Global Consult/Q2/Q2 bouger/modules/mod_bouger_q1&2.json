@@ -1,0 +1,577 @@
+{
+  "oid": "mod_bouger_q1&2",
+  "title": "Activité Physique Global",
+  "questions": [
+    {
+      "question": "q_VBougerGlobal",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VBougerAP",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VBougerSedentarite",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VBougerAPGPAQ1",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VBougerAPGPAQ2",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "q_VBougerAPGPAQ1 == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VBougerAPGPAQ1":"0"}
+      }
+    },
+    {
+      "question": "q_VBougerAPGPAQ3",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "q_VBougerAPGPAQ1 == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VBougerAPGPAQ1":"0"}
+      }
+    },
+    {
+      "question": "q_VBougerAPGPAQ4",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VBougerAPGPAQ5",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "q_VBougerAPGPAQ4 == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VBougerAPGPAQ4":"0"}
+      }
+    },
+    {
+      "question": "q_VBougerAPGPAQ6",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "q_VBougerAPGPAQ4 == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VBougerAPGPAQ4":"0"}
+      }
+    },
+    {
+      "question": "q_VBougerAPGPAQ7",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VBougerAPGPAQ8",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "q_VBougerAPGPAQ7 == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VBougerAPGPAQ7":"0"}
+      }
+    },
+    {
+      "question": "q_VBougerAPGPAQ9",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "q_VBougerAPGPAQ7 == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VBougerAPGPAQ7":"0"}
+      }
+    },
+    {
+      "question": "q_VBougerAPGPAQ10",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VBougerAPGPAQ11",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "q_VBougerAPGPAQ10 == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VBougerAPGPAQ10":"0"}
+      }
+    },
+    {
+      "question": "q_VBougerAPGPAQ12",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "q_VBougerAPGPAQ10 == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VBougerAPGPAQ10":"0"}
+      }
+    },
+    {
+      "question": "q_VBougerAPGPAQ13",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VBougerAPGPAQ14",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "q_VBougerAPGPAQ13 == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VBougerAPGPAQ13":"0"}
+      }
+    },
+    {
+      "question": "q_VBougerAPGPAQ15",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "q_VBougerAPGPAQ13 == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VBougerAPGPAQ13":"0"}
+      }
+    },
+    {
+      "question": "q_VBougerAutoEvaluationAP",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VBougerAddictionSport",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VBougerAddictionSportEAI1",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "q_VBougerAddictionSport == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VBougerAddictionSport":"0"}
+      }
+    },
+    {
+      "question": "q_VBougerAddictionSportEAI2",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "q_VBougerAddictionSport == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VBougerAddictionSport":"0"}
+      }
+    },
+    {
+      "question": "q_VBougerAddictionSportEAI3",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "q_VBougerAddictionSport == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VBougerAddictionSport":"0"}
+      }
+    },
+    {
+      "question": "q_VBougerAddictionSportEAI4",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "q_VBougerAddictionSport == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VBougerAddictionSport":"0"}
+      }
+    },
+    {
+      "question": "q_VBougerAddictionSportEAI5",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "q_VBougerAddictionSport == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VBougerAddictionSport":"0"}
+      }
+    },
+    {
+      "question": "q_VBougerAddictionSportEAI6",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "q_VBougerAddictionSport == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VBougerAddictionSport":"0"}
+      }
+    },
+    {
+      "question": "q_VBougerProjetAP",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VBougerMotivationEnvieAP",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VBougerMotivationConfianceAP",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VBougerMotivationPretAP",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VBougerProjetSédentarité",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VBougerMotivationEnvieSédentarité",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VBougerMotivationConfianceSédentarité",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VBougerMotivationPrêtSédentarité",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VBougerAutoEvaluationSédentarité",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VBougerSédentaritéSup2heures",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VBougerSédentaritéW",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VBougerSédentaritéDuréeWSemaine",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VBougerSédentaritéDuréeDéplacementsSemaine",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VBougerSédentaritéDuréeLoisirsSemaine",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VBougerSédentaritéDuréeRepasSemaine",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VBougerSédentaritéDuréeWWE",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VBougerSédentaritéDuréeDéplacementsWE",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VBougerSédentaritéDuréeLoisirsWE",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VBougerSédentaritéRepasWE",
+      "level": 1,
+      "isGlobal": false
+    }
+  ],
+  "calculations":[
+    {
+      "oid": "GPAQW",
+      "type": "NORMAL",
+      "isGlobal": false,
+      "calculation": "q_VBougerAPGPAQ2 * q_VBougerAPGPAQ3 * 8/7 + q_VBougerAPGPAQ5 * q_VBougerAPGPAQ6 * 4/7",
+      "defaultValues":
+      {
+        "q_VBougerAPGPAQ2":0,
+        "q_VBougerAPGPAQ3":0,
+        "q_VBougerAPGPAQ5":0,
+        "q_VBougerAPGPAQ6":0
+      },
+      "title": "Calcul de GPAQ-W (travail)",
+      "text": "Calcul de GPAQ-W (travail)",
+      "scores": [
+        {
+          "tagOID": "tag_VBougerAPGPAQW",
+          "conditions": "GPAQW < 3",
+          "value": 3
+        },
+        {
+          "tagOID": "tag_VBougerAPGPAQW",
+          "conditions": "GPAQW >= 3 && GPAQW < 6",
+          "value": 2
+        },
+        {
+          "tagOID": "tag_VBougerAPGPAQW",
+          "conditions": "GPAQW >= 6 && GPAQW < 10",
+          "value": 1
+        },
+        {
+          "tagOID": "tag_VBougerAPGPAQW",
+          "conditions": "GPAQW >= 10",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "oid": "GPAQD",
+      "type": "NORMAL",
+      "isGlobal": false,
+      "calculation": "q_VBougerAPGPAQ8 * q_VBougerAPGPAQ9 * 4/7",
+      "defaultValues":
+      {
+        "q_VBougerAPGPAQ8":0,
+        "q_VBougerAPGPAQ9":0
+      },
+      "title": "Calcul de GPAQ-D (Déplacement)",
+      "text": "Calcul de GPAQ-D (Déplacement)",
+      "scores": [
+        {
+          "tagOID": "tag_VBougerAPGPAQD",
+          "conditions": "GPAQD < 0.5",
+          "value": 3
+        },
+        {
+          "tagOID": "tag_VBougerAPGPAQD",
+          "conditions": "GPAQD >= 0.5 && GPAQD < 1",
+          "value": 2
+        },
+        {
+          "tagOID": "tag_VBougerAPGPAQD",
+          "conditions": "GPAQD >= 1 && GPAQD < 2",
+          "value": 1
+        },
+        {
+          "tagOID": "tag_VBougerAPGPAQD",
+          "conditions": "GPAQD >= 2",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "oid": "GPAQL",
+      "type": "NORMAL",
+      "isGlobal": false,
+      "calculation": "q_VBougerAPGPAQ11 * q_VBougerAPGPAQ12 * 8/7 + q_VBougerAPGPAQ14 * q_VBougerAPGPAQ15 * 4/7",
+      "defaultValues":
+      {
+        "q_VBougerAPGPAQ11":0,
+        "q_VBougerAPGPAQ12":0,
+        "q_VBougerAPGPAQ14":0,
+        "q_VBougerAPGPAQ15":0
+      },
+      "title": "Calcul de GPAQ-L (Loisirs)",
+      "text": "Calcul de GPAQ-L (Loisirs)",
+      "scores": [
+        {
+          "tagOID": "tag_VBougerAPGPAQL",
+          "conditions": "GPAQL < 3",
+          "value": 3
+        },
+        {
+          "tagOID": "tag_VBougerAPGPAQL",
+          "conditions": "GPAQL >= 3 && GPAQL < 6",
+          "value": 2
+        },
+        {
+          "tagOID": "tag_VBougerAPGPAQL",
+          "conditions": "GPAQL >= 6 && GPAQL < 10",
+          "value": 1
+        },
+        {
+          "tagOID": "tag_VBougerAPGPAQL",
+          "conditions": "GPAQL >= 10",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "oid": "GPAQ",
+      "type": "NORMAL",
+      "isGlobal": false,
+      "calculation": "GPAQW + GPAQD + GPAQL",
+      "title": "Calcul de GPAQ",
+      "text": "Calcul de GPAQ",
+      "scores": [
+        {
+          "tagOID": "tag_VBougerAPGPAQ",
+          "conditions": "GPAQ < 5",
+          "value": 4
+        },
+        {
+          "tagOID": "tag_VBougerAPGPAQ",
+          "conditions": "GPAQ >= 5 && GPAQ < 9",
+          "value": 3
+        },
+        {
+          "tagOID": "tag_VBougerAPGPAQ",
+          "conditions": "GPAQ >= 9 && GPAQ < 16",
+          "value": 2
+        },
+        {
+          "tagOID": "tag_VBougerAPGPAQ",
+          "conditions": "GPAQ >= 16 && GPAQ < 20",
+          "value": 1
+        },
+        {
+          "tagOID": "tag_VBougerAPGPAQ",
+          "conditions": "GPAQ >= 20",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "oid": "SDUREEL",
+      "type": "NORMAL",
+      "isGlobal": false,
+      "calculation": "(q_VBougerSédentaritéDuréeLoisirsSemaine  + q_VBougerSédentaritéDuréeRepasSemaine)*5/7 + (q_VBougerSédentaritéDuréeLoisirsWE +q_VBougerSédentaritéRepasWE)*2/7",
+      "title": "Calcul de la durée moyenne de sédentarité habituelle / Loisirs + Repas",
+      "text": "Calcul de la durée moyenne de sédentarité habituelle / Loisirs + Repas",
+      "scores": [
+        {
+          "tagOID": "tag_VBougerSedentariteDureeL",
+          "conditions": "SDUREEL < 2",
+          "value": 0
+        },
+        {
+          "tagOID": "tag_VBougerSedentariteDureeL",
+          "conditions": "SDUREEL >= 2 && SDUREEL < 3",
+          "value": 1
+        },
+        {
+          "tagOID": "tag_VBougerSedentariteDureeL",
+          "conditions": "SDUREEL >= 3 && SDUREEL < 4",
+          "value": 2
+        },
+        {
+          "tagOID": "tag_VBougerSedentariteDureeL",
+          "conditions": "SDUREEL >= 4",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "oid": "SDUREED",
+      "type": "NORMAL",
+      "isGlobal": false,
+      "calculation": "q_VBougerSédentaritéDuréeDéplacementsSemaine * 5/7 + q_VBougerSédentaritéDuréeDéplacementsWE * 2/7",
+      "title": "Calcul de la durée moyenne de sédentarité en déplacements ",
+      "text": "Calcul de la durée moyenne de sédentarité en déplacements ",
+      "scores": [
+        {
+          "tagOID": "tag_VBougerSedentariteDureeD",
+          "conditions": "SDUREED < (1/3)",
+          "value": 0
+        },
+        {
+          "tagOID": "tag_VBougerSedentariteDureeD",
+          "conditions": "SDUREED >= (1/3) && SDUREED < 0.5",
+          "value": 1
+        },
+        {
+          "tagOID": "tag_VBougerSedentariteDureeD",
+          "conditions": "SDUREED >= 0.5 && SDUREED < 1",
+          "value": 2
+        },
+        {
+          "tagOID": "tag_VBougerSedentariteDureeD",
+          "conditions": "SDUREED >= 1",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "oid": "SDUREEW",
+      "type": "NORMAL",
+      "isGlobal": false,
+      "calculation": "q_VBougerSédentaritéDuréeWSemaine  * 5/7 + q_VBougerSédentaritéDuréeWWE * 2/7",
+      "title": "Calcul de la durée moyenne de sédentarité au travail ",
+      "text": "Calcul de la durée moyenne de sédentarité au travail",
+      "scores": [
+        {
+          "tagOID": "tag_VBougerSedentariteDureeW",
+          "conditions": "SDUREEW < 3",
+          "value": 0
+        },
+        {
+          "tagOID": "tag_VBougerSedentariteDureeW",
+          "conditions": "SDUREEW >= 3 && SDUREEW < 4",
+          "value": 1
+        },
+        {
+          "tagOID": "tag_VBougerSedentariteDureeW",
+          "conditions": "SDUREEW >= 4 && SDUREEW < 7",
+          "value": 2
+        },
+        {
+          "tagOID": "tag_VBougerSedentariteDureeW",
+          "conditions": "SDUREEW >= 7",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "oid": "SDUREETOTAL",
+      "type": "NORMAL",
+      "isGlobal": false,
+      "calculation": "SDUREEL + SDUREED + SDUREEW",
+      "title": "Calcul de la durée moyenne de sédentarité habituelle",
+      "text": "Calcul de la durée moyenne de sédentarité habituelle",
+      "scores": [
+        {
+          "tagOID": "tag_VBougerSedentariteDuree",
+          "conditions": "SDUREETOTAL < 4",
+          "value": 0
+        },
+        {
+          "tagOID": "tag_VBougerSedentariteDuree",
+          "conditions": "SDUREETOTAL >= 4 && SDUREETOTAL < 5",
+          "value": 1
+        },
+        {
+          "tagOID": "tag_VBougerSedentariteDuree",
+          "conditions": "SDUREETOTAL >= 5 && SDUREETOTAL < 9",
+          "value": 2
+        },
+        {
+          "tagOID": "tag_VBougerSedentariteDuree",
+          "conditions": "SDUREETOTAL >= 9",
+          "value": 3
+        }
+      ]
+    }
+  ]
+}

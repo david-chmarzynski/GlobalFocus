@@ -1,0 +1,14 @@
+{
+  "oid": "chap_global_consult_q1",
+  "title": "chap_global_consult_q1",
+  "modules": [
+    "mod_info_gen",
+    "TETE",
+    "mod_contexte_vie",
+    "mod_VToxique",
+    "sommeil",
+    "mod_alimentation",
+    "bouger_q1",
+    "mod_cardio"
+  ]
+}

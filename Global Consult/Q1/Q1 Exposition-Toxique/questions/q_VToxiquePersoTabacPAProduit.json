@@ -1,0 +1,12 @@
+{
+  "oid": "q_VToxiquePersoTabacPAProduit",
+  "title": "Que fumez(iez)-vous ?",
+  "text": "Que fumez(iez)-vous ?",
+  "type": "MULTI_CHOICES",
+  "choices":[
+    {"code": "cigarettes", "text": "Cigarette(s)"},
+    {"code": "pipes", "text": "Pipe(s) ou cigarillo(s)"},
+    {"code": "cigares", "text": "Cigare(s)"},
+    {"code": "chichas", "text": "Chicha"}
+  ]
+}

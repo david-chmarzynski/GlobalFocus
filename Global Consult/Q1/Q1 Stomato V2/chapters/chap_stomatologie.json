@@ -1,0 +1,5 @@
+{
+  "oid": "chap_stomatologie",
+  "title": "chap_stomatologie",
+  "modules": ["q1_stomatologie"]
+}

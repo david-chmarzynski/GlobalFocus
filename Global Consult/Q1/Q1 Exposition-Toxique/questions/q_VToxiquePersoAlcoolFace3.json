@@ -1,0 +1,22 @@
+{
+  "oid": "q_VToxiquePersoAlcoolFace3",
+  "title": "Votre entourage vous a-t-il déjà fait des remarques au sujet de votre consommation d’alcool ?",
+  "text": "Votre entourage vous a-t-il déjà fait des remarques au sujet de votre consommation d’alcool ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices":[
+    {"code": "0", "text": "Non"},
+    {"code": "1", "text": "Oui"}
+  ],
+  "scores":[
+    {
+      "tagOID": "Tag_VToxiquePersoAlcoolFace",
+      "conditions": "q_VToxiquePersoAlcoolFace3 == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "Tag_VToxiquePersoAlcoolFace",
+      "conditions": "q_VToxiquePersoAlcoolFace3 == '1'",
+      "value": 4
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "oid": "q_VBougerSédentaritéDuréeWWE",
+  "title": "Lors d’une journée habituelle de weekend, combien de temps passez-vous en position assise à travailler (travail, études) ?",
+  "text": "Lors d’une journée habituelle de weekend, combien de temps passez-vous en position assise à travailler (travail, études) ?",
+  "type": "ANALOG_SCALE",
+  "scale":{
+    "min":0.0,
+    "max":24.0,
+    "step":1.0,
+    "minText": "0h",
+    "midText": "",
+    "maxText": "24h"
+  }
+}

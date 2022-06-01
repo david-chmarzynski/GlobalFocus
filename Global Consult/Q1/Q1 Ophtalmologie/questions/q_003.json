@@ -1,0 +1,123 @@
+{
+  "oid": "q_S_OPH_003",
+  "title": "Au cours des 3 derniers mois, avez-vous présenté ?",
+  "text": "Au cours des 3 derniers mois, avez-vous présenté ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Une baisse de votre vision ?"
+    },
+    {
+      "code": "1",
+      "text": "Une tache noire dans votre champ visuel lorsque vous fixez votre regard ?"
+    },
+    {
+      "code": "2",
+      "text": "Une déformation des objets lorsque vous fixez votre regard ?"
+    },
+    {
+      "code": "3",
+      "text": "Une sécheresse des yeux inhabituelle ?"
+    },
+    {
+      "code": "4",
+      "text": "Des douleurs aux yeux"
+    },
+    {
+      "code": "5",
+      "text": "Des rougeurs aux yeux"
+    },
+    {
+      "code": "6",
+      "text": "Aucun de ces symptômes",
+      "exclusive":true
+    },
+    {
+      "code": "7",
+      "text": "Autre(s) symptôme(s)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"0\" in q_S_OPH_003",
+      "tagOID": "S_OPH_SYMP_VISION",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"0\" in q_S_OPH_003)",
+      "tagOID": "S_OPH_SYMP_VISION",
+      "value": "0"
+    },
+    {
+      "conditions": "\"1\" in q_S_OPH_003",
+      "tagOID": "S_OPH_SYMP_SCOTOME",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"1\" in q_S_OPH_003)",
+      "tagOID": "S_OPH_SYMP_SCOTOME",
+      "value": "0"
+    },
+    {
+      "conditions": "\"2\" in q_S_OPH_003",
+      "tagOID": "S_OPH_SYMP_DEFORMATION",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"2\" in q_S_OPH_003)",
+      "tagOID": "S_OPH_SYMP_DEFORMATION",
+      "value": "0"
+    },
+    {
+      "conditions": "\"3\" in q_S_OPH_003",
+      "tagOID": "S_OPH_SYMP_YEUX_SECS",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"3\" in q_S_OPH_003)",
+      "tagOID": "S_OPH_SYMP_YEUX_SECS",
+      "value": "0"
+    },
+    {
+      "conditions": "\"4\" in q_S_OPH_003",
+      "tagOID": "S_OPH_SYMP_DOULEURS_YEUX",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"4\" in q_S_OPH_003)",
+      "tagOID": "S_OPH_SYMP_DOULEURS_YEUX",
+      "value": "0"
+    },
+    {
+      "conditions": "\"5\" in q_S_OPH_003",
+      "tagOID": "S_OPH_SYMP_ROUGEUR_YEUX",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"5\" in q_S_OPH_003)",
+      "tagOID": "S_OPH_SYMP_ROUGEUR_YEUX",
+      "value": "0"
+    },
+    {
+      "conditions": "\"6\" in q_S_OPH_003",
+      "tagOID": "S_OPH_SYMP",
+      "value": "0"
+    },
+    {
+      "conditions": "!(\"6\" in q_S_OPH_003)",
+      "tagOID": "S_OPH_SYMP",
+      "value": "1"
+    },
+    {
+      "conditions": "\"7\" in q_S_OPH_003",
+      "tagOID": "S_OPH_SYMP_AUTRE",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"7\" in q_S_OPH_003)",
+      "tagOID": "S_OPH_SYMP_AUTRE",
+      "value": "0"
+    }
+  ]
+}

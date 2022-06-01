@@ -1,0 +1,123 @@
+{
+  "oid": "q_orl_003",
+  "title": "Au niveau du nez (fosses nasales, sinus, cavum…),  vous a-t-on déjà diagnostiqué ?",
+  "text": "Au niveau du nez (fosses nasales, sinus, cavum…),  vous a-t-on déjà diagnostiqué ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Une rhinite chronique"
+    },
+    {
+      "code": "1",
+      "text": "Une sinusite chronique"
+    },
+    {
+      "code": "2",
+      "text": "Une polypose nasale"
+    },
+    {
+      "code": "3",
+      "text": "Une perte de l'odorat"
+    },
+    {
+      "code": "4",
+      "text": "Une ablation des végétations (adénoïdectomie)"
+    },
+    {
+      "code": "5",
+      "text": "Un cancer au niveau des sinus ou du cavum"
+    },
+    {
+      "code": "6",
+      "text": "Autre(s) antécédent(s)"
+    },
+    {
+      "code": "7",
+      "text": "Aucun de ces antécédents",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"0\" in q_orl_003",
+      "tagOID": "S_ORL_ATCD_NEZ_RHINITE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"0\" in q_orl_003)",
+      "tagOID": "S_ORL_ATCD_NEZ_RHINITE",
+      "value": 0
+    },
+    {
+      "conditions": "\"1\" in q_orl_003",
+      "tagOID": "S_ORL_ATCD_NEZ_SINUSITE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"1\" in q_orl_003)",
+      "tagOID": "S_ORL_ATCD_NEZ_SINUSITE",
+      "value": 0
+    },
+    {
+      "conditions": "\"2\" in q_orl_003",
+      "tagOID": "S_ORL_ATCD_NEZ_POLYPOSE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"2\" in q_orl_003)",
+      "tagOID": "S_ORL_ATCD_NEZ_POLYPOSE",
+      "value": 0
+    },
+    {
+      "conditions": "\"3\" in q_orl_003",
+      "tagOID": "S_ORL_ATCD_NEZ_ANOSMIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"3\" in q_orl_003)",
+      "tagOID": "S_ORL_ATCD_NEZ_ANOSMIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"4\" in q_orl_003",
+      "tagOID": "S_ORL_ATCD_NEZ_ADENOIDECTOMIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"4\" in q_orl_003)",
+      "tagOID": "S_ORL_ATCD_NEZ_ADENOIDECTOMIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"5\" in q_orl_003",
+      "tagOID": "S_ORL_ATCD_NEZ_CANCER",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"5\" in q_orl_003)",
+      "tagOID": "S_ORL_ATCD_NEZ_CANCER",
+      "value": 0
+    },
+    {
+      "conditions": "\"6\" in q_orl_003",
+      "tagOID": "S_ORL_ATCD_NEZ_AUTRE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"6\" in q_orl_003)",
+      "tagOID": "S_ORL_ATCD_NEZ_AUTRE",
+      "value": 0
+    },
+    {
+      "conditions": "\"7\" in q_orl_003",
+      "tagOID": "S_ORL_ATCD_NEZ",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"7\" in q_orl_003)",
+      "tagOID": "S_ORL_ATCD_NEZ",
+      "value": 1
+    }
+  ]
+}

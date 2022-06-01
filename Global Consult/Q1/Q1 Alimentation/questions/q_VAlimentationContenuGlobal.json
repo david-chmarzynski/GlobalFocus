@@ -1,0 +1,46 @@
+{
+  "oid": "q_VAlimentationContenuGlobal",
+  "title": "Que pensez-vous du contenu de votre alimentation habituelle (quantité et équilibre alimentaire) ?",
+  "text": "Que pensez-vous du contenu de votre alimentation habituelle (quantité et équilibre alimentaire) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisante"
+    },
+    {
+      "code": "1",
+      "text": "Assez satisfaisante"
+    },
+    {
+      "code": "2",
+      "text": "Plutôt insatisfaisante"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisante"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VAlimentationContenuGlobal == \"0\"",
+      "tagOID": "tag_VAlimentationContenuGlobal",
+      "value": 0
+    },
+    {
+      "conditions": "q_VAlimentationContenuGlobal == \"1\"",
+      "tagOID": "tag_VAlimentationContenuGlobal",
+      "value": 1
+    },
+    {
+      "conditions": "q_VAlimentationContenuGlobal == \"2\"",
+      "tagOID": "tag_VAlimentationContenuGlobal",
+      "value": 2
+    },
+    {
+      "conditions": "q_VAlimentationContenuGlobal == \"3\"",
+      "tagOID": "tag_VAlimentationContenuGlobal",
+      "value": 3
+    }
+  ]
+}

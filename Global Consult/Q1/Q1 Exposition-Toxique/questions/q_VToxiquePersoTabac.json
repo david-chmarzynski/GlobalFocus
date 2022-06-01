@@ -1,0 +1,34 @@
+{
+  "oid": "q_VToxiquePersoTabac",
+  "title": "Où en êtes-vous par rapport au tabac ?",
+  "text": "Où en êtes-vous par rapport au tabac ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices":[
+    {"code": "0", "text": "Je n'ai jamais fumé"},
+    {"code": "1", "text": "J'ai arrêté de fumer depuis plus de 3 ans"},
+    {"code": "2", "text": "J'ai arrêté de fumer depuis moins de 3 ans"},
+    {"code": "3", "text": "Je fume actuellement"}
+  ],
+  "scores":[
+    {
+      "tagOID": "Tag_VToxiqueTabac",
+      "conditions": "q_VToxiquePersoTabac == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "Tag_VToxiqueTabac",
+      "conditions": "q_VToxiquePersoTabac == '1'",
+      "value": 1
+    },
+    {
+      "tagOID": "Tag_VToxiqueTabac",
+      "conditions": "q_VToxiquePersoTabac == '2'",
+      "value": 2
+    },
+    {
+      "tagOID": "Tag_VToxiqueTabac",
+      "conditions": "q_VToxiquePersoTabac == '3'",
+      "value": 3
+    }
+  ]
+}

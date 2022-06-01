@@ -1,0 +1,17 @@
+{
+  "oid": "q_complement_alimentaire",
+  "title": "Prenez-vous des compléments alimentaires ?",
+  "text": "Prenez-vous des compléments alimentaires ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": []
+}

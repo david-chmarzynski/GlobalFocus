@@ -1,0 +1,46 @@
+{
+  "oid": "q_VAlimentationContraintePoids",
+  "title": "Sur ces 3 derniers mois, contrôlez-vous votre alimentation dans le but de perdre du poids ?",
+  "text": "Sur ces 3 derniers mois, contrôlez-vous votre alimentation dans le but de perdre du poids ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui je fais un peu attention"
+    },
+    {
+      "code": "2",
+      "text": "Oui je fais attention souvent"
+    },
+    {
+      "code": "3",
+      "text": "Oui je fais attention tout le temps"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VAlimentationContraintePoids == \"0\"",
+      "tagOID": "tag_VAlimentationContraintePoids",
+      "value": 1
+    },
+    {
+      "conditions": "q_VAlimentationContraintePoids == \"1\"",
+      "tagOID": "tag_VAlimentationContraintePoids",
+      "value": 2
+    },
+    {
+      "conditions": "q_VAlimentationContraintePoids == \"2\"",
+      "tagOID": "tag_VAlimentationContraintePoids",
+      "value": 3
+    },
+    {
+      "conditions": "q_VAlimentationContraintePoids == \"3\"",
+      "tagOID": "tag_VAlimentationContraintePoids",
+      "value": 4
+    }
+  ]
+}

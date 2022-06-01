@@ -1,0 +1,109 @@
+{
+  "oid": "q_orl_007",
+  "title": "Présentez-vous actuellement au niveau du nez, un ou plusieurs des symptômes suivants ?",
+  "text": "Présentez-vous actuellement au niveau du nez, un ou plusieurs des symptômes suivants ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Le nez qui coule, le besoin de vous moucher plusieurs fois par jour, pendant plusieurs jours "
+    },
+    {
+      "code": "1",
+      "text": "La sensation persistante de nez bouché"
+    },
+    {
+      "code": "2",
+      "text": "Des éternuements au cours de la journée, pendant plusieurs semaines"
+    },
+    {
+      "code": "3",
+      "text": "Une baisse persistante ou la disparition de l’odorat "
+    },
+    {
+      "code": "4",
+      "text": "Des douleurs au niveau des fosses nasales et/ou des sinus "
+    },
+    {
+      "code": "5",
+      "text": "Autre(s) symptôme(s)"
+    },
+    {
+      "code": "6",
+      "text": "Aucun de ces symptômes",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"0\" in q_orl_007",
+      "tagOID": "S_ORL_SYMP_NEZ_RHINORRHEE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"0\" in q_orl_007)",
+      "tagOID": "S_ORL_SYMP_NEZ_RHINORRHEE",
+      "value": 0
+    },
+    {
+      "conditions": "\"1\" in q_orl_007",
+      "tagOID": "S_ORL_SYMP_NEZ_OBSTR",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"1\" in q_orl_007)",
+      "tagOID": "S_ORL_SYMP_NEZ_OBSTR",
+      "value": 0
+    },
+    {
+      "conditions": "\"2\" in q_orl_007",
+      "tagOID": "S_ORL_SYMP_NEZ_ETERNUEMENT",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"2\" in q_orl_007)",
+      "tagOID": "S_ORL_SYMP_NEZ_ETERNUEMENT",
+      "value": 0
+    },
+    {
+      "conditions": "\"3\" in q_orl_007",
+      "tagOID": "S_ORL_SYMP_NEZ_ANOSMIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"3\" in q_orl_007)",
+      "tagOID": "S_ORL_SYMP_NEZ_ANOSMIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"4\" in q_orl_007",
+      "tagOID": "S_ORL_SYMP_NEZ_DOUL",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"4\" in q_orl_007)",
+      "tagOID": "S_ORL_SYMP_NEZ_DOUL",
+      "value": 0
+    },
+    {
+      "conditions": "\"5\" in q_orl_007",
+      "tagOID": "S_ORL_SYMP_NEZ_AUTRE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"5\" in q_orl_007)",
+      "tagOID": "S_ORL_SYMP_NEZ_AUTRE",
+      "value": 0
+    },
+    {
+      "conditions": "\"6\" in q_orl_007",
+      "tagOID": "S_ORL_SYMP_NEZ",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"6\" in q_orl_007)",
+      "tagOID": "S_ORL_SYMP_NEZ",
+      "value": 1
+    }
+  ]
+}

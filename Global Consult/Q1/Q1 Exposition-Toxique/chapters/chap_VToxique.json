@@ -1,0 +1,7 @@
+{
+  "oid": "chap_VToxique",
+  "title": "Exposition toxique",
+  "modules": [
+    "mod_VToxique"
+  ]
+}

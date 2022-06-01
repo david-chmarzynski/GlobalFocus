@@ -1,0 +1,8 @@
+{
+  "oid": "q_allergies_medicamenteuse",
+  "title": "Avez-vous des allergie médicamenteuse ?",
+  "text": "Avez-vous des allergie médicamenteuse ?",
+  "type": "TEXT",
+  "choices": [],
+  "scores": []
+}

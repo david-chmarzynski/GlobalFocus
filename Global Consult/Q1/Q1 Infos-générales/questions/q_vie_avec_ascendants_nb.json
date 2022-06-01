@@ -1,0 +1,8 @@
+{
+  "oid": "q_vie_avec_ascendants_nb",
+  "title": "Avec combien d’ascendant(s) (parents, beaux-parents, grands-parents, oncle-tante) ?",
+  "text": "Avec combien d’ascendant(s) (parents, beaux-parents, grands-parents, oncle-tante) ?",
+  "type": "INTEGER",
+  "choices": [],
+  "scores": []
+}

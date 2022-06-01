@@ -1,0 +1,28 @@
+{
+  "oid": "q_VSomSuspicionSAOSBerlin4",
+  "title": "Votre ronflement a-t-il déjà dérangé quelqu’un d’autre ?",
+  "text": "Votre ronflement a-t-il déjà dérangé quelqu’un d’autre ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VSomSuspicionSAOSBerlin4 == '0'",
+      "tagOID": "tag_VSomSuspicionSAOSBerlinCAT1",
+      "value": 1
+    },
+    {
+      "conditions": "q_VSomSuspicionSAOSBerlin4 == '1'",
+      "tagOID": "tag_VSomSuspicionSAOSBerlinCAT1",
+      "value": 0
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "oid": "q_motif_consult_choix",
+  "title": "Cochez le(s) motif(s) de votre consultation (choix multiples possibles)",
+  "text": "Cochez le(s) motif(s) de votre consultation (choix multiples possibles)",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Évaluation globale de votre santé"
+    },
+    {
+      "code": "1",
+      "text": "Mise en place d’un programme personnalisé de santé"
+    },
+    {
+      "code": "2",
+      "text": "Éducation thérapeutique (prévention santé)"
+    },
+    {
+      "code": "3",
+      "text": "Troubles digestifs"
+    },
+    {
+      "code": "4",
+      "text": "Troubles du sommeil"
+    },
+    {
+      "code": "5",
+      "text": "Gestion du stress"
+    },
+    {
+      "code": "6",
+      "text": "Anxiété dépression"
+    },
+    {
+      "code": "7",
+      "text": "Douleurs chroniques"
+    },
+    {
+      "code": "8",
+      "text": "Fatigue"
+    },
+    {
+      "code": "9",
+      "text": "Accompagnement à la perte de poids"
+    },
+    {
+      "code": "10",
+      "text": "Difficultés de comportement alimentaire"
+    },
+    {
+      "code": "11",
+      "text": "Programme du bien vieillir (anti aging)"
+    },
+    {
+      "code": "12",
+      "text": "Accompagnement du sportif (performance, nutrition, blessures…)"
+    },
+    {
+      "code": "13",
+      "text": "Accompagnement de la maladie cancéreuse"
+    },
+    {
+      "code": "14",
+      "text": "Recherche de traitements complémentaires (nutrition, phytothérapie, aromathérapie, micronutrition, thérapies comportementales et cognitives, sexologie)"
+    },
+    {
+      "code": "15",
+      "exclusive": true,
+      "text": "Aucun de ces choix"
+    }
+  ],
+  "scores": []
+}

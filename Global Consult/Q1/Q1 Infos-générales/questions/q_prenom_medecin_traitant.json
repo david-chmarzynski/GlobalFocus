@@ -1,0 +1,8 @@
+{
+  "oid": "q_prenom_medecin_traitant",
+  "title": "Prénom du médecin traitant",
+  "text": "Prénom du médecin traitant",
+  "type": "TEXT",
+  "choices": [],
+  "scores": []
+}

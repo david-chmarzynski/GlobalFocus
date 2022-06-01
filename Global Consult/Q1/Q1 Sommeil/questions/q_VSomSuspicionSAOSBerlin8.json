@@ -1,0 +1,16 @@
+{
+  "oid": "q_VSomSuspicionSAOSBerlin8",
+  "title": "Vous est-il arrivé de vous assoupir ou de vous endormir au volant de votre véhicule ?",
+  "text": "Vous est-il arrivé de vous assoupir ou de vous endormir au volant de votre véhicule ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ]
+}

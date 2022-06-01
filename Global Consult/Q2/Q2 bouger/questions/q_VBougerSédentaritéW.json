@@ -1,0 +1,14 @@
+{
+  "oid": "q_VBougerSédentaritéW",
+  "title": "Combien de temps passez-vous en position assise au travail lors d’une journée habituelle ?",
+  "text": "Combien de temps passez-vous en position assise au travail lors d’une journée habituelle ?",
+  "type": "ANALOG_SCALE",
+  "scale":{
+    "min":0.0,
+    "max":24.0,
+    "step":1.0,
+    "minText": "0h",
+    "midText": "",
+    "maxText": "24h"
+  }
+}

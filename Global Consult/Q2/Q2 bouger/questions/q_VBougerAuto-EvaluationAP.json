@@ -1,0 +1,64 @@
+{
+  "oid": "q_VBougerAutoEvaluationAP",
+  "title": "Que pensez-vous de votre niveau d’activité physique actuel ?",
+  "text": "Que pensez-vous de votre niveau d’activité physique actuel ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Très bon"
+    },
+    {
+      "code": "1",
+      "text": "Bon"
+    },
+    {
+      "code": "2",
+      "text": "Légèrement insuffisant"
+    },
+    {
+      "code": "3",
+      "text": "Plutôt insuffisant"
+    },
+    {
+      "code": "4",
+      "text": "Insuffisant"
+    },
+    {
+      "code": "5",
+      "text": "Très insuffisant"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VBougerAutoEvaluationAP == '0'",
+      "tagOID": "tag_VBougerAutoEvaluationAP",
+      "value": 0
+    },
+    {
+      "conditions": "q_VBougerAutoEvaluationAP == '1'",
+      "tagOID": "tag_VBougerAutoEvaluationAP",
+      "value": 1
+    },
+    {
+      "conditions": "q_VBougerAutoEvaluationAP == '2'",
+      "tagOID": "tag_VBougerAutoEvaluationAP",
+      "value": 2
+    },
+    {
+      "conditions": "q_VBougerAutoEvaluationAP == '3'",
+      "tagOID": "tag_VBougerAutoEvaluationAP",
+      "value": 3
+    },
+    {
+      "conditions": "q_VBougerAutoEvaluationAP == '4'",
+      "tagOID": "tag_VBougerAutoEvaluationAP",
+      "value": 4
+    },
+    {
+      "conditions": "q_VBougerAutoEvaluationAP == '5'",
+      "tagOID": "tag_VBougerAutoEvaluationAP",
+      "value": 5
+    }
+  ]
+}

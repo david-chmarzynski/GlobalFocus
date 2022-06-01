@@ -1,0 +1,47 @@
+
+{
+    "oid": "q_scv0_avectags",
+    "title": "Comment évaluez-vous votre santé cardio-vasculaire ?",
+    "type": "SINGLE_CHOICE_RADIO",
+    "text": "Nous allons maintenant explorer votre santé cardio-vasculaire.\n\nComment évaluez-vous votre santé cardio-vasculaire ?",
+    "choices":[
+        { 
+            "code":"0", 
+            "text":"Satisfaisante" 
+        },
+        { 
+            "code":"1", 
+            "text":"Assez satisfaisante" 
+        },
+        { 
+            "code":"2", 
+            "text":"Insatisfaisante" 
+        },
+        { 
+            "code":"3", 
+            "text":"Très insatisfaisante" 
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "q_scv0_avectags == '0'",
+          "tagOID": "t_cv",
+          "value": 0
+        },
+        {
+            "conditions": "q_scv0_avectags == '1'",
+            "tagOID": "t_cv",
+            "value": 1
+        },
+        {
+            "conditions": "q_scv0_avectags == '2'",
+            "tagOID": "t_cv",
+            "value": 2
+        },
+        {
+            "conditions": "q_scv0_avectags == '3'",
+            "tagOID": "t_cv",
+            "value": 3
+        }
+    ]
+}

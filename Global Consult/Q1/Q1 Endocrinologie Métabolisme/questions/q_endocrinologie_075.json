@@ -1,0 +1,46 @@
+{
+  "oid": "q_endocrinologie_075",
+  "title": "Mes performances intellectuelles sont meilleures quand je suis allongé(e) ou en mouvement (par rapport à station debout ou assise immobile)",
+  "text": "Mes performances intellectuelles sont meilleures quand je suis allongé(e) ou en mouvement (par rapport à station debout ou assise immobile)",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas du tout"
+    },
+    {
+      "code": "1",
+      "text": "Un peu"
+    },
+    {
+      "code": "2",
+      "text": "Moyennement"
+    },
+    {
+      "code": "3",
+      "text": "Beaucoup"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_endocrinologie_075 == \"0\"",
+      "tagOID": "S_ENDO_SYMP_HYPOALDOSTERONISME",
+      "value": 0
+    },
+    {
+      "conditions": "q_endocrinologie_075 == \"1\"",
+      "tagOID": "S_ENDO_SYMP_HYPOALDOSTERONISME",
+      "value": 1
+    },
+    {
+      "conditions": "q_endocrinologie_075 == \"2\"",
+      "tagOID": "S_ENDO_SYMP_HYPOALDOSTERONISME",
+      "value": 2
+    },
+    {
+      "conditions": "q_endocrinologie_075 == \"3\"",
+      "tagOID": "S_ENDO_SYMP_HYPOALDOSTERONISME",
+      "value": 3
+    }
+  ]
+}

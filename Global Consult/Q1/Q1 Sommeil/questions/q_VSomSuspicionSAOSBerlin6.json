@@ -1,0 +1,55 @@
+{
+  "oid": "q_VSomSuspicionSAOSBerlin6",
+  "title": "Combien de fois vous arrive-t-il de vous sentir fatigué ou las après votre nuit de sommeil ?",
+  "text": "Combien de fois vous arrive-t-il de vous sentir fatigué ou las après votre nuit de sommeil ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Presque tous les matins"
+    },
+    {
+      "code": "1",
+      "text": "3 à 4 matins par semaine"
+    },
+    {
+      "code": "2",
+      "text": "1 à 2 matins par semaine"
+    },
+    {
+      "code": "3",
+      "text": "1 à 2 matins par mois"
+    },
+    {
+      "code": "4",
+      "text": "Jamais ou presque aucun matin"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VSomSuspicionSAOSBerlin6 == '0'",
+      "tagOID": "tag_VSomSuspicionSAOSBerlinCAT2",
+      "value": 1
+    },
+    {
+      "conditions": "q_VSomSuspicionSAOSBerlin6 == '1'",
+      "tagOID": "tag_VSomSuspicionSAOSBerlinCAT2",
+      "value": 1
+    },
+    {
+      "conditions": "q_VSomSuspicionSAOSBerlin6 == '2'",
+      "tagOID": "tag_VSomSuspicionSAOSBerlinCAT2",
+      "value": 0
+    },
+    {
+      "conditions": "q_VSomSuspicionSAOSBerlin6 == '3'",
+      "tagOID": "tag_VSomSuspicionSAOSBerlinCAT2",
+      "value": 0
+    },
+    {
+      "conditions": "q_VSomSuspicionSAOSBerlin6 == '4'",
+      "tagOID": "tag_VSomSuspicionSAOSBerlinCAT2",
+      "value": 0
+    }
+  ]
+}

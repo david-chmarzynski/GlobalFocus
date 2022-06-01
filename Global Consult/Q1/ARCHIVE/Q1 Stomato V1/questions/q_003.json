@@ -1,0 +1,95 @@
+{
+  "oid": "q_S_STO_003",
+  "title": "Au cours des 6 derniers mois,  avez-vous présenté ?",
+  "text": "Au cours des 6 derniers mois,  avez-vous présenté ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Gencives saignent ou sont douloureuses au brossage ou en passant le fil dentaire"
+    },
+    {
+      "code": "1",
+      "text": "Une odeur ou un goût désagréable dans la bouche persistant ?"
+    },
+    {
+      "code": "2",
+      "text": "Gencives qui ont changé de position (rétraction)"
+    },
+    {
+      "code": "3",
+      "text": "Impression que vos dents se tordent ou se chevauchent"
+    },
+    {
+      "code": "4",
+      "text": "Aucun de ces symptômes",
+      "exclusive":true
+    },
+    {
+      "code": "5",
+      "text": "Autre(s) symptôme(s)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"0\" in q_S_STO_003",
+      "tagOID": "S_STO_SYMP_SAIGNEMENT_GENCIVE",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"0\" in q_S_STO_003)",
+      "tagOID": "S_STO_SYMP_SAIGNEMENT_GENCIVE",
+      "value": "0"
+    },
+    {
+      "conditions": "\"1\" in q_S_STO_003",
+      "tagOID": "S_STO_SYMP_HALITOSE",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"1\" in q_S_STO_003)",
+      "tagOID": "S_STO_SYMP_HALITOSE",
+      "value": "0"
+    },
+    {
+      "conditions": "\"2\" in q_S_STO_003",
+      "tagOID": "S_STO_SYMP_RETRACTION_GENCIVE",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"2\" in q_S_STO_003)",
+      "tagOID": "S_STO_SYMP_RETRACTION_GENCIVE",
+      "value": "0"
+    },
+    {
+      "conditions": "\"3\" in q_S_STO_003",
+      "tagOID": "S_STO_SYMP_DECHAUSSEMENT_DENT",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"3\" in q_S_STO_003)",
+      "tagOID": "S_STO_SYMP_DECHAUSSEMENT_DENT",
+      "value": "0"
+    },
+    {
+      "conditions": "\"4\" in q_S_STO_003",
+      "tagOID": "S_STO_SYMP",
+      "value": "0"
+    },
+    {
+      "conditions": "!(\"4\" in q_S_STO_003)",
+      "tagOID": "S_STO_SYMP",
+      "value": "1"
+    },
+    {
+      "conditions": "\"5\" in q_S_STO_003",
+      "tagOID": "S_STO_SYMP_AUTRE",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"5\" in q_S_STO_003)",
+      "tagOID": "S_STO_SYMP_AUTRE",
+      "value": "0"
+    }
+  ]
+}

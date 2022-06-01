@@ -1,0 +1,842 @@
+{
+  "oid": "form_bouger_q1&2",
+  "title": "Global Consult Q1 + Q2 module bouger",
+  "estimatedTime": 10,
+  "pricing": 1,
+  "description": "Module d'activité physique et sédentarité",
+  "levelMax": "1",
+  "authors": ["Jacques Bassier"],
+  "chapters": [
+    "chap_bouger_q1&2"
+  ],
+  "companyId": "6d22e9eb-e2f1-4dc6-bcb2-1e438ea9b98c",
+  "diagnostics": [
+    {
+      "oid": "d_VBougerProjetAP",
+      "conditions" :
+      {
+        "Vert": "tag_VBougerProjetAP == 2 || tag_VBougerProjetAP == 3 && tag_VBougerAPGPAQ == 0 ",
+        "Jaune": "tag_VBougerProjetAP == 1 || tag_VBougerProjetAP == 3 && tag_VBougerAPGPAQ == 1",
+        "Orange": "tag_VBougerProjetAP == 0 || tag_VBougerProjetAP == 3 tag_VBougerAPGPAQ == 2",
+        "Rouge": "tag_VBougerProjetAP == 4 || tag_VBougerProjetAP == 3 && tag_VBougerAPGPAQ >= 3"
+      }
+    },
+    {
+      "oid": "d_VBougerProjetSédentarité",
+      "conditions" :
+      {
+        "Vert": "tag_VBougerProjetSédentarité == 2 || tag_VBougerProjetSédentarité == 3 && tag_VBougerSedentarite >= 0 && tag_VBougerSedentarite <= 2",
+        "Jaune": "tag_VBougerProjetSédentarité == 1 || tag_VBougerProjetSédentarité == 3 && tag_VBougerSedentarite == 3",
+        "Orange": "tag_VBougerProjetSédentarité == 0 || tag_VBougerProjetSédentarité == 3 tag_VBougerSedentarite == 4",
+        "Rouge": "tag_VBougerProjetSédentarité == 4 || tag_VBougerProjetSédentarité == 3 && tag_VBougerSedentarite == 5"
+      }
+    }
+  ],
+  "reportingTrees": [
+    {
+      "category": "HEALTH",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "tag_VBougerGlobal",
+        "type": "SCORE",
+        "ranges": [
+          {
+            "min": 0,
+            "max": 0,
+            "color": "00FF00",
+            "text": "BOUGER"
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "color": "CCFF33",
+            "text": "BOUGER"
+          },
+          {
+            "min": 2,
+            "max": 2,
+            "color": "FFFF00",
+            "text": "BOUGER"
+          },
+          {
+            "min": 3,
+            "max": 3,
+            "color": "FF9900",
+            "text": "BOUGER"
+          },
+          {
+            "min": 4,
+            "max": 4,
+            "color": "FF0000",
+            "text": "BOUGER"
+          },
+          {
+            "min": 5,
+            "max": 5,
+            "color": "990000",
+            "text": "BOUGER"
+          }
+        ],
+        "children": [
+          {
+            "tagOID": "tag_VBougerAP",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 5,
+                "max": 5,
+                "color": "00FF00",
+                "text": "AP"
+              },
+              {
+                "min": 4,
+                "max": 4,
+                "color": "CCFF33",
+                "text": "AP"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "FFFF00",
+                "text": "AP"
+              },
+              {
+                "min": 2,
+                "max": 2,
+                "color": "FF9900",
+                "text": "AP"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "AP"
+              },
+              {
+                "min": 0,
+                "max": 0,
+                "color": "990000",
+                "text": "AP"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "tag_VBougerAPGPAQ",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "text": "APGPAQ",
+                    "color": "00FF00"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "text": "APGPAQ",
+                    "color": "FFFF00"
+                  },
+                  {
+                    "min": 2,
+                    "max": 2,
+                    "text": "APGPAQ",
+                    "color": "FF9900"
+                  },
+                  {
+                    "min": 3,
+                    "max": 3,
+                    "text": "APGPAQ",
+                    "color": "FF0000"
+                  },
+                  {
+                    "min": 4,
+                    "max": 4,
+                    "text": "APGPAQ",
+                    "color": "990000"
+                  }
+                ],
+                "children": [
+                  {
+                    "tagOID": "tag_VBougerAPGPAQW",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "text": "APGPAQ-W",
+                        "color": "00FF00"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "text": "APGPAQ-W",
+                        "color": "FFFF00"
+                      },
+                      {
+                        "min": 2,
+                        "max": 2,
+                        "text": "APGPAQ-W",
+                        "color": "FF9900"
+                      },
+                      {
+                        "min": 3,
+                        "max": 3,
+                        "text": "APGPAQ-W",
+                        "color": "FF0000"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "tag_VBougerAPGPAQD",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "text": "APGPAQ-D",
+                        "color": "00FF00"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "text": "APGPAQ-D",
+                        "color": "FFFF00"
+                      },
+                      {
+                        "min": 2,
+                        "max": 2,
+                        "text": "APGPAQ-D",
+                        "color": "FF9900"
+                      },
+                      {
+                        "min": 3,
+                        "max": 3,
+                        "text": "APGPAQ-D",
+                        "color": "FF0000"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "tag_VBougerAPGPAQL",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "text": "APGPAQ-L",
+                        "color": "00FF00"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "text": "APGPAQ-L",
+                        "color": "FFFF00"
+                      },
+                      {
+                        "min": 2,
+                        "max": 2,
+                        "text": "APGPAQ-L",
+                        "color": "FF9900"
+                      },
+                      {
+                        "min": 3,
+                        "max": 3,
+                        "text": "APGPAQ-L",
+                        "color": "FF0000"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "tagOID": "tag_VBougerAutoEvaluationAP",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "text": "AUTO-AP",
+                    "color": "00FF00"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "text": "AUTO-AP",
+                    "color": "CCFF33"
+                  },
+                  {
+                    "min": 2,
+                    "max": 2,
+                    "text": "AUTO-AP",
+                    "color": "FFFF00"
+                  },
+                  {
+                    "min": 3,
+                    "max": 3,
+                    "text": "AUTO-AP",
+                    "color": "FF9900"
+                  },
+                  {
+                    "min": 4,
+                    "max": 4,
+                    "text": "AUTO-AP",
+                    "color": "FF0000"
+                  },
+                  {
+                    "min": 5,
+                    "max": 5,
+                    "text": "AUTO-AP",
+                    "color": "990000"
+                  }
+                ],
+                "children": [
+                  {
+                    "tagOID": "tag_VBougerAddictionSport",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "text": "ADDICT-AUTO",
+                        "color": "00FF00"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "text": "ADDICT-AUTO",
+                        "color": "FFFF00"
+                      },
+                      {
+                        "min": 2,
+                        "max": 2,
+                        "text": "ADDICT-AUTO",
+                        "color": "FF9900"
+                      },
+                      {
+                        "min": 3,
+                        "max": 3,
+                        "text": "ADDICT-AUTO",
+                        "color": "FF0000"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "tag_VBougerAddictionSportEAI",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 24,
+                        "text": "ADDICT-EAI",
+                        "color": "00FF00"
+                      },
+                      {
+                        "min": 25,
+                        "max": 40,
+                        "text": "ADDICT-EAI",
+                        "color": "FF0000"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "diagnosticOID": "d_VBougerProjetAP",
+                "type": "DIAGNOSTIC",
+                "diagnosticTitle": "Auto-évaluation du stade motivationnel par rapport à l’amélioration du niveau d’activité physique",
+                "diagnostics": {
+                  "Vert": {
+                    "text": "AP/PROJET",
+                    "color": "#00FF00",
+                    "severity": 0
+                  },
+                  "Jaune": {
+                    "text": "AP/PROJET",
+                    "color": "#FFFF00",
+                    "severity": 1
+                  },
+                  "Orange": {
+                    "text": "AP/PROJET",
+                    "color": "#FF9900",
+                    "severity": 2
+                  },
+                  "Rouge": {
+                    "text": "AP/PROJET",
+                    "color": "#FF0000",
+                    "severity": 3
+                  }
+                },
+                "children": [
+                  {
+                    "tagOID": "tag_VBougerMotivationPretAP",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "text": "AP-PRET",
+                        "color": "00FF00"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "text": "AP-PRET",
+                        "color": "FFFF00"
+                      },
+                      {
+                        "min": 2,
+                        "max": 2,
+                        "text": "AP-PRET",
+                        "color": "FF9900"
+                      },
+                      {
+                        "min": 3,
+                        "max": 3,
+                        "text": "AP-PRET",
+                        "color": "FF0000"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "tag_VBougerMotivationConfianceAP",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "text": "AP-CONF",
+                        "color": "00FF00"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "text": "AP-CONF",
+                        "color": "FFFF00"
+                      },
+                      {
+                        "min": 2,
+                        "max": 2,
+                        "text": "AP-CONF",
+                        "color": "FF9900"
+                      },
+                      {
+                        "min": 3,
+                        "max": 3,
+                        "text": "AP-CONF",
+                        "color": "FF0000"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "tag_VBougerMotivationEnvieAP",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "text": "AP-ENVI",
+                        "color": "00FF00"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "text": "AP-ENVI",
+                        "color": "FFFF00"
+                      },
+                      {
+                        "min": 2,
+                        "max": 2,
+                        "text": "AP-ENVI",
+                        "color": "FF9900"
+                      },
+                      {
+                        "min": 3,
+                        "max": 3,
+                        "text": "AP-ENVI",
+                        "color": "FF0000"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }             
+            ]
+          },
+          {
+            "tagOID": "tag_VBougerSedentarite",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "SEDENT"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "CCFF33",
+                "text": "SEDENT"
+              },
+              {
+                "min": 2,
+                "max": 2,
+                "color": "FFFF00",
+                "text": "SEDENT"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "FF9900",
+                "text": "SEDENT"
+              },
+              {
+                "min": 4,
+                "max": 4,
+                "color": "FF0000",
+                "text": "SEDENT"
+              },
+              {
+                "min": 5,
+                "max": 5,
+                "color": "990000",
+                "text": "SEDENT"
+              }
+            ],
+            "children": [
+              {
+                "diagnosticOID": "d_VBougerProjetSédentarité",
+                "type": "DIAGNOSTIC",
+                "diagnosticTitle": "Auto-évaluation du stade motivationnel par rapport à l’amélioration du niveau de sédentarité",
+                "diagnostics": {
+                  "Vert": {
+                    "text": "S/PROJET",
+                    "color": "#00FF00",
+                    "severity": 0
+                  },
+                  "Jaune": {
+                    "text": "S/PROJET",
+                    "color": "#FFFF00",
+                    "severity": 1
+                  },
+                  "Orange": {
+                    "text": "S/PROJET",
+                    "color": "#FF9900",
+                    "severity": 2
+                  },
+                  "Rouge": {
+                    "text": "S/PROJET",
+                    "color": "#FF0000",
+                    "severity": 3
+                  }
+                },
+                "children": [
+                  {
+                    "tagOID": "tag_VBougerMotivationPrêtSédentarité",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "text": "S/PRET",
+                        "color": "00FF00"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "text": "S/PRET",
+                        "color": "FFFF00"
+                      },
+                      {
+                        "min": 2,
+                        "max": 2,
+                        "text": "S/PRET",
+                        "color": "FF9900"
+                      },
+                      {
+                        "min": 3,
+                        "max": 3,
+                        "text": "S/PRET",
+                        "color": "FF0000"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "tag_VBougerMotivationConfianceSédentarité",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "text": "S/CONF",
+                        "color": "00FF00"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "text": "S/CONF",
+                        "color": "FFFF00"
+                      },
+                      {
+                        "min": 2,
+                        "max": 2,
+                        "text": "S/CONF",
+                        "color": "FF9900"
+                      },
+                      {
+                        "min": 3,
+                        "max": 3,
+                        "text": "S/CONF",
+                        "color": "FF0000"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "tag_VBougerMotivationEnvieSédentarité",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "text": "S/ENVI",
+                        "color": "00FF00"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "text": "S/ENVI",
+                        "color": "FFFF00"
+                      },
+                      {
+                        "min": 2,
+                        "max": 2,
+                        "text": "S/ENVI",
+                        "color": "FF9900"
+                      },
+                      {
+                        "min": 3,
+                        "max": 3,
+                        "text": "S/ENVI",
+                        "color": "FF0000"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "tagOID": "tag_VBougerAutoEvaluationSedentarite",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "text": "S/AUTO",
+                    "color": "00FF00"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "text": "S/AUTO",
+                    "color": "CCFF33"
+                  },
+                  {
+                    "min": 2,
+                    "max": 2,
+                    "text": "S/AUTO",
+                    "color": "FFFF00"
+                  },
+                  {
+                    "min": 3,
+                    "max": 3,
+                    "text": "S/AUTO",
+                    "color": "FF9900"
+                  },
+                  {
+                    "min": 4,
+                    "max": 4,
+                    "text": "S/AUTO",
+                    "color": "FF0000"
+                  },
+                  {
+                    "min": 5,
+                    "max": 5,
+                    "text": "S/AUTO",
+                    "color": "990000"
+                  }
+                ],
+                "children": [
+                  {
+                    "tagOID": "tag_VBougerSédentaritéSup2heures",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "text": "S>2H",
+                        "color": "00FF00"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "text": "S>2H",
+                        "color": "FFFF00"
+                      },
+                      {
+                        "min": 2,
+                        "max": 2,
+                        "text": "S>2H",
+                        "color": "FF9900"
+                      },
+                      {
+                        "min": 3,
+                        "max": 3,
+                        "text": "S>2H",
+                        "color": "FF0000"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "tagOID": "tag_VBougerSedentariteDuree",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "text": "S/DUREE",
+                    "color": "00FF00"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "text": "S/DUREE",
+                    "color": "FFFF00"
+                  },
+                  {
+                    "min": 2,
+                    "max": 2,
+                    "text": "S/DUREE",
+                    "color": "FF9900"
+                  },
+                  {
+                    "min": 3,
+                    "max": 3,
+                    "text": "S/DUREE",
+                    "color": "FF0000"
+                  }
+                ],
+                "children": [
+                  {
+                    "tagOID": "tag_VBougerSedentariteDureeL",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "text": "S/DUREE-L",
+                        "color": "00FF00"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "text": "S/DUREE-L",
+                        "color": "FFFF00"
+                      },
+                      {
+                        "min": 2,
+                        "max": 2,
+                        "text": "S/DUREE-L",
+                        "color": "FF9900"
+                      },
+                      {
+                        "min": 3,
+                        "max": 3,
+                        "text": "S/DUREE-L",
+                        "color": "FF0000"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "tag_VBougerSedentariteDureeD",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "text": "S/DUREE-D",
+                        "color": "00FF00"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "text": "S/DUREE-D",
+                        "color": "FFFF00"
+                      },
+                      {
+                        "min": 2,
+                        "max": 2,
+                        "text": "S/DUREE-D",
+                        "color": "FF9900"
+                      },
+                      {
+                        "min": 3,
+                        "max": 3,
+                        "text": "S/DUREE-D",
+                        "color": "FF0000"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "tag_VBougerSedentariteDureeW",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "text": "S/DUREE-W",
+                        "color": "00FF00"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "text": "S/DUREE-W",
+                        "color": "FFFF00"
+                      },
+                      {
+                        "min": 2,
+                        "max": 2,
+                        "text": "S/DUREE-W",
+                        "color": "FF9900"
+                      },
+                      {
+                        "min": 3,
+                        "max": 3,
+                        "text": "S/DUREE-W",
+                        "color": "FF0000"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

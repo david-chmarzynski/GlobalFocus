@@ -1,0 +1,17 @@
+{
+  "oid": "q_vie_avec_autres_personnes",
+  "title": "Dans votre domicile habituel, vivez-vous avec d’autres personnes (famille, amis…) ?",
+  "text": "Dans votre domicile habituel, vivez-vous avec d’autres personnes (famille, amis…) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": []
+}

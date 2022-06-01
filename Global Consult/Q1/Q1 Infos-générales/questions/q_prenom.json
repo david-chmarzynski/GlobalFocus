@@ -1,0 +1,8 @@
+{
+  "oid": "q_prenom",
+  "title": "Prénom",
+  "text": "Prénom",
+  "type": "TEXT",
+  "choices": [],
+  "scores": []
+}

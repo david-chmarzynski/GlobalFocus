@@ -1,0 +1,8 @@
+{
+  "oid": "q_adresse_medecin_traitant",
+  "title": "Veuillez renseigner l'adresse complète de votre médecin traitant",
+  "text": "Veuillez renseigner l'adresse complète de votre médecin traitant",
+  "type": "TEXT",
+  "choices": [],
+  "scores": []
+}

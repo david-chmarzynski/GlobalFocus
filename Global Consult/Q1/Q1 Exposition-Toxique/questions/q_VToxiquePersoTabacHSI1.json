@@ -1,0 +1,34 @@
+{
+  "oid": "q_VToxiquePersoTabacHSI1",
+  "title": "Le matin, combien de temps après être réveillé(e) fumez-vous votre première cigarette ?",
+  "text": "Le matin, combien de temps après être réveillé(e) fumez-vous votre première cigarette ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices":[
+    {"code": "0", "text": "Plus d'1 heure"},
+    {"code": "1", "text": "Dans les 30 minutes à 1h"},
+    {"code": "2", "text": "Dans les 30 minutes"},
+    {"code": "3", "text": "Dans les 5 minutes"}
+  ],
+  "scores":[
+    {
+      "tagOID": "Tag_VToxiquePersoTabacHSI1",
+      "conditions": "q_VToxiquePersoTabacHSI1 == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "Tag_VToxiquePersoTabacHSI1",
+      "conditions": "q_VToxiquePersoTabacHSI1 == '1'",
+      "value": 1
+    },
+    {
+      "tagOID": "Tag_VToxiquePersoTabacHSI1",
+      "conditions": "q_VToxiquePersoTabacHSI1 == '2'",
+      "value": 2
+    },
+    {
+      "tagOID": "Tag_VToxiquePersoTabacHSI1",
+      "conditions": "q_VToxiquePersoTabacHSI1 == '3'",
+      "value": 3
+    }
+  ]
+}

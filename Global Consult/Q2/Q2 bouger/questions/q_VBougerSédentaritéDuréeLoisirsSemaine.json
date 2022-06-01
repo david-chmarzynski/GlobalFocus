@@ -1,0 +1,14 @@
+{
+  "oid": "q_VBougerSédentaritéDuréeLoisirsSemaine",
+  "title": "Lors d’une journée habituelle de semaine, combien de temps passez-vous en position assise pour vos loisirs (écrans, lecture, jeux…) ?",
+  "text": "Lors d’une journée habituelle de semaine, combien de temps passez-vous en position assise pour vos loisirs (écrans, lecture, jeux…) ?",
+  "type": "ANALOG_SCALE",
+  "scale":{
+    "min":0.0,
+    "max":24.0,
+    "step":1.0,
+    "minText": "0h",
+    "midText": "",
+    "maxText": "24h"
+  }
+}

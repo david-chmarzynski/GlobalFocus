@@ -1,0 +1,8 @@
+{
+  "oid": "q_nb_enfants",
+  "title": "Combien avez-vous eu d'enfants ?",
+  "text": "Combien avez-vous eu d'enfants ?",
+  "type": "INTEGER",
+  "choices": [],
+  "scores": []
+}

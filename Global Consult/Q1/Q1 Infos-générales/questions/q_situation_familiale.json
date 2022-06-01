@@ -1,0 +1,33 @@
+{
+  "oid": "q_situation_familiale",
+  "title": "Quelle est votre situation familiale (au sens de l'état civil) ?",
+  "text": "Quelle est votre situation familiale (au sens de l'état civil) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Célibataire (jamais marié)"
+    },
+    {
+      "code": "1",
+      "text": "Pacsé(e)"
+    },
+    {
+      "code": "2",
+      "text": "Marié(e)"
+    },
+    {
+      "code": "3",
+      "text": "Séparé(e)"
+    },
+    {
+      "code": "4",
+      "text": "Divorcé(e)"
+    },
+    {
+      "code": "5",
+      "text": "Veuf(ve)"
+    }
+  ],
+  "scores": []
+}

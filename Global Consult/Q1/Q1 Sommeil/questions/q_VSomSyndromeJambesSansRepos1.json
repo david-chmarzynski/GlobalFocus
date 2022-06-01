@@ -1,0 +1,55 @@
+{
+  "oid": "q_VSomSyndromeJambesSansRepos1",
+  "title": "Sur ces 3 derniers mois, ressentez-vous le besoin pressant de bouger les jambes en réponse à des sensations pénibles et désagréables dans les jambes qui surviennent surtout au repos, notamment dans la soirée ou la nuit et qui sont améliorées par le mouvement ?",
+  "text": "Sur ces 3 derniers mois, ressentez-vous le besoin pressant de bouger les jambes en réponse à des sensations pénibles et désagréables dans les jambes qui surviennent surtout au repos, notamment dans la soirée ou la nuit et qui sont améliorées par le mouvement ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais ou presque jamais"
+    },
+    {
+      "code": "1",
+      "text": "1 à 3 fois par mois"
+    },
+    {
+      "code": "2",
+      "text": "1 à 2 fois par semaine"
+    },
+    {
+      "code": "3",
+      "text": "3 à 5 fois par semaine"
+    },
+    {
+      "code": "4",
+      "text": "Tous les jours (ou presque)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VSomSyndromeJambesSansRepos1 == '0'",
+      "tagOID": "tag_VSSJR",
+      "value": 0
+    },
+    {
+      "conditions": "q_VSomSyndromeJambesSansRepos1 == '1'",
+      "tagOID": "tag_VSSJR",
+      "value": 1
+    },
+    {
+      "conditions": "q_VSomSyndromeJambesSansRepos1 == '2'",
+      "tagOID": "tag_VSSJR",
+      "value": 2
+    },
+    {
+      "conditions": "q_VSomSyndromeJambesSansRepos1 == '3'",
+      "tagOID": "tag_VSSJR",
+      "value": 3
+    },
+    {
+      "conditions": "q_VSomSyndromeJambesSansRepos1 == '4'",
+      "tagOID": "tag_VSSJR",
+      "value": 4
+    }
+  ]
+}

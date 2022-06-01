@@ -1,0 +1,11 @@
+{
+  "oid": "f_info_gen",
+  "title": "Global Consult Q1 module Infos générales",
+  "estimatedTime": 10,
+  "pricing": 0,
+  "description": "Module d'infos générales patient",
+  "levelMax": "1",
+  "authors": ["Jean-Philippe Astruc", "Jacques Bassier"],
+  "chapters": ["chap_info_gen"],
+  "professions": ["DENTIST"]
+}

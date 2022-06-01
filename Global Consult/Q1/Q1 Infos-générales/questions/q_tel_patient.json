@@ -1,0 +1,10 @@
+{
+  "oid": "q_tel_patient",
+  "title": "Veuillez renseigner votre numéro de téléphone portable",
+  "text": "Veuillez renseigner votre numéro de téléphone portable",
+  "type": "TEXT",
+  "displaySkip":true,
+  "regex": "(0|\\+33|0033)[1-9][0-9]{8}",
+  "choices": [],
+  "scores": []
+}

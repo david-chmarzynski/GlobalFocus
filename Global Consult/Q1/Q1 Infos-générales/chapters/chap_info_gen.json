@@ -1,0 +1,7 @@
+{
+  "oid": "chap_info_gen",
+  "title": "Chap info_gen",
+  "modules": [
+    "mod_info_gen"
+  ]
+}

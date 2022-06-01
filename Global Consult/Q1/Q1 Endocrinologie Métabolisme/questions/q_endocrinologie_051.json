@@ -1,0 +1,46 @@
+{
+  "oid": "q_endocrinologie_051",
+  "title": "Je suis fatigué(e), avec des gros « coups de pompe » dans la journée",
+  "text": "Je suis fatigué(e), avec des gros « coups de pompe » dans la journée",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas du tout"
+    },
+    {
+      "code": "1",
+      "text": "Un peu"
+    },
+    {
+      "code": "2",
+      "text": "Moyennement"
+    },
+    {
+      "code": "3",
+      "text": "Beaucoup"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_endocrinologie_051 == \"0\"",
+      "tagOID": "S_ENDO_SYMP_HYPOCORTICISME",
+      "value": 0
+    },
+    {
+      "conditions": "q_endocrinologie_051 == \"1\"",
+      "tagOID": "S_ENDO_SYMP_HYPOCORTICISME",
+      "value": 1
+    },
+    {
+      "conditions": "q_endocrinologie_051 == \"2\"",
+      "tagOID": "S_ENDO_SYMP_HYPOCORTICISME",
+      "value": 2
+    },
+    {
+      "conditions": "q_endocrinologie_051 == \"3\"",
+      "tagOID": "S_ENDO_SYMP_HYPOCORTICISME",
+      "value": 3
+    }
+  ]
+}

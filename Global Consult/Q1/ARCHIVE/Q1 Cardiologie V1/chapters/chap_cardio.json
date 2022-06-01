@@ -1,0 +1,7 @@
+{
+  "oid": "chap_cardio",
+  "title": "Cardio Vasculaire",
+  "modules": [
+    "mod_cardio"
+  ]
+}

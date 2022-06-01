@@ -1,0 +1,40 @@
+{
+  "oid": "q_VToxiqueGlobal",
+  "title": "Comment évaluez-vous votre exposition personnelle à des produits toxiques (pollution, tabac, alcool…) dans votre environnement habituel ?",
+  "text": "Comment évaluez-vous votre exposition personnelle à des produits toxiques (pollution, tabac, alcooo…) dans votre environnement habituel ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices":[
+    {"code": "0", "text": "Très faible"},
+    {"code": "1", "text": "Modérée"},
+    {"code": "2", "text": "Moyenne"},
+    {"code": "3", "text": "Forte"},
+    {"code": "4", "text": "Très forte"}
+  ],
+  "scores":[
+    {
+      "tagOID": "Tag_VToxiqueGlobal",
+      "conditions": "q_VToxiqueGlobal == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "Tag_VToxiqueGlobal",
+      "conditions": "q_VToxiqueGlobal == '1'",
+      "value": 1
+    },
+    {
+      "tagOID": "Tag_VToxiqueGlobal",
+      "conditions": "q_VToxiqueGlobal == '2'",
+      "value": 2
+    },
+    {
+      "tagOID": "Tag_VToxiqueGlobal",
+      "conditions": "q_VToxiqueGlobal == '3'",
+      "value": 3
+    },
+    {
+      "tagOID": "Tag_VToxiqueGlobal",
+      "conditions": "q_VToxiqueGlobal == '4'",
+      "value": 4
+    }
+  ]
+}

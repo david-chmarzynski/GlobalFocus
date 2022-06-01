@@ -1,0 +1,34 @@
+{
+  "oid": "q_VToxiquePersoAlcoolFace1",
+  "title": "A quelle fréquence consommez-vous des boissons contenant de l’alcool ?",
+  "text": "A quelle fréquence consommez-vous des boissons contenant de l’alcool ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices":[
+    {"code": "1", "text": "1 fois par mois ou moins"},
+    {"code": "2", "text": "2 à 4 fois par mois"},
+    {"code": "3", "text": "2 à 3 fois par semaine"},
+    {"code": "4", "text": "4 fois par semaine ou plus"}
+  ],
+  "scores":[
+    {
+      "tagOID": "Tag_VToxiquePersoAlcoolFace",
+      "conditions": "q_VToxiquePersoAlcoolFace1 == '1'",
+      "value": 1
+    },
+    {
+      "tagOID": "Tag_VToxiquePersoAlcoolFace",
+      "conditions": "q_VToxiquePersoAlcoolFace1 == '2'",
+      "value": 2
+    },
+    {
+      "tagOID": "Tag_VToxiquePersoAlcoolFace",
+      "conditions": "q_VToxiquePersoAlcoolFace1 == '3'",
+      "value": 3
+    },
+    {
+      "tagOID": "Tag_VToxiquePersoAlcoolFace",
+      "conditions": "q_VToxiquePersoAlcoolFace1 == '4'",
+      "value": 4
+    }
+  ]
+}

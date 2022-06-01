@@ -1,0 +1,108 @@
+{
+    "oid": "q_scvatcd1_avectags",
+    "title": "Est-ce que des membres de votre famille PROCHE (mère, père, enfant, frère, soeur) présentent actuellement ou présentaient ?",
+    "type": "MULTI_CHOICES",
+    "text": "Est-ce que des membres de votre famille PROCHE (mère, père, enfant, frère, soeur) présentent actuellement ou présentaient ?",
+    "choices":[
+       {"code":"hta", "text":"Une hypertension artérielle"},
+       {"code":"angoridm", "text":"Une angine de poitrine ou un infarctus du myocarde"},
+       {"code":"avc", "text":"Un accident vasculaire cérébral"},
+       {"code":"arterite", "text":"De l’artérite"},
+       {"code":"epphleb", "text":"Une embolie pulmonaire ou une ou des phlébites"},
+       {"code":"cardiomyo", "text":"Une cardiomyopathie"},
+       {"code":"aucun", "text":"Aucun de ces antécédents", "exclusive":true},
+       {"code":"nsp", "text":"Je ne sais pas","exclusive":true}
+    ],
+    "scores":[ 
+        {
+            "tagOID":"t_cv_hta1",
+            "conditions":"\"nsp\" in q_scvatcd1_avectags",
+            "value":-1
+        },
+        {
+            "tagOID":"t_cv_angoridm1",
+            "conditions":"\"nsp\" in q_scvatcd1_avectags",
+            "value":-1
+        },
+        {
+            "tagOID":"t_cv_avc1",
+            "conditions":"\"nsp\" in q_scvatcd1_avectags",
+            "value":-1
+        },
+        {
+            "tagOID":"t_cv_arterite1",
+            "conditions":"\"nsp\" in q_scvatcd1_avectags",
+            "value":-1
+        },
+        {
+            "tagOID":"t_cv_epphleb1",
+            "conditions":"\"nsp\" in q_scvatcd1_avectags",
+            "value":-1
+        },
+        {
+            "tagOID":"t_cv_cardiomyo1",
+            "conditions":"\"nsp\" in q_scvatcd1_avectags",
+            "value":-1
+        },
+        {
+            "tagOID":"t_cv_hta1",
+            "conditions":"\"aucun\" in q_scvatcd1_avectags || !(\"hta\" in q_scvatcd1_avectags)",
+            "value":0
+        },
+        {
+            "tagOID":"t_cv_angoridm1",
+            "conditions":"\"aucun\" in q_scvatcd1_avectags || !(\"angoridm\" in q_scvatcd1_avectags)",
+            "value":0
+        },
+        {
+            "tagOID":"t_cv_avc1",
+            "conditions":"\"aucun\" in q_scvatcd1_avectags || !(\"avc\" in q_scvatcd1_avectags)",
+            "value":0
+        },
+        {
+            "tagOID":"t_cv_arterite1",
+            "conditions":"\"aucun\" in q_scvatcd1_avectags || !(\"arterite\" in q_scvatcd1_avectags)",
+            "value":0
+        },
+        {
+            "tagOID":"t_cv_epphleb1",
+            "conditions":"\"aucun\" in q_scvatcd1_avectags || !(\"epphleb\" in q_scvatcd1_avectags)",
+            "value":0
+        },
+        {
+            "tagOID":"t_cv_cardiomyo1",
+            "conditions":"\"aucun\" in q_scvatcd1_avectags || !(\"cardiomyo\" in q_scvatcd1_avectags)",
+            "value":0
+        },
+        {
+            "tagOID":"t_cv_hta1",
+            "conditions":"\"hta\" in q_scvatcd1_avectags",
+            "value":1
+        },
+        {
+            "tagOID":"t_cv_angoridm1",
+            "conditions":"\"angoridm\" in q_scvatcd1_avectags",
+            "value":1
+        },
+        {
+            "tagOID":"t_cv_avc1",
+            "conditions":"\"avc\" in q_scvatcd1_avectags",
+            "value":1
+        },
+        {
+            "tagOID":"t_cv_arterite1",
+            "conditions":"\"arterite\" in q_scvatcd1_avectags",
+            "value":1
+        },
+        {
+            "tagOID":"t_cv_epphleb1",
+            "conditions":"\"epphleb\" in q_scvatcd1_avectags",
+            "value":1
+        },
+        {
+            "tagOID":"t_cv_cardiomyo1",
+            "conditions":"\"cardiomyo\" in q_scvatcd1_avectags",
+            "value":1
+        }
+    ]
+}

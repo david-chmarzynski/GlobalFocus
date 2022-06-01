@@ -1,0 +1,55 @@
+{
+  "oid": "q_VBougerAddictionSportEAI6",
+  "title": "Si je réduis drastiquement mon activité physique pendant un temps, je finis toujours tôt ou tard par revenir au moins au même rythme qu’avant",
+  "text": "Si je réduis drastiquement mon activité physique pendant un temps, je finis toujours tôt ou tard par revenir au moins au même rythme qu’avant",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas du tout d'accord"
+    },
+    {
+      "code": "1",
+      "text": "Plutôt pas d'accord"
+    },
+    {
+      "code": "2",
+      "text": "Ni d'accord, ni en désaccord"
+    },
+    {
+      "code": "3",
+      "text": "Plutôt d'accord"
+    },
+    {
+      "code": "4",
+      "text": "Tout à fait d'accord"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VBougerAddictionSportEAI6 == \"0\"",
+      "tagOID": "tag_VBougerAddictionSportEAI",
+      "value": 1
+    },
+    {
+      "conditions": "q_VBougerAddictionSportEAI6 == \"1\"",
+      "tagOID": "tag_VBougerAddictionSportEAI",
+      "value": 2
+    },
+    {
+      "conditions": "q_VBougerAddictionSportEAI6 == \"2\"",
+      "tagOID": "tag_VBougerAddictionSportEAI",
+      "value": 3
+    },
+    {
+      "conditions": "q_VBougerAddictionSportEAI6 == \"3\"",
+      "tagOID": "tag_VBougerAddictionSportEAI",
+      "value": 4
+    },
+    {
+      "conditions": "q_VBougerAddictionSportEAI6 == \"4\"",
+      "tagOID": "tag_VBougerAddictionSportEAI",
+      "value": 5
+    }
+  ]
+}

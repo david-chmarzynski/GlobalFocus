@@ -1,0 +1,55 @@
+{
+  "oid": "q_VTeteADSGlobale",
+  "title": "Comment évaluez-vous la facilité avec laquelle vous communiquez avec les autres (demander ou refuser quelque chose, faire ou recevoir une critique, vous exprimer en public…) ?",
+  "text": "Comment évaluez-vous la facilité avec laquelle vous communiquez avec les autres (demander ou refuser quelque chose, faire ou recevoir une critique, vous exprimer en public…) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisante"
+    },
+    {
+      "code": "1",
+      "text": "Légèrement insatisfaisante"
+    },
+    {
+      "code": "2",
+      "text": "Plutôt insatisfaisante"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisante"
+    },
+    {
+      "code": "4",
+      "text": "Très insatisfaisante"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VTeteADSGlobale == '0'",
+      "tagOID": "tag_VTeteADSGlobale",
+      "value": 1
+    },
+    {
+      "conditions": "q_VTeteADSGlobale == '1'",
+      "tagOID": "tag_VTeteADSGlobale",
+      "value": 2
+    },
+    {
+      "conditions": "q_VTeteADSGlobale == '2'",
+      "tagOID": "tag_VTeteADSGlobale",
+      "value": 3
+    },
+    {
+      "conditions": "q_VTeteADSGlobale == '3'",
+      "tagOID": "tag_VTeteADSGlobale",
+      "value": 4
+    },
+    {
+      "conditions": "q_VTeteADSGlobale == '4'",
+      "tagOID": "tag_VTeteADSGlobale",
+      "value": 5
+    }
+  ]
+}

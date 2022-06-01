@@ -1,0 +1,17 @@
+{
+  "oid": "q_perimetre_ombilical",
+  "title": "Quel est votre périmètre ombilical (en cm) ?",
+  "text": "Quel est votre périmètre ombilical (en cm) ?",
+  "type": "DIGITAL_SCALE",
+  "scale":{
+    "min":40.0,
+    "max":200.0,
+    "step":1.0,
+    "minText": "40 kg",
+    "midText": "",
+    "maxText": "200 kg",
+    "minValue": "40",
+    "midValue": "",
+    "maxValue": "200"
+  }
+}

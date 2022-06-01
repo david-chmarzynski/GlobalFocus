@@ -1,0 +1,122 @@
+{
+  "oid": "mod_cardio",
+  "title": "Module cardio-vasculaire Q1+++",
+  "questions": [
+    {
+      "question": "q_scv0_avectags",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_scvatcd_avectags",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_scv_datehta",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"hta\" in q_scvatcd_avectags)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_scvatcd_avectags":""}
+      }
+    },
+    {
+      "question": "q_scv_dateangoridm",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+          "conditions": "!(\"angoridm\" in q_scvatcd_avectags)",
+          "scope": "MODULE_SCOPE",
+          "defaultValues":{"q_scvatcd_avectags":""}
+      }
+    },
+    {
+      "question": "q_scv_dateavc",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"avc\" in q_scvatcd_avectags)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_scvatcd_avectags":""}
+      }
+    },
+    {
+      "question": "q_scv_datearterite",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"arterite\" in q_scvatcd_avectags)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_scvatcd_avectags":""}
+      }
+    },
+    {
+      "question": "q_scv_dateepphleb",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"epphleb\" in q_scvatcd_avectags)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_scvatcd_avectags":""}
+      }
+    },
+    {
+      "question": "q_scv_datevarice",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"varice\" in q_scvatcd_avectags)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_scvatcd_avectags":""}
+      }
+    },
+    {
+      "question": "q_scv_datevalv",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"valv\" in q_scvatcd_avectags)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_scvatcd_avectags":""}
+      }
+    },
+    {
+      "question": "q_scv_datetdr",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"tdr\" in q_scvatcd_avectags)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_scvatcd_avectags":""}
+      }
+    },
+    {
+      "question": "q_scv_datecardiomyo",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"cardiomyo\" in q_scvatcd_avectags)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_scvatcd_avectags":""}
+      }
+    },
+    {
+      "question": "q_scvatcd1_avectags",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_scvatcd2_avectags",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_scvsymp_avectags",
+      "level": 1,
+      "isGlobal": true
+    }
+
+  ]
+}

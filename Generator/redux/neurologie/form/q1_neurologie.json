@@ -1,0 +1,677 @@
+{
+  "oid": "q1_neurologie",
+  "title": "q1_neurologie",
+  "estimatedTime": 10,
+  "pricing": 10,
+  "description": "Evaluation globale de la santé neurologique",
+  "levelMax": "1",
+  "companyId": "",
+  "authors": ["Jean-Philippe Astruc"],
+  "chapters": ["chap_Q1 Neurologie"],
+  "professions": ["DENTIST"],
+  "diagnostics": [],
+  "reportingTrees": [
+    {
+      "category": "HEALTH",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "S_N",
+        "type": "SCORE",
+        "ranges": [
+          {
+            "min": 0,
+            "max": 0,
+            "color": "00FF00",
+            "text": "NEURO"
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "color": "FFFF00",
+            "text": "NEURO"
+          },
+          {
+            "min": 2,
+            "max": 2,
+            "color": "FF9900",
+            "text": "NEURO"
+          },
+          {
+            "min": 3,
+            "max": 3,
+            "color": "FF0000",
+            "text": "NEURO"
+          }
+        ],
+        "children": [
+          {
+            "tagOID": "S_N_ATCD",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "ATCD"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FFFF00",
+                "text": "ATCD"
+              },
+              {
+                "min": 2,
+                "max": 4,
+                "color": "FF9900",
+                "text": "ATCD"
+              },
+              {
+                "min": 5,
+                "max": 30,
+                "color": "FF0000",
+                "text": "ATCD"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_N_ATCD_CHIR_CERVEAU",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CHIR CERVEAU"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CHIR CERVEAU"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CHIR PERIPH"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF9900",
+                    "text": "CHIR PERIPH"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_N_ATCD_PARKINSON",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "PARKINSON"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "PARKINSON"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_N_ATCD_EPILEPSIE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "EPILEPSIE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "EPILEPSIE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_N_ATCD_NEURODEGENERATIF",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "NEURODEGEN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "NEURODEGEN"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_N_ATCD_SEP",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "SEP"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "SEP"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_N_ATCD_SCIATALGIE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "SCIATALGIE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF9900",
+                    "text": "SCIATALGIE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_N_ATCD_CANAL_CARPIEN",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "C CARPIEN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FFFF00",
+                    "text": "C CARPIEN"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_N_ATCD_TUMEUR_BENIGNE_CERVEAU",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "TUM BEN CERV"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF9900",
+                    "text": "TUM BEN CERV"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_N_ATCD_TUMEUR_MALIGNE_CERVEAU",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "TUM MAL CERV"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "TUM MAL CERV"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_N_ATCD_MALADIE_HORTON",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "MAL HORTON"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "MAL HORTON"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_N_ATCD_MIGRAINE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "MIGRAINE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF9900",
+                    "text": "MIGRAINE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_N_ATCD1",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ATCD I DEG"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ATCD I DEG"
+                  }
+                ],
+                "children": [
+                  {
+                    "tagOID": "S_N_ATCD1_PARKINSON",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "I PARKINSON"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "I PARKINSON"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_N_ATCD1_NEURODEGENERATIF",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "I NEURODEG"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "I NEURODEG"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_N_ATCD1_NESAITPAS",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "I INCONNU"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "I INCONNU"
+                      }
+                    ],
+                    "children": [],
+                    "hideNodeIfEmpty": true
+                  }
+                ]
+              },
+              {
+                "tagOID": "S_N_ATCD2",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ATCD II DEG"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ATCD II DEG"
+                  }
+                ],
+                "children": [
+                  {
+                    "tagOID": "S_N_ATCD2_PARKINSON",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "II PARKINSON"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "II PARKINSON"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_N_ATCD2_NEURODEGENERATIF",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "II NEURODEG"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "II NEURODEG"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_N_ATCD2_NESAITPAS",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "II INCONNU"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "II INCONNU"
+                      }
+                    ],
+                    "children": [],
+                    "hideNodeIfEmpty": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tagOID": "S_N_SYMP",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "SYMP"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "SYMP"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_N_SYMP_CEPHALEE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CEPHALEE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CEPHALEE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_N_SYMP_MEMOIRE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "MEMOIRE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "MEMOIRE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_N_SYMP_TREMBLEMENT",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "TREMBLEMENT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "TREMBLEMENT"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_N_SYMP_VERTIGE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "VERTIGE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "VERTIGE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_N_SYMP_MALAISE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "MALAISE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "MALAISE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_N_SYMP_LANGAGE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "LANGAGE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "LANGAGE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_N_SYMP_CONFUSION",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CONFUSION"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CONFUSION"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_N_SYMP_ATTENTION",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ATTENTION"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ATTENTION"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_N_SYMP_PRAXIE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "PRAXIE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "PRAXIE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_N_SYMP_MUSCLE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "MUSCLE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "MUSCLE"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

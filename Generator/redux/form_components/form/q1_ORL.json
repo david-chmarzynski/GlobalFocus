@@ -1,0 +1,241 @@
+{
+  "oid": "q1_ORL",
+  "title": "q1_ORL",
+  "estimatedTime": 10,
+  "pricing": 10,
+  "description": "Évaluation globale de la santé ORL",
+  "levelMax": "1",
+  "companyId": "",
+  "authors": ["Jean-Philippe Astruc", "Jacques Bassier"],
+  "chapters": ["chap_ORL"],
+  "professions": ["DENTIST"],
+  "diagnostics": [],
+  "reportingTrees": [
+    {
+      "category": "HEALTH",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "S_ORL",
+        "type": "SCORE",
+        "ranges": [
+          { "min": 0, "max": 0, "color": "00FF00", "text": "ORL" },
+          { "min": 1, "max": 1, "color": "FFFF00", "text": "ORL" },
+          { "min": 2, "max": 2, "color": "FF9900", "text": "ORL" },
+          { "min": 3, "max": 3, "color": "FF0000", "text": "ORL" }
+        ],
+        "children": [
+          {
+            "tagOID": "S_ORL_ATCD",
+            "type": "SCORE",
+            "ranges": [
+              { "min": 0, "max": 0, "color": "00FF00", "text": "ATCD" },
+              { "min": 1, "max": 1, "color": "FF0000", "text": "ATCD" }
+            ],
+            "children": [
+              {
+                "tagOID": "S_ORL_ATCD_CANCER_BOUCHE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "KC BOUCHE"
+                  },
+                  { "min": 1, "max": 1, "color": "FF0000", "text": "KC BOUCHE" }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_CANCER_GORGE",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": 0, "max": 0, "color": "00FF00", "text": "KC GORGE" },
+                  { "min": 1, "max": 1, "color": "FF0000", "text": "KC GORGE" }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_CANCER_NEZ",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": 0, "max": 0, "color": "00FF00", "text": "KC NEZ" },
+                  { "min": 1, "max": 1, "color": "FF0000", "text": "KC NEZ" }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_AUDITION",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": 0, "max": 0, "color": "00FF00", "text": "AUDIT" },
+                  { "min": 1, "max": 1, "color": "FF0000", "text": "AUDIT" }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_POLYPOSE_NASALE",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": 0, "max": 0, "color": "00FF00", "text": "POLY NAS" },
+                  { "min": 1, "max": 1, "color": "FF0000", "text": "POLY NAS" }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_RHINITE_CHRONIQUE",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": 0, "max": 0, "color": "00FF00", "text": "RHIN CHR" },
+                  { "min": 1, "max": 1, "color": "FF0000", "text": "RHIN CHR" }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_SINUSITE_CHRONIQUE",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": 0, "max": 0, "color": "00FF00", "text": "SIN CHR" },
+                  { "min": 1, "max": 1, "color": "FF0000", "text": "SIN CHR" }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_NEUROPATHIE",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": 0, "max": 0, "color": "00FF00", "text": "NEUROPA" },
+                  { "min": 1, "max": 1, "color": "FF0000", "text": "NEUROPA" }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_NEURINOME",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": 0, "max": 0, "color": "00FF00", "text": "NEURINO" },
+                  { "min": 1, "max": 1, "color": "FF0000", "text": "NEURINO" }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_FRACTURE_FACE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "FRAC FACE"
+                  },
+                  { "min": 1, "max": 1, "color": "FF0000", "text": "FRAC FACE" }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_ACOUPHENE",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": 0, "max": 0, "color": "00FF00", "text": "ACOUPH" },
+                  { "min": 1, "max": 1, "color": "FF0000", "text": "ACOUPH" }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_AUTRE",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": 0, "max": 0, "color": "00FF00", "text": "AUTRE" },
+                  { "min": 1, "max": 1, "color": "FF0000", "text": "AUTRE" }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "S_ORL_SYMP",
+            "type": "SCORE",
+            "ranges": [
+              { "min": 0, "max": 0, "color": "00FF00", "text": "SYMP" },
+              { "min": 1, "max": 1, "color": "FF0000", "text": "SYMP" }
+            ],
+            "children": [
+              {
+                "tagOID": "S_ORL_SYMP_AUDITION",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": 0, "max": 0, "color": "00FF00", "text": "AUDI" },
+                  { "min": 1, "max": 1, "color": "FF0000", "text": "AUDI" }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_SYMP_ACOUPHENE",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": 0, "max": 0, "color": "00FF00", "text": "ACOUPH" },
+                  { "min": 1, "max": 1, "color": "FF0000", "text": "ACOUPH" }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_SYMP_DYSPHAGIE",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": 0, "max": 0, "color": "00FF00", "text": "DYSPH" },
+                  { "min": 1, "max": 1, "color": "FF0000", "text": "DYSPH" }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_SYMP_VOIX",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": 0, "max": 0, "color": "00FF00", "text": "VOIX" },
+                  { "min": 1, "max": 1, "color": "FF0000", "text": "VOIX" }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_SYMP_ODORAT",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": 0, "max": 0, "color": "00FF00", "text": "ODORAT" },
+                  { "min": 1, "max": 1, "color": "FF0000", "text": "ODORAT" }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_SYMP_GOUT",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": 0, "max": 0, "color": "00FF00", "text": "GOUT" },
+                  { "min": 1, "max": 1, "color": "FF0000", "text": "GOUT" }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_SYMP_DOULEUR",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": 0, "max": 0, "color": "00FF00", "text": "DOULEUR" },
+                  { "min": 1, "max": 1, "color": "FF0000", "text": "DOULEUR" }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_SYMP_AUTRE",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": 0, "max": 0, "color": "00FF00", "text": "AUTRE" },
+                  { "min": 1, "max": 1, "color": "FF0000", "text": "AUTRE" }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

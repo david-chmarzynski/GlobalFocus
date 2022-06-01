@@ -1,0 +1,28 @@
+.ranges-block {
+  display: flex;
+  align-items: center;
+}
+
+.green {
+  background: #00ff00;
+}
+
+.light-green {
+  background: #ccff33;
+}
+
+.yellow {
+  background: #ffff00;
+}
+
+.orange {
+  background: #ff9900;
+}
+
+.red {
+  background: #ff0000;
+}
+
+.deep-red {
+  background: #990000;
+}

@@ -1,0 +1,123 @@
+{
+  "oid": "q_S_GYN_002",
+  "title": "Au cours des 3 derniers mois, avez-vous présenté ?",
+  "text": "Au cours des 3 derniers mois, avez-vous présenté ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "metrorragie",
+      "text": "Saignement qui se produit entre les règles ou qui n'est pas lié aux règles et se produit de façon irrégulière ?"
+    },
+    {
+      "code": "douleur pelvienne",
+      "text": "Douleurs pelviennes (bas ventre) inhabituelles, non en lien avec les règles ?"
+    },
+    {
+      "code": "prurit",
+      "text": "Un prurit vaginal (démangeaison) et/ou un écoulement vaginal inhabituels ?"
+    },
+    {
+      "code": "ecoulement mamelonnaire",
+      "text": "Écoulement mamelonnaire ?"
+    },
+    {
+      "code": "masse anormale",
+      "text": "Une douleur et/ou une masse anormale sur un sein ?"
+    },
+    {
+      "code": "hirsutisme",
+      "text": "J’ai une forte pilosité (joues) et une peau grasse"
+    },
+    {
+      "code": "dyspareunie",
+      "text": "J’ai des douleurs lors des rapports sexuels"
+    },
+    {
+      "code": "aucun",
+      "text": "Aucun de ces symptômes",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"metrorragie\" in q_S_GYN_002",
+      "tagOID": "S_GYN_SYMP_METRORRAGIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"metrorragie\" in q_S_GYN_002)",
+      "tagOID": "S_GYN_SYMP_METRORRAGIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"douleur pelvienne\" in q_S_GYN_002",
+      "tagOID": "S_GYN_SYMP_DOULEUR_PELVIENNE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"douleur pelvienne\" in q_S_GYN_002)",
+      "tagOID": "S_GYN_SYMP_DOULEUR_PELVIENNE",
+      "value": 0
+    },
+    {
+      "conditions": "\"prurit\" in q_S_GYN_002",
+      "tagOID": "S_GYN_SYMP_ECOULEMENT",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"prurit\" in q_S_GYN_002)",
+      "tagOID": "S_GYN_SYMP_ECOULEMENT",
+      "value": 0
+    },
+    {
+      "conditions": "\"ecoulement mamelonnaire\" in q_S_GYN_002",
+      "tagOID": "S_GYN_SYMP_ECOULEMENT_MAMELON",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"ecoulement mamelonnaire\" in q_S_GYN_002)",
+      "tagOID": "S_GYN_SYMP_ECOULEMENT_MAMELON",
+      "value": 0
+    },
+    {
+      "conditions": "\"masse anormale\" in q_S_GYN_002",
+      "tagOID": "S_GYN_SYMP_DOULEUR_MASSE_SEIN",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"masse anormale\" in q_S_GYN_002)",
+      "tagOID": "S_GYN_SYMP_DOULEUR_MASSE_SEIN",
+      "value": 0
+    },
+    {
+      "conditions": "\"hirsutisme\" in q_S_GYN_002",
+      "tagOID": "S_GYN_SYMP_HIRSUTISME",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"hirsutisme\" in q_S_GYN_002)",
+      "tagOID": "S_GYN_SYMP_HIRSUTISME",
+      "value": 0
+    },
+    {
+      "conditions": "\"dyspareunie\" in q_S_GYN_002",
+      "tagOID": "S_GYN_SYMP_DYSPAREUNIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"dyspareunie\" in q_S_GYN_002)",
+      "tagOID": "S_GYN_SYMP_DYSPAREUNIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"aucun\" in q_S_GYN_002",
+      "tagOID": "S_GYN_SYMP",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_S_GYN_002)",
+      "tagOID": "S_GYN_SYMP",
+      "value": 1
+    }
+  ]
+}

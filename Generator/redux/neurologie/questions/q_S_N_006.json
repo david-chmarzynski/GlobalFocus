@@ -1,0 +1,628 @@
+{
+  "oid": "q_S_N_006",
+  "title": "En quelle(s) année(s) l’intervention sur le(s) nerf(s) périphérique(s) a été pratiqué ?",
+  "text": "En quelle(s) année(s) l’intervention sur le(s) nerf(s) périphérique(s) a été pratiqué ?",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": "1900",
+    "max": "2022",
+    "step": 1
+  },
+  "scores": [
+    {
+      "conditions": "q_S_N_006 == 1900",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1900
+    },
+    {
+      "conditions": "q_S_N_006 == 1901",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1901
+    },
+    {
+      "conditions": "q_S_N_006 == 1902",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1902
+    },
+    {
+      "conditions": "q_S_N_006 == 1903",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1903
+    },
+    {
+      "conditions": "q_S_N_006 == 1904",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1904
+    },
+    {
+      "conditions": "q_S_N_006 == 1905",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1905
+    },
+    {
+      "conditions": "q_S_N_006 == 1906",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1906
+    },
+    {
+      "conditions": "q_S_N_006 == 1907",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1907
+    },
+    {
+      "conditions": "q_S_N_006 == 1908",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1908
+    },
+    {
+      "conditions": "q_S_N_006 == 1909",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1909
+    },
+    {
+      "conditions": "q_S_N_006 == 1910",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1910
+    },
+    {
+      "conditions": "q_S_N_006 == 1911",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1911
+    },
+    {
+      "conditions": "q_S_N_006 == 1912",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1912
+    },
+    {
+      "conditions": "q_S_N_006 == 1913",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1913
+    },
+    {
+      "conditions": "q_S_N_006 == 1914",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1914
+    },
+    {
+      "conditions": "q_S_N_006 == 1915",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1915
+    },
+    {
+      "conditions": "q_S_N_006 == 1916",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1916
+    },
+    {
+      "conditions": "q_S_N_006 == 1917",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1917
+    },
+    {
+      "conditions": "q_S_N_006 == 1918",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1918
+    },
+    {
+      "conditions": "q_S_N_006 == 1919",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1919
+    },
+    {
+      "conditions": "q_S_N_006 == 1920",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1920
+    },
+    {
+      "conditions": "q_S_N_006 == 1921",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1921
+    },
+    {
+      "conditions": "q_S_N_006 == 1922",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1922
+    },
+    {
+      "conditions": "q_S_N_006 == 1923",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1923
+    },
+    {
+      "conditions": "q_S_N_006 == 1924",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1924
+    },
+    {
+      "conditions": "q_S_N_006 == 1925",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1925
+    },
+    {
+      "conditions": "q_S_N_006 == 1926",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1926
+    },
+    {
+      "conditions": "q_S_N_006 == 1927",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1927
+    },
+    {
+      "conditions": "q_S_N_006 == 1928",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1928
+    },
+    {
+      "conditions": "q_S_N_006 == 1929",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1929
+    },
+    {
+      "conditions": "q_S_N_006 == 1930",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1930
+    },
+    {
+      "conditions": "q_S_N_006 == 1931",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1931
+    },
+    {
+      "conditions": "q_S_N_006 == 1932",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1932
+    },
+    {
+      "conditions": "q_S_N_006 == 1933",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1933
+    },
+    {
+      "conditions": "q_S_N_006 == 1934",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1934
+    },
+    {
+      "conditions": "q_S_N_006 == 1935",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1935
+    },
+    {
+      "conditions": "q_S_N_006 == 1936",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1936
+    },
+    {
+      "conditions": "q_S_N_006 == 1937",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1937
+    },
+    {
+      "conditions": "q_S_N_006 == 1938",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1938
+    },
+    {
+      "conditions": "q_S_N_006 == 1939",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1939
+    },
+    {
+      "conditions": "q_S_N_006 == 1940",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1940
+    },
+    {
+      "conditions": "q_S_N_006 == 1941",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1941
+    },
+    {
+      "conditions": "q_S_N_006 == 1942",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1942
+    },
+    {
+      "conditions": "q_S_N_006 == 1943",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1943
+    },
+    {
+      "conditions": "q_S_N_006 == 1944",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1944
+    },
+    {
+      "conditions": "q_S_N_006 == 1945",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1945
+    },
+    {
+      "conditions": "q_S_N_006 == 1946",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1946
+    },
+    {
+      "conditions": "q_S_N_006 == 1947",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1947
+    },
+    {
+      "conditions": "q_S_N_006 == 1948",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1948
+    },
+    {
+      "conditions": "q_S_N_006 == 1949",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1949
+    },
+    {
+      "conditions": "q_S_N_006 == 1950",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1950
+    },
+    {
+      "conditions": "q_S_N_006 == 1951",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1951
+    },
+    {
+      "conditions": "q_S_N_006 == 1952",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1952
+    },
+    {
+      "conditions": "q_S_N_006 == 1953",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1953
+    },
+    {
+      "conditions": "q_S_N_006 == 1954",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1954
+    },
+    {
+      "conditions": "q_S_N_006 == 1955",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1955
+    },
+    {
+      "conditions": "q_S_N_006 == 1956",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1956
+    },
+    {
+      "conditions": "q_S_N_006 == 1957",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1957
+    },
+    {
+      "conditions": "q_S_N_006 == 1958",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1958
+    },
+    {
+      "conditions": "q_S_N_006 == 1959",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1959
+    },
+    {
+      "conditions": "q_S_N_006 == 1960",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1960
+    },
+    {
+      "conditions": "q_S_N_006 == 1961",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1961
+    },
+    {
+      "conditions": "q_S_N_006 == 1962",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1962
+    },
+    {
+      "conditions": "q_S_N_006 == 1963",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1963
+    },
+    {
+      "conditions": "q_S_N_006 == 1964",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1964
+    },
+    {
+      "conditions": "q_S_N_006 == 1965",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1965
+    },
+    {
+      "conditions": "q_S_N_006 == 1966",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1966
+    },
+    {
+      "conditions": "q_S_N_006 == 1967",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1967
+    },
+    {
+      "conditions": "q_S_N_006 == 1968",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1968
+    },
+    {
+      "conditions": "q_S_N_006 == 1969",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1969
+    },
+    {
+      "conditions": "q_S_N_006 == 1970",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1970
+    },
+    {
+      "conditions": "q_S_N_006 == 1971",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1971
+    },
+    {
+      "conditions": "q_S_N_006 == 1972",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1972
+    },
+    {
+      "conditions": "q_S_N_006 == 1973",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1973
+    },
+    {
+      "conditions": "q_S_N_006 == 1974",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1974
+    },
+    {
+      "conditions": "q_S_N_006 == 1975",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1975
+    },
+    {
+      "conditions": "q_S_N_006 == 1976",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1976
+    },
+    {
+      "conditions": "q_S_N_006 == 1977",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1977
+    },
+    {
+      "conditions": "q_S_N_006 == 1978",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1978
+    },
+    {
+      "conditions": "q_S_N_006 == 1979",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1979
+    },
+    {
+      "conditions": "q_S_N_006 == 1980",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1980
+    },
+    {
+      "conditions": "q_S_N_006 == 1981",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1981
+    },
+    {
+      "conditions": "q_S_N_006 == 1982",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1982
+    },
+    {
+      "conditions": "q_S_N_006 == 1983",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1983
+    },
+    {
+      "conditions": "q_S_N_006 == 1984",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1984
+    },
+    {
+      "conditions": "q_S_N_006 == 1985",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1985
+    },
+    {
+      "conditions": "q_S_N_006 == 1986",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1986
+    },
+    {
+      "conditions": "q_S_N_006 == 1987",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1987
+    },
+    {
+      "conditions": "q_S_N_006 == 1988",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1988
+    },
+    {
+      "conditions": "q_S_N_006 == 1989",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1989
+    },
+    {
+      "conditions": "q_S_N_006 == 1990",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1990
+    },
+    {
+      "conditions": "q_S_N_006 == 1991",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1991
+    },
+    {
+      "conditions": "q_S_N_006 == 1992",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1992
+    },
+    {
+      "conditions": "q_S_N_006 == 1993",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1993
+    },
+    {
+      "conditions": "q_S_N_006 == 1994",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1994
+    },
+    {
+      "conditions": "q_S_N_006 == 1995",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1995
+    },
+    {
+      "conditions": "q_S_N_006 == 1996",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1996
+    },
+    {
+      "conditions": "q_S_N_006 == 1997",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1997
+    },
+    {
+      "conditions": "q_S_N_006 == 1998",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1998
+    },
+    {
+      "conditions": "q_S_N_006 == 1999",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 1999
+    },
+    {
+      "conditions": "q_S_N_006 == 2000",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 2000
+    },
+    {
+      "conditions": "q_S_N_006 == 2001",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 2001
+    },
+    {
+      "conditions": "q_S_N_006 == 2002",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 2002
+    },
+    {
+      "conditions": "q_S_N_006 == 2003",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 2003
+    },
+    {
+      "conditions": "q_S_N_006 == 2004",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 2004
+    },
+    {
+      "conditions": "q_S_N_006 == 2005",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 2005
+    },
+    {
+      "conditions": "q_S_N_006 == 2006",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 2006
+    },
+    {
+      "conditions": "q_S_N_006 == 2007",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 2007
+    },
+    {
+      "conditions": "q_S_N_006 == 2008",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 2008
+    },
+    {
+      "conditions": "q_S_N_006 == 2009",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 2009
+    },
+    {
+      "conditions": "q_S_N_006 == 2010",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 2010
+    },
+    {
+      "conditions": "q_S_N_006 == 2011",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 2011
+    },
+    {
+      "conditions": "q_S_N_006 == 2012",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 2012
+    },
+    {
+      "conditions": "q_S_N_006 == 2013",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 2013
+    },
+    {
+      "conditions": "q_S_N_006 == 2014",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 2014
+    },
+    {
+      "conditions": "q_S_N_006 == 2015",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 2015
+    },
+    {
+      "conditions": "q_S_N_006 == 2016",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 2016
+    },
+    {
+      "conditions": "q_S_N_006 == 2017",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 2017
+    },
+    {
+      "conditions": "q_S_N_006 == 2018",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 2018
+    },
+    {
+      "conditions": "q_S_N_006 == 2019",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 2019
+    },
+    {
+      "conditions": "q_S_N_006 == 2020",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 2020
+    },
+    {
+      "conditions": "q_S_N_006 == 2021",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 2021
+    },
+    {
+      "conditions": "q_S_N_006 == 2022",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE_DATE",
+      "value": 2022
+    }
+  ]
+}

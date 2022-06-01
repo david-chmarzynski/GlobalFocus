@@ -1,0 +1,46 @@
+{
+  "oid": "q_000",
+  "title": "Comment évaluez-vous votre santé dermatologique ?",
+  "text": "Comment évaluez-vous votre santé dermatologique ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisante "
+    },
+    {
+      "code": "1",
+      "text": "Légèrement insatisfaisante"
+    },
+    {
+      "code": "2",
+      "text": "Plutôt insatisfaisante"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisante"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_000 == \"0\"",
+      "tagOID": "S_DER",
+      "value": "0"
+    },
+    {
+      "conditions": "q_000 == \"1\"",
+      "tagOID": "S_DER",
+      "value": "1"
+    },
+    {
+      "conditions": "q_000 == \"2\"",
+      "tagOID": "S_DER",
+      "value": "2"
+    },
+    {
+      "conditions": "q_000 == \"3\"",
+      "tagOID": "S_DER",
+      "value": "3"
+    }
+  ]
+}

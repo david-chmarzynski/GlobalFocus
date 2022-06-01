@@ -1,0 +1,46 @@
+{
+  "oid": "q_S_GYN_014",
+  "title": "J'ai une tendance à « gonfler » au niveau du bas ventre et des cuisses",
+  "text": "J'ai une tendance à « gonfler » au niveau du bas ventre et des cuisses",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas du tout"
+    },
+    {
+      "code": "1",
+      "text": "Un peu"
+    },
+    {
+      "code": "2",
+      "text": "Moyennement"
+    },
+    {
+      "code": "3",
+      "text": "Beaucoup"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_S_GYN_014 == \"0\"",
+      "tagOID": "S_GYN_HYPERESTROGENIE",
+      "value": 0
+    },
+    {
+      "conditions": "q_S_GYN_014 == \"1\"",
+      "tagOID": "S_GYN_HYPERESTROGENIE",
+      "value": 1
+    },
+    {
+      "conditions": "q_S_GYN_014 == \"2\"",
+      "tagOID": "S_GYN_HYPERESTROGENIE",
+      "value": 2
+    },
+    {
+      "conditions": "q_S_GYN_014 == \"3\"",
+      "tagOID": "S_GYN_HYPERESTROGENIE",
+      "value": 3
+    }
+  ]
+}

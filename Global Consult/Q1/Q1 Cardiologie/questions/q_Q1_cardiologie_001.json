@@ -1,0 +1,193 @@
+{
+  "oid": "q_Q1_cardiologie_001",
+  "title": "Vous a-t-on diagnostiqué ?",
+  "text": "Vous a-t-on diagnostiqué ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "hta",
+      "text": "Une hypertension artérielle"
+    },
+    {
+      "code": "angine",
+      "text": "Une angine de poitrine"
+    },
+    {
+      "code": "infarctus",
+      "text": "Un infarctus du myocarde"
+    },
+    {
+      "code": "avc",
+      "text": "Un accident vasculaire cérébral ( AVC )"
+    },
+    {
+      "code": "arterite",
+      "text": "De l’artérite"
+    },
+    {
+      "code": "embolie",
+      "text": "Une embolie pulmonaire"
+    },
+    {
+      "code": "phlebites",
+      "text": "Une ou des phlébites"
+    },
+    {
+      "code": "varices",
+      "text": "Des varices"
+    },
+    {
+      "code": "valvulopathie",
+      "text": "Une valvulopathie ( Insuffisance aortique ou mitrale, rétrécissement aortique ou mitral )"
+    },
+    {
+      "code": "tdr",
+      "text": "Un trouble du rythme cardiaque (fibrillation auriculaire, flutter, extrasystoles,...)"
+    },
+    {
+      "code": "cardiomyopathie",
+      "text": "Une cardiomyopathie"
+    },
+    {
+      "code": "anevrysme",
+      "text": "Un anévrysme artériel"
+    },
+    {
+      "code": "aucun",
+      "text": "Aucun de ces antécédents",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_Q1_cardiologie_001 == \"hta\"",
+      "tagOID": "S_CV_ATCD_HTA",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"hta\" in q_Q1_cardiologie_001)",
+      "tagOID": "S_CV_ATCD_HTA",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_cardiologie_001 == \"angine\"",
+      "tagOID": "S_CV_ATCD_ANGOR",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"angine\" in q_Q1_cardiologie_001)",
+      "tagOID": "S_CV_ATCD_ANGOR",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_cardiologie_001 == \"infarctus\"",
+      "tagOID": "S_CV_ATCD_INFARCTUS",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"infarctus\" in q_Q1_cardiologie_001)",
+      "tagOID": "S_CV_ATCD_INFARCTUS",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_cardiologie_001 == \"avc\"",
+      "tagOID": "S_CV_ATCD_AVC",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"avc\" in q_Q1_cardiologie_001)",
+      "tagOID": "S_CV_ATCD_AVC",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_cardiologie_001 == \"arterite\"",
+      "tagOID": "S_CV_ATCD_ARTERITE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"arterite\" in q_Q1_cardiologie_001)",
+      "tagOID": "S_CV_ATCD_ARTERITE",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_cardiologie_001 == \"embolie\"",
+      "tagOID": "S_CV_ATCD_EMBOLIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"embolie\" in q_Q1_cardiologie_001)",
+      "tagOID": "S_CV_ATCD_EMBOLIE",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_cardiologie_001 == \"phlebites\"",
+      "tagOID": "S_CV_ATCD_PHLEBITE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"phlebites\" in q_Q1_cardiologie_001)",
+      "tagOID": "S_CV_ATCD_PHLEBITE",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_cardiologie_001 == \"varices\"",
+      "tagOID": "S_CV_ATCD_VARICE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"varices\" in q_Q1_cardiologie_001)",
+      "tagOID": "S_CV_ATCD_VARICE",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_cardiologie_001 == \"valvulopathie\"",
+      "tagOID": "S_CV_ATCD_VALVULOPATHIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"valvulopathie\" in q_Q1_cardiologie_001)",
+      "tagOID": "S_CV_ATCD_VALVULOPATHIE",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_cardiologie_001 == \"tdr\"",
+      "tagOID": "S_CV_ATCD_TDR",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"tdr\" in q_Q1_cardiologie_001)",
+      "tagOID": "S_CV_ATCD_TDR",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_cardiologie_001 == \"cardiomyopathie\"",
+      "tagOID": "S_CV_ATCD_CARDIOMYOPATHIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"cardiomyopathie\" in q_Q1_cardiologie_001)",
+      "tagOID": "S_CV_ATCD_CARDIOMYOPATHIE",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_cardiologie_001 == \"anevrysme\"",
+      "tagOID": "S_CV_ATCD_ANEVRYSME",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"anevrysme\" in q_Q1_cardiologie_001)",
+      "tagOID": "S_CV_ATCD_ANEVRYSME",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_cardiologie_001 == \"aucun\"",
+      "tagOID": "S_CV_ATCD",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_Q1_cardiologie_001)",
+      "tagOID": "S_CV_ATCD",
+      "value": 1
+    }
+  ]
+}

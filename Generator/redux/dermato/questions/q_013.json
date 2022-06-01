@@ -1,0 +1,33 @@
+{
+  "oid": "q_013",
+  "title": "Parmi les 6 profils ci-dessous, lequel vous correspond le mieux ?",
+  "text": "Parmi les 6 profils ci-dessous, lequel vous correspond le mieux ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Ma peau est très claire, blanche, mes cheveux sont blonds ou roux, mes yeux sont bleus ou verts et des taches de rousseur apparaissent très rapidement en cas d’exposition"
+    },
+    {
+      "code": "1",
+      "text": "Ma peau est très claire et peut devenir hâlée, mes cheveux sont blonds ou châtains clairs, des taches de rousseur apparaissent au soleil. Ma peau brûle facilement et bronze à peine "
+    },
+    {
+      "code": "2",
+      "text": "Ma peau est modérément claire, mes cheveux sont blonds ou châtains, et j’ai peu ou pas de taches de rousseur. Ma peau brûle modérément, bronze graduellement"
+    },
+    {
+      "code": "3",
+      "text": "Ma peau est mate, mes cheveux sont châtains ou bruns, et je n’ai aucune tache de rousseur. Ma peau brûle à peine et bronze toujours bien"
+    },
+    {
+      "code": "4",
+      "text": "Ma peau est brun foncé, naturellement pigmentée, mes cheveux et mes yeux sont noirs. Ma peau brûle rarement et bronze beaucoup"
+    },
+    {
+      "code": "5",
+      "text": "Ma peau est noire, mes cheveux et yeux sont noirs et ma peau ne brûle pas"
+    }
+  ],
+  "scores": []
+}

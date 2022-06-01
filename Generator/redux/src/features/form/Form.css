@@ -1,0 +1,18 @@
+.form-layer {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+#root > div > div > div > div {
+  margin-top: 0.5rem;
+}
+
+#root > div > div > div > button {
+  margin-top: 1rem;
+}

@@ -1,0 +1,46 @@
+{
+  "oid": "q_S_GYN_023",
+  "title": "Je souffre de douleurs des seins et/ou du bas du ventre avant mes règles ou en lien avec mon cycle (contraception sans règles ou hystérectomie)",
+  "text": "Je souffre de douleurs des seins et/ou du bas du ventre avant mes règles ou en lien avec mon cycle (contraception sans règles ou hystérectomie)",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas du tout"
+    },
+    {
+      "code": "1",
+      "text": "Un peu"
+    },
+    {
+      "code": "2",
+      "text": "Moyennement"
+    },
+    {
+      "code": "3",
+      "text": "Beaucoup"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_S_GYN_023 == \"0\"",
+      "tagOID": "S_GYN_HYPOPROGESTERONE",
+      "value": 0
+    },
+    {
+      "conditions": "q_S_GYN_023 == \"1\"",
+      "tagOID": "S_GYN_HYPOPROGESTERONE",
+      "value": 1
+    },
+    {
+      "conditions": "q_S_GYN_023 == \"2\"",
+      "tagOID": "S_GYN_HYPOPROGESTERONE",
+      "value": 2
+    },
+    {
+      "conditions": "q_S_GYN_023 == \"3\"",
+      "tagOID": "S_GYN_HYPOPROGESTERONE",
+      "value": 3
+    }
+  ]
+}

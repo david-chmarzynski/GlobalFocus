@@ -1,0 +1,237 @@
+{
+  "oid": "Q1_cardiologie",
+  "title": "Q1 Cardiologie",
+  "questions": [
+    {
+      "question": "q_Q1_cardiologie_000",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_cardiologie_001",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_cardiologie_002",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"hta\" in q_Q1_cardiologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_cardiologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_cardiologie_003",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"angine\" in q_Q1_cardiologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_cardiologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_cardiologie_004",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"infarctus\" in q_Q1_cardiologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_cardiologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_cardiologie_005",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"avc\" in q_Q1_cardiologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_cardiologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_cardiologie_006",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"arterite\" in q_Q1_cardiologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_cardiologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_cardiologie_007",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"embolie\" in q_Q1_cardiologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_cardiologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_cardiologie_008",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"phlebites\" in q_Q1_cardiologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_cardiologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_cardiologie_009",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"phlebites\" in q_Q1_cardiologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_cardiologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_cardiologie_010",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"varices\" in q_Q1_cardiologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_cardiologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_cardiologie_011",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"valvulopathie\" in q_Q1_cardiologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_cardiologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_cardiologie_012",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"tdr\" in q_Q1_cardiologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_cardiologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_cardiologie_013",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"cardiomyopathie\" in q_Q1_cardiologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_cardiologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_cardiologie_014",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"anevrysme\" in q_Q1_cardiologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_cardiologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_cardiologie_015",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"angor\" in q_Q1_cardiologie_001) || !(\"infarctus\" in q_Q1_cardiologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_cardiologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_cardiologie_016",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"arterite\" in q_Q1_cardiologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_cardiologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_cardiologie_017",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"valvulopathie\" in q_Q1_cardiologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_cardiologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_cardiologie_018",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"tdr\" in q_Q1_cardiologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_cardiologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_cardiologie_019",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"anevrysme\" in q_Q1_cardiologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_cardiologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_cardiologie_020",
+      "level": 1,
+      "isGlobal": false
+    }
+  ]
+}

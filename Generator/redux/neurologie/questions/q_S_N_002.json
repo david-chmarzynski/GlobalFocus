@@ -1,0 +1,73 @@
+{
+  "oid": "q_S_N_002",
+  "title": "Est-ce qu’un ou plusieurs membres de votre famille proche (mère, père, enfant(s) et frère(s) et sœur(s) présente(nt) actuellement ou présentait(ent) ? (plusieurs choix possibles)",
+  "text": "Est-ce qu’un ou plusieurs membres de votre famille proche (mère, père, enfant(s) et frère(s) et sœur(s) présente(nt) actuellement ou présentait(ent) ? (plusieurs choix possibles)",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "parkinson1",
+      "text": "Une maladie de Parkinson (1er DEGRÉ)"
+    },
+    {
+      "code": "neurodegeneratif1",
+      "text": "Une maladie neurodégénérative (1er DEGRÉ)"
+    },
+    {
+      "code": "aucun1",
+      "text": "Aucun de ces antécédents",
+      "exclusive": true
+    },
+    {
+      "code": "inconnu1",
+      "text": "Je ne sais pas",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"parkinson1\" in q_S_N_002",
+      "tagOID": "S_N_ATCD1_PARKINSON",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"parkinson1\" in q_S_N_002)",
+      "tagOID": "S_N_ATCD1_PARKINSON",
+      "value": 0
+    },
+    {
+      "conditions": "\"neurodegeneratif1\" in q_S_N_002",
+      "tagOID": "S_N_ATCD1_NEURODEGENERATIF",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"neurodegeneratif1\" in q_S_N_002)",
+      "tagOID": "S_N_ATCD1_NEURODEGENERATIF",
+      "value": 0
+    },
+    {
+      "conditions": "\"aucun\" in q_S_N_002",
+      "tagOID": "S_N_ATCD1",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_S_N_002)",
+      "tagOID": "S_N_ATCD1",
+      "value": 1
+    },
+    {
+      "conditions": "\"inconnu1\" in q_S_N_002",
+      "tagOID": "S_N_ATCD1_NESAITPAS",
+      "value": 1
+    },
+    {
+      "conditions": "\"inconnu1\" in q_S_N_002",
+      "tagOID": "S_N_ATCD1_PARKINSON",
+      "value": -10
+    },
+    {
+      "conditions": "\"inconnu1\" in q_S_N_002",
+      "tagOID": "S_N_ATCD1_NEURODEGENERATIF",
+      "value": -10
+    }
+  ]
+}

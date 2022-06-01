@@ -1,0 +1,46 @@
+{
+  "oid": "q_S_GYN_007",
+  "title": "J'ai de plus en plus de troubles de la mémoire",
+  "text": "J'ai de plus en plus de troubles de la mémoire",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas du tout"
+    },
+    {
+      "code": "1",
+      "text": "Un peu"
+    },
+    {
+      "code": "2",
+      "text": "Moyennement"
+    },
+    {
+      "code": "3",
+      "text": "Beaucoup"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_S_GYN_007 == \"0\"",
+      "tagOID": "S_GYN_HYPOESTROGENIE",
+      "value": 0
+    },
+    {
+      "conditions": "q_S_GYN_007 == \"1\"",
+      "tagOID": "S_GYN_HYPOESTROGENIE",
+      "value": 1
+    },
+    {
+      "conditions": "q_S_GYN_007 == \"2\"",
+      "tagOID": "S_GYN_HYPOESTROGENIE",
+      "value": 2
+    },
+    {
+      "conditions": "q_S_GYN_007 == \"3\"",
+      "tagOID": "S_GYN_HYPOESTROGENIE",
+      "value": 3
+    }
+  ]
+}

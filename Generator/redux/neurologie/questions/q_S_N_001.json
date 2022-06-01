@@ -1,0 +1,193 @@
+{
+  "oid": "q_S_N_001",
+  "title": "Vous a-t-on opéré ou vous a-t-on diagnostiqué ?",
+  "text": "Vous a-t-on opéré ou vous a-t-on diagnostiqué ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "op cerveau",
+      "text": "Opération du cerveau"
+    },
+    {
+      "code": "op periph",
+      "text": "Opération de nerfs périphériques (canal carpien, sciatique, ...)"
+    },
+    {
+      "code": "parkinson",
+      "text": "Maladie de Parkinson"
+    },
+    {
+      "code": "epilepsie",
+      "text": "Epilepsie"
+    },
+    {
+      "code": "neurodegeneratif",
+      "text": "Pathologie neurodégénératif type Alzheimer"
+    },
+    {
+      "code": "sclerose",
+      "text": "Sclérose en plaque"
+    },
+    {
+      "code": "sciatalgie",
+      "text": "Sciatalgie"
+    },
+    {
+      "code": "canal carpien",
+      "text": "Canal carpien"
+    },
+    {
+      "code": "tumeur benigne",
+      "text": "Tumeur bénigne du cerveau"
+    },
+    {
+      "code": "tumeur maligne",
+      "text": "Tumeur maligne du cerveau"
+    },
+    {
+      "code": "horton",
+      "text": "Maladie de Horton"
+    },
+    {
+      "code": "migraine",
+      "text": "Migraine"
+    },
+    {
+      "code": "aucun",
+      "text": "Aucun de ces antécédents",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"op cerveau\" in q_S_N_001",
+      "tagOID": "S_N_ATCD_CHIR_CERVEAU",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"op cerveau\" in q_S_N_001)",
+      "tagOID": "S_N_ATCD_CHIR_CERVEAU",
+      "value": 0
+    },
+    {
+      "conditions": "\"op periph\" in q_S_N_001",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"op periph\" in q_S_N_001)",
+      "tagOID": "S_N_ATCD_CHIR_PERIPHERIQUE",
+      "value": 0
+    },
+    {
+      "conditions": "\"parkinson\" in q_S_N_001",
+      "tagOID": "S_N_ATCD_PARKINSON",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"parkinson\" in q_S_N_001)",
+      "tagOID": "S_N_ATCD_PARKINSON",
+      "value": 0
+    },
+    {
+      "conditions": "\"epilepsie\" in q_S_N_001",
+      "tagOID": "S_N_ATCD_EPILEPSIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"epilepsie\" in q_S_N_001)",
+      "tagOID": "S_N_ATCD_EPILEPSIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"neurodegeneratif\" in q_S_N_001",
+      "tagOID": "S_N_ATCD_NEURODEGENERATIF",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"neurodegeneratif\" in q_S_N_001)",
+      "tagOID": "S_N_ATCD_NEURODEGENERATIF",
+      "value": 0
+    },
+    {
+      "conditions": "\"sclerose\" in q_S_N_001",
+      "tagOID": "S_N_ATCD_SEP",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"sclerose\" in q_S_N_001)",
+      "tagOID": "S_N_ATCD_SEP",
+      "value": 0
+    },
+    {
+      "conditions": "\"sciatalgie\" in q_S_N_001",
+      "tagOID": "S_N_ATCD_SCIATALGIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"sciatalgie\" in q_S_N_001)",
+      "tagOID": "S_N_ATCD_SCIATALGIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"canal carpien\" in q_S_N_001",
+      "tagOID": "S_N_ATCD_CANAL_CARPIEN",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"canal carpien\" in q_S_N_001)",
+      "tagOID": "S_N_ATCD_CANAL_CARPIEN",
+      "value": 0
+    },
+    {
+      "conditions": "\"tumeur benigne\" in q_S_N_001",
+      "tagOID": "S_N_ATCD_TUMEUR_BENIGNE_CERVEAU",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"tumeur benigne\" in q_S_N_001)",
+      "tagOID": "S_N_ATCD_TUMEUR_BENIGNE_CERVEAU",
+      "value": 0
+    },
+    {
+      "conditions": "\"tumeur maligne\" in q_S_N_001",
+      "tagOID": "S_N_ATCD_TUMEUR_MALIGNE_CERVEAU",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"tumeur maligne\" in q_S_N_001)",
+      "tagOID": "S_N_ATCD_TUMEUR_MALIGNE_CERVEAU",
+      "value": 0
+    },
+    {
+      "conditions": "\"horton\" in q_S_N_001",
+      "tagOID": "S_N_ATCD_MALADIE_HORTON",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"horton\" in q_S_N_001)",
+      "tagOID": "S_N_ATCD_MALADIE_HORTON",
+      "value": 0
+    },
+    {
+      "conditions": "\"migraine\" in q_S_N_001",
+      "tagOID": "S_N_ATCD_MIGRAINE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"migraine\" in q_S_N_001)",
+      "tagOID": "S_N_ATCD_MIGRAINE",
+      "value": 0
+    },
+    {
+      "conditions": "\"autre\" in q_S_N_001",
+      "tagOID": "S_N_ATCD",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"autre\" in q_S_N_001)",
+      "tagOID": "S_N_ATCD",
+      "value": 1
+    }
+  ]
+}

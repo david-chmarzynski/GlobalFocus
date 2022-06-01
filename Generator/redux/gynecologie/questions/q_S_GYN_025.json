@@ -1,0 +1,46 @@
+{
+  "oid": "q_S_GYN_025",
+  "title": "Je suis déprimée avant mes règles ou en lien avec mon cycle (contraception sans règles ou hystérectomie)",
+  "text": "Je suis déprimée avant mes règles ou en lien avec mon cycle (contraception sans règles ou hystérectomie)",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas du tout"
+    },
+    {
+      "code": "1",
+      "text": "Un peu"
+    },
+    {
+      "code": "2",
+      "text": "Moyennement"
+    },
+    {
+      "code": "3",
+      "text": "Beaucoup"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_S_GYN_025 == \"0\"",
+      "tagOID": "S_GYN_HYPOPROGESTERONE",
+      "value": 0
+    },
+    {
+      "conditions": "q_S_GYN_025 == \"1\"",
+      "tagOID": "S_GYN_HYPOPROGESTERONE",
+      "value": 1
+    },
+    {
+      "conditions": "q_S_GYN_025 == \"2\"",
+      "tagOID": "S_GYN_HYPOPROGESTERONE",
+      "value": 2
+    },
+    {
+      "conditions": "q_S_GYN_025 == \"3\"",
+      "tagOID": "S_GYN_HYPOPROGESTERONE",
+      "value": 3
+    }
+  ]
+}

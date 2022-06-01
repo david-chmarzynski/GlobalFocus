@@ -1,0 +1,9 @@
+.navigation {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.current {
+  color: red;
+}

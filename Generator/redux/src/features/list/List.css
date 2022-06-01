@@ -1,0 +1,81 @@
+.list-button {
+  border: none;
+  background-color: #43a5f5;
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  transition: 0.5s;
+  font-size: 1.2rem;
+  cursor: pointer;
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  box-shadow: 1px 1px 11px 0px rgba(0, 0, 0, 0.4);
+}
+
+.list-button:hover {
+  transform: rotate(45deg);
+  transition: 0.3s;
+  background-color: #6abcff;
+}
+
+.list-layer {
+  width: 520px;
+  height: 480px;
+  background-color: rgb(22, 22, 22);
+  z-index: 2;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  overflow: scroll;
+}
+
+.list-title {
+  /* color: black; */
+  color: white;
+}
+
+.list-item-layer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: scroll;
+  width: 100%;
+}
+
+.list-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-item {
+  /* color: black; */
+  width: 90%;
+  height: 32px;
+  padding: 8px;
+  margin-block-end: 3px;
+  margin-block-start: 3px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.list-item-icon:hover {
+  color: rgb(233, 18, 18);
+  transition: 0.3s;
+}
+
+.list-item:hover {
+  background-color: rgb(44, 43, 43);
+}
+
+#root > div > div > div.list > div {
+  margin-top: 0;
+}

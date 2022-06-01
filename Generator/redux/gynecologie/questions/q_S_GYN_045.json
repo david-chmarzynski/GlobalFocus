@@ -1,0 +1,46 @@
+{
+  "oid": "q_S_GYN_045",
+  "title": "Je suis plus sujette aux infections",
+  "text": "Je suis plus sujette aux infections",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas du tout"
+    },
+    {
+      "code": "1",
+      "text": "Un peu"
+    },
+    {
+      "code": "2",
+      "text": "Moyennement"
+    },
+    {
+      "code": "3",
+      "text": "Beaucoup"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_S_GYN_045 == \"0\"",
+      "tagOID": "S_GYN_HYPOTESTOSTERONE",
+      "value": 0
+    },
+    {
+      "conditions": "q_S_GYN_045 == \"1\"",
+      "tagOID": "S_GYN_HYPOTESTOSTERONE",
+      "value": 1
+    },
+    {
+      "conditions": "q_S_GYN_045 == \"2\"",
+      "tagOID": "S_GYN_HYPOTESTOSTERONE",
+      "value": 2
+    },
+    {
+      "conditions": "q_S_GYN_045 == \"3\"",
+      "tagOID": "S_GYN_HYPOTESTOSTERONE",
+      "value": 3
+    }
+  ]
+}

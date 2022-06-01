@@ -1,0 +1,526 @@
+{
+  "questionaryName": "Global Focus Q1 Stomatologie",
+  "chapterOID": "chap_Global Focus Q1 Stomatologie",
+  "chapterTitle": "chap_Global Focus Q1 Stomatologie",
+  "estimatedTime": 10,
+  "pricing": 10,
+  "levelMax": "1",
+  "authors": ["Jean-Philippe Astruc", "Jacques Bassier"],
+  "professions": ["DENTIST"],
+  "companyId": [{}],
+  "linkedForm": "",
+  "category": "HEALTH",
+  "scoreStrategy": "SUM",
+  "form": [
+    {
+      "formOID": "q1_stomatologie",
+      "formTitle": "q1_stomatologie",
+      "formDescription": "Évaluation globale Stomatologie"
+    }
+  ],
+  "modules": [
+    {
+      "moduleOID": "q1_stomatologie",
+      "moduleTitle": "Stomatologie",
+      "questions": [
+        {
+          "module": "",
+          "questionOID": "q_q1_stomatologie_000",
+          "questionText": "Comment évaluez-vous votre santé dentaire (dents, gencives, mâchoires, occlusion dentaire...)",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_STO",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Satisfaisante", "value": 0, "isExclusive": false },
+            {
+              "text": "Légèrement insatisfaisante ",
+              "value": 1,
+              "isExclusive": false
+            },
+            {
+              "text": "Plutôt insatisfaisante",
+              "value": 2,
+              "isExclusive": false
+            },
+            { "text": "Insatisfaisante", "value": 3, "isExclusive": false }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_stomatologie_001",
+          "questionText": "Avez-vous eu ou vous a-t-on diagnostiqué ? ( plusieurs réponses possibles )",
+          "type": "MULTI_CHOICES",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_q1_stomatologie_000",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_STO_ATCD",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Parodontite ( inflammation chronique des gencives )",
+              "value": "parodontite",
+              "isExclusive": false
+            },
+            {
+              "text": "Bruxisme ( serrement ou grincement involontaire des dents )",
+              "value": "bruxisme",
+              "isExclusive": false
+            },
+            {
+              "text": "Traitement par biphosphonate pour ostéoporose",
+              "value": "osteoporose",
+              "isExclusive": false
+            },
+            {
+              "text": "Traitement orthodontique ( appareil type bague et/ou correction de l’occlusion ) ",
+              "value": "ortho",
+              "isExclusive": false
+            },
+            {
+              "text": "Caries dentaires ces 3 dernières années",
+              "value": "caries",
+              "isExclusive": false
+            },
+            {
+              "text": "Greffe osseuse ou de gencive",
+              "value": "greffe",
+              "isExclusive": false
+            },
+            {
+              "text": "Bridges et/ou couronnes dentaires",
+              "value": "bridges",
+              "isExclusive": false
+            },
+            {
+              "text": "Implant(s) dentaire(s)",
+              "value": "implant",
+              "isExclusive": false
+            },
+            {
+              "text": "Appareil dentaire amovible (dentier) ",
+              "value": "dentier",
+              "isExclusive": false
+            },
+            {
+              "text": "Orthèse avancée mandibulaire (traitement apnées du sommeil) ",
+              "value": "orthese",
+              "isExclusive": false
+            },
+            {
+              "text": "Autre(s) antécédent(s)",
+              "value": "autre",
+              "isExclusive": false
+            },
+            {
+              "text": "Aucun de ces antécédents",
+              "value": "aucun",
+              "isExclusive": true
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_stomatologie_002",
+          "questionText": "Précisez votre/vos autre(s) antécédent(s)",
+          "type": "TEXT",
+          "isTriggered": true,
+          "tag": "S_STO_ATCD_AUTRE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [{ "regex": "" }]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_stomatologie_003",
+          "questionText": "Au cours des 6 derniers mois, avez-vous présenté ? ( plusieurs réponses possibles )",
+          "type": "MULTI_CHOICES",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_q1_stomatologie_002",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_STO_SYMP",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Des gencives irritées qui saignent ou qui sont douloureuses au brossage ou en passant le fil dentaire",
+              "value": "gencives",
+              "isExclusive": false
+            },
+            {
+              "text": "Des gencives qui se rétractent et laissent apparaître le collet et la racine de la dent",
+              "value": "retracte",
+              "isExclusive": false
+            },
+            {
+              "text": "Une odeur et/ou un goût désagréable(s) et persistant(s) dans la bouche ? ",
+              "value": "halitose",
+              "isExclusive": false
+            },
+            {
+              "text": "Une dent sensible voire douloureuse, notamment à la mastication ou lors du contact avec un aliment froid ou chaud ?",
+              "value": "carie",
+              "isExclusive": false
+            },
+            {
+              "text": "Une sensation de dents mobiles, ayant tendance à changer de position ou à se chevaucher ?",
+              "value": "dechaussement",
+              "isExclusive": false
+            },
+            {
+              "text": "Aucun de ces symptômes ",
+              "value": "aucun",
+              "isExclusive": true
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_stomatologie_004",
+          "questionText": "De quand date votre dernière visite chez le dentiste ? ",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_q1_stomatologie_003",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_STO_PREVENTION_CONSULT",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Moins de 6 mois", "value": 0, "isExclusive": false },
+            {
+              "text": "Entre 6 mois et 1 an",
+              "value": 1,
+              "isExclusive": false
+            },
+            { "text": "Entre 1 et 2 ans", "value": 2, "isExclusive": false },
+            { "text": "Entre 2 et 3 ans", "value": 3, "isExclusive": false },
+            { "text": "Entre 3 et 5 ans", "value": 4, "isExclusive": false },
+            { "text": "Plus de 5 ans", "value": 5, "isExclusive": false },
+            { "text": "Jamais", "value": 6, "isExclusive": false }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_stomatologie_005",
+          "questionText": "Quelles étaient les raisons de votre dernière visite chez le dentiste ? ",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_q1_stomatologie_004",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_STO_PREVENTION_MOTIF_CONSULT",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Visite de contrôle ou détartrage annuel",
+              "value": 0,
+              "isExclusive": false
+            },
+            {
+              "text": "Plan de traitement dentaire",
+              "value": 1,
+              "isExclusive": false
+            },
+            {
+              "text": "En urgence (douleurs…)",
+              "value": 2,
+              "isExclusive": false
+            },
+            {
+              "text": "Traitement esthétique",
+              "value": 3,
+              "isExclusive": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "tagOID": "S_STO",
+      "tagTitle": "Évaluation générale stomatologie",
+      "tagDescription": "Évaluation générale stomatologie",
+      "tagType": "SCORE",
+      "sunburstName": "STOMATO",
+      "module": "q1_stomatologie",
+      "rangeMin": [0, 1, 2, 3],
+      "rangeMax": [0, 1, 2, 3],
+      "parent": "",
+      "children": []
+    },
+    {
+      "tagOID": "S_STO_ATCD",
+      "tagTitle": "Antécédents stomatologie",
+      "tagDescription": "Antécédents stomatologie",
+      "tagType": "SCORE",
+      "sunburstName": "ATCD",
+      "module": "q1_stomatologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 15],
+      "parent": "S_STO",
+      "children": []
+    },
+    {
+      "tagOID": "S_STO_ATCD_PARODONTITE",
+      "tagTitle": "Parodondite",
+      "tagDescription": "Parodondite",
+      "tagType": "SCORE",
+      "sunburstName": "PARODON",
+      "module": "q1_stomatologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_STO_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_STO_ATCD_BRUXISME",
+      "tagTitle": "Bruxisme",
+      "tagDescription": "Bruxisme",
+      "tagType": "SCORE",
+      "sunburstName": "BRUXISME",
+      "module": "q1_stomatologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_STO_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_STO_ATCD_BIPHOSPHONATE",
+      "tagTitle": "Biphosphonate",
+      "tagDescription": "Biphosphonate",
+      "tagType": "SCORE",
+      "sunburstName": "BIPHOSPH",
+      "module": "q1_stomatologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_STO_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_STO_ATCD_ORTHODONTIE",
+      "tagTitle": "Orthodontie",
+      "tagDescription": "Orthodontie",
+      "tagType": "SCORE",
+      "sunburstName": "ORTHODON",
+      "module": "q1_stomatologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_STO_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_STO_ATCD_CARIE",
+      "tagTitle": "Caries",
+      "tagDescription": "Caries",
+      "tagType": "SCORE",
+      "sunburstName": "CARIE",
+      "module": "q1_stomatologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_STO_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_STO_ATCD_GREFFE",
+      "tagTitle": "Greffe osseuse ou gencive",
+      "tagDescription": "Greffe osseuse ou gencive",
+      "tagType": "SCORE",
+      "sunburstName": "GREFFE",
+      "module": "q1_stomatologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_STO_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_STO_ATCD_BRIDGE_COURONNE",
+      "tagTitle": "Bridge(s) - Couronne(s) dentaire(s)",
+      "tagDescription": "Bridge(s) - Couronne(s) dentaire(s)",
+      "tagType": "SCORE",
+      "sunburstName": "BRID-COU",
+      "module": "q1_stomatologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_STO_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_STO_ATCD_IMPLANT",
+      "tagTitle": "Implant(s) dentaire(s)",
+      "tagDescription": "Implant(s) dentaire(s)",
+      "tagType": "SCORE",
+      "sunburstName": "IMPLANT",
+      "module": "q1_stomatologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_STO_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_STO_ATCD_DENTIER",
+      "tagTitle": "Appareil dentaire amovible",
+      "tagDescription": "Appareil dentaire amovible",
+      "tagType": "SCORE",
+      "sunburstName": "DENTIER",
+      "module": "q1_stomatologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_STO_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_STO_ATCD_ORTHESE",
+      "tagTitle": "Orthèse avancée mandibulaire",
+      "tagDescription": "Orthèse avancée mandibulaire",
+      "tagType": "SCORE",
+      "sunburstName": "ORTHESE",
+      "module": "q1_stomatologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_STO_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_STO_ATCD_AUTRE",
+      "tagTitle": "Autre(s) antécédent(s)",
+      "tagDescription": "Autre(s) antécédent(s)",
+      "tagType": "SCORE",
+      "sunburstName": "AUTRE",
+      "module": "q1_stomatologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_STO_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_STO_SYMP",
+      "tagTitle": "Symptômes stomatologie",
+      "tagDescription": "Symptômes stomatologie",
+      "tagType": "SCORE",
+      "sunburstName": "SYMP",
+      "module": "q1_stomatologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 15],
+      "parent": "S_STO",
+      "children": []
+    },
+    {
+      "tagOID": "S_STO_SYMP_SAIGNEMENT_GENCIVE",
+      "tagTitle": "Saignement de la gencive",
+      "tagDescription": "Saignement de la gencive",
+      "tagType": "SCORE",
+      "sunburstName": "SAIGN",
+      "module": "q1_stomatologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_STO_SYMP",
+      "children": []
+    },
+    {
+      "tagOID": "S_STO_SYMP_RETRACTATION_GENCIVE",
+      "tagTitle": "Rétractation de la gencive",
+      "tagDescription": "Rétractation de la gencive",
+      "tagType": "SCORE",
+      "sunburstName": "RETRAC",
+      "module": "q1_stomatologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_STO_SYMP",
+      "children": []
+    },
+    {
+      "tagOID": "S_STO_SYMP_HALITOSE",
+      "tagTitle": "Halitose",
+      "tagDescription": "Halitose",
+      "tagType": "SCORE",
+      "sunburstName": "HALITOSE",
+      "module": "q1_stomatologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_STO_SYMP",
+      "children": []
+    },
+    {
+      "tagOID": "S_STO_SYMP_CARIE",
+      "tagTitle": "Carie(s)",
+      "tagDescription": "Carie(s)",
+      "tagType": "SCORE",
+      "sunburstName": "CARIE",
+      "module": "q1_stomatologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_STO_SYMP",
+      "children": []
+    },
+    {
+      "tagOID": "S_STO_SYMP_DECHAUSSEMENT",
+      "tagTitle": "Déchaussement",
+      "tagDescription": "Déchaussement",
+      "tagType": "SCORE",
+      "sunburstName": "DECHAUS",
+      "module": "q1_stomatologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_STO_SYMP",
+      "children": []
+    },
+    {
+      "tagOID": "S_STO_PREVENTION_CONSULT",
+      "tagTitle": "Dernière consultation",
+      "tagDescription": "Dernière consultation",
+      "tagType": "SCORE",
+      "sunburstName": "CONSULT",
+      "module": "q1_stomatologie",
+      "rangeMin": [0, 1, 2, 3, 4, 5],
+      "rangeMax": [0, 1, 2, 3, 4, 5],
+      "parent": "S_STO_SYMP",
+      "children": []
+    },
+    {
+      "tagOID": "S_STO_PREVENTION_MOTIF_CONSULT",
+      "tagTitle": "Motif de la dernière consultation stomatologie",
+      "tagDescription": "Motif de la dernière consultation stomatologie",
+      "tagType": "SCORE",
+      "sunburstName": "MOTIF CONSULT",
+      "module": "q1_stomatologie",
+      "rangeMin": [0, 1, 2, 3],
+      "rangeMax": [0, 1, 2, 3],
+      "parent": "S_STO",
+      "children": []
+    }
+  ]
+}

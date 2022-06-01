@@ -1,0 +1,50 @@
+{
+  "oid": "Q1_ORL",
+  "title": "Q1_ORL",
+  "questions": [
+    {
+      "question": "q_S_ORL_000",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_S_ORL_001",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_S_ORL_014",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"autre\" in q_S_ORL_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_S_ORL_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_S_ORL_015",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_S_ORL_024",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"autre\" in q_S_ORL_015)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_S_ORL_015": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_S_ORL_025",
+      "level": 1,
+      "isGlobal": true
+    }
+  ]
+}

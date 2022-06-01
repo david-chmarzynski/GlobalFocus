@@ -1,0 +1,46 @@
+{
+  "oid": "q_S_GYN_034",
+  "title": "Je suis déprimée (baisse envie et triste)",
+  "text": "Je suis déprimée (baisse envie et triste)",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas du tout"
+    },
+    {
+      "code": "1",
+      "text": "Un peu"
+    },
+    {
+      "code": "2",
+      "text": "Moyennement"
+    },
+    {
+      "code": "3",
+      "text": "Beaucoup"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_S_GYN_034 == \"0\"",
+      "tagOID": "S_GYN_HYPOPROGESTERONE_THS",
+      "value": 0
+    },
+    {
+      "conditions": "q_S_GYN_034 == \"1\"",
+      "tagOID": "S_GYN_HYPOPROGESTERONE_THS",
+      "value": 1
+    },
+    {
+      "conditions": "q_S_GYN_034 == \"2\"",
+      "tagOID": "S_GYN_HYPOPROGESTERONE_THS",
+      "value": 2
+    },
+    {
+      "conditions": "q_S_GYN_034 == \"3\"",
+      "tagOID": "S_GYN_HYPOPROGESTERONE_THS",
+      "value": 3
+    }
+  ]
+}

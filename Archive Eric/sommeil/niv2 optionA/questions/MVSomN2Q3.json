@@ -1,0 +1,46 @@
+{
+  "oid": "MVSomN2Q3",
+  "title": "Sur ces 3 derniers mois, comment évaluez-vous la durée habituelle de votre sommeil ?",
+  "text": "Sur ces 3 derniers mois, comment évaluez-vous la durée habituelle de votre sommeil ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Suffisante"
+    },
+    {
+      "code": "1",
+      "text": "Légèrement insuffisante"
+    },
+    {
+      "code": "2",
+      "text": "Plutot insuffisante"
+    },
+    {
+      "code": "3",
+      "text": "Insuffisante"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSomN2Q3 == 0",
+      "tagOID": "MVSomN2-3",
+      "value": 0
+    },
+    {
+      "conditions": "MVSomN2Q3 == 1",
+      "tagOID": "MVSomN2-3",
+      "value": 1
+    },
+    {
+      "conditions": "MVSomN2Q3 == 2",
+      "tagOID": "MVSomN2-3",
+      "value": 2
+    },
+    {
+      "conditions": "MVSomN2Q3 == 3",
+      "tagOID": "MVSomN2-3",
+      "value": 3
+    }
+  ]
+}

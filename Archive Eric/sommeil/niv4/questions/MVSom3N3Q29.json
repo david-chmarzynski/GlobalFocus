@@ -1,0 +1,46 @@
+{
+  "oid": "MVSom3N3Q29",
+  "title": "Comment vous sentez-vous habituellement le matin 30 minutes après le lever ?",
+  "text": "Comment vous sentez-vous habituellement le matin 30 minutes après le lever ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Reposé(e) et en forme"
+    },
+    {
+      "code": "1",
+      "text": "Encore un peu endoormi(e), démarrage des activités légèrement difficile"
+    },
+    {
+      "code": "2",
+      "text": "Endormi(e), fatigué(e) avec de la difficulté à démarrer la journée"
+    },
+    {
+      "code": "3",
+      "text": "Somnolent, épuisé(e) avec l'impression de ne pas avoir dormi de la nuit, GRandes diffciltés à démarrer la journée"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom3N3Q29 == 0",
+      "tagOID": "MVSomN3-29",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom3N3Q29 == 1",
+      "tagOID": "MVSomN3-29",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom3N3Q29 == 2",
+      "tagOID": "MVSomN3-29",
+      "value": 2
+    },
+    {
+      "conditions": "MVSom3N3Q29 == 3",
+      "tagOID": "MVSomN3-29",
+      "value": 3
+    }
+  ]
+}

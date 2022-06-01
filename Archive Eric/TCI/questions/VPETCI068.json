@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI068",
+  "title": "Je préfère garder mes problèmes pour moi",
+  "text": "Je préfère garder mes problèmes pour moi",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "oid": "JpForm024",
+  "title": "A quel point etes-vous satisfait de la qualité des relations sexuelles avec votre partenaire ?",
+  "text": "A quel point etes-vous satisfait de la qualité des relations sexuelles avec votre partenaire ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfait"
+    },
+    {
+      "code": "1",
+      "text": "Ni satisfait, ni insatisfait"
+    },
+    {
+      "code": "2",
+      "text": "Plutot insatisfait"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfait"
+    }
+  ],
+  "scores": [
+    {
+      "tagOID": "qualite de la relation sexuelle avec le partenaire",
+      "conditions": "JpForm024 == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "qualite de la relation sexuelle avec le partenaire",
+      "conditions": "JpForm024 == '1'",
+      "value": 1
+    },
+    {
+      "tagOID": "qualite de la relation sexuelle avec le partenaire",
+      "conditions": "JpForm024 == '2'",
+      "value": 2
+    },
+    {
+      "tagOID": "qualite de la relation sexuelle avec le partenaire",
+      "conditions": "JpForm024 == '3'",
+      "value": 3
+    }
+  ]
+}

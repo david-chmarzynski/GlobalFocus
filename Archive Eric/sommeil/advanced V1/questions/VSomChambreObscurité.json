@@ -1,0 +1,46 @@
+{
+  "oid": "VSomChambreObscurité",
+  "title": "Sur ces 3 derniers mois, comment évaluez-vous l’obscurité pendant votre sommeil ?",
+  "text": "Sur ces 3 derniers mois, comment évaluez-vous l’obscurité pendant votre sommeil ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisant"
+    },
+    {
+      "code": "1",
+      "text": "Légèrement insatisfaisante"
+    },
+    {
+      "code": "2",
+      "text": "Assez insatisfaisante"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisante"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomChambreObscurité == 0",
+      "tagOID": "Obscurité",
+      "value": 0
+    },
+    {
+      "conditions": "VSomChambreObscurité == 1",
+      "tagOID": "Obscurité",
+      "value": 1
+    },
+    {
+      "conditions": "VSomChambreObscurité == 2",
+      "tagOID": "Obscurité",
+      "value": 2
+    },
+    {
+      "conditions": "VSomChambreObscurité == 3",
+      "tagOID": "Obscurité",
+      "value": 3
+    }
+  ]
+}

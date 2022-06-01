@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI057",
+  "title": "Quand quelqu'un m'a fait du mal, j'essaie en général de me venger",
+  "text": "Quand quelqu'un m'a fait du mal, j'essaie en général de me venger",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

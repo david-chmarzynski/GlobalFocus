@@ -1,0 +1,28 @@
+{
+  "oid": "FTI051",
+  "title": "Je me retrouve souvent perdu dans mes pensées pendant la journée.",
+  "text": "Je me retrouve souvent perdu dans mes pensées pendant la journée.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI051 == 0",
+      "tagOID": "prosocial",
+      "value": 1
+    },
+    {
+      "conditions": "FTI051 == 1",
+      "tagOID": "prosocial",
+      "value": 0
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "oid": "sapas005",
+  "title": "En général, faites-vous confiance aux autres",
+  "text": "En général, faites-vous confiance aux autres",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ]
+}

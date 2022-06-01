@@ -1,0 +1,46 @@
+{
+  "oid": "staiFormYA011",
+  "title": "Je sens que j'ai confiance en moi",
+  "text": "Je sens que j'ai confiance en moi",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Non"
+    },
+    {
+      "code": "2",
+      "text": "Plutot non"
+    },
+    {
+      "code": "3",
+      "text": "Plutot oui"
+    },
+    {
+      "code": "4",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "staiFormYA011 == \"1\"",
+      "tagOID": "staiFormYA",
+      "value": 4
+    },
+    {
+      "conditions": "staiFormYA011 == \"2\"",
+      "tagOID": "staiFormYA",
+      "value": 3
+    },
+    {
+      "conditions": "staiFormYA011 == \"3\"",
+      "tagOID": "staiFormYA",
+      "value": 2
+    },
+    {
+      "conditions": "staiFormYA011 == \"4\"",
+      "tagOID": "staiFormYA",
+      "value": 1
+    }
+  ]
+}

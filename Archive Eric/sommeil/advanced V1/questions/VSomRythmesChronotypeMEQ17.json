@@ -1,0 +1,55 @@
+{
+  "oid": "VSomRythmesChronotypeMEQ17",
+  "title": "Supposons que vous puissiez choisir vos propres heures de travail, que vous travailliez cinq heures par jour (en incluant les pauses) et que votre travail est intéressant et payé en fonction de votre rendement. Vers quelle heure environ choisiriez-vous de commencer à travailler?",
+  "text": "Supposons que vous puissiez choisir vos propres heures de travail, que vous travailliez cinq heures par jour (en incluant les pauses) et que votre travail est intéressant et payé en fonction de votre rendement. Vers quelle heure environ choisiriez-vous de commencer à travailler?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "5 heures commençant entre 04h00 – 08h00"
+    },
+    {
+      "code": "1",
+      "text": "5 heures commençant entre 08h00 – 09h00"
+    },
+    {
+      "code": "2",
+      "text": "5 heures commençant entre 09h00 – 14h00"
+    },
+    {
+      "code": "3",
+      "text": "5 heures commençant entre 14h00 – 17h00"
+    },
+    {
+      "code": "4",
+      "text": "5 heures commençant entre 17h00 – 04h00"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomRythmesChronotypeMEQ17 == 0",
+      "tagOID": "ChronotypeMEQ",
+      "value": 5
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ17 == 1",
+      "tagOID": "ChronotypeMEQ",
+      "value": 4
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ17 == 2",
+      "tagOID": "ChronotypeMEQ",
+      "value": 3
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ17 == 3",
+      "tagOID": "ChronotypeMEQ",
+      "value": 2
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ17 == 4",
+      "tagOID": "ChronotypeMEQ",
+      "value": 1
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "oid": "VSomRythmesChronotypeMEQ3",
+  "title": "Lorsque vous devez vous lever à une heure spécifique le matin, à quel point  dépendez-vous d'un réveille-matin pour vous réveiller ?",
+  "text": "Lorsque vous devez vous lever à une heure spécifique le matin, à quel point  dépendez-vous d'un réveille-matin pour vous réveiller ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas du tout dépendant(e)"
+    },
+    {
+      "code": "1",
+      "text": "Un peu dépendant(e)"
+    },
+    {
+      "code": "2",
+      "text": "Assez dépendant(e)"
+    },
+    {
+      "code": "3",
+      "text": "Très dépendant(e) "
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomRythmesChronotypeMEQ3 == 0",
+      "tagOID": "ChronotypeMEQ",
+      "value": 4
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ3 == 1",
+      "tagOID": "ChronotypeMEQ",
+      "value": 3
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ3 == 2",
+      "tagOID": "ChronotypeMEQ",
+      "value": 2
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ3 == 3",
+      "tagOID": "ChronotypeMEQ",
+      "value": 1
+    }
+  ]
+}

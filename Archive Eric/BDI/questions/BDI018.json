@@ -1,0 +1,46 @@
+{
+  "oid": "BDI018",
+  "title": "Comment est votre appétit ?",
+  "text": "Comment est votre appétit ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Mon appétit est aussi bon que d'habitude"
+    },
+    {
+      "code": "1",
+      "text": "Mon appétit n'est pas aussi bon qu'il était"
+    },
+    {
+      "code": "2",
+      "text": "Mon appétit a beaucoup diminué"
+    },
+    {
+      "code": "3",
+      "text": "Je n'ai plus d'appétit du tout"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "BDI018 == \"0\"",
+      "tagOID": "tag_BDI",
+      "value": 0
+    },
+    {
+      "conditions": "BDI018 == \"1\"",
+      "tagOID": "tag_BDI",
+      "value": 1
+    },
+    {
+      "conditions": "BDI018 == \"2\"",
+      "tagOID": "tag_BDI",
+      "value": 2
+    },
+    {
+      "conditions": "BDI018 == \"3\"",
+      "tagOID": "tag_BDI",
+      "value": 3
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "oid": "VSomEndormissementHabitudes3",
+  "title": "Habitudes perturbants le sommeil : votre endormissement est-il habituellement gené par les causes suivantes (plusieurs réponses possibles) ?",
+  "text": "Habitudes perturbants le sommeil : votre endormissement est-il habituellement gené par les causes suivantes (plusieurs réponses possibles) ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non-respect des rythmes naturels de sommeil"
+    },
+    {
+      "code": "1",
+      "text": "Résister à l'envie de dormir et ne plus pouvoir s'endormir après"
+    },
+    {
+      "code": "2",
+      "text": "Sieste trop longue"
+    },
+    {
+      "code": "3",
+      "text": "Grasse matinée ou avoir trop dormi la nuit précédente"
+    },
+    {
+      "code": "4",
+      "text": "Endormissement entre le repas du soir et le coucher (devant la télé par exemple...)"
+    },
+    {
+      "code": "5",
+      "text": "Activité stimulante ou stressante avant le coucher"
+    },
+    {
+      "code": "6",
+      "text": "Activité physique intense ou stressante avant le coucher"
+    },
+    {
+      "code": "7",
+      "text": "Manque d'activité physique dans la journée"
+    },
+    {
+      "code": "8",
+      "text": "Repas trop copieux"
+    },
+    {
+      "code": "9",
+      "text": "Excès de café, thé, excitants"
+    },
+    {
+      "code": "10",
+      "text": "Tabac"
+    },
+    {
+      "code": "11",
+      "text": "Alcool"
+    },
+    {
+      "code": "12",
+      "text": "Autre"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomEndormissementHabitudes3 == 0 || VSomEndormissementHabitudes3 == 1 || VSomEndormissementHabitudes3 == 11 || VSomEndormissementHabitudes3 == 9",
+      "tagOID": "Mauvaises_habitudes2",
+      "value": 3
+    },
+    {
+      "conditions": "VSomEndormissementHabitudes3 == 2 || VSomEndormissementHabitudes3 == 3 || VSomEndormissementHabitudes3 == 4 || VSomEndormissementHabitudes3 == 5 || VSomEndormissementHabitudes3 == 6 || VSomEndormissementHabitudes3 == 7 || VSomEndormissementHabitudes3 == 8 || VSomEndormissementHabitudes3 == 9 || VSomEndormissementHabitudes3 == 10 || VSomEndormissementHabitudes3 == 12",
+      "tagOID": "Mauvaises_habitudes2",
+      "value": 2
+    }
+  ]
+}

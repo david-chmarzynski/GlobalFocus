@@ -1,0 +1,46 @@
+{
+  "oid": "q_VTetePerfectionnisme",
+  "title": "Dans votre vie, êtes-vous habituellement très exigeant(e) dans ce que vous entreprenez au point de vouloir que tout soit parfait ?",
+  "text": "Dans votre vie, êtes-vous habituellement très exigeant(e) dans ce que vous entreprenez au point de vouloir que tout soit parfait ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Presque jamais"
+    },
+    {
+      "code": "1",
+      "text": "Parfois"
+    },
+    {
+      "code": "2",
+      "text": "Souvent"
+    },
+    {
+      "code": "3",
+      "text": "Presque toujours"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VTetePerfectionnisme == '0'",
+      "tagOID": "Tag_VTetePerfectionnisme",
+      "value": 0
+    },
+    {
+      "conditions": "q_VTetePerfectionnisme == '1'",
+      "tagOID": "Tag_VTetePerfectionnisme",
+      "value": 1
+    },
+    {
+      "conditions": "q_VTetePerfectionnisme == '2'",
+      "tagOID": "Tag_VTetePerfectionnisme",
+      "value": 2
+    },
+    {
+      "conditions": "q_VTetePerfectionnisme == '3'",
+      "tagOID": "Tag_VTetePerfectionnisme",
+      "value": 3
+    }
+  ]
+}

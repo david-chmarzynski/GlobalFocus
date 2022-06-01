@@ -1,0 +1,28 @@
+{
+  "oid": "MVSom4N4Q59",
+  "title": "Avez-vous un membre proche de votre famille (papa ou maman, frère ou sœur, enfant) qui présente des cauchemars ?",
+  "text": "Avez-vous un membre proche de votre famille (papa ou maman, frère ou sœur, enfant) qui présente des cauchemars ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom4N4Q59 == 0",
+      "tagOID": "MVSomN4-59",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom4N4Q59 == 1",
+      "tagOID": "MVSomN4-59",
+      "value": 1
+    }
+  ]
+}

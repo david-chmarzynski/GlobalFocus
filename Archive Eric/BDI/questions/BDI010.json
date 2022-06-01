@@ -1,0 +1,46 @@
+{
+  "oid": "BDI010",
+  "title": "Pleurez-vous souvent ?",
+  "text": "Pleurez-vous souvent ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Je ne pleure pas plus qu'à l'ordinaire"
+    },
+    {
+      "code": "1",
+      "text": "Je pleure plus qu'avant"
+    },
+    {
+      "code": "2",
+      "text": "Je pleure continuellement, maintenant"
+    },
+    {
+      "code": "3",
+      "text": "Autrefois je pouvais pleurer, mais j'en suis même plus capable aujourd'hui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "BDI010 == \"0\"",
+      "tagOID": "tag_BDI",
+      "value": 0
+    },
+    {
+      "conditions": "BDI010 == \"1\"",
+      "tagOID": "tag_BDI",
+      "value": 1
+    },
+    {
+      "conditions": "BDI010 == \"2\"",
+      "tagOID": "tag_BDI",
+      "value": 2
+    },
+    {
+      "conditions": "BDI010 == \"3\"",
+      "tagOID": "tag_BDI",
+      "value": 3
+    }
+  ]
+}

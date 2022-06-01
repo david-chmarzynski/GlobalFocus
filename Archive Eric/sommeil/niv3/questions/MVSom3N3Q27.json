@@ -1,0 +1,46 @@
+{
+  "oid": "MVSom3N3Q27",
+  "title": "Comment vous sentez-vous habituellement le matin au réveil ?",
+  "text": "Comment vous sentez-vous habituellement le matin au réveil ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Reposé(e) et en forme. Lever facile."
+    },
+    {
+      "code": "1",
+      "text": "A moitié endormi(e) et encore un peu fatigué(e)"
+    },
+    {
+      "code": "2",
+      "text": "Endormi(e), fatigué(e) avec de la difficulté à me lever"
+    },
+    {
+      "code": "3",
+      "text": "Epuisé(e), fatigué(e) avec l'impression de ne pas avoir dormi de la nuit. Me lever me demande beaucoup d'effort"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom3N3Q27 == 0",
+      "tagOID": "MVSomN3-26",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom3N3Q27 == 1",
+      "tagOID": "MVSomN3-26",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom3N3Q27 == 2",
+      "tagOID": "MVSomN3-26",
+      "value": 2
+    },
+    {
+      "conditions": "MVSom3N3Q27 == 3",
+      "tagOID": "MVSomN3-26",
+      "value": 3
+    }
+  ]
+}

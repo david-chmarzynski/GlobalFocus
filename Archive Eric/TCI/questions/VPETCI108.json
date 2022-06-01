@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI108",
+  "title": "Je me remets très vite d'avoir été embarrassé(e) ou humilié(e)",
+  "text": "Je me remets très vite d'avoir été embarrassé(e) ou humilié(e)",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

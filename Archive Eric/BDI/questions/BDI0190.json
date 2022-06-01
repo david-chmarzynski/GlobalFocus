@@ -1,0 +1,16 @@
+{
+  "oid": "BDI0190",
+  "title": "Êtes-vous au régime ?",
+  "text": "Êtes-vous au régime ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ]
+}

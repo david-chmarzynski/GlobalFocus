@@ -1,0 +1,28 @@
+{
+  "oid": "SAOS004",
+  "title": "Votre ronflement gene-t-il les autres ?",
+  "text": "Votre ronflement gene-t-il les autres ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "SAOS004 == \"0\"",
+      "tagOID": "tag_ronflement",
+      "value": 1
+    },
+    {
+      "conditions": "SAOS004 == \"1\"",
+      "tagOID": "tag_ronflement",
+      "value": 0
+    }
+  ]
+}

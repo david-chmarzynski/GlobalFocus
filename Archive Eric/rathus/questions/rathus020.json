@@ -1,0 +1,64 @@
+{
+  "oid": "rathus020",
+  "title": "Lorsque j'ai fait quelque chose d'important et de valable, je m'arrange pour le faire savoir aux autres",
+  "text": "Lorsque j'ai fait quelque chose d'important et de valable, je m'arrange pour le faire savoir aux autres",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Tout à fait vrai"
+    },
+    {
+      "code": "2",
+      "text": "Vrai"
+    },
+    {
+      "code": "3",
+      "text": "Plutot vrai"
+    },
+    {
+      "code": "4",
+      "text": "Plutot faux"
+    },
+    {
+      "code": "5",
+      "text": "Faux"
+    },
+    {
+      "code": "6",
+      "text": "Tout à fait faux"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "rathus020 == \"1\"",
+      "tagOID": "rathus",
+      "value": 1
+    },
+    {
+      "conditions": "rathus020 == \"2\"",
+      "tagOID": "rathus",
+      "value": 2
+    },
+    {
+      "conditions": "rathus020 == \"3\"",
+      "tagOID": "rathus",
+      "value": 3
+    },
+    {
+      "conditions": "rathus020 == \"4\"",
+      "tagOID": "rathus",
+      "value": 4
+    },
+    {
+      "conditions": "rathus020 == \"5\"",
+      "tagOID": "rathus",
+      "value": 5
+    },
+    {
+      "conditions": "rathus020 == \"6\"",
+      "tagOID": "rathus",
+      "value": 6
+    }
+  ]
+}

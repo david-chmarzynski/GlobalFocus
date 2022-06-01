@@ -1,0 +1,35 @@
+{
+  "oid": "B3MD3001",
+  "title": "Est-ce le bon moment pour etre plus actif lors de mes déplacements",
+  "text": "Est-ce le bon moment pour etre plus actif lors de mes déplacements",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 0.0,
+    "max": 10.0,
+    "step": 1.0,
+    "minText": "non",
+    "maxText": "oui"
+  },
+  "scores": [
+    {
+      "conditions": "B3MD3001 >= 0 && B3MD3001 <= 4",
+      "tagOID": "B3MD3",
+      "value": 0
+    },
+    {
+      "conditions": "B3MD3001 >= 5 && B3MD3001 <= 6",
+      "tagOID": "B3MD3",
+      "value": 1
+    },
+    {
+      "conditions": "B3MD3001 >= 7 && B3MD3001 <= 8",
+      "tagOID": "B3MD3",
+      "value": 2
+    },
+    {
+      "conditions": "B3MD3001 >= 9 && B3MD3001 <= 10",
+      "tagOID": "B3MD3",
+      "value": 3
+    }
+  ]
+}

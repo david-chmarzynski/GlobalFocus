@@ -1,0 +1,46 @@
+{
+  "oid": "hormonesexuelle2009",
+  "title": "J'ai la peau sèche",
+  "text": "J'ai la peau sèche",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "De temps en temps"
+    },
+    {
+      "code": "2",
+      "text": "Régulièrement"
+    },
+    {
+      "code": "3",
+      "text": "En permanence"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "hormonesexuelle2009 == \"0\"",
+      "tagOID": "tag_hormone_sexuelle2",
+      "value": 0
+    },
+    {
+      "conditions": "hormonesexuelle2009 == \"1\"",
+      "tagOID": "tag_hormone_sexuelle2",
+      "value": 1
+    },
+    {
+      "conditions": "hormonesexuelle2009 == \"2\"",
+      "tagOID": "tag_hormone_sexuelle2",
+      "value": 2
+    },
+    {
+      "conditions": "hormonesexuelle2009 == \"3\"",
+      "tagOID": "tag_hormone_sexuelle2",
+      "value": 3
+    }
+  ]
+}

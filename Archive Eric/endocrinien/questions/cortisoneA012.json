@@ -1,0 +1,28 @@
+{
+  "oid": "cortisoneA012",
+  "title": "Avez-vous un ou des antécédent(s) qui présent(ent) un des cas suivant : maladie auto immune, fragilité infectieuse",
+  "text": "Avez-vous un ou des antécédent(s) qui présent(ent) un des cas suivant : maladie auto immune, fragilité infectieuse",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "2",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "cortisoneA012 == \"0\"",
+      "tagOID": "tag_cortisone_A",
+      "value": 0
+    },
+    {
+      "conditions": "cortisoneA012 == \"2\"",
+      "tagOID": "tag_cortisone_A",
+      "value": 2
+    }
+  ]
+}

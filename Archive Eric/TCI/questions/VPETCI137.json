@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI137",
+  "title": "Je deteste changer mes habitudes meme si beaucoup de gens me disent qu'il existe une nouvelle méthode plus efficace",
+  "text": "Je deteste changer mes habitudes meme si beaucoup de gens me disent qu'il existe une nouvelle méthode plus efficace",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

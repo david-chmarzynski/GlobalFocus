@@ -1,0 +1,46 @@
+{
+  "oid": "insuline001",
+  "title": "J'ai un problème de surpoids chronique",
+  "text": "J'ai un problème de surpoids chronique",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "De temps en temps"
+    },
+    {
+      "code": "2",
+      "text": "Régulièrement"
+    },
+    {
+      "code": "3",
+      "text": "En permanence"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "insuline001 == \"0\"",
+      "tagOID": "tag_insuline",
+      "value": 0
+    },
+    {
+      "conditions": "insuline001 == \"1\"",
+      "tagOID": "tag_insuline",
+      "value": 1
+    },
+    {
+      "conditions": "insuline001 == \"2\"",
+      "tagOID": "tag_insuline",
+      "value": 2
+    },
+    {
+      "conditions": "insuline001 == \"3\"",
+      "tagOID": "tag_insuline",
+      "value": 3
+    }
+  ]
+}

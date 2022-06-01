@@ -1,0 +1,28 @@
+{
+  "oid": "GOBTRT007",
+  "title": "Pensez-vous que vous avez trop de comprimés à prendre ?",
+  "text": "Pensez-vous que vous avez trop de comprimés à prendre ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "tagOID": "observance traitement",
+      "conditions": "GOBTRT007 == 0",
+      "value": 1
+    },
+    {
+      "tagOID": "observance traitement",
+      "conditions": "GOBTRT007 >= 1",
+      "value": 0
+    }
+  ]
+}

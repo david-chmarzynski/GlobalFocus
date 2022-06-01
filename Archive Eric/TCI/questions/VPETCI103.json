@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI103",
+  "title": "Souvent je n'arrive pas à affronter certains problèmes car je n'ai aucune idée sur la manière de m'y prendre",
+  "text": "Souvent je n'arrive pas à affronter certains problèmes car je n'ai aucune idée sur la manière de m'y prendre",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

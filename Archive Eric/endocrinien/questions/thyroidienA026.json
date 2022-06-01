@@ -1,0 +1,28 @@
+{
+  "oid": "thyroidienA026",
+  "title": "Avez-vous un ou des antécédent(s) qui présent(ent) un des cas suivant : troubles thyroidiens, maladies cardio vasculaires, cancer, fausses couches, fibrome, rhumatismes, lithiase vésiculaire/rénale, obésité",
+  "text": "Avez-vous un ou des antécédent(s) qui présent(ent) un des cas suivant : troubles thyroidiens, maladies cardio vasculaires, cancer, fausses couches, fibrome, rhumatismes, lithiase vésiculaire/rénale, obésité",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "3",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "thyroidienA026 == \"0\"",
+      "tagOID": "tag_thyroidien_A",
+      "value": 0
+    },
+    {
+      "conditions": "thyroidienA026 == \"3\"",
+      "tagOID": "tag_thyroidien_A",
+      "value": 3
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+    "oid": "A2003",
+    "title": "choix alimentaire",
+    "text": "Quel type d’alimentation avez-vous choisi (aliments végétaux – animaux) ? Choisissez la proposition qui est la plus proche de votre alimentation habituelle",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "1",
+          "text": "Vous mangez de tout. (Omnivore diversifié)."
+        },
+        {
+          "code": "2",
+          "text": "Vous mangez de tout mais vous avez réduit votre consommation de viande et n’en mangez qu’occasionnellement. (Flexitarien)"
+        },
+        {
+          "code": "3",
+          "text": "Vous mangez de tout y compris du poisson mais vous avez arrêté de manger de la viande. (Semi-végétarien)"
+        },
+        {
+          "code": "4",
+          "text": "Vous ne mangez ni viande ni poisson mais vous vous autorisez les œufs et les produits laitiers en plus des végétaux (fruits, légumes, céréales, légumineuses et féculents). (Lacto-ovo-végétarien)"
+        },
+        {
+            "code": "5",
+            "text": "Vous ne mangez ni œuf, ni viande ni poisson mais vous vous autorisez les produits laitiers en plus des végétaux (fruits, légumes, céréales, légumineuses et féculents). (Lacto-végétarien)"
+        },
+        {
+            "code": "6",
+            "text": "Vous mangez uniquement des végétaux (fruits, légumes, céréales, légumineuses et féculents). Votre alimentation ne contient pas d’aliment du monde animal. (Végétalien)"
+        },
+        {
+            "code": "7",
+            "text": "Vous refusez l’exploitation animale et vous ne consommez ni aliments ni produits provenant du monde animal. Vous mangez uniquement des végétaux (fruits, légumes, céréales, légumineuses et féculents). (Vegan)"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "A2003 == '1'",
+          "tagOID": "A2-3",
+          "value": 1
+        },
+        {
+          "conditions": "A2003 == '2'",
+          "tagOID": "A2-3",
+          "value": 2
+        },
+        {
+          "conditions": "A2003 == '3'",
+          "tagOID": "A2-3",
+          "value": 3
+        },
+        {
+          "conditions": "A2003 == '4'",
+          "tagOID": "A2-3",
+          "value": 4
+        },
+        {
+            "conditions": "A2003 == '5'",
+            "tagOID": "A2-3",
+            "value": 5
+        },
+        {
+            "conditions": "A2003 == '6'",
+            "tagOID": "A2-3",
+            "value": 6
+        },
+        {
+            "conditions": "A2003 == '7'",
+            "tagOID": "A2-3",
+            "value": 7
+        }
+    ]
+}

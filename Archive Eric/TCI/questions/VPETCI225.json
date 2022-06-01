@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI225",
+  "title": "Je prefere tout lire en détail avant de signer n'importe quel papier",
+  "text": "Je prefere tout lire en détail avant de signer n'importe quel papier",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

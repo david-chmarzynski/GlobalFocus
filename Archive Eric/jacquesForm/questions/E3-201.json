@@ -1,0 +1,46 @@
+{
+    "oid": "E3201",
+    "title": "air_extérieur",
+    "text": "Comment évaluez-vous la qualité de l’air ambiant à l’extérieur de votre lieu de travail (concentration urbaine, espaces verts, circulation automobile, pollution industrielle et/ou agricole) ?",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "0",
+          "text": "Pas toxique"
+        },
+        {
+          "code": "1",
+          "text": "Modérément toxique"
+        },
+        {
+          "code": "2",
+          "text": "Toxique"
+        },
+        {
+          "code": "3",
+          "text": "Très toxique"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "E3201 == '0'",
+          "tagOID": "E3-20",
+          "value": 0
+        },
+        {
+          "conditions": "E3201 == '1'",
+          "tagOID": "E3-20",
+          "value": 1
+        },
+        {
+          "conditions": "E3201 == '2'",
+          "tagOID": "E3-20",
+          "value": 2
+        },
+        {
+          "conditions": "E3201 == '3'",
+          "tagOID": "E3-20",
+          "value": 3
+        }
+    ]
+}

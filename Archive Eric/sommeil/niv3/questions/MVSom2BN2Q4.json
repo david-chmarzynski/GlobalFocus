@@ -1,0 +1,50 @@
+{
+  "oid": "MVSom2BN2Q4",
+  "title": "Sur ces 3 derniers mois, avez-vous eu de la difficulté à maintenir votre sommeil (réveils fréquents, difficulté à vous rendormir ...) ?",
+  "text": "Sur ces 3 derniers mois, avez-vous eu de la difficulté à maintenir votre sommeil (réveils fréquents, difficulté à vous rendormir ...) ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais (ou presque)"
+    },
+    {
+      "code": "1",
+      "text": "1 à 3 fois/mois"
+    },
+    {
+      "code": "2",
+      "text": "1 à 2 fois/semaine"
+    },
+    {
+      "code": "3",
+      "text": "3 à fois par semaine"
+    },
+    {
+      "code": "4",
+      "text": "Tous les soirs (ou presque)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom2BN2Q4 == 0",
+      "tagOID": "MVSomN2-4",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom2BN2Q4 == 1",
+      "tagOID": "MVSomN2-4",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom2BN2Q4 == 2",
+      "tagOID": "MVSomN2-4",
+      "value": 2
+    },
+    {
+      "conditions": "MVSom2BN2Q4 == 3 || MVSom2BN2Q4 == 4",
+      "tagOID": "MVSomN2-4",
+      "value": 3
+    }
+  ]
+}

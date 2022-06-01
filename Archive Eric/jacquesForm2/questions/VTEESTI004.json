@@ -1,0 +1,46 @@
+{
+  "oid": "VTEESTI004",
+  "title": "Je suis capable de faire les choses aussi bien que la majorité des gens.",
+  "text": "Je suis capable de faire les choses aussi bien que la majorité des gens.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Tout à fait en désaccord"
+    },
+    {
+      "code": "2",
+      "text": "Plutot en désaccord"
+    },
+    {
+      "code": "3",
+      "text": "Plutot en accord"
+    },
+    {
+      "code": "4",
+      "text": "Tout à fait en accord"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VTEESTI004 == 1",
+      "tagOID": "estime de soi ROSENBERG",
+      "value": 1
+    },
+    {
+      "conditions": "VTEESTI004 == 2",
+      "tagOID": "estime de soi ROSENBERG",
+      "value": 2
+    },
+    {
+      "conditions": "VTEESTI004 == 3",
+      "tagOID": "estime de soi ROSENBERG",
+      "value": 3
+    },
+    {
+      "conditions": "VTEESTI004 == 4",
+      "tagOID": "estime de soi ROSENBERG",
+      "value": 4
+    }
+  ]
+}

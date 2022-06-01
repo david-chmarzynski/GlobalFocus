@@ -1,0 +1,28 @@
+{
+  "oid": "MVSom4N4Q55",
+  "title": "Avez-vous un membre proche de votre famille (papa ou maman, frère ou sœur, enfant) qui présente un syndrome des jambes sans repos ?",
+  "text": "Avez-vous un membre proche de votre famille (papa ou maman, frère ou sœur, enfant) qui présente un syndrome des jambes sans repos ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom4N4Q55 == 0",
+      "tagOID": "MVSomN4-55",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom4N4Q55 == 1",
+      "tagOID": "MVSomN4-55",
+      "value": 1
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "oid": "FACE005",
+  "title": "Avez-vous déjà eu besoin d'alcool le matin pour vous sentir en forme ?",
+  "text": "Avez-vous déjà eu besoin d'alcool le matin pour vous sentir en forme ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FACE005 == 0",
+      "tagOID": "FACE",
+      "value": 0
+    },
+    {
+      "conditions": "FACE005 == 1",
+      "tagOID": "FACE",
+      "value": 4
+    }
+  ]
+}

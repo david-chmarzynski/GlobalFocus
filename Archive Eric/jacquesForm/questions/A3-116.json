@@ -1,0 +1,33 @@
+{
+  "oid": "A3116",
+  "title": "Alimentation",
+  "text": "Combien en moyenne consommez-vous de portions de boissons non caloriques quotidiennement (eau plate ou gazeuse, café, thé, infusions... ? 1 portion = 1 verre = 20cl",
+  "type": "DECIMAL",
+  "scores": [
+    {
+      "conditions": "A3116 < '4'",
+      "tagOID": "tA3116",
+      "value": 1
+    },
+    {
+      "conditions": "A3116 == '4'",
+      "tagOID": "tA3116",
+      "value": 1
+    },
+    {
+      "conditions": "A3116 == '5'",
+      "tagOID": "tA3116",
+      "value": 2
+    },
+    {
+      "conditions": "A3116 > '5'",
+      "tagOID": "tA3116",
+      "value": 3
+    }
+  ],
+  "scale": {
+    "min": 0,
+    "max": 1,
+    "step": 100
+  }
+}

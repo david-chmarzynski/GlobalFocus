@@ -1,0 +1,64 @@
+{
+  "oid": "rathus021",
+  "title": "Je suis ouvert et franc au sujet de mes sentiments",
+  "text": "Je suis ouvert et franc au sujet de mes sentiments",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Tout à fait vrai"
+    },
+    {
+      "code": "2",
+      "text": "Vrai"
+    },
+    {
+      "code": "3",
+      "text": "Plutot vrai"
+    },
+    {
+      "code": "4",
+      "text": "Plutot faux"
+    },
+    {
+      "code": "5",
+      "text": "Faux"
+    },
+    {
+      "code": "6",
+      "text": "Tout à fait faux"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "rathus021 == \"1\"",
+      "tagOID": "rathus",
+      "value": 1
+    },
+    {
+      "conditions": "rathus021 == \"2\"",
+      "tagOID": "rathus",
+      "value": 2
+    },
+    {
+      "conditions": "rathus021 == \"3\"",
+      "tagOID": "rathus",
+      "value": 3
+    },
+    {
+      "conditions": "rathus021 == \"4\"",
+      "tagOID": "rathus",
+      "value": 4
+    },
+    {
+      "conditions": "rathus021 == \"5\"",
+      "tagOID": "rathus",
+      "value": 5
+    },
+    {
+      "conditions": "rathus021 == \"6\"",
+      "tagOID": "rathus",
+      "value": 6
+    }
+  ]
+}

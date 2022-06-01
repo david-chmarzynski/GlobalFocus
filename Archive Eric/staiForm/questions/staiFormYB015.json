@@ -1,0 +1,46 @@
+{
+  "oid": "staiFormYB015",
+  "title": "Je me sens incompétent(e), pas à la hauteur",
+  "text": "Je me sens incompétent(e), pas à la hauteur",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Jamais"
+    },
+    {
+      "code": "2",
+      "text": "Parfois"
+    },
+    {
+      "code": "3",
+      "text": "Souvent"
+    },
+    {
+      "code": "4",
+      "text": "Toujours"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "staiFormYB015 == \"1\"",
+      "tagOID": "staiFormYB",
+      "value": 1
+    },
+    {
+      "conditions": "staiFormYB015 == \"2\"",
+      "tagOID": "staiFormYB",
+      "value": 2
+    },
+    {
+      "conditions": "staiFormYB015 == \"3\"",
+      "tagOID": "staiFormYB",
+      "value": 3
+    },
+    {
+      "conditions": "staiFormYB015 == \"4\"",
+      "tagOID": "staiFormYB",
+      "value": 4
+    }
+  ]
+}

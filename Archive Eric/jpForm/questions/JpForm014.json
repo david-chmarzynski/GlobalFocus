@@ -1,0 +1,46 @@
+{
+  "oid": "JpForm014",
+  "title": "Ces 6 derniers mois, avez-vous eu des problèmes d'érection ?",
+  "text": "Ces 6 derniers mois, avez-vous eu des problèmes d'érection ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Symptome absent"
+    },
+    {
+      "code": "1",
+      "text": "Symptome peu genant (gravité légère)"
+    },
+    {
+      "code": "2",
+      "text": "Symptome assez genant (gravité moyenne)"
+    },
+    {
+      "code": "3",
+      "text": "Symptome genant (grave)"
+    }
+  ],
+  "scores": [
+    {
+      "tagOID": "erection lubrification",
+      "conditions": "JpForm014 == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "erection lubrification",
+      "conditions": "JpForm014 == '1'",
+      "value": 1
+    },
+    {
+      "tagOID": "erection lubrification",
+      "conditions": "JpForm014 == '2'",
+      "value": 2
+    },
+    {
+      "tagOID": "erection lubrification",
+      "conditions": "JpForm014 == '3'",
+      "value": 3
+    }
+  ]
+}

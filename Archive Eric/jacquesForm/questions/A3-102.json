@@ -1,0 +1,11 @@
+{
+  "oid": "A3102",
+  "title": "Alimentation",
+  "text": "Combien en moyenne consommez-vous de portions de produits laitiers quotidiennement ? 1 portion = 30g de fromage, 150ml de lait, 1 yaourt, 100g de fromage blanc.",
+  "type": "DECIMAL",
+  "scale": {
+    "min": 0,
+    "max": 1,
+    "step": 100
+  }
+}

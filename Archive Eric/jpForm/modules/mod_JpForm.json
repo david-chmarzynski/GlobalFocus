@@ -1,0 +1,184 @@
+{
+  "oid": "mod_JpForm",
+  "title": "JpForm",
+  "questions": [
+    { "question": "JpForm001", "level": 1 },
+    { "question": "JpForm002", "level": 1 },
+    { "question": "JpForm003", "level": 1 },
+    { "question": "JpForm004", "level": 1 },
+    { "question": "JpForm005", "level": 1 },
+    { "question": "JpForm006", "level": 1 },
+    {
+      "question": "JpForm007",
+      "level": 1,
+      "trigger": {
+        "conditions": "JpForm006 == '0' || JpForm006 == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "JpForm006": "2" }
+      }
+    },
+    { "question": "JpForm007", "level": 1 },
+    {
+      "question": "JpForm008",
+      "level": 1,
+      "trigger": {
+        "conditions": "JpForm006 == '0' || JpForm006 == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "JpForm006": "2" }
+      }
+    },
+    { "question": "JpForm009", "level": 1 },
+    { "question": "JpForm010", "level": 1 },
+    { "question": "JpForm011", "level": 1 },
+    { "question": "JpForm012", "level": 1 },
+    {
+      "question": "JpForm013",
+      "level": 1,
+      "trigger": {
+        "conditions": "JpForm012 != '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "JpForm012": "0" }
+      }
+    },
+    {
+      "question": "JpForm014",
+      "level": 1,
+      "trigger": {
+        "conditions": "JpForm001 != '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "JpForm001": "1" }
+      }
+    },
+    {
+      "question": "JpForm015",
+      "level": 1,
+      "trigger": {
+        "conditions": "JpForm001 != '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "JpForm001": "0" }
+      }
+    },
+    {
+      "question": "JpForm016",
+      "level": 1,
+      "trigger": {
+        "conditions": "JpForm001 != '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "JpForm001": "1" }
+      }
+    },
+    {
+      "question": "JpForm017",
+      "level": 1,
+      "trigger": {
+        "conditions": "JpForm001 != '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "JpForm001": "0" }
+      }
+    },
+    {
+      "question": "JpForm018",
+      "level": 1,
+      "trigger": {
+        "conditions": "JpForm001 != '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "JpForm001": "1" }
+      }
+    },
+    {
+      "question": "JpForm019",
+      "level": 1,
+      "trigger": {
+        "conditions": "JpForm001 != '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "JpForm001": "0" }
+      }
+    },
+    {
+      "question": "JpForm020",
+      "level": 1,
+      "trigger": {
+        "conditions": "JpForm001 != '0' || JpForm018 == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "JpForm001": "1", "JpForm018": "1" }
+      }
+    },
+    {
+      "question": "JpForm021",
+      "level": 1,
+      "trigger": {
+        "conditions": "JpForm001 != '1' || JpForm019 == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "JpForm001": "0", "JpForm019": "1" }
+      }
+    },
+    { "question": "JpForm022", "level": 1 },
+    { "question": "JpForm023", "level": 1 },
+    { "question": "JpForm024", "level": 1 },
+    { "question": "JpForm025", "level": 1 },
+    { "question": "JpForm026", "level": 1 },
+    {
+      "question": "JpForm027",
+      "level": 1,
+      "trigger": {
+        "conditions": "JpForm026 != '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "JpForm026": "0" }
+      }
+    }
+  ],
+  "calculations": [
+    {
+      "oid": "addictionausexe",
+      "type": "WITH_CONDITIONS",
+      "isGlobal": false,
+      "calculationsWithConditions": {
+        "JpForm006 == '0' || JpForm006 == '1'": "0",
+        "JpForm006 == '4' || JpForm007 == '4' || JpForm008 == '4'": "3",
+        "JpForm006 == '3' || JpForm007 == '3' || JpForm008 == '3'": "2",
+        "JpForm006 != null || JpForm007 != null || JpForm008 != null": "JpForm006 + JpForm007 + JpForm008"
+      },
+      "title": "addictionausexe",
+      "text": "addictionausexe",
+      "scores": [
+        {
+          "conditions": "addictionausexe == 0",
+          "tagOID": "addiction au sexe",
+          "value": 0
+        },
+        {
+          "conditions": "addictionausexe >= 0 && addictionausexe <= 3",
+          "tagOID": "addiction au sexe",
+          "value": 0
+        },
+        {
+          "conditions": "addictionausexe == 2",
+          "tagOID": "addiction au sexe",
+          "value": 2
+        },
+        {
+          "conditions": "addictionausexe == 3",
+          "tagOID": "addiction au sexe",
+          "value": 3
+        },
+        {
+          "conditions": "addictionausexe >= 4 && addictionausexe <= 5",
+          "tagOID": "addiction au sexe",
+          "value": 1
+        },
+
+        {
+          "conditions": "addictionausexe >= 6 && addictionausexe <= 8",
+          "tagOID": "addiction au sexe",
+          "value": 2
+        },
+
+        {
+          "conditions": "addictionausexe >= 9 && addictionausexe <= 12",
+          "tagOID": "addiction au sexe",
+          "value": 3
+        }
+      ]
+    }
+  ]
+}

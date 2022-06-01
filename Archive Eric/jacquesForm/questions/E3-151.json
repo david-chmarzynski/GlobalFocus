@@ -1,0 +1,46 @@
+{
+    "oid": "E3151",
+    "title": "produits hygiène",
+    "text": "J’utilise des produits d’hygiène (savon, gel douche,shampoing) et des cosmétiques (crème de jour, de nuit, désodorisant, rouge à lèvre, mascara, fond de teint, vernis…) qui me conviennent et dont je ne regarde pas la composition ?",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "0",
+          "text": "Jamais"
+        },
+        {
+          "code": "1",
+          "text": "Rarement"
+        },
+        {
+          "code": "2",
+          "text": "Fréquemment"
+        },
+        {
+          "code": "3",
+          "text": "Très fréquemment"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "E3151 == '0'",
+          "tagOID": "E3-15",
+          "value": 0
+        },
+        {
+          "conditions": "E3151 == '1'",
+          "tagOID": "E3-15",
+          "value": 1
+        },
+        {
+          "conditions": "E3151 == '2'",
+          "tagOID": "E3-15",
+          "value": 2
+        },
+        {
+          "conditions": "E3151 == '3'",
+          "tagOID": "E3-15",
+          "value": 3
+        }
+    ]
+}

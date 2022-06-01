@@ -1,0 +1,50 @@
+{
+  "oid": "MVSom4N4Q18",
+  "title": "A quel point vos difficultés de sommeil vous rendent-elles nerveux, irritable dans la journée ?",
+  "text": "A quel point vos difficultés de sommeil vous rendent-elles nerveux, irritable dans la journée ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas de gêne"
+    },
+    {
+      "code": "1",
+      "text": "Gêne légère"
+    },
+    {
+      "code": "2",
+      "text": "Assez gênant"
+    },
+    {
+      "code": "3",
+      "text": "Gênant"
+    },
+    {
+      "code": "4",
+      "text": "Très gênant"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom4N4Q18 == 0",
+      "tagOID": "MVSomN4-18",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom4N4Q18 == 1",
+      "tagOID": "MVSomN4-18",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom4N4Q18 == 2",
+      "tagOID": "MVSomN4-18",
+      "value": 2
+    },
+    {
+      "conditions": "MVSom4N4Q18 == 3 || MVSom4N4Q18 == 4",
+      "tagOID": "MVSomN4-18",
+      "value": 3
+    }
+  ]
+}

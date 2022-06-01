@@ -1,0 +1,50 @@
+{
+  "oid": "MVSom4N4Q17",
+  "title": "Quel moyen utilisez-vous pour vous réveiller le matin lorsque vous avez un impératif horaire (travail, école, rendez-vous…) ?",
+  "text": "Quel moyen utilisez-vous pour vous réveiller le matin lorsque vous avez un impératif horaire (travail, école, rendez-vous…) ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Réveil naturel"
+    },
+    {
+      "code": "1",
+      "text": "Un réveil lumière ou simulateur d’aube"
+    },
+    {
+      "code": "2",
+      "text": "Une personne de mon entourage"
+    },
+    {
+      "code": "3",
+      "text": "Un réveil ou smartphone"
+    },
+    {
+      "code": "4",
+      "text": "Plusieurs alarmes sont nécessaires pour arriver à me lever le matin"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom4N4Q17 == 0",
+      "tagOID": "MVSomN4-17",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom4N4Q17 == 1",
+      "tagOID": "MVSomN4-17",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom4N4Q17 == 2 || MVSom4N4Q17 == 3",
+      "tagOID": "MVSomN4-17",
+      "value": 2
+    },
+    {
+      "conditions": "MVSom4N4Q17 == 4",
+      "tagOID": "MVSomN4-17",
+      "value": 3
+    }
+  ]
+}

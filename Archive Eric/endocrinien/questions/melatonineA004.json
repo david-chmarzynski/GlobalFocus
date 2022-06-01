@@ -1,0 +1,46 @@
+{
+  "oid": "melatonineA004",
+  "title": "J'ai un sommeil léger et anxieux",
+  "text": "J'ai un sommeil léger et anxieux",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "De temps en temps"
+    },
+    {
+      "code": "2",
+      "text": "Régulièrement"
+    },
+    {
+      "code": "3",
+      "text": "En permanence"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "melatonineA004 == \"0\"",
+      "tagOID": "tag_melatonine_A",
+      "value": 0
+    },
+    {
+      "conditions": "melatonineA004 == \"1\"",
+      "tagOID": "tag_melatonine_A",
+      "value": 1
+    },
+    {
+      "conditions": "melatonineA004 == \"2\"",
+      "tagOID": "tag_melatonine_A",
+      "value": 2
+    },
+    {
+      "conditions": "melatonineA004 == \"3\"",
+      "tagOID": "tag_melatonine_A",
+      "value": 3
+    }
+  ]
+}

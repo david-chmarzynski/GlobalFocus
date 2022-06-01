@@ -1,0 +1,28 @@
+{
+    "oid": "P2003",
+    "title": "Alexi thymie",
+    "text": "Je rêve peu ou jamais",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "0",
+          "text": "Non"
+        },
+        {
+          "code": "1",
+          "text": "Oui"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "P2003 == '0'",
+          "tagOID": "P2AL",
+          "value": 0
+        },
+        {
+          "conditions": "P2003 == '1'",
+          "tagOID": "P2AL",
+          "value": 1
+        }
+    ]
+}

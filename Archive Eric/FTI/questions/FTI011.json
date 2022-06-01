@@ -1,0 +1,28 @@
+{
+  "oid": "FTI011",
+  "title": "Je suis agité si je dois rester à la maison pendant un certain temps.",
+  "text": "Je suis agité si je dois rester à la maison pendant un certain temps.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI011 == 0",
+      "tagOID": "curieux",
+      "value": 1
+    },
+    {
+      "conditions": "FTI011 == 1",
+      "tagOID": "curieux",
+      "value": 0
+    }
+  ]
+}

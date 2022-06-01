@@ -1,0 +1,5 @@
+{
+  "oid": "chap_bouger",
+  "title": "chapitre bouger",
+  "modules": ["mod_bouger"]
+}

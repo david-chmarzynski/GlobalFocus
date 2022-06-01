@@ -1,0 +1,55 @@
+{
+  "oid": "FACE003",
+  "title": "Combien de verres standard buvez-vous au cours d'une journée ordinaire ou vous buvez de l'alcool ?",
+  "text": "Combien de verres standard buvez-vous au cours d'une journée ordinaire ou vous buvez de l'alcool ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "1 ou 2"
+    },
+    {
+      "code": "1",
+      "text": "3 ou 4"
+    },
+    {
+      "code": "2",
+      "text": "5 ou 6"
+    },
+    {
+      "code": "3",
+      "text": "7 à 9"
+    },
+    {
+      "code": "4",
+      "text": "10 ou plus"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FACE003 == 0",
+      "tagOID": "FACE",
+      "value": 0
+    },
+    {
+      "conditions": "FACE003 == 1",
+      "tagOID": "FACE",
+      "value": 1
+    },
+    {
+      "conditions": "FACE003 == 2",
+      "tagOID": "FACE",
+      "value": 2
+    },
+    {
+      "conditions": "FACE003 == 3",
+      "tagOID": "FACE",
+      "value": 3
+    },
+    {
+      "conditions": "FACE003 == 4",
+      "tagOID": "FACE",
+      "value": 4
+    }
+  ]
+}

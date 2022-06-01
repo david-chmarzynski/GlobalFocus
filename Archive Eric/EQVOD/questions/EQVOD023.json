@@ -1,0 +1,44 @@
+{
+  "oid": "EQVOD023",
+  "title": "J'ai des difficultés physiques dans les rapports sexuels.",
+  "text": "J'ai des difficultés physiques dans les rapports sexuels.",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 1.0,
+    "max": 5.0,
+    "step": 1.0,
+    "maxText": "jamais/pas du tout",
+    "maxValue": "5",
+    "midText": "parfois/modérément",
+    "midValue": "3",
+    "minText": "toujours/énormément",
+    "minValue": "1"
+  },
+  "scores": [
+    {
+      "conditions": "EQVOD023 == 1",
+      "tagOID": "EQVOD",
+      "value": 5.0
+    },
+    {
+      "conditions": "EQVOD023 == 2",
+      "tagOID": "EQVOD",
+      "value": 10.0
+    },
+    {
+      "conditions": "EQVOD023 == 3",
+      "tagOID": "EQVOD",
+      "value": 15.0
+    },
+    {
+      "conditions": "EQVOD023 == 4",
+      "tagOID": "EQVOD",
+      "value": 20.0
+    },
+    {
+      "conditions": "EQVOD023 == 5",
+      "tagOID": "EQVOD",
+      "value": 25.0
+    }
+  ]
+}

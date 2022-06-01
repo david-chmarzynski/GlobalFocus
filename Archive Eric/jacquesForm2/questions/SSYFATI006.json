@@ -1,0 +1,52 @@
+{
+  "oid": "SSYFATI006",
+  "title": "La fatigue est souvent un problème pour moi ",
+  "text": "La fatigue est souvent un problème pour moi ",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 1.0,
+    "max": 7.0,
+    "step": 1.0,
+    "maxText": "Cela me correpond tout à fait",
+    "maxValue": "7",
+    "minText": "Cela ne me correspond pas",
+    "minValue": "1"
+  },
+  "scores": [
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI006 == 1",
+      "value": 1
+    },
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI006 == 2",
+      "value": 2
+    },
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI006 == 3",
+      "value": 3
+    },
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI006 == 4",
+      "value": 4
+    },
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI006 == 5",
+      "value": 5
+    },
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI006 == 6",
+      "value": 6
+    },
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI006 == 7",
+      "value": 7
+    }
+  ]
+}

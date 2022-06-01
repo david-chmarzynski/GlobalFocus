@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI182",
+  "title": "J'aime mettre de l'argent de coté plutot que le dépenser pour les divertissements ou des sensations fortes",
+  "text": "J'aime mettre de l'argent de coté plutot que le dépenser pour les divertissements ou des sensations fortes",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

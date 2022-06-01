@@ -1,0 +1,46 @@
+{
+  "oid": "thyroidienB001",
+  "title": "J'ai une sensation permanente de chaleur",
+  "text": "J'ai une sensation permanente de chaleur",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "De temps en temps"
+    },
+    {
+      "code": "2",
+      "text": "Régulièrement"
+    },
+    {
+      "code": "3",
+      "text": "En permanence"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "thyroidienB001 == \"0\"",
+      "tagOID": "tag_thyroidien_B",
+      "value": 0
+    },
+    {
+      "conditions": "thyroidienB001 == \"1\"",
+      "tagOID": "tag_thyroidien_B",
+      "value": 1
+    },
+    {
+      "conditions": "thyroidienB001 == \"2\"",
+      "tagOID": "tag_thyroidien_B",
+      "value": 2
+    },
+    {
+      "conditions": "thyroidienB001 == \"3\"",
+      "tagOID": "tag_thyroidien_B",
+      "value": 3
+    }
+  ]
+}

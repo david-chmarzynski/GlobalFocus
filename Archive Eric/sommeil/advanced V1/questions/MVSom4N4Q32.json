@@ -1,0 +1,55 @@
+{
+  "oid": "MVSom4N4Q32",
+  "title": "Je me sens fatigué(e), lourd(e) et raide",
+  "text": "Je me sens fatigué(e), lourd(e) et raide",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas du tout"
+    },
+    {
+      "code": "1",
+      "text": "Un peu"
+    },
+    {
+      "code": "2",
+      "text": "Moyennement"
+    },
+    {
+      "code": "3",
+      "text": "Beaucoup"
+    },
+    {
+      "code": "4",
+      "text": "Extremement"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom4N4Q32 == 0",
+      "tagOID": "MVSomN4-25",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom4N4Q32 == 1",
+      "tagOID": "MVSomN4-25",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom4N4Q32 == 2",
+      "tagOID": "MVSomN4-25",
+      "value": 2
+    },
+    {
+      "conditions": "MVSom4N4Q32 == 3",
+      "tagOID": "MVSomN4-25",
+      "value": 3
+    },
+    {
+      "conditions": "MVSom4N4Q32 == 4",
+      "tagOID": "MVSomN4-25",
+      "value": 4
+    }
+  ]
+}

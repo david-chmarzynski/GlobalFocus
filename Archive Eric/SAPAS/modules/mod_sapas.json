@@ -1,0 +1,86 @@
+{
+  "oid": "mod_sapas",
+  "title": "tp",
+  "questions": [
+    { "question": "sapas001", "level": 1 },
+    {
+      "question": "sapas002",
+      "level": 1,
+      "trigger": {
+        "conditions": "sapas001 == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "sapas001": "1" }
+      }
+    },
+    { "question": "sapas003", "level": 1 },
+    {
+      "question": "sapas004",
+      "level": 1,
+      "trigger": {
+        "conditions": "sapas003 == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "sapas003": "1" }
+      }
+    },
+    { "question": "sapas005", "level": 1 },
+    {
+      "question": "sapas006",
+      "level": 1,
+      "trigger": {
+        "conditions": "sapas005 == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "sapas005": "1" }
+      }
+    },
+    { "question": "sapas007", "level": 1 },
+    {
+      "question": "sapas008",
+      "level": 1,
+      "trigger": {
+        "conditions": "sapas007 == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "sapas007": "1" }
+      }
+    },
+    { "question": "sapas009", "level": 1 },
+    {
+      "question": "sapas010",
+      "level": 1,
+      "trigger": {
+        "conditions": "sapas009 == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "sapas009": "1" }
+      }
+    },
+    { "question": "sapas011", "level": 1 },
+    {
+      "question": "sapas012",
+      "level": 1,
+      "trigger": {
+        "conditions": "sapas011 == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "sapas011": "1" }
+      }
+    },
+    { "question": "sapas013", "level": 1 },
+    {
+      "question": "sapas014",
+      "level": 1,
+      "trigger": {
+        "conditions": "sapas013 == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "sapas013": "1" }
+      }
+    },
+    { "question": "sapas015", "level": 1 },
+    {
+      "question": "sapas016",
+      "level": 1,
+      "trigger": {
+        "conditions": "sapas015 == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "sapas015": "1" }
+      }
+    }
+  ]
+}

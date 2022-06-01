@@ -1,0 +1,46 @@
+{
+  "oid": "staiFormYB019",
+  "title": "Je ssuis une personne posée, solide, stable",
+  "text": "Je ssuis une personne posée, solide, stable",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Jamais"
+    },
+    {
+      "code": "2",
+      "text": "Parfois"
+    },
+    {
+      "code": "3",
+      "text": "Souvent"
+    },
+    {
+      "code": "4",
+      "text": "Toujours"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "staiFormYB019 == \"1\"",
+      "tagOID": "staiFormYB",
+      "value": 4
+    },
+    {
+      "conditions": "staiFormYB019 == \"2\"",
+      "tagOID": "staiFormYB",
+      "value": 3
+    },
+    {
+      "conditions": "staiFormYB019 == \"3\"",
+      "tagOID": "staiFormYB",
+      "value": 2
+    },
+    {
+      "conditions": "staiFormYB019 == \"4\"",
+      "tagOID": "staiFormYB",
+      "value": 1
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "oid": "MIDAS004",
+  "title": "Au cours des trois derniers mois, pendant combien de jours votre capacité à effectuerdes travaux domestiques a-t-elle été réduite de moitié ou plus en raison de vos maux detête? (N’incluez pas les jours d’incapacité indiqués à la question 3.)",
+  "text": "Au cours des trois derniers mois, pendant combien de jours votre capacité à effectuerdes travaux domestiques a-t-elle été réduite de moitié ou plus en raison de vos maux detête? (N’incluez pas les jours d’incapacité indiqués à la question 3.)",
+  "type": "DECIMAL",
+  "scale": {
+    "min": 0.0,
+    "max": 92.0,
+    "step": 1.0
+  }
+}

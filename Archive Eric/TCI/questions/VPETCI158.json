@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI158",
+  "title": "Je ne suis pratiquement jamais excité(e) au point de perdre le controle de moi-meme",
+  "text": "Je ne suis pratiquement jamais excité(e) au point de perdre le controle de moi-meme",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

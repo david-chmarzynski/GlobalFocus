@@ -1,0 +1,16 @@
+{
+  "oid": "cardioVasculaire001",
+  "title": "Quel est votre sexe ?",
+  "text": "Quel est votre sexe ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Homme"
+    },
+    {
+      "code": "1",
+      "text": "Femme"
+    }
+  ]
+}

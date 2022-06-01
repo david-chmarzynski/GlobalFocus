@@ -1,0 +1,55 @@
+{
+  "oid": "VTEALEX010",
+  "title": "Etre conscient(e) de ses émotions est essentiel.",
+  "text": "Etre conscient(e) de ses émotions est essentiel.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Désaccord complet"
+    },
+    {
+      "code": "2",
+      "text": "Désaccord relatif"
+    },
+    {
+      "code": "3",
+      "text": "Ni accord, ni désaccord"
+    },
+    {
+      "code": "4",
+      "text": "Accord relatif"
+    },
+    {
+      "code": "5",
+      "text": "Accord complet"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VTEALEX010 == 1",
+      "tagOID": "alexithymie TORONTO",
+      "value": 1
+    },
+    {
+      "conditions": "VTEALEX010 == 2",
+      "tagOID": "alexithymie TORONTO",
+      "value": 2
+    },
+    {
+      "conditions": "VTEALEX010 == 3",
+      "tagOID": "alexithymie TORONTO",
+      "value": 3
+    },
+    {
+      "conditions": "VTEALEX010 == 4",
+      "tagOID": "alexithymie TORONTO",
+      "value": 4
+    },
+    {
+      "conditions": "VTEALEX010 == 5",
+      "tagOID": "alexithymie TORONTO",
+      "value": 5
+    }
+  ]
+}

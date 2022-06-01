@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI066",
+  "title": "Je dépense difficilement de l'argent pour mon plaisir, meme si j'ai beaucoup d'économies",
+  "text": "Je dépense difficilement de l'argent pour mon plaisir, meme si j'ai beaucoup d'économies",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

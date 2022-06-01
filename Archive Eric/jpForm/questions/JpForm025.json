@@ -1,0 +1,50 @@
+{
+  "oid": "JpForm025",
+  "title": "Votre partenaire ressent beacoup d'interet pour le sexe ?",
+  "text": "Votre partenaire ressent beacoup d'interet pour le sexe ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Tout à fait d'accord"
+    },
+    {
+      "code": "1",
+      "text": "Plutot d'accord"
+    },
+    {
+      "code": "2",
+      "text": "Ni d'accord ni pas d'accord"
+    },
+    {
+      "code": "3",
+      "text": "Plutot pas d'accord"
+    },
+    {
+      "code": "4",
+      "text": "Vraiment pas d'accord"
+    }
+  ],
+  "scores": [
+    {
+      "tagOID": "libido du partenaire",
+      "conditions": "JpForm025 == '0' || JpForm025 == '1'",
+      "value": 0
+    },
+    {
+      "tagOID": "libido du partenaire",
+      "conditions": "JpForm025 == '2'",
+      "value": 1
+    },
+    {
+      "tagOID": "libido du partenaire",
+      "conditions": "JpForm025 == '3'",
+      "value": 2
+    },
+    {
+      "tagOID": "libido du partenaire",
+      "conditions": "JpForm025 == '4'",
+      "value": 3
+    }
+  ]
+}

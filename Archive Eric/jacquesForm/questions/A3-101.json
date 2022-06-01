@@ -1,0 +1,11 @@
+{
+  "oid": "A3101",
+  "title": "Alimentation",
+  "text": "Combien en moyenne consommez-vous de portions de protéines animales quotidiennement ? 1 portion = 100g de viande, 100g de poisson, coquillages (12 huitres), crustacés (3 gambas), 2 tranches de jambon ou 2 œufs.",
+  "type": "DECIMAL",
+  "scale": {
+    "min": 0,
+    "max": 1,
+    "step": 100
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "oid": "FTI017",
+  "title": "Les gens devraient se comporter conformément aux normes établies de bonne conduite.",
+  "text": "Les gens devraient se comporter conformément aux normes établies de bonne conduite.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI017 == 0",
+      "tagOID": "conformité",
+      "value": 1
+    },
+    {
+      "conditions": "FTI017 == 1",
+      "tagOID": "conformité",
+      "value": 0
+    }
+  ]
+}

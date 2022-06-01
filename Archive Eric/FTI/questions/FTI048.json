@@ -1,0 +1,28 @@
+{
+  "oid": "FTI048",
+  "title": "Après avoir regardé un film émotionnel, je me sens souvent encore ému quelques heures plus tard.",
+  "text": "Après avoir regardé un film émotionnel, je me sens souvent encore ému quelques heures plus tard.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI048 == 0",
+      "tagOID": "prosocial",
+      "value": 1
+    },
+    {
+      "conditions": "FTI048 == 1",
+      "tagOID": "prosocial",
+      "value": 0
+    }
+  ]
+}

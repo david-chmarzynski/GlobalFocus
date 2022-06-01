@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI196",
+  "title": "La vérité sur un sujet n'est qu'une question d'opinion personnelle",
+  "text": "La vérité sur un sujet n'est qu'une question d'opinion personnelle",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

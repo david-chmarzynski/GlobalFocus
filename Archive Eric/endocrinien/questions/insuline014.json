@@ -1,0 +1,28 @@
+{
+  "oid": "insuline014",
+  "title": "Avez-vous un ou des antécédent(s) qui présent(ent) un des cas suivant : obésité, surpoids, diabète, hypertension",
+  "text": "Avez-vous un ou des antécédent(s) qui présent(ent) un des cas suivant : obésité, surpoids, diabète, hypertension",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "insuline014 == \"0\"",
+      "tagOID": "tag_insuline",
+      "value": 0
+    },
+    {
+      "conditions": "insuline014 == \"1\"",
+      "tagOID": "tag_insuline",
+      "value": 2
+    }
+  ]
+}

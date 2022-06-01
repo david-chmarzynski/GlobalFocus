@@ -1,0 +1,46 @@
+{
+  "oid": "MVSom3N3Q5",
+  "title": "Sur ces 3 derniers mois, vous sentez-vous dépendant d'une aide pour dormir ?",
+  "text": "Sur ces 3 derniers mois, vous sentez-vous dépendant d'une aide pour dormir ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui, légèrement"
+    },
+    {
+      "code": "2",
+      "text": "Oui, assez"
+    },
+    {
+      "code": "3",
+      "text": "Oui, tout à fait"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom3N3Q5 == 0",
+      "tagOID": "MVSomN3-5",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom3N3Q5 == 1",
+      "tagOID": "MVSomN3-5",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom3N3Q5 == 2",
+      "tagOID": "MVSomN3-5",
+      "value": 2
+    },
+    {
+      "conditions": "MVSom3N3Q5 == 3",
+      "tagOID": "MVSomN3-5",
+      "value": 3
+    }
+  ]
+}

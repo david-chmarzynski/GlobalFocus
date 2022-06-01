@@ -1,0 +1,55 @@
+{
+  "oid": "VTEALEX015",
+  "title": "Je préfère parler aux gens de leurs activités quotidiennes plutôt que de leurs sentiments.",
+  "text": "Je préfère parler aux gens de leurs activités quotidiennes plutôt que de leurs sentiments.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Désaccord complet"
+    },
+    {
+      "code": "2",
+      "text": "Désaccord relatif"
+    },
+    {
+      "code": "3",
+      "text": "Ni accord, ni désaccord"
+    },
+    {
+      "code": "4",
+      "text": "Accord relatif"
+    },
+    {
+      "code": "5",
+      "text": "Accord complet"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VTEALEX015 == 1",
+      "tagOID": "alexithymie TORONTO",
+      "value": 1
+    },
+    {
+      "conditions": "VTEALEX015 == 2",
+      "tagOID": "alexithymie TORONTO",
+      "value": 2
+    },
+    {
+      "conditions": "VTEALEX015 == 3",
+      "tagOID": "alexithymie TORONTO",
+      "value": 3
+    },
+    {
+      "conditions": "VTEALEX015 == 4",
+      "tagOID": "alexithymie TORONTO",
+      "value": 4
+    },
+    {
+      "conditions": "VTEALEX015 == 5",
+      "tagOID": "alexithymie TORONTO",
+      "value": 5
+    }
+  ]
+}

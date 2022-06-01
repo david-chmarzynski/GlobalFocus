@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI049",
+  "title": "J'ai l'impression de ne pas bien comprendre la plupart des gens",
+  "text": "J'ai l'impression de ne pas bien comprendre la plupart des gens",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

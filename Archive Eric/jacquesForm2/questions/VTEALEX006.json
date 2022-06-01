@@ -1,0 +1,55 @@
+{
+  "oid": "VTEALEX006",
+  "title": "Quand je suis bouleversé(e), je ne sais pas si je suis triste, effrayé(e) ou en colère.",
+  "text": "Quand je suis bouleversé(e), je ne sais pas si je suis triste, effrayé(e) ou en colère.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Désaccord complet"
+    },
+    {
+      "code": "2",
+      "text": "Désaccord relatif"
+    },
+    {
+      "code": "3",
+      "text": "Ni accord, ni désaccord"
+    },
+    {
+      "code": "4",
+      "text": "Accord relatif"
+    },
+    {
+      "code": "5",
+      "text": "Accord complet"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VTEALEX006 == 1",
+      "tagOID": "alexithymie TORONTO",
+      "value": 1
+    },
+    {
+      "conditions": "VTEALEX006 == 2",
+      "tagOID": "alexithymie TORONTO",
+      "value": 2
+    },
+    {
+      "conditions": "VTEALEX006 == 3",
+      "tagOID": "alexithymie TORONTO",
+      "value": 3
+    },
+    {
+      "conditions": "VTEALEX006 == 4",
+      "tagOID": "alexithymie TORONTO",
+      "value": 4
+    },
+    {
+      "conditions": "VTEALEX006 == 5",
+      "tagOID": "alexithymie TORONTO",
+      "value": 5
+    }
+  ]
+}

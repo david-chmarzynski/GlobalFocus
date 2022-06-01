@@ -1,0 +1,16 @@
+{
+  "oid": "sapas007",
+  "title": "Habituellement, est-ce que vous perdez facilement votre calme ?",
+  "text": "Habituellement, est-ce que vous perdez facilement votre calme ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ]
+}

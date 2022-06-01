@@ -1,0 +1,46 @@
+{
+  "oid": "BDI002",
+  "title": "Vous sentez-vous découragé(e) par l'avenir ?",
+  "text": "Vous sentez-vous découragé(e) par l'avenir ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Je ne me sens pas particulièrement découragé(e) en pensant à l'avenir"
+    },
+    {
+      "code": "1",
+      "text": "Je me sens découragé par l'avenir"
+    },
+    {
+      "code": "2",
+      "text": "J'ai l'impression de n'avoir aucune attente dans la vie"
+    },
+    {
+      "code": "3",
+      "text": "Je l'impression que l'avenir est sans espoir et que les choses ne peuvent s'améliorer"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "BDI002 == \"0\"",
+      "tagOID": "tag_BDI",
+      "value": 0
+    },
+    {
+      "conditions": "BDI002 == \"1\"",
+      "tagOID": "tag_BDI",
+      "value": 1
+    },
+    {
+      "conditions": "BDI002 == \"2\"",
+      "tagOID": "tag_BDI",
+      "value": 2
+    },
+    {
+      "conditions": "BDI002 == \"3\"",
+      "tagOID": "tag_BDI",
+      "value": 3
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "oid": "chap_saos",
+  "title": "chapitre saos",
+  "modules": ["mod_saos"]
+}

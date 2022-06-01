@@ -1,0 +1,59 @@
+{
+  "oid": "MVSom3N3Q21",
+  "title": "Selon vous, de combien d'heures de sommeil avez-vous besoin ?",
+  "text": "Selon vous, de combien d'heures de sommeil avez-vous besoin ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "5h"
+    },
+    {
+      "code": "1",
+      "text": "6h"
+    },
+    {
+      "code": "2",
+      "text": "7h"
+    },
+    {
+      "code": "3",
+      "text": "8h"
+    },
+    {
+      "code": "4",
+      "text": "9h"
+    },
+    {
+      "code": "5",
+      "text": "10h"
+    },
+    {
+      "code": "6",
+      "text": "11h"
+    },
+    {
+      "code": "7",
+      "text": "12h"
+    },
+    {
+      "code": "8",
+      "text": "12h"
+    },
+    {
+      "code": "9",
+      "text": "13h"
+    },
+    {
+      "code": "10",
+      "text": "14h"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom3N3Q21 != -1",
+      "tagOID": "MVSomN3-21",
+      "value": -1
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI046",
+  "title": "Je ne me soucie pas tellement du fait que les aitres m'aiment ou qu'ils approuvent ma manière de faire",
+  "text": "Je ne me soucie pas tellement du fait que les aitres m'aiment ou qu'ils approuvent ma manière de faire",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

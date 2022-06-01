@@ -1,0 +1,46 @@
+{
+    "oid": "E3231",
+    "title": "environnement microbien",
+    "text": "Êtes-vous exposé dans votre environnement de travail à un risque infectieux (microbes, virus, parasites), des radiations (rayons X ou gamma) ou des UV d’origine artificielle et/ou en contact avec des animaux vivants ou morts ?",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "0",
+          "text": "Jamais"
+        },
+        {
+          "code": "1",
+          "text": "Rarement"
+        },
+        {
+          "code": "2",
+          "text": "Fréquemment"
+        },
+        {
+          "code": "3",
+          "text": "Très fréquemment"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "E3231 == '0'",
+          "tagOID": "E3-23",
+          "value": 0
+        },
+        {
+          "conditions": "E3231 == '1'",
+          "tagOID": "E3-23",
+          "value": 1
+        },
+        {
+          "conditions": "E3231 == '2'",
+          "tagOID": "E3-23",
+          "value": 2
+        },
+        {
+          "conditions": "E3231 == '3'",
+          "tagOID": "E3-23",
+          "value": 3
+        }
+    ]
+}

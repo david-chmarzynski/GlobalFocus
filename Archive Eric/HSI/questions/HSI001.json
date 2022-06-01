@@ -1,0 +1,46 @@
+{
+  "oid": "HSI001",
+  "title": "Combien de cigarettes fumez-vous par jour ?",
+  "text": "Combien de cigarettes fumez-vous par jour ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "10 ou moins"
+    },
+    {
+      "code": "1",
+      "text": "11 à 20"
+    },
+    {
+      "code": "2",
+      "text": "21 à 30"
+    },
+    {
+      "code": "3",
+      "text": "31 ou plus"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "HSI001 == 0",
+      "tagOID": "depT",
+      "value": 0
+    },
+    {
+      "conditions": "HSI001 == 1",
+      "tagOID": "depT",
+      "value": 1
+    },
+    {
+      "conditions": "HSI001 == 2",
+      "tagOID": "depT",
+      "value": 2
+    },
+    {
+      "conditions": "HSI001 == 3",
+      "tagOID": "depT",
+      "value": 3
+    }
+  ]
+}

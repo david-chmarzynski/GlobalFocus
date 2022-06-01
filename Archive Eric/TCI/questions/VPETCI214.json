@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI214",
+  "title": "Souvent, les choses tournent mal pour moi sauf si je fais très attention",
+  "text": "Souvent, les choses tournent mal pour moi sauf si je fais très attention",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Vrai"
+    },
+    {
+      "code": "0",
+      "text": "Faux"
+    }
+  ]
+}

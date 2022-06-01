@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI188",
+  "title": "Les autres ou les circonstances sont souvent responsables de mes difficultés",
+  "text": "Les autres ou les circonstances sont souvent responsables de mes difficultés",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI026",
+  "title": "Le plus souvent, j'aimerais mieux faire quelque chose d'un peu risqué (comme conduire une voiture dans des virages dangereux et en montagne) plutot que de rester au calme à ne rien faire pendant quelques heures",
+  "text": "Le plus souvent, j'aimerais mieux faire quelque chose d'un peu risqué (comme conduire une voiture dans des virages dangereux et en montagne) plutot que de rester au calme à ne rien faire pendant quelques heures",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

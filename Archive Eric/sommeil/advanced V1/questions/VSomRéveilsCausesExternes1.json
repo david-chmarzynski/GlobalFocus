@@ -1,0 +1,50 @@
+{
+  "oid": "VSomRéveilsCausesExternes1",
+  "title": "Vos réveils nocturnes et difficultés à vous rendormir sont-ils causés par des facteurs extèrieurs (bruits, chaleur, lumière, entourage...) ?",
+  "text": "Vos réveils nocturnes et difficultés à vous rendormir sont-ils causés par des facteurs extèrieurs (bruits, chaleur, lumière, entourage...) ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais (ou presque)"
+    },
+    {
+      "code": "1",
+      "text": "1 à 3 fois/mois"
+    },
+    {
+      "code": "2",
+      "text": "1 à 2 fois/semaine"
+    },
+    {
+      "code": "3",
+      "text": "3 à 5 fois par semaine"
+    },
+    {
+      "code": "4",
+      "text": "Tous les soirs (ou presque)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomRéveilsCausesExternes1 == 0",
+      "tagOID": "Facteurs_externes",
+      "value": 0
+    },
+    {
+      "conditions": "VSomRéveilsCausesExternes1 == 1",
+      "tagOID": "Facteurs_externes",
+      "value": 1
+    },
+    {
+      "conditions": "VSomRéveilsCausesExternes1 == 2",
+      "tagOID": "Facteurs_externes",
+      "value": 2
+    },
+    {
+      "conditions": "VSomRéveilsCausesExternes1 == 3 || VSomRéveilsCausesExternes1 == 4",
+      "tagOID": "Facteurs_externes",
+      "value": 3
+    }
+  ]
+}

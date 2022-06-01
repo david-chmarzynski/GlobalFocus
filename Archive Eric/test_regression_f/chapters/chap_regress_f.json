@@ -1,0 +1,5 @@
+{
+  "oid": "chap_regress_f",
+  "title": "chapitre test régression florent",
+  "modules": ["mod_regress_f"]
+}

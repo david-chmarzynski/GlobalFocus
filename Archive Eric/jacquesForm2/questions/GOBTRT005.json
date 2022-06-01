@@ -1,0 +1,28 @@
+{
+  "oid": "GOBTRT005",
+  "title": "Vous est-il arrivé de ne pas prendre votre traitement parce que, certains jours, votre mémoire vous fait défaut ?",
+  "text": "Vous est-il arrivé de ne pas prendre votre traitement parce que, certains jours, votre mémoire vous fait défaut ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "tagOID": "observance traitement",
+      "conditions": "GOBTRT005 == 0",
+      "value": 1
+    },
+    {
+      "tagOID": "observance traitement",
+      "conditions": "GOBTRT005 >= 1",
+      "value": 0
+    }
+  ]
+}

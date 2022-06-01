@@ -1,0 +1,28 @@
+{
+  "oid": "FTI003",
+  "title": "Je m'ennuie quand je dois faire les mêmes choses familières.",
+  "text": "Je m'ennuie quand je dois faire les mêmes choses familières.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI003 == 0",
+      "tagOID": "curieux",
+      "value": 1
+    },
+    {
+      "conditions": "FTI003 == 1",
+      "tagOID": "curieux",
+      "value": 0
+    }
+  ]
+}

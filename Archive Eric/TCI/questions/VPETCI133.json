@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI133",
+  "title": "Je suis plus efficace que la plupart des gens pour mettre de l'argent de coté",
+  "text": "Je suis plus efficace que la plupart des gens pour mettre de l'argent de coté",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

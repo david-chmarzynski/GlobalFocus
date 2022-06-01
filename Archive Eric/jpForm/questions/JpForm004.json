@@ -1,0 +1,46 @@
+{
+  "oid": "JpForm004",
+  "title": "Ressentez-vous une baisse d'appétit sexuel ?",
+  "text": "Ressentez-vous une baisse d'appétit sexuel ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Je n'ai remarqué récemment aucun chhangement dans mon interet pour le sexe"
+    },
+    {
+      "code": "1",
+      "text": "J'ai moins de désirs sexuels qu'auparavant"
+    },
+    {
+      "code": "2",
+      "text": "J'ai maintenant beaucoup moins de désirs sexuels"
+    },
+    {
+      "code": "3",
+      "text": "J'ai perdu tout désir sexuel"
+    }
+  ],
+  "scores": [
+    {
+      "tagOID": "libido actuelle",
+      "conditions": "JpForm004 == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "libido actuelle",
+      "conditions": "JpForm004 == '1'",
+      "value": 1
+    },
+    {
+      "tagOID": "libido actuelle",
+      "conditions": "JpForm004 == '2'",
+      "value": 2
+    },
+    {
+      "tagOID": "libido actuelle",
+      "conditions": "JpForm004 == '3'",
+      "value": 3
+    }
+  ]
+}

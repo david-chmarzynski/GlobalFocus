@@ -1,0 +1,28 @@
+{
+    "oid": "P2104",
+    "title": "oralité",
+    "text": "Ma profession concerne le bien-être des gens",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "0",
+          "text": "Non"
+        },
+        {
+          "code": "1",
+          "text": "Oui"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "P2104 == '0'",
+          "tagOID": "P2OR",
+          "value": 0
+        },
+        {
+          "conditions": "P2104 == '1'",
+          "tagOID": "P2OR",
+          "value": 1
+        }
+    ]
+}

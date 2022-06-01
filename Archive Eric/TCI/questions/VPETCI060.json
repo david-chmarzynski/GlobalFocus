@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI060",
+  "title": "Je souhaite souvent etre plus fort(e) que tous les autres",
+  "text": "Je souhaite souvent etre plus fort(e) que tous les autres",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

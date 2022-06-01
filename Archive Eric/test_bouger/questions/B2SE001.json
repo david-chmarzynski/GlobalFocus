@@ -1,0 +1,53 @@
+{
+  "oid": "B2SE001",
+  "title": "Combien de temps (en heure) passez-vous en position assise ou allongée (jors sommeil) en moyenne par jour (loisirs, télé, ordinateur, travail, lecture, etc.) lors d'une journée habituelle ?",
+  "text": "Combien de temps passez-vous en position assise ou allongée (jors sommeil) en moyenne par jour (loisirs, télé, ordinateur, travail, lecture, etc.) lors d'une journée habituelle ?",
+  "type": "DECIMAL",
+  "scale": {
+    "min": 0.0,
+    "max": 24.0,
+    "step": 1.0
+  },
+  "scores": [
+    {
+      "conditions": "B2SE001 < 3",
+      "tagOID": "B2SE",
+      "value": 0
+    },
+    {
+      "conditions": "B2SE001 >= 3 && B2SE001 < 5",
+      "tagOID": "B2SE",
+      "value": 1
+    },
+    {
+      "conditions": "B2SE001 >= 5 && B2SE001 < 8",
+      "tagOID": "B2SE",
+      "value": 2
+    },
+    {
+      "conditions": "B2SE001 >= 8",
+      "tagOID": "B2SE",
+      "value": 3
+    },
+    {
+      "conditions": "B2SE001 < 3",
+      "tagOID": "B2SM1",
+      "value": 0
+    },
+    {
+      "conditions": "B2SE001 >= 3 && B2SE001 < 5",
+      "tagOID": "B2SM1",
+      "value": 1
+    },
+    {
+      "conditions": "B2SE001 >= 5 && B2SE001 < 8",
+      "tagOID": "B2SM1",
+      "value": 2
+    },
+    {
+      "conditions": "B2SE001 >= 8",
+      "tagOID": "B2SM1",
+      "value": 3
+    }
+  ]
+}

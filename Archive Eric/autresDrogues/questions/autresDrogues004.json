@@ -1,0 +1,55 @@
+{
+  "oid": "autresDrogues004",
+  "title": "Quelle est votre fréquence de consommation de heroine ?",
+  "text": "Quelle est votre fréquence de consommation de heroine ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "J'ai complétement arreté"
+    },
+    {
+      "code": "1",
+      "text": "Je continue très occasionnellement (1 à 3 fois/an)"
+    },
+    {
+      "code": "2",
+      "text": "Je continue rarement (1 à 3 fois/mois)"
+    },
+    {
+      "code": "3",
+      "text": "Je continue assez souvent (1 à 3 fois/semaine)"
+    },
+    {
+      "code": "4",
+      "text": "Je consomme tous les jours"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "autresDrogues004 == \"0\"",
+      "tagOID": "tagAutresDrogues3",
+      "value": 1
+    },
+    {
+      "conditions": "autresDrogues004 == \"1\"",
+      "tagOID": "tagAutresDrogues3",
+      "value": 2
+    },
+    {
+      "conditions": "autresDrogues004 == \"2\"",
+      "tagOID": "tagAutresDrogues3",
+      "value": 3
+    },
+    {
+      "conditions": "autresDrogues004 == \"3\"",
+      "tagOID": "tagAutresDrogues3",
+      "value": 4
+    },
+    {
+      "conditions": "autresDrogues004 == \"4\"",
+      "tagOID": "tagAutresDrogues3",
+      "value": 5
+    }
+  ]
+}

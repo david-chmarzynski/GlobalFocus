@@ -1,0 +1,44 @@
+{
+  "oid": "EQVOD033",
+  "title": "Les régimes me fatiguent et me donnent mauvaise mine. ",
+  "text": "Les régimes me fatiguent et me donnent mauvaise mine. ",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 1.0,
+    "max": 5.0,
+    "step": 1.0,
+    "maxText": "jamais/pas du tout",
+    "maxValue": "5",
+    "midText": "parfois/modérément",
+    "midValue": "3",
+    "minText": "toujours/énormément",
+    "minValue": "1"
+  },
+  "scores": [
+    {
+      "conditions": "EQVOD033 == 1",
+      "tagOID": "EQVOD",
+      "value": 4.0
+    },
+    {
+      "conditions": "EQVOD033 == 2",
+      "tagOID": "EQVOD",
+      "value": 8.0
+    },
+    {
+      "conditions": "EQVOD033 == 3",
+      "tagOID": "EQVOD",
+      "value": 12.0
+    },
+    {
+      "conditions": "EQVOD033 == 4",
+      "tagOID": "EQVOD",
+      "value": 16.0
+    },
+    {
+      "conditions": "EQVOD033 == 5",
+      "tagOID": "EQVOD",
+      "value": 20.0
+    }
+  ]
+}

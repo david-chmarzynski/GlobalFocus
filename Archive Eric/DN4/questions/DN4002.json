@@ -1,0 +1,55 @@
+{
+  "oid": "DN4002",
+  "title": "La douleur est-elle associé dans la meme région à un ou plusieurs des symptomes suivants ?",
+  "text": "La douleur est-elle associé dans la meme région à un ou plusieurs des symptomes suivants ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Fourmillements"
+    },
+    {
+      "code": "1",
+      "text": "Picotements"
+    },
+    {
+      "code": "2",
+      "text": "Engourdissements"
+    },
+    {
+      "code": "3",
+      "text": "Démangeaisons"
+    },
+    {
+      "code": "4",
+      "text": "Aucun"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "DN4002 == 0 && DN4002 == 1 && DN4002 == 2 && DN4002 == 3",
+      "tagOID": "DN4",
+      "value": 4
+    },
+    {
+      "conditions": "(DN4002 == 0 && DN4002 == 1 && DN4002 == 2) || (DN4002 == 0 && DN4002 == 2 && DN4002 == 3) || (DN4002 == 0 && DN4002 == 1 && DN4002 == 3) || (DN4002 == 1 && DN4002 == 2 && DN4002 == 3)",
+      "tagOID": "DN4",
+      "value": 3
+    },
+    {
+      "conditions": "(DN4002 == 0 && DN4002 == 1) || (DN4002 == 0 && DN4002 == 2) || (DN4002 == 1 && DN4002 == 2) || (DN4002 == 0 && DN4002 == 3) || (DN4002 == 1 && DN4002 == 2) || (DN4002 == 1 && DN4002 == 3) || (DN4002 == 2 && DN4002 == 3)",
+      "tagOID": "DN4",
+      "value": 2
+    },
+    {
+      "conditions": "DN4002 == 0 || DN4002 == 1 || DN4002 == 2 || DN4002 == 3",
+      "tagOID": "DN4",
+      "value": 1
+    },
+    {
+      "conditions": "DN4002 == 4",
+      "tagOID": "DN4",
+      "value": 0
+    }
+  ]
+}

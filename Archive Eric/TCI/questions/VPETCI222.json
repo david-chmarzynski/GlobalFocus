@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI222",
+  "title": "Les gens qui travaillent avec moi doivent apprendre à faire les choses selon mes méthodes",
+  "text": "Les gens qui travaillent avec moi doivent apprendre à faire les choses selon mes méthodes",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

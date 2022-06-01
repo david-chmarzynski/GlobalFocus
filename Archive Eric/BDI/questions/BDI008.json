@@ -1,0 +1,46 @@
+{
+  "oid": "BDI008",
+  "title": "Vous sentez-vous inférieurs aux autres ?",
+  "text": "Vous sentez-vous inférieurs aux autres ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Je n'ai pas l'impression d'être pire que quiconque"
+    },
+    {
+      "code": "1",
+      "text": "Je suis critique vis-à-vis de mes faiblesses ou de mes erreurs"
+    },
+    {
+      "code": "2",
+      "text": "Je me blame tout le temps pour mes erreurs"
+    },
+    {
+      "code": "3",
+      "text": "Je me blame pour tous les malheurs qui arrivent"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "BDI008 == \"0\"",
+      "tagOID": "tag_BDI",
+      "value": 0
+    },
+    {
+      "conditions": "BDI008 == \"1\"",
+      "tagOID": "tag_BDI",
+      "value": 1
+    },
+    {
+      "conditions": "BDI008 == \"2\"",
+      "tagOID": "tag_BDI",
+      "value": 2
+    },
+    {
+      "conditions": "BDI008 == \"3\"",
+      "tagOID": "tag_BDI",
+      "value": 3
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "oid": "DN4004",
+  "title": "La douleur est-elle provoquée ou augmentée par :",
+  "text": "La douleur est-elle provoquée ou augmentée par :",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Le frottement"
+    },
+    {
+      "code": "1",
+      "text": "Aucun"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "DN4004 == 0",
+      "tagOID": "DN4",
+      "value": 1
+    },
+    {
+      "conditions": "DN4004 == 1",
+      "tagOID": "DN4",
+      "value": 0
+    }
+  ]
+}

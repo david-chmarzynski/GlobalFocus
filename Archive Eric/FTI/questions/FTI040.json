@@ -1,0 +1,28 @@
+{
+  "oid": "FTI040",
+  "title": "J'aime éviter les nuances et dire exactement ce que je veux dire.",
+  "text": "J'aime éviter les nuances et dire exactement ce que je veux dire.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI040 == 0",
+      "tagOID": "analytique",
+      "value": 1
+    },
+    {
+      "conditions": "FTI040 == 1",
+      "tagOID": "analytique",
+      "value": 0
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI157",
+  "title": "Je ne m'inquiète jamais de choses terribles qui pourraient arriver dans l'avenir",
+  "text": "Je ne m'inquiète jamais de choses terribles qui pourraient arriver dans l'avenir",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

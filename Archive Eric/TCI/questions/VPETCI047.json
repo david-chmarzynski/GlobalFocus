@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI047",
+  "title": "Habituellement je pense d'abord à mon propre intéret car de toute facon il n'est pas possible de satisfaire tout le monde",
+  "text": "Habituellement je pense d'abord à mon propre intéret car de toute facon il n'est pas possible de satisfaire tout le monde",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

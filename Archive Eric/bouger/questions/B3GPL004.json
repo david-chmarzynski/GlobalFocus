@@ -1,0 +1,16 @@
+{
+  "oid": "B3GPL004",
+  "title": "Est-ce que vous pratiquez des sports, du fitness ou des activités de loisirs d’intensité modérée qui nécessitent une petite augmentation de la respiration ou du rythme cardiaque comme la marche rapide [vélo, nager, jouer au volley...] pendant au moins dix minutes d’affilée ?",
+  "text": "Est-ce que vous pratiquez des sports, du fitness ou des activités de loisirs d’intensité modérée qui nécessitent une petite augmentation de la respiration ou du rythme cardiaque comme la marche rapide [vélo, nager, jouer au volley...] pendant au moins dix minutes d’affilée ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ]
+}

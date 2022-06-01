@@ -1,0 +1,28 @@
+{
+  "oid": "FTI034",
+  "title": "Je suis capable de résoudre des problèmes sans laisser l'émotion me gêner",
+  "text": "Je suis capable de résoudre des problèmes sans laisser l'émotion me gêner",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI034 == 0",
+      "tagOID": "analytique",
+      "value": 1
+    },
+    {
+      "conditions": "FTI034 == 1",
+      "tagOID": "analytique",
+      "value": 0
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "oid": "SAOS008",
+  "title": "Vous est-t-il arrivé de vous assoupir ou de vous endormir au volant de votre véhicule ?",
+  "text": "Vous est-t-il arrivé de vous assoupir ou de vous endormir au volant de votre véhicule ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "SAOS008 == \"0\"",
+      "tagOID": "tag_somnolence",
+      "value": 1
+    },
+    {
+      "conditions": "SAOS008 == \"1\"",
+      "tagOID": "tag_somnolence",
+      "value": 0
+    }
+  ]
+}

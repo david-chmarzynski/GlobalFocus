@@ -1,0 +1,28 @@
+{
+  "oid": "FTI026",
+  "title": "Je préfère avoir des amis fidèles que des amis intéressants",
+  "text": "Je préfère avoir des amis fidèles que des amis intéressants",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI026 == 0",
+      "tagOID": "conformité",
+      "value": 1
+    },
+    {
+      "conditions": "FTI026 == 1",
+      "tagOID": "conformité",
+      "value": 0
+    }
+  ]
+}

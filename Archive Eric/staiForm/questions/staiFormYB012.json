@@ -1,0 +1,46 @@
+{
+  "oid": "staiFormYB012",
+  "title": "Je manque de confiance en moi",
+  "text": "Je manque de confiance en moi",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Jamais"
+    },
+    {
+      "code": "2",
+      "text": "Parfois"
+    },
+    {
+      "code": "3",
+      "text": "Souvent"
+    },
+    {
+      "code": "4",
+      "text": "Toujours"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "staiFormYB012 == \"1\"",
+      "tagOID": "staiFormYB",
+      "value": 1
+    },
+    {
+      "conditions": "staiFormYB012 == \"2\"",
+      "tagOID": "staiFormYB",
+      "value": 2
+    },
+    {
+      "conditions": "staiFormYB012 == \"3\"",
+      "tagOID": "staiFormYB",
+      "value": 3
+    },
+    {
+      "conditions": "staiFormYB012 == \"4\"",
+      "tagOID": "staiFormYB",
+      "value": 4
+    }
+  ]
+}

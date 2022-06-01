@@ -1,0 +1,64 @@
+{
+  "oid": "q_VBougerAP",
+  "title": "Choisissez la proposition la plus proche de votre niveau actuel d’activité physique en prenant en compte votre travail, vos déplacements, vos loisirs et vos activités sportives : ",
+  "text": "Choisissez la proposition la plus proche de votre niveau actuel d’activité physique en prenant en compte votre travail, vos déplacements, vos loisirs et vos activités sportives : ",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vous ne faites aucun exercice quotidien ou presque"
+    },
+    {
+      "code": "1",
+      "text": "Vous faites parfois des exercices physiques (1 à 3 fois par semaine)"
+    },
+    {
+      "code": "2",
+      "text": "Vous faites régulièrement des exercices physiques (2 à 3 fois par semaine)"
+    },
+    {
+      "code": "3",
+      "text": "Vous faites régulièrement des exercices physiques (3 à 5 fois par semaine)"
+    },
+    {
+      "code": "4",
+      "text": "Vous faites quotidiennement du sport ou des exercices physiques soutenus"
+    },
+    {
+      "code": "5",
+      "text": "Votre travail est extrêmement physique ou bien vous vous considérez comme un grand sportif"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VBougerAP == \"0\"",
+      "tagOID": "tag_VBougerAP",
+      "value": 1
+    },
+    {
+      "conditions": "q_VBougerAP == \"1\"",
+      "tagOID": "tag_VBougerAP",
+      "value": 2
+    },
+    {
+      "conditions": "q_VBougerAP == \"2\"",
+      "tagOID": "tag_VBougerAP",
+      "value": 3
+    },
+    {
+      "conditions": "q_VBougerAP == \"3\"",
+      "tagOID": "tag_VBougerAP",
+      "value": 4
+    },
+    {
+      "conditions": "q_VBougerAP == \"4\"",
+      "tagOID": "tag_VBougerAP",
+      "value": 5
+    },
+    {
+      "conditions": "q_VBougerAP == \"5\"",
+      "tagOID": "tag_VBougerAP",
+      "value": 6
+    }
+  ]
+}

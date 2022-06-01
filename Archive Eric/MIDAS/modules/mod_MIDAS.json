@@ -1,0 +1,23 @@
+{
+  "oid": "mod_MIDAS",
+  "title": "Midas",
+  "questions": [
+    { "question": "MIDAS001", "level": 1 },
+    { "question": "MIDAS002", "level": 1 },
+    { "question": "MIDAS003", "level": 1 },
+    { "question": "MIDAS004", "level": 1 },
+    { "question": "MIDAS005", "level": 1 },
+    { "question": "MIDAS006", "level": 1 },
+    { "question": "MIDAS007", "level": 1 }
+  ],
+  "calculations": [
+    {
+      "oid": "MIDAS",
+      "type": "NORMAL",
+      "isGlobal": "true",
+      "calculation": "MIDAS001 + MIDAS002 + MIDAS003 + MIDAS004 + MIDAS005 + MIDAS006 + MIDAS007",
+      "title": "MIDAS",
+      "text": "MIDAS"
+    }
+  ]
+}

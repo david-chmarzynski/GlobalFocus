@@ -1,0 +1,28 @@
+{
+  "oid": "FTI016",
+  "title": "Je pense que les routineJ'étudie (et reconsidère) chaque option avant de faire un plans cohérentes gardent la vie ordonnée et relaxante.",
+  "text": "Je pense que les routineJ'étudie (et reconsidère) chaque option avant de faire un plans cohérentes gardent la vie ordonnée et relaxante.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI016 == 0",
+      "tagOID": "conformité",
+      "value": 1
+    },
+    {
+      "conditions": "FTI016 == 1",
+      "tagOID": "conformité",
+      "value": 0
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+    "oid": "E2002",
+    "title": "auto-évaluation_pollution_logement",
+    "text": "Comment évaluez-vous la toxicité environnementale de votre lieu de travail (qualité de l’air intérieur et extérieur, produits d’entretien, produits chimiques, agents infectieux, radiations, mobilier, textile, tabac, poussières, humidité, odeurs, moisissures, acariens…) ?",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "1",
+          "text": "Pas toxique"
+        },
+        {
+          "code": "2",
+          "text": "Modérément toxique"
+        },
+        {
+          "code": "3",
+          "text": "Toxique"
+        },
+        {
+          "code": "4",
+          "text": "Très toxique"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "E2002 == '1'",
+          "tagOID": "E2-2",
+          "value": 1
+        },
+        {
+          "conditions": "E2002 == '2'",
+          "tagOID": "E2-2",
+          "value": 2
+        },
+        {
+          "conditions": "E2002 == '3'",
+          "tagOID": "E2-2",
+          "value": 3
+        },
+        {
+          "conditions": "E2002 == '4'",
+          "tagOID": "E2-2",
+          "value": 4
+        }
+    ]
+}

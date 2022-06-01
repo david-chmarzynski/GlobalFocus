@@ -1,0 +1,28 @@
+{
+  "oid": "FTI021",
+  "title": "Mes amis et ma famille diraient que j'ai des valeurs traditionnelles.",
+  "text": "Mes amis et ma famille diraient que j'ai des valeurs traditionnelles.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI021 == 0",
+      "tagOID": "conformité",
+      "value": 1
+    },
+    {
+      "conditions": "FTI021 == 1",
+      "tagOID": "conformité",
+      "value": 0
+    }
+  ]
+}

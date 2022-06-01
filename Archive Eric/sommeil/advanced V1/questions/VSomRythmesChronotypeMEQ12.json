@@ -1,0 +1,46 @@
+{
+  "oid": "VSomRythmesChronotypeMEQ12",
+  "title": "Si vous allez vous coucher à 23h00, à quel point vous sentirez-vous fatigué(e)?",
+  "text": "Si vous allez vous coucher à 23h00, à quel point vous sentirez-vous fatigué(e)?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas du tout fatigué(e)"
+    },
+    {
+      "code": "1",
+      "text": "Un peu fatigué(e)"
+    },
+    {
+      "code": "2",
+      "text": "Assez fatigué(e)"
+    },
+    {
+      "code": "3",
+      "text": "Très fatigué(e)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomRythmesChronotypeMEQ12 == 0",
+      "tagOID": "ChronotypeMEQ",
+      "value": 0
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ12 == 1",
+      "tagOID": "ChronotypeMEQ",
+      "value": 2
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ12 == 2",
+      "tagOID": "ChronotypeMEQ",
+      "value": 3
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ12 == 3",
+      "tagOID": "ChronotypeMEQ",
+      "value": 5
+    }
+  ]
+}

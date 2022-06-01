@@ -1,0 +1,28 @@
+{
+    "oid": "P2005",
+    "title": "Alexi thymie",
+    "text": "Cela m’est égal de ne pas avoir une meilleure apparence",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "0",
+          "text": "Non"
+        },
+        {
+          "code": "1",
+          "text": "Oui"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "P2005 == '0'",
+          "tagOID": "P2AL",
+          "value": 0
+        },
+        {
+          "conditions": "P2005 == '1'",
+          "tagOID": "P2AL",
+          "value": 1
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI069",
+  "title": "Je prefere rester chez moi plutot que de voyager ou d'explorer de nouveaux lieux",
+  "text": "Je prefere rester chez moi plutot que de voyager ou d'explorer de nouveaux lieux",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

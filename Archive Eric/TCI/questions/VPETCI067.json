@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI067",
+  "title": "Habituellement, je reste calme et confiant(e) dans des situations que la plupart des gens trouverait physiquement dangereuses",
+  "text": "Habituellement, je reste calme et confiant(e) dans des situations que la plupart des gens trouverait physiquement dangereuses",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

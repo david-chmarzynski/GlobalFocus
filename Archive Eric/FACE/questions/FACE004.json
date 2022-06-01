@@ -1,0 +1,28 @@
+{
+  "oid": "FACE004",
+  "title": "Votre entourage vous a-t-il déjà fait des remarques au sujet de votre consommation d'alcool ?",
+  "text": "Votre entourage vous a-t-il déjà fait des remarques au sujet de votre consommation d'alcool ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FACE004 == 0",
+      "tagOID": "FACE",
+      "value": 0
+    },
+    {
+      "conditions": "FACE004 == 1",
+      "tagOID": "FACE",
+      "value": 4
+    }
+  ]
+}

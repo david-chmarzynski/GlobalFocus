@@ -1,0 +1,11 @@
+{
+  "oid": "cardioVasculaire004",
+  "title": "Quelle est votre pression artérielle systolique (mmHG) ?",
+  "text": "Quelle est votre pression artérielle systolique (mmHG) ?",
+  "type": "DECIMAL",
+  "scale": {
+    "min": 120.0,
+    "max": 180.0,
+    "step": 20.0
+  }
+}

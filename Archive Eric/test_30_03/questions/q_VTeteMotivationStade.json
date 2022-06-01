@@ -1,0 +1,55 @@
+{
+  "oid": "q_VTeteMotivationStade",
+  "title": "Par rapport au projet de changement (santé, poids…) qui motive votre consultation, choisissez la proposition la plus proche de ce que vous ressentez :",
+  "text": "Par rapport au projet de changement (santé, poids…) qui motive votre consultation, choisissez la proposition la plus proche de ce que vous ressentez :",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "J’ai mené à bien mon changement depuis plus de 6 mois"
+    },
+    {
+      "code": "1",
+      "text": "J’ai commencé à changer mon comportement depuis moins de 6 mois"
+    },
+    {
+      "code": "2",
+      "text": "J’ai l’intention de changer mon comportement dans le mois qui vient"
+    },
+    {
+      "code": "3",
+      "text": "J’ai l’intention de changer mon comportement dans les 6 prochains mois"
+    },
+    {
+      "code": "4",
+      "text": "Aucune de ces propositions"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VTeteMotivationStade == '0'",
+      "tagOID": "tag_VTeteMotivationStade",
+      "value": 1
+    },
+    {
+      "conditions": "q_VTeteMotivationStade == '1'",
+      "tagOID": "tag_VTeteMotivationStade",
+      "value": 2
+    },
+    {
+      "conditions": "q_VTeteMotivationStade == '2'",
+      "tagOID": "tag_VTeteMotivationStade",
+      "value": 3
+    },
+    {
+      "conditions": "q_VTeteMotivationStade == '3'",
+      "tagOID": "tag_VTeteMotivationStade",
+      "value": 4
+    },
+    {
+      "conditions": "q_VTeteMotivationStade == '4'",
+      "tagOID": "tag_VTeteMotivationStade",
+      "value": 5
+    }
+  ]
+}

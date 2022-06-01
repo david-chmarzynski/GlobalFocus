@@ -1,0 +1,28 @@
+{
+  "oid": "FTI009",
+  "title": "Je suis plus enthousiaste que la plupart des gens.",
+  "text": "Je suis plus enthousiaste que la plupart des gens.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI009 == 0",
+      "tagOID": "curieux",
+      "value": 1
+    },
+    {
+      "conditions": "FTI009 == 1",
+      "tagOID": "curieux",
+      "value": 0
+    }
+  ]
+}

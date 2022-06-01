@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI078",
+  "title": "Je resterais probablement détendu(e) en rencontrant des inconnus, meme si on m'avait prévenu qu'ils étaient inamicaux",
+  "text": "Je resterais probablement détendu(e) en rencontrant des inconnus, meme si on m'avait prévenu qu'ils étaient inamicaux",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

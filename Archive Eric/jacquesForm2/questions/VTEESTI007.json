@@ -1,0 +1,46 @@
+{
+  "oid": "VTEESTI007",
+  "title": "Dans l'ensemble, je suis satisfait(e) de moi.",
+  "text": "Dans l'ensemble, je suis satisfait(e) de moi.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Tout à fait en désaccord"
+    },
+    {
+      "code": "2",
+      "text": "Plutot en désaccord"
+    },
+    {
+      "code": "3",
+      "text": "Plutot en accord"
+    },
+    {
+      "code": "4",
+      "text": "Tout à fait en accord"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VTEESTI007 == 1",
+      "tagOID": "estime de soi ROSENBERG",
+      "value": 1
+    },
+    {
+      "conditions": "VTEESTI007 == 2",
+      "tagOID": "estime de soi ROSENBERG",
+      "value": 2
+    },
+    {
+      "conditions": "VTEESTI007 == 3",
+      "tagOID": "estime de soi ROSENBERG",
+      "value": 3
+    },
+    {
+      "conditions": "VTEESTI007 == 4",
+      "tagOID": "estime de soi ROSENBERG",
+      "value": 4
+    }
+  ]
+}

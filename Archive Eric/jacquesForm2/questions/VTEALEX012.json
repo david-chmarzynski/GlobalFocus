@@ -1,0 +1,55 @@
+{
+  "oid": "VTEALEX012",
+  "title": "On me dit de décrire davantage ce que je ressens.",
+  "text": "On me dit de décrire davantage ce que je ressens.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Désaccord complet"
+    },
+    {
+      "code": "2",
+      "text": "Désaccord relatif"
+    },
+    {
+      "code": "3",
+      "text": "Ni accord, ni désaccord"
+    },
+    {
+      "code": "4",
+      "text": "Accord relatif"
+    },
+    {
+      "code": "5",
+      "text": "Accord complet"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VTEALEX012 == 1",
+      "tagOID": "alexithymie TORONTO",
+      "value": 1
+    },
+    {
+      "conditions": "VTEALEX012 == 2",
+      "tagOID": "alexithymie TORONTO",
+      "value": 2
+    },
+    {
+      "conditions": "VTEALEX012 == 3",
+      "tagOID": "alexithymie TORONTO",
+      "value": 3
+    },
+    {
+      "conditions": "VTEALEX012 == 4",
+      "tagOID": "alexithymie TORONTO",
+      "value": 4
+    },
+    {
+      "conditions": "VTEALEX012 == 5",
+      "tagOID": "alexithymie TORONTO",
+      "value": 5
+    }
+  ]
+}

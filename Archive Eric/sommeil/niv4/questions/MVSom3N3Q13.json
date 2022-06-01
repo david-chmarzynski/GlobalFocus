@@ -1,0 +1,58 @@
+{
+  "oid": "MVSom3N3Q13",
+  "title": "En moyenne, quelle est la durée totale de vos périodes d'éveils nocturnes ?",
+  "text": "En moyenne, quelle est la durée totale de vos périodes d'éveils nocturnes ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Moins de 5 minutes"
+    },
+    {
+      "code": "1",
+      "text": "Entre 5 et 20 miinutes"
+    },
+    {
+      "code": "2",
+      "text": "Entre 20 et 40 minutes"
+    },
+    {
+      "code": "3",
+      "text": "Entre 40 minutes et 1 heure"
+    },
+    {
+      "code": "4",
+      "text": "Entre 1 heure et 1 h 30"
+    },
+    {
+      "code": "5",
+      "text": "Entre 1 h 30 et 2 heures"
+    },
+    {
+      "code": "6",
+      "text": "Plus de 2 heures"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom3N3Q13 == 0",
+      "tagOID": "MVSomN3-13",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom3N3Q13 == 1",
+      "tagOID": "MVSomN3-13",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom3N3Q13 == 2",
+      "tagOID": "MVSomN3-13",
+      "value": 2
+    },
+    {
+      "conditions": "MVSom3N3Q13 == 3 || MVSom3N3Q13 == 4 || MVSom3N3Q13 == 5 || MVSom3N3Q13 == 6",
+      "tagOID": "MVSomN3-13",
+      "value": 3
+    }
+  ]
+}

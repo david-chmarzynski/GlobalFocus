@@ -1,0 +1,5 @@
+{
+  "oid": "chap_fagerstrom",
+  "title": "chapitre fagerstrom",
+  "modules": ["mod_fagerstrom"]
+}

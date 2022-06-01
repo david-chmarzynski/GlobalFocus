@@ -1,0 +1,46 @@
+{
+  "oid": "melatonineA005",
+  "title": "Je ne reve pas",
+  "text": "Je ne reve pas",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "De temps en temps"
+    },
+    {
+      "code": "2",
+      "text": "Régulièrement"
+    },
+    {
+      "code": "3",
+      "text": "En permanence"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "melatonineA005 == \"0\"",
+      "tagOID": "tag_melatonine_A",
+      "value": 0
+    },
+    {
+      "conditions": "melatonineA005 == \"1\"",
+      "tagOID": "tag_melatonine_A",
+      "value": 1
+    },
+    {
+      "conditions": "melatonineA005 == \"2\"",
+      "tagOID": "tag_melatonine_A",
+      "value": 2
+    },
+    {
+      "conditions": "melatonineA005 == \"3\"",
+      "tagOID": "tag_melatonine_A",
+      "value": 3
+    }
+  ]
+}

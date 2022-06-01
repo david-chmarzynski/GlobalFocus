@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI104",
+  "title": "Je voudrais souvent interrompre le cours du temps",
+  "text": "Je voudrais souvent interrompre le cours du temps",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

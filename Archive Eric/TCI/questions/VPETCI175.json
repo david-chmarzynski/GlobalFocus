@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI175",
+  "title": "J'ai encore de bonnes habitudes à acquérir pour réussir à résister aux tentations",
+  "text": "J'ai encore de bonnes habitudes à acquérir pour réussir à résister aux tentations",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

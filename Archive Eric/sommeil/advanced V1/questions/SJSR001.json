@@ -1,0 +1,55 @@
+{
+  "oid": "SJSR001",
+  "title": "Durant ces 3 derniers mois, ressentez-vous le besoin pressant de bouger les jambes (ou les bras) à cause de sensations pénibles et désagréables : fourmillements, gratouillements, picotements, brûlures, démangeaisons ?",
+  "text": "Durant ces 3 derniers mois, ressentez-vous le besoin pressant de bouger les jambes (ou les bras) à cause de sensations pénibles et désagréables : fourmillements, gratouillements, picotements, brûlures, démangeaisons ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais (ou presque)"
+    },
+    {
+      "code": "1",
+      "text": "1 à 3 fois/mois"
+    },
+    {
+      "code": "2",
+      "text": "1 à 2 fois/semaine"
+    },
+    {
+      "code": "3",
+      "text": "3 à 5 fois par semaine"
+    },
+    {
+      "code": "4",
+      "text": "Tous les soirs (ou presque)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "SJSR001 == 0",
+      "tagOID": "SJSR",
+      "value": 0
+    },
+    {
+      "conditions": "SJSR001 == 1",
+      "tagOID": "SJSR",
+      "value": 1
+    },
+    {
+      "conditions": "SJSR001 == 2",
+      "tagOID": "SJSR",
+      "value": 2
+    },
+    {
+      "conditions": "SJSR001 == 3",
+      "tagOID": "SJSR",
+      "value": 3
+    },
+    {
+      "conditions": "SJSR001 == 4",
+      "tagOID": "SJSR",
+      "value": 4
+    }
+  ]
+}

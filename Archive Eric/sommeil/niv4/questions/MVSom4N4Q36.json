@@ -1,0 +1,54 @@
+{
+  "oid": "MVSom4N4Q36",
+  "title": "Quelle est la durée habituelle de votre sieste ?",
+  "text": "Quelle est la durée habituelle de votre sieste ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Moins de 30 minutes"
+    },
+    {
+      "code": "1",
+      "text": "30 à 40 minutes"
+    },
+    {
+      "code": "2",
+      "text": "40 à minutes à 1 heure"
+    },
+    {
+      "code": "3",
+      "text": "1 heure à 1h30"
+    },
+    {
+      "code": "4",
+      "text": "1h30 à 2 heures"
+    },
+    {
+      "code": "5",
+      "text": "Plus de 2 heures"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom4N4Q36 == 0",
+      "tagOID": "MVSomN4-36",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom4N4Q36 == 1",
+      "tagOID": "MVSomN4-36",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom4N4Q36 == 2",
+      "tagOID": "MVSomN4-36",
+      "value": 2
+    },
+    {
+      "conditions": "MVSom4N4Q36 == 3 || MVSom4N4Q36 == 4 || MVSom4N4Q36 == 5",
+      "tagOID": "MVSomN4-36",
+      "value": 3
+    }
+  ]
+}

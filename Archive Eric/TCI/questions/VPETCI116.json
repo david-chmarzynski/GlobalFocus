@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI116",
+  "title": "Les m'est diffcile de tolérer les gens qui sont différents de moi",
+  "text": "Les m'est diffcile de tolérer les gens qui sont différents de moi",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

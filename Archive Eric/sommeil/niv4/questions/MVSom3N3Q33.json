@@ -1,0 +1,50 @@
+{
+  "oid": "MVSom3N3Q33",
+  "title": "A quel point vos difficultés de sommeil sont-elles à l'origine d'une sensation de fatigue pendant la journée ?",
+  "text": "A quel point vos difficultés de sommeil sont-elles à l'origine d'une sensation de fatigue pendant la journée ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas de gene"
+    },
+    {
+      "code": "1",
+      "text": "Gene légère"
+    },
+    {
+      "code": "2",
+      "text": "Gene moyenne"
+    },
+    {
+      "code": "3",
+      "text": "Genant"
+    },
+    {
+      "code": "4",
+      "text": "Très genant"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom3N3Q33 == 0",
+      "tagOID": "MVSomN3-33",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom3N3Q33 == 1",
+      "tagOID": "MVSomN3-33",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom3N3Q33 == 2",
+      "tagOID": "MVSomN3-33",
+      "value": 2
+    },
+    {
+      "conditions": "MVSom3N3Q33 == 3 || MVSom3N3Q33 == 4",
+      "tagOID": "MVSomN3-33",
+      "value": 3
+    }
+  ]
+}

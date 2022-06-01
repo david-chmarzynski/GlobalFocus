@@ -1,0 +1,64 @@
+{
+  "oid": "rathus007",
+  "title": "Il y a des moments ou je cherche une bonne et vigoureusee discussion",
+  "text": "Il y a des moments ou je cherche une bonne et vigoureusee discussion",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Tout à fait vrai"
+    },
+    {
+      "code": "2",
+      "text": "Vrai"
+    },
+    {
+      "code": "3",
+      "text": "Plutot vrai"
+    },
+    {
+      "code": "4",
+      "text": "Plutot faux"
+    },
+    {
+      "code": "5",
+      "text": "Faux"
+    },
+    {
+      "code": "6",
+      "text": "Tout à fait faux"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "rathus007 == \"1\"",
+      "tagOID": "rathus",
+      "value": 1
+    },
+    {
+      "conditions": "rathus007 == \"2\"",
+      "tagOID": "rathus",
+      "value": 2
+    },
+    {
+      "conditions": "rathus007 == \"3\"",
+      "tagOID": "rathus",
+      "value": 3
+    },
+    {
+      "conditions": "rathus007 == \"4\"",
+      "tagOID": "rathus",
+      "value": 4
+    },
+    {
+      "conditions": "rathus007 == \"5\"",
+      "tagOID": "rathus",
+      "value": 5
+    },
+    {
+      "conditions": "rathus007 == \"6\"",
+      "tagOID": "rathus",
+      "value": 6
+    }
+  ]
+}

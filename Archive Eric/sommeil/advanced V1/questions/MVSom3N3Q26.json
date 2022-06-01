@@ -1,0 +1,50 @@
+{
+  "oid": "MVSom3N3Q26",
+  "title": "Utilisez-vous une alarme (réveil, smartphone...) pour vous réveiller le matin ?",
+  "text": "Utilisez-vous une alarme (réveil, smartphone...) pour vous réveiller le matin ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais (ou presque)"
+    },
+    {
+      "code": "1",
+      "text": "1 à 3 fois/mois"
+    },
+    {
+      "code": "2",
+      "text": "1 à 2 fois/semaine"
+    },
+    {
+      "code": "3",
+      "text": "3 à 5 fois par semaine"
+    },
+    {
+      "code": "4",
+      "text": "Tous les matins (ou presque)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom3N3Q26 == 0 || MVSom3N3Q26 == 1",
+      "tagOID": "MVSomN3-26",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom3N3Q26 == 2",
+      "tagOID": "MVSomN3-26",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom3N3Q26 == 3",
+      "tagOID": "MVSomN3-26",
+      "value": 2
+    },
+    {
+      "conditions": "MVSom3N3Q26 == 4",
+      "tagOID": "MVSomN3-26",
+      "value": 3
+    }
+  ]
+}

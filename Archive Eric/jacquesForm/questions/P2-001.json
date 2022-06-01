@@ -1,0 +1,28 @@
+{
+    "oid": "P2001",
+    "title": "Alexi thymie",
+    "text": "Je me fais rarement du souci au sujet de ma santé",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "0",
+          "text": "Non"
+        },
+        {
+          "code": "1",
+          "text": "Oui"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "P2001 == '0'",
+          "tagOID": "P2AL",
+          "value": 0
+        },
+        {
+          "conditions": "P2001 == '1'",
+          "tagOID": "P2AL",
+          "value": 1
+        }
+    ]
+}

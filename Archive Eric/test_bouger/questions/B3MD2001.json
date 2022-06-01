@@ -1,0 +1,35 @@
+{
+  "oid": "B3MD2001",
+  "title": "Avez-vous confiance dans votre capacité a etre plus actif lors de mes déplacements ?",
+  "text": "Avez-vous confiance dans votre capacité a etre plus actif lors de mes déplacements ?",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 0.0,
+    "max": 10.0,
+    "step": 1.0,
+    "minText": "pas confiant",
+    "maxText": "très confiant"
+  },
+  "scores": [
+    {
+      "conditions": "B3MD2001 >= 0 && B3MD2001 <= 4",
+      "tagOID": "B3MD2",
+      "value": 0
+    },
+    {
+      "conditions": "B3MD2001 >= 5 && B3MD2001 <= 6",
+      "tagOID": "B3MD2",
+      "value": 1
+    },
+    {
+      "conditions": "B3MD2001 >= 7 && B3MD2001 <= 8",
+      "tagOID": "B3MD2",
+      "value": 2
+    },
+    {
+      "conditions": "B3MD2001 >= 9 && B3MD2001 <= 10",
+      "tagOID": "B3MD2",
+      "value": 3
+    }
+  ]
+}

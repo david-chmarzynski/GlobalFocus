@@ -1,0 +1,40 @@
+{
+  "oid": "SAOS007",
+  "title": "Vous sentez-vous fatigué, las ou peu en forme durant votre période d'éveil ?",
+  "text": "Vous sentez-vous fatigué, las ou peu en forme durant votre période d'éveil ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Preque tous les jours"
+    },
+    {
+      "code": "1",
+      "text": "3 à 4 jours par semaines"
+    },
+    {
+      "code": "2",
+      "text": "1 à 2 jours par semaine"
+    },
+    {
+      "code": "3",
+      "text": "1 à 2 jours par mois"
+    },
+    {
+      "code": "4",
+      "text": "Jamais ou presque jamais"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "SAOS007 == \"0\" || SAOS007 == \"1\"",
+      "tagOID": "tag_somnolence",
+      "value": 1
+    },
+    {
+      "conditions": "SAOS007 == \"2\" || SAOS007 == \"3\" || SAOS007 == \"4\"",
+      "tagOID": "tag_somnolence",
+      "value": 0
+    }
+  ]
+}

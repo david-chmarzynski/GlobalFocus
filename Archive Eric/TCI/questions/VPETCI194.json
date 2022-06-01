@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI194",
+  "title": "J'ai du mal à m'en sortir lorsque tous les détails avant de prendre une décision, meme si on me demande une réponse rapide",
+  "text": "J'ai du mal à m'en sortir lorsque tous les détails avant de prendre une décision, meme si on me demande une réponse rapide",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "oid": "VSomRythmesChronotypeMEQ9",
+  "title": "Vous avez décidé de faire du sport 2 fois par semaine avec un(e) ami(e) qui est disponible uniquement entre 7h00 et 8h00 le matin. En ne tenant compte que de la façon dont vous vous sentez à cette heure de la journée, comment seront vos performances?",
+  "text": "Vous avez décidé de faire du sport 2 fois par semaine avec un(e) ami(e) qui est disponible uniquement entre 7h00 et 8h00 le matin. En ne tenant compte que de la façon dont vous vous sentez à cette heure de la journée, comment seront vos performances?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Je serai en bonne forme"
+    },
+    {
+      "code": "1",
+      "text": "Je serai raisonnablement en forme"
+    },
+    {
+      "code": "2",
+      "text": "Je trouverai cela difficile"
+    },
+    {
+      "code": "3",
+      "text": "Je trouverai cela très difficile"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomRythmesChronotypeMEQ9 == 0",
+      "tagOID": "ChronotypeMEQ",
+      "value": 4
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ9 == 1",
+      "tagOID": "ChronotypeMEQ",
+      "value": 3
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ9 == 2",
+      "tagOID": "ChronotypeMEQ",
+      "value": 2
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ9 == 3",
+      "tagOID": "ChronotypeMEQ",
+      "value": 1
+    }
+  ]
+}

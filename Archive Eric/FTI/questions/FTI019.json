@@ -1,0 +1,28 @@
+{
+  "oid": "FTI019",
+  "title": "En général, je pense qu'il est important de suivre les règles",
+  "text": "En général, je pense qu'il est important de suivre les règles",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI019 == 0",
+      "tagOID": "conformité",
+      "value": 1
+    },
+    {
+      "conditions": "FTI019 == 1",
+      "tagOID": "conformité",
+      "value": 0
+    }
+  ]
+}

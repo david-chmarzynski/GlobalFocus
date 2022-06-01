@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI224",
+  "title": "Habituellement, je me sens beaucoup plus confiant(e) et dynamique que la plupart des gens, meme après de légers problèmes de santé ou des événements stressants",
+  "text": "Habituellement, je me sens beaucoup plus confiant(e) et dynamique que la plupart des gens, meme après de légers problèmes de santé ou des événements stressants",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

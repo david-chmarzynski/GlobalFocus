@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI110",
+  "title": "En général, il me faut de très bonnes raisons pratiques pour accepter de modifier mes habitudes",
+  "text": "En général, il me faut de très bonnes raisons pratiques pour accepter de modifier mes habitudes",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

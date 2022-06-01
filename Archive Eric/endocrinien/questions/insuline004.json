@@ -1,0 +1,46 @@
+{
+  "oid": "insuline004",
+  "title": "J'ai des compulsions sucrées",
+  "text": "J'ai des compulsions sucrées",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "De temps en temps"
+    },
+    {
+      "code": "2",
+      "text": "Régulièrement"
+    },
+    {
+      "code": "3",
+      "text": "En permanence"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "insuline004 == \"0\"",
+      "tagOID": "tag_insuline",
+      "value": 0
+    },
+    {
+      "conditions": "insuline004 == \"1\"",
+      "tagOID": "tag_insuline",
+      "value": 1
+    },
+    {
+      "conditions": "insuline004 == \"2\"",
+      "tagOID": "tag_insuline",
+      "value": 2
+    },
+    {
+      "conditions": "insuline004 == \"3\"",
+      "tagOID": "tag_insuline",
+      "value": 3
+    }
+  ]
+}

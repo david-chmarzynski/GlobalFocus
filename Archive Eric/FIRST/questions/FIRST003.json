@@ -1,0 +1,28 @@
+{
+  "oid": "FIRST003",
+  "title": "Mes douleurs sont comme des brulures, des décharges électriques ou des crampes",
+  "text": "Mes douleurs sont comme des brulures, des décharges électriques ou des crampes",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FIRST003 == 0",
+      "tagOID": "FIRST",
+      "value": 1
+    },
+    {
+      "conditions": "FIRST003 == 1",
+      "tagOID": "FIRST",
+      "value": 0
+    }
+  ]
+}

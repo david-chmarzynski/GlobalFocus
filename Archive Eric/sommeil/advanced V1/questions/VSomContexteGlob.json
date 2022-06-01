@@ -1,0 +1,46 @@
+{
+  "oid": "VSomContexteGlob",
+  "title": "Sur ces 3 derniers mois, comment évualez-vous le contexte de votre sommeil (mode de vie adapté à un bon sommeil, qualité de la literie, chambre calme, obsccurité, absence de perturbation de votre sommil par votre entourage ...) ?",
+  "text": "Sur ces 3 derniers mois, comment évualez-vous le contexte de votre sommeil (mode de vie adapté à un bon sommeil, qualité de la literie, chambre calme, obsccurité, absence de perturbation de votre sommil par votre entourage ...) ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisant"
+    },
+    {
+      "code": "1",
+      "text": "Légèrement insatisfaisante"
+    },
+    {
+      "code": "2",
+      "text": "Assez insatisfaisante"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisante"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomContexteGlob == 0",
+      "tagOID": "Contexte",
+      "value": 0
+    },
+    {
+      "conditions": "VSomContexteGlob == 1",
+      "tagOID": "Contexte",
+      "value": 1
+    },
+    {
+      "conditions": "VSomContexteGlob == 2",
+      "tagOID": "Contexte",
+      "value": 2
+    },
+    {
+      "conditions": "VSomContexteGlob == 3",
+      "tagOID": "Contexte",
+      "value": 3
+    }
+  ]
+}

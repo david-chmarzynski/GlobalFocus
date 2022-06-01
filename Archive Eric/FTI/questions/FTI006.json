@@ -1,0 +1,28 @@
+{
+  "oid": "FTI006",
+  "title": "Je suis plus créatif que la plupart des gens.",
+  "text": "Je suis plus créatif que la plupart des gens.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI006 == 0",
+      "tagOID": "curieux",
+      "value": 1
+    },
+    {
+      "conditions": "FTI006 == 1",
+      "tagOID": "curieux",
+      "value": 0
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "oid": "fagerstrom003",
+  "title": "A quelle cigarette renonceriez-nous le plus difficilement ?",
+  "text": "A quelle cigarette renonceriez-nous le plus difficilement ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "A la première de la jouornée"
+    },
+    {
+      "code": "1",
+      "text": "A une autre"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "fagerstrom003 == 0",
+      "tagOID": "fagerstrom",
+      "value": 1
+    },
+    {
+      "conditions": "fagerstrom003 == 1",
+      "tagOID": "fagerstrom",
+      "value": 0
+    }
+  ]
+}

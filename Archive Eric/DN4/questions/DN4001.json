@@ -1,0 +1,46 @@
+{
+  "oid": "DN4001",
+  "title": "La douleur présente-t-elle une ou plusieurs des caractéristiques suivantes ?",
+  "text": "La douleur présente-t-elle une ou plusieurs des caractéristiques suivantes ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Brulure"
+    },
+    {
+      "code": "1",
+      "text": "Sensation de froid douloureux"
+    },
+    {
+      "code": "2",
+      "text": "Décharge électriques"
+    },
+    {
+      "code": "3",
+      "text": "Aucune"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "DN4001 == 0 && DN4001 == 1 && DN4001 == 2",
+      "tagOID": "DN4",
+      "value": 3
+    },
+    {
+      "conditions": "(DN4001 == 0 && DN4001 == 1) || (DN4001 == 0 && DN4001 == 2) || (DN4001 == 1 && DN4001 == 2)",
+      "tagOID": "DN4",
+      "value": 2
+    },
+    {
+      "conditions": "DN4001 == 0 || DN4001 == 1 || DN4001 == 2",
+      "tagOID": "DN4",
+      "value": 1
+    },
+    {
+      "conditions": "DN4001 == 3",
+      "tagOID": "DN4",
+      "value": 0
+    }
+  ]
+}

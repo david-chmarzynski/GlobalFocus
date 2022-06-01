@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI180",
+  "title": "Habituellement, je peux faire facilement des choses que la plupart des gens considèrent comme dangereuses (comme conduire rapidement une voiture sur une route mouillée ou verglacée)",
+  "text": "Habituellement, je peux faire facilement des choses que la plupart des gens considèrent comme dangereuses (comme conduire rapidement une voiture sur une route mouillée ou verglacée)",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

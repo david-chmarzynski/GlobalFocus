@@ -1,0 +1,28 @@
+{
+    "oid": "A2405",
+    "title": "TCA",
+    "text": "Diriez-vous que la nourriture domine votre vie ?",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "0",
+          "text": "Non"
+        },
+        {
+          "code": "1",
+          "text": "Oui"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "A2405 == '0'",
+          "tagOID": "A2-4",
+          "value": 0
+        },
+        {
+          "conditions": "A2405 == '1'",
+          "tagOID": "A2-4",
+          "value": 1
+        }
+    ]
+}

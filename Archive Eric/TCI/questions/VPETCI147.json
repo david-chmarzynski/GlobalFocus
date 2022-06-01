@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI147",
+  "title": "Généralemment, j'aimerais mieux faire quelque chose de risqué (comme faire du delta-plane ou sauter en parachute) plutot que d'avoir à rester calme et inactif(ve) pendant quelques heures",
+  "text": "Généralemment, j'aimerais mieux faire quelque chose de risqué (comme faire du delta-plane ou sauter en parachute) plutot que d'avoir à rester calme et inactif(ve) pendant quelques heures",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

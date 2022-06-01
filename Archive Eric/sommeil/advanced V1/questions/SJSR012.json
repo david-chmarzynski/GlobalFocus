@@ -1,0 +1,46 @@
+{
+  "oid": "SJSR012",
+  "title": "Perturbe votre sommeil : réveils fréquents, mouvements périodiques des jambes, sommeil non récupérateur… ?",
+  "text": "Perturbe votre sommeil : réveils fréquents, mouvements périodiques des jambes, sommeil non récupérateur… ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas de gene"
+    },
+    {
+      "code": "1",
+      "text": "Gene modérée"
+    },
+    {
+      "code": "2",
+      "text": "Genant"
+    },
+    {
+      "code": "3",
+      "text": "Très genant"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "SJSR012 == 0",
+      "tagOID": "SJSR",
+      "value": 0
+    },
+    {
+      "conditions": "SJSR012 == 1",
+      "tagOID": "SJSR",
+      "value": 1
+    },
+    {
+      "conditions": "SJSR012 == 2",
+      "tagOID": "SJSR",
+      "value": 2
+    },
+    {
+      "conditions": "SJSR012 == 3",
+      "tagOID": "SJSR",
+      "value": 3
+    }
+  ]
+}

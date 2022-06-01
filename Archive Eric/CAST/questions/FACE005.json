@@ -1,0 +1,28 @@
+{
+  "oid": "CAST005",
+  "title": "Avez-vous déjà essayé de réduire ou dd'arreter votre consommation de cannabis sans y parvenir ?",
+  "text": "Avez-vous déjà essayé de réduire ou dd'arreter votre consommation de cannabis sans y parvenir ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "CAST005 == 0",
+      "tagOID": "CAST",
+      "value": 0
+    },
+    {
+      "conditions": "CAST005 == 1",
+      "tagOID": "CAST",
+      "value": 1
+    }
+  ]
+}

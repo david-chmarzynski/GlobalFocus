@@ -1,0 +1,46 @@
+{
+  "oid": "VSomRythmesChronotypeMEQ8",
+  "title": "Lorsque vous n'avez aucun engagement le lendemain, à quelle heure vous couchez-vous par rapport à votre heure habituelle de coucher?",
+  "text": "Lorsque vous n'avez aucun engagement le lendemain, à quelle heure vous couchez-vous par rapport à votre heure habituelle de coucher?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Rarement ou jamais plus tard"
+    },
+    {
+      "code": "1",
+      "text": "Moins d'une heure plus tard"
+    },
+    {
+      "code": "2",
+      "text": "1 à 2 heures plus tard"
+    },
+    {
+      "code": "3",
+      "text": "Plus de 2 heures plus tard"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomRythmesChronotypeMEQ8 == 0",
+      "tagOID": "ChronotypeMEQ",
+      "value": 4
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ8 == 1",
+      "tagOID": "ChronotypeMEQ",
+      "value": 3
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ8 == 2",
+      "tagOID": "ChronotypeMEQ",
+      "value": 2
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ8 == 3",
+      "tagOID": "ChronotypeMEQ",
+      "value": 1
+    }
+  ]
+}

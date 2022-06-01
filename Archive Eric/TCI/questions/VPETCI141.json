@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI141",
+  "title": "J'aime porter une attention particulière aux détails dans tout ce que je fais",
+  "text": "J'aime porter une attention particulière aux détails dans tout ce que je fais",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

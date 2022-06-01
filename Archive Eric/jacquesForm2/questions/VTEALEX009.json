@@ -1,0 +1,55 @@
+{
+  "oid": "VTEALEX009",
+  "title": "J'ai des sentiments que je ne suis guère capable d'identifier.",
+  "text": "J'ai des sentiments que je ne suis guère capable d'identifier.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Désaccord complet"
+    },
+    {
+      "code": "2",
+      "text": "Désaccord relatif"
+    },
+    {
+      "code": "3",
+      "text": "Ni accord, ni désaccord"
+    },
+    {
+      "code": "4",
+      "text": "Accord relatif"
+    },
+    {
+      "code": "5",
+      "text": "Accord complet"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VTEALEX009 == 1",
+      "tagOID": "alexithymie TORONTO",
+      "value": 1
+    },
+    {
+      "conditions": "VTEALEX009 == 2",
+      "tagOID": "alexithymie TORONTO",
+      "value": 2
+    },
+    {
+      "conditions": "VTEALEX009 == 3",
+      "tagOID": "alexithymie TORONTO",
+      "value": 3
+    },
+    {
+      "conditions": "VTEALEX009 == 4",
+      "tagOID": "alexithymie TORONTO",
+      "value": 4
+    },
+    {
+      "conditions": "VTEALEX009 == 5",
+      "tagOID": "alexithymie TORONTO",
+      "value": 5
+    }
+  ]
+}

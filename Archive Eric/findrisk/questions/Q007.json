@@ -1,0 +1,37 @@
+{
+  "oid": "Q007",
+  "title": "legume-vert",
+  "text": "part des legumes verts dans l'alimentation ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Tous les jours"
+    },
+    {
+      "code": "1",
+      "text": "Pas tous les jours"
+    },
+    {
+      "code": "2",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "Q007 == \"0\"",
+      "tagOID": "findrisk_legume_vert",
+      "value": 0
+    },
+    {
+      "conditions": "Q007 == \"1\"",
+      "tagOID": "findrisk_legume_vert",
+      "value": 1
+    },
+    {
+      "conditions": "Q007 == \"2\"",
+      "tagOID": "findrisk_legume_vert",
+      "value": 2
+    }
+  ]
+}

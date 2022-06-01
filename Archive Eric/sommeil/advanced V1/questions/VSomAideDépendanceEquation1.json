@@ -1,0 +1,37 @@
+{
+  "oid": "VSomAideDépendanceEquation1",
+  "title": "A quel point est-il important pour vous de diminuer la prise d'aide pour dormir ?",
+  "text": "A quel point est-il important pour vous de diminuer la prise d'aide pour dormir ?",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 0.0,
+    "max": 10.0,
+    "step": 1.0,
+    "maxText": "C'est extremement important",
+    "maxValue": "10",
+    "minText": "Ce n'est pas du tout important",
+    "minValue": "0"
+  },
+  "scores": [
+    {
+      "conditions": "VSomAideDépendanceEquation1 == 9 || VSomAideDépendanceEquation1 == 10",
+      "tagOID": "Importance",
+      "value": 0
+    },
+    {
+      "conditions": "VSomAideDépendanceEquation1 == 7 || VSomAideDépendanceEquation1 == 8",
+      "tagOID": "Importance",
+      "value": 1
+    },
+    {
+      "conditions": "VSomAideDépendanceEquation1 == 5 || VSomAideDépendanceEquation1 == 6",
+      "tagOID": "Importance",
+      "value": 2
+    },
+    {
+      "conditions": "VSomAideDépendanceEquation1 => 0 || VSomAideDépendanceEquation1 <= 4",
+      "tagOID": "Importance",
+      "value": 3
+    }
+  ]
+}

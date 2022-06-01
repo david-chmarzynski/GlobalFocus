@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI121",
+  "title": "Je ne pense pas avoir réellement un but dans la vie",
+  "text": "Je ne pense pas avoir réellement un but dans la vie",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

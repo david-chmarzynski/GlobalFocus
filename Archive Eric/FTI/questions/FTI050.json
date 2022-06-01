@@ -1,0 +1,28 @@
+{
+  "oid": "FTI050",
+  "title": "Je suis très sensible aux sentiments et aux besoins des gens.",
+  "text": "Je suis très sensible aux sentiments et aux besoins des gens.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI050 == 0",
+      "tagOID": "prosocial",
+      "value": 1
+    },
+    {
+      "conditions": "FTI050 == 1",
+      "tagOID": "prosocial",
+      "value": 0
+    }
+  ]
+}

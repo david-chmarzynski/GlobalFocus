@@ -1,0 +1,46 @@
+{
+    "oid": "T2002",
+    "title": "travaille",
+    "text": "Comment évaluez-vous votre épanouissement personnel dans votre travail et/ou vos études (perspectives socio-économiques, qualité relationnelle, satisfaction et intérêt du travail) ?",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "1",
+          "text": "Satisfaisant"
+        },
+        {
+          "code": "2",
+          "text": "Assez satisfaisant"
+        },
+        {
+          "code": "3",
+          "text": "Insatisfaisant"
+        },
+        {
+          "code": "4",
+          "text": "Très insatisfaisant"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "T2002 == '1'",
+          "tagOID": "T2-2",
+          "value": 1
+        },
+        {
+          "conditions": "T2002 == '2'",
+          "tagOID": "T2-2",
+          "value": 2
+        },
+        {
+          "conditions": "T2002 == '3'",
+          "tagOID": "T2-2",
+          "value": 3
+        },
+        {
+          "conditions": "T2002 == '4'",
+          "tagOID": "T2-2",
+          "value": 4
+        }
+    ]
+}

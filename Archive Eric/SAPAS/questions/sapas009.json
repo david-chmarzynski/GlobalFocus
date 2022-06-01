@@ -1,0 +1,16 @@
+{
+  "oid": "sapas009",
+  "title": "Habituellement, etes-vous quelqu'un d'impulsif ?",
+  "text": "Habituellement, etes-vous quelqu'un d'impulsif ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ]
+}

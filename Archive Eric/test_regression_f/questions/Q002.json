@@ -1,0 +1,32 @@
+{
+  "oid": "Q002_regress_f",
+  "title": "Ronflez-vous pendant votre sommeil ?",
+  "text": "Ronflez-vous pendant votre sommeil ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Oui"
+    },
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "-1",
+      "text": "Je ne sais pas"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "Q002_regress_f == \"1\"",
+      "tagOID": "tag_ronflement",
+      "value": 1
+    },
+    {
+      "conditions": "Q002_regress_f != \"1\"",
+      "tagOID": "tag_ronflement",
+      "value": 0
+    }
+  ]
+}

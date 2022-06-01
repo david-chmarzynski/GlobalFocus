@@ -1,0 +1,28 @@
+{
+  "oid": "CAST001",
+  "title": "Avez-vous déjaa fumé du cannabis avant midi ?",
+  "text": "Avez-vous déjaa fumé du cannabis avant midi ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "CAST001 == 0",
+      "tagOID": "CAST",
+      "value": 0
+    },
+    {
+      "conditions": "CAST001 == 1",
+      "tagOID": "CAST",
+      "value": 1
+    }
+  ]
+}

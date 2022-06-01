@@ -1,0 +1,11 @@
+{
+  "oid": "B3GPT003",
+  "title": "Lors d’une journée habituelle durant laquelle vous effectuez des activités physiques de forte intensité, combien de temps consacrez-vous à ces activités (en heure) ?",
+  "text": "Lors d’une journée habituelle durant laquelle vous effectuez des activités physiques de forte intensité, combien de temps consacrez-vous à ces activités (en heure) ?",
+  "type": "DECIMAL",
+  "scale": {
+    "min": 0.0,
+    "max": 24.0,
+    "step": 1.0
+  }
+}

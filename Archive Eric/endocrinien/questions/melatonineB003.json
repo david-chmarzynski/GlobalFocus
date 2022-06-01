@@ -1,0 +1,46 @@
+{
+  "oid": "melatonineB003",
+  "title": "Mes reves sont trop intenses",
+  "text": "Mes reves sont trop intenses",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "De temps en temps"
+    },
+    {
+      "code": "2",
+      "text": "Régulièrement"
+    },
+    {
+      "code": "3",
+      "text": "En permanence"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "melatonineB003 == \"0\"",
+      "tagOID": "tag_melatonine_B",
+      "value": 0
+    },
+    {
+      "conditions": "melatonineB003 == \"1\"",
+      "tagOID": "tag_melatonine_B",
+      "value": 1
+    },
+    {
+      "conditions": "melatonineB003 == \"2\"",
+      "tagOID": "tag_melatonine_B",
+      "value": 2
+    },
+    {
+      "conditions": "melatonineB003 == \"3\"",
+      "tagOID": "tag_melatonine_B",
+      "value": 3
+    }
+  ]
+}

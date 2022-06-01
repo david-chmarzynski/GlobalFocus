@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI123",
+  "title": "Je suis satisfait(e) de ce que je réalise et je n'ai pas vraiment envie de faire mieux",
+  "text": "Je suis satisfait(e) de ce que je réalise et je n'ai pas vraiment envie de faire mieux",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

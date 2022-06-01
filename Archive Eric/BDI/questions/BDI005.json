@@ -1,0 +1,46 @@
+{
+  "oid": "BDI005",
+  "title": "À quelle fréquence sentez-vous coupable ?",
+  "text": "À quelle fréquence sentez-vous coupable ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Je ne me sens pas particulièrement coupable"
+    },
+    {
+      "code": "1",
+      "text": "Je me sens coupable une bonne partie du temps"
+    },
+    {
+      "code": "2",
+      "text": "Je me sens coupable la plupart du temps"
+    },
+    {
+      "code": "3",
+      "text": "Tout me rend insatisfait et m'ennuie"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "BDI005 == \"0\"",
+      "tagOID": "tag_BDI",
+      "value": 0
+    },
+    {
+      "conditions": "BDI005 == \"1\"",
+      "tagOID": "tag_BDI",
+      "value": 1
+    },
+    {
+      "conditions": "BDI005 == \"2\"",
+      "tagOID": "tag_BDI",
+      "value": 2
+    },
+    {
+      "conditions": "BDI005 == \"3\"",
+      "tagOID": "tag_BDI",
+      "value": 3
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "oid": "VSomRythmesChronotypeMEQ15",
+  "title": "Vous devez faire 2 heures de travail physique intense et vous êtes entièrement libre de planifier votre journée. En ne tenant compte que de la façon dont vous vous sentez à cette heure de la journée, laquelle des périodes suivantes choisirez-vous pour le faire?",
+  "text": "Vous devez faire 2 heures de travail physique intense et vous êtes entièrement libre de planifier votre journée. En ne tenant compte que de la façon dont vous vous sentez à cette heure de la journée, laquelle des périodes suivantes choisirez-vous pour le faire?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "08h00 – 10h00"
+    },
+    {
+      "code": "1",
+      "text": "11h00 – 13h00"
+    },
+    {
+      "code": "2",
+      "text": "15h00 – 17h00"
+    },
+    {
+      "code": "3",
+      "text": "19h00 – 21h00"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomRythmesChronotypeMEQ15 == 0",
+      "tagOID": "ChronotypeMEQ",
+      "value": 4
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ15 == 1",
+      "tagOID": "ChronotypeMEQ",
+      "value": 3
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ15 == 2",
+      "tagOID": "ChronotypeMEQ",
+      "value": 2
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ15 == 3",
+      "tagOID": "ChronotypeMEQ",
+      "value": 1
+    }
+  ]
+}

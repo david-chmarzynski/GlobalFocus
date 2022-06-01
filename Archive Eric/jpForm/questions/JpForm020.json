@@ -1,0 +1,73 @@
+{
+  "oid": "JpForm020",
+  "title": "Ces 6 derniers mois, vos problèmes d'éjaculations étaient: (plusieurs choix possibles) ?",
+  "text": "Ces 6 derniers mois, vos problèmes d'éjaculations étaient: (plusieurs choix possibles) ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Ejaculation prématurée (précoce)"
+    },
+    {
+      "code": "1",
+      "text": "Ejaculation douloureuse"
+    },
+    {
+      "code": "2",
+      "text": "Ejaculation retardée, diffcile voire impossible (en moins de 20 à 30 minutes)"
+    },
+    {
+      "code": "3",
+      "text": "Ejaculation rétrograde (dans vessie avec présence secondaire de sperme dans les ruines)"
+    },
+    {
+      "code": "4",
+      "text": "Ejaculation avec un volume faible de sperme"
+    },
+    {
+      "code": "5",
+      "text": "Absence d'orgasme avec émission de sperme"
+    },
+    {
+      "code": "6",
+      "text": "Orgasme sans sperme"
+    }
+  ],
+  "scores": [
+    {
+      "tagOID": "troubles ejaculation/lubrification",
+      "conditions": "JpForm020 == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "troubles ejaculation/lubrification",
+      "conditions": "JpForm020 == '1'",
+      "value": 1
+    },
+    {
+      "tagOID": "troubles ejaculation/lubrification",
+      "conditions": "JpForm020 == '2'",
+      "value": 2
+    },
+    {
+      "tagOID": "troubles ejaculation/lubrification",
+      "conditions": "JpForm020 == '3'",
+      "value": 3
+    },
+    {
+      "tagOID": "troubles ejaculation/lubrification",
+      "conditions": "JpForm020 == '4'",
+      "value": 4
+    },
+    {
+      "tagOID": "troubles ejaculation/lubrification",
+      "conditions": "JpForm020 == '5'",
+      "value": 5
+    },
+    {
+      "tagOID": "troubles ejaculation/lubrification",
+      "conditions": "JpForm020 == '6'",
+      "value": 6
+    }
+  ]
+}

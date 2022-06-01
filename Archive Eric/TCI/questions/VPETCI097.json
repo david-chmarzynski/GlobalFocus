@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI097",
+  "title": "J'ai la réputation d'etre quelqu'un de très réaliste qui n'agit pas sous le coup émotions",
+  "text": "J'ai la réputation d'etre quelqu'un de très réaliste qui n'agit pas sous le coup émotions",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

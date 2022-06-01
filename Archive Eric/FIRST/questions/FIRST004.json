@@ -1,0 +1,28 @@
+{
+  "oid": "FIRST004",
+  "title": "Mes douleurs s'accompagnent d'autres sensantions anormales, comme des fourmillements, des picotements ou des sensations d'engourdissements dans tout le corps",
+  "text": "Mes douleurs s'accompagnent d'autres sensantions anormales, comme des fourmillements, des picotements ou des sensations d'engourdissements dans tout le corps",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FIRST004 == 0",
+      "tagOID": "FIRST",
+      "value": 1
+    },
+    {
+      "conditions": "FIRST004 == 1",
+      "tagOID": "FIRST",
+      "value": 0
+    }
+  ]
+}

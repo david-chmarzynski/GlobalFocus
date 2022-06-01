@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI105",
+  "title": "Je déteste prendre des décisions uniquement à partir de mes premières impressions",
+  "text": "Je déteste prendre des décisions uniquement à partir de mes premières impressions",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

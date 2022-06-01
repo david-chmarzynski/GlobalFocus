@@ -1,0 +1,46 @@
+{
+  "oid": "melatonineB002",
+  "title": "J'ai un réveil précose avec la tete lourde et des palpitations",
+  "text": "J'ai un réveil précose avec la tete lourde et des palpitations",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "De temps en temps"
+    },
+    {
+      "code": "2",
+      "text": "Régulièrement"
+    },
+    {
+      "code": "3",
+      "text": "En permanence"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "melatonineB002 == \"0\"",
+      "tagOID": "tag_melatonine_B",
+      "value": 0
+    },
+    {
+      "conditions": "melatonineB002 == \"1\"",
+      "tagOID": "tag_melatonine_B",
+      "value": 1
+    },
+    {
+      "conditions": "melatonineB002 == \"2\"",
+      "tagOID": "tag_melatonine_B",
+      "value": 2
+    },
+    {
+      "conditions": "melatonineB002 == \"3\"",
+      "tagOID": "tag_melatonine_B",
+      "value": 3
+    }
+  ]
+}

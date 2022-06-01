@@ -1,0 +1,46 @@
+{
+  "oid": "SJSR010",
+  "title": "Occasionne une souffrance et/ou une gêne dans votre fonctionnement quotidien et votre qualité de vie (fatigue, somnolence, perturbations de l’humeur, difficultés de concentration…) ?",
+  "text": "Occasionne une souffrance et/ou une gêne dans votre fonctionnement quotidien et votre qualité de vie (fatigue, somnolence, perturbations de l’humeur, difficultés de concentration…) ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas de gene"
+    },
+    {
+      "code": "1",
+      "text": "Gene modérée"
+    },
+    {
+      "code": "2",
+      "text": "Genant"
+    },
+    {
+      "code": "3",
+      "text": "Très genant"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "SJSR010 == 0",
+      "tagOID": "SJSR",
+      "value": 0
+    },
+    {
+      "conditions": "SJSR010 == 1",
+      "tagOID": "SJSR",
+      "value": 1
+    },
+    {
+      "conditions": "SJSR010 == 2",
+      "tagOID": "SJSR",
+      "value": 2
+    },
+    {
+      "conditions": "SJSR010 == 3",
+      "tagOID": "SJSR",
+      "value": 3
+    }
+  ]
+}

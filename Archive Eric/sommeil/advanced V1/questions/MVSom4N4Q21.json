@@ -1,0 +1,50 @@
+{
+  "oid": "MVSom4N4Q21",
+  "title": "A quel point vos difficultés de sommeil sont- elles à l’origine de difficultés à vous concentrer, à réfléchir dans le travail ou la vie de tous les jours ?",
+  "text": "A quel point vos difficultés de sommeil sont- elles à l’origine de difficultés à vous concentrer, à réfléchir dans le travail ou la vie de tous les jours ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas de gêne"
+    },
+    {
+      "code": "1",
+      "text": "Gêne légère"
+    },
+    {
+      "code": "2",
+      "text": "Assez gênant"
+    },
+    {
+      "code": "3",
+      "text": "Gênant"
+    },
+    {
+      "code": "4",
+      "text": "Très gênant"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom4N4Q21 == 0",
+      "tagOID": "MVSomN4-21",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom4N4Q21 == 1",
+      "tagOID": "MVSomN4-21",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom4N4Q21 == 2",
+      "tagOID": "MVSomN4-21",
+      "value": 2
+    },
+    {
+      "conditions": "MVSom4N4Q21 == 3 || MVSom4N4Q21 == 4",
+      "tagOID": "MVSomN4-21",
+      "value": 3
+    }
+  ]
+}

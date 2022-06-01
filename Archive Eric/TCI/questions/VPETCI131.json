@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI131",
+  "title": "J'essaie souvent de m'imaginer à la place des autres afin de vraiment les comprendre",
+  "text": "J'essaie souvent de m'imaginer à la place des autres afin de vraiment les comprendre",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Vrai"
+    },
+    {
+      "code": "0",
+      "text": "Faux"
+    }
+  ]
+}

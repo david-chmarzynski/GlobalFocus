@@ -1,0 +1,28 @@
+{
+  "oid": "GOBTRT002",
+  "title": "Ce matin avez-vous oublié de prendre votre traitement",
+  "text": "Ce matin avez-vous oublié de prendre votre traitement",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "tagOID": "observance traitement",
+      "conditions": "GOBTRT002 == 0",
+      "value": 1
+    },
+    {
+      "tagOID": "observance traitement",
+      "conditions": "GOBTRT002 >= 1",
+      "value": 0
+    }
+  ]
+}

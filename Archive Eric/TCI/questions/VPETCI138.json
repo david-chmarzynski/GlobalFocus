@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI138",
+  "title": "Je pense qu'il n'est pas sage de croire auux choses qui ne peuvent pas etre expliquées scientifiquement",
+  "text": "Je pense qu'il n'est pas sage de croire auux choses qui ne peuvent pas etre expliquées scientifiquement",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

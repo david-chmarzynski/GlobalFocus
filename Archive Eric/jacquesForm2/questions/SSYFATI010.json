@@ -1,0 +1,52 @@
+{
+  "oid": "SSYFATI010",
+  "title": "La fatigue intèrfère avec mon travail, ma famille ou ma vie sociale ",
+  "text": "La fatigue intèrfère avec mon travail, ma famille ou ma vie sociale ",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 1.0,
+    "max": 7.0,
+    "step": 1.0,
+    "maxText": "Cela me correpond tout à fait",
+    "maxValue": "7",
+    "minText": "Cela ne me correspond pas",
+    "minValue": "1"
+  },
+  "scores": [
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI010 == 1",
+      "value": 1
+    },
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI010 == 2",
+      "value": 2
+    },
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI010 == 3",
+      "value": 3
+    },
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI010 == 4",
+      "value": 4
+    },
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI010 == 5",
+      "value": 5
+    },
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI010 == 6",
+      "value": 6
+    },
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI010 == 7",
+      "value": 7
+    }
+  ]
+}

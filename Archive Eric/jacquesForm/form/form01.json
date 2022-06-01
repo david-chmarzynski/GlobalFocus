@@ -1,0 +1,436 @@
+{
+  "oid": "Form_global",
+  "title": "global",
+  "estimatedTime": 5,
+  "pricing": 0,
+  "description": "connaissance global du patient",
+  "levelMax": 1,
+  "authors": ["Eric Liu"],
+  "chapters": ["chap_global", "chap_mode_de_vie"],
+  "professions": ["DENTIST"],
+  "reportingTrees": [
+    {
+      "category": "LIFE_STYLE",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "tGlobal",
+        "type": "SCORE",
+        "ranges": [{ "min": 1.0, "max": 50.0, "color": "808080" }]
+      }
+    },
+    {
+      "category": "LIFE_STYLE",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "P1",
+        "type": "SCORE",
+        "ranges": [
+          { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+          { "min": 1.9, "max": 2.1, "color": "0000FF" },
+          { "min": 2.9, "max": 3.1, "color": "FF0000" },
+          { "min": 3.9, "max": 4.1, "color": "00FF00" }
+        ],
+        "children": [
+          {
+            "tagOID": "P2AL",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 2.1, "color": "00FF00" },
+              { "min": 2.9, "max": 4.1, "color": "FFFF00" },
+              { "min": 4.9, "max": 6.1, "color": "FFA500" },
+              { "min": 6.9, "max": 9.1, "color": "FF0000" }
+            ]
+          },
+          {
+            "tagOID": "P2OR",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 2.1, "color": "00FF00" },
+              { "min": 2.9, "max": 4.1, "color": "FFFF00" },
+              { "min": 2.9, "max": 6.1, "color": "FFA500" },
+              { "min": 6.9, "max": 9.1, "color": "FF0000" }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "category": "LIFE_STYLE",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "A1",
+        "type": "SCORE",
+        "ranges": [
+          { "min": 0.9, "max": 1.1, "color": "00FF00" },
+          { "min": 1.9, "max": 2.1, "color": "FFFF00" },
+          { "min": 2.9, "max": 3.1, "color": "FFA500" },
+          { "min": 3.9, "max": 4.1, "color": "FF0000" }
+        ],
+        "children": [
+          {
+            "tagOID": "A2-1",
+            "type": "SCORE",
+            "ranges": [
+              { "min": 0.9, "max": 1.1, "color": "00FF00" },
+              { "min": 1.9, "max": 2.1, "color": "FFFF00" },
+              { "min": 2.9, "max": 3.1, "color": "FFA500" },
+              { "min": 3.9, "max": 4.1, "color": "FF0000" }
+            ],
+            "children": [
+              {
+                "tagOID": "A3-11",
+                "type": "SCORE",
+                "ranges": [{ "min": 0.0, "max": 10000.0, "color": "00FF00" }]
+              },
+              {
+                "tagOID": "A3-12",
+                "type": "SCORE",
+                "ranges": [{ "min": 0.0, "max": 10000.0, "color": "00FF00" }]
+              },
+              {
+                "tagOID": "A3-13",
+                "type": "SCORE",
+                "ranges": [{ "min": 0.0, "max": 10000.0, "color": "00FF00" }]
+              },
+              {
+                "tagOID": "A3-14",
+                "type": "SCORE",
+                "ranges": [{ "min": 0.0, "max": 10000.0, "color": "00FF00" }]
+              },
+              {
+                "tagOID": "A3-15",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": 6.9, "max": 9.1, "color": "00FF00" },
+                  { "min": 4.9, "max": 6.1, "color": "FFFF00" },
+                  { "min": 2.9, "max": 4.1, "color": "FFA500" },
+                  { "min": -0.1, "max": 2.1, "color": "FF0000" }
+                ]
+              }
+            ]
+          },
+          {
+            "tagOID": "A2-2",
+            "type": "SCORE",
+            "ranges": [
+              { "min": 0.9, "max": 1.1, "color": "00FF00" },
+              { "min": 1.9, "max": 2.1, "color": "FFFF00" },
+              { "min": 2.9, "max": 3.1, "color": "FFA500" },
+              { "min": 3.9, "max": 4.1, "color": "FF0000" }
+            ]
+          },
+          {
+            "tagOID": "A2-4",
+            "type": "SCORE",
+            "ranges": [
+              { "min": 1.9, "max": 5.1, "color": "00FF00" },
+              { "min": -0.1, "max": 1.1, "color": "FF0000" }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "category": "LIFE_STYLE",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "tA3113",
+        "type": "SCORE",
+        "ranges": [
+          { "min": 2.9, "max": 3.1, "color": "00FF00" },
+          { "min": 1.9, "max": 2.1, "color": "FFFF00" },
+          { "min": 0.9, "max": 1.1, "color": "FFA500" },
+          { "min": -0.1, "max": 0.1, "color": "FF0000" }
+        ]
+      }
+    },
+    {
+      "category": "LIFE_STYLE",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "tA3115",
+        "type": "SCORE",
+        "ranges": [
+          { "min": 2.9, "max": 3.1, "color": "00FF00" },
+          { "min": 1.9, "max": 2.1, "color": "FFFF00" },
+          { "min": 0.9, "max": 1.1, "color": "FFA500" },
+          { "min": -0.1, "max": 0.1, "color": "FF0000" }
+        ]
+      }
+    },
+    {
+      "category": "LIFE_STYLE",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "tA3116",
+        "type": "SCORE",
+        "ranges": [
+          { "min": 0.9, "max": 1.1, "color": "00FF00" },
+          { "min": 1.9, "max": 2.1, "color": "FFFF00" },
+          { "min": 2.9, "max": 3.1, "color": "FFA500" },
+          { "min": 3.9, "max": 4.1, "color": "FF0000" }
+        ]
+      }
+    },
+    {
+      "category": "LIFE_STYLE",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "F1",
+        "type": "SCORE",
+        "ranges": [
+          { "min": 0.9, "max": 1.1, "color": "00FF00" },
+          { "min": 1.9, "max": 2.1, "color": "FFFF00" },
+          { "min": 2.9, "max": 3.1, "color": "FFA500" },
+          { "min": 3.9, "max": 4.1, "color": "FF0000" }
+        ],
+        "children": [
+          {
+            "tagOID": "F2-1",
+            "type": "SCORE",
+            "ranges": [
+              { "min": 0.9, "max": 1.1, "color": "00FF00" },
+              { "min": 1.9, "max": 2.1, "color": "FFFF00" },
+              { "min": 2.9, "max": 3.1, "color": "FFA500" },
+              { "min": 3.9, "max": 4.1, "color": "FF0000" }
+            ]
+          },
+          {
+            "tagOID": "F2-2",
+            "type": "SCORE",
+            "ranges": [
+              { "min": 0.9, "max": 1.1, "color": "00FF00" },
+              { "min": 1.9, "max": 2.1, "color": "FFFF00" },
+              { "min": 2.9, "max": 3.1, "color": "FFA500" },
+              { "min": 3.9, "max": 4.1, "color": "FF0000" }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "category": "LIFE_STYLE",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "T1",
+        "type": "SCORE",
+        "ranges": [
+          { "min": 0.9, "max": 1.1, "color": "00FF00" },
+          { "min": 1.9, "max": 2.1, "color": "FFFF00" },
+          { "min": 2.9, "max": 3.1, "color": "FFA500" },
+          { "min": 3.9, "max": 4.1, "color": "FF0000" }
+        ],
+        "children": [
+          {
+            "tagOID": "T2-1",
+            "type": "SCORE",
+            "ranges": [
+              { "min": 0.9, "max": 1.1, "color": "00FF00" },
+              { "min": 1.9, "max": 2.1, "color": "FFFF00" },
+              { "min": 2.9, "max": 3.1, "color": "FFA500" },
+              { "min": 3.9, "max": 4.1, "color": "FF0000" }
+            ]
+          },
+          {
+            "tagOID": "T2-2",
+            "type": "SCORE",
+            "ranges": [
+              { "min": 0.9, "max": 1.1, "color": "00FF00" },
+              { "min": 1.9, "max": 2.1, "color": "FFFF00" },
+              { "min": 2.9, "max": 3.1, "color": "FFA500" },
+              { "min": 3.9, "max": 4.1, "color": "FF0000" }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "category": "LIFE_STYLE",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "E2-1",
+        "type": "SCORE",
+        "ranges": [
+          { "min": 0.9, "max": 1.1, "color": "00FF00" },
+          { "min": 1.9, "max": 2.1, "color": "FFFF00" },
+          { "min": 2.9, "max": 3.1, "color": "FFA500" },
+          { "min": 3.9, "max": 4.1, "color": "FF0000" }
+        ]
+      }
+    },
+    {
+      "category": "LIFE_STYLE",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "E2-2",
+        "type": "SCORE",
+        "ranges": [
+          { "min": 0.9, "max": 1.1, "color": "00FF00" },
+          { "min": 1.9, "max": 2.1, "color": "FFFF00" },
+          { "min": 2.9, "max": 3.1, "color": "FFA500" },
+          { "min": 3.9, "max": 4.1, "color": "FF0000" }
+        ]
+      }
+    },
+    {
+      "category": "LIFE_STYLE",
+      "scoreStrategy": "SUM_PLUS_CHILDREN",
+      "reportingNode": {
+        "tagOID": "E1",
+        "type": "SCORE",
+        "ranges": [
+          { "min": -0.1, "max": 9.1, "color": "00FF00" },
+          { "min": 9.9, "max": 17.1, "color": "FFFF00" },
+          { "min": 17.9, "max": 29.1, "color": "FFA500" },
+          { "min": 29.9, "max": 39.1, "color": "FF0000" }
+        ],
+        "children": [
+          {
+            "tagOID": "E2-11",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 6.1, "color": "00FF00" },
+              { "min": 6.9, "max": 12.1, "color": "FFFF00" },
+              { "min": 12.9, "max": 19.1, "color": "FFA500" },
+              { "min": 19.9, "max": 27.1, "color": "FF0000" }
+            ],
+            "children": [
+              {
+                "tagOID": "E3-11",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "E3-12",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "E3-13",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "E3-14",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "E3-15",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "E3-16",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.9, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "E3-17",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "E3-18",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "E3-19",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ]
+              }
+            ]
+          },
+          {
+            "tagOID": "E2-21",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 6.1, "color": "00FF00" },
+              { "min": 6.9, "max": 12.1, "color": "FFFF00" },
+              { "min": 12.9, "max": 19.1, "color": "FFA500" },
+              { "min": 19.9, "max": 27.1, "color": "FF0000" }
+            ],
+            "children": [
+              {
+                "tagOID": "E3-21",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "E3-22",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "E3-23",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

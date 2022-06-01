@@ -1,0 +1,28 @@
+{
+  "oid": "MVSom3N3Q39",
+  "title": "tendance à dormir ou à s’assoupir tout au long de la journée et/ou nuit d’au moins 9 heures d’un sommeil non réparateur et/ou difficulté à être éveillé totalement après un réveil brutal.",
+  "text": "tendance à dormir ou à s’assoupir tout au long de la journée et/ou nuit d’au moins 9 heures d’un sommeil non réparateur et/ou difficulté à être éveillé totalement après un réveil brutal.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom3N3Q39 == 0",
+      "tagOID": "MVSomN3-39",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom3N3Q39 == 1",
+      "tagOID": "MVSomN3-39",
+      "value": 1
+    }
+  ]
+}

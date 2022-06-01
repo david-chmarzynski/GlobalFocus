@@ -1,0 +1,52 @@
+{
+  "oid": "SSYFATI004",
+  "title": "Je suis facilement fatigué(e)",
+  "text": "Je suis facilement fatigué(e)",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 1.0,
+    "max": 7.0,
+    "step": 1.0,
+    "maxText": "Cela me correpond tout à fait",
+    "maxValue": "7",
+    "minText": "Cela ne me correspond pas",
+    "minValue": "1"
+  },
+  "scores": [
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI004 == 1",
+      "value": 1
+    },
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI004 == 2",
+      "value": 2
+    },
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI004 == 3",
+      "value": 3
+    },
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI004 == 4",
+      "value": 4
+    },
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI004 == 5",
+      "value": 5
+    },
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI004 == 6",
+      "value": 6
+    },
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI004 == 7",
+      "value": 7
+    }
+  ]
+}

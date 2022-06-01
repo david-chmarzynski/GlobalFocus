@@ -1,0 +1,50 @@
+{
+  "oid": "MVSom3N3Q9",
+  "title": "Votre endormissement est-il gene par des symptomes physiques (douleurs, impatiences, crampes, bouffes de chaleur, acoupphènes, nez bouché...) ?",
+  "text": "Votre endormissement est-il gene par des symptomes physiques (douleurs, impatiences, crampes, bouffes de chaleur, acoupphènes, nez bouché...) ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais (ou presque)"
+    },
+    {
+      "code": "1",
+      "text": "1 à 3 fois/mois"
+    },
+    {
+      "code": "2",
+      "text": "1 à 2 fois/semaine"
+    },
+    {
+      "code": "3",
+      "text": "3 à 5 fois par semaine"
+    },
+    {
+      "code": "4",
+      "text": "Tous les soirs (ou presque)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom3N3Q9 == 0",
+      "tagOID": "MVSomN3-9",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom3N3Q9 == 1",
+      "tagOID": "MVSomN3-9",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom3N3Q9 == 2",
+      "tagOID": "MVSomN3-9",
+      "value": 2
+    },
+    {
+      "conditions": "MVSom3N3Q9 == 3 || MVSom3N3Q9 == 4",
+      "tagOID": "MVSomN3-9",
+      "value": 3
+    }
+  ]
+}

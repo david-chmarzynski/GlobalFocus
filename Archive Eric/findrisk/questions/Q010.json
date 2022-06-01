@@ -1,0 +1,28 @@
+{
+  "oid": "Q010",
+  "title": "glycemie",
+  "text": "ATCD de glycemie > Nle ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "Q010 == \"0\"",
+      "tagOID": "findrisk_glycemie",
+      "value": 5
+    },
+    {
+      "conditions": "Q010 == \"1\"",
+      "tagOID": "findrisk_glycemie",
+      "value": 0
+    }
+  ]
+}

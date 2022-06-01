@@ -1,0 +1,11 @@
+{
+  "oid": "B3GPL005",
+  "title": "Habituellement, combien de jours par semaine pratiquez-vous une activité sportive, du fitness ou d&#39;autres activités de loisirs d’intensité modérée ?",
+  "text": "Habituellement, combien de jours par semaine pratiquez-vous une activité sportive, du fitness ou d&#39;autres activités de loisirs d’intensité modérée ?",
+  "type": "DECIMAL",
+  "scale": {
+    "min": 0.0,
+    "max": 7.0,
+    "step": 1.0
+  }
+}

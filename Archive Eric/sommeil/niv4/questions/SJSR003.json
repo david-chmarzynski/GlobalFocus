@@ -1,0 +1,28 @@
+{
+  "oid": "SJSR003",
+  "title": "Ce besoin pressant de bouger est-il partiellement ou totalement soulagé par le mouvement ?",
+  "text": "Ce besoin pressant de bouger est-il partiellement ou totalement soulagé par le mouvement ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "SJSR003 == 0",
+      "tagOID": "SJSR",
+      "value": 0
+    },
+    {
+      "conditions": "SJSR003 == 1",
+      "tagOID": "SJSR",
+      "value": 1
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "oid": "FTI044",
+  "title": "J'apprécie grandement l'intimité émotionnelle profonde dans mes relations.",
+  "text": "J'apprécie grandement l'intimité émotionnelle profonde dans mes relations.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI044 == 0",
+      "tagOID": "prosocial",
+      "value": 1
+    },
+    {
+      "conditions": "FTI044 == 1",
+      "tagOID": "prosocial",
+      "value": 0
+    }
+  ]
+}

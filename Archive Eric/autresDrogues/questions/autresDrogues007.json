@@ -1,0 +1,55 @@
+{
+  "oid": "autresDrogues007",
+  "title": "Quelle est votre fréquence de consommation de amphétamine ?",
+  "text": "Quelle est votre fréquence de consommation de amphétamine ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "J'ai complétement arreté"
+    },
+    {
+      "code": "1",
+      "text": "Je continue très occasionnellement (1 à 3 fois/an)"
+    },
+    {
+      "code": "2",
+      "text": "Je continue rarement (1 à 3 fois/mois)"
+    },
+    {
+      "code": "3",
+      "text": "Je continue assez souvent (1 à 3 fois/semaine)"
+    },
+    {
+      "code": "4",
+      "text": "Je consomme tous les jours"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "autresDrogues007 == \"0\"",
+      "tagOID": "tagAutresDrogues6",
+      "value": 1
+    },
+    {
+      "conditions": "autresDrogues007 == \"1\"",
+      "tagOID": "tagAutresDrogues6",
+      "value": 2
+    },
+    {
+      "conditions": "autresDrogues007 == \"2\"",
+      "tagOID": "tagAutresDrogues6",
+      "value": 3
+    },
+    {
+      "conditions": "autresDrogues007 == \"3\"",
+      "tagOID": "tagAutresDrogues6",
+      "value": 4
+    },
+    {
+      "conditions": "autresDrogues007 == \"4\"",
+      "tagOID": "tagAutresDrogues6",
+      "value": 5
+    }
+  ]
+}

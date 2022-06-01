@@ -1,0 +1,28 @@
+{
+  "oid": "MVSom4N4Q7",
+  "title": "Ressentez-vous le besoin d'etre aidé pour vos difficultés d'endormissement ?",
+  "text": "Ressentez-vous le besoin d'etre aidé pour vos difficultés d'endormissement ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom4N4Q7 == 0",
+      "tagOID": "MVSomN4-7",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom4N4Q7 == 1",
+      "tagOID": "MVSomN4-7",
+      "value": 1
+    }
+  ]
+}

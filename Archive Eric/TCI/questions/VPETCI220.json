@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI220",
+  "title": "J'aime l'éclosion des fleurs au printemps autant que de revoir un vieil ami",
+  "text": "J'aime l'éclosion des fleurs au printemps autant que de revoir un vieil ami",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Vrai"
+    },
+    {
+      "code": "0",
+      "text": "Faux"
+    }
+  ]
+}

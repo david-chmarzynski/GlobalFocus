@@ -1,0 +1,28 @@
+{
+  "oid": "FIRST001",
+  "title": "Mes douleurs sont loclisés partout dans tout mon cours",
+  "text": "Mes douleurs sont loclisés partout dans tout mon cours",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FIRST001 == 0",
+      "tagOID": "FIRST",
+      "value": 1
+    },
+    {
+      "conditions": "FIRST001 == 1",
+      "tagOID": "FIRST",
+      "value": 0
+    }
+  ]
+}

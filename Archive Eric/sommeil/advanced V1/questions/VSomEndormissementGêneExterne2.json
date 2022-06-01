@@ -1,0 +1,43 @@
+{
+  "oid": "VSomEndormissementGêneExterne2",
+  "title": "Votre endormissement est-il habituellement gené par les causes suivantes (plusieurs réponses possibles) ?",
+  "text": "Votre endormissement est-il habituellement gené par les causes suivantes (plusieurs réponses possibles) ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Bruit autour de vous"
+    },
+    {
+      "code": "1",
+      "text": "Chaleur dans la chambre"
+    },
+    {
+      "code": "2",
+      "text": "Literie"
+    },
+    {
+      "code": "3",
+      "text": "Lumière ou obscurité"
+    },
+    {
+      "code": "4",
+      "text": "Gene occasionnée par le partenaire de nuit (ronflements, mouvements brusques, difficulté à s'endormir, rythme de sommeil différent)"
+    },
+    {
+      "code": "5",
+      "text": "Enfant en bas-age ou entourage nécessitant une surveillance"
+    },
+    {
+      "code": "6",
+      "text": "Autre"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomEndormissementGêneExterne2 != -1",
+      "tagOID": "Causes_externes",
+      "value": -1
+    }
+  ]
+}

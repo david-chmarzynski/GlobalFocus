@@ -1,0 +1,46 @@
+{
+    "oid": "A3111",
+    "title": "alimentation",
+    "text": "Consommez-vous des céréales complètes (pain, pâtes, riz,...) ?",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": 1,
+          "text": "jamais ou rarement"
+        },
+        {
+          "code": 2,
+          "text": "plusieurs fois par mois"
+        },
+        {
+          "code": 3,
+          "text": "plusieurs fois par semaines"
+        },
+        {
+          "code": 4,
+          "text": "tous les jours"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "A3111 == '0'",
+          "tagOID": "A3-15",
+          "value": 0
+        },
+        {
+          "conditions": "A3111 == '1'",
+          "tagOID": "A3-15",
+          "value": 1
+        },
+        {
+          "conditions": "A3111 == '2'",
+          "tagOID": "A3-15",
+          "value": 2
+        },
+        {
+          "conditions": "A3111 == '3'",
+          "tagOID": "A3-15",
+          "value": 3
+        }
+    ]
+}

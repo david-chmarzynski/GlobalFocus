@@ -1,0 +1,46 @@
+{
+  "oid": "VSomRythmesTravail",
+  "title": "Vos horaires de sommeil sont-ils perturbés par vos contraintes professionnelles (travail de nuit, horaires décalés, 3x8…)?",
+  "text": "Vos horaires de sommeil sont-ils perturbés par vos contraintes professionnelles (travail de nuit, horaires décalés, 3x8…)?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais ou très rarement"
+    },
+    {
+      "code": "1",
+      "text": "Parfois"
+    },
+    {
+      "code": "2",
+      "text": "Souvent"
+    },
+    {
+      "code": "3",
+      "text": "Très souvent"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomRythmesTravail == 0",
+      "tagOID": "Travail",
+      "value": 0
+    },
+    {
+      "conditions": "VSomRythmesTravail == 1",
+      "tagOID": "Travail",
+      "value": 1
+    },
+    {
+      "conditions": "VSomRythmesTravail == 2",
+      "tagOID": "Travail",
+      "value": 2
+    },
+    {
+      "conditions": "VSomRythmesTravail == 3",
+      "tagOID": "Travail",
+      "value": 3
+    }
+  ]
+}

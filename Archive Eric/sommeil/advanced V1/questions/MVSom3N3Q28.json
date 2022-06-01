@@ -1,0 +1,54 @@
+{
+  "oid": "MVSom3N3Q28",
+  "title": "En moyenne, Combien de temps restez-vous au lit entre le moment ou vous vous réveillez et celui ou vous vous levez ?",
+  "text": "En moyenne, Combien de temps restez-vous au lit entre le moment ou vous vous réveillez et celui ou vous vous levez ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Moins de 5 minutes"
+    },
+    {
+      "code": "1",
+      "text": "Entre 5 et 20 miinutes"
+    },
+    {
+      "code": "2",
+      "text": "Entre 20 et 40 minutes"
+    },
+    {
+      "code": "3",
+      "text": "Entre 40 minutes et 1 heure"
+    },
+    {
+      "code": "4",
+      "text": "Entre 1 heure et 2 heures"
+    },
+    {
+      "code": "5",
+      "text": "Plus de 2 heures"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom3N3Q28 == 0 || MVSom3N3Q28 == 1",
+      "tagOID": "MVSomN3-28",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom3N3Q28 == 2",
+      "tagOID": "MVSomN3-28",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom3N3Q28 == 3",
+      "tagOID": "MVSomN3-28",
+      "value": 2
+    },
+    {
+      "conditions": "MVSom3N3Q28 == 5 || MVSom3N3Q28 == 6",
+      "tagOID": "MVSomN3-28",
+      "value": 3
+    }
+  ]
+}

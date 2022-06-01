@@ -1,0 +1,50 @@
+{
+  "oid": "MVSom4N4Q22",
+  "title": "A quel point vos difficultés de sommeil sont-elles à l’origine de troubles de la mémoire ?",
+  "text": "A quel point vos difficultés de sommeil sont-elles à l’origine de troubles de la mémoire ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas de gêne"
+    },
+    {
+      "code": "1",
+      "text": "Gêne légère"
+    },
+    {
+      "code": "2",
+      "text": "Assez gênant"
+    },
+    {
+      "code": "3",
+      "text": "Gênant"
+    },
+    {
+      "code": "4",
+      "text": "Très gênant"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom4N4Q22 == 0",
+      "tagOID": "MVSomN4-22",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom4N4Q22 == 1",
+      "tagOID": "MVSomN4-22",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom4N4Q22 == 2",
+      "tagOID": "MVSomN4-22",
+      "value": 2
+    },
+    {
+      "conditions": "MVSom4N4Q22 == 3 || MVSom4N4Q22 == 4",
+      "tagOID": "MVSomN4-22",
+      "value": 3
+    }
+  ]
+}

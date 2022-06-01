@@ -1,0 +1,109 @@
+{
+  "oid": "MVSom4N4Q2",
+  "title": "Quel(s) aides sans ordonnance utilisez-vous pour dormir ? (plusieurs choix possibles)",
+  "text": "Quel(s) aides sans ordonnance utilisez-vous pour dormir ? (plusieurs choix possibles)",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Dornomyl"
+    },
+    {
+      "code": "1",
+      "text": "Homéopathie"
+    },
+    {
+      "code": "2",
+      "text": "Mélatonine"
+    },
+    {
+      "code": "3",
+      "text": "Complément alimentaire à base de magnésium, oméga 3..."
+    },
+    {
+      "code": "4",
+      "text": "Complément alimentaire à base de plantes (Phytothérapie)"
+    },
+    {
+      "code": "5",
+      "text": "Tisane"
+    },
+    {
+      "code": "6",
+      "text": "Alcool - pour m'aider à m'endormir"
+    },
+    {
+      "code": "7",
+      "text": "Cannabis - pour m'aider à m'endormir"
+    },
+    {
+      "code": "8",
+      "text": "Nourriture - pour m'aider à m'endormir"
+    },
+    {
+      "code": "9",
+      "text": "Programme de relaxation"
+    },
+    {
+      "code": "10",
+      "text": "Autres : texte libre"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom4N4Q2 == 0",
+      "tagOID": "MVSomN4-2",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom4N4Q2 == 1",
+      "tagOID": "MVSomN4-2",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom4N4Q2 == 2",
+      "tagOID": "MVSomN4-2",
+      "value": 2
+    },
+    {
+      "conditions": "MVSom4N4Q2 == 3",
+      "tagOID": "MVSomN4-2",
+      "value": 3
+    },
+    {
+      "conditions": "MVSom4N4Q2 == 4",
+      "tagOID": "MVSomN4-2",
+      "value": 4
+    },
+    {
+      "conditions": "MVSom4N4Q2 == 5",
+      "tagOID": "MVSomN4-2",
+      "value": 5
+    },
+    {
+      "conditions": "MVSom4N4Q2 == 6",
+      "tagOID": "MVSomN4-2",
+      "value": 6
+    },
+    {
+      "conditions": "MVSom4N4Q2 == 7",
+      "tagOID": "MVSomN4-2",
+      "value": 7
+    },
+    {
+      "conditions": "MVSom4N4Q2 == 8",
+      "tagOID": "MVSomN4-2",
+      "value": 8
+    },
+    {
+      "conditions": "MVSom4N4Q2 == 9",
+      "tagOID": "MVSomN4-2",
+      "value": 9
+    },
+    {
+      "conditions": "MVSom4N4Q2 == 10",
+      "tagOID": "MVSomN4-2",
+      "value": 10
+    }
+  ]
+}

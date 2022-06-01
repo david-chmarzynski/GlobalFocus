@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI132",
+  "title": "Les principes tels que la justice et l'honneteté jouent peu de role dans ma vie",
+  "text": "Les principes tels que la justice et l'honneteté jouent peu de role dans ma vie",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

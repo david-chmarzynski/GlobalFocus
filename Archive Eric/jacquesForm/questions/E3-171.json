@@ -1,0 +1,46 @@
+{
+    "oid": "E3171",
+    "title": "produits ménagers",
+    "text": "J’utilise et manipule des produits ménagers pour entretenir ma maison (poudre, mousse, liquide, spray) ?",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "0",
+          "text": "Jamais"
+        },
+        {
+          "code": "1",
+          "text": "Rarement"
+        },
+        {
+          "code": "2",
+          "text": "Fréquemment"
+        },
+        {
+          "code": "3",
+          "text": "Très fréquemment"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "E3171 == '0'",
+          "tagOID": "E3-17",
+          "value": 0
+        },
+        {
+          "conditions": "E3171 == '1'",
+          "tagOID": "E3-17",
+          "value": 1
+        },
+        {
+          "conditions": "E3171 == '2'",
+          "tagOID": "E3-17",
+          "value": 2
+        },
+        {
+          "conditions": "E3171 == '3'",
+          "tagOID": "E3-17",
+          "value": 3
+        }
+    ]
+}

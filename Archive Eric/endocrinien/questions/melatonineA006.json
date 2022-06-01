@@ -1,0 +1,28 @@
+{
+  "oid": "melatonineA006",
+  "title": "Avez-vous un ou des antécédent(s) qui présent(ent) un des cas suivant : tendance familiaux et personnels",
+  "text": "Avez-vous un ou des antécédent(s) qui présent(ent) un des cas suivant : tendance familiaux et personnels",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "melatonineA006 == \"0\"",
+      "tagOID": "tag_melatonine_A",
+      "value": 0
+    },
+    {
+      "conditions": "melatonineA006 == \"1\"",
+      "tagOID": "tag_melatonine_A",
+      "value": 1
+    }
+  ]
+}

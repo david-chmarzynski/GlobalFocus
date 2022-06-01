@@ -1,0 +1,46 @@
+{
+  "oid": "BDI015",
+  "title": "Arrivez-vous à travailler ?",
+  "text": "Arrivez-vous à travailler ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Je travaille aussi facilement qu'auparavant"
+    },
+    {
+      "code": "1",
+      "text": "Il faut que je fasse des efforts supplémentaires pour commencer quelque chose"
+    },
+    {
+      "code": "2",
+      "text": "Je dois faire un très grand effort pour faire quoi que ce soit"
+    },
+    {
+      "code": "3",
+      "text": "Je ne peux faire aucun travail"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "BDI015 == \"0\"",
+      "tagOID": "tag_BDI",
+      "value": 0
+    },
+    {
+      "conditions": "BDI015 == \"1\"",
+      "tagOID": "tag_BDI",
+      "value": 1
+    },
+    {
+      "conditions": "BDI015 == \"2\"",
+      "tagOID": "tag_BDI",
+      "value": 2
+    },
+    {
+      "conditions": "BDI015 == \"3\"",
+      "tagOID": "tag_BDI",
+      "value": 3
+    }
+  ]
+}

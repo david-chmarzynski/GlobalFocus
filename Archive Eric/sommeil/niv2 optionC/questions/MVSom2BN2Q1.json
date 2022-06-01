@@ -1,0 +1,46 @@
+{
+  "oid": "MVSom2BN2Q1",
+  "title": "Sur ces 3 derniers mois, comment évualez-vous le contexte de votre sommeil (mode de vie adapté à un bon sommeil, qualité de la literie, chambre calme, obsccurité, absence de perturbation de votre sommil par votre entourage ...) ?",
+  "text": "Sur ces 3 derniers mois, comment évualez-vous le contexte de votre sommeil (mode de vie adapté à un bon sommeil, qualité de la literie, chambre calme, obsccurité, absence de perturbation de votre sommil par votre entourage ...) ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisant"
+    },
+    {
+      "code": "1",
+      "text": "Légèrement insatisfaisante"
+    },
+    {
+      "code": "2",
+      "text": "Assez insatisfaisante"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisante"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom2BN2Q1 == 0",
+      "tagOID": "MVSomN2-1",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom2BN2Q1 == 1",
+      "tagOID": "MVSomN2-1",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom2BN2Q1 == 2",
+      "tagOID": "MVSomN2-1",
+      "value": 2
+    },
+    {
+      "conditions": "MVSom2BN2Q1 == 3",
+      "tagOID": "MVSomN2-1",
+      "value": 3
+    }
+  ]
+}

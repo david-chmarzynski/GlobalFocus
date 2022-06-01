@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI115",
+  "title": "Je trouve les chansons et les films tristes plutot ennuyeux",
+  "text": "Je trouve les chansons et les films tristes plutot ennuyeux",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

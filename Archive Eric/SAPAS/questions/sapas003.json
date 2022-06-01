@@ -1,0 +1,16 @@
+{
+  "oid": "sapas003",
+  "title": "Vous décrivez-vous comme quelqu'un de solitaire ?",
+  "text": "Vous décrivez-vous comme quelqu'un de solitaire ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ]
+}

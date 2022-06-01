@@ -1,0 +1,19 @@
+{
+  "oid": "q_TestQuestionPourFemme",
+  "title": "Vous aimez être une femme?",
+  "text": "Vous aimez être une femme?",
+  "type": "ANALOG_SCALE",
+  "hideAnalogScaleSelectorNumber":true,
+  "scale": {
+    "min": 0.0,
+    "max": 10.0,
+    "step": 1.0,
+    "maxText": "Content",
+    "minText": "Pas content",
+    "maxValue": "10",
+    "midValue": "5",
+    "minValue": "0"
+    
+  }
+
+}

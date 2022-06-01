@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI033",
+  "title": "Ca me fait plaisir de voir mes ennemis souffrir",
+  "text": "Ca me fait plaisir de voir mes ennemis souffrir",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

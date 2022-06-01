@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI098",
+  "title": "Il m'est facile d'ordonner mes idées lorsque je parle à quelqu'un",
+  "text": "Il m'est facile d'ordonner mes idées lorsque je parle à quelqu'un",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

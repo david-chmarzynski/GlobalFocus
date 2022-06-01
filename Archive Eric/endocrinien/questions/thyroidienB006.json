@@ -1,0 +1,46 @@
+{
+  "oid": "thyroidienB006",
+  "title": "J'ai une exophtalmie (yeux exorbités)",
+  "text": "J'ai une exophtalmie (yeux exorbités)",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "De temps en temps"
+    },
+    {
+      "code": "2",
+      "text": "Régulièrement"
+    },
+    {
+      "code": "3",
+      "text": "En permanence"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "thyroidienB006 == \"0\"",
+      "tagOID": "tag_thyroidien_B",
+      "value": 0
+    },
+    {
+      "conditions": "thyroidienB006 == \"1\"",
+      "tagOID": "tag_thyroidien_B",
+      "value": 1
+    },
+    {
+      "conditions": "thyroidienB006 == \"2\"",
+      "tagOID": "tag_thyroidien_B",
+      "value": 2
+    },
+    {
+      "conditions": "thyroidienB006 == \"3\"",
+      "tagOID": "tag_thyroidien_B",
+      "value": 3
+    }
+  ]
+}

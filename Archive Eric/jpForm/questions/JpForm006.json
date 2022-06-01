@@ -1,0 +1,28 @@
+{
+  "oid": "JpForm006",
+  "title": "J'ai l'impression que le sexe domine dans ma vie ?",
+  "text": "J'ai l'impression que le sexe domine dans ma vie ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "4",
+      "text": "Tout à fait d'accord"
+    },
+    {
+      "code": "3",
+      "text": "Plutot d'accord"
+    },
+    {
+      "code": "2",
+      "text": "Ni d'accord ni pas d'accord"
+    },
+    {
+      "code": "1",
+      "text": "Plutot pas d'accord"
+    },
+    {
+      "code": "0",
+      "text": "Vraiment pas d'accord"
+    }
+  ]
+}

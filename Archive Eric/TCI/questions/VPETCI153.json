@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI153",
+  "title": "Je ne pense pas que les principes religieux ou moraux concernant le bien et le mal doivent avoir beacoup d'influence sur les décisions d'affaires",
+  "text": "Je ne pense pas que les principes religieux ou moraux concernant le bien et le mal doivent avoir beacoup d'influence sur les décisions d'affaires",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

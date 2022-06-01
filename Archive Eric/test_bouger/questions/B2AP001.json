@@ -1,0 +1,64 @@
+{
+  "oid": "B2AP001",
+  "title": "Choisissez la proposition la plus proche de votre niveau d'activité physique actuel en prenant en compte votre travail, vos déplacementss, vos loisirs et vos activités sportives :",
+  "text": "Choisissez la proposition la plus proche de votre niveau d'activité physique actuel en prenant en compte votre travail, vos déplacementss, vos loisirs et vos activités sportives :",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Sédentaire"
+    },
+    {
+      "code": "1",
+      "text": "Légèrement actif"
+    },
+    {
+      "code": "2",
+      "text": "Modérémment actif"
+    },
+    {
+      "code": "3",
+      "text": "actif"
+    },
+    {
+      "code": "4",
+      "text": "Très actif"
+    },
+    {
+      "code": "5",
+      "text": "Extremement actif"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "B2AP001 == \"0\"",
+      "tagOID": "B2AP",
+      "value": 0
+    },
+    {
+      "conditions": "B2AP001 == \"1\"",
+      "tagOID": "B2AP",
+      "value": 1
+    },
+    {
+      "conditions": "B2AP001 == \"2\"",
+      "tagOID": "B2AP",
+      "value": 2
+    },
+    {
+      "conditions": "B2AP001 == \"3\"",
+      "tagOID": "B2AP",
+      "value": 3
+    },
+    {
+      "conditions": "B2AP001 == \"4\"",
+      "tagOID": "B2AP",
+      "value": 4
+    },
+    {
+      "conditions": "B2AP001 == \"5\"",
+      "tagOID": "B2AP",
+      "value": 5
+    }
+  ]
+}

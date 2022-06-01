@@ -1,0 +1,11 @@
+{
+  "oid": "mod_MVSom2A",
+  "title": "MVSom2A",
+  "questions": [
+    { "question": "MVSomN1Q1", "level": 1 },
+    { "question": "MVSomN2Q1", "level": 2 },
+    { "question": "MVSomN2Q2", "level": 2 },
+    { "question": "MVSomN2Q3", "level": 2 },
+    { "question": "MVSomN2Q4", "level": 2 }
+  ]
+}

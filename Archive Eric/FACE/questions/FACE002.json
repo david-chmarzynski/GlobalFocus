@@ -1,0 +1,55 @@
+{
+  "oid": "FACE002",
+  "title": "A quelle fréquence vous arrivve-t-il de consommer des boissons contenant de l'alccol ?",
+  "text": "A quelle fréquence vous arrivve-t-il de consommer des boissons contenant de l'alccol ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "Une fois par mois ou moins"
+    },
+    {
+      "code": "2",
+      "text": "2 à 4 fois par mois"
+    },
+    {
+      "code": "3",
+      "text": "2 à 3 fois par semaine"
+    },
+    {
+      "code": "4",
+      "text": "4 fois ou plus par semaine"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FACE002 == 0",
+      "tagOID": "FACE",
+      "value": 0
+    },
+    {
+      "conditions": "FACE002 == 1",
+      "tagOID": "FACE",
+      "value": 1
+    },
+    {
+      "conditions": "FACE002 == 2",
+      "tagOID": "FACE",
+      "value": 2
+    },
+    {
+      "conditions": "FACE002 == 3",
+      "tagOID": "FACE",
+      "value": 3
+    },
+    {
+      "conditions": "FACE002 == 4",
+      "tagOID": "FACE",
+      "value": 4
+    }
+  ]
+}

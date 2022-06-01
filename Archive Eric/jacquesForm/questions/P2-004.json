@@ -1,0 +1,28 @@
+{
+    "oid": "P2004",
+    "title": "Alexi thymie",
+    "text": "Je suis passionné(e) par les arts et la science",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "0",
+          "text": "Non"
+        },
+        {
+          "code": "1",
+          "text": "Oui"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "P2004 == '0'",
+          "tagOID": "P2AL",
+          "value": 0
+        },
+        {
+          "conditions": "P2004 == '1'",
+          "tagOID": "P2AL",
+          "value": 1
+        }
+    ]
+}

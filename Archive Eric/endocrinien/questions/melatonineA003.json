@@ -1,0 +1,46 @@
+{
+  "oid": "melatonineA003",
+  "title": "Je me réveille la nuit et j'ai du mal à me rendormir",
+  "text": "Je me réveille la nuit et j'ai du mal à me rendormir",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "De temps en temps"
+    },
+    {
+      "code": "2",
+      "text": "Régulièrement"
+    },
+    {
+      "code": "3",
+      "text": "En permanence"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "melatonineA003 == \"0\"",
+      "tagOID": "tag_melatonine_A",
+      "value": 0
+    },
+    {
+      "conditions": "melatonineA003 == \"1\"",
+      "tagOID": "tag_melatonine_A",
+      "value": 1
+    },
+    {
+      "conditions": "melatonineA003 == \"2\"",
+      "tagOID": "tag_melatonine_A",
+      "value": 2
+    },
+    {
+      "conditions": "melatonineA003 == \"3\"",
+      "tagOID": "tag_melatonine_A",
+      "value": 3
+    }
+  ]
+}

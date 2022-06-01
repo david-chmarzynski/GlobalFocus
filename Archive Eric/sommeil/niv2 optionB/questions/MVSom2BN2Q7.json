@@ -1,0 +1,50 @@
+{
+  "oid": "MVSom2BN2Q7",
+  "title": "Sur ces 3 derniers mois, vous sentez-vous fatifué(e) le matin au réveil ?",
+  "text": "Sur ces 3 derniers mois, vous sentez-vous fatifué(e) le matin au réveil ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais (ou presque)"
+    },
+    {
+      "code": "1",
+      "text": "1 à 3 fois/mois"
+    },
+    {
+      "code": "2",
+      "text": "1 à 2 fois/semaine"
+    },
+    {
+      "code": "3",
+      "text": "3 à fois par semaine"
+    },
+    {
+      "code": "4",
+      "text": "Tous les soirs (ou presque)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom2BN2Q7 == 0",
+      "tagOID": "MVSomN2-7",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom2BN2Q7 == 1",
+      "tagOID": "MVSomN2-7",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom2BN2Q7 == 2",
+      "tagOID": "MVSomN2-7",
+      "value": 2
+    },
+    {
+      "conditions": "MVSom2BN2Q7 == 3 || MVSom2BN2Q7 == 4",
+      "tagOID": "MVSomN2-7",
+      "value": 3
+    }
+  ]
+}

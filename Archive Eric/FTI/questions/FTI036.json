@@ -1,0 +1,28 @@
+{
+  "oid": "FTI036",
+  "title": "Je suis dur.",
+  "text": "Je suis dur.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI036 == 0",
+      "tagOID": "analytique",
+      "value": 1
+    },
+    {
+      "conditions": "FTI036 == 1",
+      "tagOID": "analytique",
+      "value": 0
+    }
+  ]
+}

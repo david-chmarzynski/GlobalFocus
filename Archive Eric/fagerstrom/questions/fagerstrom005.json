@@ -1,0 +1,28 @@
+{
+  "oid": "fagerstrom005",
+  "title": "Fumez-vous à intervalles us rapprochés durant les premières heures de la matinée que durant le reste de lla journée ?",
+  "text": "Fumez-vous à intervalles us rapprochés durant les premières heures de la matinée que durant le reste de lla journée ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "fagerstrom005 == 0",
+      "tagOID": "fagerstrom",
+      "value": 1
+    },
+    {
+      "conditions": "fagerstrom005 == 1",
+      "tagOID": "fagerstrom",
+      "value": 0
+    }
+  ]
+}

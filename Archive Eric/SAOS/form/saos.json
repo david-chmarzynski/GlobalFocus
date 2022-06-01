@@ -1,0 +1,55 @@
+{
+  "oid": "saos",
+  "title": "saos",
+  "estimatedTime": "3 minutes",
+  "pricing": 0,
+  "description": "Saos",
+  "levelMax": "1",
+  "authors": ["Eric Liu"],
+  "chapters": ["chap_saos"],
+  "professions": ["DENTIST"],
+  "diagnostics": [
+    {
+      "oid": "center_tag_saos",
+      "type": "CUSTOM",
+      "conditions": {
+        "RisqueHaut": "(tag_ronflement > 2 && tag_somnolence > 2 ) || (tag_ronflement > 2 && tag_HTA_IMC > 2) || (tag_somnolence > 2 && tag_HTA_IMC > 2)",
+        "RisqueMoyen": "(tag_ronflement < 2 || tag_somnolence < 2) && && tag_HTA_IMC == 1",
+        "RisqueFaible": "(tag_ronflement > 2 || tag_somnolence > 2 || tag_HTA_IMC > 2)",
+        "RisqueTresFaible": "tag_ronflement < 2 && tag_somnolence < 2 && tag_HTA_IMC < 2"
+      }
+    }
+  ],
+  "reportingTrees": [
+    {
+      "category": "HEALTH",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "diagnosticOID": "center_tag_saos",
+        "type": "DIAGNOSTIC",
+        "diagnostics": {
+          "RisqueTresFaible": {
+            "text": "Risque Très Faible",
+            "color": "00FF00",
+            "severity": 0
+          },
+          "RisqueFaible": {
+            "text": "Risque Faible",
+            "color": "FFFF00",
+            "severity": 1
+          },
+          "RisqueMoyen": {
+            "text": "Risque Moyen",
+            "color": "FFA500",
+            "severity": 2
+          },
+          "RisqueHaut": {
+            "text": "Risque Haut",
+            "color": "00FF00",
+            "severity": 3
+          }
+        }
+      }
+    }
+  ]
+}

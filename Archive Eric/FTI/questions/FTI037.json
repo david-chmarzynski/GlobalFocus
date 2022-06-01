@@ -1,0 +1,28 @@
+{
+  "oid": "FTI037",
+  "title": "Débats est un bon moyen de faire correspondre mes esprits avec les autres.",
+  "text": "Débats est un bon moyen de faire correspondre mes esprits avec les autres.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI037 == 0",
+      "tagOID": "analytique",
+      "value": 1
+    },
+    {
+      "conditions": "FTI037 == 1",
+      "tagOID": "analytique",
+      "value": 0
+    }
+  ]
+}

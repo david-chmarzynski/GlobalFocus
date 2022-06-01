@@ -1,0 +1,46 @@
+{
+  "oid": "staiFormYA007",
+  "title": "L'idée de malheurs éventuels me tracasse en ce moment",
+  "text": "L'idée de malheurs éventuels me tracasse en ce moment",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Non"
+    },
+    {
+      "code": "2",
+      "text": "Plutot non"
+    },
+    {
+      "code": "3",
+      "text": "Plutot oui"
+    },
+    {
+      "code": "4",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "staiFormYA007 == \"1\"",
+      "tagOID": "staiFormYA",
+      "value": 1
+    },
+    {
+      "conditions": "staiFormYA007 == \"2\"",
+      "tagOID": "staiFormYA",
+      "value": 2
+    },
+    {
+      "conditions": "staiFormYA007 == \"3\"",
+      "tagOID": "staiFormYA",
+      "value": 3
+    },
+    {
+      "conditions": "staiFormYA007 == \"4\"",
+      "tagOID": "staiFormYA",
+      "value": 4
+    }
+  ]
+}

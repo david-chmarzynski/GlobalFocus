@@ -1,0 +1,12 @@
+{
+  "oid": "mod_FIRST",
+  "title": "dépistage fibromyalgie",
+  "questions": [
+    { "question": "FIRST001", "level": 1 },
+    { "question": "FIRST002", "level": 1 },
+    { "question": "FIRST003", "level": 1 },
+    { "question": "FIRST004", "level": 1 },
+    { "question": "FIRST005", "level": 1 },
+    { "question": "FIRST006", "level": 1 }
+  ]
+}

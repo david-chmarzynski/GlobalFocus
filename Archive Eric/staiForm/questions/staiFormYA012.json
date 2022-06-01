@@ -1,0 +1,46 @@
+{
+  "oid": "staiFormYA012",
+  "title": "Je me sens nerveux (nerveuse), irritable",
+  "text": "Je me sens nerveux (nerveuse), irritable",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Non"
+    },
+    {
+      "code": "2",
+      "text": "Plutot non"
+    },
+    {
+      "code": "3",
+      "text": "Plutot oui"
+    },
+    {
+      "code": "4",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "staiFormYA012 == \"1\"",
+      "tagOID": "staiFormYA",
+      "value": 1
+    },
+    {
+      "conditions": "staiFormYA012 == \"2\"",
+      "tagOID": "staiFormYA",
+      "value": 2
+    },
+    {
+      "conditions": "staiFormYA012 == \"3\"",
+      "tagOID": "staiFormYA",
+      "value": 3
+    },
+    {
+      "conditions": "staiFormYA012 == \"4\"",
+      "tagOID": "staiFormYA",
+      "value": 4
+    }
+  ]
+}

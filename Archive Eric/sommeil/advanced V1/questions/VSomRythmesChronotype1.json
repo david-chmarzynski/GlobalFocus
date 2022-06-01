@@ -1,0 +1,35 @@
+{
+  "oid": "VSomRythmesChronotype1",
+  "title": "Comment pensez-vous être par rapport à votre horloge interne ? Vous êtes vraiment du matin : tendance naturelle à se réveiller tôt le matin, en forme, lever rapide, efficacité immédiate dès le réveil. Vous êtes toujours le premier levé du groupe et jamais après 9h- 9h30 même en vacances. Vous êtes vraiment du soir : tendance naturelle à se coucher tard le soir, lever toujours compliqué avec difficultés à se concentrer et à émerger au réveil, tendance à rester embrumé pendant 1 à 2 heures le matin. En vacances, lever décalé dans la matinée (dernier levé du groupe).",
+  "text": "Comment pensez-vous être par rapport à votre horloge interne ? Vous êtes vraiment du matin : tendance naturelle à se réveiller tôt le matin, en forme, lever rapide, efficacité immédiate dès le réveil. Vous êtes toujours le premier levé du groupe et jamais après 9h- 9h30 même en vacances. Vous êtes vraiment du soir : tendance naturelle à se coucher tard le soir, lever toujours compliqué avec difficultés à se concentrer et à émerger au réveil, tendance à rester embrumé pendant 1 à 2 heures le matin. En vacances, lever décalé dans la matinée (dernier levé du groupe).",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vraiment du matin"
+    },
+    {
+      "code": "1",
+      "text": "Plutôt du matin"
+    },
+    {
+      "code": "2",
+      "text": "Intermédiaire"
+    },
+    {
+      "code": "3",
+      "text": "Plutôt du soir"
+    },
+    {
+      "code": "4",
+      "text": "Vraiment du soir"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomRythmesChronotype1 != -1",
+      "tagOID": "Chronotype",
+      "value": -1
+    }
+  ]
+}

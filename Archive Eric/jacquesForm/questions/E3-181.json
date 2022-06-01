@@ -1,0 +1,46 @@
+{
+    "oid": "E3181",
+    "title": "meubles",
+    "text": "Mon logement contient des meubles en bois aggloméré et matières composites ?",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "0",
+          "text": "Pas du tout"
+        },
+        {
+          "code": "1",
+          "text": "Peu nombreux"
+        },
+        {
+          "code": "2",
+          "text": "Assez nombreux"
+        },
+        {
+          "code": "3",
+          "text": "Très nombreux"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "E3181 == '0'",
+          "tagOID": "E3-18",
+          "value": 0
+        },
+        {
+          "conditions": "E3181 == '1'",
+          "tagOID": "E3-18",
+          "value": 1
+        },
+        {
+          "conditions": "E3181 == '2'",
+          "tagOID": "E3-18",
+          "value": 2
+        },
+        {
+          "conditions": "E3181 == '3'",
+          "tagOID": "E3-18",
+          "value": 3
+        }
+    ]
+}

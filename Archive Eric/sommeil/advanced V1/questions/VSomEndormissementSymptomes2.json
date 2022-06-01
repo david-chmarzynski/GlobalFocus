@@ -1,0 +1,67 @@
+{
+  "oid": "VSomEndormissementSymptomes2",
+  "title": "Votre endormissement est-il habituellement gené par les symptomes physiques suivants (plusieurs réponses possibles) ?",
+  "text": "Votre endormissement est-il habituellement gené par les symptomes physiques suivants (plusieurs réponses possibles) ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Douleurs physiques"
+    },
+    {
+      "code": "1",
+      "text": "Impatiences, foumillements picotements dans sles membres"
+    },
+    {
+      "code": "2",
+      "text": "Besoin impérieux de bouger les jambes"
+    },
+    {
+      "code": "3",
+      "text": "Crampes"
+    },
+    {
+      "code": "4",
+      "text": "Bouffées de chaleur"
+    },
+    {
+      "code": "5",
+      "text": "Nez bouché"
+    },
+    {
+      "code": "6",
+      "text": "Éternuements"
+    },
+    {
+      "code": "7",
+      "text": "Toux"
+    },
+    {
+      "code": "8",
+      "text": "Acouphènes"
+    },
+    {
+      "code": "9",
+      "text": "Impression d’étouffer en position allongée"
+    },
+    {
+      "code": "10",
+      "text": "Brûlures d’estomac ou des remontés d’acidité"
+    },
+    {
+      "code": "11",
+      "text": "Besoin fréquent d’uriner"
+    },
+    {
+      "code": "12",
+      "text": "Autre"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomEndormissementSymptomes2 != -1",
+      "tagOID": "Symptômes_gêne",
+      "value": -1
+    }
+  ]
+}

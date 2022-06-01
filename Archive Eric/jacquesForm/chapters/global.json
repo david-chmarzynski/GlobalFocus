@@ -1,0 +1,7 @@
+{
+    "oid": "chap_global",
+    "title": "Global",
+    "modules": [
+        "mGlobal"
+    ]
+}

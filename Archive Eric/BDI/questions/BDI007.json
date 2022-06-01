@@ -1,0 +1,46 @@
+{
+  "oid": "BDI007",
+  "title": "Vous sentez-vous déçu de vous-même ?",
+  "text": "Vous sentez-vous déçu de vous-même ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Je n'ai pas l'impression d'etre déçu(e) par moi-même"
+    },
+    {
+      "code": "1",
+      "text": "Je suis déçu(e) par moi-même"
+    },
+    {
+      "code": "2",
+      "text": "Je suis dégouté(e) de moi"
+    },
+    {
+      "code": "3",
+      "text": "Je me hais"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "BDI007 == \"0\"",
+      "tagOID": "tag_BDI",
+      "value": 0
+    },
+    {
+      "conditions": "BDI007 == \"1\"",
+      "tagOID": "tag_BDI",
+      "value": 1
+    },
+    {
+      "conditions": "BDI007 == \"2\"",
+      "tagOID": "tag_BDI",
+      "value": 2
+    },
+    {
+      "conditions": "BDI007 == \"3\"",
+      "tagOID": "tag_BDI",
+      "value": 3
+    }
+  ]
+}

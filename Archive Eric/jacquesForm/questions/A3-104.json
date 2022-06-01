@@ -1,0 +1,11 @@
+{
+  "oid": "A3104",
+  "title": "Alimentation",
+  "text": "Combien en moyenne consommez-vous de portions de céréales (pain, pâtes, riz, pomme de terre...) et légumineuses (lentilles, pois chiches, quinoa, soja, haricots blancs et rouges...) quotidiennement ? 1 portion = 50/60g de pain (¼ de baguette) ou de muesli, 120g cuit de céréales ou de légumineuses (½ assiette).",
+  "type": "DECIMAL",
+  "scale": {
+    "min": 0,
+    "max": 1,
+    "step": 100
+  }
+}

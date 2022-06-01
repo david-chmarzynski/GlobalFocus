@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI159",
+  "title": "J'abandonne souvent un travail s'il prend beaucoup plus de temps que je le pensais au départ",
+  "text": "J'abandonne souvent un travail s'il prend beaucoup plus de temps que je le pensais au départ",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

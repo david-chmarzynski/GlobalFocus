@@ -1,0 +1,64 @@
+{
+  "oid": "rathus026",
+  "title": "Souvent je ne sais pas quoi dire lorsqu'on me fait un compliment",
+  "text": "Souvent je ne sais pas quoi dire lorsqu'on me fait un compliment",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Tout à fait vrai"
+    },
+    {
+      "code": "2",
+      "text": "Vrai"
+    },
+    {
+      "code": "3",
+      "text": "Plutot vrai"
+    },
+    {
+      "code": "4",
+      "text": "Plutot faux"
+    },
+    {
+      "code": "5",
+      "text": "Faux"
+    },
+    {
+      "code": "6",
+      "text": "Tout à fait faux"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "rathus026 == \"1\"",
+      "tagOID": "rathus",
+      "value": 6
+    },
+    {
+      "conditions": "rathus026 == \"2\"",
+      "tagOID": "rathus",
+      "value": 5
+    },
+    {
+      "conditions": "rathus026 == \"3\"",
+      "tagOID": "rathus",
+      "value": 4
+    },
+    {
+      "conditions": "rathus026 == \"4\"",
+      "tagOID": "rathus",
+      "value": 3
+    },
+    {
+      "conditions": "rathus026 == \"5\"",
+      "tagOID": "rathus",
+      "value": 2
+    },
+    {
+      "conditions": "rathus026 == \"6\"",
+      "tagOID": "rathus",
+      "value": 1
+    }
+  ]
+}

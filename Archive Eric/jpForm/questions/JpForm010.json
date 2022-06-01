@@ -1,0 +1,50 @@
+{
+  "oid": "JpForm010",
+  "title": "Votre pratique sexuelle occupe-t-elle un temps considérable, parfois meme au détriment d'autres activités importantes de votre vie (professionnelle, loisirs, famille) ?",
+  "text": "Votre pratique sexuelle occupe-t-elle un temps considérable, parfois meme au détriment d'autres activités importantes de votre vie (professionnelle, loisirs, famille) ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Tout à fait d'accord"
+    },
+    {
+      "code": "1",
+      "text": "Plutot d'accord"
+    },
+    {
+      "code": "2",
+      "text": "Ni d'accord ni pas d'accord"
+    },
+    {
+      "code": "3",
+      "text": "Plutot pas d'accord"
+    },
+    {
+      "code": "4",
+      "text": "Vraiment pas d'accord"
+    }
+  ],
+  "scores": [
+    {
+      "tagOID": "retentissement/addiction sexe",
+      "conditions": "JpForm010 == '0' || JpForm010 == '1'",
+      "value": 0
+    },
+    {
+      "tagOID": "retentissement/addiction sexe",
+      "conditions": "JpForm010 == '2'",
+      "value": 1
+    },
+    {
+      "tagOID": "retentissement/addiction sexe",
+      "conditions": "JpForm010 == '3'",
+      "value": 2
+    },
+    {
+      "tagOID": "retentissement/addiction sexe",
+      "conditions": "JpForm010 == '4'",
+      "value": 3
+    }
+  ]
+}

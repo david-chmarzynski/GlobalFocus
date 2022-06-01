@@ -1,0 +1,12 @@
+{
+  "oid": "mod_fagerstrom",
+  "title": "dependanceTabac",
+  "questions": [
+    { "question": "fagerstrom001", "level": 1 },
+    { "question": "fagerstrom002", "level": 1 },
+    { "question": "fagerstrom003", "level": 1 },
+    { "question": "fagerstrom004", "level": 1 },
+    { "question": "fagerstrom005", "level": 1 },
+    { "question": "fagerstrom006", "level": 1 }
+  ]
+}

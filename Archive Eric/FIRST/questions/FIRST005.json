@@ -1,0 +1,28 @@
+{
+  "oid": "FIRST005",
+  "title": "Mes douleurs s'accompagnent d'autres problèmes de santé comme des problèmes digestifs, des problèmes urinaires, des maux de tete ou des impatiences dans les jambes",
+  "text": "Mes douleurs s'accompagnent d'autres problèmes de santé comme des problèmes digestifs, des problèmes urinaires, des maux de tete ou des impatiences dans les jambes",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FIRST005 == 0",
+      "tagOID": "FIRST",
+      "value": 1
+    },
+    {
+      "conditions": "FIRST005 == 1",
+      "tagOID": "FIRST",
+      "value": 0
+    }
+  ]
+}

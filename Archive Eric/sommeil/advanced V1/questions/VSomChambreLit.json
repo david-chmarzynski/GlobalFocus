@@ -1,0 +1,46 @@
+{
+  "oid": "VSomChambreLit",
+  "title": "Sur ces 3 derniers mois, comment évaluez-vous la qualité de votre literie ?",
+  "text": "Sur ces 3 derniers mois, comment évaluez-vous la qualité de votre literie ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisant"
+    },
+    {
+      "code": "1",
+      "text": "Légèrement insatisfaisante"
+    },
+    {
+      "code": "2",
+      "text": "Assez insatisfaisante"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisante"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomChambreLit == 0",
+      "tagOID": "Literie",
+      "value": 0
+    },
+    {
+      "conditions": "VSomChambreLit == 1",
+      "tagOID": "Literie",
+      "value": 1
+    },
+    {
+      "conditions": "VSomChambreLit == 2",
+      "tagOID": "Literie",
+      "value": 2
+    },
+    {
+      "conditions": "VSomChambreLit == 3",
+      "tagOID": "Literie",
+      "value": 3
+    }
+  ]
+}

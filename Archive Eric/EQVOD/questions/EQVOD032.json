@@ -1,0 +1,44 @@
+{
+  "oid": "EQVOD032",
+  "title": "Les régimes m'empêchent de manger ce que je veux lors des repas en famille et/ou avec des amis. ",
+  "text": "Les régimes m'empêchent de manger ce que je veux lors des repas en famille et/ou avec des amis. ",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 1.0,
+    "max": 5.0,
+    "step": 1.0,
+    "maxText": "jamais/pas du tout",
+    "maxValue": "5",
+    "midText": "parfois/modérément",
+    "midValue": "3",
+    "minText": "toujours/énormément",
+    "minValue": "1"
+  },
+  "scores": [
+    {
+      "conditions": "EQVOD032 == 1",
+      "tagOID": "EQVOD",
+      "value": 4.0
+    },
+    {
+      "conditions": "EQVOD032 == 2",
+      "tagOID": "EQVOD",
+      "value": 8.0
+    },
+    {
+      "conditions": "EQVOD032 == 3",
+      "tagOID": "EQVOD",
+      "value": 12.0
+    },
+    {
+      "conditions": "EQVOD032 == 4",
+      "tagOID": "EQVOD",
+      "value": 16.0
+    },
+    {
+      "conditions": "EQVOD032 == 5",
+      "tagOID": "EQVOD",
+      "value": 20.0
+    }
+  ]
+}

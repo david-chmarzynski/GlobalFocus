@@ -1,0 +1,71 @@
+{
+  "oid": "MVSom4N4Q10",
+  "title": "Habitudes au coucher : que faites-vous habituellement le soir après vous etre couché ? (plusieurs réponses possibles)",
+  "text": "Habitudes au coucher : que faites-vous habituellement le soir après vous etre couché ? (plusieurs réponses possibles)",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Je laisse le sommeil venir tranquillement"
+    },
+    {
+      "code": "1",
+      "text": "Je cherche à m'endormir rapidement"
+    },
+    {
+      "code": "2",
+      "text": "Je lis un livre ou un magazine"
+    },
+    {
+      "code": "3",
+      "text": "J'ai une relation sexuelle"
+    },
+    {
+      "code": "4",
+      "text": "Je regarde un film, une série, une émission ou je surfe sur internet"
+    },
+    {
+      "code": "5",
+      "text": "Je dialogue (réseaux sociaux, SMS, mails) sur mon smartphone, ma tablette ou mon ordinateur."
+    },
+    {
+      "code": "6",
+      "text": "Je travaille en attendant le sommeil (mails, dossiers..)"
+    },
+    {
+      "code": "7",
+      "text": "Je garde mon smartphone à coté de mon lit (hors mode avvion ou éteint)"
+    },
+    {
+      "code": "8",
+      "text": "Je me détends en pratiquant la relaxation, la méditation, la cohérence cardiaque..."
+    },
+    {
+      "code": "9",
+      "text": "Je mange pour m'aider à m'endormir"
+    },
+    {
+      "code": "10",
+      "text": "Je fume une cigarette pour m'aider à m'endormir"
+    },
+    {
+      "code": "11",
+      "text": "Je fume du cannabis pour m'aider à m'endormir"
+    },
+    {
+      "code": "12",
+      "text": "Je bois de l'alcool pour m'aider à m'endormir"
+    },
+    {
+      "code": "13",
+      "text": "Autre"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom4N4Q10 != -1",
+      "tagOID": "MVSomN4-10",
+      "value": -1
+    }
+  ]
+}

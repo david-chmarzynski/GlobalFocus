@@ -1,0 +1,66 @@
+{
+  "oid": "A3113",
+  "title": "alimentation",
+  "text": "Quelle(s) huile(s) utilisez-vous quotidiennement ? (plusieurs réponses possibles)",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Colza"
+    },
+    {
+      "code": "1",
+      "text": "Noix"
+    },
+    {
+      "code": "2",
+      "text": "Mélange colza / noix"
+    },
+    {
+      "code": "3",
+      "text": "Mélange colza ou noix/Olive"
+    },
+    {
+      "code": "4",
+      "text": "Olive"
+    },
+    {
+      "code": "5",
+      "text": "Maïs"
+    },
+    {
+      "code": "6",
+      "text": "Tournesol"
+    },
+    {
+      "code": "7",
+      "text": "Arachide"
+    },
+    {
+      "code": "8",
+      "text": "Pépins de raisin"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "A3113 == '0' || A3113 == '1' || A3113 == '2'",
+      "tagOID": "tA3113",
+      "value": 3
+    },
+    {
+      "conditions": "A3113 == '3'",
+      "tagOID": "tA3113",
+      "value": 2
+    },
+    {
+      "conditions": "A3113 == '6'",
+      "tagOID": "tA3113",
+      "value": 1
+    },
+    {
+      "conditions": "A3113 == '4' || A3113 == '5' || A3113 == '7' || A3113 == '8'",
+      "tagOID": "tA3113",
+      "value": 0
+    }
+  ]
+}

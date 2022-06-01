@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI073",
+  "title": "Il m'arrive souvent de souhaiter rester jeune éternellement",
+  "text": "Il m'arrive souvent de souhaiter rester jeune éternellement",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+    "oid": "A2403",
+    "title": "TCA",
+    "text": "Avez-vous récemment perdu plus de 6 kilos en trois mois ?",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "0",
+          "text": "Non"
+        },
+        {
+          "code": "1",
+          "text": "Oui"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "A2403 == '0'",
+          "tagOID": "A2-4",
+          "value": 0
+        },
+        {
+          "conditions": "A2403 == '1'",
+          "tagOID": "A2-4",
+          "value": 1
+        }
+    ]
+}

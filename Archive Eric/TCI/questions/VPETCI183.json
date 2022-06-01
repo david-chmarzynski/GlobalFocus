@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI183",
+  "title": "Les droits indidviduels sont plus importants que les besoins de n'importe quel groupe",
+  "text": "Les droits indidviduels sont plus importants que les besoins de n'importe quel groupe",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

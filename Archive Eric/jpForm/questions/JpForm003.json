@@ -1,0 +1,46 @@
+{
+  "oid": "JpForm003",
+  "title": "Ressentez-vous une baisse d'appétiit sexuel ?",
+  "text": "Ressentez-vous une baisse d'appétiit sexuel ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Symptome absent"
+    },
+    {
+      "code": "1",
+      "text": "Symptome peu genant"
+    },
+    {
+      "code": "2",
+      "text": "Symptome assez genant"
+    },
+    {
+      "code": "3",
+      "text": "Symptome genant"
+    }
+  ],
+  "scores": [
+    {
+      "tagOID": "libido actuelle",
+      "conditions": "JpForm003 == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "libido actuelle",
+      "conditions": "JpForm003 == '1'",
+      "value": 1
+    },
+    {
+      "tagOID": "libido actuelle",
+      "conditions": "JpForm003 == '2'",
+      "value": 2
+    },
+    {
+      "tagOID": "libido actuelle",
+      "conditions": "JpForm003 == '3'",
+      "value": 3
+    }
+  ]
+}

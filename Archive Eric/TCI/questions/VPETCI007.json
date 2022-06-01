@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI007",
+  "title": "Je prends plaisir à me venger des gens qui m'ont fait du mal",
+  "text": "Je prends plaisir à me venger des gens qui m'ont fait du mal",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

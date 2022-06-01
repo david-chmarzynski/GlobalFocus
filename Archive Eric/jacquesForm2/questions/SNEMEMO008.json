@@ -1,0 +1,46 @@
+{
+  "oid": "SNEMEMO008",
+  "title": "Vous arrive-t-il de ne plus savoir où sont rangés les objets usuels ?",
+  "text": "Vous arrive-t-il de ne plus savoir où sont rangés les objets usuels ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Rarement"
+    },
+    {
+      "code": "1",
+      "text": "Parfois"
+    },
+    {
+      "code": "2",
+      "text": "La plupart du temps"
+    },
+    {
+      "code": "3",
+      "text": "Très souvent"
+    }
+  ],
+  "scores": [
+    {
+      "tagOID": "memoire",
+      "conditions": "SNEMEMO008 == 0",
+      "value": 0
+    },
+    {
+      "tagOID": "memoire",
+      "conditions": "SNEMEMO008 == 1",
+      "value": 1
+    },
+    {
+      "tagOID": "memoire",
+      "conditions": "SNEMEMO008 == 2",
+      "value": 2
+    },
+    {
+      "tagOID": "memoire",
+      "conditions": "SNEMEMO008 == 3",
+      "value": 3
+    }
+  ]
+}

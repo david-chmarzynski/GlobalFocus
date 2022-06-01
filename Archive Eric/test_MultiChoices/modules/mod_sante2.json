@@ -1,0 +1,7 @@
+{
+  "oid": "mod_sante2",
+  "title": "module GASTRO-ENTEROLOGIE",
+  "questions": [
+    { "question": "Q001_sante2", "level":1, "isGlobal": "true"}
+  ]
+}

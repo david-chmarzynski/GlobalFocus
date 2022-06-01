@@ -1,0 +1,12 @@
+{
+  "oid": "mod_FACE",
+  "title": "FACE",
+  "questions": [
+    { "question": "FACE001", "level": 1 },
+    { "question": "FACE002", "level": 1 },
+    { "question": "FACE003", "level": 1 },
+    { "question": "FACE004", "level": 1 },
+    { "question": "FACE005", "level": 1 },
+    { "question": "FACE006", "level": 1 }
+  ]
+}

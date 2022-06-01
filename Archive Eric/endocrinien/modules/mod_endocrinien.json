@@ -1,0 +1,256 @@
+{
+  "oid": "mod_endocrinien",
+  "title": "mod endocrinien",
+  "questions": [
+    { "question": "endocrinien001", "level": 1 },
+    { "question": "thyroidienA002", "level": 1 },
+    { "question": "thyroidienA003", "level": 1 },
+    { "question": "thyroidienA004", "level": 1 },
+    { "question": "thyroidienA005", "level": 1 },
+    { "question": "thyroidienA006", "level": 1 },
+    { "question": "thyroidienA007", "level": 1 },
+    { "question": "thyroidienA008", "level": 1 },
+    { "question": "thyroidienA009", "level": 1 },
+    { "question": "thyroidienA010", "level": 1 },
+    { "question": "thyroidienA011", "level": 1 },
+    { "question": "thyroidienA012", "level": 1 },
+    { "question": "thyroidienA013", "level": 1 },
+    { "question": "thyroidienA014", "level": 1 },
+    { "question": "thyroidienA015", "level": 1 },
+    { "question": "thyroidienA016", "level": 1 },
+    { "question": "thyroidienA017", "level": 1 },
+    { "question": "thyroidienA018", "level": 1 },
+    { "question": "thyroidienA019", "level": 1 },
+    { "question": "thyroidienA020", "level": 1 },
+    { "question": "thyroidienA021", "level": 1 },
+    { "question": "thyroidienA022", "level": 1 },
+    { "question": "thyroidienA023", "level": 1 },
+    { "question": "thyroidienA024", "level": 1 },
+    {
+      "question": "thyroidienA025",
+      "level": 1,
+      "trigger": {
+        "conditions": "endocrinien001 == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "endocrinien001": "1" }
+      }
+    },
+    { "question": "thyroidienA026", "level": 1 },
+    { "question": "thyroidienB001", "level": 1 },
+    { "question": "thyroidienB002", "level": 1 },
+    { "question": "thyroidienB003", "level": 1 },
+    { "question": "thyroidienB004", "level": 1 },
+    { "question": "thyroidienB005", "level": 1 },
+    { "question": "thyroidienB006", "level": 1 },
+    { "question": "thyroidienB007", "level": 1 },
+    { "question": "thyroidienB008", "level": 1 },
+    { "question": "cortisoneA001", "level": 1 },
+    { "question": "cortisoneA002", "level": 1 },
+    { "question": "cortisoneA003", "level": 1 },
+    { "question": "cortisoneA004", "level": 1 },
+    { "question": "cortisoneA005", "level": 1 },
+    { "question": "cortisoneA006", "level": 1 },
+    { "question": "cortisoneA007", "level": 1 },
+    { "question": "cortisoneA008", "level": 1 },
+    { "question": "cortisoneA009", "level": 1 },
+    {
+      "question": "cortisoneA010",
+      "level": 1,
+      "trigger": {
+        "conditions": "endocrinien001 == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "endocrinien001": "1" }
+      }
+    },
+    {
+      "question": "cortisoneA011",
+      "level": 1,
+      "trigger": {
+        "conditions": "endocrinien001 == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "endocrinien001": "1" }
+      }
+    },
+    { "question": "cortisoneA012", "level": 1 },
+    { "question": "cortisoneB001", "level": 1 },
+    { "question": "cortisoneB002", "level": 1 },
+    { "question": "cortisoneB003", "level": 1 },
+    { "question": "cortisoneB004", "level": 1 },
+    { "question": "cortisoneB005", "level": 1 },
+    { "question": "melatonineA001", "level": 1 },
+    { "question": "melatonineA002", "level": 1 },
+    { "question": "melatonineA003", "level": 1 },
+    { "question": "melatonineA004", "level": 1 },
+    { "question": "melatonineA005", "level": 1 },
+    { "question": "melatonineA006", "level": 1 },
+    { "question": "melatonineB001", "level": 1 },
+    { "question": "melatonineB002", "level": 1 },
+    { "question": "melatonineB003", "level": 1 },
+    { "question": "hormonesexuelle1A001", "level": 1 },
+    { "question": "hormonesexuelle1A002", "level": 1 },
+    { "question": "hormonesexuelle1A003", "level": 1 },
+    { "question": "hormonesexuelle1A004", "level": 1 },
+    { "question": "hormonesexuelle1A005", "level": 1 },
+    { "question": "hormonesexuelle1A006", "level": 1 },
+    { "question": "hormonesexuelle1A007", "level": 1 },
+    { "question": "hormonesexuelle1A008", "level": 1 },
+    { "question": "hormonesexuelle1A009", "level": 1 },
+    { "question": "hormonesexuelle1A010", "level": 1 },
+    {
+      "question": "hormonesexuelle1A011",
+      "level": 1,
+      "trigger": {
+        "conditions": "endocrinien001 == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "endocrinien001": "1" }
+      }
+    },
+    {
+      "question": "hormonesexuelle1A012",
+      "level": 1,
+      "trigger": {
+        "conditions": "endocrinien001 == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "endocrinien001": "1" }
+      }
+    },
+    { "question": "hormonesexuelle1A013", "level": 1 },
+    { "question": "hormonesexuelle1B001", "level": 1 },
+    { "question": "hormonesexuelle1B002", "level": 1 },
+    { "question": "hormonesexuelle1B003", "level": 1 },
+    { "question": "hormonesexuelle1B004", "level": 1 },
+    {
+      "question": "hormonesexuelle1B005",
+      "level": 1,
+      "trigger": {
+        "conditions": "endocrinien001 == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "endocrinien001": "1" }
+      }
+    },
+    {
+      "question": "hormonesexuelle1B006",
+      "level": 1,
+      "trigger": {
+        "conditions": "endocrinien001 == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "endocrinien001": "1" }
+      }
+    },
+    {
+      "question": "hormonesexuelle1B007",
+      "level": 1,
+      "trigger": {
+        "conditions": "endocrinien001 == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "endocrinien001": "1" }
+      }
+    },
+    { "question": "hormonesexuelle1B008", "level": 1 },
+    { "question": "hormonesexuelle2001", "level": 1 },
+    { "question": "hormonesexuelle2002", "level": 1 },
+    { "question": "hormonesexuelle2003", "level": 1 },
+    { "question": "hormonesexuelle2004", "level": 1 },
+    { "question": "hormonesexuelle2005", "level": 1 },
+    { "question": "hormonesexuelle2006", "level": 1 },
+    { "question": "hormonesexuelle2007", "level": 1 },
+    { "question": "hormonesexuelle2008", "level": 1 },
+    { "question": "hormonesexuelle2009", "level": 1 },
+    { "question": "hormonesexuelle2010", "level": 1 },
+    { "question": "hormonesexuelle2011", "level": 1 },
+    {
+      "question": "hormonesexuelle2012",
+      "level": 1,
+      "trigger": {
+        "conditions": "endocrinien001 == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "endocrinien001": "0" }
+      }
+    },
+    {
+      "question": "hormonesexuelle3001",
+      "level": 1,
+      "trigger": {
+        "conditions": "endocrinien001 == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "endocrinien001": "1" }
+      }
+    },
+    {
+      "question": "hormonesexuelle3002",
+      "level": 1,
+      "trigger": {
+        "conditions": "endocrinien001 == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "endocrinien001": "1" }
+      }
+    },
+    {
+      "question": "hormonesexuelle3003",
+      "level": 1,
+      "trigger": {
+        "conditions": "endocrinien001 == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "endocrinien001": "1" }
+      }
+    },
+    {
+      "question": "hormonesexuelle3004",
+      "level": 1,
+      "trigger": {
+        "conditions": "endocrinien001 == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "endocrinien001": "1" }
+      }
+    },
+    {
+      "question": "hormonesexuelle3005",
+      "level": 1,
+      "trigger": {
+        "conditions": "endocrinien001 == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "endocrinien001": "1" }
+      }
+    },
+    {
+      "question": "hormonesexuelle3006",
+      "level": 1,
+      "trigger": {
+        "conditions": "endocrinien001 == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "endocrinien001": "1" }
+      }
+    },
+    {
+      "question": "hormonesexuelle3007",
+      "level": 1,
+      "trigger": {
+        "conditions": "endocrinien001 == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "endocrinien001": "1" }
+      }
+    },
+    { "question": "hormonesexuelle3008", "level": 1 },
+    { "question": "hormonesexuelle3009", "level": 1 },
+    { "question": "aldosteroneA001", "level": 1 },
+    { "question": "aldosteroneA002", "level": 1 },
+    { "question": "aldosteroneA003", "level": 1 },
+    { "question": "aldosteroneA004", "level": 1 },
+    { "question": "aldosteroneB001", "level": 1 },
+    { "question": "aldosteroneB002", "level": 1 },
+    { "question": "insuline001", "level": 1 },
+    { "question": "insuline002", "level": 1 },
+    { "question": "insuline003", "level": 1 },
+    { "question": "insuline004", "level": 1 },
+    { "question": "insuline005", "level": 1 },
+    { "question": "insuline006", "level": 1 },
+    { "question": "insuline007", "level": 1 },
+    { "question": "insuline008", "level": 1 },
+    { "question": "insuline009", "level": 1 },
+    { "question": "insuline010", "level": 1 },
+    { "question": "insuline011", "level": 1 },
+    { "question": "insuline012", "level": 1 },
+    { "question": "insuline013", "level": 1 },
+    { "question": "insuline014", "level": 1 }
+  ]
+}

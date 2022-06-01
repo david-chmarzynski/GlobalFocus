@@ -1,0 +1,46 @@
+{
+  "oid": "staiFormYB014",
+  "title": "Je prends facilementt des décisions",
+  "text": "Je prends facilementt des décisions",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Jamais"
+    },
+    {
+      "code": "2",
+      "text": "Parfois"
+    },
+    {
+      "code": "3",
+      "text": "Souvent"
+    },
+    {
+      "code": "4",
+      "text": "Toujours"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "staiFormYB014 == \"1\"",
+      "tagOID": "staiFormYB",
+      "value": 4
+    },
+    {
+      "conditions": "staiFormYB014 == \"2\"",
+      "tagOID": "staiFormYB",
+      "value": 3
+    },
+    {
+      "conditions": "staiFormYB014 == \"3\"",
+      "tagOID": "staiFormYB",
+      "value": 2
+    },
+    {
+      "conditions": "staiFormYB014 == \"4\"",
+      "tagOID": "staiFormYB",
+      "value": 1
+    }
+  ]
+}

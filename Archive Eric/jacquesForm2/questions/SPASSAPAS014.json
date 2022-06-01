@@ -1,0 +1,28 @@
+{
+  "oid": "SPASSAPAS014",
+  "title": "Est-ce que cela s'applique \"la plupart du temps\" et dans la \"plupart des situations\" ?",
+  "text": "Est-ce que cela s'applique \"la plupart du temps\" et dans la \"plupart des situations\" ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "SPASSAPAS014 == 0",
+      "tagOID": "personalite SAPAS",
+      "value": 1
+    },
+    {
+      "conditions": "SPASSAPAS014 == 1",
+      "tagOID": "personalite SAPAS",
+      "value": 0
+    }
+  ]
+}

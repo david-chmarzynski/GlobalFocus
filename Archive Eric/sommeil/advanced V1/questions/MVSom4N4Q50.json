@@ -1,0 +1,46 @@
+{
+  "oid": "MVSom4N4Q50",
+  "title": "Assis au calme après un déjeuner sans alcool",
+  "text": "Assis au calme après un déjeuner sans alcool",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Aucune chance"
+    },
+    {
+      "code": "1",
+      "text": "Faible chance"
+    },
+    {
+      "code": "2",
+      "text": "Chance moyenne"
+    },
+    {
+      "code": "3",
+      "text": "Forte chance"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom4N4Q50 == 0",
+      "tagOID": "MVSomN4-44",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom4N4Q50 == 1",
+      "tagOID": "MVSomN4-44",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom4N4Q50 == 2",
+      "tagOID": "MVSomN4-44",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom4N4Q50 == 3",
+      "tagOID": "MVSomN4-44",
+      "value": 1
+    }
+  ]
+}

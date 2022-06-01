@@ -1,0 +1,28 @@
+{
+  "oid": "FTI035",
+  "title": "J'aime comprendre comment les choses fonctionnent.",
+  "text": "J'aime comprendre comment les choses fonctionnent.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI035 == 0",
+      "tagOID": "analytique",
+      "value": 1
+    },
+    {
+      "conditions": "FTI035 == 1",
+      "tagOID": "analytique",
+      "value": 0
+    }
+  ]
+}

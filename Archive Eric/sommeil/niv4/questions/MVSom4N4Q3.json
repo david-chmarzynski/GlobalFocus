@@ -1,0 +1,55 @@
+{
+  "oid": "MVSom4N4Q3",
+  "title": "Par rapport à votre besoin d'aide pour dormir, choisissez la proposition la plus proche de ce que vous ressentez :",
+  "text": "Par rapport à votre besoin d'aide pour dormir, choisissez la proposition la plus proche de ce que vous ressentez :",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "J'ai l'intention de diminuer ma prise d'aide"
+    },
+    {
+      "code": "1",
+      "text": "J'ai l'intention de diminuer ma prise d'aide pour dormir dans lle mois qui vient"
+    },
+    {
+      "code": "2",
+      "text": "J'ai commencé à diminuer ma prise d'aide pour dormir depuis moins de 6 mois"
+    },
+    {
+      "code": "3",
+      "text": "J'ai déjà diminué ma prise d'aide pour dormir de manière satisfaisante de puis plus de 6 mois"
+    },
+    {
+      "code": "4",
+      "text": "Aucune de ces propositions"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom4N4Q3 == 0",
+      "tagOID": "MVSomN4-3",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom4N4Q3 == 1",
+      "tagOID": "MVSomN4-3",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom4N4Q3 == 2",
+      "tagOID": "MVSomN4-3",
+      "value": 2
+    },
+    {
+      "conditions": "MVSom4N4Q3 == 3",
+      "tagOID": "MVSomN4-3",
+      "value": 3
+    },
+    {
+      "conditions": "MVSom4N4Q3 == 4",
+      "tagOID": "MVSomN4-3",
+      "value": 4
+    }
+  ]
+}

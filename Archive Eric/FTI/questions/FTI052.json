@@ -1,0 +1,28 @@
+{
+  "oid": "FTI052",
+  "title": "Je ressens des émotions plus profondément que la plupart des gens.",
+  "text": "Je ressens des émotions plus profondément que la plupart des gens.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI052 == 0",
+      "tagOID": "prosocial",
+      "value": 1
+    },
+    {
+      "conditions": "FTI052 == 1",
+      "tagOID": "prosocial",
+      "value": 0
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "oid": "FTI038",
+  "title": "Je n'ai aucun mal à faire un choix, même lorsque plusieurs alternatives semblent tout aussi bonnes au premier abord.",
+  "text": "Je n'ai aucun mal à faire un choix, même lorsque plusieurs alternatives semblent tout aussi bonnes au premier abord.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI038 == 0",
+      "tagOID": "analytique",
+      "value": 1
+    },
+    {
+      "conditions": "FTI038 == 1",
+      "tagOID": "analytique",
+      "value": 0
+    }
+  ]
+}

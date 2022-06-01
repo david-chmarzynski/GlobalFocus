@@ -1,0 +1,28 @@
+{
+  "oid": "FTI039",
+  "title": "Lorsque j'achète une nouvelle machine (par exemple, une caméra, un ordinateur ou une voiture), je souhaite connaître toutes ses caractéristiques techniques.",
+  "text": "Lorsque j'achète une nouvelle machine (par exemple, une caméra, un ordinateur ou une voiture), je souhaite connaître toutes ses caractéristiques techniques.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI039 == 0",
+      "tagOID": "analytique",
+      "value": 1
+    },
+    {
+      "conditions": "FTI039 == 1",
+      "tagOID": "analytique",
+      "value": 0
+    }
+  ]
+}

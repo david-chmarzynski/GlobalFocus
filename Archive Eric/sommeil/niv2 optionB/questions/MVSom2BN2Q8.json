@@ -1,0 +1,50 @@
+{
+  "oid": "MVSom2BN2Q8",
+  "title": "Sur ces 3 derniers mois, vous sentez-vous gené(e) dans la journéee à cause de la mauvaise qualité et/ou quantité de sommeil (fatigue, difficultés de concentration, somnolence, besoin de faire la sieste, irritabilité...) ?",
+  "text": "Sur ces 3 derniers mois, vous sentez-vous gené(e) dans la journéee à cause de la mauvaise qualité et/ou quantité de sommeil (fatigue, difficultés de concentration, somnolence, besoin de faire la sieste, irritabilité...) ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais (ou presque)"
+    },
+    {
+      "code": "1",
+      "text": "1 à 3 fois/mois"
+    },
+    {
+      "code": "2",
+      "text": "1 à 2 fois/semaine"
+    },
+    {
+      "code": "3",
+      "text": "3 à fois par semaine"
+    },
+    {
+      "code": "4",
+      "text": "Tous les soirs (ou presque)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom2BN2Q8 == 0",
+      "tagOID": "MVSomN2-8",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom2BN2Q8 == 1",
+      "tagOID": "MVSomN2-8",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom2BN2Q8 == 2",
+      "tagOID": "MVSomN2-8",
+      "value": 2
+    },
+    {
+      "conditions": "MVSom2BN2Q8 == 3 || MVSom2BN2Q8 == 4",
+      "tagOID": "MVSomN2-8",
+      "value": 3
+    }
+  ]
+}

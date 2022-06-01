@@ -1,0 +1,46 @@
+{
+  "oid": "thyroidienA025",
+  "title": "J'ai des règles abondantes et/ou douloureuses; des troubles du cycle",
+  "text": "J'ai des règles abondantes et/ou douloureuses; des troubles du cycle",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "De temps en temps"
+    },
+    {
+      "code": "2",
+      "text": "Régulièrement"
+    },
+    {
+      "code": "3",
+      "text": "En permanence"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "thyroidienA025 == \"0\"",
+      "tagOID": "tag_thyroidien_A",
+      "value": 0
+    },
+    {
+      "conditions": "thyroidienA025 == \"1\"",
+      "tagOID": "tag_thyroidien_A",
+      "value": 1
+    },
+    {
+      "conditions": "thyroidienA025 == \"2\"",
+      "tagOID": "tag_thyroidien_A",
+      "value": 2
+    },
+    {
+      "conditions": "thyroidienA025 == \"3\"",
+      "tagOID": "tag_thyroidien_A",
+      "value": 3
+    }
+  ]
+}

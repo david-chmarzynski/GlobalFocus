@@ -1,0 +1,28 @@
+{
+  "oid": "MVSom4N4Q65",
+  "title": "Avez-vous un membre éloigné de votre famille (grand-parent, oncle, tante, cousin, petit enfant) qui présente des terreurs nocturnes ?",
+  "text": "Avez-vous un membre éloigné de votre famille (grand-parent, oncle, tante, cousin, petit enfant) qui présente des terreurs nocturnes ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom4N4Q65 == 0",
+      "tagOID": "MVSomN4-65",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom4N4Q65 == 1",
+      "tagOID": "MVSomN4-65",
+      "value": 1
+    }
+  ]
+}

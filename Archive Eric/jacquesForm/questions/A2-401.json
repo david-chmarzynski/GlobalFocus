@@ -1,0 +1,28 @@
+{
+    "oid": "A2401",
+    "title": "TCA",
+    "text": "Vous faites-vous vomir parce que vous vous sentez mal d’avoir trop mangé ?",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "0",
+          "text": "Non"
+        },
+        {
+          "code": "1",
+          "text": "Oui"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "A2401 == '0'",
+          "tagOID": "A2-4",
+          "value": 0
+        },
+        {
+          "conditions": "A2401 == '1'",
+          "tagOID": "A2-4",
+          "value": 1
+        }
+    ]
+}

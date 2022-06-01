@@ -1,0 +1,46 @@
+{
+  "oid": "cortisoneA005",
+  "title": "Je suis intolérant(e)/allergique à certains médicaments ou aliments",
+  "text": "Je suis intolérant(e)/allergique à certains médicaments ou aliments",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "De temps en temps"
+    },
+    {
+      "code": "2",
+      "text": "Régulièrement"
+    },
+    {
+      "code": "3",
+      "text": "En permanence"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "cortisoneA005 == \"0\"",
+      "tagOID": "tag_cortisone_A",
+      "value": 0
+    },
+    {
+      "conditions": "cortisoneA005 == \"1\"",
+      "tagOID": "tag_cortisone_A",
+      "value": 1
+    },
+    {
+      "conditions": "cortisoneA005 == \"2\"",
+      "tagOID": "tag_cortisone_A",
+      "value": 2
+    },
+    {
+      "conditions": "cortisoneA005 == \"3\"",
+      "tagOID": "tag_cortisone_A",
+      "value": 3
+    }
+  ]
+}

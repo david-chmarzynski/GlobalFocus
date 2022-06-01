@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI201",
+  "title": "J'ai plus de mal que la plupart des gens à m'enthousiasmer pour de nouvelles idées ou de nouvelles activités",
+  "text": "J'ai plus de mal que la plupart des gens à m'enthousiasmer pour de nouvelles idées ou de nouvelles activités",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

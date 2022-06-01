@@ -1,0 +1,73 @@
+{
+  "oid": "MVSom4N4Q8",
+  "title": "Votre endormissement est-il habituellement gené par les couses suivantes (plusieurs réponses possibles) ?",
+  "text": "Votre endormissement est-il habituellement gené par les couses suivantes (plusieurs réponses possibles) ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Bruit autour de vous"
+    },
+    {
+      "code": "1",
+      "text": "Chaleur dans la chambre"
+    },
+    {
+      "code": "2",
+      "text": "Literie"
+    },
+    {
+      "code": "3",
+      "text": "Lumière ou obscurité"
+    },
+    {
+      "code": "4",
+      "text": "Gene occasionnée par le partenaire de nuit (ronflements, mouvements brusques, difficulté à s'endormir, rythme de sommeil différent)"
+    },
+    {
+      "code": "5",
+      "text": "Enfant en bas-age ou entourage nécessitant une surveillance"
+    },
+    {
+      "code": "6",
+      "text": "Autre"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom4N4Q8 == 0",
+      "tagOID": "MVSomN4-8",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom4N4Q8 == 1",
+      "tagOID": "MVSomN4-8",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom4N4Q8 == 2",
+      "tagOID": "MVSomN4-8",
+      "value": 2
+    },
+    {
+      "conditions": "MVSom4N4Q8 == 3",
+      "tagOID": "MVSomN4-8",
+      "value": 3
+    },
+    {
+      "conditions": "MVSom4N4Q8 == 4",
+      "tagOID": "MVSomN4-8",
+      "value": 4
+    },
+    {
+      "conditions": "MVSom4N4Q8 == 5",
+      "tagOID": "MVSomN4-8",
+      "value": 5
+    },
+    {
+      "conditions": "MVSom4N4Q8 == 6",
+      "tagOID": "MVSomN4-8",
+      "value": 6
+    }
+  ]
+}

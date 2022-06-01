@@ -1,0 +1,50 @@
+{
+  "oid": "MVSom4N4Q23",
+  "title": "A quel point vos difficultés de sommeil retentissent-elles sur votre capacité à travailler ?",
+  "text": "A quel point vos difficultés de sommeil retentissent-elles sur votre capacité à travailler ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas de gêne"
+    },
+    {
+      "code": "1",
+      "text": "Gêne légère"
+    },
+    {
+      "code": "2",
+      "text": "Assez gênant"
+    },
+    {
+      "code": "3",
+      "text": "Gênant"
+    },
+    {
+      "code": "4",
+      "text": "Très gênant"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom4N4Q23 == 0",
+      "tagOID": "MVSomN4-23",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom4N4Q23 == 1",
+      "tagOID": "MVSomN4-23",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom4N4Q23 == 2",
+      "tagOID": "MVSomN4-23",
+      "value": 2
+    },
+    {
+      "conditions": "MVSom4N4Q23 == 3 || MVSom4N4Q23 == 4",
+      "tagOID": "MVSomN4-23",
+      "value": 3
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "oid": "FTI049",
+  "title": "J'imagine de façon saisissante à la fois des choses merveilleuses et horribles qui m'arrivent",
+  "text": "J'imagine de façon saisissante à la fois des choses merveilleuses et horribles qui m'arrivent",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI049 == 0",
+      "tagOID": "prosocial",
+      "value": 1
+    },
+    {
+      "conditions": "FTI049 == 1",
+      "tagOID": "prosocial",
+      "value": 0
+    }
+  ]
+}

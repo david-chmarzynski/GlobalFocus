@@ -1,0 +1,28 @@
+{
+  "oid": "FTI055",
+  "title": "En lisant, j'aime quand l'écrivain fait un détour pour dire quelque chose de beau ou de significatif",
+  "text": "En lisant, j'aime quand l'écrivain fait un détour pour dire quelque chose de beau ou de significatif",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI055 == 0",
+      "tagOID": "prosocial",
+      "value": 1
+    },
+    {
+      "conditions": "FTI055 == 1",
+      "tagOID": "prosocial",
+      "value": 0
+    }
+  ]
+}

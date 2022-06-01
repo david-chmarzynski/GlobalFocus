@@ -1,0 +1,28 @@
+{
+  "oid": "MVSom4N4Q53",
+  "title": "Avez-vous un membre proche de votre famille (papa ou maman, frère ou sœur, enfant) qui présente de l'imsomnie ?",
+  "text": "Avez-vous un membre proche de votre famille (papa ou maman, frère ou sœur, enfant) qui présente de l'imsomnie ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom4N4Q53 == 0",
+      "tagOID": "MVSomN4-53",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom4N4Q53 == 1",
+      "tagOID": "MVSomN4-53",
+      "value": 1
+    }
+  ]
+}

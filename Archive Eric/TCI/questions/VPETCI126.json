@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI126",
+  "title": "Les autres pensent souvent que je suis trop indépendant(e) car je ne fais pas ce qu'ils voudraient que je fasse",
+  "text": "Les autres pensent souvent que je suis trop indépendant(e) car je ne fais pas ce qu'ils voudraient que je fasse",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

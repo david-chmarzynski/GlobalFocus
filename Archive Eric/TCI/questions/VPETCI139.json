@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI139",
+  "title": "J'aime imaginer que mes ennemis souffrent",
+  "text": "J'aime imaginer que mes ennemis souffrent",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

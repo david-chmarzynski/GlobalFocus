@@ -1,0 +1,28 @@
+{
+  "oid": "FTI025",
+  "title": "Il est important de respecter l'autorité.",
+  "text": "Il est important de respecter l'autorité.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI025 == 0",
+      "tagOID": "conformité",
+      "value": 1
+    },
+    {
+      "conditions": "FTI025 == 1",
+      "tagOID": "conformité",
+      "value": 0
+    }
+  ]
+}

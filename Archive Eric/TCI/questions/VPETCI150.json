@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI150",
+  "title": "Je ne suis pas du tout timide avec des inconnus",
+  "text": "Je ne suis pas du tout timide avec des inconnus",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

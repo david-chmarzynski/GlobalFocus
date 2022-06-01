@@ -1,0 +1,32 @@
+{
+  "oid": "SAOS001",
+  "title": "Ronflez-vous pendant votre sommeil ?",
+  "text": "Ronflez-vous pendant votre sommeil ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    },
+    {
+      "code": "2",
+      "text": "Je ne sais pas"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "SAOS001 == \"0\"",
+      "tagOID": "tag_ronflement",
+      "value": 1
+    },
+    {
+      "conditions": "SAOS001 == \"1\" || SAOS001 == \"2\"",
+      "tagOID": "tag_ronflement",
+      "value": 0
+    }
+  ]
+}

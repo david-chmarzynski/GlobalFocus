@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI169",
+  "title": "En général, il est absurde de contribuer au succès des autres",
+  "text": "En général, il est absurde de contribuer au succès des autres",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

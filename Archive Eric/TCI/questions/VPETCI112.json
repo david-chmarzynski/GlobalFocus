@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI112",
+  "title": "Je pense que la perception extra-sensorielle existe réellement (la télépathie ou les prémonitions par exemple)",
+  "text": "Je pense que la perception extra-sensorielle existe réellement (la télépathie ou les prémonitions par exemple)",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Vrai"
+    },
+    {
+      "code": "0",
+      "text": "Faux"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "oid": "FTI032",
+  "title": "Je suis plus analytique et logique que la plupart des gens",
+  "text": "Je suis plus analytique et logique que la plupart des gens",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI032 == 0",
+      "tagOID": "analytique",
+      "value": 1
+    },
+    {
+      "conditions": "FTI032 == 1",
+      "tagOID": "analytique",
+      "value": 0
+    }
+  ]
+}

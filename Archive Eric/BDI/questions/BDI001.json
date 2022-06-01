@@ -1,0 +1,46 @@
+{
+  "oid": "BDI001",
+  "title": "Vous sentez-vous triste ?",
+  "text": "Vous sentez-vous triste ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Je ne me sens pas triste"
+    },
+    {
+      "code": "1",
+      "text": "Je me sens triste"
+    },
+    {
+      "code": "2",
+      "text": "Je me sens perpétuellement triste et je n'arrive pas à m'en sortir"
+    },
+    {
+      "code": "3",
+      "text": "Je suis si triste ou si découragé(e) que je ne peux plus le supporter"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "BDI001 == \"0\"",
+      "tagOID": "tag_BDI",
+      "value": 0
+    },
+    {
+      "conditions": "BDI001 == \"1\"",
+      "tagOID": "tag_BDI",
+      "value": 1
+    },
+    {
+      "conditions": "BDI001 == \"2\"",
+      "tagOID": "tag_BDI",
+      "value": 2
+    },
+    {
+      "conditions": "BDI001 == \"3\"",
+      "tagOID": "tag_BDI",
+      "value": 3
+    }
+  ]
+}

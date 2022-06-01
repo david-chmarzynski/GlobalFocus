@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI140",
+  "title": "J'ai plus d'énergie et me fatigue moins vite que la plupart des gens",
+  "text": "J'ai plus d'énergie et me fatigue moins vite que la plupart des gens",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

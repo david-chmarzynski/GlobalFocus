@@ -1,0 +1,28 @@
+{
+    "oid": "P2007",
+    "title": "Alexi thymie",
+    "text": "Je me fais rarement du souci pour des questions d’argent",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "0",
+          "text": "Non"
+        },
+        {
+          "code": "1",
+          "text": "Oui"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "P2007 == '0'",
+          "tagOID": "P2AL",
+          "value": 0
+        },
+        {
+          "conditions": "P2007 == '1'",
+          "tagOID": "P2AL",
+          "value": 1
+        }
+    ]
+}

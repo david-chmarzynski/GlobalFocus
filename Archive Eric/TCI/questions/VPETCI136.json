@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI136",
+  "title": "Mes amis trouvent qu'il est difficile de connaitre mes sentiments car je leur confie raremment mes pensées intimes",
+  "text": "Mes amis trouvent qu'il est difficile de connaitre mes sentiments car je leur confie raremment mes pensées intimes",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

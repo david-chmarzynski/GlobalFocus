@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI070",
+  "title": "Je ne pense pas que ce soit une bonne idéee d'aider les gens faibles qui ne peuvent pas s'aider aux memes",
+  "text": "Je ne pense pas que ce soit une bonne idéee d'aider les gens faibles qui ne peuvent pas s'aider aux memes",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

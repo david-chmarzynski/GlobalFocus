@@ -1,0 +1,28 @@
+{
+  "oid": "FTI046",
+  "title": "Je me surprends souvent à rêver.",
+  "text": "Je me surprends souvent à rêver.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI046 == 0",
+      "tagOID": "prosocial",
+      "value": 1
+    },
+    {
+      "conditions": "FTI046 == 1",
+      "tagOID": "prosocial",
+      "value": 0
+    }
+  ]
+}

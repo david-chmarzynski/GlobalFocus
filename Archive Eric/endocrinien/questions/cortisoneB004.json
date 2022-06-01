@@ -1,0 +1,46 @@
+{
+  "oid": "cortisoneB004",
+  "title": "J'ai tendance à avoir des ecchymoses",
+  "text": "J'ai tendance à avoir des ecchymoses",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "De temps en temps"
+    },
+    {
+      "code": "2",
+      "text": "Régulièrement"
+    },
+    {
+      "code": "3",
+      "text": "En permanence"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "cortisoneB004 == \"0\"",
+      "tagOID": "tag_cortisone_B",
+      "value": 0
+    },
+    {
+      "conditions": "cortisoneB004 == \"1\"",
+      "tagOID": "tag_cortisone_B",
+      "value": 1
+    },
+    {
+      "conditions": "cortisoneB004 == \"2\"",
+      "tagOID": "tag_cortisone_B",
+      "value": 2
+    },
+    {
+      "conditions": "cortisoneB004 == \"3\"",
+      "tagOID": "tag_cortisone_B",
+      "value": 3
+    }
+  ]
+}

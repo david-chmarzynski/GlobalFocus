@@ -1,0 +1,50 @@
+{
+  "oid": "VSomAideMédicament1",
+  "title": "Sur ces 3 derniers mois, avez-vous eu besoin d’un médicament sur ordonnance (somnifère, anxiolytique…) pour dormir ?",
+  "text": "Sur ces 3 derniers mois, avez-vous eu besoin d’un médicament sur ordonnance (somnifère, anxiolytique…) pour dormir ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais (ou presque)"
+    },
+    {
+      "code": "1",
+      "text": "Rarement (1 à 3 fois mois maximum)"
+    },
+    {
+      "code": "2",
+      "text": "Assez souvent (1 à 2 fois par semaine)"
+    },
+    {
+      "code": "3",
+      "text": "Souvent (3 fois/semaine et plus)"
+    },
+    {
+      "code": "4",
+      "text": "Tous les soirs (ou presque)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomAideMédicament1 == 0",
+      "tagOID": "Médicament_fréquence",
+      "value": 0
+    },
+    {
+      "conditions": "VSomAideMédicament1 == 1",
+      "tagOID": "Médicament_fréquence",
+      "value": 1
+    },
+    {
+      "conditions": "VSomAideMédicament1 == 2",
+      "tagOID": "Médicament_fréquence",
+      "value": 2
+    },
+    {
+      "conditions": "VSomAideMédicament1 == 3 || VSomAideMédicament1 == 4",
+      "tagOID": "Médicament_fréquence",
+      "value": 3
+    }
+  ]
+}

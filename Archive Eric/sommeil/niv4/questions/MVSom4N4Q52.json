@@ -1,0 +1,145 @@
+{
+  "oid": "MVSom4N4Q52",
+  "title": "A cause de mon manque de bon sommeil : (plusieurs choix possibles)",
+  "text": "A cause de mon manque de bon sommeil : (plusieurs choix possibles)",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Je suis fatigué au collège ou au lycée"
+    },
+    {
+      "code": "1",
+      "text": "J’ai envie de dormir en classe"
+    },
+    {
+      "code": "2",
+      "text": "J’ai du mal à réfléchir, à me concentrer"
+    },
+    {
+      "code": "3",
+      "text": "J’ai du mal à suivre les cours"
+    },
+    {
+      "code": "4",
+      "text": "J’ai du mal à suivre les cours"
+    },
+    {
+      "code": "5",
+      "text": "Je m’énerve facilement"
+    },
+    {
+      "code": "6",
+      "text": "J’ai des difficultés avec ma mémoire"
+    },
+    {
+      "code": "7",
+      "text": "Je n’ai pas envie de faire du sport"
+    },
+    {
+      "code": "8",
+      "text": "J’ai besoin de faire la sieste"
+    },
+    {
+      "code": "9",
+      "text": "Il n’y a pas grand-chose qui m’intéresse"
+    },
+    {
+      "code": "10",
+      "text": "Je me sens découragé(e)"
+    },
+    {
+      "code": "11",
+      "text": "Je n’ai pas le moral, je me sens triste"
+    },
+    {
+      "code": "12",
+      "text": "Il y a des fois, j’ai envie de mourir"
+    },
+    {
+      "code": "13",
+      "text": "J’ai de mauvaises notes"
+    },
+    {
+      "code": "14",
+      "text": "J’ai envie d’abandonner mes études"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom4N4Q52 == 0",
+      "tagOID": "MVSomN4-52",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom4N4Q52 == 1",
+      "tagOID": "MVSomN4-52",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom4N4Q52 == 2",
+      "tagOID": "MVSomN4-52",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom4N4Q52 == 3",
+      "tagOID": "MVSomN4-52",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom4N4Q52 == 4",
+      "tagOID": "MVSomN4-52",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom4N4Q52 == 5",
+      "tagOID": "MVSomN4-52",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom4N4Q52 == 6",
+      "tagOID": "MVSomN4-52",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom4N4Q52 == 7",
+      "tagOID": "MVSomN4-52",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom4N4Q52 == 8",
+      "tagOID": "MVSomN4-52",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom4N4Q52 == 9",
+      "tagOID": "MVSomN4-52",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom4N4Q52 == 10",
+      "tagOID": "MVSomN4-52",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom4N4Q52 == 11",
+      "tagOID": "MVSomN4-52",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom4N4Q52 == 12",
+      "tagOID": "MVSomN4-52",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom4N4Q52 == 13",
+      "tagOID": "MVSomN4-52",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom4N4Q52 == 14",
+      "tagOID": "MVSomN4-52",
+      "value": 1
+    }
+  ]
+}

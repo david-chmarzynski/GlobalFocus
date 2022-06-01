@@ -1,0 +1,28 @@
+{
+  "oid": "GOBTRT004",
+  "title": "Vous est-il arrivé de prendre votre traitement avec retard par rapport à l'heure habituelle ?",
+  "text": "Vous est-il arrivé de prendre votre traitement avec retard par rapport à l'heure habituelle ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "tagOID": "observance traitement",
+      "conditions": "GOBTRT004 == 0",
+      "value": 1
+    },
+    {
+      "tagOID": "observance traitement",
+      "conditions": "GOBTRT004 >= 1",
+      "value": 0
+    }
+  ]
+}

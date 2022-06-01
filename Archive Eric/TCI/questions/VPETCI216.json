@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI216",
+  "title": "Je ne pense pas qu'il soit possible de partager les sentiments de quelqu'un qui n'a vécu les memes expériences que soi",
+  "text": "Je ne pense pas qu'il soit possible de partager les sentiments de quelqu'un qui n'a vécu les memes expériences que soi",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

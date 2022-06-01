@@ -1,0 +1,46 @@
+{
+  "oid": "BDI011",
+  "title": "Êtes-vous plus plus irrité qu'auparavant ?",
+  "text": "Êtes-vous plus plus irrité qu'auparavant ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Je ne suis pas plus irrité(e) maintenant qu'auparavant"
+    },
+    {
+      "code": "1",
+      "text": "Je suis agacé(e) ou irrité(e) plus facilement maintenant qu'auparavant"
+    },
+    {
+      "code": "2",
+      "text": "Je suis continuellement irrité(e)"
+    },
+    {
+      "code": "3",
+      "text": "Je ne suis plus du tout irrité(e) par les choses qui m'irritaient auparavant"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "BDI011 == \"0\"",
+      "tagOID": "tag_BDI",
+      "value": 0
+    },
+    {
+      "conditions": "BDI011 == \"1\"",
+      "tagOID": "tag_BDI",
+      "value": 1
+    },
+    {
+      "conditions": "BDI011 == \"2\"",
+      "tagOID": "tag_BDI",
+      "value": 2
+    },
+    {
+      "conditions": "BDI011 == \"3\"",
+      "tagOID": "tag_BDI",
+      "value": 3
+    }
+  ]
+}

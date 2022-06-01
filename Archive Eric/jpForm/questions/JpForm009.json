@@ -1,0 +1,50 @@
+{
+  "oid": "JpForm009",
+  "title": "Votre besoin de sexe est-il source de souffrance (honte, culpabilité, inquiétudes, ...) ?",
+  "text": "Votre besoin de sexe est-il source de souffrance (honte, culpabilité, inquiétudes, ...) ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Tout à fait d'accord"
+    },
+    {
+      "code": "1",
+      "text": "Plutot d'accord"
+    },
+    {
+      "code": "2",
+      "text": "Ni d'accord ni pas d'accord"
+    },
+    {
+      "code": "3",
+      "text": "Plutot pas d'accord"
+    },
+    {
+      "code": "4",
+      "text": "Vraiment pas d'accord"
+    }
+  ],
+  "scores": [
+    {
+      "tagOID": "souffrance/addiction sexe",
+      "conditions": "JpForm009 == '0' || JpForm009 == '1'",
+      "value": 3
+    },
+    {
+      "tagOID": "souffrance/addiction sexe",
+      "conditions": "JpForm009 == '2'",
+      "value": 2
+    },
+    {
+      "tagOID": "souffrance/addiction sexe",
+      "conditions": "JpForm009 == '3'",
+      "value": 1
+    },
+    {
+      "tagOID": "souffrance/addiction sexe",
+      "conditions": "JpForm009 == '4'",
+      "value": 0
+    }
+  ]
+}

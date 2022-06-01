@@ -1,0 +1,43 @@
+{
+  "oid": "staiForm",
+  "title": "staiForm",
+  "estimatedTime": 5,
+  "pricing": 0,
+  "description": "Questionnaire Stai Form Y-A et Y-B",
+  "levelMax": 1,
+  "authors": ["Eric Liu"],
+  "chapters": ["chap_staiForm"],
+  "professions": ["DENTIST"],
+  "reportingTrees": [
+    {
+      "category": "LIFE_STYLE",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "staiFormYA",
+        "type": "SCORE",
+        "ranges": [
+          { "min": 0.0, "max": 35.1, "color": "00FF00" },
+          { "min": 35.9, "max": 45.1, "color": "FFFF00" },
+          { "min": 45.9, "max": 55.1, "color": "FFA500" },
+          { "min": 55.9, "max": 65.1, "color": "FF0000" },
+          { "min": 65.9, "max": 80.1, "color": "850606" }
+        ]
+      }
+    },
+    {
+      "category": "LIFE_STYLE",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "staiFormYB",
+        "type": "SCORE",
+        "ranges": [
+          { "min": 0.0, "max": 35.1, "color": "00FF00" },
+          { "min": 35.9, "max": 45.1, "color": "FFFF00" },
+          { "min": 45.9, "max": 55.1, "color": "FFA500" },
+          { "min": 55.9, "max": 65.1, "color": "FF0000" },
+          { "min": 65.9, "max": 80.1, "color": "850606" }
+        ]
+      }
+    }
+  ]
+}

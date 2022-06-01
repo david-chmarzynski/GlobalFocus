@@ -1,0 +1,44 @@
+{
+  "oid": "EQVOD017",
+  "title": "J'ai honte de mon poids. ",
+  "text": "J'ai honte de mon poids. ",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 1.0,
+    "max": 5.0,
+    "step": 1.0,
+    "maxText": "jamais/pas du tout",
+    "maxValue": "5",
+    "midText": "parfois/modérément",
+    "midValue": "3",
+    "minText": "toujours/énormément",
+    "minValue": "1"
+  },
+  "scores": [
+    {
+      "conditions": "EQVOD017 == 1",
+      "tagOID": "EQVOD",
+      "value": 1.8
+    },
+    {
+      "conditions": "EQVOD017 == 2",
+      "tagOID": "EQVOD",
+      "value": 3.6
+    },
+    {
+      "conditions": "EQVOD017 == 3",
+      "tagOID": "EQVOD",
+      "value": 5.4
+    },
+    {
+      "conditions": "EQVOD017 == 4",
+      "tagOID": "EQVOD",
+      "value": 7.2
+    },
+    {
+      "conditions": "EQVOD017 == 5",
+      "tagOID": "EQVOD",
+      "value": 9.0
+    }
+  ]
+}

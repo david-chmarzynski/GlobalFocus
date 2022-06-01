@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI052",
+  "title": "Dans les conversations, je suis bien meilleur(e) lorsque j'écoute que lorsque je parle",
+  "text": "Dans les conversations, je suis bien meilleur(e) lorsque j'écoute que lorsque je parle",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI102",
+  "title": "Je manque de temps pour rechercher des solutions durables à mes problèmes",
+  "text": "Je manque de temps pour rechercher des solutions durables à mes problèmes",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

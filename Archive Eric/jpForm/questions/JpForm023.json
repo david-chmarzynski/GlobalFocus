@@ -1,0 +1,46 @@
+{
+  "oid": "JpForm023",
+  "title": "A quel point etes-vous satisfait de votre relation affection avec votre partenaire (tendresse, compréhension, écoute, complicité) ?",
+  "text": "A quel point etes-vous satisfait de votre relation affection avec votre partenaire (tendresse, compréhension, écoute, complicité) ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfait"
+    },
+    {
+      "code": "1",
+      "text": "Ni satisfait, ni insatisfait"
+    },
+    {
+      "code": "2",
+      "text": "Plutot insatisfait"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfait"
+    }
+  ],
+  "scores": [
+    {
+      "tagOID": "qualite de la relation affective pendant une activite sexuelle",
+      "conditions": "JpForm023 == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "qualite de la relation affective pendant une activite sexuelle",
+      "conditions": "JpForm023 == '1'",
+      "value": 1
+    },
+    {
+      "tagOID": "qualite de la relation affective pendant une activite sexuelle",
+      "conditions": "JpForm023 == '2'",
+      "value": 2
+    },
+    {
+      "tagOID": "qualite de la relation affective pendant une activite sexuelle",
+      "conditions": "JpForm023 == '3'",
+      "value": 3
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "oid": "thyroidienB002",
+  "title": "J'ai une transppiration excessive",
+  "text": "J'ai une transppiration excessive",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "De temps en temps"
+    },
+    {
+      "code": "2",
+      "text": "Régulièrement"
+    },
+    {
+      "code": "3",
+      "text": "En permanence"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "thyroidienB002 == \"0\"",
+      "tagOID": "tag_thyroidien_B",
+      "value": 0
+    },
+    {
+      "conditions": "thyroidienB002 == \"1\"",
+      "tagOID": "tag_thyroidien_B",
+      "value": 1
+    },
+    {
+      "conditions": "thyroidienB002 == \"2\"",
+      "tagOID": "tag_thyroidien_B",
+      "value": 2
+    },
+    {
+      "conditions": "thyroidienB002 == \"3\"",
+      "tagOID": "tag_thyroidien_B",
+      "value": 3
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "oid": "staiFormYA018",
+  "title": "Je ne sais plus ou j'en suis, je me sens déconcerté(e)",
+  "text": "Je ne sais plus ou j'en suis, je me sens déconcerté(e)",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Non"
+    },
+    {
+      "code": "2",
+      "text": "Plutot non"
+    },
+    {
+      "code": "3",
+      "text": "Plutot oui"
+    },
+    {
+      "code": "4",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "staiFormYA018 == \"1\"",
+      "tagOID": "staiFormYA",
+      "value": 1
+    },
+    {
+      "conditions": "staiFormYA018 == \"2\"",
+      "tagOID": "staiFormYA",
+      "value": 2
+    },
+    {
+      "conditions": "staiFormYA018 == \"3\"",
+      "tagOID": "staiFormYA",
+      "value": 3
+    },
+    {
+      "conditions": "staiFormYA018 == \"4\"",
+      "tagOID": "staiFormYA",
+      "value": 4
+    }
+  ]
+}

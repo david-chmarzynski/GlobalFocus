@@ -1,0 +1,28 @@
+{
+  "oid": "MVSom4N4Q67",
+  "title": "Avez-vous un membre éloigné de votre famille (grand-parent, oncle, tante, cousin, petit enfant) qui présente des cauchemars ?",
+  "text": "Avez-vous un membre éloigné de votre famille (grand-parent, oncle, tante, cousin, petit enfant) qui présente des cauchemars ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom4N4Q67 == 0",
+      "tagOID": "MVSomN4-67",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom4N4Q67 == 1",
+      "tagOID": "MVSomN4-67",
+      "value": 1
+    }
+  ]
+}

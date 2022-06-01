@@ -1,0 +1,11 @@
+{
+  "oid": "MIDAS005",
+  "title": "Au cours des trois derniers mois, pendant combien de jours avez-vous renoncé à desactivités familiales, sociales ou de loisirs en raison de vos maux de tête ?",
+  "text": "Au cours des trois derniers mois, pendant combien de jours avez-vous renoncé à desactivités familiales, sociales ou de loisirs en raison de vos maux de tête ?",
+  "type": "DECIMAL",
+  "scale": {
+    "min": 0.0,
+    "max": 92.0,
+    "step": 1.0
+  }
+}

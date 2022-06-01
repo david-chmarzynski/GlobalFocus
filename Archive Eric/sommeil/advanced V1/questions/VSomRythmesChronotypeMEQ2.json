@@ -1,0 +1,55 @@
+{
+  "oid": "VSomRythmesChronotypeMEQ2",
+  "title": "Si vous étiez entièrement libre de planifier votre soirée, à quelle heure environvous coucheriez-vous?",
+  "text": "Si vous étiez entièrement libre de planifier votre soirée, à quelle heure environvous coucheriez-vous?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "20h00 – 21h00"
+    },
+    {
+      "code": "1",
+      "text": "21h00 – 22h15"
+    },
+    {
+      "code": "2",
+      "text": "22h15 – 00h30"
+    },
+    {
+      "code": "3",
+      "text": "00h30 – 01h45"
+    },
+    {
+      "code": "4",
+      "text": "01h45 – 03h00"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomRythmesChronotypeMEQ2 == 0",
+      "tagOID": "ChronotypeMEQ",
+      "value": 5
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ2 == 1",
+      "tagOID": "ChronotypeMEQ",
+      "value": 4
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ2 == 2",
+      "tagOID": "ChronotypeMEQ",
+      "value": 3
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ2 == 3",
+      "tagOID": "ChronotypeMEQ",
+      "value": 2
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ2 == 4",
+      "tagOID": "ChronotypeMEQ",
+      "value": 1
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "oid": "SSYFATI005",
+  "title": "La fatigue interfère avec mon activité physique",
+  "text": "La fatigue interfère avec mon activité physique",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 1.0,
+    "max": 7.0,
+    "step": 1.0,
+    "maxText": "Cela me correpond tout à fait",
+    "maxValue": "7",
+    "minText": "Cela ne me correspond pas",
+    "minValue": "1"
+  },
+  "scores": [
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI005 == 1",
+      "value": 1
+    },
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI005 == 2",
+      "value": 2
+    },
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI005 == 3",
+      "value": 3
+    },
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI005 == 4",
+      "value": 4
+    },
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI005 == 5",
+      "value": 5
+    },
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI005 == 6",
+      "value": 6
+    },
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI005 == 7",
+      "value": 7
+    }
+  ]
+}

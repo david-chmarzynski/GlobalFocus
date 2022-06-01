@@ -1,0 +1,37 @@
+{
+  "oid": "DN4003",
+  "title": "La douleur est-elle localisée dasn un territoire ou l'examen met en évidence :",
+  "text": "La douleur est-elle localisée dasn un territoire ou l'examen met en évidence :",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Hypoesthésie au tact"
+    },
+    {
+      "code": "1",
+      "text": "Hypoesthésie à la piqure"
+    },
+    {
+      "code": "2",
+      "text": "Aucun"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "DN4003 == 0 && DN4003 == 1",
+      "tagOID": "DN4",
+      "value": 2
+    },
+    {
+      "conditions": "DN4003 == 0 || DN4003 == 1",
+      "tagOID": "DN4",
+      "value": 1
+    },
+    {
+      "conditions": "DN4003 == 2",
+      "tagOID": "DN4",
+      "value": 0
+    }
+  ]
+}

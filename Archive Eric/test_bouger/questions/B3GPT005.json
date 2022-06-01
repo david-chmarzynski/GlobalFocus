@@ -1,0 +1,11 @@
+{
+  "oid": "B3GPT005",
+  "title": "Habituellement, combien de jours par semaine effectuez-vous des activités physiques d’intensité modérée dans le cadre de votre travail ?",
+  "text": "Habituellement, combien de jours par semaine effectuez-vous des activités physiques d’intensité modérée dans le cadre de votre travail ?",
+  "type": "DECIMAL",
+  "scale": {
+    "min": 0.0,
+    "max": 7.0,
+    "step": 1.0
+  }
+}

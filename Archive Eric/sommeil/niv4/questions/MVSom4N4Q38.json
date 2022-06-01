@@ -1,0 +1,46 @@
+{
+  "oid": "MVSom4N4Q38",
+  "title": "Votre sieste vous permet-elle de récupérer votre énergie ?",
+  "text": "Votre sieste vous permet-elle de récupérer votre énergie ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Plutôt oui"
+    },
+    {
+      "code": "2",
+      "text": "Plutôt non"
+    },
+    {
+      "code": "3",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom4N4Q38 == 0",
+      "tagOID": "MVSomN4-38",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom4N4Q38 == 1",
+      "tagOID": "MVSomN4-38",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom4N4Q38 == 2",
+      "tagOID": "MVSomN4-38",
+      "value": 2
+    },
+    {
+      "conditions": "MVSom4N4Q38 == 3",
+      "tagOID": "MVSomN4-38",
+      "value": 3
+    }
+  ]
+}

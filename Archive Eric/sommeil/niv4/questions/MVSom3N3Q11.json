@@ -1,0 +1,50 @@
+{
+  "oid": "MVSom3N3Q11",
+  "title": "Sur ces 3 derniers mois, vous réveillez-vous fréquemment ou pour de longues périodes au milieu de la nuit ?",
+  "text": "Sur ces 3 derniers mois, vous réveillez-vous fréquemment ou pour de longues périodes au milieu de la nuit ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais (ou presque)"
+    },
+    {
+      "code": "1",
+      "text": "1 à 3 fois/mois"
+    },
+    {
+      "code": "2",
+      "text": "1 à 2 fois/semaine"
+    },
+    {
+      "code": "3",
+      "text": "3 à 5 fois par semaine"
+    },
+    {
+      "code": "4",
+      "text": "Tous les soirs (ou presque)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom3N3Q11 == 0",
+      "tagOID": "MVSomN3-11",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom3N3Q11 == 1",
+      "tagOID": "MVSomN3-11",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom3N3Q11 == 2",
+      "tagOID": "MVSomN3-11",
+      "value": 2
+    },
+    {
+      "conditions": "MVSom3N3Q11 == 3 || MVSom3N3Q11 == 4",
+      "tagOID": "MVSomN3-11",
+      "value": 3
+    }
+  ]
+}

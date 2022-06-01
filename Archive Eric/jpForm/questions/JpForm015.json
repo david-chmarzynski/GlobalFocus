@@ -1,0 +1,46 @@
+{
+  "oid": "JpForm015",
+  "title": "Ces 6 derniers mois, avez-vous eu des difficultés de lubrification (humidité) du vagin lors d'un rapport sexuel ?",
+  "text": "Ces 6 derniers mois, avez-vous eu des difficultés de lubrification (humidité) du vagin lors d'un rapport sexuel ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Symptome absent"
+    },
+    {
+      "code": "1",
+      "text": "Symptome peu genant (gravité légère)"
+    },
+    {
+      "code": "2",
+      "text": "Symptome assez genant (gravité moyenne)"
+    },
+    {
+      "code": "3",
+      "text": "Symptome genant (grave)"
+    }
+  ],
+  "scores": [
+    {
+      "tagOID": "erection lubrification",
+      "conditions": "JpForm015 == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "erection lubrification",
+      "conditions": "JpForm015 == '1'",
+      "value": 1
+    },
+    {
+      "tagOID": "erection lubrification",
+      "conditions": "JpForm015 == '2'",
+      "value": 2
+    },
+    {
+      "tagOID": "erection lubrification",
+      "conditions": "JpForm015 == '3'",
+      "value": 3
+    }
+  ]
+}

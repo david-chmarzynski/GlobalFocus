@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI014",
+  "title": "Je fais habituellemnt les choses à ma facon plutot qu'en fonction des souhaits des autres",
+  "text": "Je fais habituellemnt les choses à ma facon plutot qu'en fonction des souhaits des autres",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

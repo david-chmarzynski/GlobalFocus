@@ -1,0 +1,178 @@
+{
+  "oid": "endocrinien",
+  "title": "endocrinien",
+  "estimatedTime": 1,
+  "pricing": 0,
+  "description": "endocrinien",
+  "levelMax": 1,
+  "authors": ["Eric Liu"],
+  "chapters": ["chap_endocrinien"],
+  "professions": ["DENTIST"],
+  "reportingTrees": [
+    {
+      "category": "HEALTH",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "tag_endocrinien",
+        "type": "SCORE",
+        "ranges": [{ "min": -0.1, "max": 0.1, "color": "7f7f7f" }],
+        "children": [
+          {
+            "tagOID": "tag_thyroidien_A",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 19.1, "color": "00FF00" },
+              { "min": 19.9, "max": 38.1, "color": "FFFF00" },
+              { "min": 38.9, "max": 57.1, "color": "FFA500" },
+              { "min": 57.9, "max": 75.1, "color": "FF0000" },
+              { "min": 99.9, "max": 118.1, "color": "00FF00" },
+              { "min": 118.9, "max": 136.1, "color": "FFFF00" },
+              { "min": 136.9, "max": 154.1, "color": "FFA500" },
+              { "min": 154.9, "max": 172.1, "color": "FF0000" }
+            ]
+          },
+          {
+            "tagOID": "tag_thyroidien_B",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 6.1, "color": "00FF00" },
+              { "min": 6.9, "max": 12.1, "color": "FFFF00" },
+              { "min": 12.9, "max": 18.1, "color": "FFA500" },
+              { "min": 18.9, "max": 24.1, "color": "FF0000" }
+            ]
+          },
+          {
+            "tagOID": "tag_cortisone_A",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 9.1, "color": "00FF00" },
+              { "min": 9.9, "max": 18.1, "color": "FFFF00" },
+              { "min": 18.9, "max": 27.1, "color": "FFA500" },
+              { "min": 27.9, "max": 35.1, "color": "FF0000" },
+              { "min": 99.9, "max": 107.1, "color": "00FF00" },
+              { "min": 107.9, "max": 114.1, "color": "FFFF00" },
+              { "min": 114.9, "max": 121.1, "color": "FFA500" },
+              { "min": 121.9, "max": 129.1, "color": "FF0000" }
+            ]
+          },
+          {
+            "tagOID": "tag_cortisone_B",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 4.1, "color": "00FF00" },
+              { "min": 4.9, "max": 8.1, "color": "FFFF00" },
+              { "min": 8.9, "max": 12.1, "color": "FFA500" },
+              { "min": 12.9, "max": 15.1, "color": "FF0000" }
+            ]
+          },
+          {
+            "tagOID": "tag_melatonine_A",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 4.1, "color": "00FF00" },
+              { "min": 4.9, "max": 8.1, "color": "FFFF00" },
+              { "min": 8.9, "max": 12.1, "color": "FFA500" },
+              { "min": 12.9, "max": 16.1, "color": "FF0000" }
+            ]
+          },
+          {
+            "tagOID": "tag_melatonine_B",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 3.1, "color": "00FF00" },
+              { "min": 3.9, "max": 5.1, "color": "FFFF00" },
+              { "min": 5.9, "max": 7.1, "color": "FFA500" },
+              { "min": 7.9, "max": 9.1, "color": "FF0000" }
+            ]
+          },
+          {
+            "tagOID": "tag_hormone_sexuelle1A",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 10.1, "color": "00FF00" },
+              { "min": 10.9, "max": 20.1, "color": "FFFF00" },
+              { "min": 20.9, "max": 29.1, "color": "FFA500" },
+              { "min": 29.9, "max": 38.1, "color": "FF0000" },
+              { "min": 99.9, "max": 108.1, "color": "00FF00" },
+              { "min": 108.9, "max": 116.1, "color": "FFFF00" },
+              { "min": 116.9, "max": 124.1, "color": "FFA500" },
+              { "min": 124.9, "max": 132.1, "color": "FF0000" }
+            ]
+          },
+          {
+            "tagOID": "tag_hormone_sexuelle1B",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 6.1, "color": "00FF00" },
+              { "min": 6.9, "max": 12.1, "color": "FFFF00" },
+              { "min": 12.9, "max": 17.1, "color": "FFA500" },
+              { "min": 17.9, "max": 22.1, "color": "FF0000" },
+              { "min": 99.9, "max": 103.1, "color": "00FF00" },
+              { "min": 103.9, "max": 106.1, "color": "FFFF00" },
+              { "min": 106.9, "max": 109.1, "color": "FFA500" },
+              { "min": 109.9, "max": 114.1, "color": "FF0000" }
+            ]
+          },
+          {
+            "tagOID": "tag_hormone_sexuelle2",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 8.1, "color": "00FF00" },
+              { "min": 8.9, "max": 16.1, "color": "FFFF00" },
+              { "min": 16.9, "max": 24.1, "color": "FFA500" },
+              { "min": 24.9, "max": 32.1, "color": "FF0000" },
+              { "min": 99.9, "max": 109.1, "color": "00FF00" },
+              { "min": 109.9, "max": 118.1, "color": "FFFF00" },
+              { "min": 118.9, "max": 127.1, "color": "FFA500" },
+              { "min": 127.9, "max": 135.1, "color": "FF0000" }
+            ]
+          },
+          {
+            "tagOID": "tag_hormone_sexuelle3",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 7.1, "color": "00FF00" },
+              { "min": 7.9, "max": 13.1, "color": "FFFF00" },
+              { "min": 13.9, "max": 19.1, "color": "FFA500" },
+              { "min": 20.9, "max": 25.1, "color": "FF0000" },
+              { "min": 99.9, "max": 100.1, "color": "00FF00" },
+              { "min": 100.9, "max": 101.1, "color": "FFFF00" },
+              { "min": 101.9, "max": 102.1, "color": "FFA500" },
+              { "min": 102.9, "max": 104.1, "color": "FF0000" }
+            ]
+          },
+          {
+            "tagOID": "tag_aldosterone_A",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 3.1, "color": "00FF00" },
+              { "min": 3.9, "max": 6.1, "color": "FFFF00" },
+              { "min": 6.9, "max": 9.1, "color": "FFA500" },
+              { "min": 9.9, "max": 12.1, "color": "FF0000" }
+            ]
+          },
+          {
+            "tagOID": "tag_aldosterone_B",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 2.1, "color": "00FF00" },
+              { "min": 2.9, "max": 4.1, "color": "FFFF00" },
+              { "min": 4.9, "max": 5.1, "color": "FFA500" },
+              { "min": 3.9, "max": 4.1, "color": "FF0000" }
+            ]
+          },
+          {
+            "tagOID": "tag_insuline",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 11.1, "color": "00FF00" },
+              { "min": 11.9, "max": 21.1, "color": "FFFF00" },
+              { "min": 21.9, "max": 31.1, "color": "FFA500" },
+              { "min": 31.9, "max": 41.1, "color": "FF0000" }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

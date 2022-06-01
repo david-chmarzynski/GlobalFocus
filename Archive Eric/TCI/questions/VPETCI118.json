@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI118",
+  "title": "Je pense que la plupart des événements que l'on prend pour des miracles ne surviennent en réalité que par hasard",
+  "text": "Je pense que la plupart des événements que l'on prend pour des miracles ne surviennent en réalité que par hasard",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

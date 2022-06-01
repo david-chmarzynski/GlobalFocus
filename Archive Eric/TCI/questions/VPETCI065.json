@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI065",
+  "title": "Quel que soit le problème que j'aie à résoudre, je pense toujours que les choses évolueront bien",
+  "text": "Quel que soit le problème que j'aie à résoudre, je pense toujours que les choses évolueront bien",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

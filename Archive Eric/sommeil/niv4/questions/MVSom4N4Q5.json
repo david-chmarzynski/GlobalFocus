@@ -1,0 +1,22 @@
+{
+  "oid": "MVSom4N4Q5",
+  "title": "Avez-vous confiance dans votre capacité à diminuer la prise d'aide pour dormir ?",
+  "text": "Avez-vous confiance dans votre capacité à diminuer la prise d'aide pour dormir ?",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 0.0,
+    "max": 10.0,
+    "step": 1.0,
+    "maxText": "Tout à fait confiance",
+    "maxValue": "10",
+    "minText": "Pas du tout confiance",
+    "minValue": "0"
+  },
+  "scores": [
+    {
+      "conditions": "MVSom4N4Q5 != -1",
+      "tagOID": "MVSomN4-5",
+      "value": -1
+    }
+  ]
+}

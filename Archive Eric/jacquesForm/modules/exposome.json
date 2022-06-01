@@ -1,0 +1,21 @@
+{
+    "oid": "exposome0",
+    "title": "exposome",
+    "questions": [
+        { "question": "E2001", "level": 1 },
+        { "question": "E2002", "level": 1 },
+        { "question": "E3111", "level": 1 },
+        { "question": "E3121", "level": 1 },
+        { "question": "E3131", "level": 1 },
+        { "question": "E3141", "level": 1 },
+        { "question": "E3151", "level": 1 },
+        { "question": "E3161", "level": 1 },
+        { "question": "E3171", "level": 1 },
+        { "question": "E3181", "level": 1 },
+        { "question": "E3191", "level": 1 },
+        { "question": "E3201", "level": 1 },
+        { "question": "E3211", "level": 1 },
+        { "question": "E3221", "level": 1 },
+        { "question": "E3231", "level": 1 }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+  "oid": "A3106",
+  "title": "Alimentation",
+  "text": "Combien en moyenne consommez-vous de portions de boissons alcoolisées par semaine ? 1 portion = « mettre image équivalences »",
+  "type": "DECIMAL",
+  "scale": {
+    "min": 0,
+    "max": 1,
+    "step": 100
+  }
+}

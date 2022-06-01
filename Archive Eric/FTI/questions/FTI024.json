@@ -1,0 +1,28 @@
+{
+  "oid": "FTI024",
+  "title": "Les gens devraient se comporter de manière moralement correcte",
+  "text": "Les gens devraient se comporter de manière moralement correcte",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI024 == 0",
+      "tagOID": "conformité",
+      "value": 1
+    },
+    {
+      "conditions": "FTI024 == 1",
+      "tagOID": "conformité",
+      "value": 0
+    }
+  ]
+}

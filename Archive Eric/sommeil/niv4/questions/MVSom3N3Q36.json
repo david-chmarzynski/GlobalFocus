@@ -1,0 +1,28 @@
+{
+  "oid": "MVSom3N3Q36",
+  "title": "Difficulté d’endormissement et de maintien du sommeil avec réveils nocturnes fréquents et/ou durables à l’origine d’une fatigue et de difficultés dans la vie professionnelle et familiale",
+  "text": "Difficulté d’endormissement et de maintien du sommeil avec réveils nocturnes fréquents et/ou durables à l’origine d’une fatigue et de difficultés dans la vie professionnelle et familiale",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom3N3Q36 == 0",
+      "tagOID": "MVSomN3-36",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom3N3Q36 == 1",
+      "tagOID": "MVSomN3-36",
+      "value": 1
+    }
+  ]
+}

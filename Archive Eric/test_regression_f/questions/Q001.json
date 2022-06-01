@@ -1,0 +1,33 @@
+{
+    "oid": "Q001_regress_f",
+    "title": "Sur une échelle de 0 à 10, à quel point ces maux de tête ont-ils, en moyenne, étédouloureux? (0 = aucune douleur et 10 = douleur la plus intense qui soit)",
+    "text": "Sur une échelle de 0 à 10, à quel point ces maux de tête ont-ils, en moyenne, étédouloureux? (0 = aucune douleur et 10 = douleur la plus intense qui soit)",
+    "type": "ANALOG_SCALE",
+    "scale": {
+      "min": 0.0,
+      "max": 10.0,
+      "step": 1.0,
+      "maxText": "Douleur la plus intense qui soit",
+      "maxValue": "10",
+      "minText": "Aucune douleur",
+      "minValue": "0"
+    },
+    "scores": [
+      {
+        "conditions": "Q001_regress_f >= \"9\"",
+        "tagOID": "tag_douleur_regress_f",
+        "value": 2
+      },
+      {
+        "conditions": "Q001_regress_f < \"9\" && Q001_regress_f >= \"7\" ",
+        "tagOID": "tag_douleur_regress_f",
+        "value": 1
+      },
+      {
+        "conditions": "Q001_regress_f < \"7\"",
+        "tagOID": "tag_douleur_regress_f",
+        "value": 0
+      }
+    ]
+  }
+  

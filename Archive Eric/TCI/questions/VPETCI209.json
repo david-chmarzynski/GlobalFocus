@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI209",
+  "title": "Les expériences mystiques ne sont probablement que des désirs pris pour des réalités",
+  "text": "Les expériences mystiques ne sont probablement que des désirs pris pour des réalités",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

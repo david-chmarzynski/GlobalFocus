@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI152",
+  "title": "Je passe la plupart de mon temps à faire des choses qui semblent nécessaires mais qui ne sont pas en fait réellement importantes pour moi",
+  "text": "Je passe la plupart de mon temps à faire des choses qui semblent nécessaires mais qui ne sont pas en fait réellement importantes pour moi",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

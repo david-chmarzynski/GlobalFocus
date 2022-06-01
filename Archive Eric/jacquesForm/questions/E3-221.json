@@ -1,0 +1,46 @@
+{
+    "oid": "E3221",
+    "title": "produits chimiques",
+    "text": "Comment évaluez-vous la présence et le contact avec des produits chimiques dans votre environnement de travail (gaz d’échappement, solvants, fumées, poussières, amiante, pesticides, engrais, huile, graisses, dérivés du pétrole, colle, adhésif, papier thermique…) ?",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "0",
+          "text": "Jamais"
+        },
+        {
+          "code": "1",
+          "text": "Rarement"
+        },
+        {
+          "code": "2",
+          "text": "Fréquemment"
+        },
+        {
+          "code": "3",
+          "text": "Très fréquemment"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "E3221 == '0'",
+          "tagOID": "E3-22",
+          "value": 0
+        },
+        {
+          "conditions": "E3221 == '1'",
+          "tagOID": "E3-22",
+          "value": 1
+        },
+        {
+          "conditions": "E3221 == '2'",
+          "tagOID": "E3-22",
+          "value": 2
+        },
+        {
+          "conditions": "E3221 == '3'",
+          "tagOID": "E3-22",
+          "value": 3
+        }
+    ]
+}

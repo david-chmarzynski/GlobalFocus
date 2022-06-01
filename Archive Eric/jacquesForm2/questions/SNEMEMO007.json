@@ -1,0 +1,46 @@
+{
+  "oid": "SNEMEMO007",
+  "title": "Vous arrive-t-il de vous perdre dans des lieux familiers ?",
+  "text": "Vous arrive-t-il de vous perdre dans des lieux familiers ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Rarement"
+    },
+    {
+      "code": "1",
+      "text": "Parfois"
+    },
+    {
+      "code": "2",
+      "text": "La plupart du temps"
+    },
+    {
+      "code": "3",
+      "text": "Très souvent"
+    }
+  ],
+  "scores": [
+    {
+      "tagOID": "memoire",
+      "conditions": "SNEMEMO007 == 0",
+      "value": 0
+    },
+    {
+      "tagOID": "memoire",
+      "conditions": "SNEMEMO007 == 1",
+      "value": 1
+    },
+    {
+      "tagOID": "memoire",
+      "conditions": "SNEMEMO007 == 2",
+      "value": 2
+    },
+    {
+      "tagOID": "memoire",
+      "conditions": "SNEMEMO007 == 3",
+      "value": 3
+    }
+  ]
+}

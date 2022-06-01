@@ -1,0 +1,11 @@
+{
+  "oid": "SAOS012",
+  "title": "taille",
+  "text": "Combien mesurez-vous (en cm) ?",
+  "type": "DECIMAL",
+  "scale": {
+    "min": 1.0,
+    "max": 300.0,
+    "step": 1.0
+  }
+}

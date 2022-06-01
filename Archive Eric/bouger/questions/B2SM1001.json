@@ -1,0 +1,55 @@
+{
+  "oid": "B2SM1001",
+  "title": "Par rapport a votre sédentarité (temps passé en position assise ou couchée, hors sommeil), choisissez la proposition la plus proche de ce que vous ressentez :",
+  "text": "Par rapport a votre sédentarité (temps passé en position assise ou couchée, hors sommeil), choisissez la proposition la plus proche de ce que vous ressentez :",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "J'ai déja diminué ma sédentarité de manière satisfaisante depuis plus de 6 mois"
+    },
+    {
+      "code": "10",
+      "text": "J'ai commencé à diminuer ma sédentarité depuis moins de 6 mois"
+    },
+    {
+      "code": "20",
+      "text": "J'ai l'intention de diminuer ma sédentarité dans le mois qui vient"
+    },
+    {
+      "code": "30",
+      "text": "J'ai l'intention de diminuer ma sédentarité dans les 6 mois qui viennent"
+    },
+    {
+      "code": "40",
+      "text": "Aucune de ces propositions"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "B2SM1001 == \"0\"",
+      "tagOID": "B2SM1",
+      "value": 0
+    },
+    {
+      "conditions": "B2SM1001 == \"10\"",
+      "tagOID": "B2SM1",
+      "value": 10
+    },
+    {
+      "conditions": "B2SM1001 == \"20\"",
+      "tagOID": "B2SM1",
+      "value": 20
+    },
+    {
+      "conditions": "B2SM1001 == \"30\"",
+      "tagOID": "B2SM1",
+      "value": 30
+    },
+    {
+      "conditions": "B2SM1001 == \"40\"",
+      "tagOID": "B2SM1",
+      "value": 40
+    }
+  ]
+}

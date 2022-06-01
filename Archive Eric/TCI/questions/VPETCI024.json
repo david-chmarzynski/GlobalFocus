@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI024",
+  "title": "Je me sens rarement libre de mes choix",
+  "text": "Je me sens rarement libre de mes choix",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

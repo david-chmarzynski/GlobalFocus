@@ -1,0 +1,11 @@
+{
+  "oid": "mod_cardioVasculaire",
+  "title": "mod cardioVasculaire",
+  "questions": [
+    { "question": "cardioVasculaire001", "level": 1 },
+    { "question": "cardioVasculaire002", "level": 1 },
+    { "question": "cardioVasculaire003", "level": 1 },
+    { "question": "cardioVasculaire004", "level": 1 },
+    { "question": "cardioVasculaire005", "level": 1 }
+  ]
+}

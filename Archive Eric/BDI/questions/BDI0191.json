@@ -1,0 +1,28 @@
+{
+  "oid": "BDI0191",
+  "title": "Êtes-vous au régime ?",
+  "text": "Êtes-vous au régime ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "BDI0191 == \"0\"",
+      "tagOID": "tag_BDI",
+      "value": -1
+    },
+    {
+      "conditions": "BDI0191 == \"1\"",
+      "tagOID": "tag_BDI",
+      "value": 0
+    }
+  ]
+}

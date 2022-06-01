@@ -1,0 +1,50 @@
+{
+  "oid": "VSomAide",
+  "title": "Sur ces 3 derniers mois, avez-vous eu besoin d’une aide pour dormir (médicament, mélatonine, plantes, homéopathie…) ?",
+  "text": "Sur ces 3 derniers mois, avez-vous eu besoin d’une aide pour dormir (médicament, mélatonine, plantes, homéopathie…) ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais (ou presque)"
+    },
+    {
+      "code": "1",
+      "text": "Rarement (1 à 3 fois mois maximum)"
+    },
+    {
+      "code": "2",
+      "text": "Assez souvent (1 à 2 fois par semaine)"
+    },
+    {
+      "code": "3",
+      "text": "3 à 5 fois par semaine"
+    },
+    {
+      "code": "4",
+      "text": "Tous les soirs (ou presque)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomAide == 0",
+      "tagOID": "Aide",
+      "value": 0
+    },
+    {
+      "conditions": "VSomAide == 1",
+      "tagOID": "Aide",
+      "value": 1
+    },
+    {
+      "conditions": "VSomAide == 2",
+      "tagOID": "Aide",
+      "value": 2
+    },
+    {
+      "conditions": "VSomAide == 3 || VSomAide == 4",
+      "tagOID": "Aide",
+      "value": 3
+    }
+  ]
+}

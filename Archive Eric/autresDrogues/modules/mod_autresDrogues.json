@@ -1,0 +1,88 @@
+{
+  "oid": "mod_autresDrogues",
+  "title": "mod autresDrogues",
+  "questions": [
+    { "question": "autresDrogues001", "level": 1 },
+    {
+      "question": "autresDrogues002",
+      "level": 1,
+      "trigger": {
+        "conditions": "!('0' in autresDrogues001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "autresDrogues001": "0" }
+      }
+    },
+    {
+      "question": "autresDrogues003",
+      "level": 1,
+      "trigger": {
+        "conditions": "!('1' in autresDrogues001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "autresDrogues001": "0" }
+      }
+    },
+    {
+      "question": "autresDrogues004",
+      "level": 1,
+      "trigger": {
+        "conditions": "!('2' in autresDrogues001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "autresDrogues001": "0" }
+      }
+    },
+    {
+      "question": "autresDrogues005",
+      "level": 1,
+      "trigger": {
+        "conditions": "!('3' in autresDrogues001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "autresDrogues001": "0" }
+      }
+    },
+    {
+      "question": "autresDrogues006",
+      "level": 1,
+      "trigger": {
+        "conditions": "!('4' in autresDrogues001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "autresDrogues001": "0" }
+      }
+    },
+    {
+      "question": "autresDrogues007",
+      "level": 1,
+      "trigger": {
+        "conditions": "!('5' in autresDrogues001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "autresDrogues001": "0" }
+      }
+    },
+    {
+      "question": "autresDrogues008",
+      "level": 1,
+      "trigger": {
+        "conditions": "!('6' in autresDrogues001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "autresDrogues001": "0" }
+      }
+    },
+    {
+      "question": "autresDrogues009",
+      "level": 1,
+      "trigger": {
+        "conditions": "!('7' in autresDrogues001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "autresDrogues001": "0" }
+      }
+    },
+    {
+      "question": "autresDrogues010",
+      "level": 1,
+      "trigger": {
+        "conditions": "!('7' in autresDrogues001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "autresDrogues001": "0" }
+      }
+    }
+  ]
+}

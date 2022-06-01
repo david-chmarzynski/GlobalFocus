@@ -1,0 +1,50 @@
+{
+  "oid": "MVSom3N3Q4",
+  "title": "Sur ces 3 derniers mois, avez-vous eu besoin d'une aide sans ordonnance pour dormir (plantes, Donormyl, mélatonine, homéopathie, alcool, cannabis, nourriture, programme de relaxation...) ?",
+  "text": "Sur ces 3 derniers mois, avez-vous eu besoin d'une aide sans ordonnance pour dormir (plantes, Donormyl, mélatonine, homéopathie, alcool, cannabis, nourriture, programme de relaxation...) ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais (ou presque)"
+    },
+    {
+      "code": "1",
+      "text": "Rarement (1 à 3 fois mois maximum)"
+    },
+    {
+      "code": "2",
+      "text": "Assez souvent (1 à 2 fois par semaine)"
+    },
+    {
+      "code": "3",
+      "text": "Souvent (3 fois/semaine et plus)"
+    },
+    {
+      "code": "4",
+      "text": "Tous les soirs (ou presque)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom3N3Q4 == 0",
+      "tagOID": "MVSomN3-4",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom3N3Q4 == 1",
+      "tagOID": "MVSomN3-4",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom3N3Q4 == 2",
+      "tagOID": "MVSomN3-4",
+      "value": 2
+    },
+    {
+      "conditions": "MVSom3N3Q4 == 3 || MVSom3N3Q4 == 4",
+      "tagOID": "MVSomN3-4",
+      "value": 3
+    }
+  ]
+}

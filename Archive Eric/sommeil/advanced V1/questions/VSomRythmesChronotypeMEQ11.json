@@ -1,0 +1,46 @@
+{
+  "oid": "VSomRythmesChronotypeMEQ11",
+  "title": "Vous voulez atteindre votre meilleure performance dans un test qui, vous le savez, sera mentalement très exigeant et durera 2 heures. Vous êtes entièrement libre de planifier votre journée. En ne tenant compte que de la façon dont vous vous sentez à cette heure de la journée, à quelle heure choisirez-vous de faire le test?",
+  "text": "Vous voulez atteindre votre meilleure performance dans un test qui, vous le savez, sera mentalement très exigeant et durera 2 heures. Vous êtes entièrement libre de planifier votre journée. En ne tenant compte que de la façon dont vous vous sentez à cette heure de la journée, à quelle heure choisirez-vous de faire le test?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "08h00-10h00"
+    },
+    {
+      "code": "1",
+      "text": "11h00-13h00"
+    },
+    {
+      "code": "2",
+      "text": "15h00-17h00"
+    },
+    {
+      "code": "3",
+      "text": "19h00-21h00"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomRythmesChronotypeMEQ11 == 0",
+      "tagOID": "ChronotypeMEQ",
+      "value": 6
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ11 == 1",
+      "tagOID": "ChronotypeMEQ",
+      "value": 4
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ11 == 2",
+      "tagOID": "ChronotypeMEQ",
+      "value": 2
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ11 == 3",
+      "tagOID": "ChronotypeMEQ",
+      "value": 0
+    }
+  ]
+}

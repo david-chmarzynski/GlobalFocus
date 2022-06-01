@@ -1,0 +1,28 @@
+{
+  "oid": "FTI030",
+  "title": "J'aime les conversations compétitives.",
+  "text": "J'aime les conversations compétitives.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI030 == 0",
+      "tagOID": "analytique",
+      "value": 1
+    },
+    {
+      "conditions": "FTI030 == 1",
+      "tagOID": "analytique",
+      "value": 0
+    }
+  ]
+}

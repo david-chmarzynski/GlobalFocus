@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI039",
+  "title": "J'ai beaucoup de mauvaises habitudes que je souhiterais perdre",
+  "text": "J'ai beaucoup de mauvaises habitudes que je souhaiterais perdre",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

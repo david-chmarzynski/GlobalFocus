@@ -1,0 +1,64 @@
+{
+  "oid": "MVSom4N4Q1",
+  "title": "Quel(s) médicaments sur ordonnance utilisez-vous pour dormir ? (plusieurs choix possibles)",
+  "text": "Quel(s) médicaments sur ordonnance utilisez-vous pour dormir ? (plusieurs choix possibles)",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Somnifère : Stilnox (zolpidiem), imovane (zopiclone), Havlane, Noctamide..."
+    },
+    {
+      "code": "1",
+      "text": "Médicament contre l’anxiété : Xanax (alprazolam), Lexomil (bromazepam), Lysanxia (prazepam), Valium (diazepam), Témesta (lorazepam), Tranxène (clorazépate), Atarax…"
+    },
+    {
+      "code": "2",
+      "text": "Antidépresseur"
+    },
+    {
+      "code": "3",
+      "text": "Neuroleptique"
+    },
+    {
+      "code": "4",
+      "text": "Circadin (mélatonine LP)"
+    },
+    {
+      "code": "5",
+      "text": "Autres:"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom4N4Q1 == 0",
+      "tagOID": "MVSomN4-1",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom4N4Q1 == 1",
+      "tagOID": "MVSomN4-1",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom4N4Q1 == 2",
+      "tagOID": "MVSomN4-1",
+      "value": 2
+    },
+    {
+      "conditions": "MVSom4N4Q1 == 3",
+      "tagOID": "MVSomN4-1",
+      "value": 3
+    },
+    {
+      "conditions": "MVSom4N4Q1 == 4",
+      "tagOID": "MVSomN4-1",
+      "value": 4
+    },
+    {
+      "conditions": "MVSom4N4Q1 == 5",
+      "tagOID": "MVSomN4-1",
+      "value": 5
+    }
+  ]
+}

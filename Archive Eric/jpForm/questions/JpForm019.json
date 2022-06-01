@@ -1,0 +1,46 @@
+{
+  "oid": "JpForm019",
+  "title": "Ces 6 dernis mois, avez-vous éprouvé des souleurs pendant ou après les rapports ?",
+  "text": "Ces 6 dernis mois, avez-vous éprouvé des souleurs pendant ou après les rapports ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Symptome absent"
+    },
+    {
+      "code": "1",
+      "text": "Symptome peu genant"
+    },
+    {
+      "code": "2",
+      "text": "Symptome assez genant"
+    },
+    {
+      "code": "3",
+      "text": "Symptome genant"
+    }
+  ],
+  "scores": [
+    {
+      "tagOID": "ejaculation algies",
+      "conditions": "JpForm019 == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "ejaculation algies",
+      "conditions": "JpForm019 == '1'",
+      "value": 1
+    },
+    {
+      "tagOID": "ejaculation algies",
+      "conditions": "JpForm019 == '2'",
+      "value": 2
+    },
+    {
+      "tagOID": "ejaculation algies",
+      "conditions": "JpForm019 == '3'",
+      "value": 3
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "oid": "FTI047",
+  "title": "Je peux changer d'avis facilement.",
+  "text": "Je peux changer d'avis facilement.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI047 == 0",
+      "tagOID": "prosocial",
+      "value": 1
+    },
+    {
+      "conditions": "FTI047 == 1",
+      "tagOID": "prosocial",
+      "value": 0
+    }
+  ]
+}

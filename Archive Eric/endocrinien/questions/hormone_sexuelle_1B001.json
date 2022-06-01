@@ -1,0 +1,46 @@
+{
+  "oid": "hormonesexuelle1B001",
+  "title": "J'ai des varices, varicosités",
+  "text": "J'ai des varices, varicosités",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "De temps en temps"
+    },
+    {
+      "code": "2",
+      "text": "Régulièrement"
+    },
+    {
+      "code": "3",
+      "text": "En permanence"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "hormonesexuelle1B001 == \"0\"",
+      "tagOID": "tag_hormone_sexuelle1B",
+      "value": 0
+    },
+    {
+      "conditions": "hormonesexuelle1B001 == \"1\"",
+      "tagOID": "tag_hormone_sexuelle1B",
+      "value": 1
+    },
+    {
+      "conditions": "hormonesexuelle1B001 == \"2\"",
+      "tagOID": "tag_hormone_sexuelle1B",
+      "value": 2
+    },
+    {
+      "conditions": "hormonesexuelle1B001 == \"3\"",
+      "tagOID": "tag_hormone_sexuelle1B",
+      "value": 3
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "oid": "BDI009",
+  "title": "Avez-vous pensé ou pensez-vous à vous suicider ?",
+  "text": "Vous sentez-vous ",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Je ne pense aucunement à me suicider"
+    },
+    {
+      "code": "1",
+      "text": "J'ai parfois l'idée de me suicider, mais je n'irai pas jusqu'à passer aux actes"
+    },
+    {
+      "code": "2",
+      "text": "J'aimerais me suicider"
+    },
+    {
+      "code": "3",
+      "text": "J'aimerai me suicider si j'en avais l'occasion"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "BDI009 == \"0\"",
+      "tagOID": "tag_BDI",
+      "value": 0
+    },
+    {
+      "conditions": "BDI009 == \"1\"",
+      "tagOID": "tag_BDI",
+      "value": 1
+    },
+    {
+      "conditions": "BDI009 == \"2\"",
+      "tagOID": "tag_BDI",
+      "value": 2
+    },
+    {
+      "conditions": "BDI009 == \"3\"",
+      "tagOID": "tag_BDI",
+      "value": 3
+    }
+  ]
+}

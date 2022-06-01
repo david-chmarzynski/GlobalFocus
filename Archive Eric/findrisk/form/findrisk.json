@@ -1,0 +1,100 @@
+{
+  "oid": "findrisk",
+  "title": "findrisk",
+  "estimatedTime": 1,
+  "pricing": 0,
+  "description": "Findrisk",
+  "levelMax": 1,
+  "authors": ["Eric Liu"],
+  "chapters": ["chap_findrisk"],
+  "professions": ["DENTIST"],
+  "reportingTrees": [
+    {
+      "category": "HEALTH",
+      "scoreStrategy": "SUM_PLUS_CHILDREN",
+      "reportingNode": {
+        "tagOID": "findrisk",
+        "type": "SCORE",
+        "ranges": [
+          { "min": -0.1, "max": 7.0, "color": "00FF00" },
+          { "min": 6.9, "max": 11.1, "color": "ffff00" },
+          { "min": 11.9, "max": 14.1, "color": "FFA500" },
+          { "min": 14.9, "max": 20.1, "color": "FF0000" },
+          { "min": 20.0, "max": 30.0, "color": "850606" }
+        ],
+        "children": [
+          {
+            "tagOID": "findrisk_age",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 2.1, "color": "00FF00" },
+              { "min": 1.9, "max": 2.1, "color": "FFFF00" },
+              { "min": 2.9, "max": 3.1, "color": "FFA500" },
+              { "min": 3.9, "max": 4.1, "color": "FF0000" }
+            ]
+          },
+          {
+            "tagOID": "findrisk_imc",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 0.1, "color": "00FF00" },
+              { "min": 0.9, "max": 1.1, "color": "FFA500" },
+              { "min": 2.9, "max": 3.1, "color": "FF0000" }
+            ]
+          },
+          {
+            "tagOID": "findrisk_tour_taille",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 0.1, "color": "00FF00" },
+              { "min": 2.9, "max": 3.1, "color": "FFA500" },
+              { "min": 3.9, "max": 4.1, "color": "FF0000" }
+            ]
+          },
+          {
+            "tagOID": "findrisk_activite_physique",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 0.1, "color": "00FF00" },
+              { "min": 1.9, "max": 2.1, "color": "FF0000" }
+            ]
+          },
+          {
+            "tagOID": "findrisk_legume_vert",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 0.1, "color": "00FF00" },
+              { "min": 0.9, "max": 1.1, "color": "FFA500" },
+              { "min": 1.9, "max": 2.1, "color": "FF0000" }
+            ]
+          },
+          {
+            "tagOID": "findrisk_anti_HTA",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 0.1, "color": "00FF00" },
+              { "min": 1.9, "max": 2.1, "color": "FF0000" }
+            ]
+          },
+          {
+            "tagOID": "findrisk_famille_diabete",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 0.1, "color": "00FF00" },
+              { "min": 2.9, "max": 3.1, "color": "FFA500" },
+              { "min": 4.9, "max": 5.1, "color": "FF0000" }
+            ]
+          },
+          {
+            "tagOID": "findrisk_glycemie",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 0.1, "color": "00FF00" },
+              { "min": 4.9, "max": 5.1, "color": "FF0000" }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

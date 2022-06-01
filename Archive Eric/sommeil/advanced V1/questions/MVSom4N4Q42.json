@@ -1,0 +1,50 @@
+{
+  "oid": "MVSom4N4Q42",
+  "title": "Avez-vous parfois l’impression d’entendre, de voir ou de sentir des choses qui n’existent pas, au moment du coucher ou en cas de fatigue dans la journée (comme un rêve ou un cauchemar éveillé) ?",
+  "text": "Avez-vous parfois l’impression d’entendre, de voir ou de sentir des choses qui n’existent pas, au moment du coucher ou en cas de fatigue dans la journée (comme un rêve ou un cauchemar éveillé) ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "1 à 3 fois par mois"
+    },
+    {
+      "code": "2",
+      "text": "1 à 2 fois par semaine"
+    },
+    {
+      "code": "3",
+      "text": "3 à 5 fois par semaine"
+    },
+    {
+      "code": "4",
+      "text": "Tous les jours (ou presque)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom4N4Q42 == 0",
+      "tagOID": "MVSomN4-42",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom4N4Q42 == 1",
+      "tagOID": "MVSomN4-42",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom4N4Q42 == 2",
+      "tagOID": "MVSomN4-42",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom4N4Q42 == 3 || MVSom4N4Q42 == 4",
+      "tagOID": "MVSomN4-42",
+      "value": 1
+    }
+  ]
+}

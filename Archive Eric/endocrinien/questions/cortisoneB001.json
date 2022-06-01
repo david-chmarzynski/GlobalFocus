@@ -1,0 +1,46 @@
+{
+  "oid": "cortisoneB001",
+  "title": "Je suis euphorique, agité(e)",
+  "text": "Je suis euphorique, agité(e)",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "De temps en temps"
+    },
+    {
+      "code": "2",
+      "text": "Régulièrement"
+    },
+    {
+      "code": "3",
+      "text": "En permanence"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "cortisoneB001 == \"0\"",
+      "tagOID": "tag_cortisone_B",
+      "value": 0
+    },
+    {
+      "conditions": "cortisoneB001 == \"1\"",
+      "tagOID": "tag_cortisone_B",
+      "value": 1
+    },
+    {
+      "conditions": "cortisoneB001 == \"2\"",
+      "tagOID": "tag_cortisone_B",
+      "value": 2
+    },
+    {
+      "conditions": "cortisoneB001 == \"3\"",
+      "tagOID": "tag_cortisone_B",
+      "value": 3
+    }
+  ]
+}

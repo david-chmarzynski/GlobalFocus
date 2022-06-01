@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI101",
+  "title": "J'ai tellement de défauts que je ne m'aime pas beaucoup",
+  "text": "J'ai tellement de défauts que je ne m'aime pas beaucoup",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

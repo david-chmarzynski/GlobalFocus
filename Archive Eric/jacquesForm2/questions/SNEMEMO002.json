@@ -1,0 +1,46 @@
+{
+  "oid": "SNEMEMO002",
+  "title": "Avez-vous des difficultés à suivre un film (ou une émission de TV ou un livre) parce que vous oubliez ce qui vient de se passer ?",
+  "text": "Avez-vous des difficultés à suivre un film (ou une émission de TV ou un livre) parce que vous oubliez ce qui vient de se passer ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Rarement"
+    },
+    {
+      "code": "1",
+      "text": "Parfois"
+    },
+    {
+      "code": "2",
+      "text": "La plupart du temps"
+    },
+    {
+      "code": "3",
+      "text": "Très souvent"
+    }
+  ],
+  "scores": [
+    {
+      "tagOID": "memoire",
+      "conditions": "SNEMEMO002 == 0",
+      "value": 0
+    },
+    {
+      "tagOID": "memoire",
+      "conditions": "SNEMEMO002 == 1",
+      "value": 1
+    },
+    {
+      "tagOID": "memoire",
+      "conditions": "SNEMEMO002 == 2",
+      "value": 2
+    },
+    {
+      "tagOID": "memoire",
+      "conditions": "SNEMEMO002 == 3",
+      "value": 3
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "oid": "A3103",
+  "title": "Alimentation",
+  "text": "Combien en moyenne consommez-vous de portions de corps gras quotidiennement ? 1 portion = 10g de beurre, 1 c à soupe d’huile, 2 c à soupe de crème fraiche, 1 poignée de fruits à coque (amandes, noix...).",
+  "type": "DECIMAL",
+  "scale": {
+    "min": 0,
+    "max": 1,
+    "step": 100
+  }
+}

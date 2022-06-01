@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI205",
+  "title": "La plupart des gens que je connais ne pensent qu'à eux, sans se préoccuper des difficultés des autres",
+  "text": "La plupart des gens que je connais ne pensent qu'à eux, sans se préoccuper des difficultés des autres",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

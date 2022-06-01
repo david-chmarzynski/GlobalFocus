@@ -1,0 +1,16 @@
+{
+  "oid": "B3GPL007",
+  "title": "Est-ce que vous pratiquez des activités de loisirs d’intensité légère comme la promenade (Tai-chi, Qi gong, ping-pong loisir, pétanque, pêche à la ligne…) pendant au moins dix minutes d’affilée ?",
+  "text": "Est-ce que vous pratiquez des activités de loisirs d’intensité légère comme la promenade (Tai-chi, Qi gong, ping-pong loisir, pétanque, pêche à la ligne…) pendant au moins dix minutes d’affilée ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ]
+}

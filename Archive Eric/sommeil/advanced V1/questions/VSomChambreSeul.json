@@ -1,0 +1,50 @@
+{
+  "oid": "VSomChambreSeul",
+  "title": "Dormez-vous seul ?",
+  "text": "Dormez-vous seul ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Toujours (ou presque)"
+    },
+    {
+      "code": "1",
+      "text": "1 à 3 fois par mois"
+    },
+    {
+      "code": "2",
+      "text": "1 à 2 fois par semaine"
+    },
+    {
+      "code": "3",
+      "text": "3 à 5 fois par semaine"
+    },
+    {
+      "code": "4",
+      "text": "Tous les soirs (ou presque)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomChambreSeul == 0",
+      "tagOID": "Dort_seul",
+      "value": 0
+    },
+    {
+      "conditions": "VSomChambreSeul == 1",
+      "tagOID": "Dort_seul",
+      "value": 1
+    },
+    {
+      "conditions": "VSomChambreSeul == 2",
+      "tagOID": "Dort_seul",
+      "value": 2
+    },
+    {
+      "conditions": "VSomChambreSeul == 3 || VSomChambreSeul == 4",
+      "tagOID": "Dort_seul",
+      "value": 3
+    }
+  ]
+}

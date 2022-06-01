@@ -1,0 +1,46 @@
+{
+  "oid": "JpForm022",
+  "title": "Etes-vous satisfait de votre partenaire sexuel ?",
+  "text": "Etes-vous satisfait de votre partenaire sexuel ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfait"
+    },
+    {
+      "code": "1",
+      "text": "Ni satisfait, ni insatisfait"
+    },
+    {
+      "code": "2",
+      "text": "Plutot insatisfait"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfait"
+    }
+  ],
+  "scores": [
+    {
+      "tagOID": "partenaire sexuel",
+      "conditions": "JpForm022 == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "partenaire sexuel",
+      "conditions": "JpForm022 == '1'",
+      "value": 1
+    },
+    {
+      "tagOID": "partenaire sexuel",
+      "conditions": "JpForm022 == '2'",
+      "value": 2
+    },
+    {
+      "tagOID": "partenaire sexuel",
+      "conditions": "JpForm022 == '3'",
+      "value": 3
+    }
+  ]
+}

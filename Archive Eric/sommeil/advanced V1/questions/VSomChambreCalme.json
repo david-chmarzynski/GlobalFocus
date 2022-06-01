@@ -1,0 +1,46 @@
+{
+  "oid": "VSomChambreCalme",
+  "title": "Sur ces 3 derniers mois, comment évaluez-vous le calme (absence de bruit gênant) pendant votre sommeil ?",
+  "text": "Sur ces 3 derniers mois, comment évaluez-vous le calme (absence de bruit gênant) pendant votre sommeil ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisant"
+    },
+    {
+      "code": "1",
+      "text": "Légèrement insatisfaisante"
+    },
+    {
+      "code": "2",
+      "text": "Assez insatisfaisante"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisante"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomChambreCalme == 0",
+      "tagOID": "Calme",
+      "value": 0
+    },
+    {
+      "conditions": "VSomChambreCalme == 1",
+      "tagOID": "Calme",
+      "value": 1
+    },
+    {
+      "conditions": "VSomChambreCalme == 2",
+      "tagOID": "Calme",
+      "value": 2
+    },
+    {
+      "conditions": "VSomChambreCalme == 3",
+      "tagOID": "Calme",
+      "value": 3
+    }
+  ]
+}

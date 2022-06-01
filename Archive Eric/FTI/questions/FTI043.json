@@ -1,0 +1,28 @@
+{
+  "oid": "FTI043",
+  "title": "J'aime apprendre à connaître les besoins et les sentiments les plus profonds de mes amis.",
+  "text": "J'aime apprendre à connaître les besoins et les sentiments les plus profonds de mes amis.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI043 == 0",
+      "tagOID": "prosocial",
+      "value": 1
+    },
+    {
+      "conditions": "FTI043 == 1",
+      "tagOID": "prosocial",
+      "value": 0
+    }
+  ]
+}

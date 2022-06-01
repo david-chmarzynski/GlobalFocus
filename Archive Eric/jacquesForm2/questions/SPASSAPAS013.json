@@ -1,0 +1,16 @@
+{
+  "oid": "SPASSAPAS013",
+  "title": "En général, dépendez-vous beaucoup des autres",
+  "text": "En général, dépendez-vous beaucoup des autres",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ]
+}

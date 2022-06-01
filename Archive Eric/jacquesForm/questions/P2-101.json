@@ -1,0 +1,28 @@
+{
+    "oid": "P2101",
+    "title": "oralité",
+    "text": "Je suis gourmand(e)",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "0",
+          "text": "Non"
+        },
+        {
+          "code": "1",
+          "text": "Oui"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "P2101 == '0'",
+          "tagOID": "P2OR",
+          "value": 0
+        },
+        {
+          "conditions": "P2101 == '1'",
+          "tagOID": "P2OR",
+          "value": 1
+        }
+    ]
+}

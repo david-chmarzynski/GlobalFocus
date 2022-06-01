@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI143",
+  "title": "J'ai souvent le désir d'etre plus puissant(e) que n'importe qui",
+  "text": "J'ai souvent le désir d'etre plus puissant(e) que n'importe qui",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

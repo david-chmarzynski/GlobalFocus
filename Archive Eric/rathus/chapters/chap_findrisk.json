@@ -1,0 +1,5 @@
+{
+  "oid": "chap_rathus",
+  "title": "chap_rathus",
+  "modules": ["mod_rathus"]
+}

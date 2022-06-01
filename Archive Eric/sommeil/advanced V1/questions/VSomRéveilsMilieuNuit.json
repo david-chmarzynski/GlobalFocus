@@ -1,0 +1,50 @@
+{
+  "oid": "VSomRéveilsMilieuNuit",
+  "title": "Sur ces 3 derniers mois, vous réveillez-vous fréquemment ou pour de longues périodes au milieu de la nuit ?",
+  "text": "Sur ces 3 derniers mois, vous réveillez-vous fréquemment ou pour de longues périodes au milieu de la nuit ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais (ou presque)"
+    },
+    {
+      "code": "1",
+      "text": "1 à 3 fois/mois"
+    },
+    {
+      "code": "2",
+      "text": "1 à 2 fois/semaine"
+    },
+    {
+      "code": "3",
+      "text": "3 à 5 fois par semaine"
+    },
+    {
+      "code": "4",
+      "text": "Tous les soirs (ou presque)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomRéveilsMilieuNuit == 0",
+      "tagOID": "Réveils_milieu_nuit",
+      "value": 0
+    },
+    {
+      "conditions": "VSomRéveilsMilieuNuit == 1",
+      "tagOID": "Réveils_milieu_nuit",
+      "value": 1
+    },
+    {
+      "conditions": "VSomRéveilsMilieuNuit == 2",
+      "tagOID": "Réveils_milieu_nuit",
+      "value": 2
+    },
+    {
+      "conditions": "VSomRéveilsMilieuNuit == 3 || VSomRéveilsMilieuNuit == 4",
+      "tagOID": "Réveils_milieu_nuit",
+      "value": 3
+    }
+  ]
+}

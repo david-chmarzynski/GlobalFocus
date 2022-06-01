@@ -1,0 +1,28 @@
+{
+  "oid": "JpForm027",
+  "title": "Souhaiteriez-vous :",
+  "text": "Souhaiteriez-vous :",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Une consultation courte (15 min)"
+    },
+    {
+      "code": "1",
+      "text": "Une prise en charge plus complète"
+    }
+  ],
+  "scores": [
+    {
+      "tagOID": "type consultation",
+      "conditions": "JpForm027 == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "type consultation",
+      "conditions": "JpForm027 == '1'",
+      "value": 1
+    }
+  ]
+}

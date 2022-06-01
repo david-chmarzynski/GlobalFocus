@@ -1,0 +1,46 @@
+{
+  "oid": "hormonesexuelle1A001",
+  "title": "J'ai des bouffées de chaleurs/sueurs nocturnes",
+  "text": "J'ai des bouffées de chaleurs/sueurs nocturnes",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "De temps en temps"
+    },
+    {
+      "code": "2",
+      "text": "Régulièrement"
+    },
+    {
+      "code": "3",
+      "text": "En permanence"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "hormonesexuelle1A001 == \"0\"",
+      "tagOID": "tag_hormone_sexuelle1A",
+      "value": 0
+    },
+    {
+      "conditions": "hormonesexuelle1A001 == \"1\"",
+      "tagOID": "tag_hormone_sexuelle1A",
+      "value": 1
+    },
+    {
+      "conditions": "hormonesexuelle1A001 == \"2\"",
+      "tagOID": "tag_hormone_sexuelle1A",
+      "value": 2
+    },
+    {
+      "conditions": "hormonesexuelle1A001 == \"3\"",
+      "tagOID": "tag_hormone_sexuelle1A",
+      "value": 3
+    }
+  ]
+}

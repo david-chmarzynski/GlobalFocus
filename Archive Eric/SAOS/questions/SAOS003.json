@@ -1,0 +1,40 @@
+{
+  "oid": "SAOS003",
+  "title": "Combien de fois ronflez-vous ?",
+  "text": "Combien de fois ronflez-vous ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais ou presque"
+    },
+    {
+      "code": "1",
+      "text": "1 à 2 nuit par mois"
+    },
+    {
+      "code": "2",
+      "text": "1 à 2 nuit par semaine"
+    },
+    {
+      "code": "3",
+      "text": "3 à 4 nuit par semaine"
+    },
+    {
+      "code": "4",
+      "text": "Presque toutes les nuits"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "SAOS003 == \"3\" || SAOS003 == \"4\"",
+      "tagOID": "tag_ronflement",
+      "value": 1
+    },
+    {
+      "conditions": "SAOS003 == \"0\" || SAOS003 == \"1\" || SAOS003 == \"2\"",
+      "tagOID": "tag_ronflement",
+      "value": 0
+    }
+  ]
+}

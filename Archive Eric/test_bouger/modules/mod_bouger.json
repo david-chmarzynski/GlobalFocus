@@ -1,0 +1,258 @@
+{
+  "oid": "mod_bouger",
+  "title": "mod bouger",
+  "questions": [
+    { "question": "MB001", "level": 1 },
+    { "question": "MB002", "level": 1 },
+    { "question": "MB003", "level": 1 },
+    { "question": "MB004", "level": 1 },
+    { "question": "B1001", "level": 1 },
+    { "question": "B2AP001", "level": 1 },
+    { "question": "B2SE001", "level": 1 },
+    { "question": "B3S2001", "level": 1 },
+    { "question": "B3S3001", "level": 1 },
+    { "question": "B3S4001", "level": 1 },
+    { "question": "B3S5001", "level": 1 },
+    { "question": "B3GPT001", "level": 1 },
+    {
+      "question": "B3GPT002",
+      "level": 1,
+      "trigger": {
+        "conditions": "B3GPT001 == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "B3GPT001": "0" }
+      }
+    },
+    {
+      "question": "B3GPT003",
+      "level": 1,
+      "trigger": {
+        "conditions": "B3GPT001 == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "B3GPT001": "0" }
+      }
+    },
+    { "question": "B3GPT004", "level": 1 },
+    {
+      "question": "B3GPT005",
+      "level": 1,
+      "trigger": {
+        "conditions": "B3GPT004 == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "B3GPT004": "0" }
+      }
+    },
+    {
+      "question": "B3GPT006",
+      "level": 1,
+      "trigger": {
+        "conditions": "B3GPT004 == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "B3GPT004": "0" }
+      }
+    },
+    { "question": "B3GPT007", "level": 1 },
+    {
+      "question": "B3GPT008",
+      "level": 1,
+      "trigger": {
+        "conditions": "B3GPT007 == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "B3GPT007": "0" }
+      }
+    },
+    {
+      "question": "B3GPT009",
+      "level": 1,
+      "trigger": {
+        "conditions": "B3GPT007 == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "B3GPT007": "0" }
+      }
+    },
+    { "question": "B3GPD001", "level": 1 },
+    {
+      "question": "B3GPD002",
+      "level": 1,
+      "trigger": {
+        "conditions": "B3GPD001 == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "B3GPD001": "0" }
+      }
+    },
+    {
+      "question": "B3GPD003",
+      "level": 1,
+      "trigger": {
+        "conditions": "B3GPD001 == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "B3GPD001": "0" }
+      }
+    },
+    { "question": "B3GPL001", "level": 1 },
+    {
+      "question": "B3GPL002",
+      "level": 1,
+      "trigger": {
+        "conditions": "B3GPL001 == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "B3GPL001": "0" }
+      }
+    },
+    {
+      "question": "B3GPL003",
+      "level": 1,
+      "trigger": {
+        "conditions": "B3GPL001 == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "B3GPL001": "0" }
+      }
+    },
+    { "question": "B3GPL004", "level": 1 },
+    {
+      "question": "B3GPL005",
+      "level": 1,
+      "trigger": {
+        "conditions": "B3GPL004 == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "B3GPL004": "0" }
+      }
+    },
+    {
+      "question": "B3GPL006",
+      "level": 1,
+      "trigger": {
+        "conditions": "B3GPL004 == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "B3GPL004": "0" }
+      }
+    },
+    { "question": "B3GPL007", "level": 1 },
+    {
+      "question": "B3GPL008",
+      "level": 1,
+      "trigger": {
+        "conditions": "B3GPL007 == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "B3GPL007": "0" }
+      }
+    },
+    {
+      "question": "B3GPL009",
+      "level": 1,
+      "trigger": {
+        "conditions": "B3GPL007 == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "B3GPL007": "0" }
+      }
+    },
+    { "question": "B3MT1001", "level": 1 },
+    { "question": "B3MT2001", "level": 1 },
+    { "question": "B3MT3001", "level": 1 },
+    { "question": "B3MD1001", "level": 1 },
+    { "question": "B3MD2001", "level": 1 },
+    { "question": "B3MD3001", "level": 1 },
+    { "question": "B3ML1001", "level": 1 },
+    { "question": "B3ML2001", "level": 1 },
+    { "question": "B3ML3001", "level": 1 },
+    { "question": "B2SM1001", "level": 1 },
+    { "question": "B3SM2001", "level": 1 },
+    { "question": "B3SM3001", "level": 1 },
+    { "question": "B3SM4001", "level": 1 }
+  ],
+  "calculations": [
+    {
+      "oid": "bouger_imc",
+      "type": "NORMAL",
+      "isGlobal": true,
+      "calculation": "MB003 / (MB004 / 100) ** 2",
+      "title": "bouger_imc",
+      "text": "bouger_imc"
+    },
+    {
+      "oid": "masseMetabolique",
+      "type": "WITH_CONDITIONS",
+      "isGlobal": true,
+      "calculationsWithConditions": {
+        "MB001 == '0' && MB002 < 60": "(13.707 * MB003) + (492.3 * MB004) - (6.673 * MB002) + 77.607",
+        "MB001 == '1' && MB002 < 60": "(9.740 * MB003) + (172.9 * MB004) - (4.737 * MB002) + 667.051",
+        "MB001 == '0' && MB002 > 60": "230 * (MB003 ** 0.48) * (MB004 ** 0.5) * (MB002 ** -0.13)",
+        "MB001 == '1' && MB002 > 60": "259 * (MB003 ** 0.48) * (MB004 ** 0.5) * (MB002 ** -0.13)"
+      },
+      "title": "masseMetabolique",
+      "text": "masseMetabolique"
+    },
+    {
+      "oid": "depense_journaliere_calorique",
+      "type": "WITH_CONDITIONS",
+      "isGlobal": true,
+      "calculationsWithConditions": {
+        "MB001 == '0' && MB002 < 60 && B2AP == '0'": "((13.707 * MB003) + (492.3 * MB004) - (6.673 * MB002) + 77.607) * 1.2",
+        "MB001 == '1' && MB002 < 60 && B2AP == '0'": "((9.740 * MB003) + (172.9 * MB004) - (4.737 * MB002) + 667.051) * 1.2",
+        "MB001 == '0' && MB002 > 60 && B2AP == '0'": "230 * (MB003 ** 0.48) * (MB004 ** 0.5) * (MB002 ** -0.13) * 1.2",
+        "MB001 == '1' && MB002 > 60 && B2AP == '0'": "259 * (MB003 ** 0.48) * (MB004 ** 0.5) * (MB002 ** -0.13) * 1.2",
+        "MB001 == '0' && MB002 < 60 && B2AP == '1'": "((13.707 * MB003) + (492.3 * MB004) - (6.673 * MB002) + 77.607) * 1.375",
+        "MB001 == '1' && MB002 < 60 && B2AP == '1'": "((9.740 * MB003) + (172.9 * MB004) - (4.737 * MB002) + 667.051) * 1.375",
+        "MB001 == '0' && MB002 > 60 && B2AP == '1'": "230 * (MB003 ** 0.48) * (MB004 ** 0.5) * (MB002 ** -0.13) * 1.375",
+        "MB001 == '1' && MB002 > 60 && B2AP == '1'": "259 * (MB003 ** 0.48) * (MB004 ** 0.5) * (MB002 ** -0.13) * 1.375",
+        "MB001 == '0' && MB002 < 60 && B2AP == '2'": "((13.707 * MB003) + (492.3 * MB004) - (6.673 * MB002) + 77.607) * 1.45",
+        "MB001 == '1' && MB002 < 60 && B2AP == '2'": "((9.740 * MB003) + (172.9 * MB004) - (4.737 * MB002) + 667.051) * 1.45",
+        "MB001 == '0' && MB002 > 60 && B2AP == '2'": "230 * (MB003 ** 0.48) * (MB004 ** 0.5) * (MB002 ** -0.13) * 1.45",
+        "MB001 == '1' && MB002 > 60 && B2AP == '2'": "259 * (MB003 ** 0.48) * (MB004 ** 0.5) * (MB002 ** -0.13) * 1.45",
+        "MB001 == '0' && MB002 < 60 && B2AP == '3'": "((13.707 * MB003) + (492.3 * MB004) - (6.673 * MB002) + 77.607) * 1.55",
+        "MB001 == '1' && MB002 < 60 && B2AP == '3'": "((9.740 * MB003) + (172.9 * MB004) - (4.737 * MB002) + 667.051) * 1.55",
+        "MB001 == '0' && MB002 > 60 && B2AP == '3'": "230 * (MB003 ** 0.48) * (MB004 ** 0.5) * (MB002 ** -0.13) * 1.55",
+        "MB001 == '1' && MB002 > 60 && B2AP == '3'": "259 * (MB003 ** 0.48) * (MB004 ** 0.5) * (MB002 ** -0.13) * 1.55",
+        "MB001 == '0' && MB002 < 60 && B2AP == '4'": "((13.707 * MB003) + (492.3 * MB004) - (6.673 * MB002) + 77.607) * 1.725",
+        "MB001 == '1' && MB002 < 60 && B2AP == '4'": "((9.740 * MB003) + (172.9 * MB004) - (4.737 * MB002) + 667.051) * 1.725",
+        "MB001 == '0' && MB002 > 60 && B2AP == '4'": "230 * (MB003 ** 0.48) * (MB004 ** 0.5) * (MB002 ** -0.13) * 1.725",
+        "MB001 == '1' && MB002 > 60 && B2AP == '4'": "259 * (MB003 ** 0.48) * (MB004 ** 0.5) * (MB002 ** -0.13) * 1.725",
+        "MB001 == '0' && MB002 < 60 && B2AP == '5'": "((13.707 * MB003) + (492.3 * MB004) - (6.673 * MB002) + 77.607) * 1.9",
+        "MB001 == '1' && MB002 < 60 && B2AP == '5'": "((9.740 * MB003) + (172.9 * MB004) - (4.737 * MB002) + 667.051) * 1.9",
+        "MB001 == '0' && MB002 > 60 && B2AP == '5'": "230 * (MB003 ** 0.48) * (MB004 ** 0.5) * (MB002 ** -0.13) * 1.9",
+        "MB001 == '1' && MB002 > 60 && B2AP == '5'": "259 * (MB003 ** 0.48) * (MB004 ** 0.5) * (MB002 ** -0.13) * 1.9"
+      },
+      "title": "depense_journaliere_calorique",
+      "text": "depense_journaliere_calorique"
+    },
+    {
+      "oid": "GPAQ",
+      "type": "WITH_CONDITIONS",
+      "isGlobal": false,
+      "calculationsWithConditions": {
+        "B3GPL001 == '0' && B3GPL004 == '0' && B3GPL007 == '0'": "(B3GPL005 * B3GPL006 * 8.0 / 7.0) + (B3GPL005 * B3GPL006 * 4.0 / 7.0) + (B3GPL008 * B3GPL009 * 2.5 / 7.0)",
+        "B3GPL001 == '1' && B3GPL004 == '0' && B3GPL007 == '0'": "(B3GPL005 * B3GPL006 * 4.0 / 7.0) + (B3GPL008 * B3GPL009 * 2.5 / 7.0)",
+        "B3GPL001 == '0' && B3GPL004 == '1' && B3GPL007 == '0'": "(B3GPL005 * B3GPL006 * 8.0 / 7.0) + (B3GPL008 * B3GPL009 * 2.5 / 7.0)",
+        "B3GPL001 == '0' && B3GPL004 == '0' && B3GPL007 == '1'": "(B3GPL005 * B3GPL006 * 8.0 / 7.0) + (B3GPL008 * B3GPL009 * 4.0 / 7.0)",
+        "B3GPL001 == '1' && B3GPL004 == '1' && B3GPL007 == '0'": "(B3GPL008 * B3GPL009 * 2.5 / 7.0)",
+        "B3GPL001 == '0' && B3GPL004 == '1' && B3GPL007 == '1'": "(B3GPL005 * B3GPL006 * 8 / 7.0)",
+        "B3GPL001 == '1' && B3GPL004 == '0' && B3GPL007 == '1'": "(B3GPL005 * B3GPL006 * 4.0 / 7.0)",
+        "B3GPL001 == '1' && B3GPL004 == '1' && B3GPL007 == '1'": "0"
+      },
+      "title": "GPAQ",
+      "text": "GPAQ",
+      "scores": [
+        {
+          "conditions": "GPAQ < 5 ",
+          "tagOID": "B2GP",
+          "value": 3
+        },
+        {
+          "conditions": "GPAQ >= 5 && GPAQ <= 9",
+          "tagOID": "B2GP",
+          "value": 2
+        },
+        {
+          "conditions": "GPAQ > 9 && GPAQ <= 15",
+          "tagOID": "B2GP",
+          "value": 1
+        },
+        {
+          "conditions": "GPAQ >= 16",
+          "tagOID": "B2GP",
+          "value": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "oid": "SNEMEMO015",
+  "title": "Vous arrive-t-il d'oublier immédiatement ce que les gens viennent de vous dire ?",
+  "text": "Vous arrive-t-il d'oublier immédiatement ce que les gens viennent de vous dire ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Rarement"
+    },
+    {
+      "code": "1",
+      "text": "Parfois"
+    },
+    {
+      "code": "2",
+      "text": "La plupart du temps"
+    },
+    {
+      "code": "3",
+      "text": "Très souvent"
+    }
+  ],
+  "scores": [
+    {
+      "tagOID": "memoire",
+      "conditions": "SNEMEMO015 == 0",
+      "value": 0
+    },
+    {
+      "tagOID": "memoire",
+      "conditions": "SNEMEMO015 == 1",
+      "value": 1
+    },
+    {
+      "tagOID": "memoire",
+      "conditions": "SNEMEMO015 == 2",
+      "value": 2
+    },
+    {
+      "tagOID": "memoire",
+      "conditions": "SNEMEMO015 == 3",
+      "value": 3
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI114",
+  "title": "Le plus souvent, je suis capable de rester rassuré(e) et détendu(e) meme lorsque presque tout le monde est inquiet",
+  "text": "Le plus souvent, je suis capable de rester rassuré(e) et détendu(e) meme lorsque presque tout le monde est inquiet",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

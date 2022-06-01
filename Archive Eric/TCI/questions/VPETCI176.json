@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI176",
+  "title": "Je souhaiterais que les autres parlent moins qu'ils ne le font",
+  "text": "Je souhaiterais que les autres parlent moins qu'ils ne le font",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

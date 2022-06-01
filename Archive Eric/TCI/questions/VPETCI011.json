@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI011",
+  "title": "J'en aurais probablement les capacités, mais je ne vois pas l'intéret de faire plus que le strict minimum",
+  "text": "J'en aurais probablement les capacités, mais je ne vois pas l'intéret de faire plus que le strict minimum",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

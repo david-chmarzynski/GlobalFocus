@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI018",
+  "title": "Je suis pret(e) à tout, dans les limites de la légalité, pour devenir riche et célèbre meme au rissque de perdre la confiance de nombreux vieux amis",
+  "text": "Je suis pret(e) à tout, dans les limites de la légalité, pour devenir riche et célèbre meme au rissque de perdre la confiance de nombreux vieux amis",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

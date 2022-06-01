@@ -1,0 +1,28 @@
+{
+  "oid": "FTI002",
+  "title": "Je fais les choses sur l'impulsion du moment.",
+  "text": "Je fais les choses sur l'impulsion du moment.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI002 == 0",
+      "tagOID": "curieux",
+      "value": 1
+    },
+    {
+      "conditions": "FTI002 == 1",
+      "tagOID": "curieux",
+      "value": 0
+    }
+  ]
+}

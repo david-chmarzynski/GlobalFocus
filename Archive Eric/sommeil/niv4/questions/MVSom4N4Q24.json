@@ -1,0 +1,46 @@
+{
+  "oid": "MVSom4N4Q24",
+  "title": "Votre entourage vous fait-il des remarques sur votre sommeil et ses conséquences (fatigue, irritabilité, difficulté de concentration ou de mémoire, baisse d’efficacité…) ?",
+  "text": "Votre entourage vous fait-il des remarques sur votre sommeil et ses conséquences (fatigue, irritabilité, difficulté de concentration ou de mémoire, baisse d’efficacité…) ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "Rarement"
+    },
+    {
+      "code": "2",
+      "text": "Parfois"
+    },
+    {
+      "code": "3",
+      "text": "Souvent"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom4N4Q24 == 0",
+      "tagOID": "MVSomN4-24",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom4N4Q24 == 1",
+      "tagOID": "MVSomN4-24",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom4N4Q24 == 2",
+      "tagOID": "MVSomN4-24",
+      "value": 2
+    },
+    {
+      "conditions": "MVSom4N4Q24 == 3",
+      "tagOID": "MVSomN4-24",
+      "value": 3
+    }
+  ]
+}

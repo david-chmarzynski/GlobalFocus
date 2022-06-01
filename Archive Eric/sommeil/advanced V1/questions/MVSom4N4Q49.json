@@ -1,0 +1,46 @@
+{
+  "oid": "MVSom4N4Q49",
+  "title": "Assis en parlant avec quelqu’un",
+  "text": "Assis en parlant avec quelqu’un",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Aucune chance"
+    },
+    {
+      "code": "1",
+      "text": "Faible chance"
+    },
+    {
+      "code": "2",
+      "text": "Chance moyenne"
+    },
+    {
+      "code": "3",
+      "text": "Forte chance"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom4N4Q49 == 0",
+      "tagOID": "MVSomN4-44",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom4N4Q49 == 1",
+      "tagOID": "MVSomN4-44",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom4N4Q49 == 2",
+      "tagOID": "MVSomN4-44",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom4N4Q49 == 3",
+      "tagOID": "MVSomN4-44",
+      "value": 1
+    }
+  ]
+}

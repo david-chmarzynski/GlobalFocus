@@ -1,0 +1,28 @@
+{
+    "oid": "P2009",
+    "title": "Alexi thymie",
+    "text": "Je n’ai jamais connu de grandes déceptions amoureuses",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "0",
+          "text": "Non"
+        },
+        {
+          "code": "1",
+          "text": "Oui"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "P2009 == '0'",
+          "tagOID": "P2AL",
+          "value": 0
+        },
+        {
+          "conditions": "P2009 == '1'",
+          "tagOID": "P2AL",
+          "value": 1
+        }
+    ]
+}

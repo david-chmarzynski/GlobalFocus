@@ -1,0 +1,43 @@
+{
+  "oid": "MVSom3N3Q24",
+  "title": "Ces difficultés du sommeil surviennent (plusieurs réponses possibles) :",
+  "text": "Ces difficultés du sommeil surviennent (plusieurs réponses possibles) :",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Ponctuellement"
+    },
+    {
+      "code": "1",
+      "text": "DE manière prévisible dans ceratines situations"
+    },
+    {
+      "code": "2",
+      "text": "Par périodes"
+    },
+    {
+      "code": "3",
+      "text": "En fonction des saisons"
+    },
+    {
+      "code": "4",
+      "text": "Régulièrement depuisi moins d'un mois"
+    },
+    {
+      "code": "5",
+      "text": "Régulièrement de puis 3 mois et plus"
+    },
+    {
+      "code": "6",
+      "text": "Au moins 2 épisodes de 3 mois sur une période d'un an"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom3N3Q24 != -1",
+      "tagOID": "MVSomN3-24",
+      "value": -1
+    }
+  ]
+}

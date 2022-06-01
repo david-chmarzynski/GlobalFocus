@@ -1,0 +1,30 @@
+{
+    "oid": "G006",
+    "title": "Global",
+    "text": "Avez-vous eu un ou des d’enfant(s) biologique(s)?",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "1",
+          "text": "Oui"
+        },
+        {
+          "code": "2",
+          "text": "Non"
+        }
+    ],
+    "reports": [
+        {
+          "conditions": "G006 == '2'",
+          "tagOID": "tGlobal",
+          "value": "Pas d'enfants"
+        }
+    ],
+    "scores": [
+        {
+            "conditions": "G006 == '1'",
+            "tagOID": "tGlobal",
+            "value": 1
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+  "oid": "staiFormYA017",
+  "title": "Je suis inquiet, soucieux (inquiètude, soucieuse)",
+  "text": "Je suis inquiet, soucieux (inquiètude, soucieuse)",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Non"
+    },
+    {
+      "code": "2",
+      "text": "Plutot non"
+    },
+    {
+      "code": "3",
+      "text": "Plutot oui"
+    },
+    {
+      "code": "4",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "staiFormYA017 == \"1\"",
+      "tagOID": "staiFormYA",
+      "value": 1
+    },
+    {
+      "conditions": "staiFormYA017 == \"2\"",
+      "tagOID": "staiFormYA",
+      "value": 2
+    },
+    {
+      "conditions": "staiFormYA017 == \"3\"",
+      "tagOID": "staiFormYA",
+      "value": 3
+    },
+    {
+      "conditions": "staiFormYA017 == \"4\"",
+      "tagOID": "staiFormYA",
+      "value": 4
+    }
+  ]
+}

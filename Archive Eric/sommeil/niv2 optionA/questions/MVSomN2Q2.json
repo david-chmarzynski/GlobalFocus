@@ -1,0 +1,46 @@
+{
+  "oid": "MVSomN2Q2",
+  "title": "Sur ces 3 derniers mois, comment évaluez-vous la qualité globale de votre sommeil (facilité à vous endormir et/ou vous rendormir, commeil réparateur) ?",
+  "text": "Sur ces 3 derniers mois, comment évaluez-vous la qualité globale de votre sommeil (facilité à vous endormir et/ou vous rendormir, commeil réparateur) ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Suffisante"
+    },
+    {
+      "code": "1",
+      "text": "Légèrement insuffisante"
+    },
+    {
+      "code": "2",
+      "text": "Plutot insuffisante"
+    },
+    {
+      "code": "3",
+      "text": "Insuffisante"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSomN2Q2 == 0",
+      "tagOID": "MVSomN2-2",
+      "value": 0
+    },
+    {
+      "conditions": "MVSomN2Q2 == 1",
+      "tagOID": "MVSomN2-2",
+      "value": 1
+    },
+    {
+      "conditions": "MVSomN2Q2 == 2",
+      "tagOID": "MVSomN2-2",
+      "value": 2
+    },
+    {
+      "conditions": "MVSomN2Q2 == 3",
+      "tagOID": "MVSomN2-2",
+      "value": 3
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "oid": "fagerstrom001",
+  "title": "Le matin, combien de temps apprès etre réveillé(e), fumez-vous votre première cigarette ?",
+  "text": "Le matin, combien de temps apprès etre réveillé(e), fumez-vous votre première cigarette ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "dans les 5 minutes"
+    },
+    {
+      "code": "1",
+      "text": "6 à 30 minutes"
+    },
+    {
+      "code": "2",
+      "text": "31 à 60 minutes"
+    },
+    {
+      "code": "3",
+      "text": "après plus d'1 heure"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "fagerstrom001 == 0",
+      "tagOID": "fagerstrom",
+      "value": 3
+    },
+    {
+      "conditions": "fagerstrom001 == 1",
+      "tagOID": "fagerstrom",
+      "value": 2
+    },
+    {
+      "conditions": "fagerstrom001 == 2",
+      "tagOID": "fagerstrom",
+      "value": 1
+    },
+    {
+      "conditions": "fagerstrom001 == 3",
+      "tagOID": "fagerstrom",
+      "value": 0
+    }
+  ]
+}

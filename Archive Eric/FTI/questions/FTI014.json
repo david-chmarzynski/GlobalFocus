@@ -1,0 +1,28 @@
+{
+  "oid": "FTI014",
+  "title": "Pendant mon temps libre, j'aime être libre de faire ce qui me semble amusant",
+  "text": "Pendant mon temps libre, j'aime être libre de faire ce qui me semble amusant",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI014 == 0",
+      "tagOID": "curieux",
+      "value": 1
+    },
+    {
+      "conditions": "FTI014 == 1",
+      "tagOID": "curieux",
+      "value": 0
+    }
+  ]
+}

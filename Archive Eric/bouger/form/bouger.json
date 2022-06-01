@@ -1,0 +1,247 @@
+{
+  "oid": "bouger",
+  "title": "bouger",
+  "estimatedTime": 10,
+  "pricing": 0,
+  "description": "bouger",
+  "levelMax": 1,
+  "authors": ["Eric Liu"],
+  "chapters": ["chap_bouger"],
+  "professions": ["DENTIST"],
+  "reportingTrees": [
+    {
+      "category": "LIFE_STYLE",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "B1",
+        "type": "SCORE",
+        "ranges": [
+          { "min": -0.1, "max": 0.1, "color": "00FF00" },
+          { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+          { "min": 1.9, "max": 2.1, "color": "FFA500" },
+          { "min": 2.9, "max": 3.1, "color": "FF0000" }
+        ],
+        "children": [
+          {
+            "tagOID": "B2SM1",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 0.1, "color": "00FF00" },
+              { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+              { "min": 1.9, "max": 2.1, "color": "FFA500" },
+              { "min": 2.9, "max": 3.1, "color": "FF0000" },
+              { "min": 9.9, "max": 20.0, "color": "00FF00" },
+              { "min": 19.9, "max": 30.0, "color": "FFFF00" },
+              { "min": 29.9, "max": 40.0, "color": "FFA500" },
+              { "min": 39.9, "max": 50.0, "color": "FF0000" }
+            ],
+            "children": [
+              {
+                "tagOID": "B3SM2",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": 2.9, "max": 3.1, "color": "00FF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFFF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFA500" },
+                  { "min": -0.1, "max": 0.1, "color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "B3SM3",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": 2.9, "max": 3.1, "color": "00FF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFFF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFA500" },
+                  { "min": -0.1, "max": 0.1, "color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "B3SM4",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": 2.9, "max": 3.1, "color": "00FF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFFF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFA500" },
+                  { "min": -0.1, "max": 0.1, "color": "FF0000" }
+                ]
+              }
+            ]
+          },
+          {
+            "tagOID": "B2AP",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 0.1, "color": "FF0000" },
+              { "min": 0.9, "max": 1.1, "color": "FFA500" },
+              { "min": 1.9, "max": 2.1, "color": "FFFF00" },
+              { "min": 2.9, "max": 3.1, "color": "B0F2B6" },
+              { "min": 3.9, "max": 4.1, "color": "00FF00" },
+              { "min": 4.9, "max": 5.1, "color": "095228" }
+            ]
+          },
+          {
+            "tagOID": "B2SE",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 0.1, "color": "00FF00" },
+              { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+              { "min": 1.9, "max": 2.1, "color": "FFA500" },
+              { "min": 2.9, "max": 3.1, "color": "FF0000" }
+            ],
+            "children": [
+              {
+                "tagOID": "B3S1",
+                "type": "SCORE",
+                "ranges": [{ "min": 0.0, "max": 0.0, "color": "00FF00" }]
+              },
+              {
+                "tagOID": "B3S2",
+                "type": "SCORE",
+                "ranges": [{ "min": 0.0, "max": 0.0, "color": "00FF00" }]
+              },
+              {
+                "tagOID": "B3S3",
+                "type": "SCORE",
+                "ranges": [{ "min": 0.0, "max": 0.0, "color": "00FF00" }]
+              },
+              {
+                "tagOID": "B3S4",
+                "type": "SCORE",
+                "ranges": [{ "min": 0.0, "max": 0.0, "color": "00FF00" }]
+              },
+              {
+                "tagOID": "B3S5",
+                "type": "SCORE",
+                "ranges": [{ "min": 0.0, "max": 0.0, "color": "00FF00" }]
+              }
+            ]
+          },
+          {
+            "tagOID": "B2GP",
+            "type": "SCORE",
+            "ranges": [
+              { "min": 2.9, "max": 3.1, "color": "00FF00" },
+              { "min": 1.9, "max": 2.1, "color": "FFFF00" },
+              { "min": 0.9, "max": 1.1, "color": "FFA500" },
+              { "min": -0.1, "max": 0.1, "color": "FF0000" }
+            ],
+            "children": [
+              {
+                "tagOID": "B3GPT",
+                "type": "SCORE",
+                "ranges": [{ "min": 0.0, "max": 0.0, "color": "00FF00" }],
+                "children": [
+                  {
+                    "tagOID": "B3MT1",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": 2.9, "max": 3.1, "color": "00FF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFFF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFA500" },
+                      { "min": -0.1, "max": 0.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "B3MT2",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": 2.9, "max": 3.1, "color": "00FF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFFF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFA500" },
+                      { "min": -0.1, "max": 0.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "B3MT3",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": 2.9, "max": 3.1, "color": "00FF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFFF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFA500" },
+                      { "min": -0.1, "max": 0.1, "color": "FF0000" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tagOID": "B3GPD",
+                "type": "SCORE",
+                "ranges": [{ "min": 0.0, "max": 0.0, "color": "00FF00" }],
+                "children": [
+                  {
+                    "tagOID": "B3MD1",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": 2.9, "max": 3.1, "color": "00FF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFFF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFA500" },
+                      { "min": -0.1, "max": 0.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "B3MD2",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": 2.9, "max": 3.1, "color": "00FF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFFF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFA500" },
+                      { "min": -0.1, "max": 0.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "B3MD3",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": 2.9, "max": 3.1, "color": "00FF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFFF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFA500" },
+                      { "min": -0.1, "max": 0.1, "color": "FF0000" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tagOID": "B3GPL",
+                "type": "SCORE",
+                "ranges": [{ "min": 0.0, "max": 0.0, "color": "00FF00" }],
+                "children": [
+                  {
+                    "tagOID": "B3ML1",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": 2.9, "max": 3.1, "color": "00FF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFFF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFA500" },
+                      { "min": -0.1, "max": 0.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "B3ML2",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": 2.9, "max": 3.1, "color": "00FF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFFF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFA500" },
+                      { "min": -0.1, "max": 0.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "B3ML3",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": 2.9, "max": 3.1, "color": "00FF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFFF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFA500" },
+                      { "min": -0.1, "max": 0.1, "color": "FF0000" }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

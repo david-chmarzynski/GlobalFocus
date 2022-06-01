@@ -1,0 +1,28 @@
+{
+    "oid": "P2103",
+    "title": "oralité",
+    "text": "J’aime m’occuper des gens",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "0",
+          "text": "Non"
+        },
+        {
+          "code": "1",
+          "text": "Oui"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "P2103 == '0'",
+          "tagOID": "P2OR",
+          "value": 0
+        },
+        {
+          "conditions": "P2103 == '1'",
+          "tagOID": "P2OR",
+          "value": 1
+        }
+    ]
+}

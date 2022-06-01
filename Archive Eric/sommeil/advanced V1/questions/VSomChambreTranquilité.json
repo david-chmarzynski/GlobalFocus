@@ -1,0 +1,46 @@
+{
+  "oid": "VSomChambreTranquilité",
+  "title": "Sur ces 3 derniers mois, comment évaluez-vous la tranquillité (absence de dérangement ou d’imprévu) pendant votre sommeil ?",
+  "text": "Sur ces 3 derniers mois, comment évaluez-vous la tranquillité (absence de dérangement ou d’imprévu) pendant votre sommeil ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisant"
+    },
+    {
+      "code": "1",
+      "text": "Légèrement insatisfaisante"
+    },
+    {
+      "code": "2",
+      "text": "Assez insatisfaisante"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisante"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomChambreTranquilité == 0",
+      "tagOID": "Tranquilité",
+      "value": 0
+    },
+    {
+      "conditions": "VSomChambreTranquilité == 1",
+      "tagOID": "Tranquilité",
+      "value": 1
+    },
+    {
+      "conditions": "VSomChambreTranquilité == 2",
+      "tagOID": "Tranquilité",
+      "value": 2
+    },
+    {
+      "conditions": "VSomChambreTranquilité == 3",
+      "tagOID": "Tranquilité",
+      "value": 3
+    }
+  ]
+}

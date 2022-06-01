@@ -1,0 +1,46 @@
+{
+    "oid": "A1001",
+    "title": "alimentation",
+    "text": "Comment évaluez-vous votre alimentation (contenu, équilibre, habitudes, comportements…) ?",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "1",
+          "text": "Satisfaisant"
+        },
+        {
+          "code": "2",
+          "text": "Assez satisfaisant"
+        },
+        {
+          "code": "3",
+          "text": "Insatisfaisant"
+        },
+        {
+          "code": "4",
+          "text": "Très insatisfaisant"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "A1001 == '1'",
+          "tagOID": "A1",
+          "value": 1
+        },
+        {
+          "conditions": "A1001 == '2'",
+          "tagOID": "A1",
+          "value": 2
+        },
+        {
+          "conditions": "A1001 == '3'",
+          "tagOID": "A1",
+          "value": 3
+        },
+        {
+          "conditions": "A1001 == '4'",
+          "tagOID": "A1",
+          "value": 4
+        }
+    ]
+}

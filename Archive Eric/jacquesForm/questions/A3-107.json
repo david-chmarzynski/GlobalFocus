@@ -1,0 +1,11 @@
+{
+  "oid": "A3107",
+  "title": "Alimentation",
+  "text": "Combien en moyenne consommez-vous de portions d’entrées salées (pizza, quiche, feuilleté à la saucisse...) ou de desserts sucrés (entremets, crèmes desserts, gateau, glaces 2 boules...) par semaine ?",
+  "type": "DECIMAL",
+  "scale": {
+    "min": 0,
+    "max": 1,
+    "step": 100
+  }
+}

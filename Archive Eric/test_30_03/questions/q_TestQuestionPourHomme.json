@@ -1,0 +1,18 @@
+{
+  "oid": "q_TestQuestionPourHomme",
+  "title": "Vous aimez être un homme?",
+  "text": "Vous aimez être un homme?",
+  "type": "ANALOG_SCALE",
+  "hideAnalogScaleSelectorNumber":true,
+  "scale": {
+    "min": 0.0,
+    "max": 10.0,
+    "step": 1.0,
+    "maxText": "Content",
+    "minText": "Pas content",
+    "maxValue": "10",
+    "midValue": "5",
+    "minValue": "0"
+  }
+
+}

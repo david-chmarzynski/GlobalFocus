@@ -1,0 +1,46 @@
+{
+    "oid": "T2001",
+    "title": "travaille",
+    "text": "Comment évaluez-vous votre vie professionnelle et/ou vos études sur le plan de l’organisation (transport, charge et cadre de travail) ?",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "1",
+          "text": "Satisfaisant"
+        },
+        {
+          "code": "2",
+          "text": "Assez satisfaisant"
+        },
+        {
+          "code": "3",
+          "text": "Insatisfaisant"
+        },
+        {
+          "code": "4",
+          "text": "Très insatisfaisant"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "T2001 == '1'",
+          "tagOID": "T2-1",
+          "value": 1
+        },
+        {
+          "conditions": "T2001 == '2'",
+          "tagOID": "T2-1",
+          "value": 2
+        },
+        {
+          "conditions": "T2001 == '3'",
+          "tagOID": "T2-1",
+          "value": 3
+        },
+        {
+          "conditions": "T2001 == '4'",
+          "tagOID": "T2-1",
+          "value": 4
+        }
+    ]
+}

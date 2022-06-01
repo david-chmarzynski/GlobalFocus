@@ -1,0 +1,46 @@
+{
+    "oid": "A2002",
+    "title": "comportement",
+    "text": "Comment évaluez-vous votre comportement alimentaire (habitudes et comportements …) ?",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "1",
+          "text": "Satisfaisant"
+        },
+        {
+          "code": "2",
+          "text": "Assez satisfaisant"
+        },
+        {
+          "code": "3",
+          "text": "Insatisfaisant"
+        },
+        {
+          "code": "4",
+          "text": "Très insatisfaisant"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "A2002 == '1'",
+          "tagOID": "A2-2",
+          "value": 1
+        },
+        {
+          "conditions": "A2002 == '2'",
+          "tagOID": "A2-2",
+          "value": 2
+        },
+        {
+          "conditions": "A2002 == '3'",
+          "tagOID": "A2-2",
+          "value": 3
+        },
+        {
+          "conditions": "A2002 == '4'",
+          "tagOID": "A2-2",
+          "value": 4
+        }
+    ]
+}

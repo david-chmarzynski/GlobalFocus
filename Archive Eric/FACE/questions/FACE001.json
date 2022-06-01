@@ -1,0 +1,28 @@
+{
+  "oid": "FACE001",
+  "title": "Quelle est votre sexe ?",
+  "text": "Quelle est votre sexe ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Homme"
+    },
+    {
+      "code": "1",
+      "text": "Femme"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FACE001 == 0",
+      "tagOID": "FACE",
+      "value": 0
+    },
+    {
+      "conditions": "FACE001 == 1",
+      "tagOID": "FACE",
+      "value": 100
+    }
+  ]
+}

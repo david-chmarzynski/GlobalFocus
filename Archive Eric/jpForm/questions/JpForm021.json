@@ -1,0 +1,100 @@
+{
+  "oid": "JpForm021",
+  "title": "Ces 3 derniers mois, les douleurs ressenties pendant ou après les rapports étaient en lien avec : (plusieurs choix possibles) ?",
+  "text": "Ces 3 derniers mois, les douleurs ressenties pendant ou après les rapports étaient en lien avec : (plusieurs choix possibles) ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Un manque de lubrification"
+    },
+    {
+      "code": "1",
+      "text": "Une infection vulgo-vaginale (mycose, MST)"
+    },
+    {
+      "code": "2",
+      "text": "Une infection urinaire"
+    },
+    {
+      "code": "3",
+      "text": "La ménopause"
+    },
+    {
+      "code": "4",
+      "text": "Une cause psychoologique"
+    },
+    {
+      "code": "5",
+      "text": "Un vaginisme"
+    },
+    {
+      "code": "6",
+      "text": "Un vaginisme"
+    },
+    {
+      "code": "7",
+      "text": "Un problème dermatologique (lichen, exzéma...)"
+    },
+    {
+      "code": "8",
+      "text": "Autre chose"
+    },
+    {
+      "code": "9",
+      "text": "Ne sais pas"
+    }
+  ],
+  "scores": [
+    {
+      "tagOID": "troubles ejaculation/lubrification",
+      "conditions": "JpForm021 == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "troubles ejaculation/lubrification",
+      "conditions": "JpForm021 == '1'",
+      "value": 1
+    },
+    {
+      "tagOID": "troubles ejaculation/lubrification",
+      "conditions": "JpForm021 == '2'",
+      "value": 2
+    },
+    {
+      "tagOID": "troubles ejaculation/lubrification",
+      "conditions": "JpForm021 == '3'",
+      "value": 3
+    },
+    {
+      "tagOID": "troubles ejaculation/lubrification",
+      "conditions": "JpForm021 == '4'",
+      "value": 4
+    },
+    {
+      "tagOID": "troubles ejaculation/lubrification",
+      "conditions": "JpForm021 == '5'",
+      "value": 5
+    },
+    {
+      "tagOID": "troubles ejaculation/lubrification",
+      "conditions": "JpForm021 == '6'",
+      "value": 6
+    },
+    {
+      "tagOID": "troubles ejaculation/lubrification",
+      "conditions": "JpForm021 == '7'",
+      "value": 7
+    },
+    {
+      "tagOID": "troubles ejaculation/lubrification",
+      "conditions": "JpForm021 == '8'",
+      "value": 8
+    },
+    {
+      "tagOID": "troubles ejaculation/lubrification",
+      "conditions": "JpForm021 == '9'",
+      "value": 9
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "oid": "rathus024",
+  "title": "J'ai tendance à contenir des émotions plutot que de faire une scene",
+  "text": "J'ai tendance à contenir des émotions plutot que de faire une scene",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Tout à fait vrai"
+    },
+    {
+      "code": "2",
+      "text": "Vrai"
+    },
+    {
+      "code": "3",
+      "text": "Plutot vrai"
+    },
+    {
+      "code": "4",
+      "text": "Plutot faux"
+    },
+    {
+      "code": "5",
+      "text": "Faux"
+    },
+    {
+      "code": "6",
+      "text": "Tout à fait faux"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "rathus024 == \"1\"",
+      "tagOID": "rathus",
+      "value": 6
+    },
+    {
+      "conditions": "rathus024 == \"2\"",
+      "tagOID": "rathus",
+      "value": 5
+    },
+    {
+      "conditions": "rathus024 == \"3\"",
+      "tagOID": "rathus",
+      "value": 4
+    },
+    {
+      "conditions": "rathus024 == \"4\"",
+      "tagOID": "rathus",
+      "value": 3
+    },
+    {
+      "conditions": "rathus024 == \"5\"",
+      "tagOID": "rathus",
+      "value": 2
+    },
+    {
+      "conditions": "rathus024 == \"6\"",
+      "tagOID": "rathus",
+      "value": 1
+    }
+  ]
+}

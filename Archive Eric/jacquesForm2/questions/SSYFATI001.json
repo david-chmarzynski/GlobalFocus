@@ -1,0 +1,23 @@
+{
+  "oid": "SSYFATI001",
+  "title": "Vous sentez vous fatigué anormalement depuis plus d’une semaine ?",
+  "text": "Vous sentez vous fatigué anormalement depuis plus d’une semaine ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI001 == 0",
+      "value": 0
+    }
+  ]
+}

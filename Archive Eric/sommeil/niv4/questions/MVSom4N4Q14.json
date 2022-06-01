@@ -1,0 +1,67 @@
+{
+  "oid": "MVSom4N4Q14",
+  "title": "Habitudes perturbants le sommeil : votre endormissement est-il habituellement gêné par les causes suivantes (plusieurs réponses possibles) ?",
+  "text": "Habitudes perturbants le sommeil : votre endormissement est-il habituellement gêné par les causes suivantes (plusieurs réponses possibles) ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non-respect des rythmes naturels de sommeil"
+    },
+    {
+      "code": "1",
+      "text": "Résister à l’envie de dormir et ne plus pouvoir s’endormir après"
+    },
+    {
+      "code": "2",
+      "text": "Sieste trop longue"
+    },
+    {
+      "code": "3",
+      "text": "Grasse matinée ou avoir trop dormi la nuit précédente"
+    },
+    {
+      "code": "4",
+      "text": "Endormissement entre le repas du soir et le coucher (devant la télé par exemple…)"
+    },
+    {
+      "code": "5",
+      "text": "Activité stimulante ou stressante avant le coucher"
+    },
+    {
+      "code": "6",
+      "text": "Activité physique intense proche du coucher"
+    },
+    {
+      "code": "7",
+      "text": "Manque d’activité physique dans la journée"
+    },
+    {
+      "code": "8",
+      "text": "Repas trop copieux"
+    },
+    {
+      "code": "9",
+      "text": "Excès de café, thé, excitants"
+    },
+    {
+      "code": "10",
+      "text": "Tabac"
+    },
+    {
+      "code": "11",
+      "text": "Alcool"
+    },
+    {
+      "code": "12",
+      "text": "Autre"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom4N4Q14 != -1",
+      "tagOID": "MVSomN4-14",
+      "value": -1
+    }
+  ]
+}

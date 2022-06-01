@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI061",
+  "title": "Je préfère réfléchir longtemps avant de prendre une décision",
+  "text": "Je préfère réfléchir longtemps avant de prendre une décision",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

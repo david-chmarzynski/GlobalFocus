@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI179",
+  "title": "En général, j'ai de la chance dans tout ce que j'entreprends",
+  "text": "En général, j'ai de la chance dans tout ce que j'entreprends",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

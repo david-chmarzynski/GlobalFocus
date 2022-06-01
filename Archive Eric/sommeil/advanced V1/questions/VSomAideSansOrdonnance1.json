@@ -1,0 +1,50 @@
+{
+  "oid": "VSomAideSansOrdonnance1",
+  "title": "Sur ces 3 derniers mois, avez-vous eu besoin d’une aide sans ordonnance pour dormir (plantes, Donormyl, mélatonine, homéopathie, alcool, cannabis, nourriture, programme de relaxation…)?",
+  "text": "Sur ces 3 derniers mois, avez-vous eu besoin d’une aide sans ordonnance pour dormir (plantes, Donormyl, mélatonine, homéopathie, alcool, cannabis, nourriture, programme de relaxation…)?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais (ou presque)"
+    },
+    {
+      "code": "1",
+      "text": "Rarement (1 à 3 fois mois maximum)"
+    },
+    {
+      "code": "2",
+      "text": "Assez souvent (1 à 2 fois par semaine)"
+    },
+    {
+      "code": "3",
+      "text": "Souvent (3 fois/semaine et plus)"
+    },
+    {
+      "code": "4",
+      "text": "Tous les soirs (ou presque)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomAideSansOrdonnance1 == 0",
+      "tagOID": "Aide_sans_ordonnance_fréquence",
+      "value": 0
+    },
+    {
+      "conditions": "VSomAideSansOrdonnance1 == 1",
+      "tagOID": "Aide_sans_ordonnance_fréquence",
+      "value": 1
+    },
+    {
+      "conditions": "VSomAideSansOrdonnance1 == 2",
+      "tagOID": "Aide_sans_ordonnance_fréquence",
+      "value": 2
+    },
+    {
+      "conditions": "VSomAideSansOrdonnance1 == 3 || VSomAideSansOrdonnance1 == 4",
+      "tagOID": "Aide_sans_ordonnance_fréquence",
+      "value": 3
+    }
+  ]
+}

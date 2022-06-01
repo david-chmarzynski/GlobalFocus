@@ -1,0 +1,28 @@
+{
+  "oid": "CAST003",
+  "title": "Avez-vous déjà eu des problèmes de mémoire quand vous fumez du cannabis ?",
+  "text": "Avez-vous déjà eu des problèmes de mémoire quand vous fumez du cannabis ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "CAST003 == 0",
+      "tagOID": "CAST",
+      "value": 0
+    },
+    {
+      "conditions": "CAST003 == 1",
+      "tagOID": "CAST",
+      "value": 1
+    }
+  ]
+}

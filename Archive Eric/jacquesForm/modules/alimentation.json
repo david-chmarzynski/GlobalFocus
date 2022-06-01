@@ -1,0 +1,41 @@
+{
+  "oid": "alimentation0",
+  "title": "alimentation",
+  "questions": [
+    { "question": "A1001", "level": 1 },
+    { "question": "A2001", "level": 1 },
+    { "question": "A2002", "level": 1 },
+    { "question": "A2003", "level": 1 },
+    { "question": "A2401", "level": 1 },
+    { "question": "A2402", "level": 1 },
+    { "question": "A2403", "level": 1 },
+    { "question": "A2404", "level": 1 },
+    { "question": "A2405", "level": 1 },
+    { "question": "A3101", "level": 1 },
+    { "question": "A3102", "level": 1 },
+    { "question": "A3103", "level": 1 },
+    { "question": "A3104", "level": 1 },
+    { "question": "A3105", "level": 1 },
+    { "question": "A3106", "level": 1 },
+    { "question": "A3107", "level": 1 },
+    { "question": "A3108", "level": 1 },
+    { "question": "A3109", "level": 1 },
+    { "question": "A3110", "level": 1 },
+    { "question": "A3111", "level": 1 },
+    { "question": "A3112", "level": 1 },
+    { "question": "A3113", "level": 1 },
+    { "question": "A3114", "level": 1 },
+    { "question": "A3115", "level": 1 },
+    { "question": "A3116", "level": 1 }
+  ],
+  "calculations": [
+    {
+      "oid": "fibres",
+      "type": "NORMAL",
+      "title": "fibres",
+      "text": "fibres",
+      "calculation": "A3105 + A3110 + A3111",
+      "isGlobal": true
+    }
+  ]
+}

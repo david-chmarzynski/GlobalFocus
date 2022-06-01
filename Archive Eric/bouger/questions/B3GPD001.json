@@ -1,0 +1,16 @@
+{
+  "oid": "B3GPD001",
+  "title": "Est-ce que vous effectuez des trajets d’au moins 10 minutes à pied, à vélo, roller ou trottinette ?",
+  "text": "Est-ce que vous effectuez des trajets d’au moins 10 minutes à pied, à vélo, roller ou trottinette ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ]
+}

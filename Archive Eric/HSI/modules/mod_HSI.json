@@ -1,0 +1,8 @@
+{
+  "oid": "mod_HSI",
+  "title": "tp",
+  "questions": [
+    { "question": "HSI001", "level": 1 },
+    { "question": "HSI002", "level": 1 }
+  ]
+}

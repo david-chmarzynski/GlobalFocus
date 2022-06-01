@@ -1,0 +1,52 @@
+{
+  "oid": "SSYFATI003",
+  "title": " L'exercice physique est pour moi source de fatigue ",
+  "text": " L'exercice physique est pour moi source de fatigue ",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 1.0,
+    "max": 7.0,
+    "step": 1.0,
+    "maxText": "Cela me correpond tout à fait",
+    "maxValue": "7",
+    "minText": "Cela ne me correspond pas",
+    "minValue": "1"
+  },
+  "scores": [
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI003 == 1",
+      "value": 1
+    },
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI003 == 2",
+      "value": 2
+    },
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI003 == 3",
+      "value": 3
+    },
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI003 == 4",
+      "value": 4
+    },
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI003 == 5",
+      "value": 5
+    },
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI003 == 6",
+      "value": 6
+    },
+    {
+      "tagOID": "fatigue FSS",
+      "conditions": "SSYFATI003 == 7",
+      "value": 7
+    }
+  ]
+}

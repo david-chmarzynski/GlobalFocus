@@ -1,0 +1,26 @@
+{
+  "oid": "rathus",
+  "title": "rathus",
+  "estimatedTime": 5,
+  "pricing": 0,
+  "description": "échelle d'affirmation de soi",
+  "levelMax": 1,
+  "authors": ["Eric Liu"],
+  "chapters": ["chap_rathus"],
+  "professions": ["DENTIST"],
+  "reportingTrees": [
+    {
+      "category": "HEALTH",
+      "scoreStrategy": "SUM_PLUS_CHILDREN",
+      "reportingNode": {
+        "tagOID": "rathus",
+        "type": "SCORE",
+        "ranges": [
+          { "min": 72.9, "max": 106.84, "color": "00FF00" },
+          { "min": 106.83, "max": 111.11, "color": "ffff00" },
+          { "min": 111.1, "max": 144.7, "color": "FF0000" }
+        ]
+      }
+    }
+  ]
+}

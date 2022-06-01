@@ -1,0 +1,46 @@
+{
+  "oid": "VSomRythmesChronotypeMEQ19",
+  "title": "On parle de gens \"du matin\" (ou \"lève-tôt\") et de gens \"du soir\" (ou \"couche-tard\"). Dans quelle catégorie vous situez-vous?",
+  "text": "On parle de gens \"du matin\" (ou \"lève-tôt\") et de gens \"du soir\" (ou \"couche-tard\"). Dans quelle catégorie vous situez-vous?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Nettement parmi les \"gens du matin\""
+    },
+    {
+      "code": "1",
+      "text": "Plutôt parmi les \"gens du matin\" que parmi les \"gens du soir\""
+    },
+    {
+      "code": "2",
+      "text": "Plutôt parmi les \"gens du soir\" que parmi les \"gens du matin\""
+    },
+    {
+      "code": "3",
+      "text": "Nettement parmi les \"gens du soir\""
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomRythmesChronotypeMEQ19 == 0",
+      "tagOID": "ChronotypeMEQ",
+      "value": 6
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ19 == 1",
+      "tagOID": "ChronotypeMEQ",
+      "value": 4
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ19 == 2",
+      "tagOID": "ChronotypeMEQ",
+      "value": 2
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ19 == 3",
+      "tagOID": "ChronotypeMEQ",
+      "value": 0
+    }
+  ]
+}

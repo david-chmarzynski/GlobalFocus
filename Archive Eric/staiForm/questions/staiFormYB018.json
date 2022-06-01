@@ -1,0 +1,46 @@
+{
+  "oid": "staiFormYB018",
+  "title": "Je prends les déceptions tellement à coeur que je les oublie difficilement",
+  "text": "Je prends les déceptions tellement à coeur que je les oublie difficilement",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Jamais"
+    },
+    {
+      "code": "2",
+      "text": "Parfois"
+    },
+    {
+      "code": "3",
+      "text": "Souvent"
+    },
+    {
+      "code": "4",
+      "text": "Toujours"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "staiFormYB018 == \"1\"",
+      "tagOID": "staiFormYB",
+      "value": 1
+    },
+    {
+      "conditions": "staiFormYB018 == \"2\"",
+      "tagOID": "staiFormYB",
+      "value": 2
+    },
+    {
+      "conditions": "staiFormYB018 == \"3\"",
+      "tagOID": "staiFormYB",
+      "value": 3
+    },
+    {
+      "conditions": "staiFormYB018 == \"4\"",
+      "tagOID": "staiFormYB",
+      "value": 4
+    }
+  ]
+}

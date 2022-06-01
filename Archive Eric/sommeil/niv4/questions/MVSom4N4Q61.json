@@ -1,0 +1,28 @@
+{
+  "oid": "MVSom4N4Q61",
+  "title": "Avez-vous un membre éloigné de votre famille (grand-parent, oncle, tante, cousin, petit enfant) qui présente de l'imsomnie ?",
+  "text": "Avez-vous un membre éloigné de votre famille (grand-parent, oncle, tante, cousin, petit enfant) qui présente de l'imsomnie ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom4N4Q61 == 0",
+      "tagOID": "MVSomN4-61",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom4N4Q61 == 1",
+      "tagOID": "MVSomN4-61",
+      "value": 1
+    }
+  ]
+}

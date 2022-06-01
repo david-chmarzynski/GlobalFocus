@@ -1,0 +1,53 @@
+{
+  "oid": "endocrinien001",
+  "title": "Quel est votre sexe ?",
+  "text": "Quel est votre sexe ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Homme"
+    },
+    {
+      "code": "1",
+      "text": "Femme"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "endocrinien001 == \"0\"",
+      "tagOID": "tag_thyroidien_A",
+      "value": 100
+    },
+    {
+      "conditions": "endocrinien001 == \"0\"",
+      "tagOID": "tag_cortisone_A",
+      "value": 100
+    },
+    {
+      "conditions": "endocrinien001 == \"0\"",
+      "tagOID": "tag_hormone_sexuelle1A",
+      "value": 100
+    },
+    {
+      "conditions": "endocrinien001 == \"0\"",
+      "tagOID": "tag_hormone_sexuelle1B",
+      "value": 100
+    },
+    {
+      "conditions": "endocrinien001 == \"0\"",
+      "tagOID": "tag_hormone_sexuelle2",
+      "value": 100
+    },
+    {
+      "conditions": "endocrinien001 == \"0\"",
+      "tagOID": "tag_hormone_sexuelle3",
+      "value": 100
+    },
+    {
+      "conditions": "endocrinien001 == \"1\"",
+      "tagOID": "tag_thyroidien_A",
+      "value": 0
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "oid": "A3109",
+  "title": "Alimentation",
+  "text": "Combien de fois par mois consommez-vous des poissons gras (sardines, maquereaux, hareng, flétan, saumon, truite, thon, espadon) ?",
+  "type": "DECIMAL",
+  "scale": {
+    "min": 0,
+    "max": 1,
+    "step": 100
+  }
+}

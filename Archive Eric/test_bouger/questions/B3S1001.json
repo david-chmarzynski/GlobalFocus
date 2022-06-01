@@ -1,0 +1,55 @@
+{
+  "oid": "B3S1001",
+  "title": "Au cours d'une journée habituelle, vous arrive-t-il de rester assis ou allongé (hors sommeil) pendadnt plus de heures d'affilée ?",
+  "text": "Au cours d'une journée habituelle, vous arrive-t-il de rester assis ou allongé (hors sommeil) pendadnt plus de heures d'affilée ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui, parfois"
+    },
+    {
+      "code": "2",
+      "text": "1 fois/jour en moyenne"
+    },
+    {
+      "code": "3",
+      "text": "2 fois/jour en moyenne"
+    },
+    {
+      "code": "4",
+      "text": "3 fois/jour en moyenne"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "B3S1001 == \"0\"",
+      "tagOID": "B3S1",
+      "value": 0
+    },
+    {
+      "conditions": "B3S1001 == \"1\"",
+      "tagOID": "B3S1",
+      "value": 1
+    },
+    {
+      "conditions": "B3S1001 == \"2\"",
+      "tagOID": "B3S1",
+      "value": 2
+    },
+    {
+      "conditions": "B3S1001 == \"3\"",
+      "tagOID": "B3S1",
+      "value": 3
+    },
+    {
+      "conditions": "B3S1001 == \"4\"",
+      "tagOID": "B3S1",
+      "value": 4
+    }
+  ]
+}

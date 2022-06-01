@@ -1,0 +1,50 @@
+{
+  "oid": "MVSom3N3Q141",
+  "title": "Votre endormissement est- il gêné par de mauvaises habitudes (non-respect des rythmes naturels, écran, repas trop copieux…)",
+  "text": "Votre endormissement est- il gêné par de mauvaises habitudes (non-respect des rythmes naturels, écran, repas trop copieux…)",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais (ou presque)"
+    },
+    {
+      "code": "1",
+      "text": "1 à 3 fois/mois"
+    },
+    {
+      "code": "2",
+      "text": "1 à 2 fois/semaine"
+    },
+    {
+      "code": "3",
+      "text": "3 à 5 fois par semaine"
+    },
+    {
+      "code": "4",
+      "text": "Tous les soirs (ou presque)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom3N3Q141 == 0",
+      "tagOID": "MVSomN3-141",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom3N3Q141 == 1",
+      "tagOID": "MVSomN3-141",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom3N3Q141 == 2",
+      "tagOID": "MVSomN3-141",
+      "value": 2
+    },
+    {
+      "conditions": "MVSom3N3Q141 == 3 || MVSom3N3Q141 == 4",
+      "tagOID": "MVSomN3-141",
+      "value": 3
+    }
+  ]
+}

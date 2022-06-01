@@ -1,0 +1,28 @@
+{
+    "oid": "P2002",
+    "title": "Alexi thymie",
+    "text": "Je n’ai jamais tenu de journal",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "0",
+          "text": "Non"
+        },
+        {
+          "code": "1",
+          "text": "Oui"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "P2002 == '0'",
+          "tagOID": "P2AL",
+          "value": 0
+        },
+        {
+          "conditions": "P2002 == '1'",
+          "tagOID": "P2AL",
+          "value": 1
+        }
+    ]
+}

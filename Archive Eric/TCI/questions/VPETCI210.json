@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI210",
+  "title": "Ma volonté est trop faible pour résister aux tentaions très fortes, meme si je sais que je souffrirai de leurs conséquences",
+  "text": "Ma volonté est trop faible pour résister aux tentaions très fortes, meme si je sais que je souffrirai de leurs conséquences",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

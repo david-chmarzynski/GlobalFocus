@@ -1,0 +1,70 @@
+{
+  "oid": "VSomRéveilsDurée",
+  "title": "En moyenne, quelle est la durée totale de vos périodes d'éveils nocturnes ?",
+  "text": "En moyenne, quelle est la durée totale de vos périodes d'éveils nocturnes ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Moins de 5 minutes"
+    },
+    {
+      "code": "1",
+      "text": "Entre 5 et 20 miinutes"
+    },
+    {
+      "code": "2",
+      "text": "Entre 10 et 15 minutes"
+    },
+    {
+      "code": "3",
+      "text": "Entre 15 minutes et 20 minutes"
+    },
+    {
+      "code": "4",
+      "text": "Entre 20 minutes et 25 minutes"
+    },
+    {
+      "code": "5",
+      "text": "Entre 25 minutes et 30 minutes"
+    },
+    {
+      "code": "6",
+      "text": "Entre 30 minutes et 35 minutes"
+    },
+    {
+      "code": "7",
+      "text": "Entre 35 minutes et 40 minutes"
+    },
+    {
+      "code": "8",
+      "text": "Entre 40 minutes et 45 minutes"
+    },
+    {
+      "code": "9",
+      "text": "Plus de 45 minutes"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomRéveilsDurée == 0 || VSomRéveilsDurée == 1 || VSomRéveilsDurée == 2",
+      "tagOID": "Durée_éveils",
+      "value": 0
+    },
+    {
+      "conditions": "VSomRéveilsDurée == 3 || VSomRéveilsDurée == 4 || VSomRéveilsDurée == 5",
+      "tagOID": "Durée_éveils",
+      "value": 1
+    },
+    {
+      "conditions": "VSomRéveilsDurée == 6 || VSomRéveilsDurée == 7 || VSomRéveilsDurée == 8",
+      "tagOID": "Durée_éveils",
+      "value": 2
+    },
+    {
+      "conditions": "VSomRéveilsDurée == 9",
+      "tagOID": "Durée_éveils",
+      "value": 3
+    }
+  ]
+}

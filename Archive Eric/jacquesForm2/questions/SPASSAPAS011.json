@@ -1,0 +1,16 @@
+{
+  "oid": "SPASSAPAS011",
+  "title": "Habituellement, etes-vous quelqu'un d'inquiet ?",
+  "text": "Habituellement, etes-vous quelqu'un d'inquiet ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "oid": "chap_BDI",
+  "title": "chapitre BDI",
+  "modules": ["mod_BDI"]
+}

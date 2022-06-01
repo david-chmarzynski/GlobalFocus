@@ -1,0 +1,46 @@
+{
+  "oid": "MVSom3N3Q2",
+  "title": "Sur ces 3 derniers mois, comment évaluez-vous vos habitudes de sommeil (respect de vos rythmes naturels de sommeil, repas légers, absence de consommation de tabac, alcool, excitants, activités calmes avant le coucher...) ?",
+  "text": "Sur ces 3 derniers mois, comment évaluez-vous vos habitudes de sommeil (respect de vos rythmes naturels de sommeil, repas légers, absence de consommation de tabac, alcool, excitants, activités calmes avant le coucher...) ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisant"
+    },
+    {
+      "code": "1",
+      "text": "Légèrement insatisfaisant"
+    },
+    {
+      "code": "2",
+      "text": "Assez insatisfaisant"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisant"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom3N3Q2 == 0",
+      "tagOID": "MVSomN3-2",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom3N3Q2 == 1",
+      "tagOID": "MVSomN3-2",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom3N3Q2 == 2",
+      "tagOID": "MVSomN3-2",
+      "value": 2
+    },
+    {
+      "conditions": "MVSom3N3Q2 == 3",
+      "tagOID": "MVSomN3-2",
+      "value": 3
+    }
+  ]
+}

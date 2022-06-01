@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI084",
+  "title": "Les autres me controlent trop",
+  "text": "Les autres me controlent trop",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

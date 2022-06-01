@@ -1,0 +1,50 @@
+{
+  "oid": "JpForm016",
+  "title": "Ces 6 derniers mois, avez-vous pris un médicament pour faciliter l'érection avant une relation sexuelle ?",
+  "text": "Ces 6 derniers mois, avez-vous pris un médicament pour faciliter l'érection avant une relation sexuelle ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "Rarement"
+    },
+    {
+      "code": "2",
+      "text": "Assez souvent"
+    },
+    {
+      "code": "3",
+      "text": "Souvent"
+    },
+    {
+      "code": "4",
+      "text": "A chaque fois"
+    }
+  ],
+  "scores": [
+    {
+      "tagOID": "medicament trouble erectile/lubrification",
+      "conditions": "JpForm016 == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "medicament trouble erectile/lubrification",
+      "conditions": "JpForm016 == '1'",
+      "value": 1
+    },
+    {
+      "tagOID": "medicament trouble erectile/lubrification",
+      "conditions": "JpForm016 == '2' || JpForm016 == '2'",
+      "value": 2
+    },
+    {
+      "tagOID": "medicament trouble erectile/lubrification",
+      "conditions": "JpForm016 == '3'",
+      "value": 3
+    }
+  ]
+}

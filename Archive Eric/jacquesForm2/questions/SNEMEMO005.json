@@ -1,0 +1,46 @@
+{
+  "oid": "SNEMEMO005",
+  "title": "Avez-vous des difficultés à vous souvenir des numéros de téléphone habituels ?",
+  "text": "Avez-vous des difficultés à vous souvenir des numéros de téléphone habituels ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Rarement"
+    },
+    {
+      "code": "1",
+      "text": "Parfois"
+    },
+    {
+      "code": "2",
+      "text": "La plupart du temps"
+    },
+    {
+      "code": "3",
+      "text": "Très souvent"
+    }
+  ],
+  "scores": [
+    {
+      "tagOID": "memoire",
+      "conditions": "SNEMEMO005 == 0",
+      "value": 0
+    },
+    {
+      "tagOID": "memoire",
+      "conditions": "SNEMEMO005 == 1",
+      "value": 1
+    },
+    {
+      "tagOID": "memoire",
+      "conditions": "SNEMEMO005 == 2",
+      "value": 2
+    },
+    {
+      "tagOID": "memoire",
+      "conditions": "SNEMEMO005 == 3",
+      "value": 3
+    }
+  ]
+}

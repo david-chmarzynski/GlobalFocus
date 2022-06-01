@@ -1,0 +1,28 @@
+{
+  "oid": "hormonesexuelle1B008",
+  "title": "Avez-vous un ou des antécédent(s) qui présent(ent) un des cas suivant : ostéopénie, ostéoporose, fractures",
+  "text": "Avez-vous un ou des antécédent(s) qui présent(ent) un des cas suivant : ostéopénie, ostéoporose, fractures",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "hormonesexuelle1B008 == \"0\"",
+      "tagOID": "tag_hormone_sexuelle1B",
+      "value": 0
+    },
+    {
+      "conditions": "hormonesexuelle1B008 == \"1\"",
+      "tagOID": "tag_hormone_sexuelle1B",
+      "value": 1
+    }
+  ]
+}

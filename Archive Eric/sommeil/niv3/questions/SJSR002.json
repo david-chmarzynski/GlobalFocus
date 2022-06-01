@@ -1,0 +1,28 @@
+{
+  "oid": "SJSR002",
+  "title": "Ce besoin pressant de bouger les jambes (ou les bras) commence-t-il ou s’aggrave-t-il pendant les périodes d’inactivité ou de repos ?",
+  "text": "Ce besoin pressant de bouger les jambes (ou les bras) commence-t-il ou s’aggrave-t-il pendant les périodes d’inactivité ou de repos ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "SJSR002 == 0",
+      "tagOID": "SJSR",
+      "value": 0
+    },
+    {
+      "conditions": "SJSR002 == 1",
+      "tagOID": "SJSR",
+      "value": 1
+    }
+  ]
+}

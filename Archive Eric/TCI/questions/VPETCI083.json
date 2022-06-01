@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI083",
+  "title": "IL m'arrive souvent de souhaiter avoir des pouvoirs spéciaux comme Superman",
+  "text": "IL m'arrive souvent de souhaiter avoir des pouvoirs spéciaux comme Superman",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

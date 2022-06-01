@@ -1,0 +1,28 @@
+{
+  "oid": "Q006",
+  "title": "activite physique",
+  "text": "activite physique 30min/j ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "Q006 == \"0\"",
+      "tagOID": "findrisk_activite_physique",
+      "value": 2
+    },
+    {
+      "conditions": "Q006 == \"1\"",
+      "tagOID": "findrisk_activite_physique",
+      "value": 0
+    }
+  ]
+}

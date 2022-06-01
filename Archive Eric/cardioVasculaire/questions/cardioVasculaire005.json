@@ -1,0 +1,11 @@
+{
+  "oid": "cardioVasculaire005",
+  "title": "Quelle est votre taux de cholestérol ?",
+  "text": "Quelle est votre taux de cholestérol ?",
+  "type": "DECIMAL",
+  "scale": {
+    "min": 4.0,
+    "max": 8.0,
+    "step": 1.0
+  }
+}

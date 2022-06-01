@@ -1,0 +1,50 @@
+{
+  "oid": "MVSom3N3Q25",
+  "title": "Sur ces 3 derniers mois, la perturbation de votre sommeil est-elle à l'origine d'une souffrance (détresse marquée) et/ou d'une altérattion du fonctionnement dans les domaines sociial, professionnell, éducatif, scolaire ou dans d'autres domaines imporatnts ? (DSMV)",
+  "text": "Sur ces 3 derniers mois, la perturbation de votre sommeil est-elle à l'origine d'une souffrance (détresse marquée) et/ou d'une altérattion du fonctionnement dans les domaines sociial, professionnell, éducatif, scolaire ou dans d'autres domaines imporatnts ? (DSMV)",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Absence ded souffrance ou di difficultés liées au sommeil"
+    },
+    {
+      "code": "1",
+      "text": "Souffrance et/ou difficultés minimes"
+    },
+    {
+      "code": "2",
+      "text": "Souffrance et/ou difficultés assez importantes"
+    },
+    {
+      "code": "3",
+      "text": "Souffrance et/ou diffficultés importantes"
+    },
+    {
+      "code": "4",
+      "text": "Souffrance et/ou difficultés très imporatntes"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom3N3Q25 == 0",
+      "tagOID": "MVSomN3-25",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom3N3Q25 == 1",
+      "tagOID": "MVSomN3-25",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom3N3Q25 == 2",
+      "tagOID": "MVSomN3-25",
+      "value": 2
+    },
+    {
+      "conditions": "MVSom3N3Q25 == 3 || MVSom3N3Q25 == 4",
+      "tagOID": "MVSomN3-25",
+      "value": 3
+    }
+  ]
+}

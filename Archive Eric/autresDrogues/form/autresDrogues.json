@@ -1,0 +1,137 @@
+{
+  "oid": "autresDrogues",
+  "title": "autresDrogues",
+  "estimatedTime": 3,
+  "pricing": 0,
+  "description": "autresDrogues",
+  "levelMax": 1,
+  "authors": ["Eric Liu"],
+  "chapters": ["chap_autresDrogues"],
+  "professions": ["DENTIST"],
+  "diagnostics": [
+    {
+      "oid": "autresDrogues",
+      "type": "CUSTOM",
+      "conditions": {
+        "Rouge": "tagAutresDrogues1 >= 4 || tagAutresDrogues2 >= 4 || tagAutresDrogues3 >= 4 || tagAutresDrogues4 >= 4 || tagAutresDrogues5 >= 4 || tagAutresDrogues6 >= 4 || tagAutresDrogues7 >= 4 || tagAutresDrogues8 >= 4",
+        "Orange": "(tagAutresDrogues1 >= 2 && tagAutresDrogues1 <= 3) || (tagAutresDrogues2 >= 2 && tagAutresDrogues2 <= 3) || (tagAutresDrogues3 >= 2 && tagAutresDrogues3 <= 3) || (tagAutresDrogues4 >= 2 && tagAutresDrogues4 <= 3) || (tagAutresDrogues5 >= 2 && tagAutresDrogues5 <= 3) || (tagAutresDrogues6 >= 2 && tagAutresDrogues6 <= 3) || (tagAutresDrogues7 >= 2 && tagAutresDrogues7 <= 3) || (tagAutresDrogues8 >= 2 && tagAutresDrogues8 <= 3)",
+        "Jaune": "tagAutresDrogues1 == 1 || tagAutresDrogues2 == 1 || tagAutresDrogues3 == 1 || tagAutresDrogues4 == 1 || tagAutresDrogues5 == 1 || tagAutresDrogues6 == 1 || tagAutresDrogues7 == 1 || tagAutresDrogues8 == 1",
+        "Vert": "tagAutresDrogues1 == 0 && tagAutresDrogues2 == 0 && tagAutresDrogues3 == 0 && tagAutresDrogues4 == 0 && tagAutresDrogues5 == 0 && tagAutresDrogues6 == 0 && tagAutresDrogues7 == 0 && tagAutresDrogues8 == 0"
+      }
+    }
+  ],
+  "reportingTrees": [
+    {
+      "category": "LIFE_STYLE",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "diagnosticOID": "autresDrogues",
+        "type": "DIAGNOSTIC",
+        "diagnostics": {
+          "Vert": {
+            "text": "Risque Très Faible",
+            "color": "00FF00",
+            "severity": 0
+          },
+          "Jaune": {
+            "text": "Risque Faible",
+            "color": "FFFF00",
+            "severity": 1
+          },
+          "Orange": {
+            "text": "Risque Moyen",
+            "color": "FFA500",
+            "severity": 2
+          },
+          "Rouge": {
+            "text": "Risque Haut",
+            "color": "FF0000",
+            "severity": 3
+          }
+        },
+        "children": [
+          {
+            "tagOID": "tagAutresDrogues1",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 0.1, "color": "00FF00" },
+              { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+              { "min": 1.9, "max": 3.1, "color": "FFA500" },
+              { "min": 3.9, "max": 5.1, "color": "FF0000" }
+            ]
+          },
+          {
+            "tagOID": "tagAutresDrogues2",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 0.1, "color": "00FF00" },
+              { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+              { "min": 1.9, "max": 3.1, "color": "FFA500" },
+              { "min": 3.9, "max": 5.1, "color": "FF0000" }
+            ]
+          },
+          {
+            "tagOID": "tagAutresDrogues3",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 0.1, "color": "00FF00" },
+              { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+              { "min": 1.9, "max": 3.1, "color": "FFA500" },
+              { "min": 3.9, "max": 5.1, "color": "FF0000" }
+            ]
+          },
+          {
+            "tagOID": "tagAutresDrogues4",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 0.1, "color": "00FF00" },
+              { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+              { "min": 1.9, "max": 3.1, "color": "FFA500" },
+              { "min": 3.9, "max": 5.1, "color": "FF0000" }
+            ]
+          },
+          {
+            "tagOID": "tagAutresDrogues5",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 0.1, "color": "00FF00" },
+              { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+              { "min": 1.9, "max": 3.1, "color": "FFA500" },
+              { "min": 3.9, "max": 5.1, "color": "FF0000" }
+            ]
+          },
+          {
+            "tagOID": "tagAutresDrogues6",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 0.1, "color": "00FF00" },
+              { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+              { "min": 1.9, "max": 3.1, "color": "FFA500" },
+              { "min": 3.9, "max": 5.1, "color": "FF0000" }
+            ]
+          },
+          {
+            "tagOID": "tagAutresDrogues7",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 0.1, "color": "00FF00" },
+              { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+              { "min": 1.9, "max": 3.1, "color": "FFA500" },
+              { "min": 3.9, "max": 5.1, "color": "FF0000" }
+            ]
+          },
+          {
+            "tagOID": "tagAutresDrogues8",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 0.1, "color": "00FF00" },
+              { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+              { "min": 1.9, "max": 3.1, "color": "FFA500" },
+              { "min": 3.9, "max": 5.1, "color": "FF0000" }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

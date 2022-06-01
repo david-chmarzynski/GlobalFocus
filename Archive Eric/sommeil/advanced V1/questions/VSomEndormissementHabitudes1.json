@@ -1,0 +1,50 @@
+{
+  "oid": "VSomEndormissementHabitudes1",
+  "title": "Votre endormissement est-il gene par de mauvaises habitudes (non-respect des rythmes naturels, écran, repas trop copieux...) ?",
+  "text": "Votre endormissement est-il gene par de mauvaises habitudes (non-respect des rythmes naturels, écran, repas trop copieux...) ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais (ou presque)"
+    },
+    {
+      "code": "1",
+      "text": "1 à 3 fois/mois"
+    },
+    {
+      "code": "2",
+      "text": "1 à 2 fois/semaine"
+    },
+    {
+      "code": "3",
+      "text": "3 à 5 fois par semaine"
+    },
+    {
+      "code": "4",
+      "text": "Tous les soirs (ou presque)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomEndormissementHabitudes1 == 0",
+      "tagOID": "Mauvaises_habitudes",
+      "value": 0
+    },
+    {
+      "conditions": "VSomEndormissementHabitudes1 == 1",
+      "tagOID": "Mauvaises_habitudes",
+      "value": 1
+    },
+    {
+      "conditions": "VSomEndormissementHabitudes1 == 2",
+      "tagOID": "Mauvaises_habitudes",
+      "value": 2
+    },
+    {
+      "conditions": "VSomEndormissementHabitudes1 == 3 || VSomEndormissementHabitudes1 == 4",
+      "tagOID": "Mauvaises_habitudes",
+      "value": 3
+    }
+  ]
+}

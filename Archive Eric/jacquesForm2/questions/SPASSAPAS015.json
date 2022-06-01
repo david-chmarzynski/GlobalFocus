@@ -1,0 +1,16 @@
+{
+  "oid": "SPASSAPAS015",
+  "title": "En général, etes-vous un(e) perfectionniste ?",
+  "text": "En général, etes-vous un(e) perfectionniste ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ]
+}

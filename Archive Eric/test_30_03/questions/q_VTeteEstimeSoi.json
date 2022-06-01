@@ -1,0 +1,64 @@
+{
+  "oid": "q_VTeteEstimeSoi",
+  "title": "Quelle appréciation portez-vous sur votre valeur personnelle (qualités/défauts, réussites/échecs, fierté/honte…) ?",
+  "text": "Quelle appréciation portez-vous sur votre valeur personnelle (qualités/défauts, réussites/échecs, fierté/honte…) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Très satisfaisante"
+    },
+    {
+      "code": "1",
+      "text": "Satisfaisante"
+    },
+    {
+      "code": "2",
+      "text": "Légèrement insatisfaisante"
+    },
+    {
+      "code": "3",
+      "text": "Plutôt insatisfaisante"
+    },
+    {
+      "code": "4",
+      "text": "Insatisfaisante"
+    },
+    {
+      "code": "5",
+      "text": "Très insatisfaisante"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VTeteEstimeSoi == '0'",
+      "tagOID": "tag_VTeteEstimeSoi",
+      "value": 1
+    },
+    {
+      "conditions": "q_VTeteEstimeSoi == '1'",
+      "tagOID": "tag_VTeteEstimeSoi",
+      "value": 2
+    },
+    {
+      "conditions": "q_VTeteEstimeSoi == '2'",
+      "tagOID": "tag_VTeteEstimeSoi",
+      "value": 3
+    },
+    {
+      "conditions": "q_VTeteEstimeSoi == '3'",
+      "tagOID": "tag_VTeteEstimeSoi",
+      "value": 4
+    },
+    {
+      "conditions": "q_VTeteEstimeSoi == '4'",
+      "tagOID": "tag_VTeteEstimeSoi",
+      "value": 5
+    },
+    {
+      "conditions": "q_VTeteEstimeSoi == 5",
+      "tagOID": "tag_VTeteEstimeSoi",
+      "value": 6
+    }
+  ]
+}

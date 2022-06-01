@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI111",
+  "title": "J'ai besoin de beaucoup d'aide de la part des autres pour acquérir de bonnes habitudes",
+  "text": "J'ai besoin de beaucoup d'aide de la part des autres pour acquérir de bonnes habitudes",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

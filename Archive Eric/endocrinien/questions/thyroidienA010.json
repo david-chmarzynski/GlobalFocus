@@ -1,0 +1,46 @@
+{
+  "oid": "thyroidienA010",
+  "title": "J'aii des gonflements au niveau des paupières et du visage",
+  "text": "J'aii des gonflements au niveau des paupières et du visage",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "De temps en temps"
+    },
+    {
+      "code": "2",
+      "text": "Régulièrement"
+    },
+    {
+      "code": "3",
+      "text": "En permanence"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "thyroidienA010 == \"0\"",
+      "tagOID": "tag_thyroidien_A",
+      "value": 0
+    },
+    {
+      "conditions": "thyroidienA010 == \"1\"",
+      "tagOID": "tag_thyroidien_A",
+      "value": 1
+    },
+    {
+      "conditions": "thyroidienA010 == \"2\"",
+      "tagOID": "tag_thyroidien_A",
+      "value": 2
+    },
+    {
+      "conditions": "thyroidienA010 == \"3\"",
+      "tagOID": "tag_thyroidien_A",
+      "value": 3
+    }
+  ]
+}

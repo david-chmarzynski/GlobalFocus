@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI134",
+  "title": "Meme si les autres pensent que ce n'est pas important, j'insiste souvent pour que les choses soient faites de manière précise et ordonnée",
+  "text": "Meme si les autres pensent que ce n'est pas important, j'insiste souvent pour que les choses soient faites de manière précise et ordonnée",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

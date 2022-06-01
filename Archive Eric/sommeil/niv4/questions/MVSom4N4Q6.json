@@ -1,0 +1,22 @@
+{
+  "oid": "MVSom4N4Q6",
+  "title": "Est-ce le bon moment pour diminuer la prise d'aide pour dormir ?",
+  "text": "Est-ce le bon moment pour diminuer la prise d'aide pour dormir ?",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 0.0,
+    "max": 10.0,
+    "step": 1.0,
+    "maxText": "C'est le bon moment",
+    "maxValue": "10",
+    "minText": "C'est le pire moment",
+    "minValue": "0"
+  },
+  "scores": [
+    {
+      "conditions": "MVSom4N4Q6 != -1",
+      "tagOID": "MVSomN4-6",
+      "value": -1
+    }
+  ]
+}

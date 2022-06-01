@@ -1,0 +1,63 @@
+{
+  "oid": "mod_BDI",
+  "title": "mod BDI",
+  "questions": [
+    { "question": "BDI001", "level": 1 },
+    { "question": "BDI002", "level": 1 },
+    { "question": "BDI003", "level": 1 },
+    { "question": "BDI004", "level": 1 },
+    { "question": "BDI005", "level": 1 },
+    { "question": "BDI006", "level": 1 },
+    { "question": "BDI007", "level": 1 },
+    { "question": "BDI008", "level": 1 },
+    { "question": "BDI009", "level": 1 },
+    { "question": "BDI010", "level": 1 },
+    { "question": "BDI011", "level": 1 },
+    { "question": "BDI012", "level": 1 },
+    { "question": "BDI013", "level": 1 },
+    { "question": "BDI014", "level": 1 },
+    { "question": "BDI015", "level": 1 },
+    { "question": "BDI016", "level": 1 },
+    { "question": "BDI017", "level": 1 },
+    { "question": "BDI018", "level": 1 },
+    { "question": "BDI019", "level": 1 },
+    {
+      "question": "BDI0190",
+      "level": 1,
+      "trigger": {
+        "conditions": "BDI019 == '1' || BDI019 == '2' || BDI019 == '3'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": { "BDI019": "0" }
+      }
+    },
+    {
+      "question": "BDI0191",
+      "level": 1,
+      "trigger": {
+        "conditions": "BDI019 == '0' || BDI019 == '2' || BDI019 == '3'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": { "BDI019": "1" }
+      }
+    },
+    {
+      "question": "BDI0192",
+      "level": 1,
+      "trigger": {
+        "conditions": "BDI019 == '0' || BDI019 == '1' || BDI019 == '3'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": { "BDI019": "2" }
+      }
+    },
+    {
+      "question": "BDI0193",
+      "level": 1,
+      "trigger": {
+        "conditions": "BDI019 == '0' || BDI019 == '1' || BDI019 == '2'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": { "BDI019": "3" }
+      }
+    },
+    { "question": "BDI020", "level": 1 },
+    { "question": "BDI021", "level": 1 }
+  ]
+}

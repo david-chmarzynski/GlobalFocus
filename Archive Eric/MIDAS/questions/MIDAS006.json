@@ -1,0 +1,11 @@
+{
+  "oid": "MIDAS006",
+  "title": "Au cours des trois derniers mois, pendant combien de jours avez-vous eu mal àla tête ? (Si un mal de tête a duré plus d’une journée, comptez chaque jour.)",
+  "text": "Au cours des trois derniers mois, pendant combien de jours avez-vous eu mal àla tête ? (Si un mal de tête a duré plus d’une journée, comptez chaque jour.)",
+  "type": "DECIMAL",
+  "scale": {
+    "min": 0.0,
+    "max": 92.0,
+    "step": 1.0
+  }
+}

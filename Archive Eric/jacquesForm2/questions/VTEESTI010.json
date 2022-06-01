@@ -1,0 +1,46 @@
+{
+  "oid": "VTEESTI010",
+  "title": "Il m'arrive de penser que je suis un(e) bon(ne) à rien",
+  "text": "Il m'arrive de penser que je suis un(e) bon(ne) à rien",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Tout à fait en désaccord"
+    },
+    {
+      "code": "2",
+      "text": "Plutot en désaccord"
+    },
+    {
+      "code": "3",
+      "text": "Plutot en accord"
+    },
+    {
+      "code": "4",
+      "text": "Tout à fait en accord"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VTEESTI010 == 1",
+      "tagOID": "estime de soi ROSENBERG",
+      "value": 1
+    },
+    {
+      "conditions": "VTEESTI010 == 2",
+      "tagOID": "estime de soi ROSENBERG",
+      "value": 2
+    },
+    {
+      "conditions": "VTEESTI010 == 3",
+      "tagOID": "estime de soi ROSENBERG",
+      "value": 3
+    },
+    {
+      "conditions": "VTEESTI010 == 4",
+      "tagOID": "estime de soi ROSENBERG",
+      "value": 4
+    }
+  ]
+}

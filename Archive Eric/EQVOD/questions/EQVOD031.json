@@ -1,0 +1,44 @@
+{
+  "oid": "EQVOD031",
+  "title": "Régime signifie pour moi privation et frustration. ",
+  "text": "Régime signifie pour moi privation et frustration. ",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 1.0,
+    "max": 5.0,
+    "step": 1.0,
+    "maxText": "jamais/pas du tout",
+    "maxValue": "5",
+    "midText": "parfois/modérément",
+    "midValue": "3",
+    "minText": "toujours/énormément",
+    "minValue": "1"
+  },
+  "scores": [
+    {
+      "conditions": "EQVOD031 == 1",
+      "tagOID": "EQVOD",
+      "value": 4.0
+    },
+    {
+      "conditions": "EQVOD031 == 2",
+      "tagOID": "EQVOD",
+      "value": 8.0
+    },
+    {
+      "conditions": "EQVOD031 == 3",
+      "tagOID": "EQVOD",
+      "value": 12.0
+    },
+    {
+      "conditions": "EQVOD031 == 4",
+      "tagOID": "EQVOD",
+      "value": 16.0
+    },
+    {
+      "conditions": "EQVOD031 == 5",
+      "tagOID": "EQVOD",
+      "value": 20.0
+    }
+  ]
+}

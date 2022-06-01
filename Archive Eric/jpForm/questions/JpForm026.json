@@ -1,0 +1,28 @@
+{
+  "oid": "JpForm026",
+  "title": "Ressentez-vous le besoin d'aborder des problèmes liés à votre sexualité lors de votre consultation ?",
+  "text": "Ressentez-vous le besoin d'aborder des problèmes liés à votre sexualité lors de votre consultation ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "tagOID": "besoin consultation",
+      "conditions": "JpForm026 == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "besoin consultation",
+      "conditions": "JpForm026 == '1'",
+      "value": 1
+    }
+  ]
+}

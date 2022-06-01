@@ -1,0 +1,64 @@
+{
+  "oid": "rathus004",
+  "title": "Je fais attention à ne pas heurter les sentiments des autres, meme lorsque je sens que l'on m'a blessé(e)",
+  "text": "Je fais attention à ne pas heurter les sentiments des autres, meme lorsque je sens que l'on m'a blessé(e)",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Tout à fait vrai"
+    },
+    {
+      "code": "2",
+      "text": "Vrai"
+    },
+    {
+      "code": "3",
+      "text": "Plutot vrai"
+    },
+    {
+      "code": "4",
+      "text": "Plutot faux"
+    },
+    {
+      "code": "5",
+      "text": "Faux"
+    },
+    {
+      "code": "6",
+      "text": "Tout à fait faux"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "rathus004 == \"1\"",
+      "tagOID": "rathus",
+      "value": 6
+    },
+    {
+      "conditions": "rathus004 == \"2\"",
+      "tagOID": "rathus",
+      "value": 5
+    },
+    {
+      "conditions": "rathus004 == \"3\"",
+      "tagOID": "rathus",
+      "value": 4
+    },
+    {
+      "conditions": "rathus004 == \"4\"",
+      "tagOID": "rathus",
+      "value": 3
+    },
+    {
+      "conditions": "rathus004 == \"5\"",
+      "tagOID": "rathus",
+      "value": 2
+    },
+    {
+      "conditions": "rathus004 == \"6\"",
+      "tagOID": "rathus",
+      "value": 1
+    }
+  ]
+}

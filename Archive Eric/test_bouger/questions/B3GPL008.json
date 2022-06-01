@@ -1,0 +1,11 @@
+{
+  "oid": "B3GPL008",
+  "title": "Habituellement, combien de jours par semaine pratiquez-vous une activité de loisirs d’intensité légère ?",
+  "text": "Habituellement, combien de jours par semaine pratiquez-vous une activité de loisirs d’intensité légère ?",
+  "type": "DECIMAL",
+  "scale": {
+    "min": 0.0,
+    "max": 7.0,
+    "step": 1.0
+  }
+}

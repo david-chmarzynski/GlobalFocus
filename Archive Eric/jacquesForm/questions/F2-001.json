@@ -1,0 +1,46 @@
+{
+    "oid": "F2001",
+    "title": "famille",
+    "text": "Comment évaluez-vous votre vie familiale sur le plan pratique (cadre de vie, charge de travail liée au ménage, aux repas et à l’éducation des enfants, aspects financiers…) ?",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "1",
+          "text": "Satisfaisant"
+        },
+        {
+          "code": "2",
+          "text": "Assez satisfaisant"
+        },
+        {
+          "code": "3",
+          "text": "Insatisfaisant"
+        },
+        {
+          "code": "4",
+          "text": "Très insatisfaisant"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "F2001 == '1'",
+          "tagOID": "F2-1",
+          "value": 1
+        },
+        {
+          "conditions": "F2001 == '2'",
+          "tagOID": "F2-1",
+          "value": 2
+        },
+        {
+          "conditions": "F2001 == '3'",
+          "tagOID": "F2-1",
+          "value": 3
+        },
+        {
+          "conditions": "F2001 == '4'",
+          "tagOID": "F2-1",
+          "value": 4
+        }
+    ]
+}

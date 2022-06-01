@@ -1,0 +1,11 @@
+{
+  "oid": "A3105",
+  "title": "Alimentation",
+  "text": "Combien en moyenne consommez-vous de portions de fruits et de légumes crus et cuits quotidiennement ? 1 portion = 1 fruit (volume d’un poing) ou 1 verre de jus 100% fruit ou 150g cuit ou crus de légumes (1 assiette).",
+  "type": "DECIMAL",
+  "scale": {
+    "min": 0,
+    "max": 1,
+    "step": 100
+  }
+}

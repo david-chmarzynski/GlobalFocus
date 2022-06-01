@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI162",
+  "title": "Mes actes sont largement influencés par des choses que je ne controle pas",
+  "text": "Mes actes sont largement influencés par des choses que je ne controle pas",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

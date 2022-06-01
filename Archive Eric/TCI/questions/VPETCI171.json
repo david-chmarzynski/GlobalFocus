@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI171",
+  "title": "En général j'aime rester froid(e) et détaché(e) vis-à-vis des autres",
+  "text": "En général j'aime rester froid(e) et détaché(e) vis-à-vis des autres",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

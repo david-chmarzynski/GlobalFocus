@@ -1,0 +1,28 @@
+{
+  "oid": "FTI042",
+  "title": "Lorsque je prends une décision, j'aime me concentrer sur les faits plutôt que d'être influencé par les sentiments des gens.",
+  "text": "Lorsque je prends une décision, j'aime me concentrer sur les faits plutôt que d'être influencé par les sentiments des gens.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI042 == 0",
+      "tagOID": "analytique",
+      "value": 1
+    },
+    {
+      "conditions": "FTI042 == 1",
+      "tagOID": "analytique",
+      "value": 0
+    }
+  ]
+}

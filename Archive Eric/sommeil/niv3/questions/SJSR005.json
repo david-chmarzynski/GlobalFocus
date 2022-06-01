@@ -1,0 +1,46 @@
+{
+  "oid": "SJSR005",
+  "title": "Ce besoin pressant de bouger les jambes (ou les bras) à cause des sensations désagréables occasionne-t-il une souffrance et/ou une gêne dans votre fonctionnement quotidien et votre qualité de vie ?",
+  "text": "Ce besoin pressant de bouger les jambes (ou les bras) à cause des sensations désagréables occasionne-t-il une souffrance et/ou une gêne dans votre fonctionnement quotidien et votre qualité de vie ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas de gene"
+    },
+    {
+      "code": "1",
+      "text": "Gene modere"
+    },
+    {
+      "code": "2",
+      "text": "Genant"
+    },
+    {
+      "code": "3",
+      "text": "Tres genant"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "SJSR005 == 0",
+      "tagOID": "SJSR",
+      "value": 0
+    },
+    {
+      "conditions": "SJSR005 == 1",
+      "tagOID": "SJSR",
+      "value": 1
+    },
+    {
+      "conditions": "SJSR005 == 2",
+      "tagOID": "SJSR",
+      "value": 2
+    },
+    {
+      "conditions": "SJSR005 == 3",
+      "tagOID": "SJSR",
+      "value": 3
+    }
+  ]
+}

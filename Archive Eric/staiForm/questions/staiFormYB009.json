@@ -1,0 +1,46 @@
+{
+  "oid": "staiFormYB009",
+  "title": "Je m'inquiète à propos ded choses sans  importance",
+  "text": "Je m'inquiète à propos ded choses sans  importance",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Jamais"
+    },
+    {
+      "code": "2",
+      "text": "Parfois"
+    },
+    {
+      "code": "3",
+      "text": "Souvent"
+    },
+    {
+      "code": "4",
+      "text": "Toujours"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "staiFormYB009 == \"1\"",
+      "tagOID": "staiFormYB",
+      "value": 1
+    },
+    {
+      "conditions": "staiFormYB009 == \"2\"",
+      "tagOID": "staiFormYB",
+      "value": 2
+    },
+    {
+      "conditions": "staiFormYB009 == \"3\"",
+      "tagOID": "staiFormYB",
+      "value": 3
+    },
+    {
+      "conditions": "staiFormYB009 == \"4\"",
+      "tagOID": "staiFormYB",
+      "value": 4
+    }
+  ]
+}

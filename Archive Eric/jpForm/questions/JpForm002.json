@@ -1,0 +1,46 @@
+{
+  "oid": "JpForm002",
+  "title": "Votre vie sexuelle actuelle est globalement ?",
+  "text": "Votre vie sexuelle actuelle est globalement ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisante"
+    },
+    {
+      "code": "1",
+      "text": "Ni satisfaisante, ni insatisfaisante"
+    },
+    {
+      "code": "2",
+      "text": "Plutot insatisfaisante"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisante"
+    }
+  ],
+  "scores": [
+    {
+      "tagOID": "sexualite actuelle",
+      "conditions": "JpForm002 == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "sexualite actuelle",
+      "conditions": "JpForm002 == '1'",
+      "value": 1
+    },
+    {
+      "tagOID": "sexualite actuelle",
+      "conditions": "JpForm002 == '2'",
+      "value": 2
+    },
+    {
+      "tagOID": "sexualite actuelle",
+      "conditions": "JpForm002 == '3'",
+      "value": 3
+    }
+  ]
+}

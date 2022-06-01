@@ -1,0 +1,50 @@
+{
+  "oid": "VSomEndormissementDifficulté",
+  "title": "Sur ces 3 derniers mois, avez-vous eu de la difficulté pour vous endormir ?",
+  "text": "Sur ces 3 derniers mois, avez-vous eu de la difficulté pour vous endormir ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais (ou presque)"
+    },
+    {
+      "code": "1",
+      "text": "1 à 3 fois/mois"
+    },
+    {
+      "code": "2",
+      "text": "1 à 2 fois/semaine"
+    },
+    {
+      "code": "3",
+      "text": "3 à 5 fois par semaine"
+    },
+    {
+      "code": "4",
+      "text": "Tous les soirs (ou presque)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomEndormissementDifficulté == 0",
+      "tagOID": "Difficulté_fréquence",
+      "value": 0
+    },
+    {
+      "conditions": "VSomEndormissementDifficulté == 1",
+      "tagOID": "Difficulté_fréquence",
+      "value": 1
+    },
+    {
+      "conditions": "VSomEndormissementDifficulté == 2",
+      "tagOID": "Difficulté_fréquence",
+      "value": 2
+    },
+    {
+      "conditions": "VSomEndormissementDifficulté == 3 || VSomEndormissementDifficulté == 4",
+      "tagOID": "Difficulté_fréquence",
+      "value": 3
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "oid": "MVSom3N3Q38",
+  "title": "besoin pressant de bouger les jambes pour soulager des sensations pénibles (fourmillements, impatiences, picotements…) survenant en fin de journée, calmées par le mouvement et gênant l’endormissement et/ou le sommeil",
+  "text": "besoin pressant de bouger les jambes pour soulager des sensations pénibles (fourmillements, impatiences, picotements…) survenant en fin de journée, calmées par le mouvement et gênant l’endormissement et/ou le sommeil",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom3N3Q38 == 0",
+      "tagOID": "MVSomN3-38",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom3N3Q38 == 1",
+      "tagOID": "MVSomN3-38",
+      "value": 1
+    }
+  ]
+}

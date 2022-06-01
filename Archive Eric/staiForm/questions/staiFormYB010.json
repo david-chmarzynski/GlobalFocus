@@ -1,0 +1,46 @@
+{
+  "oid": "staiFormYB010",
+  "title": "Je suis heureux(se)",
+  "text": "Je suis heureux(se)",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Jamais"
+    },
+    {
+      "code": "2",
+      "text": "Parfois"
+    },
+    {
+      "code": "3",
+      "text": "Souvent"
+    },
+    {
+      "code": "4",
+      "text": "Toujours"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "staiFormYB010 == \"1\"",
+      "tagOID": "staiFormYB",
+      "value": 4
+    },
+    {
+      "conditions": "staiFormYB010 == \"2\"",
+      "tagOID": "staiFormYB",
+      "value": 3
+    },
+    {
+      "conditions": "staiFormYB010 == \"3\"",
+      "tagOID": "staiFormYB",
+      "value": 2
+    },
+    {
+      "conditions": "staiFormYB010 == \"4\"",
+      "tagOID": "staiFormYB",
+      "value": 1
+    }
+  ]
+}

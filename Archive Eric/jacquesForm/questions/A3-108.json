@@ -1,0 +1,11 @@
+{
+  "oid": "A3108",
+  "title": "Alimentation",
+  "text": "Combien en moyenne de portions de confiture, pâte à tartiner au chocolat, bonbons, morceaux de sucre, consommez-vous par jour ? 1 portion = 1 cuillère à café de confiture ou bonbon ou 1 morceaux de sucre ou 1 petite cuillère à café de pâte à tartiner au chocolat ou 1 carré de chocolat.",
+  "type": "DECIMAL",
+  "scale": {
+    "min": 0,
+    "max": 1,
+    "step": 100
+  }
+}

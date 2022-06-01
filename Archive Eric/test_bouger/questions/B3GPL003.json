@@ -1,0 +1,11 @@
+{
+  "oid": "B3GPL003",
+  "title": "Lors d’une journée habituelle, combien de temps y consacrez-vous (en heure) ?",
+  "text": "Lors d’une journée habituelle, combien de temps y consacrez-vous (en heure) ?",
+  "type": "DECIMAL",
+  "scale": {
+    "min": 0.0,
+    "max": 24.0,
+    "step": 1.0
+  }
+}

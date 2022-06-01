@@ -1,0 +1,5 @@
+{
+  "oid": "chap_endocrinien",
+  "title": "chapitre endocrinien",
+  "modules": ["mod_endocrinien"]
+}

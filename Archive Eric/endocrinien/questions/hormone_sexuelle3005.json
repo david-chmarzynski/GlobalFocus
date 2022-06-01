@@ -1,0 +1,46 @@
+{
+  "oid": "hormonesexuelle3005",
+  "title": "J'ai une culotte de cheval",
+  "text": "J'ai une culotte de cheval",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "De temps en temps"
+    },
+    {
+      "code": "2",
+      "text": "Régulièrement"
+    },
+    {
+      "code": "3",
+      "text": "En permanence"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "hormonesexuelle3005 == \"0\"",
+      "tagOID": "tag_hormone_sexuelle3",
+      "value": 0
+    },
+    {
+      "conditions": "hormonesexuelle3005 == \"1\"",
+      "tagOID": "tag_hormone_sexuelle3",
+      "value": 1
+    },
+    {
+      "conditions": "hormonesexuelle3005 == \"2\"",
+      "tagOID": "tag_hormone_sexuelle3",
+      "value": 2
+    },
+    {
+      "conditions": "hormonesexuelle3005 == \"3\"",
+      "tagOID": "tag_hormone_sexuelle3",
+      "value": 3
+    }
+  ]
+}

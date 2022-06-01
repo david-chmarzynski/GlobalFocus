@@ -1,0 +1,46 @@
+{
+    "oid": "A3114",
+    "title": "alimentation",
+    "text": "Avez-vous tendance à (re)saler vos plats ?",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "3",
+          "text": "Jamais"
+        },
+        {
+          "code": "2",
+          "text": "Parfois"
+        },
+        {
+          "code": "1",
+          "text": "Souvent"
+        },
+        {
+          "code": "0",
+          "text": "Toujours"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "A3114 == '0'",
+          "tagOID": "tA3114",
+          "value": 0
+        },
+        {
+          "conditions": "A3114 == '1'",
+          "tagOID": "tA3114",
+          "value": 1
+        },
+        {
+          "conditions": "A3114 == '2'",
+          "tagOID": "tA3114",
+          "value": 2
+        },
+        {
+          "conditions": "A3114 == '3'",
+          "tagOID": "tA3114",
+          "value": 3
+        }
+    ]
+}

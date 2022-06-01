@@ -1,0 +1,46 @@
+{
+  "oid": "VTEESTI003",
+  "title": "Tout bien considéré, je suis porté(e) à me considérer comme un(e) raté(e).",
+  "text": "Tout bien considéré, je suis porté(e) à me considérer comme un(e) raté(e).",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Tout à fait en désaccord"
+    },
+    {
+      "code": "2",
+      "text": "Plutot en désaccord"
+    },
+    {
+      "code": "3",
+      "text": "Plutot en accord"
+    },
+    {
+      "code": "4",
+      "text": "Tout à fait en accord"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VTEESTI003 == 1",
+      "tagOID": "estime de soi ROSENBERG",
+      "value": 1
+    },
+    {
+      "conditions": "VTEESTI003 == 2",
+      "tagOID": "estime de soi ROSENBERG",
+      "value": 2
+    },
+    {
+      "conditions": "VTEESTI003 == 3",
+      "tagOID": "estime de soi ROSENBERG",
+      "value": 3
+    },
+    {
+      "conditions": "VTEESTI003 == 4",
+      "tagOID": "estime de soi ROSENBERG",
+      "value": 4
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "oid": "SAOS002",
+  "title": "Votre ronflement est-il ?",
+  "text": "Votre ronflement est-il ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Légèrement plus bruyant que votre respiration"
+    },
+    {
+      "code": "1",
+      "text": "Aussi bruyant que votre voix lorsque vous parlez"
+    },
+    {
+      "code": "2",
+      "text": "Plus bruyant que votre voix lorsque vous parlez"
+    },
+    {
+      "code": "3",
+      "text": "Très bruyant, on vous entend dans les chambres voisines"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "SAOS002 == \"2\" || SAOS002 == \"3\"",
+      "tagOID": "tag_ronflement",
+      "value": 1
+    },
+    {
+      "conditions": "SAOS002 == \"0\" || SAOS002 == \"1\"",
+      "tagOID": "tag_ronflement",
+      "value": 0
+    }
+  ]
+}

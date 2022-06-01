@@ -1,0 +1,46 @@
+{
+  "oid": "MVSomSatisfaction",
+  "title": "Sur ces 3 derniers mois, comment évualez-vous votre satisfaction en lien avec la quantiité et/ou la qualité de votre sommeil ?",
+  "text": "Sur ces 3 derniers mois, comment évualez-vous votre satisfaction en lien avec la quantiité et/ou la qualité de votre sommeil ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisant"
+    },
+    {
+      "code": "1",
+      "text": "Légèrement insatisfaisante"
+    },
+    {
+      "code": "2",
+      "text": "Assez insatisfaisante"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisante"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSomSatisfaction == 0",
+      "tagOID": "MVSomSatisfaction",
+      "value": 0
+    },
+    {
+      "conditions": "MVSomSatisfaction == 1",
+      "tagOID": "MVSomSatisfaction",
+      "value": 1
+    },
+    {
+      "conditions": "MVSomSatisfaction == 2",
+      "tagOID": "MVSomSatisfaction",
+      "value": 2
+    },
+    {
+      "conditions": "MVSomSatisfaction == 3",
+      "tagOID": "MVSomSatisfaction",
+      "value": 3
+    }
+  ]
+}

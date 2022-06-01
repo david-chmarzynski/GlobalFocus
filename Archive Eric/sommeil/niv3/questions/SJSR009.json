@@ -1,0 +1,28 @@
+{
+  "oid": "SJSR009",
+  "title": "Est plus genant dans la soirée ou la nuit que dans la journée (ou ne survient que le soir) ?",
+  "text": "Est plus genant dans la soirée ou la nuit que dans la journée (ou ne survient que le soir) ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "SJSR009 == 0",
+      "tagOID": "SJSR",
+      "value": 0
+    },
+    {
+      "conditions": "SJSR009 == 1",
+      "tagOID": "SJSR",
+      "value": 1
+    }
+  ]
+}

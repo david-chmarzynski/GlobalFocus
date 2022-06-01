@@ -1,0 +1,37 @@
+{
+  "oid": "VSomAideDépendanceEquation2",
+  "title": "Avez-vous confiance dans votre capacité à diminuer la prise d'aide pour dormir ?",
+  "text": "Avez-vous confiance dans votre capacité à diminuer la prise d'aide pour dormir ?",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 0.0,
+    "max": 10.0,
+    "step": 1.0,
+    "maxText": "Pas du tout confiant",
+    "maxValue": "10",
+    "minText": "Tout à fait confiance",
+    "minValue": "0"
+  },
+  "scores": [
+    {
+      "conditions": "VSomAideDépendanceEquation2 == 9 || VSomAideDépendanceEquation2 == 10",
+      "tagOID": "Confiance",
+      "value": 0
+    },
+    {
+      "conditions": "VSomAideDépendanceEquation2 == 7 || VSomAideDépendanceEquation2 == 8",
+      "tagOID": "Confiance",
+      "value": 1
+    },
+    {
+      "conditions": "VSomAideDépendanceEquation2 == 5 || VSomAideDépendanceEquation2 == 6",
+      "tagOID": "Confiance",
+      "value": 2
+    },
+    {
+      "conditions": "VSomAideDépendanceEquation2 => 0 || VSomAideDépendanceEquation2 <= 4",
+      "tagOID": "Confiance",
+      "value": 3
+    }
+  ]
+}

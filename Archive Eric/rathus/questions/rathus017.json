@@ -1,0 +1,64 @@
+{
+  "oid": "rathus017",
+  "title": "Pendant une discussion serrée, j'ai souvent peur d'etre bouleversé(é) au point de trembler de tout mon corps",
+  "text": "Pendant une discussion serrée, j'ai souvent peur d'etre bouleversé(é) au point de trembler de tout mon corps",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Tout à fait vrai"
+    },
+    {
+      "code": "2",
+      "text": "Vrai"
+    },
+    {
+      "code": "3",
+      "text": "Plutot vrai"
+    },
+    {
+      "code": "4",
+      "text": "Plutot faux"
+    },
+    {
+      "code": "5",
+      "text": "Faux"
+    },
+    {
+      "code": "6",
+      "text": "Tout à fait faux"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "rathus017 == \"1\"",
+      "tagOID": "rathus",
+      "value": 6
+    },
+    {
+      "conditions": "rathus017 == \"2\"",
+      "tagOID": "rathus",
+      "value": 5
+    },
+    {
+      "conditions": "rathus017 == \"3\"",
+      "tagOID": "rathus",
+      "value": 4
+    },
+    {
+      "conditions": "rathus017 == \"4\"",
+      "tagOID": "rathus",
+      "value": 3
+    },
+    {
+      "conditions": "rathus017 == \"5\"",
+      "tagOID": "rathus",
+      "value": 2
+    },
+    {
+      "conditions": "rathus017 == \"6\"",
+      "tagOID": "rathus",
+      "value": 1
+    }
+  ]
+}

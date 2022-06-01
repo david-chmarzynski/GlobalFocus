@@ -1,0 +1,40 @@
+{
+  "oid": "SAOS009",
+  "title": "A quelle fréquence cela vous arrive-t-il ?",
+  "text": "A quelle fréquence cela vous arrive-t-il",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Preque tous les jours"
+    },
+    {
+      "code": "1",
+      "text": "3 à 4 jours par semaines"
+    },
+    {
+      "code": "2",
+      "text": "1 à 2 jours par semaine"
+    },
+    {
+      "code": "3",
+      "text": "1 à 2 jours par mois"
+    },
+    {
+      "code": "4",
+      "text": "Très rarement"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "SAOS009 == \"0\" || SAOS009 == \"1\"",
+      "tagOID": "tag_somnolence",
+      "value": 1
+    },
+    {
+      "conditions": "SAOS009 == \"2\" || SAOS009 == \"3\" || SAOS009 == \"4\"",
+      "tagOID": "tag_somnolence",
+      "value": 0
+    }
+  ]
+}

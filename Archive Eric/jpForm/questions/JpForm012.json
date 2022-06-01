@@ -1,0 +1,28 @@
+{
+  "oid": "JpForm012",
+  "title": "Avez-vous vécu un traumatisme (récent ou ancien) autour de la sexualité (relation foorcée, violence...) ?",
+  "text": "Avez-vous vécu un traumatisme (récent ou ancien) autour de la sexualité (relation foorcée, violence...) ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "tagOID": "ATCD trauma sexuel",
+      "conditions": "JpForm012 == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "ATCD trauma sexuel",
+      "conditions": "JpForm012 == '1'",
+      "value": 1
+    }
+  ]
+}

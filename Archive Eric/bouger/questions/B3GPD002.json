@@ -1,0 +1,11 @@
+{
+  "oid": "B3GPD002",
+  "title": "Habituellement, combien de jours par semaine effectuez-vous des trajets d'au moins 10 minutes à pied, à vélo, roller ou trotinette ?",
+  "text": "Habituellement, combien de jours par semaine effectuez-vous des trajets d'au moins 10 minutes à pied, à vélo, roller ou trotinette ?",
+  "type": "DECIMAL",
+  "scale": {
+    "min": 0.0,
+    "max": 7.0,
+    "step": 1.0
+  }
+}

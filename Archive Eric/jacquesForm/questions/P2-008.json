@@ -1,0 +1,28 @@
+{
+    "oid": "P2008",
+    "title": "Alexi thymie",
+    "text": "Je ne suis pas spécialement attiré(e) par les personnes de l’autre sexe",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "0",
+          "text": "Non"
+        },
+        {
+          "code": "1",
+          "text": "Oui"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "P2008 == '0'",
+          "tagOID": "P2AL",
+          "value": 0
+        },
+        {
+          "conditions": "P2008 == '1'",
+          "tagOID": "P2AL",
+          "value": 1
+        }
+    ]
+}

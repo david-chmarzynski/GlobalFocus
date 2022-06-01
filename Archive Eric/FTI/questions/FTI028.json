@@ -1,0 +1,28 @@
+{
+  "oid": "FTI028",
+  "title": "J'aime travailler sur un chemin direct vers la réalisation de la tâche.",
+  "text": "J'aime travailler sur un chemin direct vers la réalisation de la tâche.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI028 == 0",
+      "tagOID": "conformité",
+      "value": 1
+    },
+    {
+      "conditions": "FTI028 == 1",
+      "tagOID": "conformité",
+      "value": 0
+    }
+  ]
+}

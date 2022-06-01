@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI096",
+  "title": "Souvent, je prends plaisir à etre méchant(e) avec ceux qui l'ont eté avec moi",
+  "text": "Souvent, je prends plaisir à etre méchant(e) avec ceux qui l'ont eté avec moi",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

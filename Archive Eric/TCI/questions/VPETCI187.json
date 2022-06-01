@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI187",
+  "title": "La plupart des gens semblent etre plus efficaces que moi",
+  "text": "La plupart des gens semblent etre plus efficaces que moi",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

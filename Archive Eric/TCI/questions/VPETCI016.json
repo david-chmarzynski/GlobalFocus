@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI016",
+  "title": "Généralement, je n'aime pas les gens qui ont des idées différentes des miennes",
+  "text": "Généralement, je n'aime pas les gens qui ont des idées différentes des miennes",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

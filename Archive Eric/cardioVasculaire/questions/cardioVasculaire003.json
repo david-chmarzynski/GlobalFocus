@@ -1,0 +1,16 @@
+{
+  "oid": "cardioVasculaire003",
+  "title": "Fumez-vous ?",
+  "text": "Fumez-vous ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Ouis"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ]
+}

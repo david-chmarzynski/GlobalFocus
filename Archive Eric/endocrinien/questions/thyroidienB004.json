@@ -1,0 +1,46 @@
+{
+  "oid": "thyroidienB004",
+  "title": "J'ai ou j'ai eu récemment une perte de poids rapide et anormale",
+  "text": "J'ai ou j'ai eu récemment une perte de poids rapide et anormale",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "De temps en temps"
+    },
+    {
+      "code": "2",
+      "text": "Régulièrement"
+    },
+    {
+      "code": "3",
+      "text": "En permanence"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "thyroidienB004 == \"0\"",
+      "tagOID": "tag_thyroidien_B",
+      "value": 0
+    },
+    {
+      "conditions": "thyroidienB004 == \"1\"",
+      "tagOID": "tag_thyroidien_B",
+      "value": 1
+    },
+    {
+      "conditions": "thyroidienB004 == \"2\"",
+      "tagOID": "tag_thyroidien_B",
+      "value": 2
+    },
+    {
+      "conditions": "thyroidienB004 == \"3\"",
+      "tagOID": "tag_thyroidien_B",
+      "value": 3
+    }
+  ]
+}

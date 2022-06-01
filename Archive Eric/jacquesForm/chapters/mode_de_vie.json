@@ -1,0 +1,11 @@
+{
+    "oid": "chap_mode_de_vie",
+    "title": "Mode de vie",
+    "modules": [
+        "personalité0",
+        "alimentation0",
+        "famille0",
+        "travail0",
+        "exposome0"
+    ]
+}

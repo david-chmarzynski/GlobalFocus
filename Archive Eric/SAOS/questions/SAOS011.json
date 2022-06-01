@@ -1,0 +1,11 @@
+{
+  "oid": "SAOS011",
+  "title": "poids",
+  "text": "Combien pesez-vous (en kg) ?",
+  "type": "DECIMAL",
+  "scale": {
+    "min": 0.0,
+    "max": 500.0,
+    "step": 1.0
+  }
+}

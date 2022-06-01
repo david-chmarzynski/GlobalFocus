@@ -1,0 +1,46 @@
+{
+  "oid": "BDI021",
+  "title": "Ressentez-vous un changement dans vos désirs sexuels ?",
+  "text": "Ressentez-vous un changement dans vos désirs sexuels ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Je n'ai remarqué récemment aucun changement dans mon intérêt pour le sexe"
+    },
+    {
+      "code": "1",
+      "text": "J'ai moins de désirs sexuels qu'auparavant"
+    },
+    {
+      "code": "2",
+      "text": "J'ai beaucoup moins de désirs sexuels qu'auparavant"
+    },
+    {
+      "code": "3",
+      "text": "J'ai perdu tout désir sexuel"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "BDI021 == \"0\"",
+      "tagOID": "tag_BDI",
+      "value": 0
+    },
+    {
+      "conditions": "BDI021 == \"1\"",
+      "tagOID": "tag_BDI",
+      "value": 1
+    },
+    {
+      "conditions": "BDI021 == \"2\"",
+      "tagOID": "tag_BDI",
+      "value": 2
+    },
+    {
+      "conditions": "BDI021 == \"3\"",
+      "tagOID": "tag_BDI",
+      "value": 3
+    }
+  ]
+}

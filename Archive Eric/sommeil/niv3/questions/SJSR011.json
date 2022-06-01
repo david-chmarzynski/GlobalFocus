@@ -1,0 +1,46 @@
+{
+  "oid": "SJSR011",
+  "title": "Retarde votre endormissement le soir ?",
+  "text": "Retarde votre endormissement le soir ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas de gene"
+    },
+    {
+      "code": "1",
+      "text": "Gene modérée"
+    },
+    {
+      "code": "2",
+      "text": "Genant"
+    },
+    {
+      "code": "3",
+      "text": "Très genant"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "SJSR011 == 0",
+      "tagOID": "SJSR",
+      "value": 0
+    },
+    {
+      "conditions": "SJSR011 == 1",
+      "tagOID": "SJSR",
+      "value": 1
+    },
+    {
+      "conditions": "SJSR011 == 2",
+      "tagOID": "SJSR",
+      "value": 2
+    },
+    {
+      "conditions": "SJSR011 == 3",
+      "tagOID": "SJSR",
+      "value": 3
+    }
+  ]
+}

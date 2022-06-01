@@ -1,0 +1,28 @@
+{
+  "oid": "GOBTRT006",
+  "title": "Vous est-il arrivé de ne pas prendre votre traitement parce que, certains jours, vous avez l'impression que votre traitemengt vous fait plus de mal que de bien ?",
+  "text": "Vous est-il arrivé de ne pas prendre votre traitement parce que, certains jours, vous avez l'impression que votre traitemengt vous fait plus de mal que de bien ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "tagOID": "observance traitement",
+      "conditions": "GOBTRT006 == 0",
+      "value": 1
+    },
+    {
+      "tagOID": "observance traitement",
+      "conditions": "GOBTRT006 >= 1",
+      "value": 0
+    }
+  ]
+}

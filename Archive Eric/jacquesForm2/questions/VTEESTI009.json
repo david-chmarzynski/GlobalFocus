@@ -1,0 +1,46 @@
+{
+  "oid": "VTEESTI009",
+  "title": "Parfois je me sens vraiment inutile.",
+  "text": "Parfois je me sens vraiment inutile.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Tout à fait en désaccord"
+    },
+    {
+      "code": "2",
+      "text": "Plutot en désaccord"
+    },
+    {
+      "code": "3",
+      "text": "Plutot en accord"
+    },
+    {
+      "code": "4",
+      "text": "Tout à fait en accord"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VTEESTI009 == 1",
+      "tagOID": "estime de soi ROSENBERG",
+      "value": 1
+    },
+    {
+      "conditions": "VTEESTI009 == 2",
+      "tagOID": "estime de soi ROSENBERG",
+      "value": 2
+    },
+    {
+      "conditions": "VTEESTI009 == 3",
+      "tagOID": "estime de soi ROSENBERG",
+      "value": 3
+    },
+    {
+      "conditions": "VTEESTI009 == 4",
+      "tagOID": "estime de soi ROSENBERG",
+      "value": 4
+    }
+  ]
+}

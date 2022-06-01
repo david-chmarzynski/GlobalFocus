@@ -1,0 +1,64 @@
+{
+  "oid": "rathus028",
+  "title": "Quiconque cherche à passer devant moi dans une queue, risque une bonne explication",
+  "text": "Quiconque cherche à passer devant moi dans une queue, risque une bonne explication",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Tout à fait vrai"
+    },
+    {
+      "code": "2",
+      "text": "Vrai"
+    },
+    {
+      "code": "3",
+      "text": "Plutot vrai"
+    },
+    {
+      "code": "4",
+      "text": "Plutot faux"
+    },
+    {
+      "code": "5",
+      "text": "Faux"
+    },
+    {
+      "code": "6",
+      "text": "Tout à fait faux"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "rathus028 == \"1\"",
+      "tagOID": "rathus",
+      "value": 1
+    },
+    {
+      "conditions": "rathus028 == \"2\"",
+      "tagOID": "rathus",
+      "value": 2
+    },
+    {
+      "conditions": "rathus028 == \"3\"",
+      "tagOID": "rathus",
+      "value": 3
+    },
+    {
+      "conditions": "rathus028 == \"4\"",
+      "tagOID": "rathus",
+      "value": 4
+    },
+    {
+      "conditions": "rathus028 == \"5\"",
+      "tagOID": "rathus",
+      "value": 5
+    },
+    {
+      "conditions": "rathus028 == \"6\"",
+      "tagOID": "rathus",
+      "value": 6
+    }
+  ]
+}

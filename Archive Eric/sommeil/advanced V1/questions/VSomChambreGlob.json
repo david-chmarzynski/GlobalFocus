@@ -1,0 +1,46 @@
+{
+  "oid": "VSomChambreGlob",
+  "title": "Sur ces 3 derniers mois, comment évaluez-vous la qulité de votre environnement de sommeil (literie, chambre calme, obscurité, absence de perturbation de votre sommeil par votre entourage...) ?",
+  "text": "Sur ces 3 derniers mois, comment évaluez-vous la qulité de votre environnement de sommeil (literie, chambre calme, obscurité, absence de perturbation de votre sommeil par votre entourage...) ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisant"
+    },
+    {
+      "code": "1",
+      "text": "Légèrement insatisfaisant"
+    },
+    {
+      "code": "2",
+      "text": "Assez insatisfaisant"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisant"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomChambreGlob == 0",
+      "tagOID": "chambre",
+      "value": 0
+    },
+    {
+      "conditions": "VSomChambreGlob == 1",
+      "tagOID": "chambre",
+      "value": 1
+    },
+    {
+      "conditions": "VSomChambreGlob == 2",
+      "tagOID": "chambre",
+      "value": 2
+    },
+    {
+      "conditions": "VSomChambreGlob == 3",
+      "tagOID": "chambre",
+      "value": 3
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "oid": "mod_JacquesForm2",
+  "title": "JacquesForm2",
+  "questions": [
+    { "question": "SPASSAPAS001", "level": 1 },
+    {
+      "question": "SPASSAPAS002",
+      "level": 1,
+      "trigger": {
+        "conditions": "SPASSAPAS001 == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "SPASSAPAS001": "1" }
+      }
+    },
+    { "question": "SPASSAPAS003", "level": 1 },
+    {
+      "question": "SPASSAPAS004",
+      "level": 1,
+      "trigger": {
+        "conditions": "SPASSAPAS003 == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "SPASSAPAS003": "1" }
+      }
+    },
+    { "question": "SPASSAPAS005", "level": 1 },
+    {
+      "question": "SPASSAPAS006",
+      "level": 1,
+      "trigger": {
+        "conditions": "SPASSAPAS005 == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "SPASSAPAS005": "1" }
+      }
+    },
+    { "question": "SPASSAPAS007", "level": 1 },
+    {
+      "question": "SPASSAPAS008",
+      "level": 1,
+      "trigger": {
+        "conditions": "SPASSAPAS007 == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "SPASSAPAS007": "1" }
+      }
+    },
+    { "question": "SPASSAPAS009", "level": 1 },
+    {
+      "question": "SPASSAPAS010",
+      "level": 1,
+      "trigger": {
+        "conditions": "SPASSAPAS009 == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "SPASSAPAS009": "1" }
+      }
+    },
+    { "question": "SPASSAPAS011", "level": 1 },
+    {
+      "question": "SPASSAPAS012",
+      "level": 1,
+      "trigger": {
+        "conditions": "SPASSAPAS011 == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "SPASSAPAS011": "1" }
+      }
+    },
+    { "question": "SPASSAPAS013", "level": 1 },
+    {
+      "question": "SPASSAPAS014",
+      "level": 1,
+      "trigger": {
+        "conditions": "SPASSAPAS013 == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "SPASSAPAS013": "1" }
+      }
+    },
+    { "question": "SPASSAPAS015", "level": 1 },
+    {
+      "question": "SPASSAPAS016",
+      "level": 1,
+      "trigger": {
+        "conditions": "SPASSAPAS015 == '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "SPASSAPAS015": "1" }
+      }
+    },
+    { "question": "VTEESTI001", "level": 1 },
+    { "question": "VTEESTI002", "level": 1 },
+    { "question": "VTEESTI003", "level": 1 },
+    { "question": "VTEESTI004", "level": 1 },
+    { "question": "VTEESTI005", "level": 1 },
+    { "question": "VTEESTI006", "level": 1 },
+    { "question": "VTEESTI007", "level": 1 },
+    { "question": "VTEESTI008", "level": 1 },
+    { "question": "VTEESTI009", "level": 1 },
+    { "question": "VTEESTI010", "level": 1 },
+    { "question": "VTEALEX001", "level": 1 },
+    { "question": "VTEALEX002", "level": 1 },
+    { "question": "VTEALEX003", "level": 1 },
+    { "question": "VTEALEX004", "level": 1 },
+    { "question": "VTEALEX005", "level": 1 },
+    { "question": "VTEALEX006", "level": 1 },
+    { "question": "VTEALEX007", "level": 1 },
+    { "question": "VTEALEX008", "level": 1 },
+    { "question": "VTEALEX009", "level": 1 },
+    { "question": "VTEALEX010", "level": 1 },
+    { "question": "VTEALEX011", "level": 1 },
+    { "question": "VTEALEX012", "level": 1 },
+    { "question": "VTEALEX013", "level": 1 },
+    { "question": "VTEALEX014", "level": 1 },
+    { "question": "VTEALEX015", "level": 1 },
+    { "question": "VTEALEX016", "level": 1 },
+    { "question": "VTEALEX017", "level": 1 },
+    { "question": "VTEALEX018", "level": 1 },
+    { "question": "VTEALEX019", "level": 1 },
+    { "question": "VTEALEX020", "level": 1 },
+    { "question": "SSYFATI001", "level": 1 },
+    {
+      "question": "SSYFATI002",
+      "level": 1,
+      "trigger": {
+        "conditions": "SSYFATI001 != '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "SSYFATI001": "1" }
+      }
+    },
+    {
+      "question": "SSYFATI003",
+      "level": 1,
+      "trigger": {
+        "conditions": "SSYFATI001 != '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "SSYFATI001": "1" }
+      }
+    },
+    {
+      "question": "SSYFATI004",
+      "level": 1,
+      "trigger": {
+        "conditions": "SSYFATI001 != '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "SSYFATI001": "1" }
+      }
+    },
+    {
+      "question": "SSYFATI005",
+      "level": 1,
+      "trigger": {
+        "conditions": "SSYFATI001 != '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "SSYFATI001": "1" }
+      }
+    },
+    {
+      "question": "SSYFATI006",
+      "level": 1,
+      "trigger": {
+        "conditions": "SSYFATI001 != '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "SSYFATI001": "1" }
+      }
+    },
+    {
+      "question": "SSYFATI007",
+      "level": 1,
+      "trigger": {
+        "conditions": "SSYFATI001 != '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "SSYFATI001": "1" }
+      }
+    },
+    {
+      "question": "SSYFATI008",
+      "level": 1,
+      "trigger": {
+        "conditions": "SSYFATI001 != '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "SSYFATI001": "1" }
+      }
+    },
+    {
+      "question": "SSYFATI009",
+      "level": 1,
+      "trigger": {
+        "conditions": "SSYFATI001 != '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "SSYFATI001": "1" }
+      }
+    },
+    {
+      "question": "SSYFATI010",
+      "level": 1,
+      "trigger": {
+        "conditions": "SSYFATI001 != '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "SSYFATI001": "1" }
+      }
+    },
+    { "question": "SNEMEMO001", "level": 1 },
+    { "question": "SNEMEMO002", "level": 1 },
+    { "question": "SNEMEMO003", "level": 1 },
+    { "question": "SNEMEMO004", "level": 1 },
+    { "question": "SNEMEMO005", "level": 1 },
+    { "question": "SNEMEMO006", "level": 1 },
+    { "question": "SNEMEMO007", "level": 1 },
+    { "question": "SNEMEMO008", "level": 1 },
+    { "question": "SNEMEMO009", "level": 1 },
+    { "question": "SNEMEMO010", "level": 1 },
+    { "question": "SNEMEMO011", "level": 1 },
+    { "question": "SNEMEMO012", "level": 1 },
+    { "question": "SNEMEMO013", "level": 1 },
+    { "question": "SNEMEMO014", "level": 1 },
+    { "question": "SNEMEMO015", "level": 1 },
+    { "question": "GOBTRT001", "level": 1 },
+    {
+      "question": "GOBTRT002",
+      "level": 1,
+      "trigger": {
+        "conditions": "GOBTRT001 != '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "GOBTRT001": "1" }
+      }
+    },
+    {
+      "question": "GOBTRT003",
+      "level": 1,
+      "trigger": {
+        "conditions": "GOBTRT001 != '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "GOBTRT001": "1" }
+      }
+    },
+    {
+      "question": "GOBTRT004",
+      "level": 1,
+      "trigger": {
+        "conditions": "GOBTRT001 != '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "GOBTRT001": "1" }
+      }
+    },
+    {
+      "question": "GOBTRT005",
+      "level": 1,
+      "trigger": {
+        "conditions": "GOBTRT001 != '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "GOBTRT001": "1" }
+      }
+    },
+    {
+      "question": "GOBTRT006",
+      "level": 1,
+      "trigger": {
+        "conditions": "GOBTRT001 != '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "GOBTRT001": "1" }
+      }
+    },
+    {
+      "question": "GOBTRT007",
+      "level": 1,
+      "trigger": {
+        "conditions": "GOBTRT001 != '0'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "GOBTRT001": "1" }
+      }
+    }
+  ]
+}

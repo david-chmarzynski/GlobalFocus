@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI040",
+  "title": "J'attends souvent des autres qu'ils trouvent une solution à mes problèmes",
+  "text": "J'attends souvent des autres qu'ils trouvent une solution à mes problèmes",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

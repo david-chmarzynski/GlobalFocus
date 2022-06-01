@@ -1,0 +1,79 @@
+{
+  "oid": "MVSom3N3Q20",
+  "title": "A quelle heure vous levez-vous le weekend ou lors des vacances ?",
+  "text": "A quelle heure vous levez-vous le weekend ou lors des vacances ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "2h"
+    },
+    {
+      "code": "1",
+      "text": "3h"
+    },
+    {
+      "code": "2",
+      "text": "4h"
+    },
+    {
+      "code": "3",
+      "text": "5h"
+    },
+    {
+      "code": "4",
+      "text": "6h"
+    },
+    {
+      "code": "5",
+      "text": "7h"
+    },
+    {
+      "code": "6",
+      "text": "8h"
+    },
+    {
+      "code": "7",
+      "text": "9h"
+    },
+    {
+      "code": "8",
+      "text": "10h"
+    },
+    {
+      "code": "9",
+      "text": "11h"
+    },
+    {
+      "code": "10",
+      "text": "12h"
+    },
+    {
+      "code": "11",
+      "text": "13h"
+    },
+    {
+      "code": "12",
+      "text": "14h"
+    },
+    {
+      "code": "13",
+      "text": "15h"
+    },
+    {
+      "code": "14",
+      "text": "16h"
+    },
+    {
+      "code": "15",
+      "text": "17h"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom3N3Q20 != -1",
+      "tagOID": "MVSomN3-20",
+      "value": -1
+    }
+  ]
+}

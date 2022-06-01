@@ -1,0 +1,46 @@
+{
+  "oid": "VSomRythmesChronotypeMEQ7",
+  "title": "Durant la première demi-heure suivant votre réveil le matin, comment vous sentez-vous?",
+  "text": "Durant la première demi-heure suivant votre réveil le matin, comment vous sentez-vous?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Très fatigué(e)"
+    },
+    {
+      "code": "1",
+      "text": "Plutôt fatigué(e)"
+    },
+    {
+      "code": "2",
+      "text": "Plutôt reposé(e)"
+    },
+    {
+      "code": "3",
+      "text": "Très reposé(e)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomRythmesChronotypeMEQ7 == 0",
+      "tagOID": "ChronotypeMEQ",
+      "value": 1
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ7 == 1",
+      "tagOID": "ChronotypeMEQ",
+      "value": 2
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ7 == 2",
+      "tagOID": "ChronotypeMEQ",
+      "value": 3
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ7 == 3",
+      "tagOID": "ChronotypeMEQ",
+      "value": 4
+    }
+  ]
+}

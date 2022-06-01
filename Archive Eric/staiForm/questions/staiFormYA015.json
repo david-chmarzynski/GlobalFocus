@@ -1,0 +1,46 @@
+{
+  "oid": "staiFormYA015",
+  "title": "Je suis décontracté(e)",
+  "text": "Je suis décontracté(e)",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Non"
+    },
+    {
+      "code": "2",
+      "text": "Plutot non"
+    },
+    {
+      "code": "3",
+      "text": "Plutot oui"
+    },
+    {
+      "code": "4",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "staiFormYA015 == \"1\"",
+      "tagOID": "staiFormYA",
+      "value": 4
+    },
+    {
+      "conditions": "staiFormYA015 == \"2\"",
+      "tagOID": "staiFormYA",
+      "value": 3
+    },
+    {
+      "conditions": "staiFormYA015 == \"3\"",
+      "tagOID": "staiFormYA",
+      "value": 2
+    },
+    {
+      "conditions": "staiFormYA015 == \"4\"",
+      "tagOID": "staiFormYA",
+      "value": 1
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "oid": "Q009",
+  "title": "famille-diabete",
+  "text": "ATCD familial de diabete ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui (grand parent, tante, oncle, cousin(e))"
+    },
+    {
+      "code": "2",
+      "text": "Oui (parent, enfant)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "Q009 == \"0\"",
+      "tagOID": "findrisk_famille_diabete",
+      "value": 0
+    },
+    {
+      "conditions": "Q009 == \"1\"",
+      "tagOID": "findrisk_famille_diabete",
+      "value": 3
+    },
+    {
+      "conditions": "Q009 == \"2\"",
+      "tagOID": "findrisk_famille_diabete",
+      "value": 5
+    }
+  ]
+}

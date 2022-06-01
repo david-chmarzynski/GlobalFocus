@@ -1,0 +1,35 @@
+{
+  "oid": "B3SM2001",
+  "title": "A quel point est-il important pour vous de diminuer le temps passé en position assisie ou couchée (hors sommeil)",
+  "text": "A quel point est-il important pour vous de diminuer le temps passé en position assisie ou couchée (hors sommeil)",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 0.0,
+    "max": 10.0,
+    "step": 1.0,
+    "minText": "pas important",
+    "maxText": "très important"
+  },
+  "scores": [
+    {
+      "conditions": "B3SM2001 >= 0 && B3SM2001 <= 4",
+      "tagOID": "B3SM2",
+      "value": 0
+    },
+    {
+      "conditions": "B3SM2001 >= 5 && B3SM2001 <= 6",
+      "tagOID": "B3SM2",
+      "value": 1
+    },
+    {
+      "conditions": "B3SM2001 >= 7 && B3SM2001 <= 8",
+      "tagOID": "B3SM2",
+      "value": 2
+    },
+    {
+      "conditions": "B3SM2001 >= 9 && B3SM2001 <= 10",
+      "tagOID": "B3SM2",
+      "value": 3
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "oid": "EQVOD029",
+  "title": "Je me réjouis à l'idée de manger. ",
+  "text": "Je me réjouis à l'idée de manger. ",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 1.0,
+    "max": 5.0,
+    "step": 1.0,
+    "maxText": "jamais/pas du tout",
+    "maxValue": "5",
+    "midText": "parfois/modérément",
+    "midValue": "3",
+    "minText": "toujours/énormément",
+    "minValue": "1"
+  },
+  "scores": [
+    {
+      "conditions": "EQVOD029 == 1",
+      "tagOID": "EQVOD",
+      "value": 4.0
+    },
+    {
+      "conditions": "EQVOD029 == 2",
+      "tagOID": "EQVOD",
+      "value": 8.0
+    },
+    {
+      "conditions": "EQVOD029 == 3",
+      "tagOID": "EQVOD",
+      "value": 12.0
+    },
+    {
+      "conditions": "EQVOD029 == 4",
+      "tagOID": "EQVOD",
+      "value": 16.0
+    },
+    {
+      "conditions": "EQVOD029 == 5",
+      "tagOID": "EQVOD",
+      "value": 20.0
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "oid": "VSomAideDépendanceEquation3",
+  "title": "Est-ce le bon moment pour diminuer la prise d'aide pour dormir ?",
+  "text": "Est-ce le bon moment pour diminuer la prise d'aide pour dormir ?",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 0.0,
+    "max": 10.0,
+    "step": 1.0,
+    "maxText": "C'est le bon moment",
+    "maxValue": "10",
+    "minText": "C'est le pire moment",
+    "minValue": "0"
+  },
+  "scores": [
+    {
+      "conditions": "VSomAideDépendanceEquation3 == 9 || VSomAideDépendanceEquation3 == 10",
+      "tagOID": "Bon_moment",
+      "value": 0
+    },
+    {
+      "conditions": "VSomAideDépendanceEquation3 == 7 || VSomAideDépendanceEquation3 == 8",
+      "tagOID": "Bon_moment",
+      "value": 1
+    },
+    {
+      "conditions": "VSomAideDépendanceEquation3 == 5 || VSomAideDépendanceEquation3 == 6",
+      "tagOID": "Bon_moment",
+      "value": 2
+    },
+    {
+      "conditions": "VSomAideDépendanceEquation3 => 0 || VSomAideDépendanceEquation3 <= 4",
+      "tagOID": "Bon_moment",
+      "value": 3
+    }
+  ]
+}

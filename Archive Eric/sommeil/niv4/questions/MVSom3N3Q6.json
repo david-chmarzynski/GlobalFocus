@@ -1,0 +1,58 @@
+{
+  "oid": "MVSom3N3Q6",
+  "title": "En moyenne, combien de temps passez-vous entre le moment du coucher et celui ou vous vous endormissez (délai d'endormissement) ?",
+  "text": "En moyenne, combien de temps passez-vous entre le moment du coucher et celui ou vous vous endormissez (délai d'endormissement) ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Moins de 5 minutes"
+    },
+    {
+      "code": "1",
+      "text": "Entre 5 et 20 miinutes"
+    },
+    {
+      "code": "2",
+      "text": "Entre 20 et 40 minutes"
+    },
+    {
+      "code": "3",
+      "text": "Entre 40 minutes et 1 heure"
+    },
+    {
+      "code": "4",
+      "text": "Entre 1 heure et 1 h 30"
+    },
+    {
+      "code": "5",
+      "text": "Entre 1 h 30 et 2 heures"
+    },
+    {
+      "code": "6",
+      "text": "Plus de 2 heures"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom3N3Q6 == 0 || MVSom3N3Q6 == 1",
+      "tagOID": "MVSomN3-6",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom3N3Q6 == 2",
+      "tagOID": "MVSomN3-6",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom3N3Q6 ==3",
+      "tagOID": "MVSomN3-6",
+      "value": 2
+    },
+    {
+      "conditions": "MVSom3N3Q6 == 4 || MVSom3N3Q6 == 5 || MVSom3N3Q6 == 6",
+      "tagOID": "MVSomN3-6",
+      "value": 3
+    }
+  ]
+}

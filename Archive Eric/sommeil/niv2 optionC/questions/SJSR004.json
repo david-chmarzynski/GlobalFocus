@@ -1,0 +1,28 @@
+{
+  "oid": "SJSR004",
+  "title": "Ce besoin pressant de bouger est-il plus gênant dans la soirée ou la nuit que dans la journée (ou ne survient que le soir) ?",
+  "text": "Ce besoin pressant de bouger est-il plus gênant dans la soirée ou la nuit que dans la journée (ou ne survient que le soir) ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "SJSR004 == 0",
+      "tagOID": "SJSR",
+      "value": 0
+    },
+    {
+      "conditions": "SJSR004 == 1",
+      "tagOID": "SJSR",
+      "value": 1
+    }
+  ]
+}

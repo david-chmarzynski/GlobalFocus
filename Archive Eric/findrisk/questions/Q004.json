@@ -1,0 +1,16 @@
+{
+  "oid": "Q004",
+  "title": "sexe",
+  "text": "Quel est votre sexe ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "MALE",
+      "text": "Homme"
+    },
+    {
+      "code": "FEMALE",
+      "text": "Femme"
+    }
+  ]
+}

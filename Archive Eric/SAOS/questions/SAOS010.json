@@ -1,0 +1,28 @@
+{
+  "oid": "SAOS010",
+  "title": "Souffrez-vous d'hypertension artérielle ?",
+  "text": "Souffrez-vous d'hypertension artérielle ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "SAOS010 == \"0\"",
+      "tagOID": "tag_HTA_IMC",
+      "value": 2
+    },
+    {
+      "conditions": "SAOS010 == \"1\"",
+      "tagOID": "tag_HTA_IMC",
+      "value": 0
+    }
+  ]
+}

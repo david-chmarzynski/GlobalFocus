@@ -1,0 +1,28 @@
+{
+    "oid": "P2109",
+    "title": "oralité",
+    "text": "J’aime fumer ou boire",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "0",
+          "text": "Non"
+        },
+        {
+          "code": "1",
+          "text": "Oui"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "P2109 == '0'",
+          "tagOID": "P2OR",
+          "value": 0
+        },
+        {
+          "conditions": "P2109 == '1'",
+          "tagOID": "P2OR",
+          "value": 1
+        }
+    ]
+}

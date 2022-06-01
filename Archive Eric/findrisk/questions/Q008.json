@@ -1,0 +1,28 @@
+{
+  "oid": "Q008",
+  "title": "anti-HTA",
+  "text": "avez-vous pris ou prenez-vous des traitements pour l'hypertension arterielle ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "Q008 == \"0\"",
+      "tagOID": "findrisk_anti_HTA",
+      "value": 2
+    },
+    {
+      "conditions": "Q008 == \"1\"",
+      "tagOID": "findrisk_anti_HTA",
+      "value": 0
+    }
+  ]
+}

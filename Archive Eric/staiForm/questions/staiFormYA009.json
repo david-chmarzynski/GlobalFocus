@@ -1,0 +1,46 @@
+{
+  "oid": "staiFormYA009",
+  "title": "Je me sens éffrayé(e)",
+  "text": "Je me sens éffrayé(e)",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Non"
+    },
+    {
+      "code": "2",
+      "text": "Plutot non"
+    },
+    {
+      "code": "3",
+      "text": "Plutot oui"
+    },
+    {
+      "code": "4",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "staiFormYA009 == \"1\"",
+      "tagOID": "staiFormYA",
+      "value": 1
+    },
+    {
+      "conditions": "staiFormYA009 == \"2\"",
+      "tagOID": "staiFormYA",
+      "value": 2
+    },
+    {
+      "conditions": "staiFormYA009 == \"3\"",
+      "tagOID": "staiFormYA",
+      "value": 3
+    },
+    {
+      "conditions": "staiFormYA009 == \"4\"",
+      "tagOID": "staiFormYA",
+      "value": 4
+    }
+  ]
+}

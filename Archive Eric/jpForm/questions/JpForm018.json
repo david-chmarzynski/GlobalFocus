@@ -1,0 +1,46 @@
+{
+  "oid": "JpForm018",
+  "title": "Ces 6 dernis mois, avez-vous eu des problèmes d'éjaculation ?",
+  "text": "Ces 6 dernis mois, avez-vous eu des problèmes d'éjaculation ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Symptome absent"
+    },
+    {
+      "code": "1",
+      "text": "Symptome peu genant"
+    },
+    {
+      "code": "2",
+      "text": "Symptome assez genant"
+    },
+    {
+      "code": "3",
+      "text": "Symptome genant"
+    }
+  ],
+  "scores": [
+    {
+      "tagOID": "ejaculation algies",
+      "conditions": "JpForm018 == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "ejaculation algies",
+      "conditions": "JpForm018 == '1'",
+      "value": 1
+    },
+    {
+      "tagOID": "ejaculation algies",
+      "conditions": "JpForm018 == '2'",
+      "value": 2
+    },
+    {
+      "tagOID": "ejaculation algies",
+      "conditions": "JpForm018 == '3'",
+      "value": 3
+    }
+  ]
+}

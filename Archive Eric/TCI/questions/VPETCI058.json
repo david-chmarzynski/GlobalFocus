@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI058",
+  "title": "Mes opinions sont en grande partie influencées par des éléments que je ne controle pas",
+  "text": "Mes opinions sont en grande partie influencées par des éléments que je ne controle pas",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

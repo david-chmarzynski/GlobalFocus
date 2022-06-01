@@ -1,0 +1,46 @@
+{
+  "oid": "HSI002",
+  "title": "Dans quel délai après le réveil fumez-vous votre première cigarette ?",
+  "text": "Dans quel délai après le réveil fumez-vous votre première cigarette ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "moins de 5 minutes"
+    },
+    {
+      "code": "1",
+      "text": "6 à 30 minutes"
+    },
+    {
+      "code": "2",
+      "text": "31 à 60 minutes"
+    },
+    {
+      "code": "3",
+      "text": "après plus d'1 heure"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "HSI002 == 0",
+      "tagOID": "depT",
+      "value": 3
+    },
+    {
+      "conditions": "HSI002 == 1",
+      "tagOID": "depT",
+      "value": 2
+    },
+    {
+      "conditions": "HSI002 == 2",
+      "tagOID": "depT",
+      "value": 1
+    },
+    {
+      "conditions": "HSI002 == 3",
+      "tagOID": "depT",
+      "value": 0
+    }
+  ]
+}

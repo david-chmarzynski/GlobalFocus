@@ -1,0 +1,44 @@
+{
+  "oid": "EQVOD022",
+  "title": "J'éprouve peu ou même aucun désir sexuel. ",
+  "text": "J'éprouve peu ou même aucun désir sexuel. ",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 1.0,
+    "max": 5.0,
+    "step": 1.0,
+    "maxText": "jamais/pas du tout",
+    "maxValue": "5",
+    "midText": "parfois/modérément",
+    "midValue": "3",
+    "minText": "toujours/énormément",
+    "minValue": "1"
+  },
+  "scores": [
+    {
+      "conditions": "EQVOD022 == 1",
+      "tagOID": "EQVOD",
+      "value": 5.0
+    },
+    {
+      "conditions": "EQVOD022 == 2",
+      "tagOID": "EQVOD",
+      "value": 10.0
+    },
+    {
+      "conditions": "EQVOD022 == 3",
+      "tagOID": "EQVOD",
+      "value": 15.0
+    },
+    {
+      "conditions": "EQVOD022 == 4",
+      "tagOID": "EQVOD",
+      "value": 20.0
+    },
+    {
+      "conditions": "EQVOD022 == 5",
+      "tagOID": "EQVOD",
+      "value": 25.0
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "oid": "SJSR006",
+  "title": "Ce besoin pressant de bouger les jambes (ou les bras) à cause des sensations désagréables retarde-t-il votre endormissement le soir et/ou perturbe-t-il votre sommeil ?",
+  "text": "Ce besoin pressant de bouger les jambes (ou les bras) à cause des sensations désagréables retarde-t-il votre endormissement le soir et/ou perturbe-t-il votre sommeil ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas de gene"
+    },
+    {
+      "code": "1",
+      "text": "Gene modere"
+    },
+    {
+      "code": "2",
+      "text": "Genant"
+    },
+    {
+      "code": "3",
+      "text": "Tres genant"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "SJSR006 == 0",
+      "tagOID": "SJSR",
+      "value": 0
+    },
+    {
+      "conditions": "SJSR006 == 1",
+      "tagOID": "SJSR",
+      "value": 1
+    },
+    {
+      "conditions": "SJSR006 == 2",
+      "tagOID": "SJSR",
+      "value": 2
+    },
+    {
+      "conditions": "SJSR006 == 3",
+      "tagOID": "SJSR",
+      "value": 3
+    }
+  ]
+}

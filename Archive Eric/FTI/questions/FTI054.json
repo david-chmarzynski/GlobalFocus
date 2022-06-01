@@ -1,0 +1,28 @@
+{
+  "oid": "FTI054",
+  "title": "Quand je me réveille d'un rêve éveillé, il me faut quelques secondes pour revenir à la réalité.",
+  "text": "Quand je me réveille d'un rêve éveillé, il me faut quelques secondes pour revenir à la réalité.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI054 == 0",
+      "tagOID": "prosocial",
+      "value": 1
+    },
+    {
+      "conditions": "FTI054 == 1",
+      "tagOID": "prosocial",
+      "value": 0
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "oid": "BDI017",
+  "title": "Vous sentez-vous plus fatigué qu'auparavant ?",
+  "text": "Vous sentez-vous plus fatigué qu'auparavant ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Je ne suis pas plus fatigué(e) qu'à l'accoutumée"
+    },
+    {
+      "code": "1",
+      "text": "Je me fatigue plus facilement qu'auparavant"
+    },
+    {
+      "code": "2",
+      "text": "Je me fatigue pour un rien"
+    },
+    {
+      "code": "3",
+      "text": "Je suis trop fatigué(e) pour faire quoi que ce soit"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "BDI017 == \"0\"",
+      "tagOID": "tag_BDI",
+      "value": 0
+    },
+    {
+      "conditions": "BDI017 == \"1\"",
+      "tagOID": "tag_BDI",
+      "value": 1
+    },
+    {
+      "conditions": "BDI017 == \"2\"",
+      "tagOID": "tag_BDI",
+      "value": 2
+    },
+    {
+      "conditions": "BDI017 == \"3\"",
+      "tagOID": "tag_BDI",
+      "value": 3
+    }
+  ]
+}

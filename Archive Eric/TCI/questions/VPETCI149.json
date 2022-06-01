@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI149",
+  "title": "Je ne sors pas de ma route pour faire plaisir aux autres",
+  "text": "Je ne sors pas de ma route pour faire plaisir aux autres",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

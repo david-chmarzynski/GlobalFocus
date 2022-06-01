@@ -1,0 +1,5 @@
+{
+  "oid": "chap_HSI",
+  "title": "chapitre HSI",
+  "modules": ["mod_HSI"]
+}

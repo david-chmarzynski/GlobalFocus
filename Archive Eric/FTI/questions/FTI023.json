@@ -1,0 +1,28 @@
+{
+  "oid": "FTI023",
+  "title": "J'ai tendance à être prudent, mais pas craintif.",
+  "text": "J'ai tendance à être prudent, mais pas craintif.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI023 == 0",
+      "tagOID": "conformité",
+      "value": 1
+    },
+    {
+      "conditions": "FTI023 == 1",
+      "tagOID": "conformité",
+      "value": 0
+    }
+  ]
+}

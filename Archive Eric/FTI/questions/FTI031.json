@@ -1,0 +1,28 @@
+{
+  "oid": "FTI031",
+  "title": "Je suis intrigué par les règles et les modèles qui régissent les systèmes.",
+  "text": "Je suis intrigué par les règles et les modèles qui régissent les systèmes.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI031 == 0",
+      "tagOID": "analytique",
+      "value": 1
+    },
+    {
+      "conditions": "FTI031 == 1",
+      "tagOID": "analytique",
+      "value": 0
+    }
+  ]
+}

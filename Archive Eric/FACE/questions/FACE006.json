@@ -1,0 +1,28 @@
+{
+  "oid": "FACE006",
+  "title": "Vous arrive-t-il de boire et de ne plus vous souvenir ensuite de ce que vous pu dire ou faire ?",
+  "text": "Vous arrive-t-il de boire et de ne plus vous souvenir ensuite de ce que vous pu dire ou faire ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FACE006 == 0",
+      "tagOID": "FACE",
+      "value": 0
+    },
+    {
+      "conditions": "FACE006 == 1",
+      "tagOID": "FACE",
+      "value": 4
+    }
+  ]
+}

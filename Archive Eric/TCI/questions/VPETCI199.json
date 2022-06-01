@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI199",
+  "title": "Je pense pouvoir rester confiant(e) et détenduu(e) en rencontrant des inconnus, meme si je suis prévenu(e) qu'ils sont en colère contre moi",
+  "text": "Je pense pouvoir rester confiant(e) et détenduu(e) en rencontrant des inconnus, meme si je suis prévenu(e) qu'ils sont en colère contre moi",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

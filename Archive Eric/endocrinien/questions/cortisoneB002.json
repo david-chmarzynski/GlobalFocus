@@ -1,0 +1,46 @@
+{
+  "oid": "cortisoneB002",
+  "title": "J'ai le visage gonflé, j'ai une bosse de Bison",
+  "text": "J'ai le visage gonflé, j'ai une bosse de Bison",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "De temps en temps"
+    },
+    {
+      "code": "2",
+      "text": "Régulièrement"
+    },
+    {
+      "code": "3",
+      "text": "En permanence"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "cortisoneB002 == \"0\"",
+      "tagOID": "tag_cortisone_B",
+      "value": 0
+    },
+    {
+      "conditions": "cortisoneB002 == \"1\"",
+      "tagOID": "tag_cortisone_B",
+      "value": 1
+    },
+    {
+      "conditions": "cortisoneB002 == \"2\"",
+      "tagOID": "tag_cortisone_B",
+      "value": 2
+    },
+    {
+      "conditions": "cortisoneB002 == \"3\"",
+      "tagOID": "tag_cortisone_B",
+      "value": 3
+    }
+  ]
+}

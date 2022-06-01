@@ -1,0 +1,11 @@
+{
+  "oid": "A3112",
+  "title": "Alimentation",
+  "text": "Combien de fois par semaine consommez-vous des fruits à coque (amandes, noix, noisettes...) ?",
+  "type": "DECIMAL",
+  "scale": {
+    "min": 0,
+    "max": 1,
+    "step": 100
+  }
+}

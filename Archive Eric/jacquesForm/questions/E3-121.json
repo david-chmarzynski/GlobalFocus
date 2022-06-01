@@ -1,0 +1,46 @@
+{
+    "oid": "E3121",
+    "title": "air_intérieur",
+    "text": "Comment évaluez-vous la qualité de l’air ambiant à l’intérieur de votre logement (humidité, acariens, poussières, odeurs, fumée de tabac, renouvellement de l’air, VMC, polluants divers...) ?",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "0",
+          "text": "Pas toxique"
+        },
+        {
+          "code": "1",
+          "text": "Modérément toxique"
+        },
+        {
+          "code": "2",
+          "text": "Toxique"
+        },
+        {
+          "code": "3",
+          "text": "Très toxique"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "E3121 == '0'",
+          "tagOID": "E3-12",
+          "value": 0
+        },
+        {
+          "conditions": "E3121 == '1'",
+          "tagOID": "E3-12",
+          "value": 1
+        },
+        {
+          "conditions": "E3121 == '2'",
+          "tagOID": "E3-12",
+          "value": 2
+        },
+        {
+          "conditions": "E3121 == '3'",
+          "tagOID": "E3-12",
+          "value": 3
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+  "oid": "A3110",
+  "title": "Alimentation",
+  "text": "Combien de fois par mois consommez-vous des légumineuses (lentilles, pois chiches, quinoa, soja, haricots blancs et rouges...)?",
+  "type": "DECIMAL",
+  "scale": {
+    "min": 0,
+    "max": 1,
+    "step": 100
+  }
+}

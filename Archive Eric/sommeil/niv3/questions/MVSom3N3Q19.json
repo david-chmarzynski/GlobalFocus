@@ -1,0 +1,79 @@
+{
+  "oid": "MVSom3N3Q19",
+  "title": "A quelle heure vous couchez vous le weekend ou lors des vacances ?",
+  "text": "A quelle heure vous couchez vous le weekend ou lors des vacances ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "18h"
+    },
+    {
+      "code": "1",
+      "text": "19h"
+    },
+    {
+      "code": "2",
+      "text": "20h"
+    },
+    {
+      "code": "3",
+      "text": "21h"
+    },
+    {
+      "code": "4",
+      "text": "22h"
+    },
+    {
+      "code": "5",
+      "text": "23h"
+    },
+    {
+      "code": "6",
+      "text": "24h"
+    },
+    {
+      "code": "7",
+      "text": "01h"
+    },
+    {
+      "code": "8",
+      "text": "02h"
+    },
+    {
+      "code": "9",
+      "text": "03h"
+    },
+    {
+      "code": "10",
+      "text": "04h"
+    },
+    {
+      "code": "11",
+      "text": "05h"
+    },
+    {
+      "code": "12",
+      "text": "06h"
+    },
+    {
+      "code": "13",
+      "text": "07h"
+    },
+    {
+      "code": "14",
+      "text": "08h"
+    },
+    {
+      "code": "15",
+      "text": "09h"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom3N3Q19 != -1",
+      "tagOID": "MVSomN3-19",
+      "value": -1
+    }
+  ]
+}

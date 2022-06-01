@@ -1,0 +1,53 @@
+{
+  "oid": "mGlobal",
+  "title": "Global",
+  "questions": [
+    { "question": "G001", "level": 1 },
+    {
+      "question": "G005",
+      "level": 1,
+      "trigger": {
+        "conditions": "G001 == '2' || G001 == '3'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "G001": "1" }
+      }
+    },
+    {
+      "question": "G002",
+      "level": 1,
+      "trigger": {
+        "conditions": "G001 != '2' && G001 != '3'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "G001": "2" }
+      }
+    },
+    {
+      "question": "G003",
+      "level": 1,
+      "trigger": {
+        "conditions": "G001 != '4' && G001 != '5'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "G001": "3" }
+      }
+    },
+    {
+      "question": "G004",
+      "level": 1,
+      "trigger": {
+        "conditions": "G001 != '6'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "G001": "4" }
+      }
+    },
+    { "question": "G006", "level": 1 },
+    {
+      "question": "G007",
+      "level": 1,
+      "trigger": {
+        "conditions": "G006 != '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "G006": "1" }
+      }
+    }
+  ]
+}

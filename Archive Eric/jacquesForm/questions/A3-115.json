@@ -1,0 +1,46 @@
+{
+    "oid": "A3115",
+    "title": "alimentation",
+    "text": "Utilisez-vous tous les jours des épices, herbes aromatiques, ail ou oignons pour cuisiner ?",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "3",
+          "text": "A tous les repas"
+        },
+        {
+          "code": "2",
+          "text": "1 fois par jour"
+        },
+        {
+          "code": "1",
+          "text": "plusieurs fois par semaine"
+        },
+        {
+          "code": "0",
+          "text": "jamais ou rarement"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "A3115 == '0'",
+          "tagOID": "tA3115",
+          "value": 0
+        },
+        {
+          "conditions": "A3115 == '1'",
+          "tagOID": "tA3115",
+          "value": 1
+        },
+        {
+          "conditions": "A3115 == '2'",
+          "tagOID": "tA3115",
+          "value": 2
+        },
+        {
+          "conditions": "A3115 == '3'",
+          "tagOID": "tA3115",
+          "value": 3
+        }
+    ]
+}

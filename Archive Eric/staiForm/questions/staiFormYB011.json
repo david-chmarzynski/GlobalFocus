@@ -1,0 +1,46 @@
+{
+  "oid": "staiFormYB011",
+  "title": "J'ai des pensées qui me pertubent",
+  "text": "J'ai des pensées qui me pertubent",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Jamais"
+    },
+    {
+      "code": "2",
+      "text": "Parfois"
+    },
+    {
+      "code": "3",
+      "text": "Souvent"
+    },
+    {
+      "code": "4",
+      "text": "Toujours"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "staiFormYB011 == \"1\"",
+      "tagOID": "staiFormYB",
+      "value": 1
+    },
+    {
+      "conditions": "staiFormYB011 == \"2\"",
+      "tagOID": "staiFormYB",
+      "value": 2
+    },
+    {
+      "conditions": "staiFormYB011 == \"3\"",
+      "tagOID": "staiFormYB",
+      "value": 3
+    },
+    {
+      "conditions": "staiFormYB011 == \"4\"",
+      "tagOID": "staiFormYB",
+      "value": 4
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "oid": "FTI",
+  "title": "FTI",
+  "estimatedTime": 3,
+  "pricing": 0,
+  "description": "FTI",
+  "levelMax": 1,
+  "authors": ["Eric Liu"],
+  "chapters": ["chap_FTI"],
+  "professions": ["DENTIST"],
+  "diagnostics": [
+    {
+      "oid": "temp",
+      "type": "CUSTOM",
+      "conditions": {
+        "Curieux": "curieux > analytique && curieux > conformité && curieux > prosocial",
+        "Conformité": "conformité > curieux && conformité > analytique && conformité > prosocial",
+        "Analytique": "analytique > curieux && analytique > conformité && analytique > prosocial",
+        "Prosocial": "prosocial > curieux && prosocial > conformmité && prosocial > analytique"
+      }
+    }
+  ],
+  "reportingTrees": [
+    {
+      "category": "LIFE_STYLE",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "diagnosticOID": "temp",
+        "type": "DIAGNOSTIC",
+        "diagnostics": {
+          "Curieux": {
+            "text": "Curieux",
+            "color": "FFA500",
+            "severity": 0
+          },
+          "Conformité": {
+            "text": "Conformité",
+            "color": "0000FF",
+            "severity": 0
+          },
+          "Analytique": {
+            "text": "Analytique",
+            "color": "FF0000",
+            "severity": 0
+          },
+          "Prosocial": {
+            "text": "Prosocial",
+            "color": "00FF00",
+            "severity": 0
+          }
+        },
+        "children": [
+          {
+            "tagOID": "curieux",
+            "type": "SCORE",
+            "ranges": [{ "min": -0.1, "max": 14.1, "color": "FFA500" }]
+          },
+          {
+            "tagOID": "conformité",
+            "type": "SCORE",
+            "ranges": [{ "min": -0.1, "max": 14.1, "color": "0000FF" }]
+          },
+          {
+            "tagOID": "analytique",
+            "type": "SCORE",
+            "ranges": [{ "min": -0.1, "max": 14.1, "color": "FF0000" }]
+          },
+          {
+            "tagOID": "prosocial",
+            "type": "SCORE",
+            "ranges": [{ "min": -0.1, "max": 14.1, "color": "00FF00" }]
+          }
+        ]
+      }
+    }
+  ]
+}

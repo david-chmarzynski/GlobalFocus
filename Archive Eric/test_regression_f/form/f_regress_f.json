@@ -1,0 +1,83 @@
+{
+  "oid": "f_regress_f",
+  "title": "regress_f",
+  "estimatedTime": "1 minutes",
+  "pricing": 800,
+  "description": "Test regression florent",
+  "levelMax": "1",
+  "authors": ["Florent Dreux"],
+  "chapters": ["chap_regress_f"],
+  "professions": ["OTORHINOLARYNGOLOGY_HEAD_AND_NECK_SURGERY"],
+  "diagnostics": [
+    {
+      "oid": "center_tag_regress_f",
+      "type": "CUSTOM",
+      "conditions": {
+        "RisqueTresHaut" : "tag_douleur_regress_f == 2 && tag_ronflement == 1",
+        "RisqueHaut": "tag_douleur_regress_f == 2",
+        "RisqueMoyen": "tag_douleur_regress_f == 1",
+        "RisqueTresFaible": "tag_douleur_regress_f == 0"
+      }
+    }
+  ],
+  "reportingTrees": [
+    {
+      "category": "HEALTH",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "diagnosticOID": "center_tag_regress_f",
+        "type": "DIAGNOSTIC",
+        "diagnostics": {
+          "RisqueTresFaible": {
+            "text": "Risque Très Faible",
+            "color": "00ff00",
+            "severity": 0
+          },
+          "RisqueMoyen": {
+            "text": "Risque Faible",
+            "color": "ffcc00",
+            "severity": 1
+          },
+          "RisqueHaut": {
+            "text": "Risque Moyen",
+            "color": "ff0000",
+            "severity": 2
+          },
+          "RisqueTresHaut": {
+            "text": "Risque Haut",
+            "color": "800000",
+            "severity": 3
+          }
+        },
+        "children": [
+          {
+            "tagOID": "tag_douleur_regress_f",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 0.1, "color": "00FF00" },
+              { "min": 0.9, "max": 1.1, "color": "ffcc00" },
+              { "min": 1.9, "max": 2.1, "color": "ff0000" }
+            ]
+          },
+          {
+            "tagOID": "tag_promoteur_regress_f",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 0.1, "color": "00FF00" },
+              { "min": 0.9, "max": 1.1, "color": "ffcc00" },
+              { "min": 1.9, "max": 2.1, "color": "ff0000" }
+            ]
+          },
+          {
+            "tagOID": "tag_ronflement",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 0.1, "color": "00FF00" },
+              { "min": 0.9, "max": 1.1, "color": "ff0000" }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

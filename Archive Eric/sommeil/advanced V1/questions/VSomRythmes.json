@@ -1,0 +1,46 @@
+{
+  "oid": "VSomRythmes",
+  "title": "Sur ces 3 derniers mois, comment évaluez-vous vos habitudes par rapport au respect de vos rythmes naturels de sommeil ?",
+  "text": "Sur ces 3 derniers mois, comment évaluez-vous vos habitudes par rapport au respect de vos rythmes naturels de sommeil ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisant"
+    },
+    {
+      "code": "1",
+      "text": "Légèrement insatisfaisant"
+    },
+    {
+      "code": "2",
+      "text": "Assez insatisfaisant"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisant"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomRythmes == 0",
+      "tagOID": "Rythmes naturels",
+      "value": 0
+    },
+    {
+      "conditions": "VSomRythmes == 1",
+      "tagOID": "Rythmes naturels",
+      "value": 1
+    },
+    {
+      "conditions": "VSomRythmes == 2",
+      "tagOID": "Rythmes naturels",
+      "value": 2
+    },
+    {
+      "conditions": "VSomRythmes == 3",
+      "tagOID": "Rythmes naturels",
+      "value": 3
+    }
+  ]
+}

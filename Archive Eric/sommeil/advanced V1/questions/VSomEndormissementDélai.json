@@ -1,0 +1,58 @@
+{
+  "oid": "VSomEndormissementDélai",
+  "title": "En moyenne, combien de temps passez-vous entre le moment du coucher et celui ou vous vous endormissez (délai d'endormissement) ?",
+  "text": "En moyenne, combien de temps passez-vous entre le moment du coucher et celui ou vous vous endormissez (délai d'endormissement) ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Moins de 5 minutes"
+    },
+    {
+      "code": "1",
+      "text": "Entre 5 et 20 miinutes"
+    },
+    {
+      "code": "2",
+      "text": "Entre 20 et 40 minutes"
+    },
+    {
+      "code": "3",
+      "text": "Entre 40 minutes et 1 heure"
+    },
+    {
+      "code": "4",
+      "text": "Entre 1 heure et 1 h 30"
+    },
+    {
+      "code": "5",
+      "text": "Entre 1 h 30 et 2 heures"
+    },
+    {
+      "code": "6",
+      "text": "Plus de 2 heures"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomEndormissementDélai == 0 || VSomEndormissementDélai == 1",
+      "tagOID": "Temps_éveillé_au_lit_le_soir",
+      "value": 0
+    },
+    {
+      "conditions": "VSomEndormissementDélai == 2",
+      "tagOID": "Temps_éveillé_au_lit_le_soir",
+      "value": 1
+    },
+    {
+      "conditions": "VSomEndormissementDélai ==3",
+      "tagOID": "Temps_éveillé_au_lit_le_soir",
+      "value": 2
+    },
+    {
+      "conditions": "VSomEndormissementDélai == 4 || VSomEndormissementDélai == 5 || VSomEndormissementDélai == 6",
+      "tagOID": "Temps_éveillé_au_lit_le_soir",
+      "value": 3
+    }
+  ]
+}

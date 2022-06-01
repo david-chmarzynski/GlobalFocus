@@ -1,0 +1,28 @@
+{
+  "oid": "FTI001",
+  "title": "Je trouve les situations imprévisibles exaltantes.",
+  "text": "Je trouve les situations imprévisibles exaltantes.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI001 == 0",
+      "tagOID": "curieux",
+      "value": 1
+    },
+    {
+      "conditions": "FTI001 == 1",
+      "tagOID": "curieux",
+      "value": 0
+    }
+  ]
+}

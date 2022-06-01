@@ -1,0 +1,35 @@
+{
+  "oid": "B3SM3001",
+  "title": "Avez-vous confiance dans votre capacité à diminuer le temps passé en position assise ou couchée (hors sommeil) ?",
+  "text": "Avez-vous confiance dans votre capacité à diminuer le temps passé en position assise ou couchée (hors sommeil) ?",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 0.0,
+    "max": 10.0,
+    "step": 1.0,
+    "minText": "pas confiant",
+    "maxText": "très confiant"
+  },
+  "scores": [
+    {
+      "conditions": "B3SM3001 >= 0 && B3SM3001 <= 4",
+      "tagOID": "B3SM3",
+      "value": 0
+    },
+    {
+      "conditions": "B3SM3001 >= 5 && B3SM3001 <= 6",
+      "tagOID": "B3SM3",
+      "value": 1
+    },
+    {
+      "conditions": "B3SM3001 >= 7 && B3SM3001 <= 8",
+      "tagOID": "B3SM3",
+      "value": 2
+    },
+    {
+      "conditions": "B3SM3001 >= 9 && B3SM3001 <= 10",
+      "tagOID": "B3SM3",
+      "value": 3
+    }
+  ]
+}

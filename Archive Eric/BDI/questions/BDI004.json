@@ -1,0 +1,46 @@
+{
+  "oid": "BDI004",
+  "title": "Retirez-vous de la satisfaction dans votre vie ?",
+  "text": "Retirez-vous de la satisfaction dans votre vie ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Je retire autant de satisfaction de la vie qu'auparavant"
+    },
+    {
+      "code": "1",
+      "text": "Je ne retire plus autant de satisfaction de la vie qu'auparavant"
+    },
+    {
+      "code": "2",
+      "text": "Je ne retire plus la satisfaction de quoi que ce soit"
+    },
+    {
+      "code": "3",
+      "text": "J'ai l'impression d'avoir complétement échoué dans la vie"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "BDI004 == \"0\"",
+      "tagOID": "tag_BDI",
+      "value": 0
+    },
+    {
+      "conditions": "BDI004 == \"1\"",
+      "tagOID": "tag_BDI",
+      "value": 1
+    },
+    {
+      "conditions": "BDI004 == \"2\"",
+      "tagOID": "tag_BDI",
+      "value": 2
+    },
+    {
+      "conditions": "BDI004 == \"3\"",
+      "tagOID": "tag_BDI",
+      "value": 3
+    }
+  ]
+}

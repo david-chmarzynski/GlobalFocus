@@ -1,0 +1,46 @@
+{
+    "oid": "P1001",
+    "title": "tempérament",
+    "text": "De quelle description vous sentez-vous le (la) plus proche ?",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "1",
+          "text": "Je suis curieux, créatif, communicant, expansif."
+        },
+        {
+          "code": "2",
+          "text": "Je suis ordonné, prudent, respectueux, fidèle."
+        },
+        {
+          "code": "3",
+          "text": "Je suis direct, compétiteur, analytique, rigoureux."
+        },
+        {
+          "code": "4",
+          "text": "Je suis rêveur, sensible, imaginatif, empathique."
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "P1001 == '1'",
+          "tagOID": "P1",
+          "value": 1
+        },
+        {
+          "conditions": "P1001 == '2'",
+          "tagOID": "P1",
+          "value": 2
+        },
+        {
+          "conditions": "P1001 == '3'",
+          "tagOID": "P1",
+          "value": 3
+        },
+        {
+          "conditions": "P1001 == '4'",
+          "tagOID": "P1",
+          "value": 4
+        }
+    ]
+}

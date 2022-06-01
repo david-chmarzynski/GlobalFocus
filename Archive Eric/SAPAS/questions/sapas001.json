@@ -1,0 +1,16 @@
+{
+  "oid": "sapas001",
+  "title": "En général avez-vous des difficultés à vous faire des amis et à les garder ?",
+  "text": "En général avez-vous des difficultés à vous faire des amis et à les garder ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ]
+}

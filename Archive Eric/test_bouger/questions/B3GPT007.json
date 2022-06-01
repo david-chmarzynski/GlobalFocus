@@ -1,0 +1,16 @@
+{
+  "oid": "B3GPT007",
+  "title": "Est-ce que votre travail implique des activités physiques d’intensité légère, comme se lever de sa chaise, se déplacer durant au moins 10 minutes d’affilée ?",
+  "text": "Est-ce que votre travail implique des activités physiques d’intensité légère, comme se lever de sa chaise, se déplacer durant au moins 10 minutes d’affilée ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ]
+}

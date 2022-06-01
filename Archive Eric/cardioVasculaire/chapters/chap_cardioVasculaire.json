@@ -1,0 +1,5 @@
+{
+  "oid": "chap_cardioVasculaire",
+  "title": "chapitre cardioVasculaire",
+  "modules": ["mod_cardioVasculaire"]
+}

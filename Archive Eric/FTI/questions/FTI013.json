@@ -1,0 +1,28 @@
+{
+  "oid": "FTI013",
+  "title": "J'ai plus d'énergie que la plupart des gens.",
+  "text": "J'ai plus d'énergie que la plupart des gens.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI013 == 0",
+      "tagOID": "curieux",
+      "value": 1
+    },
+    {
+      "conditions": "FTI013 == 1",
+      "tagOID": "curieux",
+      "value": 0
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+    "oid": "G005",
+    "title": "Global",
+    "text": "Actuellement, avez-vous une relation amoureuse ou sentimentale suivie ou stable ?",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "1",
+          "text": "Oui"
+        },
+        {
+          "code": "2",
+          "text": "Non"
+        }
+    ],
+    "reports": [
+        {
+          "conditions": "G005 == '1'",
+          "tagOID": "tGlobal",
+          "value": "Vie affective"
+        },
+        {
+          "conditions": "G005 == '2'",
+          "tagOID": "tGlobal",
+          "value": "Pas de vie affective"
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+  "oid": "MVSom4N4Q16",
+  "title": "Vos réveils nocturnes et difficultés à vous rendormir sont-ils causés par des facteurs psychologiques (plusieurs réponses possibles) ?",
+  "text": "Vos réveils nocturnes et difficultés à vous rendormir sont-ils causés par des facteurs psychologiques (plusieurs réponses possibles) ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Stress de ne pas réussir à se rendormir et d’être fatigué le lendemain"
+    },
+    {
+      "code": "1",
+      "text": "Anxiété, stress, soucis"
+    },
+    {
+      "code": "2",
+      "text": "Dépression"
+    },
+    {
+      "code": "3",
+      "text": "Bipolarité (épisode maniaco-dépressif)"
+    },
+    {
+      "code": "4",
+      "text": "Peur de faire des terreurs nocturnes ou des cauchemars"
+    },
+    {
+      "code": "5",
+      "text": "Peur de mourir ou d’avoir un problème de santé pendant le sommeil"
+    },
+    {
+      "code": "6",
+      "text": "Autre :"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom4N4Q16 != -1",
+      "tagOID": "MVSomN4-16",
+      "value": -1
+    }
+  ]
+}

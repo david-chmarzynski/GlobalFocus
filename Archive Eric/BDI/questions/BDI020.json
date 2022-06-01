@@ -1,0 +1,46 @@
+{
+  "oid": "BDI020",
+  "title": "Êtes-vous préoccupé(e) par votre santé ?",
+  "text": "Etes-vous préoccupé(e) par votre santé ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Ma santé ne me préoccupe pas plus que d'habitude"
+    },
+    {
+      "code": "1",
+      "text": "Je suis préoccupé(e) par des problèmes de santé comme les douleurs, les maux d'estomac ou la constipation"
+    },
+    {
+      "code": "2",
+      "text": "Mon état de santé me préoccupe beaucoup et il m'est difficile de penser à autre chose"
+    },
+    {
+      "code": "3",
+      "text": "Je suis tellemnt préoccupé(e) par mon état de santé qu'il m'est impossible de penser à autre chose"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "BDI020 == \"0\"",
+      "tagOID": "tag_BDI",
+      "value": 0
+    },
+    {
+      "conditions": "BDI020 == \"1\"",
+      "tagOID": "tag_BDI",
+      "value": 1
+    },
+    {
+      "conditions": "BDI020 == \"2\"",
+      "tagOID": "tag_BDI",
+      "value": 2
+    },
+    {
+      "conditions": "BDI020 == \"3\"",
+      "tagOID": "tag_BDI",
+      "value": 3
+    }
+  ]
+}

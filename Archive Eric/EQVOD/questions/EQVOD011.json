@@ -1,0 +1,44 @@
+{
+  "oid": "EQVOD011",
+  "title": "Je m'isole ou me renferme sur moi-même. ",
+  "text": "Je m'isole ou me renferme sur moi-même. ",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 1.0,
+    "max": 5.0,
+    "step": 1.0,
+    "maxText": "jamais/pas du tout",
+    "maxValue": "5",
+    "midText": "parfois/modérément",
+    "midValue": "3",
+    "minText": "toujours/énormément",
+    "minValue": "1"
+  },
+  "scores": [
+    {
+      "conditions": "EQVOD011 == 1",
+      "tagOID": "EQVOD",
+      "value": 1.8
+    },
+    {
+      "conditions": "EQVOD011 == 2",
+      "tagOID": "EQVOD",
+      "value": 3.6
+    },
+    {
+      "conditions": "EQVOD011 == 3",
+      "tagOID": "EQVOD",
+      "value": 5.4
+    },
+    {
+      "conditions": "EQVOD011 == 4",
+      "tagOID": "EQVOD",
+      "value": 7.2
+    },
+    {
+      "conditions": "EQVOD011 == 5",
+      "tagOID": "EQVOD",
+      "value": 9.0
+    }
+  ]
+}

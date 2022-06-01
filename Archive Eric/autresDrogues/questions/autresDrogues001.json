@@ -1,0 +1,86 @@
+{
+  "oid": "autresDrogues001",
+  "title": "Au cours de votre vie, avez-vous déjà consommé (plusieurs réponses possibles)",
+  "text": "Au cours de votre vie, avez-vous déjà consommé (plusieurs réponses possibles)",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Cocaine"
+    },
+    {
+      "code": "1",
+      "text": "Crack"
+    },
+    {
+      "code": "2",
+      "text": "Heroine"
+    },
+    {
+      "code": "3",
+      "text": "LSD"
+    },
+    {
+      "code": "4",
+      "text": "Ectasy"
+    },
+    {
+      "code": "5",
+      "text": "Amphétamines"
+    },
+    {
+      "code": "6",
+      "text": "Poppers"
+    },
+    {
+      "code": "7",
+      "text": "Autres"
+    },
+    {
+      "code": "8",
+      "text": "Aucun"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "true",
+      "tagOID": "tagAutresDrogues1",
+      "value": 0
+    },
+    {
+      "conditions": "true",
+      "tagOID": "tagAutresDrogues2",
+      "value": 0
+    },
+    {
+      "conditions": "true",
+      "tagOID": "tagAutresDrogues3",
+      "value": 0
+    },
+    {
+      "conditions": "true",
+      "tagOID": "tagAutresDrogues4",
+      "value": 0
+    },
+    {
+      "conditions": "true",
+      "tagOID": "tagAutresDrogues5",
+      "value": 0
+    },
+    {
+      "conditions": "true",
+      "tagOID": "tagAutresDrogues6",
+      "value": 0
+    },
+    {
+      "conditions": "true",
+      "tagOID": "tagAutresDrogues7",
+      "value": 0
+    },
+    {
+      "conditions": "true",
+      "tagOID": "tagAutresDrogues8",
+      "value": 0
+    }
+  ]
+}

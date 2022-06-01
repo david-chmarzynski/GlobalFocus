@@ -1,0 +1,25 @@
+{
+    "oid": "personalité0",
+    "title": "personalité",
+    "questions": [
+        { "question": "P1001", "level": 1 },
+        { "question": "P2001", "level": 1 },
+        { "question": "P2002", "level": 1 },
+        { "question": "P2003", "level": 1 },
+        { "question": "P2004", "level": 1 },
+        { "question": "P2005", "level": 1 },
+        { "question": "P2006", "level": 1 },
+        { "question": "P2007", "level": 1 },
+        { "question": "P2008", "level": 1 },
+        { "question": "P2009", "level": 1 },
+        { "question": "P2101", "level": 1 },
+        { "question": "P2102", "level": 1 },
+        { "question": "P2103", "level": 1 },
+        { "question": "P2104", "level": 1 },
+        { "question": "P2105", "level": 1 },
+        { "question": "P2106", "level": 1 },
+        { "question": "P2107", "level": 1 },
+        { "question": "P2108", "level": 1 },
+        { "question": "P2109", "level": 1 }
+    ]
+}

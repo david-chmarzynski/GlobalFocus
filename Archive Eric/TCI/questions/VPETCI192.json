@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI192",
+  "title": "En général, je peux rester actif(ve) toute la journée sans avoir à me forcer",
+  "text": "En général, je peux rester actif(ve) toute la journée sans avoir à me forcer",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

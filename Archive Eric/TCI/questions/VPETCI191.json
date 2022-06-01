@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI191",
+  "title": "Meme avec des amis, je préfère ne pas trop me confier",
+  "text": "Meme avec des amis, je préfère ne pas trop me confier",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI163",
+  "title": "Je préfère attendre que quelqu'un d'autre décide de ce qui doit etre fait",
+  "text": "Je préfère attendre que quelqu'un d'autre décide de ce qui doit etre fait",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

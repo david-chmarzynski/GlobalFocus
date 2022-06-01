@@ -1,0 +1,28 @@
+{
+  "oid": "JpForm008",
+  "title": "Je me sens \"addict\" au sexe ?",
+  "text": "Je me sens \"addict\" au sexe ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "4",
+      "text": "Tout à fait d'accord"
+    },
+    {
+      "code": "3",
+      "text": "Plutot d'accord"
+    },
+    {
+      "code": "2",
+      "text": "Ni d'accord ni pas d'accord"
+    },
+    {
+      "code": "1",
+      "text": "Plutot pas d'accord"
+    },
+    {
+      "code": "0",
+      "text": "Vraiment pas d'accord"
+    }
+  ]
+}

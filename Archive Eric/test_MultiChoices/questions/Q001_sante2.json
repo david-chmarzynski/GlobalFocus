@@ -1,0 +1,47 @@
+{
+    "oid": "Q001_sante2",
+    "title": "Comment évaluez-vous votre santé de l’appareil digestif, votre digestion ?",
+    "text": "Comment évaluez-vous votre santé de l’appareil digestif, votre digestion ?",
+    "type": "MULTI_CHOICES",
+    "choices": [
+      {
+        "code": "0",
+        "text": "Satisfaisante"
+      },
+      {
+        "code": "1",
+        "text": "Assez satisfaisante"
+      },
+      {
+        "code": "2",
+        "text": "Insatisfaisante"
+      },
+      {
+        "code": "3",
+        "text": "Très insatisfaisante"
+      }
+    ],
+    "scores": [
+      {
+        "conditions": "Q001_sante2 == \"0\"",
+        "tagOID": "SDIG1",
+        "value": 0
+      },
+      {
+        "conditions": "Q001_sante2 == \"1\"",
+        "tagOID": "SDIG1",
+        "value": 1
+      },
+      {
+        "conditions": "Q001_sante2 == \"2\"",
+        "tagOID": "SDIG1",
+        "value": 2
+      },
+      {
+        "conditions": "Q001_sante2 == \"3\"",
+        "tagOID": "SDIG1",
+        "value": 3
+      }
+    ]
+  }
+  

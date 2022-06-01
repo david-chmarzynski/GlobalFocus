@@ -1,0 +1,46 @@
+{
+  "oid": "staiFormYA001",
+  "title": "Je me sens calme",
+  "text": "Je me sens calme",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Non"
+    },
+    {
+      "code": "2",
+      "text": "Plutot non"
+    },
+    {
+      "code": "3",
+      "text": "Plutot oui"
+    },
+    {
+      "code": "4",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "staiFormYA001 == \"1\"",
+      "tagOID": "staiFormYA",
+      "value": 4
+    },
+    {
+      "conditions": "staiFormYA001 == \"2\"",
+      "tagOID": "staiFormYA",
+      "value": 3
+    },
+    {
+      "conditions": "staiFormYA001 == \"3\"",
+      "tagOID": "staiFormYA",
+      "value": 2
+    },
+    {
+      "conditions": "staiFormYA001 == \"4\"",
+      "tagOID": "staiFormYA",
+      "value": 1
+    }
+  ]
+}

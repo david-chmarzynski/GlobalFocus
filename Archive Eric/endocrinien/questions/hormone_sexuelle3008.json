@@ -1,0 +1,46 @@
+{
+  "oid": "hormonesexuelle3008",
+  "title": "Je souffre de troubls du sommeil, de nervosité",
+  "text": "Je souffre de troubls du sommeil, de nervosité",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "De temps en temps"
+    },
+    {
+      "code": "2",
+      "text": "Régulièrement"
+    },
+    {
+      "code": "3",
+      "text": "En permanence"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "hormonesexuelle3008 == \"0\"",
+      "tagOID": "tag_hormone_sexuelle3",
+      "value": 0
+    },
+    {
+      "conditions": "hormonesexuelle3008 == \"1\"",
+      "tagOID": "tag_hormone_sexuelle3",
+      "value": 1
+    },
+    {
+      "conditions": "hormonesexuelle3008 == \"2\"",
+      "tagOID": "tag_hormone_sexuelle3",
+      "value": 2
+    },
+    {
+      "conditions": "hormonesexuelle3008 == \"3\"",
+      "tagOID": "tag_hormone_sexuelle3",
+      "value": 3
+    }
+  ]
+}

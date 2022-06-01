@@ -1,0 +1,28 @@
+{
+  "oid": "FTI004",
+  "title": "J'ai un très large éventail d'intérêts.",
+  "text": "J'ai un très large éventail d'intérêts.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI004 == 0",
+      "tagOID": "curieux",
+      "value": 1
+    },
+    {
+      "conditions": "FTI004 == 1",
+      "tagOID": "curieux",
+      "value": 0
+    }
+  ]
+}

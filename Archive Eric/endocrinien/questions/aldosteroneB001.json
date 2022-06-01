@@ -1,0 +1,46 @@
+{
+  "oid": "aldosteroneB001",
+  "title": "gonflement diffus",
+  "text": "gonflement diffus",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "De temps en temps"
+    },
+    {
+      "code": "2",
+      "text": "Régulièrement"
+    },
+    {
+      "code": "3",
+      "text": "En permanence"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "aldosteroneB001 == \"0\"",
+      "tagOID": "tag_aldosterone_B",
+      "value": 0
+    },
+    {
+      "conditions": "aldosteroneB001 == \"1\"",
+      "tagOID": "tag_aldosterone_B",
+      "value": 1
+    },
+    {
+      "conditions": "aldosteroneB001 == \"2\"",
+      "tagOID": "tag_aldosterone_B",
+      "value": 2
+    },
+    {
+      "conditions": "aldosteroneB001 == \"3\"",
+      "tagOID": "tag_aldosterone_B",
+      "value": 3
+    }
+  ]
+}

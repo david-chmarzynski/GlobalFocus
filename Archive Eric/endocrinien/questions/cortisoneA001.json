@@ -1,0 +1,46 @@
+{
+  "oid": "cortisoneA001",
+  "title": "Je suis sensible au stress",
+  "text": "Je suis sensible au stress",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "De temps en temps"
+    },
+    {
+      "code": "2",
+      "text": "Régulièrement"
+    },
+    {
+      "code": "3",
+      "text": "En permanence"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "cortisoneA001 == \"0\"",
+      "tagOID": "tag_cortisone_A",
+      "value": 0
+    },
+    {
+      "conditions": "cortisoneA001 == \"1\"",
+      "tagOID": "tag_cortisone_A",
+      "value": 1
+    },
+    {
+      "conditions": "cortisoneA001 == \"2\"",
+      "tagOID": "tag_cortisone_A",
+      "value": 2
+    },
+    {
+      "conditions": "cortisoneA001 == \"3\"",
+      "tagOID": "tag_cortisone_A",
+      "value": 3
+    }
+  ]
+}

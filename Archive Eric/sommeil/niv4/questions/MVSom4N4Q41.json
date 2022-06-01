@@ -1,0 +1,28 @@
+{
+  "oid": "MVSom4N4Q41",
+  "title": "Avez-vous eu un accident domestique ou vous êtes-vous retrouvé en danger du fait de votre somnolence ?",
+  "text": "Avez-vous eu un accident domestique ou vous êtes-vous retrouvé en danger du fait de votre somnolence ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom4N4Q41 == 0",
+      "tagOID": "MVSomN4-41",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom4N4Q41 == 1",
+      "tagOID": "MVSomN4-41",
+      "value": 1
+    }
+  ]
+}

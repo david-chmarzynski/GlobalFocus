@@ -1,0 +1,50 @@
+{
+  "oid": "VSomMaintien",
+  "title": "Sur ces 3 derniers mois, avez-vous eu de la difficulté à maintenir votre sommeil (réveils fréquents, difficulté à vous rendormir ...) ?",
+  "text": "Sur ces 3 derniers mois, avez-vous eu de la difficulté à maintenir votre sommeil (réveils fréquents, difficulté à vous rendormir ...) ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais (ou presque)"
+    },
+    {
+      "code": "1",
+      "text": "1 à 3 fois/mois"
+    },
+    {
+      "code": "2",
+      "text": "1 à 2 fois/semaine"
+    },
+    {
+      "code": "3",
+      "text": "3 à fois par semaine"
+    },
+    {
+      "code": "4",
+      "text": "Tous les soirs (ou presque)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomMaintien == 0",
+      "tagOID": "Maintien_sommeil",
+      "value": 0
+    },
+    {
+      "conditions": "VSomMaintien == 1",
+      "tagOID": "Maintien_sommeil",
+      "value": 1
+    },
+    {
+      "conditions": "VSomMaintien == 2",
+      "tagOID": "Maintien_sommeil",
+      "value": 2
+    },
+    {
+      "conditions": "VSomMaintien == 3 || VSomMaintien == 4",
+      "tagOID": "Maintien_sommeil",
+      "value": 3
+    }
+  ]
+}

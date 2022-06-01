@@ -1,0 +1,46 @@
+{
+  "oid": "insuline011",
+  "title": "J'ai des kystes aux ovaires ou j'ai eu des kystes aux ovaires",
+  "text": "J'ai des kystes aux ovaires ou j'ai eu des kystes aux ovaires",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "De temps en temps"
+    },
+    {
+      "code": "2",
+      "text": "Régulièrement"
+    },
+    {
+      "code": "3",
+      "text": "En permanence"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "insuline011 == \"0\"",
+      "tagOID": "tag_insuline",
+      "value": 0
+    },
+    {
+      "conditions": "insuline011 == \"1\"",
+      "tagOID": "tag_insuline",
+      "value": 1
+    },
+    {
+      "conditions": "insuline011 == \"2\"",
+      "tagOID": "tag_insuline",
+      "value": 2
+    },
+    {
+      "conditions": "insuline011 == \"3\"",
+      "tagOID": "tag_insuline",
+      "value": 3
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI146",
+  "title": "Les membres d'une équipe sont raremment récompensés de manière équitable",
+  "text": "Les membres d'une équipe sont raremment récompensés de manière équitable",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

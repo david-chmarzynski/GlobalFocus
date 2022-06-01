@@ -1,0 +1,46 @@
+{
+  "oid": "BDI012",
+  "title": "Avez-vous perdu intérêt pour les gens ?",
+  "text": "Avez-vous perdu intérêt pour les gens ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Je n'ai pas perdu intérêt pour les autres"
+    },
+    {
+      "code": "1",
+      "text": "Je suis moins intéressé(e) par les gens qu'autrefois"
+    },
+    {
+      "code": "2",
+      "text": "J'ai perdu la plupart de mon intérêt pour les gens"
+    },
+    {
+      "code": "3",
+      "text": "J'ai perdu tout intérêt pour les gens"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "BDI012 == \"0\"",
+      "tagOID": "tag_BDI",
+      "value": 0
+    },
+    {
+      "conditions": "BDI012 == \"1\"",
+      "tagOID": "tag_BDI",
+      "value": 1
+    },
+    {
+      "conditions": "BDI012 == \"2\"",
+      "tagOID": "tag_BDI",
+      "value": 2
+    },
+    {
+      "conditions": "BDI012 == \"3\"",
+      "tagOID": "tag_BDI",
+      "value": 3
+    }
+  ]
+}

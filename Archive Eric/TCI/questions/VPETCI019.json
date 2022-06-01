@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI019",
+  "title": "Je suis beaucoup plus réservé(e) que la plupart des gens",
+  "text": "Je suis beaucoup plus réservé(e) que la plupart des gens",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

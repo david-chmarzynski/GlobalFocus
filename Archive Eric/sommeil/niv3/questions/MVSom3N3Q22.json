@@ -1,0 +1,35 @@
+{
+  "oid": "MVSom3N3Q22",
+  "title": "Par rapport à votre horloge interne (tendance naturelle à se lever tot ou à se coucher tard, niveau d'énergie le matin ou le soir, facilité à travailler ouo à réfléchir en début ou fin de journée) vous pensez etre :",
+  "text": "Par rapport à votre horloge interne (tendance naturelle à se lever tot ou à se coucher tard, niveau d'énergie le matin ou le soir, facilité à travailler ouo à réfléchir en début ou fin de journée) vous pensez etre :",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vraimment du matin"
+    },
+    {
+      "code": "1",
+      "text": "Plutot du matin"
+    },
+    {
+      "code": "2",
+      "text": "Neutre"
+    },
+    {
+      "code": "3",
+      "text": "Plutot du soir"
+    },
+    {
+      "code": "4",
+      "text": "Vraiment du soir"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom3N3Q22 != -1",
+      "tagOID": "MVSomN3-22",
+      "value": -1
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI042",
+  "title": "Je pense que j'aurai beaucoup de chance dans l'avenir",
+  "text": "Je pense que j'aurai beaucoup de chance dans l'avenir",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

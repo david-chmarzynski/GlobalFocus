@@ -1,0 +1,28 @@
+{
+  "oid": "FTI029",
+  "title": "Je comprends facilement les machines complexes.",
+  "text": "Je comprends facilement les machines complexes.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI029 == 0",
+      "tagOID": "analytique",
+      "value": 1
+    },
+    {
+      "conditions": "FTI029 == 1",
+      "tagOID": "analytique",
+      "value": 0
+    }
+  ]
+}

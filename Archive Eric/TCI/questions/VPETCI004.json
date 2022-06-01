@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI004",
+  "title": "J'ai souvent l'impression d'etre victime des circonstances",
+  "text": "J'ai souvent l'impression d'etre victime des circonstances",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "oid": "VSomRythmesChronotypeMEQ1",
+  "title": "Si vous étiez entièrement libre de planifier votre journée, à quelle heure environ vous lèveriez-vous?",
+  "text": "Si vous étiez entièrement libre de planifier votre journée, à quelle heure environ vous lèveriez-vous?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "05h00 – 06h30"
+    },
+    {
+      "code": "1",
+      "text": "06h30 – 07h45"
+    },
+    {
+      "code": "2",
+      "text": "07h45 – 09h45"
+    },
+    {
+      "code": "3",
+      "text": "09h45 – 11h00"
+    },
+    {
+      "code": "4",
+      "text": "11h00 – 12h00"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomRythmesChronotypeMEQ1 == 0",
+      "tagOID": "ChronotypeMEQ",
+      "value": 5
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ1 == 1",
+      "tagOID": "ChronotypeMEQ",
+      "value": 4
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ1 == 2",
+      "tagOID": "ChronotypeMEQ",
+      "value": 3
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ1 == 3",
+      "tagOID": "ChronotypeMEQ",
+      "value": 2
+    },
+    {
+      "conditions": "VSomRythmesChronotypeMEQ1 == 4",
+      "tagOID": "ChronotypeMEQ",
+      "value": 1
+    }
+  ]
+}

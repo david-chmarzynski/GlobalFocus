@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI189",
+  "title": "Aider les autres me fait plaisir, meme s'ils m'ont mal traité(e)",
+  "text": "Aider les autres me fait plaisir, meme s'ils m'ont mal traité(e)",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Vrai"
+    },
+    {
+      "code": "0",
+      "text": "Faux"
+    }
+  ]
+}

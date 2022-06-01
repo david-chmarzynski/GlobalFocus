@@ -1,0 +1,46 @@
+{
+  "oid": "cortisoneA006",
+  "title": "Je suis sujet à des perturbations cutanées (réactions anormales aux piqures d'insectes ou au solleil, eczéma, psoriasis, vitiligo)",
+  "text": "Je suis sujet à des perturbations cutanées (réactions anormales aux piqures d'insectes ou au solleil, eczéma, psoriasis, vitiligo)",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "De temps en temps"
+    },
+    {
+      "code": "2",
+      "text": "Régulièrement"
+    },
+    {
+      "code": "3",
+      "text": "En permanence"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "cortisoneA006 == \"0\"",
+      "tagOID": "tag_cortisone_A",
+      "value": 0
+    },
+    {
+      "conditions": "cortisoneA006 == \"1\"",
+      "tagOID": "tag_cortisone_A",
+      "value": 1
+    },
+    {
+      "conditions": "cortisoneA006 == \"2\"",
+      "tagOID": "tag_cortisone_A",
+      "value": 2
+    },
+    {
+      "conditions": "cortisoneA006 == \"3\"",
+      "tagOID": "tag_cortisone_A",
+      "value": 3
+    }
+  ]
+}

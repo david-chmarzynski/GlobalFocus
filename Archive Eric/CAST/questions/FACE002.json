@@ -1,0 +1,28 @@
+{
+  "oid": "CAST002",
+  "title": "Avez-vous déjà fumé du cannabis lorsque vous étiez seul(e) ?",
+  "text": "Avez-vous déjà fumé du cannabis lorsque vous étiez seul(e) ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "CAST002 == 0",
+      "tagOID": "CAST",
+      "value": 0
+    },
+    {
+      "conditions": "CAST002 == 1",
+      "tagOID": "CAST",
+      "value": 1
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI155",
+  "title": "Beaucoup de mes habitudes m'empechent d'obtenir de bons résultats",
+  "text": "Beaucoup de mes habitudes m'empechent d'obtenir de bons résultats",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

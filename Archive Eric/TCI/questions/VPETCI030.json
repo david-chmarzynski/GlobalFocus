@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI030",
+  "title": "Lorsque je manque de temps, je ne parviens généralement pas à faire les choses selon mes priorités personnelles",
+  "text": "Lorsque je manque de temps, je ne parviens généralement pas à faire les choses selon mes priorités personnelles",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

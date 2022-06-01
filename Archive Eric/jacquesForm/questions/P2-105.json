@@ -1,0 +1,28 @@
+{
+    "oid": "P2105",
+    "title": "oralité",
+    "text": "J’ai toujours envie de tout",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "0",
+          "text": "Non"
+        },
+        {
+          "code": "1",
+          "text": "Oui"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "P2105 == '0'",
+          "tagOID": "P2OR",
+          "value": 0
+        },
+        {
+          "conditions": "P2105 == '1'",
+          "tagOID": "P2OR",
+          "value": 1
+        }
+    ]
+}

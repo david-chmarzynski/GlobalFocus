@@ -1,0 +1,28 @@
+{
+  "oid": "SJSR007",
+  "title": "Commence ou s’aggrave pendant les périodes d’inactivité ou de repos en position assise ou allongée ?",
+  "text": "Commence ou s’aggrave pendant les périodes d’inactivité ou de repos en position assise ou allongée ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "SJSR007 == 0",
+      "tagOID": "SJSR",
+      "value": 0
+    },
+    {
+      "conditions": "SJSR007 == 1",
+      "tagOID": "SJSR",
+      "value": 1
+    }
+  ]
+}

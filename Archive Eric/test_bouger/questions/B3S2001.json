@@ -1,0 +1,100 @@
+{
+  "oid": "B3S2001",
+  "title": "Combien de temps passez-vous en position assise en moyenne par jour pour le travail ?",
+  "text": "Combien de temps passez-vous en position assise en moyenne par jour pour le travail ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Moins de 2 heures par jour"
+    },
+    {
+      "code": "1",
+      "text": "2 à 3 heures par jour"
+    },
+    {
+      "code": "2",
+      "text": "3 à 4 heures par jour"
+    },
+    {
+      "code": "3",
+      "text": "4 à 5 heures par jour"
+    },
+    {
+      "code": "4",
+      "text": "5 à 6 heures par jour"
+    },
+    {
+      "code": "5",
+      "text": "6 à 7 heures par jour"
+    },
+    {
+      "code": "6",
+      "text": "7 à 8 heures par jour"
+    },
+    {
+      "code": "7",
+      "text": "8 à 9 heures par jour"
+    },
+    {
+      "code": "8",
+      "text": "9 à 10 heures par jour"
+    },
+    {
+      "code": "9",
+      "text": "Plus de 10 heures par jour"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "B3S2001 == \"0\"",
+      "tagOID": "B3S2",
+      "value": 0
+    },
+    {
+      "conditions": "B3S2001 == \"1\"",
+      "tagOID": "B3S2",
+      "value": 1
+    },
+    {
+      "conditions": "B3S2001 == \"2\"",
+      "tagOID": "B3S2",
+      "value": 2
+    },
+    {
+      "conditions": "B3S2001 == \"3\"",
+      "tagOID": "B3S2",
+      "value": 3
+    },
+    {
+      "conditions": "B3S2001 == \"4\"",
+      "tagOID": "B3S2",
+      "value": 4
+    },
+    {
+      "conditions": "B3S2001 == \"5\"",
+      "tagOID": "B3S2",
+      "value": 5
+    },
+    {
+      "conditions": "B3S2001 == \"6\"",
+      "tagOID": "B3S2",
+      "value": 6
+    },
+    {
+      "conditions": "B3S2001 == \"7\"",
+      "tagOID": "B3S2",
+      "value": 7
+    },
+    {
+      "conditions": "B3S2001 == \"8\"",
+      "tagOID": "B3S2",
+      "value": 8
+    },
+    {
+      "conditions": "B3S2001 == \"9\"",
+      "tagOID": "B3S2",
+      "value": 9
+    }
+  ]
+}

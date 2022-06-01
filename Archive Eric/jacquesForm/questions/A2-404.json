@@ -1,0 +1,28 @@
+{
+    "oid": "A2404",
+    "title": "TCA",
+    "text": "Pensez-vous que vous êtes trop gros(se) alors que d’autres vous trouvent trop mince ?",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "0",
+          "text": "Non"
+        },
+        {
+          "code": "1",
+          "text": "Oui"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "A2404 == '0'",
+          "tagOID": "A2-4",
+          "value": 0
+        },
+        {
+          "conditions": "A2404 == '1'",
+          "tagOID": "A2-4",
+          "value": 1
+        }
+    ]
+}

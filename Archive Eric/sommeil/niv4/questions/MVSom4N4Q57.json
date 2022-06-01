@@ -1,0 +1,28 @@
+{
+  "oid": "MVSom4N4Q57",
+  "title": "Avez-vous un membre proche de votre famille (papa ou maman, frère ou sœur, enfant) qui présente un somnambulisme ?",
+  "text": "Avez-vous un membre proche de votre famille (papa ou maman, frère ou sœur, enfant) qui présente un somnambulisme ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom4N4Q57 == 0",
+      "tagOID": "MVSomN4-57",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom4N4Q57 == 1",
+      "tagOID": "MVSomN4-57",
+      "value": 1
+    }
+  ]
+}

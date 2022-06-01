@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI208",
+  "title": "Certaines personnes pensent que je suis trop près de mon argent",
+  "text": "Certaines personnes pensent que je suis trop près de mon argent",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

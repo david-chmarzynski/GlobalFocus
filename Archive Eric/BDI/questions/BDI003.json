@@ -1,0 +1,46 @@
+{
+  "oid": "BDI003",
+  "title": "Comment vous sentez-vous par rapport à vos échecs ?",
+  "text": "Comment vous sentez-vous par rapport à vos échecs ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Je ne me considère pas comme un(e) raté(e)"
+    },
+    {
+      "code": "1",
+      "text": "J'ai l'impression d'avoir subi plus d'échec que le commun des mortels"
+    },
+    {
+      "code": "2",
+      "text": "Quand je pense à mon passé, je ne peux voir que des échecs"
+    },
+    {
+      "code": "3",
+      "text": "J'ai l'impression d'avoir complètement échoué dans la vie"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "BDI003 == \"0\"",
+      "tagOID": "tag_BDI",
+      "value": 0
+    },
+    {
+      "conditions": "BDI003 == \"1\"",
+      "tagOID": "tag_BDI",
+      "value": 1
+    },
+    {
+      "conditions": "BDI003 == \"2\"",
+      "tagOID": "tag_BDI",
+      "value": 2
+    },
+    {
+      "conditions": "BDI003 == \"3\"",
+      "tagOID": "tag_BDI",
+      "value": 3
+    }
+  ]
+}

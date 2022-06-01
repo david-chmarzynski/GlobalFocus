@@ -1,0 +1,12 @@
+{
+  "oid": "mod_CAST",
+  "title": "CAST",
+  "questions": [
+    { "question": "CAST001", "level": 1 },
+    { "question": "CAST002", "level": 1 },
+    { "question": "CAST003", "level": 1 },
+    { "question": "CAST004", "level": 1 },
+    { "question": "CAST005", "level": 1 },
+    { "question": "CAST006", "level": 1 }
+  ]
+}

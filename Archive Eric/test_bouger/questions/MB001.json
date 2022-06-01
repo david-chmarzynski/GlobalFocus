@@ -1,0 +1,28 @@
+{
+  "oid": "MB001",
+  "title": "Quel est votre sexe",
+  "text": "Quel est votre sexe",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Homme"
+    },
+    {
+      "code": "1",
+      "text": "Femme"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MB001 == \"0\"",
+      "tagOID": "MB",
+      "value": 0
+    },
+    {
+      "conditions": "MB001 == \"1\"",
+      "tagOID": "MB",
+      "value": 1
+    }
+  ]
+}

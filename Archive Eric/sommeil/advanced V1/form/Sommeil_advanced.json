@@ -1,0 +1,1273 @@
+{
+  "oid": "Sommeil_advanced",
+  "title": "Sommeil_advanced",
+  "estimatedTime": 3,
+  "pricing": 0,
+  "description": "Sommeil_advanced",
+  "levelMax": 1,
+  "authors": ["Eric Liu"],
+  "chapters": ["chap_Sommeil_advanced"],
+  "diagnostics": [
+    {
+      "oid": "center_tag_saos",
+      "type": "CUSTOM",
+      "conditions": {
+        "RisqueHaut": "(tag_ronflement > 2 && tag_somnolence > 2 ) || (tag_ronflement > 2 && tag_HTA_IMC > 2) || (tag_somnolence > 2 && tag_HTA_IMC > 2)",
+        "RisqueMoyen": "(tag_ronflement < 2 || tag_somnolence < 2) && && tag_HTA_IMC == 1",
+        "RisqueFaible": "(tag_ronflement > 2 || tag_somnolence > 2 || tag_HTA_IMC > 2)",
+        "RisqueTresFaible": "tag_ronflement < 2 && tag_somnolence < 2 && tag_HTA_IMC < 2"
+      }
+    }
+  ],
+  "reportingTrees": [
+    {
+      "category": "HEALTH",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "MVSomSatisfaction",
+        "type": "SCORE",
+        "ranges": [
+          { "min": -0.1, "max": 0.1, "color": "00FF00" },
+          { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+          { "min": 1.9, "max": 2.1, "color": "FFA500" },
+          { "min": 2.9, "max": 3.1, "color": "FF0000" }
+        ],
+        "children": [
+          {
+            "tagOID": "Contexte",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 0.1, "color": "00FF00" },
+              { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+              { "min": 1.9, "max": 2.1, "color": "FFA500" },
+              { "min": 2.9, "max": 3.1, "color": "FF0000" }
+            ],
+            "children": [
+              {
+                "tagOID": "chambre",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ],
+                "children": [
+                  {
+                    "tagOID": "Literie",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "Calme",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "Tranquilité",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "Obscurité",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tagOID": "Rythmes naturels",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ],
+                "children": [
+                  {
+                    "tagOID": "Chronotype",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                    ],
+                    "children": [
+                      {
+                        "tagOID": "ChronotypeMEQ",
+                        "type": "SCORE",
+                        "ranges": [
+                          { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                          { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                          { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                          { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tagOID": "Travail",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tagOID": "Aide",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 0.1, "color": "00FF00" },
+              { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+              { "min": 1.9, "max": 2.1, "color": "FFA500" },
+              { "min": 2.9, "max": 3.1, "color": "FF0000" }
+            ],
+            "children": [
+              {
+                "tagOID": "Médicament_fréquence",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ],
+                "children": [
+                  {
+                    "tagOID": "Médicament",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tagOID": "Aide_sans_ordonnance_fréquence",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ],
+                "children": [
+                  {
+                    "tagOID": "Aide_sans_ordonnance",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tagOID": "Dépendance",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ],
+                "children": [
+                  {
+                    "tagOID": "MVSomN4-3",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 3.9, "max": 4.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "Importance",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 3.9, "max": 4.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "Confiance",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 3.9, "max": 4.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "Bon_moment",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 3.9, "max": 4.1, "color": "FF0000" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tagOID": "Accompagnement",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FF0000" }
+                ]
+              }
+            ]
+          },
+          {
+            "tagOID": "Difficulté_fréquence",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 0.1, "color": "00FF00" },
+              { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+              { "min": 1.9, "max": 2.1, "color": "FFA500" },
+              { "min": 2.9, "max": 3.1, "color": "FF0000" }
+            ],
+            "children": [
+              {
+                "tagOID": "Temps_éveillé_au_lit_le_soir",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "Temps_éveillé_au_lit_le_soir_temps_de_lecture",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ],
+                "children": [
+                  {
+                    "tagOID": "Coucher_semaine",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "Extinction_lampe_semaine",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "Délai_endormissement_semaine",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "Coucher_WE",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "Extinction_lampe_WE",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "Délai_endormissement_WE",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tagOID": "Gêne_externe",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ],
+                "children": [
+                  {
+                    "tagOID": "Causes_externes",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tagOID": "Mauvaises_habitudes",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ],
+                "children": [
+                  {
+                    "tagOID": "Habitudes_coucher",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "Mauvaises_habitudes2",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tagOID": "Gêne_physique",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ],
+                "children": [
+                  {
+                    "tagOID": "Symptômes_gêne",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tagOID": "MVSomN3-10",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ],
+                "children": [
+                  {
+                    "tagOID": "Psy_gêne",
+                    "type": "SCORE",
+                    "ranges": [{ "min": 0.1, "max": 0.1, "color": "00FF00" }]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tagOID": "Maintien_sommeil",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 0.1, "color": "00FF00" },
+              { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+              { "min": 1.9, "max": 2.1, "color": "FFA500" },
+              { "min": 2.9, "max": 3.1, "color": "FF0000" }
+            ],
+            "children": [
+              {
+                "tagOID": "Réveils_milieu_nuit",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "Réveils_fin_nuit",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "Durée_éveils",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "Facteurs_externes",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ],
+                "children": [
+                  {
+                    "tagOID": "Gêne_externe2",
+                    "type": "SCORE",
+                    "ranges": [{ "min": 0.1, "max": 0.1, "color": "00FF00" }]
+                  }
+                ]
+              },
+              {
+                "tagOID": "Habitudes",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ],
+                "children": [
+                  {
+                    "tagOID": "Habitudes2",
+                    "type": "SCORE",
+                    "ranges": [{ "min": 0.1, "max": 0.1, "color": "00FF00" }]
+                  }
+                ]
+              },
+              {
+                "tagOID": "MVSomN3-15",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ],
+                "children": [
+                  {
+                    "tagOID": "MVSomN4-15",
+                    "type": "SCORE",
+                    "ranges": [{ "min": 0.1, "max": 0.1, "color": "00FF00" }]
+                  }
+                ]
+              },
+              {
+                "tagOID": "MVSomN3-16",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ],
+                "children": [
+                  {
+                    "tagOID": "MVSomN4-16",
+                    "type": "SCORE",
+                    "ranges": [{ "min": 0.1, "max": 0.1, "color": "00FF00" }]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tagOID": "MVSomN2-5",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 0.1, "color": "00FF00" },
+              { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+              { "min": 1.9, "max": 2.1, "color": "FFA500" },
+              { "min": 2.9, "max": 3.1, "color": "FF0000" }
+            ],
+            "children": [
+              {
+                "tagOID": "MVSomN3-17",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "MVSomN3-18",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "MVSomN3-19",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "MVSomN3-20",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "MVSomN3-21",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ]
+              }
+            ]
+          },
+          {
+            "tagOID": "MVSomN2-6",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 0.1, "color": "00FF00" },
+              { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+              { "min": 1.9, "max": 2.1, "color": "FFA500" },
+              { "min": 2.9, "max": 3.1, "color": "FF0000" }
+            ],
+            "children": [
+              {
+                "tagOID": "MVSomN3-22",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "MVSomN3-23",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "MVSomN3-24",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "MVSomN3-25",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ]
+              }
+            ]
+          },
+          {
+            "tagOID": "MVSomN2-7",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 0.1, "color": "00FF00" },
+              { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+              { "min": 1.9, "max": 2.1, "color": "FFA500" },
+              { "min": 2.9, "max": 3.1, "color": "FF0000" }
+            ],
+            "children": [
+              {
+                "tagOID": "MVSomN3-26",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ],
+                "children": [
+                  {
+                    "tagOID": "MVSomN4-17",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tagOID": "MVSomN3-27",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "MVSomN3-28",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "MVSomN3-29",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "MVSomN3-30",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ]
+              }
+            ]
+          },
+          {
+            "tagOID": "MVSomN2-8",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 0.1, "color": "00FF00" },
+              { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+              { "min": 1.9, "max": 2.1, "color": "FFA500" },
+              { "min": 2.9, "max": 3.1, "color": "FF0000" }
+            ],
+            "children": [
+              {
+                "tagOID": "MVSomN3-31",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ],
+                "children": [
+                  {
+                    "tagOID": "MVSomN4-18",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "MVSomN4-19",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "MVSomN4-20",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tagOID": "MVSomN3-32",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ],
+                "children": [
+                  {
+                    "tagOID": "MVSomN4-21",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "MVSomN4-22",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "MVSomN4-23",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "MVSomN4-24",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tagOID": "MVSomN3-33",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ],
+                "children": [
+                  {
+                    "tagOID": "MVSomN4-25",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 22.1, "color": "00FF00" },
+                      { "min": 22.9, "max": 100.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "MVSomN4-33",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "MVSomN4-34",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "MVSomN4-35",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tagOID": "MVSomN3-34",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ],
+                "children": [
+                  {
+                    "tagOID": "MVSomN4-36",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "MVSomN4-37",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "MVSomN4-38",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tagOID": "MVSomN3-35",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ],
+                "children": [
+                  {
+                    "tagOID": "MVSomN4-39",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "MVSomN4-40",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "MVSomN4-41",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "MVSomN4-42",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "MVSomN4-43",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                      { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "MVSomN4-44",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 2.1, "color": "00FF00" },
+                      { "min": 2.9, "max": 5.1, "color": "FFFF00" },
+                      { "min": 5.9, "max": 10.1, "color": "FFA500" },
+                      { "min": 10.9, "max": 24.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "MVSomN4-52",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                      { "min": 1.9, "max": 4.1, "color": "FFA500" },
+                      { "min": 4.9, "max": 15.1, "color": "FF0000" }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tagOID": "MVSomN2-9",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 0.1, "color": "00FF00" },
+              { "min": 0.9, "max": 1.1, "color": "FF0000" }
+            ],
+            "children": [
+              {
+                "diagnosticOID": "center_tag_saos",
+                "type": "DIAGNOSTIC",
+                "diagnostics": {
+                  "RisqueTresFaible": {
+                    "text": "Risque Très Faible",
+                    "color": "00FF00",
+                    "severity": 0
+                  },
+                  "RisqueFaible": {
+                    "text": "Risque Faible",
+                    "color": "FFFF00",
+                    "severity": 1
+                  },
+                  "RisqueMoyen": {
+                    "text": "Risque Moyen",
+                    "color": "FFA500",
+                    "severity": 2
+                  },
+                  "RisqueHaut": {
+                    "text": "Risque Haut",
+                    "color": "00FF00",
+                    "severity": 3
+                  }
+                }
+              },
+              {
+                "tagOID": "SJSR",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FFFF00" },
+                  { "min": 1.9, "max": 2.1, "color": "FFA500" },
+                  { "min": 2.9, "max": 3.1, "color": "FF0000" }
+                ]
+              }
+            ]
+          },
+          {
+            "tagOID": "MVSomN2-10",
+            "type": "SCORE",
+            "ranges": [
+              { "min": -0.1, "max": 0.1, "color": "00FF00" },
+              { "min": 0.9, "max": 1.1, "color": "FF0000" }
+            ],
+            "children": [
+              {
+                "tagOID": "MVSomN3-36",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FF0000" }
+                ],
+                "children": [
+                  {
+                    "tagOID": "MVSomN4-53",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "MVSomN4-54",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "MVSomN4-55",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "MVSomN4-56",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "MVSomN4-57",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "MVSomN4-58",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "MVSomN4-59",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "MVSomN4-60",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "MVSomN4-61",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "MVSomN4-62",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "MVSomN4-63",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "MVSomN4-64",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "MVSomN4-65",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "MVSomN4-66",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "MVSomN4-67",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FF0000" }
+                    ]
+                  },
+                  {
+                    "tagOID": "MVSomN4-68",
+                    "type": "SCORE",
+                    "ranges": [
+                      { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                      { "min": 0.9, "max": 1.1, "color": "FF0000" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tagOID": "MVSomN3-37",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "MVSomN3-38",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "MVSomN3-39",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "MVSomN3-40",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "MVSomN3-41",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "MVSomN3-42",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FF0000" }
+                ]
+              },
+              {
+                "tagOID": "MVSomN3-43",
+                "type": "SCORE",
+                "ranges": [
+                  { "min": -0.1, "max": 0.1, "color": "00FF00" },
+                  { "min": 0.9, "max": 1.1, "color": "FF0000" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

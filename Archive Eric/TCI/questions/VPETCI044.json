@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI044",
+  "title": "Ca ne me generait pas d'etre seul(e) tout le temps",
+  "text": "Ca ne me generait pas d'etre seul(e) tout le temps",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

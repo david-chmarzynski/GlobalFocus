@@ -1,0 +1,62 @@
+{
+  "oid": "JpForm011",
+  "title": "Avez-vous des besoins compulsifs de sexe auxqueles il vous esttrès difficile de résister :",
+  "text": "Avez-vous des besoins compulsifs de sexe auxqueles il vous esttrès difficile de résister :",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "1 à 3 fois par mois"
+    },
+    {
+      "code": "2",
+      "text": "1 à 3 fois par semaine"
+    },
+    {
+      "code": "3",
+      "text": "4 à 6 fois par semaine"
+    },
+    {
+      "code": "4",
+      "text": "Tous les jours ou presque"
+    },
+    {
+      "code": "5",
+      "text": "1 à 2 fois par jour"
+    },
+    {
+      "code": "6",
+      "text": "3 à 5 fois par jour"
+    },
+    {
+      "code": "7",
+      "text": "Plus de 5 fois par jour"
+    }
+  ],
+  "scores": [
+    {
+      "tagOID": "compulsions/addiction sexe",
+      "conditions": "JpForm011 == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "compulsions/addiction sexe",
+      "conditions": "JpForm011 == '1'",
+      "value": 1
+    },
+    {
+      "tagOID": "compulsions/addiction sexe",
+      "conditions": "JpForm011 == '2'",
+      "value": 2
+    },
+    {
+      "tagOID": "compulsions/addiction sexe",
+      "conditions": "JpForm011 >= '3'",
+      "value": 3
+    }
+  ]
+}

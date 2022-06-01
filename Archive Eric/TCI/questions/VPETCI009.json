@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI009",
+  "title": "J'ai souvent l'impression que ma vie n'a pas du tout de but ou manque de sens",
+  "text": "J'ai souvent l'impression que ma vie n'a pas du tout de but ou manque de sens",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

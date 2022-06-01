@@ -1,0 +1,28 @@
+{
+  "oid": "FTI022",
+  "title": "J'ai tendance à être méticuleux dans mes fonctions",
+  "text": "J'ai tendance à être méticuleux dans mes fonctions",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI022 == 0",
+      "tagOID": "conformité",
+      "value": 1
+    },
+    {
+      "conditions": "FTI022 == 1",
+      "tagOID": "conformité",
+      "value": 0
+    }
+  ]
+}

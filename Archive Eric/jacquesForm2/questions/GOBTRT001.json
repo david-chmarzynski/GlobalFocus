@@ -1,0 +1,16 @@
+{
+  "oid": "GOBTRT001",
+  "title": "Avez-vous un traitement médical quotidien ?",
+  "text": "Avez-vous un traitement médical quotidien ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ]
+}

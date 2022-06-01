@@ -1,0 +1,43 @@
+{
+  "oid": "MVSom3N3Q23",
+  "title": "Depuis quand souffrez-vous de difficullyés de sommeil ?",
+  "text": "Depuis quand souffrez-vous de difficullyés de sommeil ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Moins d'un mois"
+    },
+    {
+      "code": "1",
+      "text": "Entre 1 et 3 mois"
+    },
+    {
+      "code": "2",
+      "text": "Entre 3 mois et 1 an"
+    },
+    {
+      "code": "3",
+      "text": "Entre 1 an et 2 ans"
+    },
+    {
+      "code": "4",
+      "text": "Entre 2 ans et 5 ans"
+    },
+    {
+      "code": "5",
+      "text": "Entre 5 et 10 ans"
+    },
+    {
+      "code": "6",
+      "text": "Plus de 10 ans"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom3N3Q23 != -1",
+      "tagOID": "MVSomN3-23",
+      "value": -1
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "oid": "MIDAS002",
+  "title": "Au cours des trois derniers mois, pendant combien de jours votre productivité au travailou à l’école a-t-elle été réduite de moitié ou plus en raison de vos maux de tête?(N’incluez pas les jours d’absence indiqués à la question 1.)",
+  "text": "Au cours des trois derniers mois, pendant combien de jours votre productivité au travailou à l’école a-t-elle été réduite de moitié ou plus en raison de vos maux de tête?(N’incluez pas les jours d’absence indiqués à la question 1.)",
+  "type": "DECIMAL",
+  "scale": {
+    "min": 0.0,
+    "max": 92.0,
+    "step": 1.0
+  }
+}

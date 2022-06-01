@@ -1,0 +1,40 @@
+{
+  "oid": "SAOS005",
+  "title": "A-t-on déjà remarqué que vous cessiez de respirer durant votre sommeil ?",
+  "text": "A-t-on déjà remarqué que vous cessiez de respirer durant votre sommeil ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Preque toutes les nuits"
+    },
+    {
+      "code": "1",
+      "text": "3 à 4 nuits par semaines"
+    },
+    {
+      "code": "2",
+      "text": "1 à 2 nuit par semaine"
+    },
+    {
+      "code": "3",
+      "text": "3 à 4 nuit par mois"
+    },
+    {
+      "code": "4",
+      "text": "Jamais ou presque aucune nuit"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "SAOS005 == \"0\" || SAOS005 == \"1\"",
+      "tagOID": "tag_ronflement",
+      "value": 2
+    },
+    {
+      "conditions": "SAOS005 == \"2\" || SAOS005 == \"3\" || SAOS005 == \"4\"",
+      "tagOID": "tag_ronflement",
+      "value": 0
+    }
+  ]
+}

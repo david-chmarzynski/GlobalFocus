@@ -1,0 +1,64 @@
+{
+  "oid": "rathus013",
+  "title": "Je préfererais poser ma candidature pour un autre travail par lettre plutot que par un entretien personnel",
+  "text": "Je préfererais poser ma candidature pour un autre travail par lettre plutot que par un entretien personnel",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Tout à fait vrai"
+    },
+    {
+      "code": "2",
+      "text": "Vrai"
+    },
+    {
+      "code": "3",
+      "text": "Plutot vrai"
+    },
+    {
+      "code": "4",
+      "text": "Plutot faux"
+    },
+    {
+      "code": "5",
+      "text": "Faux"
+    },
+    {
+      "code": "6",
+      "text": "Tout à fait faux"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "rathus013 == \"1\"",
+      "tagOID": "rathus",
+      "value": 6
+    },
+    {
+      "conditions": "rathus013 == \"2\"",
+      "tagOID": "rathus",
+      "value": 5
+    },
+    {
+      "conditions": "rathus013 == \"3\"",
+      "tagOID": "rathus",
+      "value": 4
+    },
+    {
+      "conditions": "rathus013 == \"4\"",
+      "tagOID": "rathus",
+      "value": 3
+    },
+    {
+      "conditions": "rathus013 == \"5\"",
+      "tagOID": "rathus",
+      "value": 2
+    },
+    {
+      "conditions": "rathus013 == \"6\"",
+      "tagOID": "rathus",
+      "value": 1
+    }
+  ]
+}

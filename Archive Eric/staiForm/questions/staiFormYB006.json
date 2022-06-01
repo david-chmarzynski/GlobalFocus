@@ -1,0 +1,46 @@
+{
+  "oid": "staiFormYB006",
+  "title": "Je me sens reposé(e)",
+  "text": "Je me sens reposé(e)",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Jamais"
+    },
+    {
+      "code": "2",
+      "text": "Parfois"
+    },
+    {
+      "code": "3",
+      "text": "Souvent"
+    },
+    {
+      "code": "4",
+      "text": "Toujours"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "staiFormYB006 == \"1\"",
+      "tagOID": "staiFormYB",
+      "value": 4
+    },
+    {
+      "conditions": "staiFormYB006 == \"2\"",
+      "tagOID": "staiFormYB",
+      "value": 3
+    },
+    {
+      "conditions": "staiFormYB006 == \"3\"",
+      "tagOID": "staiFormYB",
+      "value": 2
+    },
+    {
+      "conditions": "staiFormYB006 == \"4\"",
+      "tagOID": "staiFormYB",
+      "value": 1
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "oid": "aldosteroneA002",
+  "title": "J'ai besoin d'uriner immédiatement après avoir bu",
+  "text": "J'ai besoin d'uriner immédiatement après avoir bu",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "De temps en temps"
+    },
+    {
+      "code": "2",
+      "text": "Régulièrement"
+    },
+    {
+      "code": "3",
+      "text": "En permanence"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "aldosteroneA002 == \"0\"",
+      "tagOID": "tag_aldosterone_A",
+      "value": 0
+    },
+    {
+      "conditions": "aldosteroneA002 == \"1\"",
+      "tagOID": "tag_aldosterone_A",
+      "value": 1
+    },
+    {
+      "conditions": "aldosteroneA002 == \"2\"",
+      "tagOID": "tag_aldosterone_A",
+      "value": 2
+    },
+    {
+      "conditions": "aldosteroneA002 == \"3\"",
+      "tagOID": "tag_aldosterone_A",
+      "value": 3
+    }
+  ]
+}

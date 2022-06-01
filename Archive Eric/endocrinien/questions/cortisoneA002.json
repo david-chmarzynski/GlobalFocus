@@ -1,0 +1,46 @@
+{
+  "oid": "cortisoneA002",
+  "title": "J'ai une tension basse et/ou j'ai des malaises aux changements rapides de position",
+  "text": "J'ai une tension basse et/ou j'ai des malaises aux changements rapides de position",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "De temps en temps"
+    },
+    {
+      "code": "2",
+      "text": "Régulièrement"
+    },
+    {
+      "code": "3",
+      "text": "En permanence"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "cortisoneA002 == \"0\"",
+      "tagOID": "tag_cortisone_A",
+      "value": 0
+    },
+    {
+      "conditions": "cortisoneA002 == \"1\"",
+      "tagOID": "tag_cortisone_A",
+      "value": 1
+    },
+    {
+      "conditions": "cortisoneA002 == \"2\"",
+      "tagOID": "tag_cortisone_A",
+      "value": 2
+    },
+    {
+      "conditions": "cortisoneA002 == \"3\"",
+      "tagOID": "tag_cortisone_A",
+      "value": 3
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "oid": "CAST004",
+  "title": "Des amis ou des membres de votre famille vous ont-ils déjà dit que vous devriez réduire votre consommation de cannabis ?",
+  "text": "Des amis ou des membres de votre famille vous ont-ils déjà dit que vous devriez réduire votre consommation de cannabis ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "CAST004 == 0",
+      "tagOID": "CAST",
+      "value": 0
+    },
+    {
+      "conditions": "CAST004 == 1",
+      "tagOID": "CAST",
+      "value": 1
+    }
+  ]
+}

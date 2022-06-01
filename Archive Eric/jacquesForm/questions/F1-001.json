@@ -1,0 +1,46 @@
+{
+    "oid": "F1001",
+    "title": "famille",
+    "text": "Comment évaluez-vous de manière globale votre vie familiale (vie de couple, cadre de vie, charge de travail liée au ménage, aux repas et à l’éducation des enfants, aspects financiers, préoccupation de santé, qualité des relations familiales et amicales, activités sportives ou de loisirs…) ?",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "1",
+          "text": "Satisfaisant"
+        },
+        {
+          "code": "2",
+          "text": "Assez satisfaisant"
+        },
+        {
+          "code": "3",
+          "text": "Insatisfaisant"
+        },
+        {
+          "code": "4",
+          "text": "Très insatisfaisant"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "F1001 == '1'",
+          "tagOID": "F1",
+          "value": 1
+        },
+        {
+          "conditions": "F1001 == '2'",
+          "tagOID": "F1",
+          "value": 2
+        },
+        {
+          "conditions": "F1001 == '3'",
+          "tagOID": "F1",
+          "value": 3
+        },
+        {
+          "conditions": "F1001 == '4'",
+          "tagOID": "F1",
+          "value": 4
+        }
+    ]
+}

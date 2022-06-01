@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI048",
+  "title": "Je n'ai pas de patience avec les gens qui n'acceptent pas mes points de vue",
+  "text": "Je n'ai pas de patience avec les gens qui n'acceptent pas mes points de vue",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

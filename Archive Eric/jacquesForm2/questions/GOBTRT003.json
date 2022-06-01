@@ -1,0 +1,28 @@
+{
+  "oid": "GOBTRT003",
+  "title": "Depuis la dernière cconsultation avez-vous été en panne de médicament ?",
+  "text": "Depuis la dernière cconsultation avez-vous été en panne de médicament ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "tagOID": "observance traitement",
+      "conditions": "GOBTRT003 == 0",
+      "value": 1
+    },
+    {
+      "tagOID": "observance traitement",
+      "conditions": "GOBTRT003 >= 1",
+      "value": 0
+    }
+  ]
+}

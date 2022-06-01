@@ -1,0 +1,33 @@
+{
+  "oid": "Q001",
+  "title": "age",
+  "text": "Quel age avez-vous ?",
+  "type": "DECIMAL",
+  "scale": {
+    "min": 0.0,
+    "max": 200.0,
+    "step": 1.0
+  },
+  "scores": [
+    {
+      "conditions": "Q001 < 45",
+      "tagOID": "findrisk_age",
+      "value": 0
+    },
+    {
+      "conditions": "Q001 >= 45 && Q001 <= 54",
+      "tagOID": "findrisk_age",
+      "value": 2
+    },
+    {
+      "conditions": "Q001 >= 55 && Q001 <= 64",
+      "tagOID": "findrisk_age",
+      "value": 3
+    },
+    {
+      "conditions": "Q001 > 64",
+      "tagOID": "findrisk_age",
+      "value": 4
+    }
+  ]
+}

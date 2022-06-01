@@ -1,0 +1,28 @@
+{
+  "oid": "FIRST006",
+  "title": "Mes douleurs ont un retentissements important dans ma vie : en particulier, sur mon sommeil, ma capacité à me concentrer avec une impression de fonctionner au ralenti",
+  "text": "Mes douleurs ont un retentissements important dans ma vie : en particulier, sur mon sommeil, ma capacité à me concentrer avec une impression de fonctionner au ralenti",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FIRST006 == 0",
+      "tagOID": "FIRST",
+      "value": 1
+    },
+    {
+      "conditions": "FIRST006 == 1",
+      "tagOID": "FIRST",
+      "value": 0
+    }
+  ]
+}

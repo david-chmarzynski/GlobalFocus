@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI135",
+  "title": "Je me sens très confiant(e) et sur(e) de moi dans presque toutes les situations sociales",
+  "text": "Je me sens très confiant(e) et sur(e) de moi dans presque toutes les situations sociales",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

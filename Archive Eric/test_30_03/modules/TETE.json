@@ -1,0 +1,114 @@
+{
+  "oid": "mod_test_30_03",
+  "title": "TETE",
+  "questions": [
+    {
+      "question": "q_VTeteCouleur",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VTeteTensionEmotionnelle",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VTeteAnxieteTrait",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VTetePerfectionnisme",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VTeteStressGlobal",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VTeteMotivationStade",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VTeteMotivationEnvie",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VTeteMotivationConfiance",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VTeteMotivationPret",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VTeteVisionSoiGlobale",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VTeteImageCorporelle",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VTeteADSGlobale",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VTeteConfianceSoi",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VTeteEstimeSoi",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_TestQuestionPourHomme",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "patient_gender  == 'FEMALE'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"patient_gender":""}
+      }
+    },
+    {
+      "question": "q_TestQuestionPourFemme",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "patient_gender  == 'MALE'",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"patient_gender":""}
+      }
+    }
+
+  ],
+  "calculations":[
+    {
+      "oid": "calcul_age",
+      "type": "NORMAL",
+      "isGlobal": true,
+      "calculation": "java.time.Period.between(patient_dateofbirth, java.time.LocalDate.now()).getYears()",
+      "title": "âge",
+      "text":"âge",
+      "scores": [
+        {
+           "tagOID": "tag_TestAge",
+           "conditions": "calcul_age > 0",
+           "value": 1
+         }
+       ]
+    }
+  ]
+}

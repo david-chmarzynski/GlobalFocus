@@ -1,0 +1,46 @@
+{
+  "oid": "JpForm013",
+  "title": "Souffrez-vous encore actuellement de cet antécédent de traumatisme autour de la sexualité ?",
+  "text": "Souffrez-vous encore actuellement de cet antécédent de traumatisme autour de la sexualité ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Symptome absent"
+    },
+    {
+      "code": "1",
+      "text": "Symptome peu genant (gravité légère)"
+    },
+    {
+      "code": "2",
+      "text": "Symptome assez genant (gravité moyenne)"
+    },
+    {
+      "code": "3",
+      "text": "Symptome genant (grave)"
+    }
+  ],
+  "scores": [
+    {
+      "tagOID": "souffrance/ATCD trauma sexuel",
+      "conditions": "JpForm013 == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "souffrance/ATCD trauma sexuel",
+      "conditions": "JpForm013 == '1'",
+      "value": 1
+    },
+    {
+      "tagOID": "souffrance/ATCD trauma sexuel",
+      "conditions": "JpForm013 == '2'",
+      "value": 2
+    },
+    {
+      "tagOID": "souffrance/ATCD trauma sexuel",
+      "conditions": "JpForm013 == '3'",
+      "value": 3
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "oid": "chap_autresDrogues",
+  "title": "chapitre autresDrogues",
+  "modules": ["mod_autresDrogues"]
+}

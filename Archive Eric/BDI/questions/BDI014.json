@@ -1,0 +1,46 @@
+{
+  "oid": "BDI014",
+  "title": "Que pensez-vous de votre apparence ?",
+  "text": "Que pensez-vous de votre apparence ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Je n'ai pas l'impression que mon apparence soit pire qu'auparavant"
+    },
+    {
+      "code": "1",
+      "text": "J'ai peur de paraître plus agé(e) ou moins peu attrayant(e)"
+    },
+    {
+      "code": "2",
+      "text": "J'ai l'impression que mon apparence a subi des changements irréversibles qui me rendent peu attrayant(e)"
+    },
+    {
+      "code": "3",
+      "text": "J'ai l'impression d'être laid(e)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "BDI014 == \"0\"",
+      "tagOID": "tag_BDI",
+      "value": 0
+    },
+    {
+      "conditions": "BDI014 == \"1\"",
+      "tagOID": "tag_BDI",
+      "value": 1
+    },
+    {
+      "conditions": "BDI014 == \"2\"",
+      "tagOID": "tag_BDI",
+      "value": 2
+    },
+    {
+      "conditions": "BDI014 == \"3\"",
+      "tagOID": "tag_BDI",
+      "value": 3
+    }
+  ]
+}

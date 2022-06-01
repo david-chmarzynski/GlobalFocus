@@ -1,0 +1,44 @@
+{
+  "oid": "EQVOD015",
+  "title": "Je manque de volonté. ",
+  "text": "Je manque de volonté. ",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 1.0,
+    "max": 5.0,
+    "step": 1.0,
+    "maxText": "jamais/pas du tout",
+    "maxValue": "5",
+    "midText": "parfois/modérément",
+    "midValue": "3",
+    "minText": "toujours/énormément",
+    "minValue": "1"
+  },
+  "scores": [
+    {
+      "conditions": "EQVOD015 == 1",
+      "tagOID": "EQVOD",
+      "value": 1.8
+    },
+    {
+      "conditions": "EQVOD015 == 2",
+      "tagOID": "EQVOD",
+      "value": 3.6
+    },
+    {
+      "conditions": "EQVOD015 == 3",
+      "tagOID": "EQVOD",
+      "value": 5.4
+    },
+    {
+      "conditions": "EQVOD015 == 4",
+      "tagOID": "EQVOD",
+      "value": 7.2
+    },
+    {
+      "conditions": "EQVOD015 == 5",
+      "tagOID": "EQVOD",
+      "value": 9.0
+    }
+  ]
+}

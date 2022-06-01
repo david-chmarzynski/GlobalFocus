@@ -1,0 +1,46 @@
+{
+  "oid": "insuline003",
+  "title": "J'ai une sensation permanente",
+  "text": "J'ai une sensation permanente",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "De temps en temps"
+    },
+    {
+      "code": "2",
+      "text": "Régulièrement"
+    },
+    {
+      "code": "3",
+      "text": "En permanence"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "insuline003 == \"0\"",
+      "tagOID": "tag_insuline",
+      "value": 0
+    },
+    {
+      "conditions": "insuline003 == \"1\"",
+      "tagOID": "tag_insuline",
+      "value": 1
+    },
+    {
+      "conditions": "insuline003 == \"2\"",
+      "tagOID": "tag_insuline",
+      "value": 2
+    },
+    {
+      "conditions": "insuline003 == \"3\"",
+      "tagOID": "tag_insuline",
+      "value": 3
+    }
+  ]
+}

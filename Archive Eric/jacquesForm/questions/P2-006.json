@@ -1,0 +1,28 @@
+{
+    "oid": "P2006",
+    "title": "Alexi thymie",
+    "text": "Je suis plutôt pantouflard(e)",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "0",
+          "text": "Non"
+        },
+        {
+          "code": "1",
+          "text": "Oui"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "P2006 == '0'",
+          "tagOID": "P2AL",
+          "value": 0
+        },
+        {
+          "conditions": "P2006 == '1'",
+          "tagOID": "P2AL",
+          "value": 1
+        }
+    ]
+}

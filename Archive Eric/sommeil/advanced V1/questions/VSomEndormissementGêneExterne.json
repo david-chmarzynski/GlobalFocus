@@ -1,0 +1,50 @@
+{
+  "oid": "VSomEndormissementGêneExterne",
+  "title": "Votre endormissement est-il gene par des facteurs extèrieurs (bruits, chaleur, lumière, entourage...) ?",
+  "text": "Votre endormissement est-il gene par des facteurs extèrieurs (bruits, chaleur, lumière, entourage...) ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais (ou presque)"
+    },
+    {
+      "code": "1",
+      "text": "1 à 3 fois/mois"
+    },
+    {
+      "code": "2",
+      "text": "1 à 2 fois/semaine"
+    },
+    {
+      "code": "3",
+      "text": "3 à 5 fois par semaine"
+    },
+    {
+      "code": "4",
+      "text": "Tous les soirs (ou presque)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomEndormissementGêneExterne == 0",
+      "tagOID": "Gêne_externe",
+      "value": 0
+    },
+    {
+      "conditions": "VSomEndormissementGêneExterne == 1",
+      "tagOID": "Gêne_externe",
+      "value": 1
+    },
+    {
+      "conditions": "VSomEndormissementGêneExterne == 2",
+      "tagOID": "Gêne_externe",
+      "value": 2
+    },
+    {
+      "conditions": "VSomEndormissementGêneExterne == 3 || VSomEndormissementGêneExterne == 4",
+      "tagOID": "Gêne_externe",
+      "value": 3
+    }
+  ]
+}

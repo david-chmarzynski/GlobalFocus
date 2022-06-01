@@ -1,0 +1,28 @@
+{
+  "oid": "VSomAideAccompagnement",
+  "title": "Ressentez-vous le besoin d'etre aidé pour vos difficultés d'endormissement ?",
+  "text": "Ressentez-vous le besoin d'etre aidé pour vos difficultés d'endormissement ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomAideAccompagnement == 0",
+      "tagOID": "Accompagnement",
+      "value": 0
+    },
+    {
+      "conditions": "VSomAideAccompagnement == 1",
+      "tagOID": "Accompagnement",
+      "value": 1
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI202",
+  "title": "J'ai du mal à mentir meme pour préserver les sentiments de quelqu'un d'autre",
+  "text": "J'ai du mal à mentir meme pour préserver les sentiments de quelqu'un d'autre",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

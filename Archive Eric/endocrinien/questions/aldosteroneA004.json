@@ -1,0 +1,46 @@
+{
+  "oid": "aldosteroneA004",
+  "title": "Je souffre d'hypotension aux changements de position",
+  "text": "Je souffre d'hypotension aux changements de position",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "De temps en temps"
+    },
+    {
+      "code": "2",
+      "text": "Régulièrement"
+    },
+    {
+      "code": "3",
+      "text": "En permanence"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "aldosteroneA004 == \"0\"",
+      "tagOID": "tag_aldosterone_A",
+      "value": 0
+    },
+    {
+      "conditions": "aldosteroneA004 == \"1\"",
+      "tagOID": "tag_aldosterone_A",
+      "value": 1
+    },
+    {
+      "conditions": "aldosteroneA004 == \"2\"",
+      "tagOID": "tag_aldosterone_A",
+      "value": 2
+    },
+    {
+      "conditions": "aldosteroneA004 == \"3\"",
+      "tagOID": "tag_aldosterone_A",
+      "value": 3
+    }
+  ]
+}

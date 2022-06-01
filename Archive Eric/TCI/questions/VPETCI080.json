@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI080",
+  "title": "D'habitude, j'éxamine tous les détails d'un probleme avant de prendre une décision",
+  "text": "D'habitude, j'éxamine tous les détails d'un probleme avant de prendre une décision",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

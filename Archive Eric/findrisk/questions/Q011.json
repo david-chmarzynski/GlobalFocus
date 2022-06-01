@@ -1,0 +1,28 @@
+{
+  "oid": "Q011",
+  "title": "tour de tailles",
+  "text": "Quel est votre tour de taille ?",
+  "type": "DECIMAL",
+  "scale": {
+    "min": 0.0,
+    "max": 200.0,
+    "step": 1.0
+  },
+  "scores": [
+    {
+      "conditions": "Q011 < 80",
+      "tagOID": "findrisk_tour_taille",
+      "value": 0
+    },
+    {
+      "conditions": "Q011 >= 80 && Q011 <= 88",
+      "tagOID": "findrisk_tour_taille",
+      "value": 3
+    },
+    {
+      "conditions": "Q011 > 88",
+      "tagOID": "findrisk_tour_taille",
+      "value": 4
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "oid": "autresDrogues002",
+  "title": "Quelle est votre fréquence de consommation de cocaine ?",
+  "text": "Quelle est votre fréquence de consommation de cocaine ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "J'ai complétement arreté"
+    },
+    {
+      "code": "1",
+      "text": "Je continue très occasionnellement (1 à 3 fois/an)"
+    },
+    {
+      "code": "2",
+      "text": "Je continue rarement (1 à 3 fois/mois)"
+    },
+    {
+      "code": "3",
+      "text": "Je continue assez souvent (1 à 3 fois/semaine)"
+    },
+    {
+      "code": "4",
+      "text": "Je consomme tous les jours"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "autresDrogues002 == \"0\"",
+      "tagOID": "tagAutresDrogues1",
+      "value": 1
+    },
+    {
+      "conditions": "autresDrogues002 == \"1\"",
+      "tagOID": "tagAutresDrogues1",
+      "value": 2
+    },
+    {
+      "conditions": "autresDrogues002 == \"2\"",
+      "tagOID": "tagAutresDrogues1",
+      "value": 3
+    },
+    {
+      "conditions": "autresDrogues002 == \"3\"",
+      "tagOID": "tagAutresDrogues1",
+      "value": 4
+    },
+    {
+      "conditions": "autresDrogues002 == \"4\"",
+      "tagOID": "tagAutresDrogues1",
+      "value": 5
+    }
+  ]
+}

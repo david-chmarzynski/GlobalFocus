@@ -1,0 +1,25 @@
+{
+  "oid": "mod_regress_f",
+  "title": "module régression florent",
+  "questions": [
+    { "question": "Q001_regress_f", "level":1},
+    {
+      "question": "Q002_regress_f",
+      "level": 1,
+      "trigger": {
+        "conditions": "Q001_regress_f >= '3'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "Q001_regress_f": "0" }
+      }
+    },
+    {
+      "question": "Q003_regress_f",
+      "level": 1,
+      "trigger": {
+        "conditions": "Q002_regress_f == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "Q002_regress_f": "-1" }
+      }
+    }
+  ]
+}

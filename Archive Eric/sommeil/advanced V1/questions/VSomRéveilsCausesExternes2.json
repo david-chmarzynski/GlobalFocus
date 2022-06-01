@@ -1,0 +1,43 @@
+{
+  "oid": "VSomRéveilsCausesExternes2",
+  "title": "Vos réveils nocturnes et difficultés à vous rendormir sont-ils causés par des facteurs externes (plusieurs réponses possibles) ?",
+  "text": "Vos réveils nocturnes et difficultés à vous rendormir sont-ils causés par des facteurs externes (plusieurs réponses possibles) ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Bruits autour de vous"
+    },
+    {
+      "code": "1",
+      "text": "Chaleur dans la chambre"
+    },
+    {
+      "code": "2",
+      "text": "Literie"
+    },
+    {
+      "code": "3",
+      "text": "Lumière ou obscurité"
+    },
+    {
+      "code": "4",
+      "text": "Gêne occasionnée par le partenaire de nuit (ronflements, mouvements brusques, difficulté à s’endormir, rythme de sommeil différent)"
+    },
+    {
+      "code": "5",
+      "text": "Enfant en bas-âge ou entourage nécessitant une surveillance"
+    },
+    {
+      "code": "6",
+      "text": "Autre"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomRéveilsCausesExternes2 != -1",
+      "tagOID": "Gêne_externe2",
+      "value": -1
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "oid": "G001",
+  "title": "Global",
+  "text": "Actuellement, quelle est votre situation familiale au sens de l’état civil ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Célibataire (jamais marié(e) ni pacsé(e))"
+    },
+    {
+      "code": "2",
+      "text": "Pacsé(e)"
+    },
+    {
+      "code": "3",
+      "text": "Marié(e)"
+    },
+    {
+      "code": "4",
+      "text": "Séparé(e)"
+    },
+    {
+      "code": "5",
+      "text": "Divorcé(e)"
+    },
+    {
+      "code": "6",
+      "text": "Veuf(ve)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "G001 == '1'",
+      "tagOID": "tGlobal",
+      "value": 1
+    },
+    {
+      "conditions": "G001 == '2'",
+      "tagOID": "tGlobal",
+      "value": 2
+    },
+    {
+      "conditions": "G001 == '3'",
+      "tagOID": "tGlobal",
+      "value": 3
+    },
+    {
+      "conditions": "G001 == '4'",
+      "tagOID": "tGlobal",
+      "value": 4
+    },
+    {
+      "conditions": "G001 == '5'",
+      "tagOID": "tGlobal",
+      "value": 5
+    },
+    {
+      "conditions": "G001 == '6'",
+      "tagOID": "tGlobal",
+      "value": 6
+    }
+  ]
+}

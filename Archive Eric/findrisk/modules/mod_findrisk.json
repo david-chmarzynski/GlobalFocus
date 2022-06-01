@@ -1,0 +1,60 @@
+{
+  "oid": "mod_findrisk",
+  "title": "mod_findrisk",
+  "questions": [
+    { "question": "Q001", "level": 1 },
+    { "question": "Q002", "level": 1 },
+    { "question": "Q003", "level": 1 },
+    { "question": "Q004", "level": 1 },
+    {
+      "question": "Q011",
+      "level": 1,
+      "trigger": {
+        "conditions": "Q004 == 'FEMALE'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "Q004": "MALE" }
+      }
+    },
+    {
+      "question": "Q005",
+      "level": 1,
+      "trigger": {
+        "conditions": "Q004 == 'MALE'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "Q004": "FEMALE" }
+      }
+    },
+    { "question": "Q006", "level": 1 },
+    { "question": "Q007", "level": 1 },
+    { "question": "Q008", "level": 1 },
+    { "question": "Q009", "level": 1 },
+    { "question": "Q010", "level": 1 }
+  ],
+  "calculations": [
+    {
+      "oid": "imc",
+      "title": "imc",
+      "text": "imc",
+      "type": "NORMAL",
+      "calculation": "Q002 / (Q003 / 100) ** 2",
+      "isGlobal": true,
+      "scores": [
+        {
+          "conditions": "imc<25",
+          "tagOID": "findrisk_imc",
+          "value": 0
+        },
+        {
+          "conditions": "imc>=25 && imc<30",
+          "tagOID": "findrisk_imc",
+          "value": 1
+        },
+        {
+          "conditions": "imc>30",
+          "tagOID": "findrisk_imc",
+          "value": 3
+        }
+      ]
+    }
+  ]
+}

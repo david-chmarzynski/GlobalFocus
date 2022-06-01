@@ -1,0 +1,94 @@
+{
+  "oid": "mod_MVSom2C",
+  "title": "MVSom2C",
+  "questions": [
+    { "question": "MVSomN1Q1", "level": 1 },
+    { "question": "MVSom2BN2Q1", "level": 1 },
+    { "question": "MVSom2BN2Q2", "level": 2 },
+    { "question": "MVSom2BN2Q3", "level": 1 },
+    { "question": "MVSom2BN2Q4", "level": 1 },
+    { "question": "MVSom2BN2Q5", "level": 1 },
+    { "question": "MVSom2BN2Q6", "level": 1 },
+    { "question": "MVSom2BN2Q7", "level": 1 },
+    { "question": "MVSom2BN2Q8", "level": 1 },
+    { "question": "MVSom2BN2Q9", "level": 1 },
+    { "question": "MVSom2BN2Q10", "level": 1 },
+    { "question": "SJSR001", "level": 1 },
+    { "question": "SJSR002", "level": 1 },
+    { "question": "SJSR003", "level": 1 },
+    { "question": "SJSR004", "level": 1 },
+    { "question": "SJSR005", "level": 1 },
+    { "question": "SJSR006", "level": 1 },
+    { "question": "SAOS001", "level": 1 },
+    {
+      "question": "SAOS002",
+      "level": 1,
+      "trigger": {
+        "conditions": "SAOS001 == '1' || SAOS001 == '2'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "SAOS001": "0" }
+      }
+    },
+    {
+      "question": "SAOS003",
+      "level": 1,
+      "trigger": {
+        "conditions": "SAOS001 == '1' || SAOS001 == '2'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "SAOS001": "0" }
+      }
+    },
+    {
+      "question": "SAOS004",
+      "level": 1,
+      "trigger": {
+        "conditions": "SAOS001 == '1' || SAOS001 == '2'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "SAOS001": "0" }
+      }
+    },
+    { "question": "SAOS005", "level": 1 },
+    { "question": "SAOS006", "level": 1 },
+    { "question": "SAOS007", "level": 1 },
+    { "question": "SAOS008", "level": 1 },
+    {
+      "question": "SAOS009",
+      "level": 1,
+      "trigger": {
+        "conditions": "SAOS008 == '1'",
+        "scope": "MODULE_SCOPE",
+        "defaultValuesMap": { "SAOS008": "0" }
+      }
+    },
+    { "question": "SAOS010", "level": 1 },
+    { "question": "SAOS011", "level": 1 },
+    { "question": "SAOS012", "level": 1 }
+  ],
+  "calculations": [
+    {
+      "oid": "saosImc",
+      "type": "NORMAL",
+      "title": "saos_imc",
+      "text": "saos_imc",
+      "calculation": "SAOS011 / (SAOS012 / 100) ** 2",
+      "isGlobal": true,
+      "scores": [
+        {
+          "conditions": "saosImc < 25",
+          "tagOID": "tag_HTA_IMC",
+          "value": 0
+        },
+        {
+          "conditions": "saosImc >= 25 && saosImc < 30",
+          "tagOID": "tag_HTA_IMC",
+          "value": 1
+        },
+        {
+          "conditions": "saosImc >= 30",
+          "tagOID": "tag_HTA_IMC",
+          "value": 2
+        }
+      ]
+    }
+  ]
+}

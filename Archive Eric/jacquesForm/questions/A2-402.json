@@ -1,0 +1,28 @@
+{
+    "oid": "A2402",
+    "title": "TCA",
+    "text": "Vous inquiétez-vous d’avoir perdu le contrôle de ce que vous mangez ?",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "0",
+          "text": "Non"
+        },
+        {
+          "code": "1",
+          "text": "Oui"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "A2402 == '0'",
+          "tagOID": "A2-4",
+          "value": 0
+        },
+        {
+          "conditions": "A2402 == '1'",
+          "tagOID": "A2-4",
+          "value": 1
+        }
+    ]
+}

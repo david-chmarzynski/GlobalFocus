@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI002",
+  "title": "J'ai habituellement confiance dans le fait que tout ira bien, meme dans des situations qui inquiètent la plupart des gens",
+  "text": "J'ai habituellement confiance dans le fait que tout ira bien, meme dans des situations qui inquiètent la plupart des gens",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

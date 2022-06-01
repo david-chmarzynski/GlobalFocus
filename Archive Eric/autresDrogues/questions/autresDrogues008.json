@@ -1,0 +1,55 @@
+{
+  "oid": "autresDrogues008",
+  "title": "Quelle est votre fréquence de consommation de poppers ?",
+  "text": "Quelle est votre fréquence de consommation de poppers ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "J'ai complétement arreté"
+    },
+    {
+      "code": "1",
+      "text": "Je continue très occasionnellement (1 à 3 fois/an)"
+    },
+    {
+      "code": "2",
+      "text": "Je continue rarement (1 à 3 fois/mois)"
+    },
+    {
+      "code": "3",
+      "text": "Je continue assez souvent (1 à 3 fois/semaine)"
+    },
+    {
+      "code": "4",
+      "text": "Je consomme tous les jours"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "autresDrogues008 == \"0\"",
+      "tagOID": "tagAutresDrogues7",
+      "value": 1
+    },
+    {
+      "conditions": "autresDrogues008 == \"1\"",
+      "tagOID": "tagAutresDrogues7",
+      "value": 2
+    },
+    {
+      "conditions": "autresDrogues008 == \"2\"",
+      "tagOID": "tagAutresDrogues7",
+      "value": 3
+    },
+    {
+      "conditions": "autresDrogues008 == \"3\"",
+      "tagOID": "tagAutresDrogues7",
+      "value": 4
+    },
+    {
+      "conditions": "autresDrogues008 == \"4\"",
+      "tagOID": "tagAutresDrogues7",
+      "value": 5
+    }
+  ]
+}

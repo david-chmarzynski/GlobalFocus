@@ -1,0 +1,46 @@
+{
+  "oid": "cortisoneA010",
+  "title": "Nausées y compris celles du premier triismestre de la grossesse",
+  "text": "Nausées y compris celles du premier triismestre de la grossesse",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "De temps en temps"
+    },
+    {
+      "code": "2",
+      "text": "Régulièrement"
+    },
+    {
+      "code": "3",
+      "text": "En permanence"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "cortisoneA010 == \"0\"",
+      "tagOID": "tag_cortisone_A",
+      "value": 0
+    },
+    {
+      "conditions": "cortisoneA010 == \"1\"",
+      "tagOID": "tag_cortisone_A",
+      "value": 1
+    },
+    {
+      "conditions": "cortisoneA010 == \"2\"",
+      "tagOID": "tag_cortisone_A",
+      "value": 2
+    },
+    {
+      "conditions": "cortisoneA010 == \"3\"",
+      "tagOID": "tag_cortisone_A",
+      "value": 3
+    }
+  ]
+}

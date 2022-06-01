@@ -1,0 +1,50 @@
+{
+  "oid": "VSomRéveilsFinNuit",
+  "title": "Sur ces 3 derniers mois, vous vous arrive-t-il de vous réveiller trop tot le matin sans pouvoir vous rendormir ensuite ?",
+  "text": "Sur ces 3 derniers mois, vous vous arrive-t-il de vous réveiller trop tot le matin sans pouvoir vous rendormir ensuite ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais (ou presque)"
+    },
+    {
+      "code": "1",
+      "text": "1 à 3 fois/mois"
+    },
+    {
+      "code": "2",
+      "text": "1 à 2 fois/semaine"
+    },
+    {
+      "code": "3",
+      "text": "3 à 5 fois par semaine"
+    },
+    {
+      "code": "4",
+      "text": "Tous les soirs (ou presque)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "VSomRéveilsFinNuit == 0",
+      "tagOID": "Réveils_fin_nuit",
+      "value": 0
+    },
+    {
+      "conditions": "VSomRéveilsFinNuit == 1",
+      "tagOID": "Réveils_fin_nuit",
+      "value": 1
+    },
+    {
+      "conditions": "VSomRéveilsFinNuit == 2",
+      "tagOID": "Réveils_fin_nuit",
+      "value": 2
+    },
+    {
+      "conditions": "VSomRéveilsFinNuit == 3 || VSomRéveilsFinNuit == 4",
+      "tagOID": "Réveils_fin_nuit",
+      "value": 3
+    }
+  ]
+}

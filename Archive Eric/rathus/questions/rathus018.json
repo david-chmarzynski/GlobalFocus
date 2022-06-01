@@ -1,0 +1,64 @@
+{
+  "oid": "rathus018",
+  "title": "Si un conférencier réputé et respecté dit quelque chose que je pense inexact, j'aimerais que le public entende aussi mon point de vue",
+  "text": "Si un conférencier réputé et respecté dit quelque chose que je pense inexact, j'aimerais que le public entende aussi mon point de vue",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Tout à fait vrai"
+    },
+    {
+      "code": "2",
+      "text": "Vrai"
+    },
+    {
+      "code": "3",
+      "text": "Plutot vrai"
+    },
+    {
+      "code": "4",
+      "text": "Plutot faux"
+    },
+    {
+      "code": "5",
+      "text": "Faux"
+    },
+    {
+      "code": "6",
+      "text": "Tout à fait faux"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "rathus018 == \"1\"",
+      "tagOID": "rathus",
+      "value": 1
+    },
+    {
+      "conditions": "rathus018 == \"2\"",
+      "tagOID": "rathus",
+      "value": 2
+    },
+    {
+      "conditions": "rathus018 == \"3\"",
+      "tagOID": "rathus",
+      "value": 3
+    },
+    {
+      "conditions": "rathus018 == \"4\"",
+      "tagOID": "rathus",
+      "value": 4
+    },
+    {
+      "conditions": "rathus018 == \"5\"",
+      "tagOID": "rathus",
+      "value": 5
+    },
+    {
+      "conditions": "rathus018 == \"6\"",
+      "tagOID": "rathus",
+      "value": 6
+    }
+  ]
+}

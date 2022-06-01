@@ -1,0 +1,11 @@
+{
+  "oid": "B3GPD003",
+  "title": "Lors d’une journée habituelle, combien de temps consacrez- vous à vos déplacements à pied, à vélo, roller ou trottinette (en heure) ?",
+  "text": "Lors d’une journée habituelle, combien de temps consacrez- vous à vos déplacements à pied, à vélo, roller ou trottinette (en heure) ?",
+  "type": "DECIMAL",
+  "scale": {
+    "min": 0.0,
+    "max": 24.0,
+    "step": 1.0
+  }
+}

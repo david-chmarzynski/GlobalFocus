@@ -1,0 +1,28 @@
+{
+  "oid": "fagerstrom006",
+  "title": "Fumez-vous lorsque vous etes malde au point de devoir rester au lit presque toute la journée ?",
+  "text": "Fumez-vous lorsque vous etes malde au point de devoir rester au lit presque toute la journée ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "fagerstrom006 == 0",
+      "tagOID": "fagerstrom",
+      "value": 1
+    },
+    {
+      "conditions": "fagerstrom006 == 1",
+      "tagOID": "fagerstrom",
+      "value": 0
+    }
+  ]
+}

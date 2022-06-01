@@ -1,0 +1,28 @@
+{
+    "oid": "P2102",
+    "title": "oralité",
+    "text": "Je suis naturellement curieux(se) de tout",
+    "type": "SINGLE_CHOICE",
+    "choices": [
+        {
+          "code": "0",
+          "text": "Non"
+        },
+        {
+          "code": "1",
+          "text": "Oui"
+        }
+    ],
+    "scores": [
+        {
+          "conditions": "P2102 == '0'",
+          "tagOID": "P2OR",
+          "value": 0
+        },
+        {
+          "conditions": "P2102 == '1'",
+          "tagOID": "P2OR",
+          "value": 1
+        }
+    ]
+}

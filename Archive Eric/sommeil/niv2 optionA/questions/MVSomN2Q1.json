@@ -1,0 +1,46 @@
+{
+  "oid": "MVSomN2Q1",
+  "title": "Sur ces 3 derniers mois, avez-vous eu besoin d'un médicament sur ordinnance (somnifère, anxiolytique...) pour vous endormir ?",
+  "text": "Sur ces 3 derniers mois, avez-vous eu besoin d'un médicament sur ordinnance (somnifère, anxiolytique...) pour vous endormir ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais (ou presque)"
+    },
+    {
+      "code": "1",
+      "text": "Rarement (1 à 3 fois mois maximum)"
+    },
+    {
+      "code": "2",
+      "text": "Assez souvent (1 à 2 fois par semaine)"
+    },
+    {
+      "code": "3",
+      "text": "Souvent (3 fois/semaine et plus)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSomN2Q1 == 0",
+      "tagOID": "MVSomN2-1",
+      "value": 0
+    },
+    {
+      "conditions": "MVSomN2Q1 == 1",
+      "tagOID": "MVSomN2-1",
+      "value": 1
+    },
+    {
+      "conditions": "MVSomN2Q1 == 2",
+      "tagOID": "MVSomN2-1",
+      "value": 2
+    },
+    {
+      "conditions": "MVSomN2Q1 == 3",
+      "tagOID": "MVSomN2-1",
+      "value": 3
+    }
+  ]
+}

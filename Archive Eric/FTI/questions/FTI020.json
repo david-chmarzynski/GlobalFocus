@@ -1,0 +1,28 @@
+{
+  "oid": "FTI020",
+  "title": "Prendre soin de mes biens est une priorité pour moi.",
+  "text": "Prendre soin de mes biens est une priorité pour moi.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI020 == 0",
+      "tagOID": "conformité",
+      "value": 1
+    },
+    {
+      "conditions": "FTI020 == 1",
+      "tagOID": "conformité",
+      "value": 0
+    }
+  ]
+}

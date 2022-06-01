@@ -1,0 +1,28 @@
+{
+  "oid": "FTI045",
+  "title": "Peu importe ce qui est logique, j'écoute généralement mon cœur quand je prends des décisions importantes",
+  "text": "Peu importe ce qui est logique, j'écoute généralement mon cœur quand je prends des décisions importantes",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI045 == 0",
+      "tagOID": "prosocial",
+      "value": 1
+    },
+    {
+      "conditions": "FTI045 == 1",
+      "tagOID": "prosocial",
+      "value": 0
+    }
+  ]
+}

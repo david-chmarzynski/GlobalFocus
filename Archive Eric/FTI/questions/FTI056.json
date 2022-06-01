@@ -1,0 +1,28 @@
+{
+  "oid": "FTI056",
+  "title": "En lisant, j'aime Je suis très empathique. l'écrivain fait un détour pour dire quelque chose de beau ou de ",
+  "text": "En lisant, j'aime Je suis très empathique. l'écrivain fait un détour pour dire quelque chose de beau ou de ",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI056 == 0",
+      "tagOID": "prosocial",
+      "value": 1
+    },
+    {
+      "conditions": "FTI056 == 1",
+      "tagOID": "prosocial",
+      "value": 0
+    }
+  ]
+}

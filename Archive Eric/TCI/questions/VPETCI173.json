@@ -1,0 +1,16 @@
+{
+  "oid": "VPETCI173",
+  "title": "Je me rétablis plus rapidement que la plupart des gens de légers problèmes de santé ou de situations stressantes",
+  "text": "Je me rétablis plus rapidement que la plupart des gens de légers problèmes de santé ou de situations stressantes",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vrai"
+    },
+    {
+      "code": "1",
+      "text": "Faux"
+    }
+  ]
+}

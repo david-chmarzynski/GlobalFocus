@@ -1,0 +1,28 @@
+{
+  "oid": "FTI041",
+  "title": "Je pense qu'il est important d'être direct.",
+  "text": "Je pense qu'il est important d'être direct.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI041 == 0",
+      "tagOID": "analytique",
+      "value": 1
+    },
+    {
+      "conditions": "FTI041 == 1",
+      "tagOID": "analytique",
+      "value": 0
+    }
+  ]
+}

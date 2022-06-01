@@ -1,0 +1,28 @@
+{
+  "oid": "FTI015",
+  "title": "Je pense que les routines cohérentes gardent la vie ordonnée et relaxante.",
+  "text": "Je pense que les routines cohérentes gardent la vie ordonnée et relaxante.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI015 == 0",
+      "tagOID": "conformité",
+      "value": 1
+    },
+    {
+      "conditions": "FTI015 == 1",
+      "tagOID": "conformité",
+      "value": 0
+    }
+  ]
+}

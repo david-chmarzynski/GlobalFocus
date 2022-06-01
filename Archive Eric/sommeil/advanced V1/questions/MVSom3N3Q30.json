@@ -1,0 +1,46 @@
+{
+  "oid": "MVSom3N3Q30",
+  "title": "Comment vous sentez-vous dans vos activités habituelles de la matinée ?",
+  "text": "Comment vous sentez-vous dans vos activités habituelles de la matinée ?",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Reposé(e) et en forme"
+    },
+    {
+      "code": "1",
+      "text": "Forme assez bonne. Activités martinales sans garndes difficultés"
+    },
+    {
+      "code": "2",
+      "text": "Forme moyenne. Activités martinales assez difficiles"
+    },
+    {
+      "code": "3",
+      "text": "Forme mauvaise. Activités martinales difficiles"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom3N3Q30 == 0",
+      "tagOID": "MVSomN3-30",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom3N3Q30 == 1",
+      "tagOID": "MVSomN3-30",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom3N3Q30 == 2",
+      "tagOID": "MVSomN3-30",
+      "value": 2
+    },
+    {
+      "conditions": "MVSom3N3Q30 == 3",
+      "tagOID": "MVSomN3-30",
+      "value": 3
+    }
+  ]
+}

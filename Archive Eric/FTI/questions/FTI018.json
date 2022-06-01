@@ -1,0 +1,28 @@
+{
+  "oid": "FTI018",
+  "title": "J'aime planifier longtemps.",
+  "text": "J'aime planifier longtemps.",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "FTI018 == 0",
+      "tagOID": "conformité",
+      "value": 1
+    },
+    {
+      "conditions": "FTI018 == 1",
+      "tagOID": "conformité",
+      "value": 0
+    }
+  ]
+}

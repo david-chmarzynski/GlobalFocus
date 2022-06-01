@@ -1,0 +1,46 @@
+{
+  "oid": "MVSom4N4Q47",
+  "title": "Passager d’une voiture ou d’un transport en commun roulant sans arrêt depuis une heure",
+  "text": "Passager d’une voiture ou d’un transport en commun roulant sans arrêt depuis une heure",
+  "type": "SINGLE_CHOICE",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Aucune chance"
+    },
+    {
+      "code": "1",
+      "text": "Faible chance"
+    },
+    {
+      "code": "2",
+      "text": "Chance moyenne"
+    },
+    {
+      "code": "3",
+      "text": "Forte chance"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "MVSom4N4Q47 == 0",
+      "tagOID": "MVSomN4-44",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom4N4Q47 == 1",
+      "tagOID": "MVSomN4-44",
+      "value": 1
+    },
+    {
+      "conditions": "MVSom4N4Q47 == 2",
+      "tagOID": "MVSomN4-44",
+      "value": 0
+    },
+    {
+      "conditions": "MVSom4N4Q47 == 3",
+      "tagOID": "MVSomN4-44",
+      "value": 1
+    }
+  ]
+}

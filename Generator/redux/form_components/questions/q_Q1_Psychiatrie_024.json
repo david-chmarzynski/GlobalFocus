@@ -1,0 +1,46 @@
+{
+  "oid": "q_Q1_Psychiatrie_024",
+  "title": "Je ne m’intéresse plus à mon apparence",
+  "text": "Je ne m’intéresse plus à mon apparence",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "J’y prête autant d’attention que par le passé"
+    },
+    {
+      "code": "1",
+      "text": "Il se peut que je n’y fasse plus autant attention"
+    },
+    {
+      "code": "2",
+      "text": "Je n’y accorde pas autant d’attention que je devrais"
+    },
+    {
+      "code": "3",
+      "text": "Plus du tout"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_Q1_Psychiatrie_024 == \"0\"",
+      "tagOID": "S_PSY_SYMP_DEPRESSION_HAD_APPARENCE",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_024 == \"1\"",
+      "tagOID": "S_PSY_SYMP_DEPRESSION_HAD_APPARENCE",
+      "value": 1
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_024 == \"2\"",
+      "tagOID": "S_PSY_SYMP_DEPRESSION_HAD_APPARENCE",
+      "value": 2
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_024 == \"3\"",
+      "tagOID": "S_PSY_SYMP_DEPRESSION_HAD_APPARENCE",
+      "value": 3
+    }
+  ]
+}

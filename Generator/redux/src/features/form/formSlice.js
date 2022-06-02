@@ -55,20 +55,20 @@ export const formSlice = createSlice({
       state.questionnary.form = [
         {
           formOID: action.payload.formOID,
-          formTitle: action.payload.formTitle,
+          formTitle: action.payload.questionaryName,
           formDescription: action.payload.formDescription,
         },
       ];
     },
     changeBaseForm: (state, action) => {
       state.questionnary.form[0].formOID = action.payload.formOID;
-      state.questionnary.form[0].formTitle = action.payload.formTitle;
+      state.questionnary.form[0].formTitle = action.payload.questionaryName;
       state.questionnary.form[0].description = action.payload.description;
     },
     buildFinalForm: (state, action) => {
       state.finalQuestionnary.questionaryName =
         state.questionnary.questionaryName;
-      state.finalQuestionnary.chapterOID = state.questionnary.chapterOID;
+      state.finalQuestionnary.chapterOID = `chap_${action.payload.modules[0].moduleOID}`;
       state.finalQuestionnary.chapterTitle = state.questionnary.chapterTitle;
       state.finalQuestionnary.estimatedTime = state.questionnary.estimatedTime;
       state.finalQuestionnary.pricing = state.questionnary.pricing;
@@ -84,7 +84,7 @@ export const formSlice = createSlice({
       state.finalQuestionnary.form = [
         {
           formOID: state.questionnary.form[0].formOID,
-          formTitle: state.questionnary.form[0].formTitle,
+          formTitle: state.questionnary.questionaryName,
           formDescription: state.questionnary.form[0].formDescription,
         },
       ];

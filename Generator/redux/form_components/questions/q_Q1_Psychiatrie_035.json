@@ -1,0 +1,46 @@
+{
+  "oid": "q_Q1_Psychiatrie_035",
+  "title": "Difficultés à trouver le sommeil et à le retrouver si réveil nocturne",
+  "text": "Difficultés à trouver le sommeil et à le retrouver si réveil nocturne",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Symptôme absent"
+    },
+    {
+      "code": "1",
+      "text": "Symptôme modéré"
+    },
+    {
+      "code": "2",
+      "text": "Symptôme gênant"
+    },
+    {
+      "code": "3",
+      "text": "Symptôme très gênant"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_Q1_Psychiatrie_035 == \"0\"",
+      "tagOID": "S_PSY_SYMP_INDOLAMINE_SOMMEIL",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_035 == \"1\"",
+      "tagOID": "S_PSY_SYMP_INDOLAMINE_SOMMEIL",
+      "value": 1
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_035 == \"2\"",
+      "tagOID": "S_PSY_SYMP_INDOLAMINE_SOMMEIL",
+      "value": 2
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_035 == \"3\"",
+      "tagOID": "S_PSY_SYMP_INDOLAMINE_SOMMEIL",
+      "value": 3
+    }
+  ]
+}

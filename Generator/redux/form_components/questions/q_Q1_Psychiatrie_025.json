@@ -1,0 +1,46 @@
+{
+  "oid": "q_Q1_Psychiatrie_025",
+  "title": "Je me réjouis d’avance à l’idée de faire certaines choses",
+  "text": "Je me réjouis d’avance à l’idée de faire certaines choses",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Autant qu’avant"
+    },
+    {
+      "code": "1",
+      "text": "Un peu moins qu’avant"
+    },
+    {
+      "code": "2",
+      "text": "Bien moins qu’avant"
+    },
+    {
+      "code": "3",
+      "text": "Presque jamais"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_Q1_Psychiatrie_025 == \"0\"",
+      "tagOID": "S_PSY_SYMP_DEPRESSION_HAD_REJOUIR",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_025 == \"1\"",
+      "tagOID": "S_PSY_SYMP_DEPRESSION_HAD_REJOUIR",
+      "value": 1
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_025 == \"2\"",
+      "tagOID": "S_PSY_SYMP_DEPRESSION_HAD_REJOUIR",
+      "value": 2
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_025 == \"3\"",
+      "tagOID": "S_PSY_SYMP_DEPRESSION_HAD_REJOUIR",
+      "value": 3
+    }
+  ]
+}

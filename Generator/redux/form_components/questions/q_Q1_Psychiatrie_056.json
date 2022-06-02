@@ -1,0 +1,28 @@
+{
+  "oid": "q_Q1_Psychiatrie_056",
+  "title": "En général, dépendez-vous beaucoup des autres ?",
+  "text": "En général, dépendez-vous beaucoup des autres ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_Q1_Psychiatrie_056 == \"0\"",
+      "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_DEPENDANCE",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_056 == \"1\"",
+      "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_DEPENDANCE",
+      "value": 1
+    }
+  ]
+}

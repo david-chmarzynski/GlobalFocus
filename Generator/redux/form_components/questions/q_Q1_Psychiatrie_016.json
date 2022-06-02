@@ -1,0 +1,46 @@
+{
+  "oid": "q_Q1_Psychiatrie_016",
+  "title": "Je peux rester tranquillement assis(e) à ne rien faire et me sentir décontracté(e)",
+  "text": "Je peux rester tranquillement assis(e) à ne rien faire et me sentir décontracté(e)",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui, quoi qu’il arrive"
+    },
+    {
+      "code": "1",
+      "text": "Oui, en général"
+    },
+    {
+      "code": "2",
+      "text": "Rarement"
+    },
+    {
+      "code": "3",
+      "text": "Jamais"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_Q1_Psychiatrie_016 == \"0\"",
+      "tagOID": "S_PSY_SYMP_ANXIETE_HAD_DECONTRACTE",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_016 == \"1\"",
+      "tagOID": "S_PSY_SYMP_ANXIETE_HAD_DECONTRACTE",
+      "value": 1
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_016 == \"2\"",
+      "tagOID": "S_PSY_SYMP_ANXIETE_HAD_DECONTRACTE",
+      "value": 2
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_016 == \"3\"",
+      "tagOID": "S_PSY_SYMP_ANXIETE_HAD_DECONTRACTE",
+      "value": 3
+    }
+  ]
+}

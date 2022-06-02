@@ -1,0 +1,417 @@
+{
+  "oid": "Q1_Psychiatrie",
+  "title": "Q1 Psychiatrie",
+  "questions": [
+    {
+      "question": "q_Q1_Psychiatrie_000",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_001",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_Q1_Psychiatrie_002",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_Q1_Psychiatrie_003",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_Q1_Psychiatrie_004",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"undefined\" in undefined)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {}
+      }
+    },
+    {
+      "question": "q_Q1_Psychiatrie_005",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_Q1_Psychiatrie_006",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_Q1_Psychiatrie_007",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"aucun\" in q_Q1_Psychiatrie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_Psychiatrie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_Psychiatrie_008",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"aucun\" in q_Q1_Psychiatrie_002)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_Psychiatrie_002": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_Psychiatrie_009",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"suicide\" in q_Q1_Psychiatrie_002)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_Psychiatrie_002": "autre"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_Psychiatrie_010",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"aucun\" in q_Q1_Psychiatrie_003)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_Psychiatrie_003": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_Psychiatrie_011",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"aucun\" in q_Q1_Psychiatrie_004)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_Psychiatrie_004": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_Psychiatrie_012",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"aucun\" in q_Q1_Psychiatrie_005)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_Psychiatrie_005": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_Psychiatrie_013",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_014",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_015",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_016",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_017",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_018",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_019",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_020",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_021",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_022",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_023",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_024",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_025",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_026",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_027",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_028",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_029",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_030",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_031",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_032",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_033",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_034",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_035",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_036",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_037",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_038",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_039",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_040",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_041",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_042",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_043",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_044",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_045",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Oui\" in q_Q1_Psychiatrie_044)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_Psychiatrie_044": "Non"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_Psychiatrie_046",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_047",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_048",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_Psychiatrie_049",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Non\" in q_Q1_Psychiatrie_048)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_Psychiatrie_048": "Oui"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_Psychiatrie_050",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_Q1_Psychiatrie_051",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Oui\" in q_Q1_Psychiatrie_050)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_Psychiatrie_050": "Non"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_Psychiatrie_052",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_Q1_Psychiatrie_053",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Oui\" in q_Q1_Psychiatrie_052)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_Psychiatrie_052": "Non"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_Psychiatrie_054",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_Q1_Psychiatrie_055",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Oui\" in q_Q1_Psychiatrie_054)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_Psychiatrie_054": "Non"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_Psychiatrie_056",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_Q1_Psychiatrie_057",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Oui\" in q_Q1_Psychiatrie_056)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_Psychiatrie_056": "Non"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_Psychiatrie_058",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_Q1_Psychiatrie_059",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Oui\" in q_Q1_Psychiatrie_058)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_Psychiatrie_058": "Non"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_Psychiatrie_060",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_Q1_Psychiatrie_061",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"undefined\" in undefined)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {}
+      }
+    }
+  ]
+}

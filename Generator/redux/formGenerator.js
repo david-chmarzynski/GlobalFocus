@@ -227,23 +227,22 @@ const createQuestions = (data) => {
             a < data.modules[m].questions[q].answers.length;
             a++
           ) {
-            let choice = {
-              code: `${data.modules[m].questions[q].answers[a].value}`,
-              text: `${data.modules[m].questions[q].answers[a].text}`,
+            let score = {
+              conditions: `${data.modules[m].questions[q].questionOID} == "${data.modules[m].questions[q].answers[a].value}"`,
+              tagOID: `${data.modules[m].questions[q].tag}`,
+              value: data.modules[m].questions[q].answers[a].value,
             };
-            let score;
+            let choice;
             if (data.modules[m].questions[q].answers[a].isExclusive === true) {
-              score = {
-                conditions: `${data.modules[m].questions[q].questionOID} == "${data.modules[m].questions[q].answers[a].value}"`,
-                tagOID: `${data.modules[m].questions[q].tag}`,
-                value: data.modules[m].questions[q].answers[a].value,
+              choice = {
+                code: `${data.modules[m].questions[q].answers[a].value}`,
+                text: `${data.modules[m].questions[q].answers[a].text}`,
                 exclusive: true,
               };
             } else {
-              score = {
-                conditions: `${data.modules[m].questions[q].questionOID} == "${data.modules[m].questions[q].answers[a].value}"`,
-                tagOID: `${data.modules[m].questions[q].tag}`,
-                value: data.modules[m].questions[q].answers[a].value,
+              choice = {
+                code: `${data.modules[m].questions[q].answers[a].value}`,
+                text: `${data.modules[m].questions[q].answers[a].text}`,
               };
             }
             baseChoices.push(choice);
@@ -258,24 +257,22 @@ const createQuestions = (data) => {
             a < data.modules[m].questions[q].answers.length;
             a++
           ) {
-            let choice = {
-              code: `${data.modules[m].questions[q].answers[a].value}`,
-              text: `${data.modules[m].questions[q].answers[a].text}`,
+            let choice;
+            let score = {
+              conditions: `${data.modules[m].questions[q].questionOID} == "${data.modules[m].questions[q].answers[a].value}"`,
+              tagOID: `${data.modules[m].questions[q].tag}`,
+              value: parseInt(data.modules[m].questions[q].answers[a].value),
             };
-            console.log(isNaN(data.modules[m].questions[q].answers[a].value));
-            let score;
             if (data.modules[m].questions[q].answers[a].isExclusive === true) {
-              score = {
-                conditions: `${data.modules[m].questions[q].questionOID} == "${data.modules[m].questions[q].answers[a].value}"`,
-                tagOID: `${data.modules[m].questions[q].tag}`,
-                value: data.modules[m].questions[q].answers[a].value,
+              choice = {
+                code: `${data.modules[m].questions[q].answers[a].value}`,
+                text: `${data.modules[m].questions[q].answers[a].text}`,
                 exclusive: true,
               };
             } else {
-              score = {
-                conditions: `${data.modules[m].questions[q].questionOID} == "${data.modules[m].questions[q].answers[a].value}"`,
-                tagOID: `${data.modules[m].questions[q].tag}`,
-                value: data.modules[m].questions[q].answers[a].value,
+              choice = {
+                code: `${data.modules[m].questions[q].answers[a].value}`,
+                text: `${data.modules[m].questions[q].answers[a].text}`,
               };
             }
             baseChoices.push(choice);
@@ -290,23 +287,22 @@ const createQuestions = (data) => {
             a < data.modules[m].questions[q].answers.length;
             a++
           ) {
-            let choice = {
-              code: `${data.modules[m].questions[q].answers[a].value}`,
-              text: `${data.modules[m].questions[q].answers[a].text}`,
+            let choice;
+            let score = {
+              conditions: `${data.modules[m].questions[q].questionOID} in "${data.modules[m].questions[q].answers[a].value}"`,
+              tagOID: `${data.modules[m].questions[q].tag}`,
+              value: 1,
             };
-            let score;
             if (data.modules[m].questions[q].answers[a].isExclusive === true) {
-              score = {
-                conditions: `${data.modules[m].questions[q].questionOID} == "${data.modules[m].questions[q].answers[a].value}"`,
-                tagOID: `${data.modules[m].questions[q].tag}`,
-                value: data.modules[m].questions[q].answers[a].value,
+              choice = {
+                code: `${data.modules[m].questions[q].answers[a].value}`,
+                text: `${data.modules[m].questions[q].answers[a].text}`,
                 exclusive: true,
               };
             } else {
-              score = {
-                conditions: `${data.modules[m].questions[q].questionOID} == "${data.modules[m].questions[q].answers[a].value}"`,
-                tagOID: `${data.modules[m].questions[q].tag}`,
-                value: data.modules[m].questions[q].answers[a].value,
+              choice = {
+                code: `${data.modules[m].questions[q].answers[a].value}`,
+                text: `${data.modules[m].questions[q].answers[a].text}`,
               };
             }
             let antiScore = {

@@ -1,0 +1,123 @@
+{
+  "oid": "q_Q1_Psychiatrie_005",
+  "title": "Vous a-t-on déjà diagnostiqué un trouble neuro-développemental et/ou des apprentissages et/ou du comportement ? (plusieurs réponses possibles)",
+  "text": "Vous a-t-on déjà diagnostiqué un trouble neuro-développemental et/ou des apprentissages et/ou du comportement ? (plusieurs réponses possibles)",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "tdha",
+      "text": "Déficit de l’attention et hyperactivité (TDHA)"
+    },
+    {
+      "code": "impulsivite",
+      "text": "Impulsivité, agressivité, accès de colère incontrôlables"
+    },
+    {
+      "code": "dyslexie",
+      "text": "Dyslexie (lecture)"
+    },
+    {
+      "code": "dysorthographie",
+      "text": "Dysorthographie (écriture)"
+    },
+    {
+      "code": "dyscalculie",
+      "text": "Dyscalculie (calcul)"
+    },
+    {
+      "code": "dyspraxie",
+      "text": "Dyspraxie (lenteur et maladresse des gestes, apprentissage difficile)"
+    },
+    {
+      "code": "autres",
+      "text": "Autre(s) trouble(s) neuro-développemental (bégaiement, tics, syndrome G de la Tourette, handicap mental…)"
+    },
+    {
+      "code": "aucun",
+      "text": "Aucun de ces antécédents",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_Q1_Psychiatrie_005 in \"tdha\"",
+      "tagOID": "S_PSY_ATCD_NEURO_DEV",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"tdha\" in q_Q1_Psychiatrie_005)",
+      "tagOID": "S_PSY_ATCD_NEURO_DEV",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_005 in \"impulsivite\"",
+      "tagOID": "S_PSY_ATCD_NEURO_DEV",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"impulsivite\" in q_Q1_Psychiatrie_005)",
+      "tagOID": "S_PSY_ATCD_NEURO_DEV",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_005 in \"dyslexie\"",
+      "tagOID": "S_PSY_ATCD_NEURO_DEV",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"dyslexie\" in q_Q1_Psychiatrie_005)",
+      "tagOID": "S_PSY_ATCD_NEURO_DEV",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_005 in \"dysorthographie\"",
+      "tagOID": "S_PSY_ATCD_NEURO_DEV",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"dysorthographie\" in q_Q1_Psychiatrie_005)",
+      "tagOID": "S_PSY_ATCD_NEURO_DEV",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_005 in \"dyscalculie\"",
+      "tagOID": "S_PSY_ATCD_NEURO_DEV",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"dyscalculie\" in q_Q1_Psychiatrie_005)",
+      "tagOID": "S_PSY_ATCD_NEURO_DEV",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_005 in \"dyspraxie\"",
+      "tagOID": "S_PSY_ATCD_NEURO_DEV",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"dyspraxie\" in q_Q1_Psychiatrie_005)",
+      "tagOID": "S_PSY_ATCD_NEURO_DEV",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_005 in \"autres\"",
+      "tagOID": "S_PSY_ATCD_NEURO_DEV",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"autres\" in q_Q1_Psychiatrie_005)",
+      "tagOID": "S_PSY_ATCD_NEURO_DEV",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_005 in \"aucun\"",
+      "tagOID": "S_PSY_ATCD_NEURO_DEV",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"aucun\" in q_Q1_Psychiatrie_005)",
+      "tagOID": "S_PSY_ATCD_NEURO_DEV",
+      "value": 0
+    }
+  ]
+}

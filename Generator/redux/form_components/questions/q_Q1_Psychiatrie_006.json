@@ -1,0 +1,151 @@
+{
+  "oid": "q_Q1_Psychiatrie_006",
+  "title": "Vous a-t-on diagnostiqué un trouble de la personnalité ? (plusieurs réponses possibles)",
+  "text": "Vous a-t-on diagnostiqué un trouble de la personnalité ? (plusieurs réponses possibles)",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "paranoide",
+      "text": "Paranoïde"
+    },
+    {
+      "code": "schizoide",
+      "text": "Schizoïde"
+    },
+    {
+      "code": "schizophrenie",
+      "text": "Schizotypique = schizophrénie "
+    },
+    {
+      "code": "antisociale",
+      "text": "Antisociale"
+    },
+    {
+      "code": "borderline",
+      "text": "Borderline"
+    },
+    {
+      "code": "narcissique",
+      "text": "Narcissique"
+    },
+    {
+      "code": "evitante",
+      "text": "Évitante"
+    },
+    {
+      "code": "dependante",
+      "text": "Dépendante"
+    },
+    {
+      "code": "obsessionnelle compulsive",
+      "text": "Obsessionnelle compulsive"
+    },
+    {
+      "code": "aucun",
+      "text": "Aucun de ces antécédents",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_Q1_Psychiatrie_006 in \"paranoide\"",
+      "tagOID": "S_PSY_ATCD_PERSONNALITE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"paranoide\" in q_Q1_Psychiatrie_006)",
+      "tagOID": "S_PSY_ATCD_PERSONNALITE",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_006 in \"schizoide\"",
+      "tagOID": "S_PSY_ATCD_PERSONNALITE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"schizoide\" in q_Q1_Psychiatrie_006)",
+      "tagOID": "S_PSY_ATCD_PERSONNALITE",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_006 in \"schizophrenie\"",
+      "tagOID": "S_PSY_ATCD_PERSONNALITE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"schizophrenie\" in q_Q1_Psychiatrie_006)",
+      "tagOID": "S_PSY_ATCD_PERSONNALITE",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_006 in \"antisociale\"",
+      "tagOID": "S_PSY_ATCD_PERSONNALITE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"antisociale\" in q_Q1_Psychiatrie_006)",
+      "tagOID": "S_PSY_ATCD_PERSONNALITE",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_006 in \"borderline\"",
+      "tagOID": "S_PSY_ATCD_PERSONNALITE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"borderline\" in q_Q1_Psychiatrie_006)",
+      "tagOID": "S_PSY_ATCD_PERSONNALITE",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_006 in \"narcissique\"",
+      "tagOID": "S_PSY_ATCD_PERSONNALITE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"narcissique\" in q_Q1_Psychiatrie_006)",
+      "tagOID": "S_PSY_ATCD_PERSONNALITE",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_006 in \"evitante\"",
+      "tagOID": "S_PSY_ATCD_PERSONNALITE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"evitante\" in q_Q1_Psychiatrie_006)",
+      "tagOID": "S_PSY_ATCD_PERSONNALITE",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_006 in \"dependante\"",
+      "tagOID": "S_PSY_ATCD_PERSONNALITE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"dependante\" in q_Q1_Psychiatrie_006)",
+      "tagOID": "S_PSY_ATCD_PERSONNALITE",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_006 in \"obsessionnelle compulsive\"",
+      "tagOID": "S_PSY_ATCD_PERSONNALITE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"obsessionnelle compulsive\" in q_Q1_Psychiatrie_006)",
+      "tagOID": "S_PSY_ATCD_PERSONNALITE",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_006 in \"aucun\"",
+      "tagOID": "S_PSY_ATCD_PERSONNALITE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"aucun\" in q_Q1_Psychiatrie_006)",
+      "tagOID": "S_PSY_ATCD_PERSONNALITE",
+      "value": 0
+    }
+  ]
+}

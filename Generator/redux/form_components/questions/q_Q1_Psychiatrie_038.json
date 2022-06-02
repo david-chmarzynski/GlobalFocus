@@ -1,0 +1,46 @@
+{
+  "oid": "q_Q1_Psychiatrie_038",
+  "title": "Difficulté à poursuivre une action, fonctionnement au ralenti",
+  "text": "Difficulté à poursuivre une action, fonctionnement au ralenti",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Symptôme absent"
+    },
+    {
+      "code": "1",
+      "text": "Symptôme modéré"
+    },
+    {
+      "code": "2",
+      "text": "Symptôme gênant"
+    },
+    {
+      "code": "3",
+      "text": "Symptôme très gênant"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_Q1_Psychiatrie_038 == \"0\"",
+      "tagOID": "S_PSY_SYMP_CATECHOLIMINE_ACTION",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_038 == \"1\"",
+      "tagOID": "S_PSY_SYMP_CATECHOLIMINE_ACTION",
+      "value": 1
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_038 == \"2\"",
+      "tagOID": "S_PSY_SYMP_CATECHOLIMINE_ACTION",
+      "value": 2
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_038 == \"3\"",
+      "tagOID": "S_PSY_SYMP_CATECHOLIMINE_ACTION",
+      "value": 3
+    }
+  ]
+}

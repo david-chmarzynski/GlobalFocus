@@ -1,0 +1,28 @@
+{
+  "oid": "q_Q1_Psychiatrie_058",
+  "title": "En général, êtes-vous un(e) perfectionniste ?",
+  "text": "En général, êtes-vous un(e) perfectionniste ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_Q1_Psychiatrie_058 == \"0\"",
+      "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_PERFECTIONNISTE",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_058 == \"1\"",
+      "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_PERFECTIONNISTE",
+      "value": 1
+    }
+  ]
+}

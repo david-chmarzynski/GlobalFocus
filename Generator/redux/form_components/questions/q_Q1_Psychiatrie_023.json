@@ -1,0 +1,46 @@
+{
+  "oid": "q_Q1_Psychiatrie_023",
+  "title": "J’ai l’impression de fonctionner au ralenti",
+  "text": "J’ai l’impression de fonctionner au ralenti",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "Parfois"
+    },
+    {
+      "code": "2",
+      "text": "Très souvent"
+    },
+    {
+      "code": "3",
+      "text": "Presque toujours"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_Q1_Psychiatrie_023 == \"0\"",
+      "tagOID": "S_PSY_SYMP_DEPRESSION_HAD_RALENTI",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_023 == \"1\"",
+      "tagOID": "S_PSY_SYMP_DEPRESSION_HAD_RALENTI",
+      "value": 1
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_023 == \"2\"",
+      "tagOID": "S_PSY_SYMP_DEPRESSION_HAD_RALENTI",
+      "value": 2
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_023 == \"3\"",
+      "tagOID": "S_PSY_SYMP_DEPRESSION_HAD_RALENTI",
+      "value": 3
+    }
+  ]
+}

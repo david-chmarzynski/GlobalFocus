@@ -1,0 +1,28 @@
+{
+  "oid": "q_Q1_Psychiatrie_045",
+  "title": "Est-ce que cela s’applique « la plupart du temps » et dans la « plupart des situations » ? ",
+  "text": "Est-ce que cela s’applique « la plupart du temps » et dans la « plupart des situations » ? ",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_Q1_Psychiatrie_045 == \"0\"",
+      "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_AMI_2",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_045 == \"1\"",
+      "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_AMI_2",
+      "value": 1
+    }
+  ]
+}

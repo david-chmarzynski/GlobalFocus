@@ -1,0 +1,3171 @@
+{
+  "questionaryName": "Q1 Psychiatrie",
+  "chapterOID": "chap_Q1 Psychiatrie",
+  "chapterTitle": "chap_Q1 Psychiatrie",
+  "estimatedTime": 10,
+  "pricing": 10,
+  "levelMax": "1",
+  "authors": ["Jean-Philippe Astruc"],
+  "professions": ["DENTIST"],
+  "companyId": [{}],
+  "linkedForm": "",
+  "category": "HEALTH",
+  "scoreStrategy": "SUM",
+  "form": [
+    {
+      "formOID": "Q1_Psychiatrie",
+      "formTitle": "Q1_Psychiatrie",
+      "formDescription": "Psychiatrie"
+    }
+  ],
+  "modules": [
+    {
+      "moduleOID": "Q1_Psychiatrie",
+      "moduleTitle": "Q1 Psychiatrie",
+      "questions": [
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_000",
+          "questionText": "Comment évaluez-vous votre équilibre émotionnel, votre santé psychologique (anxiété, dépression, difficultés relationnelles, vulnérabilité au stress…) ?",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Satisfaisante", "value": 0, "isExclusive": false },
+            {
+              "text": "Légèrement insatisfaisante",
+              "value": 1,
+              "isExclusive": false
+            },
+            {
+              "text": "Plutôt insatisfaisante",
+              "value": 2,
+              "isExclusive": false
+            },
+            { "text": "Insatisfaisante", "value": "3", "isExclusive": false }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_001",
+          "questionText": "Vous a-t-on déjà diagnostiqué un trouble anxieux ? (plusieurs réponses possibles)",
+          "type": "MULTI_CHOICES",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_000",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_ATCD_ANXIETE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Anxiété de séparation (peur excessive de la séparation)",
+              "value": "separation",
+              "isExclusive": false
+            },
+            {
+              "text": "Trouble panique (attaque de panique) ",
+              "value": "panique",
+              "isExclusive": false
+            },
+            {
+              "text": "Stress post-traumatique",
+              "value": "stress post-traumatique",
+              "isExclusive": false
+            },
+            {
+              "text": "Trouble anxieux généralisé (fond d’anxiété et de tension excessives et persistantes) ",
+              "value": "trouble anxieux gen",
+              "isExclusive": false
+            },
+            {
+              "text": "Trouble(s) phobique(s) spécifique(s) (avion, ascenseur, araignées, sang, espaces, vide, vomir…)",
+              "value": "phobie",
+              "isExclusive": false
+            },
+            {
+              "text": "Anxiété sociale (phobie sociale) (peur intense excessive des interactions sociales)",
+              "value": "phobie sociale",
+              "isExclusive": false
+            },
+            {
+              "text": "Hypochondrie (crainte excessive d’avoir une maladie)",
+              "value": "hypochondrie",
+              "isExclusive": false
+            },
+            {
+              "text": "Trouble(s) obsessionnel(s) compulsif(s) (pensées angoissantes récurrentes : propreté, vérification…)",
+              "value": "TOC",
+              "isExclusive": false
+            },
+            {
+              "text": "Aucun de ces antécédents",
+              "value": "aucun",
+              "isExclusive": true
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_002",
+          "questionText": "Vous a-t-on déjà diagnostiqué un trouble dépressif? (plusieurs réponses possibles)",
+          "type": "MULTI_CHOICES",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_001",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_ATCD_DEPRESSION",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Dépression grave isolée ayant nécessité une prise en charge (un seul épisode)",
+              "value": "depression grave",
+              "isExclusive": false
+            },
+            {
+              "text": "Dépressions récurrentes (plusieurs épisodes de dépression)",
+              "value": "depressions recurrentes",
+              "isExclusive": false
+            },
+            {
+              "text": "Dépression persistante",
+              "value": "depression persistante",
+              "isExclusive": false
+            },
+            {
+              "text": "Dépression bipolaire",
+              "value": "depression bipolaire",
+              "isExclusive": false
+            },
+            {
+              "text": "Cyclothymie",
+              "value": "cyclothymie",
+              "isExclusive": false
+            },
+            {
+              "text": "Dépression saisonnière (hiver)",
+              "value": "depression saisonniere",
+              "isExclusive": false
+            },
+            {
+              "text": "Dépression avec tentative de suicide",
+              "value": "depression suicide",
+              "isExclusive": false
+            },
+            {
+              "text": "Aucun de ces antécédents",
+              "value": "aucun",
+              "isExclusive": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_003",
+          "questionText": "Avez-vous déjà eu un traitement et/ou des soins en lien avec votre équilibre émotionnel et/ou votre santé psychologique ? (plusieurs réponses possibles)",
+          "type": "MULTI_CHOICES",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_002",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_ATCD_TRAITEMENT",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Hospitalisation en service de soins psychiatriques",
+              "value": "hospitalisation psy",
+              "isExclusive": false
+            },
+            {
+              "text": "Traitement médicamenteux (anxiolytiques, antidépresseurs, somnifères , neuroleptiques…)",
+              "value": "traitement medicamenteux",
+              "isExclusive": false
+            },
+            {
+              "text": "Consultations avec un psychiatre",
+              "value": "consult psychiatre",
+              "isExclusive": false
+            },
+            {
+              "text": "Consultations avec un psychologue",
+              "value": "consultation psychologue",
+              "isExclusive": false
+            },
+            {
+              "text": "Psychanalyse",
+              "value": "psychanalyse",
+              "isExclusive": false
+            },
+            {
+              "text": "Psychothérapie comportementale et cognitive (TCC)",
+              "value": "tcc",
+              "isExclusive": false
+            },
+            { "text": "Hypnose", "value": "hypnose", "isExclusive": false },
+            { "text": "EMDR", "value": "EMDR", "isExclusive": false },
+            { "text": "Autres soins", "value": "autres", "isExclusive": false },
+            { "text": "Aucun soin", "value": "aucun", "isExclusive": true }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_004",
+          "questionText": "Quel(s) type(s) de prise en charge psychologique avez-vous eu (Gestalt thérapie, thérapie familiale, art-thérapie…) ?",
+          "type": "TEXT",
+          "isTriggered": true,
+          "tag": "S_PSY_ATCD_TRAITEMENT_AUTRES",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [{ "regex": "" }]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_005",
+          "questionText": "Vous a-t-on déjà diagnostiqué un trouble neuro-développemental et/ou des apprentissages et/ou du comportement ? (plusieurs réponses possibles)",
+          "type": "MULTI_CHOICES",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_004",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_ATCD_NEURO_DEV",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Déficit de l’attention et hyperactivité (TDHA)",
+              "value": "tdha",
+              "isExclusive": false
+            },
+            {
+              "text": "Impulsivité, agressivité, accès de colère incontrôlables",
+              "value": "impulsivite",
+              "isExclusive": false
+            },
+            {
+              "text": "Dyslexie (lecture)",
+              "value": "dyslexie",
+              "isExclusive": false
+            },
+            {
+              "text": "Dysorthographie (écriture)",
+              "value": "dysorthographie",
+              "isExclusive": false
+            },
+            {
+              "text": "Dyscalculie (calcul)",
+              "value": "dyscalculie",
+              "isExclusive": false
+            },
+            {
+              "text": "Dyspraxie (lenteur et maladresse des gestes, apprentissage difficile)",
+              "value": "dyspraxie",
+              "isExclusive": false
+            },
+            {
+              "text": "Autre(s) trouble(s) neuro-développemental (bégaiement, tics, syndrome G de la Tourette, handicap mental…)",
+              "value": "autres",
+              "isExclusive": false
+            },
+            {
+              "text": "Aucun de ces antécédents",
+              "value": "aucun",
+              "isExclusive": true
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_006",
+          "questionText": "Vous a-t-on diagnostiqué un trouble de la personnalité ? (plusieurs réponses possibles)",
+          "type": "MULTI_CHOICES",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_005",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_ATCD_PERSONNALITE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Paranoïde", "value": "paranoide", "isExclusive": false },
+            { "text": "Schizoïde", "value": "schizoide", "isExclusive": false },
+            {
+              "text": "Schizotypique = schizophrénie ",
+              "value": "schizophrenie",
+              "isExclusive": false
+            },
+            {
+              "text": "Antisociale",
+              "value": "antisociale",
+              "isExclusive": false
+            },
+            {
+              "text": "Borderline",
+              "value": "borderline",
+              "isExclusive": false
+            },
+            {
+              "text": "Narcissique",
+              "value": "narcissique",
+              "isExclusive": false
+            },
+            { "text": "Évitante", "value": "evitante", "isExclusive": false },
+            {
+              "text": "Dépendante",
+              "value": "dependante",
+              "isExclusive": false
+            },
+            {
+              "text": "Obsessionnelle compulsive",
+              "value": "obsessionnelle compulsive",
+              "isExclusive": false
+            },
+            {
+              "text": "Aucun de ces antécédents",
+              "value": "aucun",
+              "isExclusive": true
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_007",
+          "questionText": "En quelle année le diagnostic de trouble anxieux a-t-il été posé la première fois ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_001",
+          "triggeredValue": "aucun",
+          "triggeredDefault": "aucun",
+          "tag": "S_PSY_ATCD_ANXIETE_DATE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": "1900",
+              "max": "2022",
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": "2022",
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_008",
+          "questionText": "En quelle année le diagnostic de trouble dépressif a-t-il été posé la première fois ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_002",
+          "triggeredValue": "aucun",
+          "triggeredDefault": "aucun",
+          "tag": "S_PSY_ATCD_DEPRESSION_DATE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": "1900",
+              "max": "2022",
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": "2022",
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_009",
+          "questionText": "En quelle année la tentative de suicide a-t-elle eu lieu ? (la première s’il y en a eu plusieurs) ",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_002",
+          "triggeredValue": "suicide",
+          "triggeredDefault": "autre",
+          "tag": "S_PSY_ATCD_DEPRESSION_SUICIDE_DATE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": "1900",
+              "max": "2022",
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": "2022",
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_010",
+          "questionText": "En quelle année avez-vous eu votre premier traitement et/ou soins en lien avec  votre équilibre émotionnel et/ou votre santé psychologique ? ",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_003",
+          "triggeredValue": "aucun",
+          "triggeredDefault": "aucun",
+          "tag": "S_PSY_ATCD_TRAITEMENT_DATE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": "1900",
+              "max": "2022",
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": "2022",
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_011",
+          "questionText": "En quelle année le diagnostic de trouble neuro-développemental a-t-il été posé la première fois ? ",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_004",
+          "triggeredValue": "aucun",
+          "triggeredDefault": "aucun",
+          "tag": "S_PSY_ATCD_NEURO_DEV_DATE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": "1900",
+              "max": "2022",
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": "2022",
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_012",
+          "questionText": "En quelle année le diagnostic de trouble de la personnalité a-t-il été posé la première fois ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_005",
+          "triggeredValue": "aucun",
+          "triggeredDefault": "aucun",
+          "tag": "S_PSY_ATCD_PERSONNALITE_DATE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": "1900",
+              "max": "2022",
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": "2022",
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_013",
+          "questionText": "Je me sens tendu(e) ou énervé(e)",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_012",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_ANXIETE_HAD_TENDU",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Jamais", "value": 0, "isExclusive": false },
+            { "text": "De temps en temps", "value": 1, "isExclusive": false },
+            { "text": "Souvent", "value": 2, "isExclusive": false },
+            {
+              "text": "La plupart du temps",
+              "value": "3",
+              "isExclusive": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_014",
+          "questionText": "J’ai une sensation de peur comme si quelque chose d’horrible allait m’arriver",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_013",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_SYMP_ANXIETE_HAD_PEUR",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Pas du tout", "value": 0, "isExclusive": false },
+            {
+              "text": "Un peu, mais cela ne m’inquiète pas",
+              "value": 1,
+              "isExclusive": false
+            },
+            {
+              "text": "Oui, mais ce n’est pas trop grave",
+              "value": 2,
+              "isExclusive": false
+            },
+            {
+              "text": "Oui, très nettement",
+              "value": "3",
+              "isExclusive": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_015",
+          "questionText": "Je me fais du souci",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_014",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_ANXIETE_HAD_SOUCI",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Très occasionnellement",
+              "value": 0,
+              "isExclusive": false
+            },
+            { "text": "Occasionnellement", "value": 1, "isExclusive": false },
+            { "text": "Assez souvent", "value": 2, "isExclusive": false },
+            { "text": "Très souvent", "value": "3", "isExclusive": false }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_016",
+          "questionText": "Je peux rester tranquillement assis(e) à ne rien faire et me sentir décontracté(e)",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_015",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_ANXIETE_HAD_DECONTRACTE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Oui, quoi qu’il arrive",
+              "value": 0,
+              "isExclusive": false
+            },
+            { "text": "Oui, en général", "value": 1, "isExclusive": false },
+            { "text": "Rarement", "value": 2, "isExclusive": false },
+            { "text": "Jamais", "value": "3", "isExclusive": false }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_017",
+          "questionText": "J’éprouve des sensations de peur et j’ai l’estomac noué",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_016",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_ANXIETE_HAD_ESTOMAC",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Jamais", "value": 0, "isExclusive": false },
+            { "text": "Parfois", "value": 1, "isExclusive": false },
+            { "text": "Assez souvent", "value": 2, "isExclusive": false },
+            { "text": "Très souvent", "value": "3", "isExclusive": false }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_018",
+          "questionText": "J’ai la bougeotte et n’arrive pas à tenir en place",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_017",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_ANXIETE_BOUGEOTTE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Pas du tout", "value": 0, "isExclusive": false },
+            { "text": "Pas tellement", "value": 1, "isExclusive": false },
+            { "text": "Un peu", "value": 2, "isExclusive": false },
+            {
+              "text": "Oui, c’est tout à fait le cas",
+              "value": "3",
+              "isExclusive": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_019",
+          "questionText": "J’éprouve des sensations soudaines de panique",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_018",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_ANXIETE_HAD_PANIQUE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Jamais", "value": 0, "isExclusive": false },
+            { "text": "Pas très souvent", "value": 1, "isExclusive": false },
+            { "text": "Assez souvent", "value": 2, "isExclusive": false },
+            { "text": "Souvent", "value": "3", "isExclusive": false }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_020",
+          "questionText": "Je prends plaisir aux mêmes choses qu’autrefois",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_019",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_DEPRESSION_HAD_PLAISIR",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Oui, tout autant", "value": 0, "isExclusive": false },
+            { "text": "Pas autant", "value": 1, "isExclusive": false },
+            { "text": "Un peu seulement", "value": 2, "isExclusive": false },
+            { "text": "Presque plus", "value": "3", "isExclusive": false }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_021",
+          "questionText": "Je ris facilement et vois le bon côté des choses",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_020",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_DEPRESSION_HAD_RIRE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Autant que par le passé",
+              "value": 0,
+              "isExclusive": false
+            },
+            {
+              "text": "Plus autant qu’avant",
+              "value": 1,
+              "isExclusive": false
+            },
+            {
+              "text": "Vraiment moins qu’avant",
+              "value": 2,
+              "isExclusive": false
+            },
+            { "text": "Plus du tout", "value": "3", "isExclusive": false }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_022",
+          "questionText": "Je suis de bonne humeur",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_021",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_DEPRESSION_HAD_HUMEUR",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "La plupart du temps", "value": 0, "isExclusive": false },
+            { "text": "Assez souvent", "value": 1, "isExclusive": false },
+            { "text": "Rarement", "value": 2, "isExclusive": false },
+            { "text": "Jamais", "value": "3", "isExclusive": false }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_023",
+          "questionText": "J’ai l’impression de fonctionner au ralenti",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_022",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_DEPRESSION_HAD_RALENTI",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Jamais", "value": 0, "isExclusive": false },
+            { "text": "Parfois", "value": 1, "isExclusive": false },
+            { "text": "Très souvent", "value": 2, "isExclusive": false },
+            { "text": "Presque toujours", "value": "3", "isExclusive": false }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_024",
+          "questionText": "Je ne m’intéresse plus à mon apparence",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_023",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_DEPRESSION_HAD_APPARENCE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "J’y prête autant d’attention que par le passé",
+              "value": 0,
+              "isExclusive": false
+            },
+            {
+              "text": "Il se peut que je n’y fasse plus autant attention",
+              "value": 1,
+              "isExclusive": false
+            },
+            {
+              "text": "Je n’y accorde pas autant d’attention que je devrais",
+              "value": 2,
+              "isExclusive": false
+            },
+            { "text": "Plus du tout", "value": "3", "isExclusive": false }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_025",
+          "questionText": "Je me réjouis d’avance à l’idée de faire certaines choses",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_024",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_DEPRESSION_HAD_REJOUIR",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Autant qu’avant", "value": 0, "isExclusive": false },
+            {
+              "text": "Un peu moins qu’avant",
+              "value": 1,
+              "isExclusive": false
+            },
+            { "text": "Bien moins qu’avant", "value": 2, "isExclusive": false },
+            { "text": "Presque jamais", "value": "3", "isExclusive": false }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_026",
+          "questionText": "Je peux prendre plaisir à un bon livre ou à une bonne émission de radio ou de télévision",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_025",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_DEPRESSION_HAD_LIRE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Souvent", "value": 0, "isExclusive": false },
+            { "text": "Parfois", "value": 1, "isExclusive": false },
+            { "text": "Rarement", "value": 2, "isExclusive": false },
+            { "text": "Très rarement", "value": "3", "isExclusive": false }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_027",
+          "questionText": "Choisissez la proposition qui est la plus proche de votre état actuel",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_026",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_SUICIDE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Je ne pense pas à me faire du mal",
+              "value": 0,
+              "isExclusive": false
+            },
+            {
+              "text": "Je pense que la mort me libérerait",
+              "value": 1,
+              "isExclusive": false
+            },
+            {
+              "text": "J'ai des plans précis pour me suicider",
+              "value": 2,
+              "isExclusive": false
+            },
+            {
+              "text": "Si je le pouvais, je me tuerais",
+              "value": "3",
+              "isExclusive": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_028",
+          "questionText": "Irritabilité",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_027",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_INDOLAMINE_IRRITABLE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Symptôme absent", "value": 0, "isExclusive": false },
+            { "text": "Symptôme modéré", "value": 1, "isExclusive": false },
+            { "text": "Symptôme gênant", "value": 2, "isExclusive": false },
+            {
+              "text": "Symptôme très gênant",
+              "value": "3",
+              "isExclusive": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_029",
+          "questionText": "Insatisfait(e), impatient(e), sentiment d’être incompris(e)",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_028",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_INDOLAMINE_IMPATIENT",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Symptôme absent", "value": 0, "isExclusive": false },
+            { "text": "Symptôme modéré", "value": 1, "isExclusive": false },
+            { "text": "Symptôme gênant", "value": 2, "isExclusive": false },
+            {
+              "text": "Symptôme très gênant",
+              "value": "3",
+              "isExclusive": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_030",
+          "questionText": "Intolérance aux contraintes, à la frustration",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_029",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_INDOLAMINE_CONTRAINTE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Symptôme absent", "value": 0, "isExclusive": false },
+            { "text": "Symptôme modéré", "value": 1, "isExclusive": false },
+            { "text": "Symptôme gênant", "value": 2, "isExclusive": false },
+            {
+              "text": "Symptôme très gênant",
+              "value": "3",
+              "isExclusive": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_031",
+          "questionText": "Vulnérable au stress (ne supporte pas)",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_030",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_INDOLAMINE_STRESS",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Symptôme absent", "value": 0, "isExclusive": false },
+            { "text": "Symptôme modéré", "value": 1, "isExclusive": false },
+            { "text": "Symptôme gênant", "value": 2, "isExclusive": false },
+            {
+              "text": "Symptôme très gênant",
+              "value": "3",
+              "isExclusive": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_032",
+          "questionText": "Sautes d’humeur (explose « pour un oui ou pour un non »)",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_031",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_INDOLAMINE_EXPLOSIF",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Symptôme absent", "value": 0, "isExclusive": false },
+            { "text": "Symptôme modéré", "value": 1, "isExclusive": false },
+            { "text": "Symptôme gênant", "value": 2, "isExclusive": false },
+            {
+              "text": "Symptôme très gênant",
+              "value": "3",
+              "isExclusive": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_033",
+          "questionText": "Compulsions alimentaires notamment envies de sucre, surtout en fin d’après-midi et le soir",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_032",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_INDOLAMINE_COMPULSION",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Symptôme absent", "value": 0, "isExclusive": false },
+            { "text": "Symptôme modéré", "value": 1, "isExclusive": false },
+            { "text": "Symptôme gênant", "value": 2, "isExclusive": false },
+            {
+              "text": "Symptôme très gênant",
+              "value": "3",
+              "isExclusive": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_034",
+          "questionText": "Tendance à la dépendance (tabac, café, alcool...)",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_033",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_INDOLAMINE_DEPENDANCE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Symptôme absent", "value": 0, "isExclusive": false },
+            { "text": "Symptôme modéré", "value": 1, "isExclusive": false },
+            { "text": "Symptôme gênant", "value": 2, "isExclusive": false },
+            {
+              "text": "Symptôme très gênant",
+              "value": "3",
+              "isExclusive": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_035",
+          "questionText": "Difficultés à trouver le sommeil et à le retrouver si réveil nocturne",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_034",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_INDOLAMINE_SOMMEIL",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Symptôme absent", "value": 0, "isExclusive": false },
+            { "text": "Symptôme modéré", "value": 1, "isExclusive": false },
+            { "text": "Symptôme gênant", "value": 2, "isExclusive": false },
+            {
+              "text": "Symptôme très gênant",
+              "value": "3",
+              "isExclusive": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_036",
+          "questionText": "Fatigabilité",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_035",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_CATECHOLIMINE_FATIGABILITE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Symptôme absent", "value": 0, "isExclusive": false },
+            { "text": "Symptôme modéré", "value": 1, "isExclusive": false },
+            { "text": "Symptôme gênant", "value": 2, "isExclusive": false },
+            {
+              "text": "Symptôme très gênant",
+              "value": "3",
+              "isExclusive": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_037",
+          "questionText": "Difficulté à entreprendre, à prendre des décisions",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_036",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_CATECHOLIMINE_ENTREPRENDRE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Symptôme absent", "value": 0, "isExclusive": false },
+            { "text": "Symptôme modéré", "value": 1, "isExclusive": false },
+            { "text": "Symptôme gênant", "value": 2, "isExclusive": false },
+            {
+              "text": "Symptôme très gênant",
+              "value": "3",
+              "isExclusive": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_038",
+          "questionText": "Difficulté à poursuivre une action, fonctionnement au ralenti",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_037",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_CATECHOLIMINE_ACTION",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Symptôme absent", "value": 0, "isExclusive": false },
+            { "text": "Symptôme modéré", "value": 1, "isExclusive": false },
+            { "text": "Symptôme gênant", "value": 2, "isExclusive": false },
+            {
+              "text": "Symptôme très gênant",
+              "value": "3",
+              "isExclusive": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_039",
+          "questionText": "Diminution de l’intérêt pour le travail, manque de motivation",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_038",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_CATECHOLIMINE_INTERET",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Symptôme absent", "value": 0, "isExclusive": false },
+            { "text": "Symptôme modéré", "value": 1, "isExclusive": false },
+            { "text": "Symptôme gênant", "value": 2, "isExclusive": false },
+            {
+              "text": "Symptôme très gênant",
+              "value": "3",
+              "isExclusive": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_040",
+          "questionText": "Difficultés de concentration, de mémorisation",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_039",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_CATECHOLIMINE_CONCENTRATION",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Symptôme absent", "value": 0, "isExclusive": false },
+            { "text": "Symptôme modéré", "value": 1, "isExclusive": false },
+            { "text": "Symptôme gênant", "value": 2, "isExclusive": false },
+            {
+              "text": "Symptôme très gênant",
+              "value": "3",
+              "isExclusive": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_041",
+          "questionText": "Repli sur soi-même, difficultés à faire des projets",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_040",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_CATECHOLIMINE_REPLI",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Symptôme absent", "value": 0, "isExclusive": false },
+            { "text": "Symptôme modéré", "value": 1, "isExclusive": false },
+            { "text": "Symptôme gênant", "value": 2, "isExclusive": false },
+            {
+              "text": "Symptôme très gênant",
+              "value": "3",
+              "isExclusive": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_042",
+          "questionText": "Perte de confiance en soi",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_041",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_CATECHOLIMINE_CONFIANCE_SOI",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Symptôme absent", "value": 0, "isExclusive": false },
+            { "text": "Symptôme modéré", "value": 1, "isExclusive": false },
+            { "text": "Symptôme gênant", "value": 2, "isExclusive": false },
+            {
+              "text": "Symptôme très gênant",
+              "value": "3",
+              "isExclusive": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_043",
+          "questionText": "Baisse de la libido, de l’envie...",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_042",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_CATECHOLIMINE_LIBIDO",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Symptôme absent", "value": 0, "isExclusive": false },
+            { "text": "Symptôme modéré", "value": 1, "isExclusive": false },
+            { "text": "Symptôme gênant", "value": 2, "isExclusive": false },
+            {
+              "text": "Symptôme très gênant",
+              "value": "3",
+              "isExclusive": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_044",
+          "questionText": "En général, avez-vous des difficultés à vous faire des amis et à les garder ?",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_043",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_PERSONNALITE_SAPAS_AMI",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Non", "value": 0, "isExclusive": false },
+            { "text": "Oui", "value": "1", "isExclusive": false }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_045",
+          "questionText": "Est-ce que cela s’applique « la plupart du temps » et dans la « plupart des situations » ? ",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_044",
+          "triggeredValue": "Oui",
+          "triggeredDefault": "Non",
+          "tag": "S_PSY_SYMP_PERSONNALITE_SAPAS_AMI_2",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Non", "value": 0, "isExclusive": false },
+            { "text": "Oui", "value": "1", "isExclusive": false }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_046",
+          "questionText": "Vous décririez-vous comme quelqu'un de solitaire ?",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_045",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_PERSONNALITE_SAPAS_SOLITAIRE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Non", "value": 0, "isExclusive": false },
+            { "text": "Oui", "value": "1", "isExclusive": false }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_047",
+          "questionText": "Est-ce que cela s’applique « la plupart du temps » et dans la « plupart des situations » ? ",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_046",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_PERSONNALITE_SAPAS_SOLITAIRE_2",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Non", "value": 0, "isExclusive": false },
+            { "text": "Oui", "value": "1", "isExclusive": false }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_048",
+          "questionText": "En général, faites-vous confiance aux autres ?",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_047",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_PERSONNALITE_SAPAS_CONFIANCE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Non", "value": 0, "isExclusive": false },
+            { "text": "Oui", "value": "1", "isExclusive": false }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_049",
+          "questionText": "Est-ce que cela s’applique « la plupart du temps » et dans la « plupart des situations » ? ",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_048",
+          "triggeredValue": "Non",
+          "triggeredDefault": "Oui",
+          "tag": "S_PSY_SYMP_PERSONNALITE_SAPAS_CONFIANCE_2",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Non", "value": 0, "isExclusive": false },
+            { "text": "Oui", "value": "1", "isExclusive": false }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_050",
+          "questionText": "Habituellement, est-ce que vous perdez facilement votre calme ?",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_049",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_PERSONNALITE_SAPAS_CALME",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Non", "value": 0, "isExclusive": false },
+            { "text": "Oui", "value": "1", "isExclusive": false }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_051",
+          "questionText": "Est-ce que cela s’applique « la plupart du temps » et dans la « plupart des situations » ? ",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_050",
+          "triggeredValue": "Oui",
+          "triggeredDefault": "Non",
+          "tag": "S_PSY_SYMP_PERSONNALITE_SAPAS_CALME_2",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Non", "value": 0, "isExclusive": false },
+            { "text": "Oui", "value": "1", "isExclusive": false }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_052",
+          "questionText": "Habituellement, êtes-vous quelqu'un d'impulsif ?",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_051",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_PERSONNALITE_SAPAS_IMPULSIF",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Non", "value": 0, "isExclusive": false },
+            { "text": "Oui", "value": "1", "isExclusive": false }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_053",
+          "questionText": "Est-ce que cela s’applique « la plupart du temps » et dans la « plupart des situations » ? ",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_052",
+          "triggeredValue": "Oui",
+          "triggeredDefault": "Non",
+          "tag": "S_PSY_SYMP_PERSONNALITE_SAPAS_IMPULSIF_2",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Non", "value": 0, "isExclusive": false },
+            { "text": "Oui", "value": "1", "isExclusive": false }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_054",
+          "questionText": "Habituellement, êtes-vous quelqu'un d'inquiet ?",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_053",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_PERSONNALITE_SAPAS_INQUIET",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Non", "value": 0, "isExclusive": false },
+            { "text": "Oui", "value": "1", "isExclusive": false }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_055",
+          "questionText": "Est-ce que cela s’applique « la plupart du temps » et dans la « plupart des situations » ? ",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_054",
+          "triggeredValue": "Oui",
+          "triggeredDefault": "Non",
+          "tag": "S_PSY_SYMP_PERSONNALITE_SAPAS_INQUIET_2",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Non", "value": 0, "isExclusive": false },
+            { "text": "Oui", "value": "1", "isExclusive": false }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_056",
+          "questionText": "En général, dépendez-vous beaucoup des autres ?",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_055",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_PERSONNALITE_SAPAS_DEPENDANCE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Non", "value": 0, "isExclusive": false },
+            { "text": "Oui", "value": "1", "isExclusive": false }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_057",
+          "questionText": "Est-ce que cela s’applique « la plupart du temps » et dans la « plupart des situations » ? ",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_056",
+          "triggeredValue": "Oui",
+          "triggeredDefault": "Non",
+          "tag": "S_PSY_SYMP_PERSONNALITE_SAPAS_DEPENDANCE_2",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Non", "value": 0, "isExclusive": false },
+            { "text": "Oui", "value": "1", "isExclusive": false }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_058",
+          "questionText": "En général, êtes-vous un(e) perfectionniste ?",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_057",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_SYMP_PERSONNALITE_SAPAS_PERFECTIONNISTE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Non", "value": 0, "isExclusive": false },
+            { "text": "Oui", "value": "1", "isExclusive": false }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_059",
+          "questionText": "Est-ce que cela s’applique « la plupart du temps » et dans la « plupart des situations » ? ",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_058",
+          "triggeredValue": "Oui",
+          "triggeredDefault": "Non",
+          "tag": "S_PSY_SYMP_PERSONNALITE_SAPAS_PERFECTIONNISTE_2",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            { "text": "Non", "value": 0, "isExclusive": false },
+            { "text": "Oui", "value": "1", "isExclusive": false }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_060",
+          "questionText": "Avez-vous actuellement des soins en lien avec  votre équilibre émotionnel et/ou votre santé psychologique? (plusieurs réponses possibles)",
+          "type": "MULTI_CHOICES",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_Psychiatrie_059",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_PSY_GLOBAL_SOINS",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Hospitalisation de jour en service de soins psychiatriques",
+              "value": "hospitalisation de jour",
+              "isExclusive": false
+            },
+            {
+              "text": "Consultations avec un psychiatre",
+              "value": "consultations psychiatre",
+              "isExclusive": false
+            },
+            {
+              "text": "Consultations avec un psychologue",
+              "value": "consultations psychologue",
+              "isExclusive": false
+            },
+            {
+              "text": "Psychanalyse",
+              "value": "psychanalyse",
+              "isExclusive": false
+            },
+            {
+              "text": "Psychothérapie comportementale et cognitive (TCC)",
+              "value": "tcc",
+              "isExclusive": false
+            },
+            { "text": "Hypnose", "value": "hypnose", "isExclusive": false },
+            { "text": "EMDR", "value": "EMDR", "isExclusive": false },
+            { "text": "Autres soins", "value": "autres", "isExclusive": false },
+            { "text": "Aucun soin", "value": "aucun", "isExclusive": true }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_Psychiatrie_061",
+          "questionText": "Quel(s) type(s) de prise en charge psychologique avez-vous eu ?",
+          "type": "TEXT",
+          "isTriggered": true,
+          "tag": "S_PSY_GLOBAL_SOINS_AUTRES",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [{ "regex": "" }]
+        }
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "tagOID": "S_PSY",
+      "tagTitle": "PSY",
+      "tagDescription": "Évaluation Psychiatrique Générale",
+      "tagType": "SCORE",
+      "sunburstName": "PSY",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1, 2, 3],
+      "rangeMax": [0, 1, 2, 3],
+      "parent": "",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD",
+      "tagTitle": "Antécédents psychiatriques",
+      "tagDescription": "Antécédents psychiatriques",
+      "tagType": "SCORE",
+      "sunburstName": "ATCD",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 300],
+      "parent": "S_PSY",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_ANXIETE",
+      "tagTitle": "ATCD de trouble anxieux",
+      "tagDescription": "ATCD de trouble anxieux",
+      "tagType": "SCORE",
+      "sunburstName": "ATCD TR ANX",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 300],
+      "parent": "S_PSY_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_ANXIETE_ANXIETE_SEPARATION",
+      "tagTitle": "Anxiété de séparation",
+      "tagDescription": "Anxiété de séparation",
+      "tagType": "SCORE",
+      "sunburstName": "ANX SEPAR",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_ANXIETE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_ANXIETE_PANIQUE ",
+      "tagTitle": "Trouble panique",
+      "tagDescription": "Trouble panique",
+      "tagType": "SCORE",
+      "sunburstName": "PANIQUE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_ANXIETE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_ANXIETE_STRESS_POST_TRAUMATIQUE",
+      "tagTitle": "Stress post-traumatique",
+      "tagDescription": "Stress post-traumatique",
+      "tagType": "SCORE",
+      "sunburstName": "POST TRAUM",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_ANXIETE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_ANXIETE_TAG",
+      "tagTitle": "Trouble anxieux généralisé",
+      "tagDescription": "Trouble anxieux généralisé",
+      "tagType": "SCORE",
+      "sunburstName": "TAG",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_ANXIETE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_ANXIETE_PHOBIE",
+      "tagTitle": "Trouble phobique spécifique",
+      "tagDescription": "Trouble phobique spécifique",
+      "tagType": "SCORE",
+      "sunburstName": "PHOBIE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_ANXIETE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_ANXIETE_PHOBIE_SOCIALE",
+      "tagTitle": "Anxiété sociale",
+      "tagDescription": "Anxiété sociale",
+      "tagType": "SCORE",
+      "sunburstName": "PHOB SOC",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_ANXIETE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_ANXIETE_HYPOCHONDRIE",
+      "tagTitle": "Hypochondrie",
+      "tagDescription": "Hypochondrie",
+      "tagType": "SCORE",
+      "sunburstName": "HYPOCHON",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_ANXIETE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_ANXIETE_TOC",
+      "tagTitle": "Trouble(s) obsessionnel(s) compulsif(s)",
+      "tagDescription": "Trouble(s) obsessionnel(s) compulsif(s)",
+      "tagType": "SCORE",
+      "sunburstName": "TOC",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_ANXIETE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_DEPRESSION",
+      "tagTitle": "ATCD de troubles dépressifs ",
+      "tagDescription": "ATCD de troubles dépressifs ",
+      "tagType": "SCORE",
+      "sunburstName": "ATCD TR DEPR",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_DEPRESSION_ISOLEE",
+      "tagTitle": "Dépression grave isolée",
+      "tagDescription": "Dépression grave isolée",
+      "tagType": "SCORE",
+      "sunburstName": "ISOLEE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_DEPRESSION",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_DEPRESSION_RECURRENTE",
+      "tagTitle": "Dépressions récurrentes",
+      "tagDescription": "Dépressions récurrentes",
+      "tagType": "SCORE",
+      "sunburstName": "RECURRENTE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_DEPRESSION",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_DEPRESSION_PERSISTANTE",
+      "tagTitle": "Dépression persistante",
+      "tagDescription": "Dépression persistante",
+      "tagType": "SCORE",
+      "sunburstName": "DYSTHYMIE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_DEPRESSION",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_DEPRESSION_BIPOLAIRE",
+      "tagTitle": "Dépression bipolaire",
+      "tagDescription": "Dépression bipolaire",
+      "tagType": "SCORE",
+      "sunburstName": "BIPOL",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_DEPRESSION",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_DEPRESSION_CYCLOTHYMIE",
+      "tagTitle": "Cyclothymie",
+      "tagDescription": "Cyclothymie",
+      "tagType": "SCORE",
+      "sunburstName": "CYCLOTHYM",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_DEPRESSION",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_DEPRESSION_SAISONNIERE",
+      "tagTitle": "Dépression saisonnière",
+      "tagDescription": "Dépression saisonnière",
+      "tagType": "SCORE",
+      "sunburstName": "SAISON",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_DEPRESSION",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_DEPRESSION_SUICIDE",
+      "tagTitle": "Dépression avec tentative de suicide",
+      "tagDescription": "Dépression avec tentative de suicide",
+      "tagType": "SCORE",
+      "sunburstName": "SUICIDE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_DEPRESSION",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_TRAITEMENT",
+      "tagTitle": "Antécédent(s) de traitement(s)",
+      "tagDescription": "Antécédent(s) de traitement(s)",
+      "tagType": "SCORE",
+      "sunburstName": "ATCD TRAIT",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_TRAITEMENT_PSYCHIATRE",
+      "tagTitle": "Consultations psychiatre",
+      "tagDescription": "Consultations psychiatre",
+      "tagType": "SCORE",
+      "sunburstName": "PSYCHIATRE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_TRAITEMENT",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_TRAITEMENT_PSYCHOLOGUE",
+      "tagTitle": "Consultations psychologue",
+      "tagDescription": "Consultations psychologue",
+      "tagType": "SCORE",
+      "sunburstName": "PSYCHOLOGUE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_TRAITEMENT",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_TRAITEMENT_PSYCHANALYSE",
+      "tagTitle": "Psychanalyse",
+      "tagDescription": "Psychanalyse",
+      "tagType": "SCORE",
+      "sunburstName": "PSYCHANALYSE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_TRAITEMENT",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_TRAITEMENT_PSYCHOTCC",
+      "tagTitle": "Psychothérapie comportementale et cognitive",
+      "tagDescription": "Psychothérapie comportementale et cognitive",
+      "tagType": "SCORE",
+      "sunburstName": "PSYCHOTCC",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_TRAITEMENT",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_TRAITEMENT_HYPNOSE",
+      "tagTitle": "Hypnose",
+      "tagDescription": "Hypnose",
+      "tagType": "SCORE",
+      "sunburstName": "HYPNO",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_TRAITEMENT",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_TRAITEMENT_EMDR",
+      "tagTitle": "EMDR",
+      "tagDescription": "EMDR",
+      "tagType": "SCORE",
+      "sunburstName": "EMDR",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_TRAITEMENT",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_TRAITEMENT_AUTRES",
+      "tagTitle": "Autre(s) traitement(s)",
+      "tagDescription": "Autre(s) traitement(s)",
+      "tagType": "SCORE",
+      "sunburstName": "AUTRES",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_TRAITEMENT",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_NEURO_DEV",
+      "tagTitle": "Trouble(s) neuro-développemental(s)",
+      "tagDescription": "Trouble(s) neuro-développemental(s)",
+      "tagType": "SCORE",
+      "sunburstName": "ATCD TR NEURO",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 15],
+      "parent": "S_PSY_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_NEURO_DEV_TDHA",
+      "tagTitle": "TDHA",
+      "tagDescription": "TDHA",
+      "tagType": "SCORE",
+      "sunburstName": "TDHA",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_NEURO_DEV",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_NEURO_DEV_IMPULSIVITE",
+      "tagTitle": "Impulsivité, agressivité",
+      "tagDescription": "Impulsivité, agressivité",
+      "tagType": "SCORE",
+      "sunburstName": "IMPULSIV",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_NEURO_DEV",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_NEURO_DEV_DYSLEXIE",
+      "tagTitle": "Dyslexie",
+      "tagDescription": "Dyslexie",
+      "tagType": "SCORE",
+      "sunburstName": "DYSLEX",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_NEURO_DEV",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_NEURO_DEV_DYSORTHO",
+      "tagTitle": "Dysorthographie",
+      "tagDescription": "Dysorthographie",
+      "tagType": "SCORE",
+      "sunburstName": "DYSORTHO",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_NEURO_DEV",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_NEURO_DEV_DYSCALC",
+      "tagTitle": "Dyscalculie",
+      "tagDescription": "Dyscalculie",
+      "tagType": "SCORE",
+      "sunburstName": "DYSCALC",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_NEURO_DEV",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_NEURO_DEV_DYSPRAXIE",
+      "tagTitle": "Dyspraxie",
+      "tagDescription": "Dyspraxie",
+      "tagType": "SCORE",
+      "sunburstName": "DYSPRAX",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_NEURO_DEV",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_NEURO_DEV_AUTRE",
+      "tagTitle": "Autre(s) trouble(s) neuro-développemental",
+      "tagDescription": "Autre(s) trouble(s) neuro-développemental",
+      "tagType": "SCORE",
+      "sunburstName": "AUTRES",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_NEURO_DEV",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_PERSONNALITE",
+      "tagTitle": "ATCD de troubles de la personnalité",
+      "tagDescription": "ATCD de troubles de la personnalité",
+      "tagType": "SCORE",
+      "sunburstName": "ATCD TR PERSO",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_ANXIETE_DATE",
+      "tagTitle": "Date diagnostique trouble anxieux",
+      "tagDescription": "Date diagnostique trouble anxieux",
+      "tagType": "SCORE",
+      "sunburstName": "DATE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_ANXIETE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_DEPRESSION_DATE",
+      "tagTitle": "Date diagnostic dépression",
+      "tagDescription": "Date diagnostic dépression",
+      "tagType": "SCORE",
+      "sunburstName": "DATE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_DEPRESSION",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_DEPRESSION_SUICIDE_DATE",
+      "tagTitle": "Date tentative de suicide",
+      "tagDescription": "Date tentative de suicde",
+      "tagType": "SCORE",
+      "sunburstName": "DATE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_DEPRESSION_SUICIDE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_TRAITEMENT_DATE",
+      "tagTitle": "Date premier traitement",
+      "tagDescription": "Date premier traitement",
+      "tagType": "SCORE",
+      "sunburstName": "DATE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_TRAITEMENT",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_NEURO_DEV_DATE",
+      "tagTitle": "Date diagnostic de trouble neuro-développemental",
+      "tagDescription": "Date diagnostic de trouble neuro-développemental ",
+      "tagType": "SCORE",
+      "sunburstName": "DATE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_NEURO_DEV",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_PERSONNALITE_DATE",
+      "tagTitle": "Date diagnostic trouble de personnalité",
+      "tagDescription": "Date diagnostic trouble de personnalité",
+      "tagType": "SCORE",
+      "sunburstName": "DATE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_PERSONNALITE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_PERSONNALITE_PARANOIDE",
+      "tagTitle": "Paranoïde",
+      "tagDescription": "Paranoïde",
+      "tagType": "SCORE",
+      "sunburstName": "PARANO",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_PERSONNALITE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_PERSONNALITE_SCHIZOIDE",
+      "tagTitle": "Schizoïde",
+      "tagDescription": "Schizoïde",
+      "tagType": "SCORE",
+      "sunburstName": "SCHIZOIDE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_PERSONNALITE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_PERSONNALITE_SCHIZOTYPIQUE",
+      "tagTitle": "Schizotypique",
+      "tagDescription": "Schizotypique",
+      "tagType": "SCORE",
+      "sunburstName": "SCHIZOTYP",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_PERSONNALITE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_PERSONNALITE_ANTISOCIALE",
+      "tagTitle": "Antisociale",
+      "tagDescription": "Antisociale",
+      "tagType": "SCORE",
+      "sunburstName": "ANTISOC",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_PERSONNALITE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_PERSONNALITE_BORDERLINE",
+      "tagTitle": "Borderline",
+      "tagDescription": "Borderline",
+      "tagType": "SCORE",
+      "sunburstName": "BORDERLINE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_PERSONNALITE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_PERSONNALITE_HISTRIONIQUE",
+      "tagTitle": "Histrionique",
+      "tagDescription": "Histrionique",
+      "tagType": "SCORE",
+      "sunburstName": "HISTRIONIQUE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_PERSONNALITE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_PERSONNALITE_NARCISSIQUE",
+      "tagTitle": "Narcissique",
+      "tagDescription": "Narcissique",
+      "tagType": "SCORE",
+      "sunburstName": "NARCISS",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_PERSONNALITE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_PERSONNALITE_EVITANT",
+      "tagTitle": "Évitante",
+      "tagDescription": "Évitante",
+      "tagType": "SCORE",
+      "sunburstName": "EVITANT",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_PERSONNALITE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_PERSONNALITE_DEPENDANT",
+      "tagTitle": "Dépendante",
+      "tagDescription": "Dépendante",
+      "tagType": "SCORE",
+      "sunburstName": "DEPENDANT",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_PERSONNALITE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_ATCD_PERSONNALITE_OBSESSIONNEL",
+      "tagTitle": "Obsessionnelle compulsive",
+      "tagDescription": "Obsessionnelle compulsive",
+      "tagType": "SCORE",
+      "sunburstName": "OBSE-COMP",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_PERSONNALITE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP",
+      "tagTitle": "Symptôme(s)",
+      "tagDescription": "Symptôme(s)",
+      "tagType": "SCORE",
+      "sunburstName": "SYMP",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_ATCD_PERSONNALITE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_ANXIETE",
+      "tagTitle": "Symptômes d'anxiété",
+      "tagDescription": "Symptômes d'anxiété",
+      "tagType": "SCORE",
+      "sunburstName": "SYMP ANX",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_SYMP",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_ANXIETE_HAD_TENDU",
+      "tagTitle": "Anxiété tension",
+      "tagDescription": "Anxiété tension",
+      "tagType": "SCORE",
+      "sunburstName": "TENDU",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_SYMP_ANXIETE",
+      "children": []
+    },
+    {
+      "tagOID": "S_SYMP_ANXIETE_HAD_PEUR",
+      "tagTitle": "Symptômes anxiété peur",
+      "tagDescription": "Symptômes anxiété peur",
+      "tagType": "SCORE",
+      "sunburstName": "PEUR",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1, 2, 3],
+      "rangeMax": [0, 1, 2, 3],
+      "parent": "S_PSY_SYMP_ANXIETE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_ANXIETE_HAD_SOUCI",
+      "tagTitle": "Symptômes anxiété souci",
+      "tagDescription": "Symptômes anxiété souci",
+      "tagType": "SCORE",
+      "sunburstName": "SOUCI",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1, 2, 3],
+      "rangeMax": [0, 1, 2, 3],
+      "parent": "S_PSY_SYMP_ANXIETE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_ANXIETE_HAD_DECONTRACTE",
+      "tagTitle": "Symptômes anxiété décontraction",
+      "tagDescription": "Symptômes anxiété décontraction",
+      "tagType": "SCORE",
+      "sunburstName": "DECONTRACTE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1, 2, 3],
+      "rangeMax": [0, 1, 2, 3],
+      "parent": "S_PSY_SYMP_ANXIETE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_ANXIETE_HAD_ESTOMAC",
+      "tagTitle": "Symptômes anxiété estomac",
+      "tagDescription": "Symptômes anxiété estomac",
+      "tagType": "SCORE",
+      "sunburstName": "ESTOMAC",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1, 2, 3],
+      "rangeMax": [0, 1, 2, 3],
+      "parent": "S_PSY_SYMP_ANXIETE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_ANXIETE_BOUGEOTTE",
+      "tagTitle": "Symptômes anxiété bougeotte",
+      "tagDescription": "Symptômes anxiété bougeotte",
+      "tagType": "SCORE",
+      "sunburstName": "BOUGEOTTE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1, 2, 3],
+      "rangeMax": [0, 1, 2, 3],
+      "parent": "S_PSY_SYMP_ANXIETE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_ANXIETE_HAD_PANIQUE",
+      "tagTitle": "Symptômes anxiété panique",
+      "tagDescription": "Symptômes anxiété panique",
+      "tagType": "SCORE",
+      "sunburstName": "PANIQUE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1, 2, 3],
+      "rangeMax": [0, 1, 2, 3],
+      "parent": "S_PSY_SYMP_ANXIETE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_DEPRESSION",
+      "tagTitle": "Symptômes de dépression",
+      "tagDescription": "Symptômes de dépression",
+      "tagType": "SCORE",
+      "sunburstName": "DEPR",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 8, 11, 15],
+      "rangeMax": [7, 10, 14, 6],
+      "parent": "S_PSY_SYMP",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_DEPRESSION_HAD_PLAISIR",
+      "tagTitle": "Symptômes dépression plaisir",
+      "tagDescription": "Symptômes dépression plaisir",
+      "tagType": "SCORE",
+      "sunburstName": "PLAISIR",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 8, 11, 15],
+      "rangeMax": [7, 10, 14, 6],
+      "parent": "S_PSY_SYMP_DEPRESSION",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_DEPRESSION_HAD_RIRE",
+      "tagTitle": "Symptômes dépression rire",
+      "tagDescription": "Symptômes dépression rire",
+      "tagType": "SCORE",
+      "sunburstName": "RIRE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1, 2, 3],
+      "rangeMax": [0, 1, 2, 3],
+      "parent": "S_PSY_SYMP_DEPRESSION",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_DEPRESSION_HAD_HUMEUR",
+      "tagTitle": "Symptômes dépression humeur",
+      "tagDescription": "Symptômes dépression humeur",
+      "tagType": "SCORE",
+      "sunburstName": "HUMEUR",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1, 2, 3],
+      "rangeMax": [0, 1, 2, 3],
+      "parent": "S_PSY_SYMP_DEPRESSION",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_DEPRESSION_HAD_RALENTI",
+      "tagTitle": "Symptômes dépression ralenti",
+      "tagDescription": "Symptômes dépression ralenti",
+      "tagType": "SCORE",
+      "sunburstName": "RALENTI",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1, 2, 3],
+      "rangeMax": [0, 1, 2, 3],
+      "parent": "S_PSY_SYMP_DEPRESSION",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_DEPRESSION_HAD_APPARENCE",
+      "tagTitle": "Symptômes dépression apparence",
+      "tagDescription": "Symptômes dépression apparence",
+      "tagType": "SCORE",
+      "sunburstName": "APPARENCE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1, 2, 3],
+      "rangeMax": [0, 1, 2, 3],
+      "parent": "S_PSY_SYMP_DEPRESSION",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_DEPRESSION_HAD_REJOUIR",
+      "tagTitle": "Symptômes dépression réjouissance",
+      "tagDescription": "Symptômes dépression réjouissance",
+      "tagType": "SCORE",
+      "sunburstName": "REJOUIR",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1, 2, 3],
+      "rangeMax": [0, 1, 2, 3],
+      "parent": "S_PSY_SYMP_DEPRESSION",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_DEPRESSION_HAD_LIRE",
+      "tagTitle": "Symptômes dépression lecture",
+      "tagDescription": "Symptômes dépression lecture",
+      "tagType": "SCORE",
+      "sunburstName": "LIRE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1, 2, 3],
+      "rangeMax": [0, 1, 2, 3],
+      "parent": "S_PSY_SYMP_DEPRESSION",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_SUICIDE",
+      "tagTitle": "Alerte suicide",
+      "tagDescription": "Alerte suicide",
+      "tagType": "SCORE",
+      "sunburstName": "ALRT SUIC",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1, 2, 3],
+      "rangeMax": [0, 1, 2, 3],
+      "parent": "S_PSY_SYMP",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_INDOLAMINE",
+      "tagTitle": "Suspicion message sérotoninergique défaillant",
+      "tagDescription": "Suspicion message sérotoninergique défaillant",
+      "tagType": "SCORE",
+      "sunburstName": "INDOL",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 6, 11, 17],
+      "rangeMax": [5, 10, 16, 24],
+      "parent": "S_PSY_SYMP",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_INDOLAMINE_IRRITABLE",
+      "tagTitle": "Symptômes indolamine irritable",
+      "tagDescription": "Symptômes indolamine irritable",
+      "tagType": "SCORE",
+      "sunburstName": "IRRITABLE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 6, 11, 17],
+      "rangeMax": [5, 10, 16, 24],
+      "parent": "S_PSY_SYMP_INDOLAMINE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_INDOLAMINE_IMPATIENT",
+      "tagTitle": "Symptômes indolamine impatient",
+      "tagDescription": "Symptômes indolamine impatient",
+      "tagType": "SCORE",
+      "sunburstName": "",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1, 2, 3],
+      "rangeMax": [0, 1, 2, 3],
+      "parent": "S_PSY_SYMP_INDOLAMINE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_INDOLAMINE_CONTRAINTE",
+      "tagTitle": "Symptômes indolamine contrainte",
+      "tagDescription": "Symptômes indolamine contrainte",
+      "tagType": "SCORE",
+      "sunburstName": "CONTRAINTE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1, 2, 3],
+      "rangeMax": [0, 1, 2, 3],
+      "parent": "S_PSY_SYMP_INDOLAMINE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_INDOLAMINE_STRESS",
+      "tagTitle": "Symptômes indolamine stress",
+      "tagDescription": "Symptômes indolamine stress",
+      "tagType": "SCORE",
+      "sunburstName": "STRESS",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1, 2, 3],
+      "rangeMax": [0, 1, 2, 3],
+      "parent": "S_PSY_SYMP_INDOLAMINE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_INDOLAMINE_EXPLOSIF",
+      "tagTitle": "Symptômes indolamine explosif",
+      "tagDescription": "Symptômes indolamine explosif",
+      "tagType": "SCORE",
+      "sunburstName": "EXPLOSIF",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1, 2, 3],
+      "rangeMax": [0, 1, 2, 3],
+      "parent": "S_PSY_SYMP_INDOLAMINE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_INDOLAMINE_COMPULSION",
+      "tagTitle": "Symptômes indolamine compulsion",
+      "tagDescription": "Symptômes indolamine compulsion",
+      "tagType": "SCORE",
+      "sunburstName": "COMPULSION",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1, 2, 3],
+      "rangeMax": [0, 1, 2, 3],
+      "parent": "S_PSY_SYMP_INDOLAMINE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_INDOLAMINE_DEPENDANCE",
+      "tagTitle": "Symptômes indolamine dépendance",
+      "tagDescription": "Symptômes indolamine dépendance",
+      "tagType": "SCORE",
+      "sunburstName": "DEPENDANCE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1, 2, 3],
+      "rangeMax": [0, 1, 2, 3],
+      "parent": "S_PSY_SYMP_INDOLAMINE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_INDOLAMINE_SOMMEIL",
+      "tagTitle": "Symptômes indolamine sommeil",
+      "tagDescription": "Symptômes indolamine sommeil",
+      "tagType": "SCORE",
+      "sunburstName": "SOMMEIL",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1, 2, 3],
+      "rangeMax": [0, 1, 2, 3],
+      "parent": "S_PSY_SYMP_INDOLAMINE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_CATECHOLIMINE",
+      "tagTitle": "Suspicion message dopaminergique et noradrénergique défaillant",
+      "tagDescription": "Suspicion message dopaminergique et noradrénergique défaillant catecholimine",
+      "tagType": "SCORE",
+      "sunburstName": "CATECH",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 6, 11, 17],
+      "rangeMax": [5, 10, 16, 24],
+      "parent": "S_PSY_SYMP",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_CATECHOLIMINE_FATIGABILITE",
+      "tagTitle": "Symptômes catecholimine fatigabilité",
+      "tagDescription": "Symptômes catecholimine fatigabilité",
+      "tagType": "SCORE",
+      "sunburstName": "FATIGABILITE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 6, 11, 17],
+      "rangeMax": [5, 10, 16, 24],
+      "parent": "S_PSY_SYMP_CATECHOLIMINE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_CATECHOLIMINE_ENTREPRENDRE",
+      "tagTitle": "Symptômes catecholimine entreprendre",
+      "tagDescription": "Symptômes catecholimine entreprendre",
+      "tagType": "SCORE",
+      "sunburstName": "ENTREPRENDRE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1, 2, 3],
+      "rangeMax": [0, 1, 2, 3],
+      "parent": "S_PSY_SYMP_CATECHOLIMINE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_CATECHOLIMINE_ACTION",
+      "tagTitle": "Symptômes catecholimine action",
+      "tagDescription": "Symptômes catecholimine action",
+      "tagType": "SCORE",
+      "sunburstName": "ACTION",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1, 2, 3],
+      "rangeMax": [0, 1, 2, 3],
+      "parent": "S_PSY_SYMP_CATECHOLIMINE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_CATECHOLIMINE_INTERET",
+      "tagTitle": "Symptômes catecholimine intérêt",
+      "tagDescription": "Symptômes catecholimine intérêt",
+      "tagType": "SCORE",
+      "sunburstName": "INTERET",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1, 2, 3],
+      "rangeMax": [0, 1, 2, 3],
+      "parent": "S_PSY_SYMP_CATECHOLIMINE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_CATECHOLIMINE_CONCENTRATION",
+      "tagTitle": "Symptômes catecholimine concentration",
+      "tagDescription": "Symptômes catecholimine concentration",
+      "tagType": "SCORE",
+      "sunburstName": "CONCENTRATION",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1, 2, 3],
+      "rangeMax": [0, 1, 2, 3],
+      "parent": "S_PSY_SYMP_CATECHOLIMINE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_CATECHOLIMINE_REPLI",
+      "tagTitle": "Symptômes catecholimine repli",
+      "tagDescription": "Symptômes catecholimine repli",
+      "tagType": "SCORE",
+      "sunburstName": "REPLI",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1, 2, 3],
+      "rangeMax": [0, 1, 2, 3],
+      "parent": "S_PSY_SYMP_CATECHOLIMINE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_CATECHOLIMINE_CONFIANCE_SOI",
+      "tagTitle": "Symptômes catecholimine confiance en soi",
+      "tagDescription": "Symptômes catecholimine confiance en soi",
+      "tagType": "SCORE",
+      "sunburstName": "CONFIANCE_SOI",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1, 2, 3],
+      "rangeMax": [0, 1, 2, 3],
+      "parent": "S_PSY_SYMP_CATECHOLIMINE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_CATECHOLIMINE_LIBIDO",
+      "tagTitle": "Symptômes catecholimine libido",
+      "tagDescription": "Symptômes catecholimine libido",
+      "tagType": "SCORE",
+      "sunburstName": "LIBIDO",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1, 2, 3],
+      "rangeMax": [0, 1, 2, 3],
+      "parent": "S_PSY_SYMP_CATECHOLIMINE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_PERSONNALITE",
+      "tagTitle": "Évaluation personnalité",
+      "tagDescription": "Évaluation personnalité",
+      "tagType": "SCORE",
+      "sunburstName": "SAPAS",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 3],
+      "rangeMax": [2, 8],
+      "parent": "S_PSY_SYMP",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_AMI",
+      "tagTitle": "SAPAS Amis",
+      "tagDescription": "SAPAS Amis",
+      "tagType": "SCORE",
+      "sunburstName": "AMI",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 3],
+      "rangeMax": [2, 8],
+      "parent": "S_PSY_SYMP",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_AMI_2",
+      "tagTitle": "SAPAS Amis 2",
+      "tagDescription": "SAPAS Amis 2",
+      "tagType": "SCORE",
+      "sunburstName": "AMI 2",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_SYMP_PERSONNALITE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_SOLITAIRE",
+      "tagTitle": "SAPAS Solitaire",
+      "tagDescription": "SAPAS Solitaire",
+      "tagType": "SCORE",
+      "sunburstName": "SAPAS SOLIT",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_SYMP_PERSONNALITE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_SOLITAIRE_2",
+      "tagTitle": "SAPAS SOLITAIRE 2",
+      "tagDescription": "SAPAS SOLITAIRE 2",
+      "tagType": "SCORE",
+      "sunburstName": "SAPAS SOLITAIRE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_SYMP_PERSONNALITE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_CONFIANCE",
+      "tagTitle": "SAPAS Confiance",
+      "tagDescription": "SAPAS Confiance",
+      "tagType": "SCORE",
+      "sunburstName": "SAPAS CONFIANCE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_SYMP_PERSONNALITE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_CONFIANCE_2",
+      "tagTitle": "SAPAS CONFIANCE 2",
+      "tagDescription": "SAPAS CONFIANCE 2",
+      "tagType": "SCORE",
+      "sunburstName": "SAPAS CONFIANCE 2",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_SYMP_PERSONNALITE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_CALME",
+      "tagTitle": "SAPAS Calme",
+      "tagDescription": "SAPAS Calme",
+      "tagType": "SCORE",
+      "sunburstName": "SAPAS CALME",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_SYMP_PERSONNALITE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_CALME_2",
+      "tagTitle": "SAPAS Calme 2",
+      "tagDescription": "SAPAS Calme 2",
+      "tagType": "SCORE",
+      "sunburstName": "SAPAS CALME 2",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_SYMP_PERSONNALITE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_IMPULSIF",
+      "tagTitle": "SAPAS Impulsif",
+      "tagDescription": "SAPAS Impulsif",
+      "tagType": "SCORE",
+      "sunburstName": "SAPAS IMPULSIF",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_SYMP_PERSONNALITE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_IMPULSIF_2",
+      "tagTitle": "SAPAS Impulsif 2",
+      "tagDescription": "SAPAS Impulsif 2",
+      "tagType": "SCORE",
+      "sunburstName": "SAPAS IMPULSIF 2",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_SYMP_PERSONNALITE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_INQUIET",
+      "tagTitle": "SAPAS Inquiet",
+      "tagDescription": "SAPAS Inquiet",
+      "tagType": "SCORE",
+      "sunburstName": "SAPAS INQUIET",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_SYMP_PERSONNALITE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_INQUIET_2",
+      "tagTitle": "SAPAS Inquiet 2",
+      "tagDescription": "SAPAS Inquiet 2",
+      "tagType": "SCORE",
+      "sunburstName": "SAPAS INQUIET 2",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_SYMP_PERSONNALITE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_DEPENDANCE",
+      "tagTitle": "SAPAS Dépendance",
+      "tagDescription": "SAPAS Dépendance",
+      "tagType": "SCORE",
+      "sunburstName": "SAPAS DEPENDANCE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_SYMP_PERSONNALITE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_DEPENDANCE_2",
+      "tagTitle": "SAPAS Dépendance 2",
+      "tagDescription": "SAPAS Dépendance 2",
+      "tagType": "SCORE",
+      "sunburstName": "SAPAS DEPENDANCE 2",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_SYMP_PERSONNALITE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_PERFECTIONNISTE",
+      "tagTitle": "SAPAS Perfectionniste",
+      "tagDescription": "SAPAS Perfectionniste",
+      "tagType": "SCORE",
+      "sunburstName": "SAPAS PERF",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_SYMP_PERSONNALITE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_PERFECTIONNISTE_2",
+      "tagTitle": "SAPAS Perfectionniste 2",
+      "tagDescription": "SAPAS Perfectionniste 2",
+      "tagType": "SCORE",
+      "sunburstName": "SAPAS PERF 2",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_SYMP_PERSONNALITE",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_GLOBAL_SOINS",
+      "tagTitle": "Soins psy",
+      "tagDescription": "Soins psy",
+      "tagType": "SCORE",
+      "sunburstName": "SOINS",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_GLOBAL_SOINS_HOSPITALISATION",
+      "tagTitle": "Soins hospitalisation",
+      "tagDescription": "Soins hospitalisation",
+      "tagType": "SCORE",
+      "sunburstName": "SOINS HOSP",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_GLOBAL_SOINS",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_GLOBAL_SOINS_PSYCHIATRE",
+      "tagTitle": "Soins psychiatre",
+      "tagDescription": "Soins psychiatre",
+      "tagType": "SCORE",
+      "sunburstName": "SOIN PSYCHIATRE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_GLOBAL_SOINS",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_GLOBAL_SOINS_PSYCHOLOGUE",
+      "tagTitle": "Soin psychologue",
+      "tagDescription": "Soin psychologue",
+      "tagType": "SCORE",
+      "sunburstName": "SOIN PSYCHOLOGUE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_GLOBAL_SOINS",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_GLOBAL_SOINS_PSYCHANALYSE",
+      "tagTitle": "Soin psychanalyse",
+      "tagDescription": "Soin psychanalyse",
+      "tagType": "SCORE",
+      "sunburstName": "SOIN PSYCHANALYSE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_GLOBAL_SOINS",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_GLOBAL_SOINS_TCC",
+      "tagTitle": "Soin TCC",
+      "tagDescription": "Soin TCC",
+      "tagType": "SCORE",
+      "sunburstName": "SOIN TCC",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_GLOBAL_SOINS",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_GLOBAL_SOINS_HYPNOSE",
+      "tagTitle": "Soin hypnose",
+      "tagDescription": "Soin hypnose",
+      "tagType": "SCORE",
+      "sunburstName": "SOIN HYPNOSE",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_GLOBAL_SOINS",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_GLOBAL_SOINS_EMDR",
+      "tagTitle": "Soin EMDR",
+      "tagDescription": "Soin EMDR",
+      "tagType": "SCORE",
+      "sunburstName": "SOIN EMDR",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_GLOBAL_SOINS",
+      "children": []
+    },
+    {
+      "tagOID": "S_PSY_GLOBAL_SOINS_AUTRES",
+      "tagTitle": "Soins autres",
+      "tagDescription": "Soins autres",
+      "tagType": "SCORE",
+      "sunburstName": "SOINS AUTRES",
+      "module": "Q1_Psychiatrie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_PSY_GLOBAL_SOINS",
+      "children": []
+    }
+  ]
+}

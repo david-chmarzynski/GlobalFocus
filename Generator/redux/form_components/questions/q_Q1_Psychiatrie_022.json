@@ -1,0 +1,46 @@
+{
+  "oid": "q_Q1_Psychiatrie_022",
+  "title": "Je suis de bonne humeur",
+  "text": "Je suis de bonne humeur",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "La plupart du temps"
+    },
+    {
+      "code": "1",
+      "text": "Assez souvent"
+    },
+    {
+      "code": "2",
+      "text": "Rarement"
+    },
+    {
+      "code": "3",
+      "text": "Jamais"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_Q1_Psychiatrie_022 == \"0\"",
+      "tagOID": "S_PSY_SYMP_DEPRESSION_HAD_HUMEUR",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_022 == \"1\"",
+      "tagOID": "S_PSY_SYMP_DEPRESSION_HAD_HUMEUR",
+      "value": 1
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_022 == \"2\"",
+      "tagOID": "S_PSY_SYMP_DEPRESSION_HAD_HUMEUR",
+      "value": 2
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_022 == \"3\"",
+      "tagOID": "S_PSY_SYMP_DEPRESSION_HAD_HUMEUR",
+      "value": 3
+    }
+  ]
+}

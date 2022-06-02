@@ -1,0 +1,46 @@
+{
+  "oid": "q_Q1_Psychiatrie_021",
+  "title": "Je ris facilement et vois le bon côté des choses",
+  "text": "Je ris facilement et vois le bon côté des choses",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Autant que par le passé"
+    },
+    {
+      "code": "1",
+      "text": "Plus autant qu’avant"
+    },
+    {
+      "code": "2",
+      "text": "Vraiment moins qu’avant"
+    },
+    {
+      "code": "3",
+      "text": "Plus du tout"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_Q1_Psychiatrie_021 == \"0\"",
+      "tagOID": "S_PSY_SYMP_DEPRESSION_HAD_RIRE",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_021 == \"1\"",
+      "tagOID": "S_PSY_SYMP_DEPRESSION_HAD_RIRE",
+      "value": 1
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_021 == \"2\"",
+      "tagOID": "S_PSY_SYMP_DEPRESSION_HAD_RIRE",
+      "value": 2
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_021 == \"3\"",
+      "tagOID": "S_PSY_SYMP_DEPRESSION_HAD_RIRE",
+      "value": 3
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "oid": "q_Q1_Psychiatrie_013",
+  "title": "Je me sens tendu(e) ou énervé(e)",
+  "text": "Je me sens tendu(e) ou énervé(e)",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "De temps en temps"
+    },
+    {
+      "code": "2",
+      "text": "Souvent"
+    },
+    {
+      "code": "3",
+      "text": "La plupart du temps"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_Q1_Psychiatrie_013 == \"0\"",
+      "tagOID": "S_PSY_SYMP_ANXIETE_HAD_TENDU",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_013 == \"1\"",
+      "tagOID": "S_PSY_SYMP_ANXIETE_HAD_TENDU",
+      "value": 1
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_013 == \"2\"",
+      "tagOID": "S_PSY_SYMP_ANXIETE_HAD_TENDU",
+      "value": 2
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_013 == \"3\"",
+      "tagOID": "S_PSY_SYMP_ANXIETE_HAD_TENDU",
+      "value": 3
+    }
+  ]
+}

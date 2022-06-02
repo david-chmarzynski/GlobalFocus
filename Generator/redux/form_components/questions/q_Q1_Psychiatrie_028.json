@@ -1,0 +1,46 @@
+{
+  "oid": "q_Q1_Psychiatrie_028",
+  "title": "Irritabilité",
+  "text": "Irritabilité",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Symptôme absent"
+    },
+    {
+      "code": "1",
+      "text": "Symptôme modéré"
+    },
+    {
+      "code": "2",
+      "text": "Symptôme gênant"
+    },
+    {
+      "code": "3",
+      "text": "Symptôme très gênant"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_Q1_Psychiatrie_028 == \"0\"",
+      "tagOID": "S_PSY_SYMP_INDOLAMINE_IRRITABLE",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_028 == \"1\"",
+      "tagOID": "S_PSY_SYMP_INDOLAMINE_IRRITABLE",
+      "value": 1
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_028 == \"2\"",
+      "tagOID": "S_PSY_SYMP_INDOLAMINE_IRRITABLE",
+      "value": 2
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_028 == \"3\"",
+      "tagOID": "S_PSY_SYMP_INDOLAMINE_IRRITABLE",
+      "value": 3
+    }
+  ]
+}

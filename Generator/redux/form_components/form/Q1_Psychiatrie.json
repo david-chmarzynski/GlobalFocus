@@ -1,0 +1,2615 @@
+{
+  "oid": "Q1_Psychiatrie",
+  "title": "Q1_Psychiatrie",
+  "estimatedTime": 10,
+  "pricing": 10,
+  "description": "Psychiatrie",
+  "levelMax": "1",
+  "linkedForm": "",
+  "companyId": "[object Object]",
+  "authors": [
+    "Jean-Philippe Astruc"
+  ],
+  "chapters": [
+    "chap_Q1 Psychiatrie"
+  ],
+  "professions": [
+    "DENTIST"
+  ],
+  "diagnostics": [],
+  "reportingTrees": [
+    {
+      "category": "HEALTH",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "S_PSY",
+        "type": "SCORE",
+        "ranges": [
+          {
+            "min": 0,
+            "max": 0,
+            "color": "00FF00",
+            "text": "PSY"
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "color": "FFFF00",
+            "text": "PSY"
+          },
+          {
+            "min": 2,
+            "max": 2,
+            "color": "FF9900",
+            "text": "PSY"
+          },
+          {
+            "min": 3,
+            "max": 3,
+            "color": "FF0000",
+            "text": "PSY"
+          }
+        ],
+        "children": [
+          {
+            "tagOID": "S_PSY_ATCD",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "ATCD"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "ATCD"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_PSY_ATCD_ANXIETE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ATCD TR ANX"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ATCD TR ANX"
+                  }
+                ],
+                "children": [
+                  {
+                    "tagOID": "S_PSY_ATCD_ANXIETE_ANXIETE_SEPARATION",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "ANX SEPAR"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "ANX SEPAR"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_ANXIETE_PANIQUE ",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "PANIQUE"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "PANIQUE"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_ANXIETE_STRESS_POST_TRAUMATIQUE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "POST TRAUM"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "POST TRAUM"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_ANXIETE_TAG",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "TAG"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "TAG"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_ANXIETE_PHOBIE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "PHOBIE"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "PHOBIE"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_ANXIETE_PHOBIE_SOCIALE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "PHOB SOC"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "PHOB SOC"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_ANXIETE_HYPOCHONDRIE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "HYPOCHON"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "HYPOCHON"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_ANXIETE_TOC",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "TOC"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "TOC"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_ANXIETE_DATE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "DATE"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "DATE"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "tagOID": "S_PSY_ATCD_DEPRESSION",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ATCD TR DEPR"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ATCD TR DEPR"
+                  }
+                ],
+                "children": [
+                  {
+                    "tagOID": "S_PSY_ATCD_DEPRESSION_ISOLEE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "ISOLEE"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "ISOLEE"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_DEPRESSION_RECURRENTE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "RECURRENTE"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "RECURRENTE"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_DEPRESSION_PERSISTANTE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "DYSTHYMIE"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "DYSTHYMIE"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_DEPRESSION_BIPOLAIRE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "BIPOL"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "BIPOL"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_DEPRESSION_CYCLOTHYMIE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "CYCLOTHYM"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "CYCLOTHYM"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_DEPRESSION_SAISONNIERE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "SAISON"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "SAISON"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_DEPRESSION_SUICIDE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "SUICIDE"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "SUICIDE"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "tagOID": "S_PSY_ATCD_DEPRESSION_SUICIDE_DATE",
+                        "type": "SCORE",
+                        "ranges": [
+                          {
+                            "min": 0,
+                            "max": 0,
+                            "color": "00FF00",
+                            "text": "DATE"
+                          },
+                          {
+                            "min": 1,
+                            "max": 1,
+                            "color": "FF0000",
+                            "text": "DATE"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_DEPRESSION_DATE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "DATE"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "DATE"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "tagOID": "S_PSY_ATCD_TRAITEMENT",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ATCD TRAIT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ATCD TRAIT"
+                  }
+                ],
+                "children": [
+                  {
+                    "tagOID": "S_PSY_ATCD_TRAITEMENT_PSYCHIATRE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "PSYCHIATRE"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "PSYCHIATRE"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_TRAITEMENT_PSYCHOLOGUE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "PSYCHOLOGUE"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "PSYCHOLOGUE"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_TRAITEMENT_PSYCHANALYSE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "PSYCHANALYSE"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "PSYCHANALYSE"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_TRAITEMENT_PSYCHOTCC",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "PSYCHOTCC"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "PSYCHOTCC"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_TRAITEMENT_HYPNOSE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "HYPNO"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "HYPNO"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_TRAITEMENT_EMDR",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "EMDR"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "EMDR"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_TRAITEMENT_AUTRES",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "AUTRES"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "AUTRES"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_TRAITEMENT_DATE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "DATE"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "DATE"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "tagOID": "S_PSY_ATCD_NEURO_DEV",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ATCD TR NEURO"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ATCD TR NEURO"
+                  }
+                ],
+                "children": [
+                  {
+                    "tagOID": "S_PSY_ATCD_NEURO_DEV_TDHA",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "TDHA"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "TDHA"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_NEURO_DEV_IMPULSIVITE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "IMPULSIV"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "IMPULSIV"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_NEURO_DEV_DYSLEXIE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "DYSLEX"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "DYSLEX"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_NEURO_DEV_DYSORTHO",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "DYSORTHO"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "DYSORTHO"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_NEURO_DEV_DYSCALC",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "DYSCALC"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "DYSCALC"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_NEURO_DEV_DYSPRAXIE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "DYSPRAX"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "DYSPRAX"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_NEURO_DEV_AUTRE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "AUTRES"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "AUTRES"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_NEURO_DEV_DATE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "DATE"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "DATE"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "tagOID": "S_PSY_ATCD_PERSONNALITE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ATCD TR PERSO"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ATCD TR PERSO"
+                  }
+                ],
+                "children": [
+                  {
+                    "tagOID": "S_PSY_ATCD_PERSONNALITE_DATE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "DATE"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "DATE"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_PERSONNALITE_PARANOIDE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "PARANO"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "PARANO"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_PERSONNALITE_SCHIZOIDE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "SCHIZOIDE"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "SCHIZOIDE"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_PERSONNALITE_SCHIZOTYPIQUE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "SCHIZOTYP"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "SCHIZOTYP"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_PERSONNALITE_ANTISOCIALE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "ANTISOC"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "ANTISOC"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_PERSONNALITE_BORDERLINE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "BORDERLINE"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "BORDERLINE"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_PERSONNALITE_HISTRIONIQUE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "HISTRIONIQUE"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "HISTRIONIQUE"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_PERSONNALITE_NARCISSIQUE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "NARCISS"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "NARCISS"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_PERSONNALITE_EVITANT",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "EVITANT"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "EVITANT"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_PERSONNALITE_DEPENDANT",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "DEPENDANT"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "DEPENDANT"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_PERSONNALITE_OBSESSIONNEL",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "OBSE-COMP"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "OBSE-COMP"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_SYMP",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "SYMP"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "SYMP"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "tagOID": "S_PSY_SYMP_ANXIETE",
+                        "type": "SCORE",
+                        "ranges": [
+                          {
+                            "min": 0,
+                            "max": 0,
+                            "color": "00FF00",
+                            "text": "SYMP ANX"
+                          },
+                          {
+                            "min": 1,
+                            "max": 1,
+                            "color": "FF0000",
+                            "text": "SYMP ANX"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "tagOID": "S_PSY_SYMP_ANXIETE_HAD_TENDU",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "TENDU"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FF0000",
+                                "text": "TENDU"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_SYMP_ANXIETE_HAD_PEUR",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "PEUR"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FFFF00",
+                                "text": "PEUR"
+                              },
+                              {
+                                "min": 2,
+                                "max": 2,
+                                "color": "FF9900",
+                                "text": "PEUR"
+                              },
+                              {
+                                "min": 3,
+                                "max": 3,
+                                "color": "FF0000",
+                                "text": "PEUR"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_ANXIETE_HAD_SOUCI",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "SOUCI"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FFFF00",
+                                "text": "SOUCI"
+                              },
+                              {
+                                "min": 2,
+                                "max": 2,
+                                "color": "FF9900",
+                                "text": "SOUCI"
+                              },
+                              {
+                                "min": 3,
+                                "max": 3,
+                                "color": "FF0000",
+                                "text": "SOUCI"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_ANXIETE_HAD_DECONTRACTE",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "DECONTRACTE"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FFFF00",
+                                "text": "DECONTRACTE"
+                              },
+                              {
+                                "min": 2,
+                                "max": 2,
+                                "color": "FF9900",
+                                "text": "DECONTRACTE"
+                              },
+                              {
+                                "min": 3,
+                                "max": 3,
+                                "color": "FF0000",
+                                "text": "DECONTRACTE"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_ANXIETE_HAD_ESTOMAC",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "ESTOMAC"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FFFF00",
+                                "text": "ESTOMAC"
+                              },
+                              {
+                                "min": 2,
+                                "max": 2,
+                                "color": "FF9900",
+                                "text": "ESTOMAC"
+                              },
+                              {
+                                "min": 3,
+                                "max": 3,
+                                "color": "FF0000",
+                                "text": "ESTOMAC"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_ANXIETE_BOUGEOTTE",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "BOUGEOTTE"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FFFF00",
+                                "text": "BOUGEOTTE"
+                              },
+                              {
+                                "min": 2,
+                                "max": 2,
+                                "color": "FF9900",
+                                "text": "BOUGEOTTE"
+                              },
+                              {
+                                "min": 3,
+                                "max": 3,
+                                "color": "FF0000",
+                                "text": "BOUGEOTTE"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_ANXIETE_HAD_PANIQUE",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "PANIQUE"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FFFF00",
+                                "text": "PANIQUE"
+                              },
+                              {
+                                "min": 2,
+                                "max": 2,
+                                "color": "FF9900",
+                                "text": "PANIQUE"
+                              },
+                              {
+                                "min": 3,
+                                "max": 3,
+                                "color": "FF0000",
+                                "text": "PANIQUE"
+                              }
+                            ],
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "tagOID": "S_PSY_SYMP_DEPRESSION",
+                        "type": "SCORE",
+                        "ranges": [
+                          {
+                            "min": 0,
+                            "max": 7,
+                            "color": "00FF00",
+                            "text": "DEPR"
+                          },
+                          {
+                            "min": 8,
+                            "max": 10,
+                            "color": "FFFF00",
+                            "text": "DEPR"
+                          },
+                          {
+                            "min": 11,
+                            "max": 14,
+                            "color": "FF9900",
+                            "text": "DEPR"
+                          },
+                          {
+                            "min": 15,
+                            "max": 6,
+                            "color": "FF0000",
+                            "text": "DEPR"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "tagOID": "S_PSY_DEPRESSION_HAD_PLAISIR",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 7,
+                                "color": "00FF00",
+                                "text": "PLAISIR"
+                              },
+                              {
+                                "min": 8,
+                                "max": 10,
+                                "color": "FFFF00",
+                                "text": "PLAISIR"
+                              },
+                              {
+                                "min": 11,
+                                "max": 14,
+                                "color": "FF9900",
+                                "text": "PLAISIR"
+                              },
+                              {
+                                "min": 15,
+                                "max": 6,
+                                "color": "FF0000",
+                                "text": "PLAISIR"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_DEPRESSION_HAD_RIRE",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "RIRE"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FFFF00",
+                                "text": "RIRE"
+                              },
+                              {
+                                "min": 2,
+                                "max": 2,
+                                "color": "FF9900",
+                                "text": "RIRE"
+                              },
+                              {
+                                "min": 3,
+                                "max": 3,
+                                "color": "FF0000",
+                                "text": "RIRE"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_DEPRESSION_HAD_HUMEUR",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "HUMEUR"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FFFF00",
+                                "text": "HUMEUR"
+                              },
+                              {
+                                "min": 2,
+                                "max": 2,
+                                "color": "FF9900",
+                                "text": "HUMEUR"
+                              },
+                              {
+                                "min": 3,
+                                "max": 3,
+                                "color": "FF0000",
+                                "text": "HUMEUR"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_DEPRESSION_HAD_RALENTI",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "RALENTI"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FFFF00",
+                                "text": "RALENTI"
+                              },
+                              {
+                                "min": 2,
+                                "max": 2,
+                                "color": "FF9900",
+                                "text": "RALENTI"
+                              },
+                              {
+                                "min": 3,
+                                "max": 3,
+                                "color": "FF0000",
+                                "text": "RALENTI"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_DEPRESSION_HAD_APPARENCE",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "APPARENCE"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FFFF00",
+                                "text": "APPARENCE"
+                              },
+                              {
+                                "min": 2,
+                                "max": 2,
+                                "color": "FF9900",
+                                "text": "APPARENCE"
+                              },
+                              {
+                                "min": 3,
+                                "max": 3,
+                                "color": "FF0000",
+                                "text": "APPARENCE"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_DEPRESSION_HAD_REJOUIR",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "REJOUIR"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FFFF00",
+                                "text": "REJOUIR"
+                              },
+                              {
+                                "min": 2,
+                                "max": 2,
+                                "color": "FF9900",
+                                "text": "REJOUIR"
+                              },
+                              {
+                                "min": 3,
+                                "max": 3,
+                                "color": "FF0000",
+                                "text": "REJOUIR"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_DEPRESSION_HAD_LIRE",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "LIRE"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FFFF00",
+                                "text": "LIRE"
+                              },
+                              {
+                                "min": 2,
+                                "max": 2,
+                                "color": "FF9900",
+                                "text": "LIRE"
+                              },
+                              {
+                                "min": 3,
+                                "max": 3,
+                                "color": "FF0000",
+                                "text": "LIRE"
+                              }
+                            ],
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "tagOID": "S_PSY_SYMP_SUICIDE",
+                        "type": "SCORE",
+                        "ranges": [
+                          {
+                            "min": 0,
+                            "max": 0,
+                            "color": "00FF00",
+                            "text": "ALRT SUIC"
+                          },
+                          {
+                            "min": 1,
+                            "max": 1,
+                            "color": "FFFF00",
+                            "text": "ALRT SUIC"
+                          },
+                          {
+                            "min": 2,
+                            "max": 2,
+                            "color": "FF9900",
+                            "text": "ALRT SUIC"
+                          },
+                          {
+                            "min": 3,
+                            "max": 3,
+                            "color": "FF0000",
+                            "text": "ALRT SUIC"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "tagOID": "S_PSY_SYMP_INDOLAMINE",
+                        "type": "SCORE",
+                        "ranges": [
+                          {
+                            "min": 0,
+                            "max": 5,
+                            "color": "00FF00",
+                            "text": "INDOL"
+                          },
+                          {
+                            "min": 6,
+                            "max": 10,
+                            "color": "FFFF00",
+                            "text": "INDOL"
+                          },
+                          {
+                            "min": 11,
+                            "max": 16,
+                            "color": "FF9900",
+                            "text": "INDOL"
+                          },
+                          {
+                            "min": 17,
+                            "max": 24,
+                            "color": "FF0000",
+                            "text": "INDOL"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "tagOID": "S_PSY_SYMP_INDOLAMINE_IRRITABLE",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 5,
+                                "color": "00FF00",
+                                "text": "IRRITABLE"
+                              },
+                              {
+                                "min": 6,
+                                "max": 10,
+                                "color": "FFFF00",
+                                "text": "IRRITABLE"
+                              },
+                              {
+                                "min": 11,
+                                "max": 16,
+                                "color": "FF9900",
+                                "text": "IRRITABLE"
+                              },
+                              {
+                                "min": 17,
+                                "max": 24,
+                                "color": "FF0000",
+                                "text": "IRRITABLE"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_INDOLAMINE_IMPATIENT",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": ""
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FFFF00",
+                                "text": ""
+                              },
+                              {
+                                "min": 2,
+                                "max": 2,
+                                "color": "FF9900",
+                                "text": ""
+                              },
+                              {
+                                "min": 3,
+                                "max": 3,
+                                "color": "FF0000",
+                                "text": ""
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_INDOLAMINE_CONTRAINTE",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "CONTRAINTE"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FFFF00",
+                                "text": "CONTRAINTE"
+                              },
+                              {
+                                "min": 2,
+                                "max": 2,
+                                "color": "FF9900",
+                                "text": "CONTRAINTE"
+                              },
+                              {
+                                "min": 3,
+                                "max": 3,
+                                "color": "FF0000",
+                                "text": "CONTRAINTE"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_INDOLAMINE_STRESS",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "STRESS"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FFFF00",
+                                "text": "STRESS"
+                              },
+                              {
+                                "min": 2,
+                                "max": 2,
+                                "color": "FF9900",
+                                "text": "STRESS"
+                              },
+                              {
+                                "min": 3,
+                                "max": 3,
+                                "color": "FF0000",
+                                "text": "STRESS"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_INDOLAMINE_EXPLOSIF",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "EXPLOSIF"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FFFF00",
+                                "text": "EXPLOSIF"
+                              },
+                              {
+                                "min": 2,
+                                "max": 2,
+                                "color": "FF9900",
+                                "text": "EXPLOSIF"
+                              },
+                              {
+                                "min": 3,
+                                "max": 3,
+                                "color": "FF0000",
+                                "text": "EXPLOSIF"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_INDOLAMINE_COMPULSION",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "COMPULSION"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FFFF00",
+                                "text": "COMPULSION"
+                              },
+                              {
+                                "min": 2,
+                                "max": 2,
+                                "color": "FF9900",
+                                "text": "COMPULSION"
+                              },
+                              {
+                                "min": 3,
+                                "max": 3,
+                                "color": "FF0000",
+                                "text": "COMPULSION"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_INDOLAMINE_DEPENDANCE",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "DEPENDANCE"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FFFF00",
+                                "text": "DEPENDANCE"
+                              },
+                              {
+                                "min": 2,
+                                "max": 2,
+                                "color": "FF9900",
+                                "text": "DEPENDANCE"
+                              },
+                              {
+                                "min": 3,
+                                "max": 3,
+                                "color": "FF0000",
+                                "text": "DEPENDANCE"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_INDOLAMINE_SOMMEIL",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "SOMMEIL"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FFFF00",
+                                "text": "SOMMEIL"
+                              },
+                              {
+                                "min": 2,
+                                "max": 2,
+                                "color": "FF9900",
+                                "text": "SOMMEIL"
+                              },
+                              {
+                                "min": 3,
+                                "max": 3,
+                                "color": "FF0000",
+                                "text": "SOMMEIL"
+                              }
+                            ],
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "tagOID": "S_PSY_SYMP_CATECHOLIMINE",
+                        "type": "SCORE",
+                        "ranges": [
+                          {
+                            "min": 0,
+                            "max": 5,
+                            "color": "00FF00",
+                            "text": "CATECH"
+                          },
+                          {
+                            "min": 6,
+                            "max": 10,
+                            "color": "FFFF00",
+                            "text": "CATECH"
+                          },
+                          {
+                            "min": 11,
+                            "max": 16,
+                            "color": "FF9900",
+                            "text": "CATECH"
+                          },
+                          {
+                            "min": 17,
+                            "max": 24,
+                            "color": "FF0000",
+                            "text": "CATECH"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "tagOID": "S_PSY_SYMP_CATECHOLIMINE_FATIGABILITE",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 5,
+                                "color": "00FF00",
+                                "text": "FATIGABILITE"
+                              },
+                              {
+                                "min": 6,
+                                "max": 10,
+                                "color": "FFFF00",
+                                "text": "FATIGABILITE"
+                              },
+                              {
+                                "min": 11,
+                                "max": 16,
+                                "color": "FF9900",
+                                "text": "FATIGABILITE"
+                              },
+                              {
+                                "min": 17,
+                                "max": 24,
+                                "color": "FF0000",
+                                "text": "FATIGABILITE"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_CATECHOLIMINE_ENTREPRENDRE",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "ENTREPRENDRE"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FFFF00",
+                                "text": "ENTREPRENDRE"
+                              },
+                              {
+                                "min": 2,
+                                "max": 2,
+                                "color": "FF9900",
+                                "text": "ENTREPRENDRE"
+                              },
+                              {
+                                "min": 3,
+                                "max": 3,
+                                "color": "FF0000",
+                                "text": "ENTREPRENDRE"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_CATECHOLIMINE_ACTION",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "ACTION"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FFFF00",
+                                "text": "ACTION"
+                              },
+                              {
+                                "min": 2,
+                                "max": 2,
+                                "color": "FF9900",
+                                "text": "ACTION"
+                              },
+                              {
+                                "min": 3,
+                                "max": 3,
+                                "color": "FF0000",
+                                "text": "ACTION"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_CATECHOLIMINE_INTERET",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "INTERET"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FFFF00",
+                                "text": "INTERET"
+                              },
+                              {
+                                "min": 2,
+                                "max": 2,
+                                "color": "FF9900",
+                                "text": "INTERET"
+                              },
+                              {
+                                "min": 3,
+                                "max": 3,
+                                "color": "FF0000",
+                                "text": "INTERET"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_CATECHOLIMINE_CONCENTRATION",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "CONCENTRATION"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FFFF00",
+                                "text": "CONCENTRATION"
+                              },
+                              {
+                                "min": 2,
+                                "max": 2,
+                                "color": "FF9900",
+                                "text": "CONCENTRATION"
+                              },
+                              {
+                                "min": 3,
+                                "max": 3,
+                                "color": "FF0000",
+                                "text": "CONCENTRATION"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_CATECHOLIMINE_REPLI",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "REPLI"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FFFF00",
+                                "text": "REPLI"
+                              },
+                              {
+                                "min": 2,
+                                "max": 2,
+                                "color": "FF9900",
+                                "text": "REPLI"
+                              },
+                              {
+                                "min": 3,
+                                "max": 3,
+                                "color": "FF0000",
+                                "text": "REPLI"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_CATECHOLIMINE_CONFIANCE_SOI",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "CONFIANCE_SOI"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FFFF00",
+                                "text": "CONFIANCE_SOI"
+                              },
+                              {
+                                "min": 2,
+                                "max": 2,
+                                "color": "FF9900",
+                                "text": "CONFIANCE_SOI"
+                              },
+                              {
+                                "min": 3,
+                                "max": 3,
+                                "color": "FF0000",
+                                "text": "CONFIANCE_SOI"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_CATECHOLIMINE_LIBIDO",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "LIBIDO"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FFFF00",
+                                "text": "LIBIDO"
+                              },
+                              {
+                                "min": 2,
+                                "max": 2,
+                                "color": "FF9900",
+                                "text": "LIBIDO"
+                              },
+                              {
+                                "min": 3,
+                                "max": 3,
+                                "color": "FF0000",
+                                "text": "LIBIDO"
+                              }
+                            ],
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "tagOID": "S_PSY_SYMP_PERSONNALITE",
+                        "type": "SCORE",
+                        "ranges": [
+                          {
+                            "min": 0,
+                            "max": 2,
+                            "color": "00FF00",
+                            "text": "SAPAS"
+                          },
+                          {
+                            "min": 3,
+                            "max": 3,
+                            "color": "FF0000",
+                            "text": "SAPAS"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_AMI_2",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "AMI 2"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FF0000",
+                                "text": "AMI 2"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_SOLITAIRE",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "SAPAS SOLIT"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FF0000",
+                                "text": "SAPAS SOLIT"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_SOLITAIRE_2",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "SAPAS SOLITAIRE"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FF0000",
+                                "text": "SAPAS SOLITAIRE"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_CONFIANCE",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "SAPAS CONFIANCE"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FF0000",
+                                "text": "SAPAS CONFIANCE"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_CONFIANCE_2",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "SAPAS CONFIANCE 2"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FF0000",
+                                "text": "SAPAS CONFIANCE 2"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_CALME",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "SAPAS CALME"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FF0000",
+                                "text": "SAPAS CALME"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_CALME_2",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "SAPAS CALME 2"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FF0000",
+                                "text": "SAPAS CALME 2"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_IMPULSIF",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "SAPAS IMPULSIF"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FF0000",
+                                "text": "SAPAS IMPULSIF"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_IMPULSIF_2",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "SAPAS IMPULSIF 2"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FF0000",
+                                "text": "SAPAS IMPULSIF 2"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_INQUIET",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "SAPAS INQUIET"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FF0000",
+                                "text": "SAPAS INQUIET"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_INQUIET_2",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "SAPAS INQUIET 2"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FF0000",
+                                "text": "SAPAS INQUIET 2"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_DEPENDANCE",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "SAPAS DEPENDANCE"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FF0000",
+                                "text": "SAPAS DEPENDANCE"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_DEPENDANCE_2",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "SAPAS DEPENDANCE 2"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FF0000",
+                                "text": "SAPAS DEPENDANCE 2"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_PERFECTIONNISTE",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "SAPAS PERF"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FF0000",
+                                "text": "SAPAS PERF"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_PERFECTIONNISTE_2",
+                            "type": "SCORE",
+                            "ranges": [
+                              {
+                                "min": 0,
+                                "max": 0,
+                                "color": "00FF00",
+                                "text": "SAPAS PERF 2"
+                              },
+                              {
+                                "min": 1,
+                                "max": 1,
+                                "color": "FF0000",
+                                "text": "SAPAS PERF 2"
+                              }
+                            ],
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_AMI",
+                        "type": "SCORE",
+                        "ranges": [
+                          {
+                            "min": 0,
+                            "max": 2,
+                            "color": "00FF00",
+                            "text": "AMI"
+                          },
+                          {
+                            "min": 3,
+                            "max": 3,
+                            "color": "FF0000",
+                            "text": "AMI"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tagOID": "S_PSY_GLOBAL_SOINS",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "SOINS"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "SOINS"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_PSY_GLOBAL_SOINS_HOSPITALISATION",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "SOINS HOSP"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "SOINS HOSP"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_PSY_GLOBAL_SOINS_PSYCHIATRE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "SOIN PSYCHIATRE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "SOIN PSYCHIATRE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_PSY_GLOBAL_SOINS_PSYCHOLOGUE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "SOIN PSYCHOLOGUE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "SOIN PSYCHOLOGUE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_PSY_GLOBAL_SOINS_PSYCHANALYSE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "SOIN PSYCHANALYSE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "SOIN PSYCHANALYSE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_PSY_GLOBAL_SOINS_TCC",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "SOIN TCC"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "SOIN TCC"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_PSY_GLOBAL_SOINS_HYPNOSE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "SOIN HYPNOSE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "SOIN HYPNOSE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_PSY_GLOBAL_SOINS_EMDR",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "SOIN EMDR"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "SOIN EMDR"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_PSY_GLOBAL_SOINS_AUTRES",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "SOINS AUTRES"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "SOINS AUTRES"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

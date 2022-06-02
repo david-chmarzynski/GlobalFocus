@@ -1,0 +1,46 @@
+{
+  "oid": "q_Q1_Psychiatrie_027",
+  "title": "Choisissez la proposition qui est la plus proche de votre état actuel",
+  "text": "Choisissez la proposition qui est la plus proche de votre état actuel",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Je ne pense pas à me faire du mal"
+    },
+    {
+      "code": "1",
+      "text": "Je pense que la mort me libérerait"
+    },
+    {
+      "code": "2",
+      "text": "J'ai des plans précis pour me suicider"
+    },
+    {
+      "code": "3",
+      "text": "Si je le pouvais, je me tuerais"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_Q1_Psychiatrie_027 == \"0\"",
+      "tagOID": "S_PSY_SYMP_SUICIDE",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_027 == \"1\"",
+      "tagOID": "S_PSY_SYMP_SUICIDE",
+      "value": 1
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_027 == \"2\"",
+      "tagOID": "S_PSY_SYMP_SUICIDE",
+      "value": 2
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_027 == \"3\"",
+      "tagOID": "S_PSY_SYMP_SUICIDE",
+      "value": 3
+    }
+  ]
+}

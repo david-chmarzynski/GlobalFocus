@@ -1,0 +1,46 @@
+{
+  "oid": "q_Q1_Psychiatrie_029",
+  "title": "Insatisfait(e), impatient(e), sentiment d’être incompris(e)",
+  "text": "Insatisfait(e), impatient(e), sentiment d’être incompris(e)",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Symptôme absent"
+    },
+    {
+      "code": "1",
+      "text": "Symptôme modéré"
+    },
+    {
+      "code": "2",
+      "text": "Symptôme gênant"
+    },
+    {
+      "code": "3",
+      "text": "Symptôme très gênant"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_Q1_Psychiatrie_029 == \"0\"",
+      "tagOID": "S_PSY_SYMP_INDOLAMINE_IMPATIENT",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_029 == \"1\"",
+      "tagOID": "S_PSY_SYMP_INDOLAMINE_IMPATIENT",
+      "value": 1
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_029 == \"2\"",
+      "tagOID": "S_PSY_SYMP_INDOLAMINE_IMPATIENT",
+      "value": 2
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_029 == \"3\"",
+      "tagOID": "S_PSY_SYMP_INDOLAMINE_IMPATIENT",
+      "value": 3
+    }
+  ]
+}

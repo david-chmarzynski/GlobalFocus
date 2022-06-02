@@ -1,0 +1,28 @@
+{
+  "oid": "q_Q1_Psychiatrie_046",
+  "title": "Vous décririez-vous comme quelqu'un de solitaire ?",
+  "text": "Vous décririez-vous comme quelqu'un de solitaire ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_Q1_Psychiatrie_046 == \"0\"",
+      "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_SOLITAIRE",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_046 == \"1\"",
+      "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_SOLITAIRE",
+      "value": 1
+    }
+  ]
+}

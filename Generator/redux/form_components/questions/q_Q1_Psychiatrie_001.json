@@ -1,0 +1,137 @@
+{
+  "oid": "q_Q1_Psychiatrie_001",
+  "title": "Vous a-t-on déjà diagnostiqué un trouble anxieux ? (plusieurs réponses possibles)",
+  "text": "Vous a-t-on déjà diagnostiqué un trouble anxieux ? (plusieurs réponses possibles)",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "separation",
+      "text": "Anxiété de séparation (peur excessive de la séparation)"
+    },
+    {
+      "code": "panique",
+      "text": "Trouble panique (attaque de panique) "
+    },
+    {
+      "code": "stress post-traumatique",
+      "text": "Stress post-traumatique"
+    },
+    {
+      "code": "trouble anxieux gen",
+      "text": "Trouble anxieux généralisé (fond d’anxiété et de tension excessives et persistantes) "
+    },
+    {
+      "code": "phobie",
+      "text": "Trouble(s) phobique(s) spécifique(s) (avion, ascenseur, araignées, sang, espaces, vide, vomir…)"
+    },
+    {
+      "code": "phobie sociale",
+      "text": "Anxiété sociale (phobie sociale) (peur intense excessive des interactions sociales)"
+    },
+    {
+      "code": "hypochondrie",
+      "text": "Hypochondrie (crainte excessive d’avoir une maladie)"
+    },
+    {
+      "code": "TOC",
+      "text": "Trouble(s) obsessionnel(s) compulsif(s) (pensées angoissantes récurrentes : propreté, vérification…)"
+    },
+    {
+      "code": "aucun",
+      "text": "Aucun de ces antécédents",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_Q1_Psychiatrie_001 in \"separation\"",
+      "tagOID": "S_PSY_ATCD_ANXIETE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"separation\" in q_Q1_Psychiatrie_001)",
+      "tagOID": "S_PSY_ATCD_ANXIETE",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_001 in \"panique\"",
+      "tagOID": "S_PSY_ATCD_ANXIETE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"panique\" in q_Q1_Psychiatrie_001)",
+      "tagOID": "S_PSY_ATCD_ANXIETE",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_001 in \"stress post-traumatique\"",
+      "tagOID": "S_PSY_ATCD_ANXIETE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"stress post-traumatique\" in q_Q1_Psychiatrie_001)",
+      "tagOID": "S_PSY_ATCD_ANXIETE",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_001 in \"trouble anxieux gen\"",
+      "tagOID": "S_PSY_ATCD_ANXIETE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"trouble anxieux gen\" in q_Q1_Psychiatrie_001)",
+      "tagOID": "S_PSY_ATCD_ANXIETE",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_001 in \"phobie\"",
+      "tagOID": "S_PSY_ATCD_ANXIETE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"phobie\" in q_Q1_Psychiatrie_001)",
+      "tagOID": "S_PSY_ATCD_ANXIETE",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_001 in \"phobie sociale\"",
+      "tagOID": "S_PSY_ATCD_ANXIETE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"phobie sociale\" in q_Q1_Psychiatrie_001)",
+      "tagOID": "S_PSY_ATCD_ANXIETE",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_001 in \"hypochondrie\"",
+      "tagOID": "S_PSY_ATCD_ANXIETE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"hypochondrie\" in q_Q1_Psychiatrie_001)",
+      "tagOID": "S_PSY_ATCD_ANXIETE",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_001 in \"TOC\"",
+      "tagOID": "S_PSY_ATCD_ANXIETE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"TOC\" in q_Q1_Psychiatrie_001)",
+      "tagOID": "S_PSY_ATCD_ANXIETE",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_001 in \"aucun\"",
+      "tagOID": "S_PSY_ATCD_ANXIETE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"aucun\" in q_Q1_Psychiatrie_001)",
+      "tagOID": "S_PSY_ATCD_ANXIETE",
+      "value": 0
+    }
+  ]
+}

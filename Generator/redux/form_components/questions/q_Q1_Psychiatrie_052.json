@@ -1,0 +1,28 @@
+{
+  "oid": "q_Q1_Psychiatrie_052",
+  "title": "Habituellement, êtes-vous quelqu'un d'impulsif ?",
+  "text": "Habituellement, êtes-vous quelqu'un d'impulsif ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_Q1_Psychiatrie_052 == \"0\"",
+      "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_IMPULSIF",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_052 == \"1\"",
+      "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_IMPULSIF",
+      "value": 1
+    }
+  ]
+}

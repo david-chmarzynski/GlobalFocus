@@ -20,7 +20,16 @@ import Error from "../error/Error";
 import List from "../list/List";
 
 // DATAS
-import { ranges, tagTypes } from "./datas.tag";
+import {
+  ranges,
+  tagTypes,
+  rangeMax2,
+  rangeMax4,
+  rangeMax6,
+  rangeMin2,
+  rangeMin4,
+  rangeMin6,
+} from "./datas.tag";
 import { Link } from "react-router-dom";
 
 function Tag() {
@@ -45,13 +54,31 @@ function Tag() {
   const [navigate, setNavigate] = useState(false);
   const [sunburstName, setSunburstName] = useState("");
 
-  console.log(sunburstName);
-
   const resetFields = () => {
     setTagOID("");
     setTagTitle("");
     setTagDescription("");
     setSunburstName("");
+    setRangeMin([]);
+    setRangeMax([]);
+  };
+
+  const handleCompleteRanges = () => {
+    if (rangeNb === 2) {
+      setRangeMin([...rangeMin2]);
+      setRangeMax([...rangeMax2]);
+    } else if (rangeNb === 4) {
+      setRangeMin([...rangeMin4]);
+      setRangeMax([...rangeMax4]);
+    } else if (rangeNb === 6) {
+      setRangeMin([...rangeMin6]);
+      setRangeMax([...rangeMax6]);
+    }
+  };
+
+  const handleChangeParent = (value) => {
+    setParent(value);
+    setTagOID(`${value}_`);
   };
 
   const handleSubmit = () => {
@@ -81,8 +108,6 @@ function Tag() {
     }
   };
 
-  console.log(modules);
-
   const handleTag = () => {
     handleSubmit();
   };
@@ -92,12 +117,31 @@ function Tag() {
       <List list={tags} title="Tags" />
       <div className="tag-layer">
         <h1>Tags</h1>
+        {tags.length > 0 && (
+          <TextField
+            id="outlined-select-currency-native"
+            select
+            label="Tag parent"
+            value={`${parent}`}
+            onChange={(e) => handleChangeParent(e.target.value)}
+            SelectProps={{
+              native: true,
+            }}
+          >
+            <option key={"null"} value={""}></option>
+            {tags.map((option) => (
+              <option key={option.tagOID} value={option.tagOID}>
+                {option.tagOID}
+              </option>
+            ))}
+          </TextField>
+        )}
         <TextField
           required
           id="outlined-required"
           label="Tag OID"
           value={tagOID}
-          onChange={(e) => setTagOID(e.target.value)}
+          onChange={(e) => setTagOID(e.target.value.toUpperCase().trim())}
         />
         <TextField
           required
@@ -129,31 +173,12 @@ function Tag() {
             </option>
           ))}
         </TextField>
-        {tags.length > 0 && (
-          <TextField
-            id="outlined-select-currency-native"
-            select
-            label="Tag parent"
-            value={parent}
-            onChange={(e) => setParent(e.target.value)}
-            SelectProps={{
-              native: true,
-            }}
-          >
-            <option key={"null"} value={""}></option>
-            {tags.map((option) => (
-              <option key={option.tagOID} value={option.tagOID}>
-                {option.tagOID}
-              </option>
-            ))}
-          </TextField>
-        )}
         <TextField
           required
           id="outlined-required"
           label="Nom du Tag (Sunburst)"
           value={sunburstName}
-          onChange={(e) => setSunburstName(e.target.value)}
+          onChange={(e) => setSunburstName(e.target.value.toUpperCase().trim())}
         />
         <TextField
           required
@@ -172,6 +197,9 @@ function Tag() {
             </option>
           ))}
         </TextField>
+        <Button variant="outlined" onClick={handleCompleteRanges}>
+          Autocomplete Ranges
+        </Button>
         <Range
           setRangeMin={setRangeMin}
           setRangeMax={setRangeMax}

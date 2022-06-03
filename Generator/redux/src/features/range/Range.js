@@ -19,7 +19,7 @@ function Range({ setRangeMin, setRangeMax, rangeMin, rangeMax }) {
             className="green"
             required
             id="outlined-required"
-            label="Range Min 1"
+            label={rangeMin[0] !== undefined ? `${rangeMin[0]}` : "Range Min 1"}
             defaultValue=""
             onChange={(e) =>
               setRangeMin([
@@ -33,7 +33,7 @@ function Range({ setRangeMin, setRangeMax, rangeMin, rangeMax }) {
             className="green"
             required
             id="outlined-required"
-            label="Range Max 1"
+            label={rangeMax[0] !== undefined ? `${rangeMax[0]}` : "Range Max 1"}
             defaultValue=""
             onChange={(e) =>
               setRangeMax([
@@ -49,7 +49,7 @@ function Range({ setRangeMin, setRangeMax, rangeMin, rangeMax }) {
             className="red"
             required
             id="outlined-required"
-            label="Range Min 2"
+            label={rangeMin[1] !== undefined ? `${rangeMin[1]}` : "Range Min 2"}
             defaultValue=""
             onChange={(e) =>
               setRangeMin([
@@ -63,7 +63,7 @@ function Range({ setRangeMin, setRangeMax, rangeMin, rangeMax }) {
             className="red"
             required
             id="outlined-required"
-            label="Range Max 2"
+            label={rangeMax[1] !== undefined ? `${rangeMax[1]}` : "Range Max 2"}
             defaultValue=""
             onChange={(e) =>
               setRangeMax([
@@ -84,7 +84,7 @@ function Range({ setRangeMin, setRangeMax, rangeMin, rangeMax }) {
             className="green"
             required
             id="outlined-required"
-            label="Range Min 1"
+            label={rangeMin[0] !== undefined ? `${rangeMin[0]}` : "Range Min 1"}
             defaultValue=""
             onChange={(e) =>
               setRangeMin([
@@ -100,7 +100,7 @@ function Range({ setRangeMin, setRangeMax, rangeMin, rangeMax }) {
             className="green"
             required
             id="outlined-required"
-            label="Range Max 1"
+            label={rangeMax[0] !== undefined ? `${rangeMax[0]}` : "Range Max 1"}
             defaultValue=""
             onChange={(e) =>
               setRangeMax([
@@ -118,7 +118,7 @@ function Range({ setRangeMin, setRangeMax, rangeMin, rangeMax }) {
             className="yellow"
             required
             id="outlined-required"
-            label="Range Min 2"
+            label={rangeMin[1] !== undefined ? `${rangeMin[1]}` : "Range Min 2"}
             defaultValue=""
             onChange={(e) =>
               setRangeMin([
@@ -134,7 +134,7 @@ function Range({ setRangeMin, setRangeMax, rangeMin, rangeMax }) {
             className="yellow"
             required
             id="outlined-required"
-            label="Range Max 2"
+            label={rangeMax[1] !== undefined ? `${rangeMax[1]}` : "Range Max 2"}
             defaultValue=""
             onChange={(e) =>
               setRangeMax([
@@ -152,7 +152,7 @@ function Range({ setRangeMin, setRangeMax, rangeMin, rangeMax }) {
             className="orange"
             required
             id="outlined-required"
-            label="Range Min 3"
+            label={rangeMin[2] !== undefined ? `${rangeMin[2]}` : "Range Min 3"}
             defaultValue=""
             onChange={(e) =>
               setRangeMin([
@@ -168,7 +168,7 @@ function Range({ setRangeMin, setRangeMax, rangeMin, rangeMax }) {
             className="orange"
             required
             id="outlined-required"
-            label="Range Max 3"
+            label={rangeMax[2] !== undefined ? `${rangeMax[2]}` : "Range Max 3"}
             defaultValue=""
             onChange={(e) =>
               setRangeMax([
@@ -186,7 +186,7 @@ function Range({ setRangeMin, setRangeMax, rangeMin, rangeMax }) {
             className="red"
             required
             id="outlined-required"
-            label="Range Min 4"
+            label={rangeMin[3] !== undefined ? `${rangeMin[3]}` : "Range Min 4"}
             defaultValue=""
             onChange={(e) =>
               setRangeMin([
@@ -202,7 +202,7 @@ function Range({ setRangeMin, setRangeMax, rangeMin, rangeMax }) {
             className="red"
             required
             id="outlined-required"
-            label="Range Max 4"
+            label={rangeMax[3] !== undefined ? `${rangeMax[3]}` : "Range Max 4"}
             defaultValue=""
             onChange={(e) =>
               setRangeMax([
@@ -225,7 +225,7 @@ function Range({ setRangeMin, setRangeMax, rangeMin, rangeMax }) {
             className="green"
             required
             id="outlined-required"
-            label="Range Min 1"
+            label={rangeMin[0] !== undefined ? `${rangeMin[0]}` : "Range Min 1"}
             defaultValue=""
             onChange={(e) =>
               setRangeMin([
@@ -243,7 +243,7 @@ function Range({ setRangeMin, setRangeMax, rangeMin, rangeMax }) {
             className="green"
             required
             id="outlined-required"
-            label="Range Max 1"
+            label={rangeMax[0] !== undefined ? `${rangeMax[0]}` : "Range Max 1"}
             defaultValue=""
             onChange={(e) =>
               setRangeMax([
@@ -263,7 +263,7 @@ function Range({ setRangeMin, setRangeMax, rangeMin, rangeMax }) {
             className="light-green"
             required
             id="outlined-required"
-            label="Range Min 2"
+            label={rangeMin[1] !== undefined ? `${rangeMin[1]}` : "Range Min 2"}
             defaultValue=""
             onChange={(e) =>
               setRangeMin([
@@ -281,7 +281,7 @@ function Range({ setRangeMin, setRangeMax, rangeMin, rangeMax }) {
             className="light-green"
             required
             id="outlined-required"
-            label="Range Max 2"
+            label={rangeMax[1] !== undefined ? `${rangeMax[1]}` : "Range Max 2"}
             defaultValue=""
             onChange={(e) =>
               setRangeMax([
@@ -301,7 +301,7 @@ function Range({ setRangeMin, setRangeMax, rangeMin, rangeMax }) {
             className="yellow"
             required
             id="outlined-required"
-            label="Range Min 3"
+            label={rangeMin[2] !== undefined ? `${rangeMin[2]}` : "Range Min 3"}
             defaultValue=""
             onChange={(e) =>
               setRangeMin([
@@ -319,7 +319,7 @@ function Range({ setRangeMin, setRangeMax, rangeMin, rangeMax }) {
             className="yellow"
             required
             id="outlined-required"
-            label="Range Max 3"
+            label={rangeMax[2] !== undefined ? `${rangeMax[2]}` : "Range Max 3"}
             defaultValue=""
             onChange={(e) =>
               setRangeMax([
@@ -339,7 +339,7 @@ function Range({ setRangeMin, setRangeMax, rangeMin, rangeMax }) {
             className="orange"
             required
             id="outlined-required"
-            label="Range Min 4"
+            label={rangeMin[3] !== undefined ? `${rangeMin[3]}` : "Range Min 4"}
             defaultValue=""
             onChange={(e) =>
               setRangeMin([
@@ -357,7 +357,7 @@ function Range({ setRangeMin, setRangeMax, rangeMin, rangeMax }) {
             className="orange"
             required
             id="outlined-required"
-            label="Range Max 4"
+            label={rangeMax[3] !== undefined ? `${rangeMax[3]}` : "Range Max 4"}
             defaultValue=""
             onChange={(e) =>
               setRangeMax([
@@ -377,7 +377,7 @@ function Range({ setRangeMin, setRangeMax, rangeMin, rangeMax }) {
             className="red"
             required
             id="outlined-required"
-            label="Range Min 5"
+            label={rangeMin[4] !== undefined ? `${rangeMin[4]}` : "Range Min 5"}
             defaultValue=""
             onChange={(e) =>
               setRangeMin([
@@ -395,7 +395,7 @@ function Range({ setRangeMin, setRangeMax, rangeMin, rangeMax }) {
             className="red"
             required
             id="outlined-required"
-            label="Range Max 5"
+            label={rangeMax[4] !== undefined ? `${rangeMax[4]}` : "Range Max 5"}
             defaultValue=""
             onChange={(e) =>
               setRangeMax([
@@ -415,7 +415,7 @@ function Range({ setRangeMin, setRangeMax, rangeMin, rangeMax }) {
             className="deep-red"
             required
             id="outlined-required"
-            label="Range Min 6"
+            label={rangeMin[5] !== undefined ? `${rangeMin[5]}` : "Range Min 6"}
             defaultValue=""
             onChange={(e) =>
               setRangeMin([
@@ -433,7 +433,7 @@ function Range({ setRangeMin, setRangeMax, rangeMin, rangeMax }) {
             className="deep-red"
             required
             id="outlined-required"
-            label="Range Max 6"
+            label={rangeMax[5] !== undefined ? `${rangeMax[5]}` : "Range Max 6"}
             defaultValue=""
             onChange={(e) =>
               setRangeMax([

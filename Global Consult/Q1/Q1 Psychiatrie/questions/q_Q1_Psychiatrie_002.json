@@ -34,12 +34,13 @@
     },
     {
       "code": "aucun",
-      "text": "Aucun de ces antécédents"
+      "text": "Aucun de ces antécédents",
+      "exclusive": true
     }
   ],
   "scores": [
     {
-      "conditions": "q_Q1_Psychiatrie_002 in \"depression grave\"",
+      "conditions": "\"depression grave\" in q_Q1_Psychiatrie_002",
       "tagOID": "S_PSY_ATCD_DEPRESSION_ISOLEE",
       "value": 1
     },
@@ -49,7 +50,7 @@
       "value": 0
     },
     {
-      "conditions": "q_Q1_Psychiatrie_002 in \"depressions recurrentes\"",
+      "conditions": "\"depressions recurrentes\" in q_Q1_Psychiatrie_002",
       "tagOID": "S_PSY_ATCD_DEPRESSION_RECURRENTE",
       "value": 1
     },
@@ -59,7 +60,7 @@
       "value": 0
     },
     {
-      "conditions": "q_Q1_Psychiatrie_002 in \"depression persistante\"",
+      "conditions": "\"depression persistante\" in q_Q1_Psychiatrie_002",
       "tagOID": "S_PSY_ATCD_DEPRESSION_PERSISTANTE",
       "value": 1
     },
@@ -69,7 +70,7 @@
       "value": 0
     },
     {
-      "conditions": "q_Q1_Psychiatrie_002 in \"depression bipolaire\"",
+      "conditions": "\"depression bipolaire\" in q_Q1_Psychiatrie_002",
       "tagOID": "S_PSY_ATCD_DEPRESSION_BIPOLAIRE",
       "value": 1
     },
@@ -79,7 +80,7 @@
       "value": 0
     },
     {
-      "conditions": "q_Q1_Psychiatrie_002 in \"cyclothymie\"",
+      "conditions": "\"cyclothymie\" in q_Q1_Psychiatrie_002",
       "tagOID": "S_PSY_ATCD_DEPRESSION_CYCLOTHYMIE",
       "value": 1
     },
@@ -89,7 +90,7 @@
       "value": 0
     },
     {
-      "conditions": "q_Q1_Psychiatrie_002 in \"depression saisonniere\"",
+      "conditions": "\"depression saisonniere\" in q_Q1_Psychiatrie_002",
       "tagOID": "S_PSY_ATCD_DEPRESSION_SAISONNIERE",
       "value": 1
     },
@@ -99,7 +100,7 @@
       "value": 0
     },
     {
-      "conditions": "q_Q1_Psychiatrie_002 in \"depression suicide\"",
+      "conditions": "\"depression suicide\" in q_Q1_Psychiatrie_002",
       "tagOID": "S_PSY_ATCD_DEPRESSION_SUICIDE",
       "value": 1
     },
@@ -109,13 +110,23 @@
       "value": 0
     },
     {
-      "conditions": "q_Q1_Psychiatrie_002 in \"aucun\"",
+      "conditions": "\"aucun\" in q_Q1_Psychiatrie_002",
       "tagOID": "S_PSY_ATCD_DEPRESSION",
       "value": 0
     },
     {
       "conditions": "!(\"aucun\" in q_Q1_Psychiatrie_002)",
       "tagOID": "S_PSY_ATCD_DEPRESSION",
+      "value": 1
+    },
+    {
+      "conditions": "\"aucun\" in q_Q1_Psychiatrie_002",
+      "tagOID": "S_PSY_ATCD",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_Q1_Psychiatrie_002)",
+      "tagOID": "S_PSY_ATCD",
       "value": 1
     }
   ]

@@ -291,17 +291,24 @@
     {
       "question": "q_Q1_Psychiatrie_046",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_Q1_Psychiatrie_047",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Oui\" in q_Q1_Psychiatrie_046)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_Psychiatrie_044": "Non"
+        }
+      }
     },
     {
       "question": "q_Q1_Psychiatrie_048",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_Q1_Psychiatrie_049",
@@ -410,9 +417,11 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"undefined\" in undefined)",
+        "conditions": "!(\"Oui\" in q_Q1_Psychiatrie_060)",
         "scope": "MODULE_SCOPE",
-        "defaultValues": {}
+        "defaultValues": {
+          "q_Q1_Psychiatrie_060": "Non"
+        }
       }
     }
   ]

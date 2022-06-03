@@ -23,16 +23,24 @@ const promptFileName = () => {
 const createDestFolder = () => {
   if (!fs.existsSync("./form_components")) {
     fs.mkdirSync("./form_components");
-    copyMainPy();
+    copyTestPy();
+    copyProdPy();
   } else if (fs.existsSync("./form_components")) {
-    copyMainPy();
+    copyTestPy();
+    copyProdPy();
   }
 };
 
-// COPY MAIN.PY IN DESTINATION FOLDER \\
-const copyMainPy = () => {
-  fs.copyFileSync("./main.py", "./form_components/main.py");
-  console.log("main.py successfully copied.");
+// COPY TEST.PY IN DESTINATION FOLDER \\
+const copyTestPy = () => {
+  fs.copyFileSync("./main.py", "./form_components/test.py");
+  console.log("test.py successfully copied.");
+};
+
+// COPY PROD.PY IN DESTINATION FOLDER \\
+const copyProdPy = () => {
+  fs.copyFileSync("./main.py", "./form_components/prod.py");
+  console.log("prod.py successfully copied.");
 };
 
 const dir = [base_tags, questions, chapters, form, modules, tags];
@@ -289,7 +297,7 @@ const createQuestions = (data) => {
           ) {
             let choice;
             let score = {
-              conditions: `${data.modules[m].questions[q].questionOID} in "${data.modules[m].questions[q].answers[a].value}"`,
+              conditions: `"${data.modules[m].questions[q].answers[a].value} in ${data.modules[m].questions[q].questionOID}"`,
               tagOID: `${data.modules[m].questions[q].tag}`,
               value: 1,
             };

@@ -129,12 +129,12 @@
     },
     {
       "conditions": "q_Q1_Psychiatrie_006 in \"obsessionnelle compulsive\"",
-      "tagOID": "S_PSY_ATCD_PERSONNALITE_OBSESSIONNELLE",
+      "tagOID": "S_PSY_ATCD_PERSONNALITE_OBSESSIONNEL",
       "value": 1
     },
     {
       "conditions": "!(\"obsessionnelle compulsive\" in q_Q1_Psychiatrie_006)",
-      "tagOID": "S_PSY_ATCD_PERSONNALITE_OBSESSIONNELLE",
+      "tagOID": "S_PSY_ATCD_PERSONNALITE_OBSESSIONNEL",
       "value": 0
     },
     {
@@ -145,6 +145,16 @@
     {
       "conditions": "!(\"aucun\" in q_Q1_Psychiatrie_006)",
       "tagOID": "S_PSY_ATCD_PERSONNALITE",
+      "value": 1
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_006 in \"aucun\"",
+      "tagOID": "S_PSY_ATCD",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_Q1_Psychiatrie_006)",
+      "tagOID": "S_PSY_ATCD",
       "value": 1
     }
   ]

@@ -1,13 +1,13 @@
 {
   "oid": "Q1_Psychiatrie",
-  "title": "Q1_Psychiatrie",
+  "title": "Q1 Global Focus Psychiatrie",
   "estimatedTime": 10,
   "pricing": 10,
   "description": "Psychiatrie",
   "levelMax": "1",
-  "linkedForm": "",
+  "companyId": "",
   "authors": ["Jean-Philippe Astruc"],
-  "chapters": ["chap_Q1 Psychiatrie"],
+  "chapters": ["chap_Q1_Psychiatrie"],
   "professions": ["DENTIST"],
   "diagnostics": [],
   "reportingTrees": [
@@ -56,7 +56,7 @@
               },
               {
                 "min": 1,
-                "max": 1,
+                "max": 8,
                 "color": "FF0000",
                 "text": "ATCD"
               }
@@ -231,25 +231,6 @@
                       }
                     ],
                     "children": []
-                  },
-                  {
-                    "tagOID": "S_PSY_ATCD_ANXIETE_DATE",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "DATE"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "DATE"
-                      }
-                    ],
-                    "children": []
                   }
                 ]
               },
@@ -402,27 +383,7 @@
                         "text": "SUICIDE"
                       }
                     ],
-                    "children": [
-                      {
-                        "tagOID": "S_PSY_ATCD_DEPRESSION_SUICIDE_DATE",
-                        "type": "SCORE",
-                        "ranges": [
-                          {
-                            "min": 0,
-                            "max": 0,
-                            "color": "00FF00",
-                            "text": "DATE"
-                          },
-                          {
-                            "min": 1,
-                            "max": 1,
-                            "color": "FF0000",
-                            "text": "DATE"
-                          }
-                        ],
-                        "children": []
-                      }
-                    ]
+                    "children": []
                   },
                   {
                     "tagOID": "S_PSY_ATCD_DEPRESSION_DATE",
@@ -633,25 +594,6 @@
                       }
                     ],
                     "children": []
-                  },
-                  {
-                    "tagOID": "S_PSY_ATCD_TRAITEMENT_DATE",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "DATE"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "DATE"
-                      }
-                    ],
-                    "children": []
                   }
                 ]
               },
@@ -805,25 +747,6 @@
                       }
                     ],
                     "children": []
-                  },
-                  {
-                    "tagOID": "S_PSY_ATCD_NEURO_DEV_DATE",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "DATE"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "DATE"
-                      }
-                    ],
-                    "children": []
                   }
                 ]
               },
@@ -845,25 +768,6 @@
                   }
                 ],
                 "children": [
-                  {
-                    "tagOID": "S_PSY_ATCD_PERSONNALITE_DATE",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "DATE"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "DATE"
-                      }
-                    ],
-                    "children": []
-                  },
                   {
                     "tagOID": "S_PSY_ATCD_PERSONNALITE_PARANOIDE",
                     "type": "SCORE",
@@ -2163,32 +2067,13 @@
                                 "min": 0,
                                 "max": 0,
                                 "color": "00FF00",
-                                "text": "AMI 2"
+                                "text": "AMI"
                               },
                               {
                                 "min": 1,
                                 "max": 1,
                                 "color": "FF0000",
-                                "text": "AMI 2"
-                              }
-                            ],
-                            "children": []
-                          },
-                          {
-                            "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_SOLITAIRE",
-                            "type": "SCORE",
-                            "ranges": [
-                              {
-                                "min": 0,
-                                "max": 0,
-                                "color": "00FF00",
-                                "text": "SAPAS SOLIT"
-                              },
-                              {
-                                "min": 1,
-                                "max": 1,
-                                "color": "FF0000",
-                                "text": "SAPAS SOLIT"
+                                "text": "AMI"
                               }
                             ],
                             "children": []
@@ -2213,25 +2098,6 @@
                             "children": []
                           },
                           {
-                            "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_CONFIANCE",
-                            "type": "SCORE",
-                            "ranges": [
-                              {
-                                "min": 0,
-                                "max": 0,
-                                "color": "00FF00",
-                                "text": "SAPAS CONFIANCE"
-                              },
-                              {
-                                "min": 1,
-                                "max": 1,
-                                "color": "FF0000",
-                                "text": "SAPAS CONFIANCE"
-                              }
-                            ],
-                            "children": []
-                          },
-                          {
                             "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_CONFIANCE_2",
                             "type": "SCORE",
                             "ranges": [
@@ -2239,32 +2105,13 @@
                                 "min": 0,
                                 "max": 0,
                                 "color": "00FF00",
-                                "text": "SAPAS CONFIANCE 2"
+                                "text": "SAPAS CONFIANCE"
                               },
                               {
                                 "min": 1,
                                 "max": 1,
                                 "color": "FF0000",
-                                "text": "SAPAS CONFIANCE 2"
-                              }
-                            ],
-                            "children": []
-                          },
-                          {
-                            "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_CALME",
-                            "type": "SCORE",
-                            "ranges": [
-                              {
-                                "min": 0,
-                                "max": 0,
-                                "color": "00FF00",
-                                "text": "SAPAS CALME"
-                              },
-                              {
-                                "min": 1,
-                                "max": 1,
-                                "color": "FF0000",
-                                "text": "SAPAS CALME"
+                                "text": "SAPAS CONFIANCE"
                               }
                             ],
                             "children": []
@@ -2277,32 +2124,13 @@
                                 "min": 0,
                                 "max": 0,
                                 "color": "00FF00",
-                                "text": "SAPAS CALME 2"
+                                "text": "SAPAS CALME"
                               },
                               {
                                 "min": 1,
                                 "max": 1,
                                 "color": "FF0000",
-                                "text": "SAPAS CALME 2"
-                              }
-                            ],
-                            "children": []
-                          },
-                          {
-                            "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_IMPULSIF",
-                            "type": "SCORE",
-                            "ranges": [
-                              {
-                                "min": 0,
-                                "max": 0,
-                                "color": "00FF00",
-                                "text": "SAPAS IMPULSIF"
-                              },
-                              {
-                                "min": 1,
-                                "max": 1,
-                                "color": "FF0000",
-                                "text": "SAPAS IMPULSIF"
+                                "text": "SAPAS CALME"
                               }
                             ],
                             "children": []
@@ -2315,32 +2143,13 @@
                                 "min": 0,
                                 "max": 0,
                                 "color": "00FF00",
-                                "text": "SAPAS IMPULSIF 2"
+                                "text": "SAPAS IMPULSIF"
                               },
                               {
                                 "min": 1,
                                 "max": 1,
                                 "color": "FF0000",
-                                "text": "SAPAS IMPULSIF 2"
-                              }
-                            ],
-                            "children": []
-                          },
-                          {
-                            "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_INQUIET",
-                            "type": "SCORE",
-                            "ranges": [
-                              {
-                                "min": 0,
-                                "max": 0,
-                                "color": "00FF00",
-                                "text": "SAPAS INQUIET"
-                              },
-                              {
-                                "min": 1,
-                                "max": 1,
-                                "color": "FF0000",
-                                "text": "SAPAS INQUIET"
+                                "text": "SAPAS IMPULSIF"
                               }
                             ],
                             "children": []
@@ -2353,32 +2162,13 @@
                                 "min": 0,
                                 "max": 0,
                                 "color": "00FF00",
-                                "text": "SAPAS INQUIET 2"
+                                "text": "SAPAS INQUIET"
                               },
                               {
                                 "min": 1,
                                 "max": 1,
                                 "color": "FF0000",
-                                "text": "SAPAS INQUIET 2"
-                              }
-                            ],
-                            "children": []
-                          },
-                          {
-                            "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_DEPENDANCE",
-                            "type": "SCORE",
-                            "ranges": [
-                              {
-                                "min": 0,
-                                "max": 0,
-                                "color": "00FF00",
-                                "text": "SAPAS DEPENDANCE"
-                              },
-                              {
-                                "min": 1,
-                                "max": 1,
-                                "color": "FF0000",
-                                "text": "SAPAS DEPENDANCE"
+                                "text": "SAPAS INQUIET"
                               }
                             ],
                             "children": []
@@ -2391,32 +2181,13 @@
                                 "min": 0,
                                 "max": 0,
                                 "color": "00FF00",
-                                "text": "SAPAS DEPENDANCE 2"
+                                "text": "SAPAS DEPENDANCE"
                               },
                               {
                                 "min": 1,
                                 "max": 1,
                                 "color": "FF0000",
-                                "text": "SAPAS DEPENDANCE 2"
-                              }
-                            ],
-                            "children": []
-                          },
-                          {
-                            "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_PERFECTIONNISTE",
-                            "type": "SCORE",
-                            "ranges": [
-                              {
-                                "min": 0,
-                                "max": 0,
-                                "color": "00FF00",
-                                "text": "SAPAS PERF"
-                              },
-                              {
-                                "min": 1,
-                                "max": 1,
-                                "color": "FF0000",
-                                "text": "SAPAS PERF"
+                                "text": "SAPAS DEPENDANCE"
                               }
                             ],
                             "children": []
@@ -2429,213 +2200,22 @@
                                 "min": 0,
                                 "max": 0,
                                 "color": "00FF00",
-                                "text": "SAPAS PERF 2"
+                                "text": "SAPAS PERF"
                               },
                               {
                                 "min": 1,
                                 "max": 1,
                                 "color": "FF0000",
-                                "text": "SAPAS PERF 2"
+                                "text": "SAPAS PERF"
                               }
                             ],
                             "children": []
                           }
                         ]
-                      },
-                      {
-                        "tagOID": "S_PSY_SYMP_PERSONNALITE_SAPAS_AMI",
-                        "type": "SCORE",
-                        "ranges": [
-                          {
-                            "min": 0,
-                            "max": 0,
-                            "color": "00FF00",
-                            "text": "AMI"
-                          },
-                          {
-                            "min": 1,
-                            "max": 1,
-                            "color": "FF0000",
-                            "text": "AMI"
-                          }
-                        ],
-                        "children": []
                       }
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "tagOID": "S_PSY_GLOBAL_SOINS",
-            "type": "SCORE",
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "SOINS"
-              },
-              {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "SOINS"
-              }
-            ],
-            "children": [
-              {
-                "tagOID": "S_PSY_GLOBAL_SOINS_HOSPITALISATION",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "SOINS HOSP"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "SOINS HOSP"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_PSY_GLOBAL_SOINS_PSYCHIATRE",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "SOIN PSYCHIATRE"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "SOIN PSYCHIATRE"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_PSY_GLOBAL_SOINS_PSYCHOLOGUE",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "SOIN PSYCHOLOGUE"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "SOIN PSYCHOLOGUE"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_PSY_GLOBAL_SOINS_PSYCHANALYSE",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "SOIN PSYCHANALYSE"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "SOIN PSYCHANALYSE"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_PSY_GLOBAL_SOINS_TCC",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "SOIN TCC"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "SOIN TCC"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_PSY_GLOBAL_SOINS_HYPNOSE",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "SOIN HYPNOSE"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "SOIN HYPNOSE"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_PSY_GLOBAL_SOINS_EMDR",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "SOIN EMDR"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "SOIN EMDR"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_PSY_GLOBAL_SOINS_AUTRES",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "SOINS AUTRES"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "SOINS AUTRES"
-                  }
-                ],
-                "children": []
               }
             ]
           }

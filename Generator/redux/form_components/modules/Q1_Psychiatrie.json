@@ -27,9 +27,11 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"undefined\" in undefined)",
+        "conditions": "!(\"autres\" in q_Q1_Psychiatrie_003)",
         "scope": "MODULE_SCOPE",
-        "defaultValues": {}
+        "defaultValues": {
+          "q_Q1_Psychiatrie_001": "aucun"
+        }
       }
     },
     {
@@ -47,10 +49,10 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"aucun\" in q_Q1_Psychiatrie_001)",
+        "conditions": "(\"aucun\" in q_Q1_Psychiatrie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_Q1_Psychiatrie_001": "aucun"
+          "q_Q1_Psychiatrie_003": "aucun"
         }
       }
     },
@@ -59,7 +61,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"aucun\" in q_Q1_Psychiatrie_002)",
+        "conditions": "(\"aucun\" in q_Q1_Psychiatrie_002)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_Q1_Psychiatrie_002": "aucun"
@@ -83,7 +85,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"aucun\" in q_Q1_Psychiatrie_003)",
+        "conditions": "(\"aucun\" in q_Q1_Psychiatrie_003)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_Q1_Psychiatrie_003": "aucun"
@@ -95,7 +97,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"aucun\" in q_Q1_Psychiatrie_004)",
+        "conditions": "(\"aucun\" in q_Q1_Psychiatrie_005)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_Q1_Psychiatrie_004": "aucun"
@@ -107,7 +109,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"aucun\" in q_Q1_Psychiatrie_005)",
+        "conditions": "(\"aucun\" in q_Q1_Psychiatrie_006)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_Q1_Psychiatrie_005": "aucun"

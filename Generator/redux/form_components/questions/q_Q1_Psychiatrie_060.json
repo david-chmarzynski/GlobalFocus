@@ -45,93 +45,93 @@
   "scores": [
     {
       "conditions": "q_Q1_Psychiatrie_060 in \"hospitalisation de jour\"",
-      "tagOID": "S_PSY_GLOBAL_SOINS",
+      "tagOID": "S_PSY_GLOBAL_SOINS_HOSPITALISATION",
       "value": 1
     },
     {
       "conditions": "!(\"hospitalisation de jour\" in q_Q1_Psychiatrie_060)",
-      "tagOID": "S_PSY_GLOBAL_SOINS",
+      "tagOID": "S_PSY_GLOBAL_SOINS_HOSPITALISATION",
       "value": 0
     },
     {
       "conditions": "q_Q1_Psychiatrie_060 in \"consultations psychiatre\"",
-      "tagOID": "S_PSY_GLOBAL_SOINS",
+      "tagOID": "S_PSY_GLOBAL_SOINS_PSYCHIATRE",
       "value": 1
     },
     {
       "conditions": "!(\"consultations psychiatre\" in q_Q1_Psychiatrie_060)",
-      "tagOID": "S_PSY_GLOBAL_SOINS",
+      "tagOID": "S_PSY_GLOBAL_SOINS_PSYCHIATRE",
       "value": 0
     },
     {
       "conditions": "q_Q1_Psychiatrie_060 in \"consultations psychologue\"",
-      "tagOID": "S_PSY_GLOBAL_SOINS",
+      "tagOID": "S_PSY_GLOBAL_SOINS_PSYCHOLOGUE",
       "value": 1
     },
     {
       "conditions": "!(\"consultations psychologue\" in q_Q1_Psychiatrie_060)",
-      "tagOID": "S_PSY_GLOBAL_SOINS",
+      "tagOID": "S_PSY_GLOBAL_SOINS_PSYCHOLOGUE",
       "value": 0
     },
     {
       "conditions": "q_Q1_Psychiatrie_060 in \"psychanalyse\"",
-      "tagOID": "S_PSY_GLOBAL_SOINS",
+      "tagOID": "S_PSY_GLOBAL_SOINS_PSYCHANALYSE",
       "value": 1
     },
     {
       "conditions": "!(\"psychanalyse\" in q_Q1_Psychiatrie_060)",
-      "tagOID": "S_PSY_GLOBAL_SOINS",
+      "tagOID": "S_PSY_GLOBAL_SOINS_PSYCHANALYSE",
       "value": 0
     },
     {
       "conditions": "q_Q1_Psychiatrie_060 in \"tcc\"",
-      "tagOID": "S_PSY_GLOBAL_SOINS",
+      "tagOID": "S_PSY_GLOBAL_SOINS_TCC",
       "value": 1
     },
     {
       "conditions": "!(\"tcc\" in q_Q1_Psychiatrie_060)",
-      "tagOID": "S_PSY_GLOBAL_SOINS",
+      "tagOID": "S_PSY_GLOBAL_SOINS_TCC",
       "value": 0
     },
     {
       "conditions": "q_Q1_Psychiatrie_060 in \"hypnose\"",
-      "tagOID": "S_PSY_GLOBAL_SOINS",
+      "tagOID": "S_PSY_GLOBAL_SOINS_HYPNOSE",
       "value": 1
     },
     {
       "conditions": "!(\"hypnose\" in q_Q1_Psychiatrie_060)",
-      "tagOID": "S_PSY_GLOBAL_SOINS",
+      "tagOID": "S_PSY_GLOBAL_SOINS_HYPNOSE",
       "value": 0
     },
     {
       "conditions": "q_Q1_Psychiatrie_060 in \"EMDR\"",
-      "tagOID": "S_PSY_GLOBAL_SOINS",
+      "tagOID": "S_PSY_GLOBAL_SOINS_EMDR",
       "value": 1
     },
     {
       "conditions": "!(\"EMDR\" in q_Q1_Psychiatrie_060)",
-      "tagOID": "S_PSY_GLOBAL_SOINS",
+      "tagOID": "S_PSY_GLOBAL_SOINS_EMDR",
       "value": 0
     },
     {
       "conditions": "q_Q1_Psychiatrie_060 in \"autres\"",
-      "tagOID": "S_PSY_GLOBAL_SOINS",
+      "tagOID": "S_PSY_GLOBAL_SOINS_AUTRES",
       "value": 1
     },
     {
       "conditions": "!(\"autres\" in q_Q1_Psychiatrie_060)",
-      "tagOID": "S_PSY_GLOBAL_SOINS",
+      "tagOID": "S_PSY_GLOBAL_SOINS_AUTRES",
       "value": 0
     },
     {
       "conditions": "q_Q1_Psychiatrie_060 in \"aucun\"",
       "tagOID": "S_PSY_GLOBAL_SOINS",
-      "value": 1
+      "value": 0
     },
     {
       "conditions": "!(\"aucun\" in q_Q1_Psychiatrie_060)",
       "tagOID": "S_PSY_GLOBAL_SOINS",
-      "value": 0
+      "value": 1
     }
   ]
 }

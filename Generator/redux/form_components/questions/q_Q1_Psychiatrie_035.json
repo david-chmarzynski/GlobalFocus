@@ -24,22 +24,22 @@
   "scores": [
     {
       "conditions": "q_Q1_Psychiatrie_035 == \"0\"",
-      "tagOID": "S_PSY_SYMP_INDOLAMINE_SOMMEIL",
+      "tagOID": "S_PSY_SYMP_INDOLIMINE_SOMMEIL",
       "value": 0
     },
     {
       "conditions": "q_Q1_Psychiatrie_035 == \"1\"",
-      "tagOID": "S_PSY_SYMP_INDOLAMINE_SOMMEIL",
+      "tagOID": "S_PSY_SYMP_INDOLIMINE_SOMMEIL",
       "value": 1
     },
     {
       "conditions": "q_Q1_Psychiatrie_035 == \"2\"",
-      "tagOID": "S_PSY_SYMP_INDOLAMINE_SOMMEIL",
+      "tagOID": "S_PSY_SYMP_INDOLIMINE_SOMMEIL",
       "value": 2
     },
     {
       "conditions": "q_Q1_Psychiatrie_035 == \"3\"",
-      "tagOID": "S_PSY_SYMP_INDOLAMINE_SOMMEIL",
+      "tagOID": "S_PSY_SYMP_INDOLIMINE_SOMMEIL",
       "value": 3
     }
   ]

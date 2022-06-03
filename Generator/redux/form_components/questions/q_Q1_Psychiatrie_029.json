@@ -24,22 +24,22 @@
   "scores": [
     {
       "conditions": "q_Q1_Psychiatrie_029 == \"0\"",
-      "tagOID": "S_PSY_SYMP_INDOLAMINE_IMPATIENT",
+      "tagOID": "S_PSY_SYMP_INDOLIMINE_IMPATIENT",
       "value": 0
     },
     {
       "conditions": "q_Q1_Psychiatrie_029 == \"1\"",
-      "tagOID": "S_PSY_SYMP_INDOLAMINE_IMPATIENT",
+      "tagOID": "S_PSY_SYMP_INDOLIMINE_IMPATIENT",
       "value": 1
     },
     {
       "conditions": "q_Q1_Psychiatrie_029 == \"2\"",
-      "tagOID": "S_PSY_SYMP_INDOLAMINE_IMPATIENT",
+      "tagOID": "S_PSY_SYMP_INDOLIMINE_IMPATIENT",
       "value": 2
     },
     {
       "conditions": "q_Q1_Psychiatrie_029 == \"3\"",
-      "tagOID": "S_PSY_SYMP_INDOLAMINE_IMPATIENT",
+      "tagOID": "S_PSY_SYMP_INDOLIMINE_IMPATIENT",
       "value": 3
     }
   ]

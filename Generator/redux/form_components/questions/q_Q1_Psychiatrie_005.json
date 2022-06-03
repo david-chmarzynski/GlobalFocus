@@ -41,83 +41,83 @@
   "scores": [
     {
       "conditions": "q_Q1_Psychiatrie_005 in \"tdha\"",
-      "tagOID": "S_PSY_ATCD_NEURO_DEV",
+      "tagOID": "S_PSY_ATCD_NEURO_DEV_TDHA",
       "value": 1
     },
     {
       "conditions": "!(\"tdha\" in q_Q1_Psychiatrie_005)",
-      "tagOID": "S_PSY_ATCD_NEURO_DEV",
+      "tagOID": "S_PSY_ATCD_NEURO_DEV_TDHA",
       "value": 0
     },
     {
       "conditions": "q_Q1_Psychiatrie_005 in \"impulsivite\"",
-      "tagOID": "S_PSY_ATCD_NEURO_DEV",
+      "tagOID": "S_PSY_ATCD_NEURO_DEV_IMPULSIVITE",
       "value": 1
     },
     {
       "conditions": "!(\"impulsivite\" in q_Q1_Psychiatrie_005)",
-      "tagOID": "S_PSY_ATCD_NEURO_DEV",
+      "tagOID": "S_PSY_ATCD_NEURO_DEV_IMPULSIVITE",
       "value": 0
     },
     {
       "conditions": "q_Q1_Psychiatrie_005 in \"dyslexie\"",
-      "tagOID": "S_PSY_ATCD_NEURO_DEV",
+      "tagOID": "S_PSY_ATCD_NEURO_DEV_DYSLEXIE",
       "value": 1
     },
     {
       "conditions": "!(\"dyslexie\" in q_Q1_Psychiatrie_005)",
-      "tagOID": "S_PSY_ATCD_NEURO_DEV",
+      "tagOID": "S_PSY_ATCD_NEURO_DEV_DYSLEXIE",
       "value": 0
     },
     {
       "conditions": "q_Q1_Psychiatrie_005 in \"dysorthographie\"",
-      "tagOID": "S_PSY_ATCD_NEURO_DEV",
+      "tagOID": "S_PSY_ATCD_NEURO_DEV_DYSORTHO",
       "value": 1
     },
     {
       "conditions": "!(\"dysorthographie\" in q_Q1_Psychiatrie_005)",
-      "tagOID": "S_PSY_ATCD_NEURO_DEV",
+      "tagOID": "S_PSY_ATCD_NEURO_DEV_DYSORTHO",
       "value": 0
     },
     {
       "conditions": "q_Q1_Psychiatrie_005 in \"dyscalculie\"",
-      "tagOID": "S_PSY_ATCD_NEURO_DEV",
+      "tagOID": "S_PSY_ATCD_NEURO_DEV_DYSCALC",
       "value": 1
     },
     {
       "conditions": "!(\"dyscalculie\" in q_Q1_Psychiatrie_005)",
-      "tagOID": "S_PSY_ATCD_NEURO_DEV",
+      "tagOID": "S_PSY_ATCD_NEURO_DEV_DYSCALC",
       "value": 0
     },
     {
       "conditions": "q_Q1_Psychiatrie_005 in \"dyspraxie\"",
-      "tagOID": "S_PSY_ATCD_NEURO_DEV",
+      "tagOID": "S_PSY_ATCD_NEURO_DEV_DYSPRAXIE",
       "value": 1
     },
     {
       "conditions": "!(\"dyspraxie\" in q_Q1_Psychiatrie_005)",
-      "tagOID": "S_PSY_ATCD_NEURO_DEV",
+      "tagOID": "S_PSY_ATCD_NEURO_DEV_DYSPRAXIE",
       "value": 0
     },
     {
       "conditions": "q_Q1_Psychiatrie_005 in \"autres\"",
-      "tagOID": "S_PSY_ATCD_NEURO_DEV",
+      "tagOID": "S_PSY_ATCD_NEURO_DEV_AUTRE",
       "value": 1
     },
     {
       "conditions": "!(\"autres\" in q_Q1_Psychiatrie_005)",
-      "tagOID": "S_PSY_ATCD_NEURO_DEV",
+      "tagOID": "S_PSY_ATCD_NEURO_DEV_AUTRE",
       "value": 0
     },
     {
       "conditions": "q_Q1_Psychiatrie_005 in \"aucun\"",
       "tagOID": "S_PSY_ATCD_NEURO_DEV",
-      "value": 1
+      "value": 0
     },
     {
       "conditions": "!(\"aucun\" in q_Q1_Psychiatrie_005)",
       "tagOID": "S_PSY_ATCD_NEURO_DEV",
-      "value": 0
+      "value": 1
     }
   ]
 }

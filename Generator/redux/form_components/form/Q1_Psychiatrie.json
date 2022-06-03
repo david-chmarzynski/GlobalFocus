@@ -6,16 +6,9 @@
   "description": "Psychiatrie",
   "levelMax": "1",
   "linkedForm": "",
-  "companyId": "[object Object]",
-  "authors": [
-    "Jean-Philippe Astruc"
-  ],
-  "chapters": [
-    "chap_Q1 Psychiatrie"
-  ],
-  "professions": [
-    "DENTIST"
-  ],
+  "authors": ["Jean-Philippe Astruc"],
+  "chapters": ["chap_Q1 Psychiatrie"],
+  "professions": ["DENTIST"],
   "diagnostics": [],
   "reportingTrees": [
     {
@@ -107,7 +100,7 @@
                     "children": []
                   },
                   {
-                    "tagOID": "S_PSY_ATCD_ANXIETE_PANIQUE ",
+                    "tagOID": "S_PSY_ATCD_ANXIETE_PANIQUE",
                     "type": "SCORE",
                     "ranges": [
                       {
@@ -470,6 +463,44 @@
                   }
                 ],
                 "children": [
+                  {
+                    "tagOID": "S_PSY_ATCD_TRAITEMENT_HOSPI",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "PSYCHIATRE"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "PSYCHIATRE"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_PSY_ATCD_TRAITEMENT_MEDIC",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "PSYCHIATRE"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "PSYCHIATRE"
+                      }
+                    ],
+                    "children": []
+                  },
                   {
                     "tagOID": "S_PSY_ATCD_TRAITEMENT_PSYCHIATRE",
                     "type": "SCORE",
@@ -1047,15 +1078,27 @@
                         "ranges": [
                           {
                             "min": 0,
-                            "max": 0,
+                            "max": 7,
                             "color": "00FF00",
-                            "text": "SYMP ANX"
+                            "text": "ANX"
                           },
                           {
-                            "min": 1,
-                            "max": 1,
+                            "min": 8,
+                            "max": 10,
+                            "color": "FFFF00",
+                            "text": "ANX"
+                          },
+                          {
+                            "min": 11,
+                            "max": 14,
+                            "color": "FF9900",
+                            "text": "ANX"
+                          },
+                          {
+                            "min": 15,
+                            "max": 21,
                             "color": "FF0000",
-                            "text": "SYMP ANX"
+                            "text": "ANX"
                           }
                         ],
                         "children": [
@@ -1079,7 +1122,7 @@
                             "children": []
                           },
                           {
-                            "tagOID": "S_SYMP_ANXIETE_HAD_PEUR",
+                            "tagOID": "S_PSY_SYMP_ANXIETE_HAD_PEUR",
                             "type": "SCORE",
                             "ranges": [
                               {
@@ -1290,37 +1333,25 @@
                           },
                           {
                             "min": 15,
-                            "max": 6,
+                            "max": 21,
                             "color": "FF0000",
                             "text": "DEPR"
                           }
                         ],
                         "children": [
                           {
-                            "tagOID": "S_PSY_DEPRESSION_HAD_PLAISIR",
+                            "tagOID": "S_PSY_SYMP_DEPRESSION_HAD_PLAISIR",
                             "type": "SCORE",
                             "ranges": [
                               {
                                 "min": 0,
-                                "max": 7,
+                                "max": 0,
                                 "color": "00FF00",
                                 "text": "PLAISIR"
                               },
                               {
-                                "min": 8,
-                                "max": 10,
-                                "color": "FFFF00",
-                                "text": "PLAISIR"
-                              },
-                              {
-                                "min": 11,
-                                "max": 14,
-                                "color": "FF9900",
-                                "text": "PLAISIR"
-                              },
-                              {
-                                "min": 15,
-                                "max": 6,
+                                "min": 1,
+                                "max": 1,
                                 "color": "FF0000",
                                 "text": "PLAISIR"
                               }
@@ -1547,7 +1578,7 @@
                         "children": []
                       },
                       {
-                        "tagOID": "S_PSY_SYMP_INDOLAMINE",
+                        "tagOID": "S_PSY_SYMP_INDOLIMINE",
                         "type": "SCORE",
                         "ranges": [
                           {
@@ -1577,30 +1608,30 @@
                         ],
                         "children": [
                           {
-                            "tagOID": "S_PSY_SYMP_INDOLAMINE_IRRITABLE",
+                            "tagOID": "S_PSY_SYMP_INDOLIMINE_IRRITABLE",
                             "type": "SCORE",
                             "ranges": [
                               {
                                 "min": 0,
-                                "max": 5,
+                                "max": 0,
                                 "color": "00FF00",
                                 "text": "IRRITABLE"
                               },
                               {
-                                "min": 6,
-                                "max": 10,
+                                "min": 1,
+                                "max": 1,
                                 "color": "FFFF00",
                                 "text": "IRRITABLE"
                               },
                               {
-                                "min": 11,
-                                "max": 16,
+                                "min": 2,
+                                "max": 2,
                                 "color": "FF9900",
                                 "text": "IRRITABLE"
                               },
                               {
-                                "min": 17,
-                                "max": 24,
+                                "min": 3,
+                                "max": 3,
                                 "color": "FF0000",
                                 "text": "IRRITABLE"
                               }
@@ -1608,7 +1639,7 @@
                             "children": []
                           },
                           {
-                            "tagOID": "S_PSY_SYMP_INDOLAMINE_IMPATIENT",
+                            "tagOID": "S_PSY_SYMP_INDOLIMINE_IMPATIENT",
                             "type": "SCORE",
                             "ranges": [
                               {
@@ -1639,7 +1670,7 @@
                             "children": []
                           },
                           {
-                            "tagOID": "S_PSY_SYMP_INDOLAMINE_CONTRAINTE",
+                            "tagOID": "S_PSY_SYMP_INDOLIMINE_CONTRAINTE",
                             "type": "SCORE",
                             "ranges": [
                               {
@@ -1670,7 +1701,7 @@
                             "children": []
                           },
                           {
-                            "tagOID": "S_PSY_SYMP_INDOLAMINE_STRESS",
+                            "tagOID": "S_PSY_SYMP_INDOLIMINE_STRESS",
                             "type": "SCORE",
                             "ranges": [
                               {
@@ -1701,7 +1732,7 @@
                             "children": []
                           },
                           {
-                            "tagOID": "S_PSY_SYMP_INDOLAMINE_EXPLOSIF",
+                            "tagOID": "S_PSY_SYMP_INDOLIMINE_EXPLOSIF",
                             "type": "SCORE",
                             "ranges": [
                               {
@@ -1732,7 +1763,7 @@
                             "children": []
                           },
                           {
-                            "tagOID": "S_PSY_SYMP_INDOLAMINE_COMPULSION",
+                            "tagOID": "S_PSY_SYMP_INDOLIMINE_COMPULSION",
                             "type": "SCORE",
                             "ranges": [
                               {
@@ -1763,7 +1794,7 @@
                             "children": []
                           },
                           {
-                            "tagOID": "S_PSY_SYMP_INDOLAMINE_DEPENDANCE",
+                            "tagOID": "S_PSY_SYMP_INDOLIMINE_DEPENDANCE",
                             "type": "SCORE",
                             "ranges": [
                               {
@@ -1794,7 +1825,7 @@
                             "children": []
                           },
                           {
-                            "tagOID": "S_PSY_SYMP_INDOLAMINE_SOMMEIL",
+                            "tagOID": "S_PSY_SYMP_INDOLIMINE_SOMMEIL",
                             "type": "SCORE",
                             "ranges": [
                               {
@@ -1862,25 +1893,25 @@
                             "ranges": [
                               {
                                 "min": 0,
-                                "max": 5,
+                                "max": 0,
                                 "color": "00FF00",
                                 "text": "FATIGABILITE"
                               },
                               {
-                                "min": 6,
-                                "max": 10,
+                                "min": 1,
+                                "max": 1,
                                 "color": "FFFF00",
                                 "text": "FATIGABILITE"
                               },
                               {
-                                "min": 11,
-                                "max": 16,
+                                "min": 2,
+                                "max": 2,
                                 "color": "FF9900",
                                 "text": "FATIGABILITE"
                               },
                               {
-                                "min": 17,
-                                "max": 24,
+                                "min": 3,
+                                "max": 3,
                                 "color": "FF0000",
                                 "text": "FATIGABILITE"
                               }
@@ -2417,13 +2448,13 @@
                         "ranges": [
                           {
                             "min": 0,
-                            "max": 2,
+                            "max": 0,
                             "color": "00FF00",
                             "text": "AMI"
                           },
                           {
-                            "min": 3,
-                            "max": 3,
+                            "min": 1,
+                            "max": 1,
                             "color": "FF0000",
                             "text": "AMI"
                           }

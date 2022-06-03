@@ -24,22 +24,22 @@
   "scores": [
     {
       "conditions": "q_Q1_Psychiatrie_034 == \"0\"",
-      "tagOID": "S_PSY_SYMP_INDOLAMINE_DEPENDANCE",
+      "tagOID": "S_PSY_SYMP_INDOLIMINE_DEPENDANCE",
       "value": 0
     },
     {
       "conditions": "q_Q1_Psychiatrie_034 == \"1\"",
-      "tagOID": "S_PSY_SYMP_INDOLAMINE_DEPENDANCE",
+      "tagOID": "S_PSY_SYMP_INDOLIMINE_DEPENDANCE",
       "value": 1
     },
     {
       "conditions": "q_Q1_Psychiatrie_034 == \"2\"",
-      "tagOID": "S_PSY_SYMP_INDOLAMINE_DEPENDANCE",
+      "tagOID": "S_PSY_SYMP_INDOLIMINE_DEPENDANCE",
       "value": 2
     },
     {
       "conditions": "q_Q1_Psychiatrie_034 == \"3\"",
-      "tagOID": "S_PSY_SYMP_INDOLAMINE_DEPENDANCE",
+      "tagOID": "S_PSY_SYMP_INDOLIMINE_DEPENDANCE",
       "value": 3
     }
   ]

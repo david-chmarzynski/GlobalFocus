@@ -24,22 +24,22 @@
   "scores": [
     {
       "conditions": "q_Q1_Psychiatrie_033 == \"0\"",
-      "tagOID": "S_PSY_SYMP_INDOLAMINE_COMPULSION",
+      "tagOID": "S_PSY_SYMP_INDOLIMINE_COMPULSION",
       "value": 0
     },
     {
       "conditions": "q_Q1_Psychiatrie_033 == \"1\"",
-      "tagOID": "S_PSY_SYMP_INDOLAMINE_COMPULSION",
+      "tagOID": "S_PSY_SYMP_INDOLIMINE_COMPULSION",
       "value": 1
     },
     {
       "conditions": "q_Q1_Psychiatrie_033 == \"2\"",
-      "tagOID": "S_PSY_SYMP_INDOLAMINE_COMPULSION",
+      "tagOID": "S_PSY_SYMP_INDOLIMINE_COMPULSION",
       "value": 2
     },
     {
       "conditions": "q_Q1_Psychiatrie_033 == \"3\"",
-      "tagOID": "S_PSY_SYMP_INDOLAMINE_COMPULSION",
+      "tagOID": "S_PSY_SYMP_INDOLIMINE_COMPULSION",
       "value": 3
     }
   ]

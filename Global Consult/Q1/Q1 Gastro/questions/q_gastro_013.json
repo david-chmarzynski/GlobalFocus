@@ -1,0 +1,37 @@
+{
+  "oid": "q_gastro_013",
+  "title": "Au cours de ces 3 derniers mois, avez-vous présenté certains de ces symptômes des organes digestifs annexes ?",
+  "text": "Au cours de ces 3 derniers mois, avez-vous présenté certains de ces symptômes des organes digestifs annexes ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Démangeaisons au niveau des paumes des mains et des plantes des pieds et/ou généralisée à tout le corps "
+    },
+    {
+      "code": "1",
+      "text": "Coloration jaune de la peau et du fond de l’œil "
+    },
+    {
+      "code": "2",
+      "text": "Selles décolorées, blanchâtres, souvent malodorantes "
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_gastro_013 == \"0\"",
+      "tagOID": "S_DIG_SYMP_ANNEXES",
+      "value": 0
+    },
+    {
+      "conditions": "q_gastro_013 == \"1\"",
+      "tagOID": "S_DIG_SYMP_ANNEXES",
+      "value": 1
+    },
+    {
+      "conditions": "q_gastro_013 == \"2\"",
+      "tagOID": "S_DIG_SYMP_ANNEXES",
+      "value": 2
+    }
+  ]
+}

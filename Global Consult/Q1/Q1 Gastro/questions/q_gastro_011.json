@@ -1,0 +1,122 @@
+{
+  "oid": "q_gastro_011",
+  "title": "Au cours de ces 3 derniers mois, avez-vous présenté certains de ces symptômes du tube digestif haut ?",
+  "text": "Au cours de ces 3 derniers mois, avez-vous présenté certains de ces symptômes du tube digestif haut ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Difficultés à avaler des bouchées d’aliments solides (pain, viande…) "
+    },
+    {
+      "code": "1",
+      "text": "Sensation de brulures, de remontées d’acidité au niveau de l’œsophage (en arrière du sternum) "
+    },
+    {
+      "code": "2",
+      "text": "Sensation d’inconfort, de douleurs, de trop-plein et/ou de lenteur de digestion au niveau de l’estomac "
+    },
+    {
+      "code": "3",
+      "text": "Éructations excessives (rôts) "
+    },
+    {
+      "code": "4",
+      "text": "Sensation de brûlure au niveau de l’estomac, aggravées par certains aliments (alcool fort, concentré de tomates…)  "
+    },
+    {
+      "code": "5",
+      "text": "Sensation douloureuse de brûlures et/ou de poids au niveau de l’estomac (partie supérieure de l’abdomen), souvent calmée par les repas"
+    },
+    {
+      "code": "6",
+      "text": "Nausées"
+    },
+    {
+      "code": "7",
+      "text": "Vomissements"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"0 in q_gastro_011\"",
+      "tagOID": "S_DIG_SYMP_DIG_HAUT_DYSPHAGIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"0\" in q_gastro_011)",
+      "tagOID": "S_DIG_SYMP_DIG_HAUT_DYSPHAGIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"1 in q_gastro_011\"",
+      "tagOID": "S_DIG_SYMP_DIG_HAUT_PYROSIS",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"1\" in q_gastro_011)",
+      "tagOID": "S_DIG_SYMP_DIG_HAUT_PYROSIS",
+      "value": 0
+    },
+    {
+      "conditions": "\"2 in q_gastro_011\"",
+      "tagOID": "S_DIG_SYMP_DIG_HAUT_DYSPEPSIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"2\" in q_gastro_011)",
+      "tagOID": "S_DIG_SYMP_DIG_HAUT_DYSPEPSIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"3 in q_gastro_011\"",
+      "tagOID": "S_DIG_SYMP_DIG_HAUT_ROTS",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"3\" in q_gastro_011)",
+      "tagOID": "S_DIG_SYMP_DIG_HAUT_ROTS",
+      "value": 0
+    },
+    {
+      "conditions": "\"4 in q_gastro_011\"",
+      "tagOID": "S_DIG_SYMP_DIG_HAUT_GASTRITE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"4\" in q_gastro_011)",
+      "tagOID": "S_DIG_SYMP_DIG_HAUT_GASTRITE",
+      "value": 0
+    },
+    {
+      "conditions": "\"5 in q_gastro_011\"",
+      "tagOID": "S_DIG_SYMP_DIG_HAUT_ULCUS",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"5\" in q_gastro_011)",
+      "tagOID": "S_DIG_SYMP_DIG_HAUT_ULCUS",
+      "value": 0
+    },
+    {
+      "conditions": "\"6 in q_gastro_011\"",
+      "tagOID": "S_DIG_SYMP_DIG_HAUT_NAUSEE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"6\" in q_gastro_011)",
+      "tagOID": "S_DIG_SYMP_DIG_HAUT_NAUSEE",
+      "value": 0
+    },
+    {
+      "conditions": "\"7 in q_gastro_011\"",
+      "tagOID": "S_DIG_SYMP_DIG_HAUT_VOMISSEMENT",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"7\" in q_gastro_011)",
+      "tagOID": "S_DIG_SYMP_DIG_HAUT_VOMISSEMENT",
+      "value": 0
+    }
+  ]
+}

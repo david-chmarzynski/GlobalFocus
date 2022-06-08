@@ -1,0 +1,234 @@
+{
+  "oid": "q_gastro_012",
+  "title": "Au cours de ces 3 derniers mois, avez-vous présenté certains de ces symptômes du tube digestif bas ?",
+  "text": "Au cours de ces 3 derniers mois, avez-vous présenté certains de ces symptômes du tube digestif bas ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Constipation (évacuation difficile, rare et/ou incomplète des selles, selles dures) ?"
+    },
+    {
+      "code": "1",
+      "text": "Diarrhée chronique"
+    },
+    {
+      "code": "2",
+      "text": "Alternance de diarrhées et de constipation"
+    },
+    {
+      "code": "3",
+      "text": "Difficultés récurrentes à digérer les aliments gras"
+    },
+    {
+      "code": "4",
+      "text": "Selles « graisseuses », huileuses, flottant et laissant des traces grasses même après la chasse d’eau "
+    },
+    {
+      "code": "5",
+      "text": "Ballonnements douloureux, dilatant le ventre, survenant immédiatement ou à proximité des repas et n’occasionnant pas d’émissions de gaz "
+    },
+    {
+      "code": "6",
+      "text": "Ballonnements avec émission excessive de gaz inodores par l’anus"
+    },
+    {
+      "code": "7",
+      "text": "Ballonnements avec émission excessive de gaz très malodorants par l’anus"
+    },
+    {
+      "code": "8",
+      "text": "Douleurs abdominales récurrentes "
+    },
+    {
+      "code": "9",
+      "text": "Soulagement des douleurs abdominales par la défécation "
+    },
+    {
+      "code": "10",
+      "text": "Modification anormale et persistante des selles"
+    },
+    {
+      "code": "11",
+      "text": "Sang dans les selles à plusieurs reprises "
+    },
+    {
+      "code": "12",
+      "text": "Présence de glaires dans les selles (mucosités épaisses et visqueuses, translucides ou blanchâtres)"
+    },
+    {
+      "code": "13",
+      "text": "Démangeaisons au niveau de l’anus"
+    },
+    {
+      "code": "14",
+      "text": "Douleurs au niveau de l’anus"
+    },
+    {
+      "code": "15",
+      "text": "Difficultés à retenir les selles occasionnant des fuites de selles au niveau de l’anus (incontinence anale)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"0 in q_gastro_012\"",
+      "tagOID": "S_DIG_SYMP_DIG_BAS_CONSTIPATION",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"0\" in q_gastro_012)",
+      "tagOID": "S_DIG_SYMP_DIG_BAS_CONSTIPATION",
+      "value": 0
+    },
+    {
+      "conditions": "\"1 in q_gastro_012\"",
+      "tagOID": "S_DIG_SYMP_DIG_BAS_DIARRHEE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"1\" in q_gastro_012)",
+      "tagOID": "S_DIG_SYMP_DIG_BAS_DIARRHEE",
+      "value": 0
+    },
+    {
+      "conditions": "\"2 in q_gastro_012\"",
+      "tagOID": "S_DIG_SYMP_DIG_BAS_ALT_DIARR_CONST",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"2\" in q_gastro_012)",
+      "tagOID": "S_DIG_SYMP_DIG_BAS_ALT_DIARR_CONST",
+      "value": 0
+    },
+    {
+      "conditions": "\"3 in q_gastro_012\"",
+      "tagOID": "S_DIG_SYMP_DIG_BAS_MALDIG_GRAS",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"3\" in q_gastro_012)",
+      "tagOID": "S_DIG_SYMP_DIG_BAS_MALDIG_GRAS",
+      "value": 0
+    },
+    {
+      "conditions": "\"4 in q_gastro_012\"",
+      "tagOID": "S_DIG_SYMP_DIG_BAS_SELLE_GRAS",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"4\" in q_gastro_012)",
+      "tagOID": "S_DIG_SYMP_DIG_BAS_SELLE_GRAS",
+      "value": 0
+    },
+    {
+      "conditions": "\"5 in q_gastro_012\"",
+      "tagOID": "S_DIG_SYMP_DIG_BAS_SIBO",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"5\" in q_gastro_012)",
+      "tagOID": "S_DIG_SYMP_DIG_BAS_SIBO",
+      "value": 0
+    },
+    {
+      "conditions": "\"6 in q_gastro_012\"",
+      "tagOID": "S_DIG_SYMP_DIG_BAS_FERMENTATION",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"6\" in q_gastro_012)",
+      "tagOID": "S_DIG_SYMP_DIG_BAS_FERMENTATION",
+      "value": 0
+    },
+    {
+      "conditions": "\"7 in q_gastro_012\"",
+      "tagOID": "S_DIG_SYMP_DIG_BAS_PUTREFACTION",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"7\" in q_gastro_012)",
+      "tagOID": "S_DIG_SYMP_DIG_BAS_PUTREFACTION",
+      "value": 0
+    },
+    {
+      "conditions": "\"8 in q_gastro_012\"",
+      "tagOID": "S_DIG_SYMP_DIG_BAS_DOUL_ABDO",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"8\" in q_gastro_012)",
+      "tagOID": "S_DIG_SYMP_DIG_BAS_DOUL_ABDO",
+      "value": 0
+    },
+    {
+      "conditions": "\"9 in q_gastro_012\"",
+      "tagOID": "S_DIG_SYMP_DIG_BAS_SII",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"9\" in q_gastro_012)",
+      "tagOID": "S_DIG_SYMP_DIG_BAS_SII",
+      "value": 0
+    },
+    {
+      "conditions": "\"10 in q_gastro_012\"",
+      "tagOID": "S_DIG_SYMP_DIG_BAS_MODIF_SELLE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"10\" in q_gastro_012)",
+      "tagOID": "S_DIG_SYMP_DIG_BAS_MODIF_SELLE",
+      "value": 0
+    },
+    {
+      "conditions": "\"11 in q_gastro_012\"",
+      "tagOID": "S_DIG_SYMP_DIG_BAS_SANG_SELLE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"11\" in q_gastro_012)",
+      "tagOID": "S_DIG_SYMP_DIG_BAS_SANG_SELLE",
+      "value": 0
+    },
+    {
+      "conditions": "\"12 in q_gastro_012\"",
+      "tagOID": "S_DIG_SYMP_DIG_BAS_GLAIRES",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"12\" in q_gastro_012)",
+      "tagOID": "S_DIG_SYMP_DIG_BAS_GLAIRES",
+      "value": 0
+    },
+    {
+      "conditions": "\"13 in q_gastro_012\"",
+      "tagOID": "S_DIG_SYMP_DIG_BAS_PRURIT_ANAL",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"13\" in q_gastro_012)",
+      "tagOID": "S_DIG_SYMP_DIG_BAS_PRURIT_ANAL",
+      "value": 0
+    },
+    {
+      "conditions": "\"14 in q_gastro_012\"",
+      "tagOID": "S_DIG_SYMP_DIG_BAS_DOULEURS_ANAL",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"14\" in q_gastro_012)",
+      "tagOID": "S_DIG_SYMP_DIG_BAS_DOULEURS_ANAL",
+      "value": 0
+    },
+    {
+      "conditions": "\"15 in q_gastro_012\"",
+      "tagOID": "S_DIG_SYMP_DIG_BAS_INCONT_ANAL",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"15\" in q_gastro_012)",
+      "tagOID": "S_DIG_SYMP_DIG_BAS_INCONT_ANAL",
+      "value": 0
+    }
+  ]
+}

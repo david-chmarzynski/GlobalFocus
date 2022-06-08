@@ -1,0 +1,46 @@
+{
+  "oid": "q_gastro_000",
+  "title": "Comment évaluez-vous votre état de santé sur le plan digestif ?",
+  "text": "Comment évaluez-vous votre état de santé sur le plan digestif ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisant"
+    },
+    {
+      "code": "1",
+      "text": "Légèrement insatisfaisant"
+    },
+    {
+      "code": "2",
+      "text": "Plutôt insatisfaisant"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisant"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_gastro_000 == \"0\"",
+      "tagOID": "S_DIG",
+      "value": 0
+    },
+    {
+      "conditions": "q_gastro_000 == \"1\"",
+      "tagOID": "S_DIG",
+      "value": 1
+    },
+    {
+      "conditions": "q_gastro_000 == \"2\"",
+      "tagOID": "S_DIG",
+      "value": 2
+    },
+    {
+      "conditions": "q_gastro_000 == \"3\"",
+      "tagOID": "S_DIG",
+      "value": 3
+    }
+  ]
+}

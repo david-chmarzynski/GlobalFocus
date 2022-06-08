@@ -1,0 +1,67 @@
+{
+  "oid": "q_gastro_010",
+  "title": "Au cours de ces 3 derniers mois, avez-vous présenté certains de ces symptômes ?",
+  "text": "Au cours de ces 3 derniers mois, avez-vous présenté certains de ces symptômes ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Symptômes du tube digestif haut (sensations d’inconfort, de brûlures et/ou de douleurs  à l’estomac, remontées acides, nausées, vomissements...) "
+    },
+    {
+      "code": "1",
+      "text": "Symptômes du tube digestif bas (constipation, diarrhées, ballonnements, flatulences, spasmes, douleurs du ventre...)"
+    },
+    {
+      "code": "2",
+      "text": "Symptômes des organes digestifs annexes (démangeaisons, teint jaune de la peau et des yeux, selles décolorées…)"
+    },
+    {
+      "code": "3",
+      "text": "Aucun de ces antécédents",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"0 in q_gastro_010\"",
+      "tagOID": "S_DIG_SYMP_DIG_HAUT",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"0\" in q_gastro_010)",
+      "tagOID": "S_DIG_SYMP_DIG_HAUT",
+      "value": 0
+    },
+    {
+      "conditions": "\"1 in q_gastro_010\"",
+      "tagOID": "S_DIG_SYMP_DIG_BAS",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"1\" in q_gastro_010)",
+      "tagOID": "S_DIG_SYMP_DIG_BAS",
+      "value": 0
+    },
+    {
+      "conditions": "\"2 in q_gastro_010\"",
+      "tagOID": "S_DIG_SYMP_ANNEXES",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"2\" in q_gastro_010)",
+      "tagOID": "S_DIG_SYMP_ANNEXES",
+      "value": 0
+    },
+    {
+      "conditions": "\"3 in q_gastro_010\"",
+      "tagOID": "S_DIG_SYMP",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"3\" in q_gastro_010)",
+      "tagOID": "S_DIG_SYMP",
+      "value": 1
+    }
+  ]
+}

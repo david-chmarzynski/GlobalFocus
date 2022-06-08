@@ -216,8 +216,11 @@ function Tag() {
         </Link>
         <Link to="/tags">
           <Button variant="outlined" onClick={handleTag}>
-            Ajouter Tag sans question
+            Ajouter Tag sans Question
           </Button>
+        </Link>
+        <Link to="/questionswt">
+          <Button variant="outlined">Ajouter Question sans Tag</Button>
         </Link>
         <Link to="/modules">
           <Button variant="outlined" onClick={handleTag}>

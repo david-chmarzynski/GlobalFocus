@@ -65,6 +65,25 @@ const Classic = ({
             </Button>
           </Link>
         )}
+      {currentQuestion.type !== "MULTI_CHOICES" && (
+        <Button variant="outlined" onClick={() => handleSubmit()}>
+          Ajouter
+        </Button>
+      )}
+      {answers.length > 0 && currentQuestion.type !== "MULTI_CHOICES" && (
+        <Link to="/tags">
+          <Button variant="outlined" onClick={handleSubmitQuestion}>
+            Terminer tag
+          </Button>
+        </Link>
+      )}
+      {answers.length > 0 && currentQuestion.type !== "MULTI_CHOICES" && (
+        <Link to="/modules">
+          <Button variant="outlined" onClick={handleSubmitQuestion}>
+            Terminer module
+          </Button>
+        </Link>
+      )}
     </>
   );
 };

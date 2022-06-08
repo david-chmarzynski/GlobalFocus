@@ -31,12 +31,14 @@ export const answerSlice = createSlice({
           text: action.payload.text,
           value: action.payload.value,
           isExclusive: action.payload.isExclusive,
+          tagOID: action.payload.newTag,
         };
       } else {
         state.answer = {
           text: action.payload.text,
           value: parseInt(action.payload.value),
           isExclusive: action.payload.isExclusive,
+          tagOID: action.payload.newTag,
         };
       }
     },

@@ -33,13 +33,13 @@ const createDestFolder = () => {
 
 // COPY TEST.PY IN DESTINATION FOLDER \\
 const copyTestPy = () => {
-  fs.copyFileSync("./main.py", "./form_components/test.py");
+  fs.copyFileSync("./test.py", "./form_components/test.py");
   console.log("test.py successfully copied.");
 };
 
 // COPY PROD.PY IN DESTINATION FOLDER \\
 const copyProdPy = () => {
-  fs.copyFileSync("./main.py", "./form_components/prod.py");
+  fs.copyFileSync("./prod.py", "./form_components/prod.py");
   console.log("prod.py successfully copied.");
 };
 
@@ -298,7 +298,10 @@ const createQuestions = (data) => {
             let choice;
             let score = {
               conditions: `"${data.modules[m].questions[q].answers[a].value} in ${data.modules[m].questions[q].questionOID}"`,
-              tagOID: `${data.modules[m].questions[q].tag}`,
+              tagOID:
+                data.modules[m].questions[q].answers[a].tagOID !== ""
+                  ? `${data.modules[m].questions[q].answers[a].tagOID}`
+                  : `${data.modules[m].questions[q].tag}`,
               value: 1,
             };
             if (data.modules[m].questions[q].answers[a].isExclusive === true) {
@@ -315,7 +318,10 @@ const createQuestions = (data) => {
             }
             let antiScore = {
               conditions: `!("${data.modules[m].questions[q].answers[a].value}" in ${data.modules[m].questions[q].questionOID})`,
-              tagOID: `${data.modules[m].questions[q].tag}`,
+              tagOID:
+                data.modules[m].questions[q].answers[a].tagOID !== ""
+                  ? `${data.modules[m].questions[q].answers[a].tagOID}`
+                  : `${data.modules[m].questions[q].tag}`,
               value: 0,
             };
             baseChoices.push(choice);

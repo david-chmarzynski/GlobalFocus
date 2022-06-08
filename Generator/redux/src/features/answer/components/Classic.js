@@ -21,6 +21,7 @@ const Classic = ({
   answers,
   isExclusive,
   setIsExclusive,
+  isTagSet,
 }) => {
   return (
     <>
@@ -41,17 +42,19 @@ const Classic = ({
       <FormGroup onChange={() => setIsExclusive(!isExclusive)}>
         <FormControlLabel control={<Checkbox />} label="Is exclusive" />
       </FormGroup>
-      <Button variant="outlined" onClick={() => handleSubmit()}>
-        Ajouter
-      </Button>
-      {answers.length > 0 && (
+      {isTagSet && (
+        <Button variant="outlined" onClick={() => handleSubmit()}>
+          Ajouter
+        </Button>
+      )}
+      {answers.length > 0 && isTagSet && (
         <Link to="/tags">
           <Button variant="outlined" onClick={handleSubmitQuestion}>
             Terminer tag
           </Button>
         </Link>
       )}
-      {answers.length > 0 && (
+      {answers.length > 0 && isTagSet && (
         <Link to="/modules">
           <Button variant="outlined" onClick={handleSubmitQuestion}>
             Terminer module

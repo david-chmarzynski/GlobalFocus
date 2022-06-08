@@ -28,6 +28,12 @@ import Scale from "./components/Scale";
 import Text from "./components/Text";
 import Classic from "./components/Classic";
 import Num from "./components/Num";
+import Tag from "../tag2/Tag";
+
+// MUI
+import FormGroup from "@mui/material/FormGroup";
+import FormControlLabel from "@mui/material/FormControlLabel";
+import Checkbox from "@mui/material/Checkbox";
 
 // ROUTER
 import { Link } from "react-router-dom";
@@ -45,6 +51,9 @@ function Answer() {
   const [question, setQuestion] = useState("");
   const [navigate, setNavigate] = useState(false);
   const [isExclusive, setIsExclusive] = useState(false);
+  const [newTag, setNewTag] = useState("");
+  const [isTagSet, setIsTagSet] = useState(false);
+  const [addTag, setAddTag] = useState(false);
 
   // LOCAL STATE TEXT QUESTION
   const [regex, setRegex] = useState("");
@@ -70,6 +79,8 @@ function Answer() {
   const simpleType = ["SINGLE_CHOICE", "MULTI_CHOICES", "SINGLE_CHOICE_RADIO"];
   const textType = ["TEXT"];
 
+  console.log("currentQuestion :", currentQuestion.type);
+
   const dispatch = useDispatch();
 
   const resetFields = () => {
@@ -82,9 +93,10 @@ function Answer() {
       dispatch(changeMessage("Champ(s) recquis manquant(s)"));
       dispatch(changeError(true));
     } else {
-      dispatch(changeAnswer({ text, value, isExclusive }));
+      dispatch(changeAnswer({ text, value, isExclusive, newTag }));
       dispatch(changeBaseAnswer());
       resetFields();
+      setIsTagSet(false);
     }
   };
 
@@ -99,6 +111,7 @@ function Answer() {
           text,
           value,
           isExclusive,
+          newTag,
         })
       );
       dispatch(changeBaseAnswer());
@@ -108,10 +121,12 @@ function Answer() {
           text,
           value,
           isExclusive,
+          newTag,
         })
       );
       dispatch(changeBaseQuestion());
       dispatch(clearAnswers());
+      setIsTagSet(false);
     }
   };
 
@@ -207,6 +222,9 @@ function Answer() {
             currentQuestion={currentQuestion}
             isExclusive={isExclusive}
             setIsExclusive={setIsExclusive}
+            newTag={newTag}
+            setNewTag={setNewTag}
+            isTagSet={isTagSet}
           />
         )}
         {numType.includes(`${currentQuestion.type}`) && (
@@ -243,6 +261,21 @@ function Answer() {
             hideAnalogScaleSelectorNumber={hideAnalogScaleSelectorNumber}
             setHideAnalogScaleSelectorNumber={setHideAnalogScaleSelectorNumber}
             handleSubmitScaleQuestion={handleSubmitScaleQuestion}
+          />
+        )}
+        <FormGroup onChange={() => setAddTag(!addTag)}>
+          <FormControlLabel
+            control={<Checkbox />}
+            label="Ajouter Tag"
+            checked={addTag}
+          />
+        </FormGroup>
+        {currentQuestion.type === "MULTI_CHOICES" && addTag && (
+          <Tag
+            newTag={newTag}
+            setNewTag={setNewTag}
+            setIsTagSet={setIsTagSet}
+            setAddTag={setAddTag}
           />
         )}
       </div>

@@ -91,6 +91,7 @@ export const questionSlice = createSlice({
             text: action.payload.text,
             value: action.payload.value,
             isExclusive: action.payload.isExclusive,
+            tagOID: action.payload.newTag,
           },
         ],
       };

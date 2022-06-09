@@ -1,0 +1,164 @@
+{
+  "oid": "q_Q1_uro_nephrologie_001",
+  "title": "Vous a-t-on opéré ou vous a-t-on diagnostiqué une (ou plusieurs) de ces pathologies ?",
+  "text": "Vous a-t-on opéré ou vous a-t-on diagnostiqué une (ou plusieurs) de ces pathologies ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "cancer rein",
+      "text": "Cancer du rein"
+    },
+    {
+      "code": "Cancer de la vessie",
+      "text": "Cancer de la vessie"
+    },
+    {
+      "code": "Polykystose rénale",
+      "text": "Polykystose rénale"
+    },
+    {
+      "code": "Insuffisance rénale",
+      "text": "Insuffisance rénale"
+    },
+    {
+      "code": "Coliques néphrétiques",
+      "text": "Coliques néphrétiques (calculs rénaux)"
+    },
+    {
+      "code": "Pyélonéphrite(s)",
+      "text": "Pyélonéphrite(s)"
+    },
+    {
+      "code": "Malformation de l’uretère",
+      "text": "Malformation de l’uretère"
+    },
+    {
+      "code": "Polype(s) de la vessie",
+      "text": "Polype(s) de la vessie"
+    },
+    {
+      "code": "Infections urinaires à répétition",
+      "text": "Infections urinaires à répétition"
+    },
+    {
+      "code": "Incontinence urinaire",
+      "text": "Incontinence urinaire"
+    },
+    {
+      "code": "autres",
+      "text": "Autre(s) antécédent(s) (rétention aigüe d’urine…)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"cancer rein\" in q_Q1_uro_nephrologie_001",
+      "tagOID": "S_UN_ATCD_CANCER_REIN",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"cancer rein\" in q_Q1_uro_nephrologie_001)",
+      "tagOID": "S_UN_ATCD_CANCER_REIN",
+      "value": 0
+    },
+    {
+      "conditions": "\"Cancer de la vessie\" in q_Q1_uro_nephrologie_001",
+      "tagOID": "S_UN_ATCD_CANCER_VESSIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Cancer de la vessie\" in q_Q1_uro_nephrologie_001)",
+      "tagOID": "S_UN_ATCD_CANCER_VESSIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Polykystose rénale\" in q_Q1_uro_nephrologie_001",
+      "tagOID": "S_UN_ATCD_POLYKYSTOSE_RENALE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Polykystose rénale\" in q_Q1_uro_nephrologie_001)",
+      "tagOID": "S_UN_ATCD_POLYKYSTOSE_RENALE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Insuffisance rénale\" in q_Q1_uro_nephrologie_001",
+      "tagOID": "S_UN_ATCD_INSUFFISANCE_RENALE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Insuffisance rénale\" in q_Q1_uro_nephrologie_001)",
+      "tagOID": "S_UN_ATCD_INSUFFISANCE_RENALE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Coliques néphrétiques\" in q_Q1_uro_nephrologie_001",
+      "tagOID": "S_UN_ATCD_LITHIASE _URINAIRE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Coliques néphrétiques\" in q_Q1_uro_nephrologie_001)",
+      "tagOID": "S_UN_ATCD_LITHIASE _URINAIRE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Pyélonéphrite(s)\" in q_Q1_uro_nephrologie_001",
+      "tagOID": "S_UN_ATCD_PYELONEPHRITE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Pyélonéphrite(s)\" in q_Q1_uro_nephrologie_001)",
+      "tagOID": "S_UN_ATCD_PYELONEPHRITE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Malformation de l’uretère\" in q_Q1_uro_nephrologie_001",
+      "tagOID": "S_UN_ATCD_MALFORMATION_URETERE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Malformation de l’uretère\" in q_Q1_uro_nephrologie_001)",
+      "tagOID": "S_UN_ATCD_MALFORMATION_URETERE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Polype(s) de la vessie\" in q_Q1_uro_nephrologie_001",
+      "tagOID": "S_UN_ATCD_POLYPE_VESSIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Polype(s) de la vessie\" in q_Q1_uro_nephrologie_001)",
+      "tagOID": "S_UN_ATCD_POLYPE_VESSIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Infections urinaires à répétition\" in q_Q1_uro_nephrologie_001",
+      "tagOID": "S_UN_ATCD_INFECTION_URINAIRE_REPETITION",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Infections urinaires à répétition\" in q_Q1_uro_nephrologie_001)",
+      "tagOID": "S_UN_ATCD_INFECTION_URINAIRE_REPETITION",
+      "value": 0
+    },
+    {
+      "conditions": "\"Incontinence urinaire\" in q_Q1_uro_nephrologie_001",
+      "tagOID": "S_UN_ATCD_INCONTINENCE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Incontinence urinaire\" in q_Q1_uro_nephrologie_001)",
+      "tagOID": "S_UN_ATCD_INCONTINENCE",
+      "value": 0
+    },
+    {
+      "conditions": "\"autres\" in q_Q1_uro_nephrologie_001",
+      "tagOID": "S_UN_ATCD_AUTRES",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"autres\" in q_Q1_uro_nephrologie_001)",
+      "tagOID": "S_UN_ATCD_AUTRES",
+      "value": 0
+    }
+  ]
+}

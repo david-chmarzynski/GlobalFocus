@@ -66,3 +66,12 @@ export const scopes = [
     value: "PATIENT_SCOPE",
   },
 ];
+
+export const defaultValues = [
+  {
+    value: "aucun",
+  },
+  {
+    value: 0,
+  },
+];

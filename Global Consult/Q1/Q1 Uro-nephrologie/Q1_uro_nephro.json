@@ -1,0 +1,849 @@
+{
+  "questionaryName": "Q1 Global Focus Uro-néphrologie",
+  "chapterOID": "chap_Q1_uro_nephrologie",
+  "chapterTitle": "chap_Q1 Global Focus Uro-néphrologie",
+  "estimatedTime": 10,
+  "pricing": 10,
+  "levelMax": "1",
+  "authors": ["Jean-Philippe Astruc"],
+  "professions": ["DENTIST"],
+  "companyId": [{}],
+  "linkedForm": "",
+  "category": "HEALTH",
+  "scoreStrategy": "SUM",
+  "form": [
+    {
+      "formOID": "Q1_uro_nephrologie",
+      "formTitle": "Q1 Global Focus Uro-néphrologie",
+      "formDescription": "Q1 Global Focus Uro-néphrologie"
+    }
+  ],
+  "modules": [
+    {
+      "moduleOID": "Q1_uro_nephrologie",
+      "moduleTitle": "Q1 Global Focus Uro-néphrologie",
+      "questions": [
+        {
+          "module": "",
+          "questionOID": "q_Q1_uro_nephrologie_000",
+          "questionText": "Comment évaluez-vous la santé de vos reins et de votre appareil urinaire ?",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_UN",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Satisfaisante",
+              "value": 0,
+              "isExclusive": false,
+              "tagOID": ""
+            },
+            {
+              "text": "Légèrement insatisfaisante",
+              "value": 1,
+              "isExclusive": false,
+              "tagOID": ""
+            },
+            {
+              "text": "Plutôt insatisfaisante",
+              "value": 2,
+              "isExclusive": false,
+              "tagOID": ""
+            },
+            {
+              "text": "Insatisfaisante",
+              "value": "3",
+              "isExclusive": false,
+              "tagOID": ""
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_uro_nephrologie_001",
+          "questionText": "Vous a-t-on opéré ou vous a-t-on diagnostiqué une (ou plusieurs) de ces pathologies ?",
+          "type": "MULTI_CHOICES",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_uro_nephrologie_000",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_UN_ATCD",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Cancer du rein",
+              "value": "cancer rein",
+              "isExclusive": false,
+              "tagOID": "S_UN_ATCD_CANCER_REIN"
+            },
+            {
+              "text": "Cancer de la vessie",
+              "value": "Cancer de la vessie",
+              "isExclusive": false,
+              "tagOID": "S_UN_ATCD_CANCER_VESSIE"
+            },
+            {
+              "text": "Polykystose rénale",
+              "value": "Polykystose rénale",
+              "isExclusive": false,
+              "tagOID": "S_UN_ATCD_POLYKYSTOSE_RENALE"
+            },
+            {
+              "text": "Insuffisance rénale",
+              "value": "Insuffisance rénale",
+              "isExclusive": false,
+              "tagOID": "S_UN_ATCD_INSUFFISANCE_RENALE"
+            },
+            {
+              "text": "Coliques néphrétiques (calculs rénaux)",
+              "value": "Coliques néphrétiques",
+              "isExclusive": false,
+              "tagOID": "S_UN_ATCD_LITHIASE _URINAIRE"
+            },
+            {
+              "text": "Pyélonéphrite(s)",
+              "value": "Pyélonéphrite(s)",
+              "isExclusive": false,
+              "tagOID": "S_UN_ATCD_PYELONEPHRITE"
+            },
+            {
+              "text": "Malformation de l’uretère",
+              "value": "Malformation de l’uretère",
+              "isExclusive": false,
+              "tagOID": "S_UN_ATCD_MALFORMATION_URETERE"
+            },
+            {
+              "text": "Polype(s) de la vessie",
+              "value": "Polype(s) de la vessie",
+              "isExclusive": false,
+              "tagOID": "S_UN_ATCD_POLYPE_VESSIE"
+            },
+            {
+              "text": "Infections urinaires à répétition",
+              "value": "Infections urinaires à répétition",
+              "isExclusive": false,
+              "tagOID": "S_UN_ATCD_INFECTION_URINAIRE_REPETITION"
+            },
+            {
+              "text": "Incontinence urinaire",
+              "value": "Incontinence urinaire",
+              "isExclusive": false,
+              "tagOID": "S_UN_ATCD_INCONTINENCE"
+            },
+            {
+              "text": "Autre(s) antécédent(s) (rétention aigüe d’urine…)",
+              "value": "autres",
+              "isExclusive": false,
+              "tagOID": "S_UN_ATCD_AUTRES"
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_uro_nephrologie_002",
+          "questionText": "En quelle année le diagnostic de cancer du rein a-t-il été posé ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_Q1_uro_nephrologie_001",
+          "triggeredValue": "cancer du rein",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": "1900",
+              "max": "2022",
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": "2022",
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_uro_nephrologie_003",
+          "questionText": "En quelle année le diagnostic de cancer de la vessie a-t-il été posé ? ",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_Q1_uro_nephrologie_000",
+          "triggeredValue": "cancer de la vessie",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": "1900",
+              "max": "2022",
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": "2022",
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_uro_nephrologie_004",
+          "questionText": "En quelle année le diagnostic de polykystose rénale a-t-il été posé ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_Q1_uro_nephrologie_000",
+          "triggeredValue": "Polykystose rénale",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": "1900",
+              "max": "2022",
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": "2022",
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_uro_nephrologie_005",
+          "questionText": "En quelle année le diagnostic d’insuffisance rénale a-t-il été posé ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_Q1_uro_nephrologie_000",
+          "triggeredValue": "Insuffisance rénale",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": "1900",
+              "max": "2022",
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": "2022",
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_uro_nephrologie_006",
+          "questionText": "En quelle année le diagnostic de lithiase urinaire a-t-il été posé la première fois ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_Q1_uro_nephrologie_000",
+          "triggeredValue": "Coliques néphrétiques (calculs rénaux)",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": "1900",
+              "max": "2022",
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": "2022",
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_uro_nephrologie_007",
+          "questionText": "En quelle année le diagnostic de pyélonéphrite a-t-il été posé la première fois ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_Q1_uro_nephrologie_000",
+          "triggeredValue": "Pyélonéphrite(s)",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": "1900",
+              "max": "2022",
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": "2022",
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_uro_nephrologie_008",
+          "questionText": "En quelle année le diagnostic de malformation de l’uretère a-t-il été posé ? ",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_Q1_uro_nephrologie_007",
+          "triggeredValue": "Malformation de l’uretère",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": "1900",
+              "max": "2022",
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": "2022",
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_uro_nephrologie_009",
+          "questionText": "En quelle année le diagnostic de polype de la vessie a-t-il été posé la première fois ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_Q1_uro_nephrologie_000",
+          "triggeredValue": "Polype(s) de la vessie ",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": "1900",
+              "max": "2022",
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": "2022",
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_uro_nephrologie_010",
+          "questionText": "En quelle année le diagnostic d’infections urinaires à répétition a-t-il été posé la première fois ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_Q1_uro_nephrologie_000",
+          "triggeredValue": "Infections urinaires à répétition",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": "1900",
+              "max": "2022",
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": "2022",
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_uro_nephrologie_011",
+          "questionText": "En quelle année le diagnostic d’incontinence urinaire a-t-il été posé la première fois ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_Q1_uro_nephrologie_000",
+          "triggeredValue": "Incontinence urinaire",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": "1900",
+              "max": "2022",
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": "2022",
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_uro_nephrologie_012",
+          "questionText": "En quelle année le diagnostic de cette(es) autre(s) maladie(s) a(ont)-t-il(s) été posé(s) la première fois ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_Q1_uro_nephrologie_000",
+          "triggeredValue": "autres",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": "1900",
+              "max": "2022",
+              "minText": "1900",
+              "midText": "",
+              "maxText": "2022",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": "2022",
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_Q1_uro_nephrologie_013",
+          "questionText": "Au cours des 3 derniers mois, avez-vous présenté un (ou plusieurs) de ces symptômes ?",
+          "type": "MULTI_CHOICES",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_Q1_uro_nephrologie_012",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_UN_SYMP",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Douleurs au niveau des fosses lombaires, dans le dos sous les côtes",
+              "value": "douleurs reins",
+              "isExclusive": false,
+              "tagOID": "S_UN_ATCD_DOULEUR_REIN"
+            },
+            {
+              "text": "Sang dans les urines",
+              "value": "sang urines",
+              "isExclusive": false,
+              "tagOID": "S_UN_SYMP_HEMATURIE"
+            },
+            {
+              "text": "Pesanteur au niveau de la vessie et/ou une gêne douloureuse à la miction (émission d’urines)",
+              "value": "cystalgie",
+              "isExclusive": false,
+              "tagOID": "S_UN_SYMP_CYSTALGIE"
+            },
+            {
+              "text": "Difficultés à uriner (démarrage, jet…)",
+              "value": "difficultés à uriner",
+              "isExclusive": false,
+              "tagOID": "S_UN_SYMP_DYSURIE"
+            },
+            {
+              "text": "Nécessité de se lever pour uriner durant la nuit",
+              "value": "nycturie",
+              "isExclusive": false,
+              "tagOID": "S_UN_SYMP_NYCTURIE"
+            },
+            {
+              "text": "Besoin d’uriner de manière anormalement fréquente",
+              "value": "Pollakiurie",
+              "isExclusive": false,
+              "tagOID": "S_UN_SYMP_POLLAKIURIE"
+            },
+            {
+              "text": "Besoin soudain et pressant d’uriner sous peine d’avoir une fuite involontaire d’urine",
+              "value": "Impériosité",
+              "isExclusive": false,
+              "tagOID": "S_UN_SYMP_IMPERIOSITE"
+            },
+            {
+              "text": "Fuite involontaire d’urine, même occasionnelle",
+              "value": "Incontinence",
+              "isExclusive": false,
+              "tagOID": "S_UN_SYMP_INCONTINENCE"
+            },
+            {
+              "text": "Aucun de ces symptômes",
+              "value": "aucun",
+              "isExclusive": false,
+              "tagOID": "S_UN_SYMP_AUCUN"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "tagOID": "S_UN",
+      "tagTitle": "Global Uro-néphrologie",
+      "tagDescription": "Global Uro-néphrologie",
+      "tagType": "SCORE",
+      "sunburstName": "URO-NEPHRO",
+      "module": "Q1_uro_nephrologie",
+      "rangeMin": [0, 1, 2, 3],
+      "rangeMax": [0, 1, 2, 3],
+      "parent": "",
+      "children": []
+    },
+    {
+      "tagOID": "S_UN_ATCD",
+      "tagTitle": "Antécédents personnels",
+      "tagDescription": "Antécédents personnels",
+      "tagType": "SCORE",
+      "sunburstName": "ATCD",
+      "module": "Q1_uro_nephrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 12],
+      "parent": "S_UN",
+      "children": []
+    },
+    {
+      "tagOID": "S_UN_ATCD_CANCER_REIN",
+      "tagTitle": "Cancer du rein",
+      "tagDescription": "Cancer du rein",
+      "tagType": "SCORE",
+      "sunburstName": "KC REIN",
+      "module": "Q1_uro_nephrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_UN_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_UN_ATCD_CANCER_VESSIE",
+      "tagTitle": "Cancer de la vessie",
+      "tagDescription": "Cancer de la vessie",
+      "tagType": "SCORE",
+      "sunburstName": "KC VESSIE",
+      "module": "Q1_uro_nephrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_UN_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_UN_ATCD_POLYKYSTOSE_RENALE",
+      "tagTitle": "Polykystose rénale",
+      "tagDescription": "Polykystose rénale",
+      "tagType": "SCORE",
+      "sunburstName": "POLYK",
+      "module": "Q1_uro_nephrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_UN_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_UN_ATCD_INSUFFISANCE_RENALE",
+      "tagTitle": "Insuffisance rénale",
+      "tagDescription": "Insuffisance rénale",
+      "tagType": "SCORE",
+      "sunburstName": "INS REN",
+      "module": "Q1_uro_nephrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_UN_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_UN_ATCD_LITHIASE _URINAIRE",
+      "tagTitle": "Coliques néphrétiques",
+      "tagDescription": "Coliques néphrétiques",
+      "tagType": "SCORE",
+      "sunburstName": "LITH URI",
+      "module": "Q1_uro_nephrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_UN_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_UN_ATCD_PYELONEPHRITE",
+      "tagTitle": "Pyélonéphrite(s)",
+      "tagDescription": "Pyélonéphrite(s)",
+      "tagType": "SCORE",
+      "sunburstName": "PYELONEP",
+      "module": "Q1_uro_nephrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_UN_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_UN_ATCD_MALFORMATION_URETERE",
+      "tagTitle": "Malformation de l’uretère",
+      "tagDescription": "Malformation de l’uretère",
+      "tagType": "SCORE",
+      "sunburstName": "MALF URET",
+      "module": "Q1_uro_nephrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_UN_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_UN_ATCD_POLYPE_VESSIE",
+      "tagTitle": "Polype(s) de la vessie",
+      "tagDescription": "Polype(s) de la vessie",
+      "tagType": "SCORE",
+      "sunburstName": "POLYP VES",
+      "module": "Q1_uro_nephrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_UN_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_UN_ATCD_INFECTION_URINAIRE_REPETITION",
+      "tagTitle": "Infections urinaires à répétition",
+      "tagDescription": "Infections urinaires à répétition",
+      "tagType": "SCORE",
+      "sunburstName": "INF URI",
+      "module": "Q1_uro_nephrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_UN_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_UN_ATCD_INCONTINENCE",
+      "tagTitle": "Incontinence urinaire",
+      "tagDescription": "Incontinence urinaire",
+      "tagType": "SCORE",
+      "sunburstName": "INCONT",
+      "module": "Q1_uro_nephrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_UN_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_UN_ATCD_AUTRES",
+      "tagTitle": "Autre(s) antécédent(s)",
+      "tagDescription": "Autre(s) antécédent(s)",
+      "tagType": "SCORE",
+      "sunburstName": "AUTRES",
+      "module": "Q1_uro_nephrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_UN_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_UN_SYMP",
+      "tagTitle": "Symptômes personnels",
+      "tagDescription": "Symptômes personnels",
+      "tagType": "SCORE",
+      "sunburstName": "SYMP",
+      "module": "Q1_uro_nephrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 3],
+      "parent": "S_UN",
+      "children": []
+    },
+    {
+      "tagOID": "S_UN_SYMP_DOULEUR_REIN",
+      "tagTitle": "Douleurs bas du dos",
+      "tagDescription": "Douleurs bas du dos",
+      "tagType": "SCORE",
+      "sunburstName": "DOUL REN",
+      "module": "Q1_uro_nephrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_UN_SYMP",
+      "children": []
+    },
+    {
+      "tagOID": "S_UN_SYMP_HEMATURIE",
+      "tagTitle": "Hématuries",
+      "tagDescription": "Hématuries",
+      "tagType": "SCORE",
+      "sunburstName": "SANG URI",
+      "module": "Q1_uro_nephrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_UN_SYMP",
+      "children": []
+    },
+    {
+      "tagOID": "S_UN_SYMP_CYSTALGIE",
+      "tagTitle": "Cystalgie",
+      "tagDescription": "Cystalgie",
+      "tagType": "SCORE",
+      "sunburstName": "CYSTALG",
+      "module": "Q1_uro_nephrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_UN_SYMP",
+      "children": []
+    },
+    {
+      "tagOID": "S_UN_SYMP_DYSURIE",
+      "tagTitle": "Dysurie",
+      "tagDescription": "Dysurie",
+      "tagType": "SCORE",
+      "sunburstName": "DYSURIE",
+      "module": "Q1_uro_nephrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_UN_SYMP",
+      "children": []
+    },
+    {
+      "tagOID": "S_UN_SYMP_NYCTURIE",
+      "tagTitle": "Nycturie",
+      "tagDescription": "Nycturie",
+      "tagType": "SCORE",
+      "sunburstName": "NYCTURIE",
+      "module": "Q1_uro_nephrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_UN_SYMP",
+      "children": []
+    },
+    {
+      "tagOID": "S_UN_SYMP_POLLAKIURIE",
+      "tagTitle": "Pollakiurie",
+      "tagDescription": "Pollakiurie",
+      "tagType": "SCORE",
+      "sunburstName": "POLLAK",
+      "module": "Q1_uro_nephrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_UN_SYMP",
+      "children": []
+    },
+    {
+      "tagOID": "S_UN_SYMP_IMPERIOSITE",
+      "tagTitle": "Impériosité",
+      "tagDescription": "Impériosité",
+      "tagType": "SCORE",
+      "sunburstName": "IMPERIOS",
+      "module": "Q1_uro_nephrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_UN_SYMP",
+      "children": []
+    },
+    {
+      "tagOID": "S_UN_SYMP_INCONTINENCE",
+      "tagTitle": "Incontinence",
+      "tagDescription": "Incontinence",
+      "tagType": "SCORE",
+      "sunburstName": "INCONT",
+      "module": "Q1_uro_nephrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_UN_SYMP",
+      "children": []
+    },
+    {
+      "tagOID": "S_UN_SYMP_AUCUN",
+      "tagTitle": "Aucun",
+      "tagDescription": "Aucun",
+      "tagType": "SCORE",
+      "sunburstName": "AUCUN",
+      "module": "Q1_uro_nephrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_UN_SYMP",
+      "children": []
+    }
+  ]
+}

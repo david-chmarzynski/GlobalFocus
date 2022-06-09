@@ -297,7 +297,7 @@ const createQuestions = (data) => {
           ) {
             let choice;
             let score = {
-              conditions: `"${data.modules[m].questions[q].answers[a].value} in ${data.modules[m].questions[q].questionOID}"`,
+              conditions: `"${data.modules[m].questions[q].answers[a].value}" in ${data.modules[m].questions[q].questionOID}`,
               tagOID:
                 data.modules[m].questions[q].answers[a].tagOID !== ""
                   ? `${data.modules[m].questions[q].answers[a].tagOID}`

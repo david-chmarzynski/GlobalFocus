@@ -1,0 +1,46 @@
+{
+  "oid": "q_q1_andrologie_000",
+  "title": "Comment évaluez-vous votre fonctionnement, votre équilibre au niveau de la sphère masculine (libido, érection, fertilité, prostate, miction...) ?",
+  "text": "Comment évaluez-vous votre fonctionnement, votre équilibre au niveau de la sphère masculine (libido, érection, fertilité, prostate, miction...) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisante"
+    },
+    {
+      "code": "1",
+      "text": "Légèrement insatisfaisante"
+    },
+    {
+      "code": "2",
+      "text": "Plutôt insatisfaisante"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisante"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q1_andrologie_000 == \"0\"",
+      "tagOID": "S_AND",
+      "value": 0
+    },
+    {
+      "conditions": "q_q1_andrologie_000 == \"1\"",
+      "tagOID": "S_AND",
+      "value": 1
+    },
+    {
+      "conditions": "q_q1_andrologie_000 == \"2\"",
+      "tagOID": "S_AND",
+      "value": 2
+    },
+    {
+      "conditions": "q_q1_andrologie_000 == \"3\"",
+      "tagOID": "S_AND",
+      "value": 3
+    }
+  ]
+}

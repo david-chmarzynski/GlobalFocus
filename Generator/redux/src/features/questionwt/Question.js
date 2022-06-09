@@ -16,7 +16,12 @@ import Error from "../error/Error";
 import List from "../list/List";
 
 // DATAS
-import { questionTypes, booleans, scopes } from "./datas.questions";
+import {
+  questionTypes,
+  booleans,
+  scopes,
+  defaultValues,
+} from "./datas.questions";
 import { Link } from "react-router-dom";
 
 function Question() {
@@ -53,6 +58,10 @@ function Question() {
   const [triggeredDefault, setTriggeredDefault] = useState(0);
   const [navigate, setNavigate] = useState(false);
   const [scope, setScope] = useState("MODULE_SCOPE");
+  const [currentTriggeredQuestion, setCurrentTriggeredQuestion] =
+    useState(null);
+
+  console.log("questions :", questions);
 
   // DEFAULT MODULE STATE
   useEffect(() => {
@@ -67,6 +76,15 @@ function Question() {
   const resetFields = () => {
     setQuestionOID("");
     setQuestionText("");
+  };
+
+  const handleChangeTriggeredQuestion = (value) => {
+    setTriggeredQuestionOID(value);
+    questions.map((question) => {
+      if (question.questionOID === value) {
+        setCurrentTriggeredQuestion(question);
+      }
+    });
   };
 
   const handleSubmit = () => {
@@ -98,11 +116,11 @@ function Question() {
     }
   };
 
-  useEffect(() => {
-    if (questions.length > 0) {
-      setTriggeredQuestionOID(questions[questions.length - 1].questionOID);
-    }
-  }, [questions]);
+  // useEffect(() => {
+  //   if (questions.length > 0) {
+  //     setTriggeredQuestionOID(questions[questions.length - 1].questionOID);
+  //   }
+  // }, [questions]);
 
   console.log(questions);
 
@@ -165,7 +183,7 @@ function Question() {
               style={{ marginLeft: "30px" }}
               label="Triggered question"
               value={triggeredQuestionOID}
-              onChange={(e) => setTriggeredQuestionOID(e.target.value)}
+              onChange={(e) => handleChangeTriggeredQuestion(e.target.value)}
               SelectProps={{
                 native: true,
               }}
@@ -176,22 +194,44 @@ function Question() {
                 </option>
               ))}
             </TextField>
-            <TextField
-              required
-              style={{ marginLeft: "30px" }}
-              id="outlined-required"
-              label="Must Not be equal to :"
-              value={triggeredValue}
-              onChange={(e) => setTriggeredValue(e.target.value)}
-            />
-            <TextField
-              required
-              style={{ marginLeft: "30px" }}
-              id="outlined-required"
-              label="Default is :"
-              value={triggeredDefault}
-              onChange={(e) => setTriggeredDefault(e.target.value)}
-            />
+            {currentTriggeredQuestion !== null && (
+              <TextField
+                id="outlined-select-currency-native"
+                select
+                style={{ marginLeft: "30px" }}
+                label="Must not machin"
+                value={triggeredValue}
+                onChange={(e) => setTriggeredValue(e.target.value)}
+                SelectProps={{
+                  native: true,
+                }}
+              >
+                {currentTriggeredQuestion.answers.map((option) => (
+                  <option key={option.value} value={option.value}>
+                    {option.value}
+                  </option>
+                ))}
+              </TextField>
+            )}
+            {currentTriggeredQuestion !== null && (
+              <TextField
+                id="outlined-select-currency-native"
+                select
+                style={{ marginLeft: "30px" }}
+                label="Valeur par défaut :"
+                value={triggeredDefault}
+                onChange={(e) => setTriggeredDefault(e.target.value)}
+                SelectProps={{
+                  native: true,
+                }}
+              >
+                {defaultValues.map((option) => (
+                  <option key={option.value} value={option.value}>
+                    {option.value}
+                  </option>
+                ))}
+              </TextField>
+            )}
           </>
         )}
         {isTriggered && (

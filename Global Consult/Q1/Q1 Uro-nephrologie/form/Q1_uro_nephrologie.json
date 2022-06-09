@@ -1,0 +1,478 @@
+{
+  "oid": "Q1_uro_nephrologie",
+  "title": "Q1 Global Focus Uro-néphrologie",
+  "estimatedTime": 10,
+  "pricing": 10,
+  "description": "Q1 Global Focus Uro-néphrologie",
+  "levelMax": "1",
+  "linkedForm": "",
+  "companyId": "[object Object]",
+  "authors": [
+    "Jean-Philippe Astruc"
+  ],
+  "chapters": [
+    "chap_Q1_uro_nephrologie"
+  ],
+  "professions": [
+    "DENTIST"
+  ],
+  "diagnostics": [],
+  "reportingTrees": [
+    {
+      "category": "HEALTH",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "S_UN",
+        "type": "SCORE",
+        "ranges": [
+          {
+            "min": 0,
+            "max": 0,
+            "color": "00FF00",
+            "text": "URO-NEPHRO"
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "color": "FFFF00",
+            "text": "URO-NEPHRO"
+          },
+          {
+            "min": 2,
+            "max": 2,
+            "color": "FF9900",
+            "text": "URO-NEPHRO"
+          },
+          {
+            "min": 3,
+            "max": 3,
+            "color": "FF0000",
+            "text": "URO-NEPHRO"
+          }
+        ],
+        "children": [
+          {
+            "tagOID": "S_UN_ATCD",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "ATCD"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "ATCD"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_UN_ATCD_CANCER_REIN",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "KC REIN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "KC REIN"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_UN_ATCD_CANCER_VESSIE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "KC VESSIE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "KC VESSIE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_UN_ATCD_POLYKYSTOSE_RENALE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "POLYK"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "POLYK"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_UN_ATCD_INSUFFISANCE_RENALE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "INS REN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "INS REN"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_UN_ATCD_LITHIASE _URINAIRE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "LITH URI"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "LITH URI"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_UN_ATCD_PYELONEPHRITE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "PYELONEP"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "PYELONEP"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_UN_ATCD_MALFORMATION_URETERE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "MALF URET"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "MALF URET"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_UN_ATCD_POLYPE_VESSIE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "POLYP VES"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "POLYP VES"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_UN_ATCD_INFECTION_URINAIRE_REPETITION",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "INF URI"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "INF URI"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_UN_ATCD_INCONTINENCE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "INCONT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "INCONT"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_UN_ATCD_AUTRES",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AUTRES"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AUTRES"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "S_UN_SYMP",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "SYMP"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "SYMP"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_UN_SYMP_DOULEUR_REIN",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "DOUL REN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "DOUL REN"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_UN_SYMP_HEMATURIE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "SANG URI"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "SANG URI"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_UN_SYMP_CYSTALGIE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CYSTALG"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CYSTALG"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_UN_SYMP_DYSURIE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "DYSURIE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "DYSURIE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_UN_SYMP_NYCTURIE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "NYCTURIE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "NYCTURIE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_UN_SYMP_POLLAKIURIE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "POLLAK"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "POLLAK"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_UN_SYMP_IMPERIOSITE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "IMPERIOS"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "IMPERIOS"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_UN_SYMP_INCONTINENCE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "INCONT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "INCONT"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_UN_SYMP_AUCUN",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AUCUN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AUCUN"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

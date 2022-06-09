@@ -59,16 +59,16 @@ function Answer() {
   const [regex, setRegex] = useState("");
 
   // LOCAL STATE SCALE & NUM TYPE QUESTION
-  const [min, setMin] = useState(0);
-  const [max, setMax] = useState(100);
+  const [min, setMin] = useState(1900);
+  const [max, setMax] = useState(new Date().getFullYear());
 
-  const [minText, setMinText] = useState("");
+  const [minText, setMinText] = useState("1900");
   const [midText, setMidText] = useState("");
-  const [maxText, setMaxText] = useState("");
+  const [maxText, setMaxText] = useState("Cette année");
 
-  const [minValue, setMinValue] = useState("0");
-  const [midValue, setMidValue] = useState("50");
-  const [maxValue, setMaxValue] = useState("100");
+  const [minValue, setMinValue] = useState("1900");
+  const [midValue, setMidValue] = useState("");
+  const [maxValue, setMaxValue] = useState(new Date().getFullYear());
 
   const [step, setStep] = useState(1.0);
   const [hideAnalogScaleSelectorNumber, setHideAnalogScaleSelectorNumber] =

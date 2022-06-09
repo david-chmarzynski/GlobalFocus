@@ -97,7 +97,7 @@ const Scale = ({
       <TextField
         required
         id="outlined-required"
-        label="Valeur médian affichée" 
+        label="Valeur médiane affichée" 
         value={midValue}
         onChange={(e) => setMidValue(e.target.value)}
       />

@@ -398,16 +398,24 @@ const createQuestions = (data) => {
             },
             scores: [],
           };
+          let score;
           for (
             let val = data.modules[m].questions[q].answers[0].min;
             val <= data.modules[m].questions[q].answers[0].max;
             val++
           ) {
-            let score = {
-              conditions: `${data.modules[m].questions[q].questionOID} == ${val}`,
-              tagOID: `${data.modules[m].questions[q].tag}`,
-              value: parseInt(val),
-            };
+            if (data.modules[m].questions[q].tag === "") {
+              score = {
+                conditions: `${data.modules[m].questions[q].questionOID} == ${val}`,
+                value: parseInt(val),
+              };
+            } else {
+              score = {
+                conditions: `${data.modules[m].questions[q].questionOID} == ${val}`,
+                tagOID: `${data.modules[m].questions[q].tag}`,
+                value: parseInt(val),
+              };
+            }
             baseScores.push(score);
             baseQuestion.scores = baseScores;
           }

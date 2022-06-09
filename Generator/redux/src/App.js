@@ -5,6 +5,7 @@ import "./App.css";
 import Form from "./features/form/Form";
 import Tag from "./features/tag/Tag";
 import Question from "./features/question/Question";
+import QuestionWT from "./features/questionwt/Question";
 import Navigation from "./features/navigation/Navigation";
 import Answer from "./features/answer/Answer";
 import Module from "./features/module/Module";
@@ -20,6 +21,7 @@ function App() {
         <Route path="/" element={<Form />} />
         <Route path="/tags" element={<Tag />} />
         <Route path="/questions" element={<Question />} />
+        <Route path="/questionswt" element={<QuestionWT />} />
         <Route path="/answers" element={<Answer />} />
         <Route path="/modules" element={<Module />} />
         <Route path="/result" element={<Result />} />

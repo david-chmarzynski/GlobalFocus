@@ -148,14 +148,10 @@ function Tag() {
           id="outlined-required"
           label="Titre du tag"
           value={tagTitle}
-          onChange={(e) => setTagTitle(e.target.value)}
-        />
-        <TextField
-          required
-          id="outlined-required"
-          label="Description du tag"
-          value={tagDescription}
-          onChange={(e) => setTagDescription(e.target.value)}
+          onChange={(e) => {
+            setTagTitle(e.target.value);
+            setTagDescription(e.target.value)
+          }}
         />
         <TextField
           id="outlined-select-currency-native"

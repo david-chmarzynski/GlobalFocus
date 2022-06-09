@@ -1,0 +1,67 @@
+{
+  "oid": "q_q1_andrologie_015",
+  "title": "Au cours des 3 derniers mois, avez-vous présenté ?",
+  "text": "Au cours des 3 derniers mois, avez-vous présenté ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "Douleurs testiculaires",
+      "text": "Douleurs testiculaires"
+    },
+    {
+      "code": "Écoulement du gland",
+      "text": "Écoulement du gland"
+    },
+    {
+      "code": "Démangeaisons du gland",
+      "text": "Démangeaisons du gland"
+    },
+    {
+      "code": "aucun",
+      "text": "Aucun de ces symptômes",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"Douleurs testiculaires\" in q_q1_andrologie_015",
+      "tagOID": "S_AND_SYMP_GENITAL_DOULEUR_TESTICULE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Douleurs testiculaires\" in q_q1_andrologie_015)",
+      "tagOID": "S_AND_SYMP_GENITAL_DOULEUR_TESTICULE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Écoulement du gland\" in q_q1_andrologie_015",
+      "tagOID": "S_AND_SYMP_GENITAL_ECOULEMENT",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Écoulement du gland\" in q_q1_andrologie_015)",
+      "tagOID": "S_AND_SYMP_GENITAL_ECOULEMENT",
+      "value": 0
+    },
+    {
+      "conditions": "\"Démangeaisons du gland\" in q_q1_andrologie_015",
+      "tagOID": "S_AND_SYMP_DEMANGEAISONS",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Démangeaisons du gland\" in q_q1_andrologie_015)",
+      "tagOID": "S_AND_SYMP_DEMANGEAISONS",
+      "value": 0
+    },
+    {
+      "conditions": "\"aucun\" in q_q1_andrologie_015",
+      "tagOID": "S_AND_SYMP",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_q1_andrologie_015)",
+      "tagOID": "S_AND_SYMP",
+      "value": 1
+    }
+  ]
+}

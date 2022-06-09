@@ -1,0 +1,433 @@
+{
+  "oid": "q1_andrologie",
+  "title": "Q1 Global Focus Andrologie",
+  "estimatedTime": 10,
+  "pricing": 10,
+  "description": "Q1 Global Focus Andrologie",
+  "levelMax": "1",
+  "linkedForm": "",
+  "companyId": "[object Object]",
+  "authors": [
+    "Jean-Philippe Astruc"
+  ],
+  "chapters": [
+    "chap_q1_andrologie"
+  ],
+  "professions": [
+    "DENTIST"
+  ],
+  "diagnostics": [],
+  "reportingTrees": [
+    {
+      "category": "HEALTH",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "S_AND",
+        "type": "SCORE",
+        "ranges": [
+          {
+            "min": 0,
+            "max": 0,
+            "color": "00FF00",
+            "text": "ANDRO"
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "color": "FFFF00",
+            "text": "ANDRO"
+          },
+          {
+            "min": 2,
+            "max": 2,
+            "color": "FF9900",
+            "text": "ANDRO"
+          },
+          {
+            "min": 3,
+            "max": 3,
+            "color": "FF0000",
+            "text": "ANDRO"
+          }
+        ],
+        "children": [
+          {
+            "tagOID": "S_AND_ATCD",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "ATCD"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "ATCD"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_AND_ATCD_CANCER_PROSTATE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "KC PROST"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "KC PROST"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_AND_ATCD_CANCER_TESTICULES",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "KC TEST"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "KC TEST"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_AND_ATCD_HBP",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "HBP"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "HBP"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_AND_ATCD_CHIR_PROSTATE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CHIR PROST"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CHIR PROST"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_AND_ATCD_PROSTATITE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "PROSTATITE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "PROSTATITE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_AND_ATCD_ORCHITE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ORCHITE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ORCHITE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_AND_ATCD_EPIDIDYMITE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "EPIDIDY"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "EPIDIDY"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_AND_ATCD_TORSION_TESTICULE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "TORS TEST"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "TORS TEST"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_AND_ATCD_VARICOCELE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "VARICOCELE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "VARICOCELE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_AND_ATCD_INFERTILITE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "INFERT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "INFERT"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_AND_ATCD_CHLAMYDIA",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CHLAMYDIA"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CHLAMYDIA"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_AND_ATCD_MST",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "MST"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "MST"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_AND_ATCD_AUTRES",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AUTRES"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AUTRES"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "S_AND_SYMP",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "SYMP"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "SYMP"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_AND_SYMP_GENITAL_DOULEUR_TESTICULE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "DLR TEST"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "DLR TEST"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_AND_SYMP_GENITAL_ECOULEMENT",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ECOUL GLAND"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ECOUL GLAND"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_AND_SYMP_GENITAL_DEMANGEAISONS",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "PRURIT GLAND"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "PRURIT GLAND"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 7,
+                "color": "00FF00",
+                "text": "HYPOTEST"
+              },
+              {
+                "min": 8,
+                "max": 12,
+                "color": "FFFF00",
+                "text": "HYPOTEST"
+              },
+              {
+                "min": 13,
+                "max": 20,
+                "color": "FF9900",
+                "text": "HYPOTEST"
+              },
+              {
+                "min": 21,
+                "max": 30,
+                "color": "FF0000",
+                "text": "HYPOTEST"
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    }
+  ]
+}

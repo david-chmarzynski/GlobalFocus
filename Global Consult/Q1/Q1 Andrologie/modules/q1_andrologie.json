@@ -1,0 +1,227 @@
+{
+  "oid": "q1_andrologie",
+  "title": "Andrologie",
+  "questions": [
+    {
+      "question": "q_q1_andrologie_000",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q1_andrologie_001",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_q1_andrologie_002",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"autres\" in q_q1_andrologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_andrologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_andrologie_003",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"cancer prostate\" in q_q1_andrologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_andrologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_andrologie_004",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Cancer des testicules\" in q_q1_andrologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_andrologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_andrologie_005",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"adenome\" in q_q1_andrologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_andrologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_andrologie_006",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Chirurgie prostatique\" in q_q1_andrologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_andrologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_andrologie_007",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"orchite\" in q_q1_andrologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_andrologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_andrologie_008",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Torsion du testicule\" in q_q1_andrologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_andrologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_andrologie_009",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Epididymite\" in q_q1_andrologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_andrologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_andrologie_010",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Infertilité\" in q_q1_andrologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_andrologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_andrologie_011",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Varicocèle\" in q_q1_andrologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_andrologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_andrologie_012",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"chlamydia\" in q_q1_andrologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_andrologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_andrologie_013",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"mst\" in q_q1_andrologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_andrologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_andrologie_014",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"autres\" in q_q1_andrologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_andrologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_andrologie_015",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q1_andrologie_017",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q1_andrologie_018",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q1_andrologie_019",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q1_andrologie_020",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q1_andrologie_021",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q1_andrologie_022",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q1_andrologie_023",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q1_andrologie_024",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q1_andrologie_025",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q1_andrologie_026",
+      "level": 1,
+      "isGlobal": false
+    }
+  ]
+}

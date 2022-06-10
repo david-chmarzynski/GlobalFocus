@@ -404,20 +404,31 @@ const createQuestions = (data) => {
             val <= data.modules[m].questions[q].answers[0].max;
             val++
           ) {
-            if (data.modules[m].questions[q].tag === "") {
-              score = {
-                conditions: `${data.modules[m].questions[q].questionOID} == ${val}`,
-                value: parseInt(val),
-              };
-            } else {
+            // if (data.modules[m].questions[q].tag === "") {
+            //   score = {
+            //     conditions: `${data.modules[m].questions[q].questionOID} == ${val}`,
+            //     value: parseInt(val),
+            //   };
+            // } else {
+            //   score = {
+            //     conditions: `${data.modules[m].questions[q].questionOID} == ${val}`,
+            //     tagOID: `${data.modules[m].questions[q].tag}`,
+            //     value: parseInt(val),
+            //   };
+            // }
+            // baseScores.push(score);
+            // baseQuestion.scores = baseScores;
+
+            if (!(data.modules[m].questions[q].tag === "")) {
               score = {
                 conditions: `${data.modules[m].questions[q].questionOID} == ${val}`,
                 tagOID: `${data.modules[m].questions[q].tag}`,
                 value: parseInt(val),
               };
+              baseScores.push(score);
+              baseQuestion.scores = baseScores;
             }
-            baseScores.push(score);
-            baseQuestion.scores = baseScores;
+            
           }
           break;
         case "DIGITAL_SCALE":

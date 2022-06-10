@@ -27,8 +27,8 @@ import { Link } from "react-router-dom";
 function Question() {
   // GLOBAL STATES
   const questions = useSelector((state) => state.question.questions);
-  const tags = useSelector((state) => state.tag.tags);
-  const currentTag = useSelector((state) => state.tag.tag);
+  const tags = useSelector((state) => ["", ...state.tag.tags]);
+  // const currentTag = useSelector((state) => state.tag.tag);
   const error = useSelector((state) => state.error.error);
   const form = useSelector((state) => state.form);
   const modules = useSelector((state) => state.module.modules);
@@ -60,8 +60,7 @@ function Question() {
   const [scope, setScope] = useState("MODULE_SCOPE");
   const [currentTriggeredQuestion, setCurrentTriggeredQuestion] =
     useState(null);
-
-  console.log("questions :", questions);
+  const [currentTag, setCurrentTag] = useState(null);
 
   // DEFAULT MODULE STATE
   useEffect(() => {
@@ -69,6 +68,12 @@ function Question() {
       setModule(modules[modules.length - 1].moduleOID);
     }
   }, [modules]);
+
+  // useEffect(() => {
+  //   if (tags.length > 0) {
+  //     setMappedTags([mappedTags, ...tags]);
+  //   }
+  // }, [mappedTags, tags]);
 
   // DISPATCH
   const dispatch = useDispatch();
@@ -83,6 +88,15 @@ function Question() {
     questions.map((question) => {
       if (question.questionOID === value) {
         setCurrentTriggeredQuestion(question);
+      }
+    });
+  };
+
+  const handleChangeTag = (value) => {
+    setTag(value);
+    tags.map((tag) => {
+      if (tag.tagOID === value) {
+        setCurrentTag(tag);
       }
     });
   };
@@ -252,6 +266,22 @@ function Question() {
             ))}
           </TextField>
         )}
+        <TextField
+          id="outlined-select-currency-native"
+          select
+          label="Tag"
+          value={tag}
+          onChange={(e) => handleChangeTag(e.target.value)}
+          SelectProps={{
+            native: true,
+          }}
+        >
+          {tags.map((option) => (
+            <option key={option.tagOID} value={option.tagOID}>
+              {option.tagOID}
+            </option>
+          ))}
+        </TextField>
         <TextField
           id="outlined-select-currency-native"
           select

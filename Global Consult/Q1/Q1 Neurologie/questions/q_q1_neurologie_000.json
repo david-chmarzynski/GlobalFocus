@@ -1,0 +1,46 @@
+{
+  "oid": "q_q1_neurologie_000",
+  "title": "Nous allons maintenant explorer votre santé neurologique. Comment évaluez-vous votre santé sur le plan neurologique (mémoire, capacités cognitives, migraines, vertiges, motricité, maladies du cerveau et/ou des nerfs...) ?",
+  "text": "Nous allons maintenant explorer votre santé neurologique. Comment évaluez-vous votre santé sur le plan neurologique (mémoire, capacités cognitives, migraines, vertiges, motricité, maladies du cerveau et/ou des nerfs...) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisante"
+    },
+    {
+      "code": "1",
+      "text": "Légèrement insatisfaisante"
+    },
+    {
+      "code": "2",
+      "text": "Plutôt insatisfaisante"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisante"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q1_neurologie_000 == \"0\"",
+      "tagOID": "S_N",
+      "value": 0
+    },
+    {
+      "conditions": "q_q1_neurologie_000 == \"1\"",
+      "tagOID": "S_N",
+      "value": 1
+    },
+    {
+      "conditions": "q_q1_neurologie_000 == \"2\"",
+      "tagOID": "S_N",
+      "value": 2
+    },
+    {
+      "conditions": "q_q1_neurologie_000 == \"3\"",
+      "tagOID": "S_N",
+      "value": 3
+    }
+  ]
+}

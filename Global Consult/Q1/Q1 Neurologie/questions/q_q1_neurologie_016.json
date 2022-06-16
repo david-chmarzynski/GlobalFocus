@@ -1,0 +1,108 @@
+{
+  "oid": "q_q1_neurologie_016",
+  "title": "Au cours de ces 3 derniers mois, avez-vous présenté certains de ces symptômes ? (plusieurs réponses possibles sauf)",
+  "text": "Au cours de ces 3 derniers mois, avez-vous présenté certains de ces symptômes ? (plusieurs réponses possibles sauf)",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "Maux de têtes",
+      "text": "Maux de têtes"
+    },
+    {
+      "code": "confusion mentale",
+      "text": "Confusion mentale (pensées brouillées, difficultés à réfléchir, à soutenir une conversation, à s’orienter dans le temps et l’espace)"
+    },
+    {
+      "code": "Difficultés d’attention",
+      "text": "Difficultés d’attention"
+    },
+    {
+      "code": "Pertes de mémoire",
+      "text": "Pertes de mémoire et/ou difficultés à retenir des informations"
+    },
+    {
+      "code": "Troubles du langage et/ou de l’élocution",
+      "text": "Troubles du langage et/ou de l’élocution"
+    },
+    {
+      "code": "Troubles de l’équilibre et/ou de la marche",
+      "text": "Troubles de l’équilibre et/ou de la marche"
+    },
+    {
+      "code": "Absence",
+      "text": "Absence (sensation de baisse de conscience, de vigilance)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"Maux de têtes\" in q_q1_neurologie_016",
+      "tagOID": "S_N_SYMP_CENTRAL_CEPHALEE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Maux de têtes\" in q_q1_neurologie_016)",
+      "tagOID": "S_N_SYMP_CENTRAL_CEPHALEE",
+      "value": 0
+    },
+    {
+      "conditions": "\"confusion mentale\" in q_q1_neurologie_016",
+      "tagOID": "S_N_SYMP_CENTRAL_CONFUSION",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"confusion mentale\" in q_q1_neurologie_016)",
+      "tagOID": "S_N_SYMP_CENTRAL_CONFUSION",
+      "value": 0
+    },
+    {
+      "conditions": "\"Difficultés d’attention\" in q_q1_neurologie_016",
+      "tagOID": "S_N_SYMP_CENTRAL_ATTENTION",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Difficultés d’attention\" in q_q1_neurologie_016)",
+      "tagOID": "S_N_SYMP_CENTRAL_ATTENTION",
+      "value": 0
+    },
+    {
+      "conditions": "\"Pertes de mémoire\" in q_q1_neurologie_016",
+      "tagOID": "S_N_SYMP_CENTRAL_MEMOIRE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Pertes de mémoire\" in q_q1_neurologie_016)",
+      "tagOID": "S_N_SYMP_CENTRAL_MEMOIRE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Troubles du langage et/ou de l’élocution\" in q_q1_neurologie_016",
+      "tagOID": "S_N_SYMP_CENTRAL_LANGAGE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Troubles du langage et/ou de l’élocution\" in q_q1_neurologie_016)",
+      "tagOID": "S_N_SYMP_CENTRAL_LANGAGE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Troubles de l’équilibre et/ou de la marche\" in q_q1_neurologie_016",
+      "tagOID": "S_N_SYMP_CENTRAL_EQUILIBRE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Troubles de l’équilibre et/ou de la marche\" in q_q1_neurologie_016)",
+      "tagOID": "S_N_SYMP_CENTRAL_EQUILIBRE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Absence\" in q_q1_neurologie_016",
+      "tagOID": "S_N_SYMP_CENTRAL_MALAISE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Absence\" in q_q1_neurologie_016)",
+      "tagOID": "S_N_SYMP_CENTRAL_MALAISE",
+      "value": 0
+    }
+  ]
+}

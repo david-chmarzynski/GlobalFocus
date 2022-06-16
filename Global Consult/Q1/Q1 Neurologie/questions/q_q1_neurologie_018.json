@@ -1,0 +1,52 @@
+{
+  "oid": "q_q1_neurologie_018",
+  "title": "Au cours de ces 3 derniers mois, avez-vous présenté certains de ces symptômes ? (plusieurs réponses possibles)",
+  "text": "Au cours de ces 3 derniers mois, avez-vous présenté certains de ces symptômes ? (plusieurs réponses possibles)",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "Hypoesthésie",
+      "text": "Baisse de sensibilité au toucher, à la douleur, au froid et/ou au chaud, partielle ou complète (anesthésie) dans une région du corps"
+    },
+    {
+      "code": "Hyperesthésie",
+      "text": "Augmentation de sensibilité au toucher, à la douleur, au froid et/ou au chaud, gênante voire douloureuse dans une région du corps"
+    },
+    {
+      "code": "Paresthésie",
+      "text": "Sensations anormales, désagréables à type de fourmillements, de picotements, de sensations de chaleur, de froid et/ou de peau cartonnée dans une région du corps "
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"Hypoesthésie\" in q_q1_neurologie_018",
+      "tagOID": "S_N_SYMP_SENSITIF_HYPOESTHESIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Hypoesthésie\" in q_q1_neurologie_018)",
+      "tagOID": "S_N_SYMP_SENSITIF_HYPOESTHESIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Hyperesthésie\" in q_q1_neurologie_018",
+      "tagOID": "S_N_SYMP_SENSITIF_HYPERESTHESIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Hyperesthésie\" in q_q1_neurologie_018)",
+      "tagOID": "S_N_SYMP_SENSITIF_HYPERESTHESIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Paresthésie\" in q_q1_neurologie_018",
+      "tagOID": "S_N_SYMP_SENSITIF_PARESTHESIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Paresthésie\" in q_q1_neurologie_018)",
+      "tagOID": "S_N_SYMP_SENSITIF_PARESTHESIE",
+      "value": 0
+    }
+  ]
+}

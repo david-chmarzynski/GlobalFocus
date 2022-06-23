@@ -1,0 +1,24 @@
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.reportContainer {
+  display: flex;
+  justify-content: flex-start;
+  width: 90%;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.textInput{
+  margin:1em;
+}
+
+.addButton{
+  padding-bottom: 1em;
+}
+
+.buttons{
+  display: flex;
+}

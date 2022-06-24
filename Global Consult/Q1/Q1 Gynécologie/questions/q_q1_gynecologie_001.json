@@ -1,0 +1,115 @@
+{
+  "oid": "q_q1_gynecologie_001",
+  "title": "Dans quelle période de vie génitale êtes-vous actuellement ? (Une seule réponse possible)",
+  "text": "Dans quelle période de vie génitale êtes-vous actuellement ? (Une seule réponse possible)",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "Période pré-pubertaire",
+      "text": "Période pré-pubertaire : vous n’avez encore jamais eu vos règles.",
+      "exclusive": true
+    },
+    {
+      "code": "Période d’activité génitale avec cycles",
+      "text": "Période d’activité génitale avec cycles : vous êtes réglée habituellement",
+      "exclusive": true
+    },
+    {
+      "code": "Période d’activité génitale sans cycle",
+      "text": "Période d’activité génitale sans cycle : vous n’avez plus de règles mais vous n’êtes pas encore ménopausée (traitement médical, contraception, hystérectomie, pré-ménopause)",
+      "exclusive": true
+    },
+    {
+      "code": "Grossesse",
+      "text": "Grossesse : vous êtes actuellement enceinte",
+      "exclusive": true
+    },
+    {
+      "code": "Ménopause non traitée",
+      "text": "Ménopause non traitée : vous n’avez plus de règles depuis plus d’un an et vous ne prenez pas de traitement hormonal substitutif.",
+      "exclusive": true
+    },
+    {
+      "code": "Ménopause avec traitement hormonal substitutif (THS) sans règles",
+      "text": "Ménopause avec traitement hormonal substitutif (THS) sans règles :  vous n’avez plus de règles depuis plus d’un an et vous prenez un THS sans règles",
+      "exclusive": true
+    },
+    {
+      "code": "Ménopause avec traitement hormonal substitutif (THS) et conservation des règles",
+      "text": "Ménopause avec traitement hormonal substitutif (THS) et conservation des règles :  vous êtes ménopausée et vous prenez un THS qui reproduit des cycles avec règles.",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"Période pré-pubertaire\" in q_q1_gynecologie_001",
+      "tagOID": "S_GYN_VIE_GENITALE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Période pré-pubertaire\" in q_q1_gynecologie_001)",
+      "tagOID": "S_GYN_VIE_GENITALE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Période d’activité génitale avec cycles\" in q_q1_gynecologie_001",
+      "tagOID": "S_GYN_VIE_GENITALE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Période d’activité génitale avec cycles\" in q_q1_gynecologie_001)",
+      "tagOID": "S_GYN_VIE_GENITALE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Période d’activité génitale sans cycle\" in q_q1_gynecologie_001",
+      "tagOID": "S_GYN_VIE_GENITALE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Période d’activité génitale sans cycle\" in q_q1_gynecologie_001)",
+      "tagOID": "S_GYN_VIE_GENITALE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Grossesse\" in q_q1_gynecologie_001",
+      "tagOID": "S_GYN_VIE_GENITALE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Grossesse\" in q_q1_gynecologie_001)",
+      "tagOID": "S_GYN_VIE_GENITALE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Ménopause non traitée\" in q_q1_gynecologie_001",
+      "tagOID": "S_GYN_VIE_GENITALE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Ménopause non traitée\" in q_q1_gynecologie_001)",
+      "tagOID": "S_GYN_VIE_GENITALE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Ménopause avec traitement hormonal substitutif (THS) sans règles\" in q_q1_gynecologie_001",
+      "tagOID": "S_GYN_VIE_GENITALE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Ménopause avec traitement hormonal substitutif (THS) sans règles\" in q_q1_gynecologie_001)",
+      "tagOID": "S_GYN_VIE_GENITALE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Ménopause avec traitement hormonal substitutif (THS) et conservation des règles\" in q_q1_gynecologie_001",
+      "tagOID": "S_GYN_VIE_GENITALE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Ménopause avec traitement hormonal substitutif (THS) et conservation des règles\" in q_q1_gynecologie_001)",
+      "tagOID": "S_GYN_VIE_GENITALE",
+      "value": 0
+    }
+  ]
+}

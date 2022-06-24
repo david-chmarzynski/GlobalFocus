@@ -109,6 +109,15 @@ const createChapterFile = (data) => {
 // CREATE TAGS \\
 const createTags = (data) => {
   for (let i = 0; i < data.tags.length; i++) {
+    // CHECK IF DUPLICATIONS ALERT
+    let duplicated = data.tags.filter(
+      (tag) => tag.tagOID === data.tags[i].tagOID
+    );
+
+    if (duplicated.length > 1) {
+      console.log(`Error: ${data.tags[i].tagOID} is duplicated.`);
+    }
+
     let baseTag = {
       oid: data.tags[i].tagOID,
       title: data.tags[i].tagTitle,
@@ -269,7 +278,9 @@ const createQuestions = (data) => {
             let score = {
               conditions: `${data.modules[m].questions[q].questionOID} == "${data.modules[m].questions[q].answers[a].value}"`,
               tagOID: `${data.modules[m].questions[q].tag}`,
-              value: parseInt(data.modules[m].questions[q].answers[a].value),
+              value: isNaN(data.modules[m].questions[q].answers[a].value)
+                ? data.modules[m].questions[q].answers[a].value
+                : parseInt(data.modules[m].questions[q].answers[a].value),
             };
             if (data.modules[m].questions[q].answers[a].isExclusive === true) {
               choice = {
@@ -302,7 +313,10 @@ const createQuestions = (data) => {
                 data.modules[m].questions[q].answers[a].tagOID !== ""
                   ? `${data.modules[m].questions[q].answers[a].tagOID}`
                   : `${data.modules[m].questions[q].tag}`,
-              value: 1,
+              value:
+                data.modules[m].questions[q].answers[a].value === "aucun"
+                  ? 0
+                  : 1,
             };
             if (data.modules[m].questions[q].answers[a].isExclusive === true) {
               choice = {
@@ -322,7 +336,10 @@ const createQuestions = (data) => {
                 data.modules[m].questions[q].answers[a].tagOID !== ""
                   ? `${data.modules[m].questions[q].answers[a].tagOID}`
                   : `${data.modules[m].questions[q].tag}`,
-              value: 0,
+              value:
+                data.modules[m].questions[q].answers[a].value === "aucun"
+                  ? 1
+                  : 0,
             };
             baseChoices.push(choice);
             baseScores.push(score);
@@ -428,7 +445,6 @@ const createQuestions = (data) => {
               baseScores.push(score);
               baseQuestion.scores = baseScores;
             }
-            
           }
           break;
         case "DIGITAL_SCALE":

@@ -1,0 +1,12 @@
+{
+  "oid": "q_q1_gynecologie_050",
+  "title": "Combien avez-vous fait de mycose(s) de la vulve ou du vagin ?",
+  "text": "Combien avez-vous fait de mycose(s) de la vulve ou du vagin ?",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": "1",
+    "max": "50",
+    "step": 1
+  },
+  "scores": []
+}

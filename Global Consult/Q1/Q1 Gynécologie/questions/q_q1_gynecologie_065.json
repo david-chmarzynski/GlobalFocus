@@ -1,0 +1,40 @@
+{
+  "oid": "q_q1_gynecologie_065",
+  "title": "Si vous avez-eu des enfants avez-vous allaité ?",
+  "text": "Si vous avez-eu des enfants avez-vous allaité ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "Oui",
+      "text": "Oui",
+      "exclusive": true
+    },
+    {
+      "code": "Non",
+      "text": "Non",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"Oui\" in q_q1_gynecologie_065",
+      "tagOID": "S_GYN_VIE_GENITALE_ALLAITEMENT",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Oui\" in q_q1_gynecologie_065)",
+      "tagOID": "S_GYN_VIE_GENITALE_ALLAITEMENT",
+      "value": 0
+    },
+    {
+      "conditions": "\"Non\" in q_q1_gynecologie_065",
+      "tagOID": "S_GYN_VIE_GENITALE_ALLAITEMENT",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Non\" in q_q1_gynecologie_065)",
+      "tagOID": "S_GYN_VIE_GENITALE_ALLAITEMENT",
+      "value": 0
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "oid": "q_q1_gynecologie_041",
+  "title": "En quelle année le diagnostic de dysplasie du col a t’il été posé ?",
+  "text": "En quelle année le diagnostic de dysplasie du col a t’il été posé ?",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 1900,
+    "max": 2022,
+    "step": 1
+  },
+  "scores": []
+}

@@ -1,0 +1,206 @@
+{
+  "oid": "q_q1_gynecologie_044",
+  "title": "Avez-vous déjà eu une ou plusieurs de ces pathologies (ou traitement) ?",
+  "text": "Avez-vous déjà eu une ou plusieurs de ces pathologies (ou traitement) ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "Cancer du vagin",
+      "text": "Cancer du vagin"
+    },
+    {
+      "code": "Cancer de la vulve",
+      "text": "Cancer de la vulve"
+    },
+    {
+      "code": "Prolapsus génital (descente d’organe)",
+      "text": "Prolapsus génital (descente d’organe)"
+    },
+    {
+      "code": "Bartholinite",
+      "text": "Bartholinite"
+    },
+    {
+      "code": "Mycose(s) de la vulve et/ou du vagin",
+      "text": "Mycose(s) de la vulve et/ou du vagin"
+    },
+    {
+      "code": "Herpès génital",
+      "text": "Herpès génital"
+    },
+    {
+      "code": "Infection(s) à Chlamydiae",
+      "text": "Infection(s) à Chlamydiae"
+    },
+    {
+      "code": "Infection(s) à Gonocoque",
+      "text": "Infection(s) à Gonocoque"
+    },
+    {
+      "code": "Infection(s) à mycoplasme",
+      "text": "Infection(s) à mycoplasme"
+    },
+    {
+      "code": "Infection(s) à trichomonas",
+      "text": "Infection(s) à trichomonas"
+    },
+    {
+      "code": "Syphilis",
+      "text": "Syphilis"
+    },
+    {
+      "code": "Autre(s) infection(s) du vagin et/ou de la vulve",
+      "text": "Autre(s) infection(s) du vagin et/ou de la vulve"
+    },
+    {
+      "code": "autres",
+      "text": "Autre(s) antécédent(s)"
+    },
+    {
+      "code": "aucun",
+      "text": "Aucun de ces antécédents"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"Cancer du vagin\" in q_q1_gynecologie_044",
+      "tagOID": "S_GYN_ATCD_VULVE_VAGIN_CANCER_VAGIN",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Cancer du vagin\" in q_q1_gynecologie_044)",
+      "tagOID": "S_GYN_ATCD_VULVE_VAGIN_CANCER_VAGIN",
+      "value": 0
+    },
+    {
+      "conditions": "\"Cancer de la vulve\" in q_q1_gynecologie_044",
+      "tagOID": "S_GYN_ATCD_VULVE_VAGIN_CANCER_VULVE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Cancer de la vulve\" in q_q1_gynecologie_044)",
+      "tagOID": "S_GYN_ATCD_VULVE_VAGIN_CANCER_VULVE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Prolapsus génital (descente d’organe)\" in q_q1_gynecologie_044",
+      "tagOID": "S_GYN_ATCD_VULVE_VAGIN_PROLAPSUS",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Prolapsus génital (descente d’organe)\" in q_q1_gynecologie_044)",
+      "tagOID": "S_GYN_ATCD_VULVE_VAGIN_PROLAPSUS",
+      "value": 0
+    },
+    {
+      "conditions": "\"Bartholinite\" in q_q1_gynecologie_044",
+      "tagOID": "S_GYN_ATCD_VULVE_VAGIN_BARTHOLINITE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Bartholinite\" in q_q1_gynecologie_044)",
+      "tagOID": "S_GYN_ATCD_VULVE_VAGIN_BARTHOLINITE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Mycose(s) de la vulve et/ou du vagin\" in q_q1_gynecologie_044",
+      "tagOID": "S_GYN_ATCD_VULVE_VAGIN_MYCOSE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Mycose(s) de la vulve et/ou du vagin\" in q_q1_gynecologie_044)",
+      "tagOID": "S_GYN_ATCD_VULVE_VAGIN_MYCOSE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Herpès génital\" in q_q1_gynecologie_044",
+      "tagOID": "S_GYN_ATCD_VULVE_VAGIN_HERPES",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Herpès génital\" in q_q1_gynecologie_044)",
+      "tagOID": "S_GYN_ATCD_VULVE_VAGIN_HERPES",
+      "value": 0
+    },
+    {
+      "conditions": "\"Infection(s) à Chlamydiae\" in q_q1_gynecologie_044",
+      "tagOID": "S_GYN_ATCD_VULVE_VAGIN_CHLAMYDIAE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Infection(s) à Chlamydiae\" in q_q1_gynecologie_044)",
+      "tagOID": "S_GYN_ATCD_VULVE_VAGIN_CHLAMYDIAE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Infection(s) à Gonocoque\" in q_q1_gynecologie_044",
+      "tagOID": "S_GYN_ATCD_VULVE_VAGIN_GONOCOQUE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Infection(s) à Gonocoque\" in q_q1_gynecologie_044)",
+      "tagOID": "S_GYN_ATCD_VULVE_VAGIN_GONOCOQUE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Infection(s) à mycoplasme\" in q_q1_gynecologie_044",
+      "tagOID": "S_GYN_ATCD_VULVE_VAGIN_MYCOPLASME",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Infection(s) à mycoplasme\" in q_q1_gynecologie_044)",
+      "tagOID": "S_GYN_ATCD_VULVE_VAGIN_MYCOPLASME",
+      "value": 0
+    },
+    {
+      "conditions": "\"Infection(s) à trichomonas\" in q_q1_gynecologie_044",
+      "tagOID": "S_GYN_ATCD_VULVE_VAGIN_TRICHOMONAS",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Infection(s) à trichomonas\" in q_q1_gynecologie_044)",
+      "tagOID": "S_GYN_ATCD_VULVE_VAGIN_TRICHOMONAS",
+      "value": 0
+    },
+    {
+      "conditions": "\"Syphilis\" in q_q1_gynecologie_044",
+      "tagOID": "S_GYN_ATCD_VULVE_VAGIN_SYPHILIS",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Syphilis\" in q_q1_gynecologie_044)",
+      "tagOID": "S_GYN_ATCD_VULVE_VAGIN_SYPHILIS",
+      "value": 0
+    },
+    {
+      "conditions": "\"Autre(s) infection(s) du vagin et/ou de la vulve\" in q_q1_gynecologie_044",
+      "tagOID": "S_GYN_ATCD_VULVE_VAGIN_AUTRES_INF",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Autre(s) infection(s) du vagin et/ou de la vulve\" in q_q1_gynecologie_044)",
+      "tagOID": "S_GYN_ATCD_VULVE_VAGIN_AUTRES_INF",
+      "value": 0
+    },
+    {
+      "conditions": "\"autres\" in q_q1_gynecologie_044",
+      "tagOID": "S_GYN_ATCD_VULVE_VAGIN_AUTRES",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"autres\" in q_q1_gynecologie_044)",
+      "tagOID": "S_GYN_ATCD_VULVE_VAGIN_AUTRES",
+      "value": 0
+    },
+    {
+      "conditions": "\"aucun\" in q_q1_gynecologie_044",
+      "tagOID": "S_GYN_ATCD_VULVE_VAGIN",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_q1_gynecologie_044)",
+      "tagOID": "S_GYN_ATCD_VULVE_VAGIN",
+      "value": 1
+    }
+  ]
+}

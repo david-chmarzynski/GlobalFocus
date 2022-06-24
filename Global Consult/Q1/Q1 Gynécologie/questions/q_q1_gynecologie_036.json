@@ -1,0 +1,12 @@
+{
+  "oid": "q_q1_gynecologie_036",
+  "title": "En quelle année le diagnostic de fibrome a t’il été posé ?",
+  "text": "En quelle année le diagnostic de fibrome a t’il été posé ?",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 1900,
+    "max": 2022,
+    "step": 1
+  },
+  "scores": []
+}

@@ -1,0 +1,1196 @@
+{
+  "oid": "q1_gynecologie",
+  "title": "Q1 Global Focus Gynécologie",
+  "estimatedTime": 10,
+  "pricing": 10,
+  "description": "Q1 Global Focus Gynécologie",
+  "levelMax": "1",
+  "authors": ["Jean-Philippe Astruc"],
+  "chapters": ["chap_q1_gynecologie"],
+  "professions": ["DENTIST"],
+  "diagnostics": [],
+  "reportingTrees": [
+    {
+      "category": "HEALTH",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "S_GYN",
+        "type": "SCORE",
+        "ranges": [
+          {
+            "min": 0,
+            "max": 0,
+            "color": "00FF00",
+            "text": "GYN"
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "color": "FFFF00",
+            "text": "GYN"
+          },
+          {
+            "min": 2,
+            "max": 2,
+            "color": "FF9900",
+            "text": "GYN"
+          },
+          {
+            "min": 3,
+            "max": 3,
+            "color": "FF0000",
+            "text": "GYN"
+          }
+        ],
+        "children": [
+          {
+            "tagOID": "S_GYN_VIE_GENITALE",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "VIE GENIT"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "VIE GENIT"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_GYN_VIE_GENITALE_PREMIRES_REGLES",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "PREMIRE REGLES"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "PREMIRE REGLES"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_VIE_GENITALE_CYCLE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CYCLE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CYCLE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_VIE_GENITALE_DUREE_CYCLE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "DUREE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "DUREE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_VIE_GENITALE_DUREE_CYCLE_MIN",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "DUREE MIN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "DUREE MIN"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_VIE_GENITALE_DUREE_CYCLE_MAX",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "DUREE MAX"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "DUREE MAX"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_VIE_GENITALE_ALLAITEMENT",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ALLAIT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ALLAIT"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_VIE_GENITALE_ALLAITEMENT_NOMBRE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "NB ALLAIT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "NB ALLAIT"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_VIE_GENITALE_ALLAITEMENT_TEMPS",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "TMP ALLAIT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "TMP ALLAIT"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_VIE_GENITALE_MENOPAUSE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "MENOP"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "MENOP"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "S_GYN_ATCD_VULVE_VAGIN",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "ATCD VULVE-VAGIN"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "ATCD VULVE-VAGIN"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_GYN_ATCD_VULVE_VAGIN_MYCOSE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "MYCOS"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "MYCOS"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_VULVE_VAGIN_AUTRES",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AUTRE INF"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AUTRE INF"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_VULVE_VAGIN_CANCER_VAGIN",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "KC VAGIN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "KC VAGIN"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_VULVE_VAGIN_CANCER_VULVE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "KC VULVE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "KC VULVE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_VULVE_VAGIN_PROLAPSUS",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "PROLAPS GEN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "PROLAPS GEN"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_VULVE_VAGIN_BARTHOLINITE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "BARTHOLIN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "BARTHOLIN"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_VULVE_VAGIN_HERPES",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "HERPES GEN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "HERPES GEN"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_VULVE_VAGIN_CHLAMYDIAE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CHLAMYD"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CHLAMYD"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_VULVE_VAGIN_GONOCOQUE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "GONOC"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "GONOC"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_VULVE_VAGIN_MYCOPLASME",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "MYCOPL"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "MYCOPL"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_VULVE_VAGIN_TRICHOMONAS",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "TRICHOM"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "TRICHOM"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_VULVE_VAGIN_SYPHILIS",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "SYPHIL"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "SYPHIL"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_VULVE_VAGIN_AUTRES_INF",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AUTRE INF"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AUTRE INF"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "S_GYN_ATCD_SEIN",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "ATCD SEIN"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "ATCD SEIN"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_GYN_ATCD_SEIN_CANCER",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "KC SEIN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "KC SEIN"
+                  }
+                ],
+                "children": [
+                  {
+                    "tagOID": "S_GYN_ATCD_SEIN_CANCER_LOCALISATION",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "KC SEIN"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "KC SEIN"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "tagOID": "S_GYN_ATCD_SEIN_KYSTE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "KYST SEIN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "KYST SEIN"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_SEIN_MASTOSE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "MASTOSE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "MASTOSE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_SEIN_MASTECTOMIE_PARTIELLE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "MASTEC PART"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "MASTEC PART"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_SEIN_MASTECTOMIE_TOTALE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "MASTEC TOT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "MASTEC TOT"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_SEIN_PROTHESE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "PROTHESE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "PROTHESE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_SEIN_REDUCTION",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "REDUCTION"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "REDUCTION"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_SEIN_MASTITE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "MASTITE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "MASTITE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_SEIN_AUTRES",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AUTRES"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AUTRES"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "S_GYN_ATCD_OVAIRE",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "ATCD OVAIRE"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "ATCD OVAIRE"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_GYN_ATCD_OVAIRE_CANCER",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "KC OVAIRE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "KC OVAIRE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_OVAIRE_OVARIECTOMIE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "OVARIECT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "OVARIECT"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_OVAIRE_KYSTE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "KYST OVA"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "KYST OVA"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_OVAIRE_SOPK",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "SOPK"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "SOPK"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_OVAIRE_SPM",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "SPM"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "SPM"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_OVAIRE_INFERTILITE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "INFERT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "INFERT"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_OVAIRE_PMA",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "PMA"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "PMA"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_OVAIRE_AUTRES",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AUTRES"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AUTRES"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "S_GYN_ATCD_UTERUS",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "ATCD UTERUS"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "ATCD UTERUS"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_GYN_ATCD_UTERUS_CANCER_ENDOMETRE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "KC ENDOMET"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "KC ENDOMET"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_UTERUS_CANCER_COL",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "KC COL"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "KC COL"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_UTERUS_FCS",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "FCS"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "FCS"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_UTERUS_IVG",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "IVG"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "IVG"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_UTERUS_IMG",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "IMG"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "IMG"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_UTERUS_GEU",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "GEU"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "GEU"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_UTERUS_CESARIENNE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CESARIEN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CESARIEN"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_UTERUS_FIBROME",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "FIBROME"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "FIBROME"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_UTERUS_HYSTERECTOMIE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "HYSTERECT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "HYSTERECT"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_UTERUS_ENDOMETRIOSE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ENDOMET"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ENDOMET"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_UTERUS_SALPINGITE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "SALPING"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "SALPING"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_UTERUS_HPV",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "HPV"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "HPV"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_UTERUS_DYSPLASIE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "DYSP COL"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "DYSP COL"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_UTERUS_CONISATION",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CONISAT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CONISAT"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_UTERUS_AUTRES",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AUTRES"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AUTRES"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

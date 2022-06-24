@@ -1,0 +1,12 @@
+{
+  "oid": "q_q1_gynecologie_058",
+  "title": "En quelle année avez-vous fait ces autre(s) infection(s) de la vulve et/ou du vagin ? ",
+  "text": "En quelle année avez-vous fait ces autre(s) infection(s) de la vulve et/ou du vagin ? ",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 1900,
+    "max": 2022,
+    "step": 1
+  },
+  "scores": []
+}

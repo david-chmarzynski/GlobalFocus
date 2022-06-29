@@ -8,50 +8,37 @@ import { TextField, Button, Select, MenuItem, FormControl, InputLabel } from "@m
 
 export default function Report() {
 
-  const [inputs, setInputs] = useState([0,1]);
-  const [inputsValues, setInputsValues] = useState(["",""]);
-  const [inputType, setInputType] = useState(0);
+  function handleChange(val){
+    //let reportCopy = [...report]
+    //reportCopy[id]=val
+
+    setInputValue(val);
+    //setReport(reportCopy);
+  }
+
+  const [inputValue, setInputValue] = useState("")
+  const [report, setReport] = useState([""]);
+  const [textInputNumber, setTextInputNumber] = useState(1);
+  const [questionNumber, setQuestionNumber] = useState(0);
+  const [questionAnswerNumber, setQuestionAnswerNumber] = useState(0);
   
-  function Inputs(params){
-
-    let type = params.type;
-    let id= params.id;
-
-    if(type===0) return(
+  function TextInput(){
+    return(
       <div className="textInput" >
         <TextField
           placeholder="Write some text"
           variant="standard"
           multiline
           maxRows={7}
-          value={inputsValues[id]}
-          onChange={(e) => {
-            let newValues = [...inputsValues]
-            console.log(newValues)
-            newValues[id]=e.target.value
-            console.log(newValues)
-            setInputsValues(newValues);
-            console.log(inputsValues)
-          }}
+          value={inputValue}
+          onChange={(e) => handleChange(e.target.value)}
         />
       </div>
-    );
+    )
+  }
+  function QuestionInput(){
 
-    if(type===1) return(
-      <div className="addButton" >
-        <IconButton aria-label="add"
-          onClick={() =>{
-            let newInputs = [...inputs]
-            newInputs[id]=2
-            
-            setInputs(newInputs);
-          }}>
-          <Add/>
-        </IconButton>
-      </div>   
-    );
-
-    if(type===2) return(
+    return(
       <FormControl sx={{ m: 1, minWidth: 200 }}>
         <InputLabel id="inputTypeLabel">Input</InputLabel>
         <Select
@@ -59,24 +46,12 @@ export default function Report() {
           labelId="inputTypeLabel"
           defaultValue={-1}
           label="Age"
-          onChange={(e) => {
-            let newInputs = [...inputs]
-            newInputs[id]=e.target.value
-            newInputs.push(1);
-
-            let newValues = [...inputsValues]
-            newValues.push("");
-            
-            setInputs(newInputs);
-            setInputsValues(newValues);
-          }}
+          onChange={(e) => handleChange(e.target.value)}
         >
           <MenuItem value={0}>Champ texte</MenuItem>
         </Select>
       </FormControl>
-    );
-
-    return(<div>error</div>)
+    )
   }
 
 
@@ -84,14 +59,22 @@ export default function Report() {
     <div className="form">
       <div className="reportContainer">
         {
-          inputs.map((value, index) => {
+          // inputs.map((value, index) => {
 
-            return(<Inputs type = {value} id={index} key={index}/>);
-          })
+          //   return(<Inputs type = {value} id={index} key={index}/>);
+          // })
+          //textInputNumber ? (<TextInput/>) : (<></>)
         }
+        
       </div>
+      <TextInput/>
 
       <div className="buttons">
+        <div className="addButton" >
+          <IconButton aria-label="add">
+            <Add/>
+          </IconButton>
+        </div>   
         <Button 
           className=""
           variant="contained"

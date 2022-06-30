@@ -1,0 +1,37 @@
+{
+  "oid": "q_q1_hemato-immuno_026",
+  "title": "Avez-vous une maladie auto-immune ?",
+  "text": "Avez-vous une maladie auto-immune ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Une seule"
+    },
+    {
+      "code": "2",
+      "text": "Oui plusieurs"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q1_hemato-immuno_026 == \"0\"",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_MAI",
+      "value": 0
+    },
+    {
+      "conditions": "q_q1_hemato-immuno_026 == \"1\"",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_MAI",
+      "value": 1
+    },
+    {
+      "conditions": "q_q1_hemato-immuno_026 == \"2\"",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_MAI",
+      "value": 2
+    }
+  ]
+}

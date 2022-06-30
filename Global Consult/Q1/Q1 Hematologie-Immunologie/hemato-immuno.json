@@ -1,0 +1,2707 @@
+{
+  "questionaryName": "Q1 Global Focus Hématologie-Immunologie",
+  "chapterOID": "chap_q1_hemato-immuno",
+  "chapterTitle": "chap_Q1 Global Focus Hématologie-Immunologie",
+  "estimatedTime": 10,
+  "pricing": 10,
+  "levelMax": "1",
+  "authors": ["Jean-Philippe Astruc"],
+  "professions": ["DENTIST"],
+  "companyId": [{}],
+  "linkedForm": "",
+  "category": "HEALTH",
+  "scoreStrategy": "SUM",
+  "form": [
+    {
+      "formOID": "q1_hemato-immuno",
+      "formTitle": "Q1 Global Focus Hématologie-Immunologie",
+      "formDescription": "Q1 Global Focus Hématologie-Immunologie"
+    }
+  ],
+  "modules": [
+    {
+      "moduleOID": "q1_hemato-immuno",
+      "moduleTitle": "Q1 Global Focus Hématologie-Immunologie",
+      "questions": [
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_000",
+          "questionText": "Comment évaluez-vous votre santé au niveau hématologique (anémie, cancer du sang, coagulation…) et immunologique (cancer, maladies auto-immunes, allergies et défenses anti-infectieuses ?",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_HE_IM",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Satisfaisante",
+              "value": 0,
+              "isExclusive": false,
+              "tagOID": ""
+            },
+            {
+              "text": "Légèrement insatisfaisante",
+              "value": 1,
+              "isExclusive": false,
+              "tagOID": ""
+            },
+            {
+              "text": "Plutôt insatisfaisante",
+              "value": 2,
+              "isExclusive": false,
+              "tagOID": ""
+            },
+            {
+              "text": "Insatisfaisante",
+              "value": 3,
+              "isExclusive": false,
+              "tagOID": ""
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_001",
+          "questionText": "Avez-vous déjà eu une ou plusieurs de ces pathologies ou situations en lien avec les globules rouges ?",
+          "type": "MULTI_CHOICES",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_000",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_HE_IM_ATCD_HEMATOLOGIE_GR",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Anémie par carence en fer",
+              "value": "Anémie par carence en fer",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_FER"
+            },
+            {
+              "text": "Anémie par carence en vitamine B9",
+              "value": "Anémie par carence en vitamine B9",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_B9"
+            },
+            {
+              "text": "Anémie par carence en vitamine B12",
+              "value": "Anémie par carence en vitamine B12",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_B12"
+            },
+            {
+              "text": "Anémie inflammatoire",
+              "value": "Anémie inflammatoire",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_ANEMIE_INFLAMMATOIRE"
+            },
+            {
+              "text": "Anémie hémolytique",
+              "value": "Anémie hémolytique",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_ANEMIE_HEMOLYTIQUE"
+            },
+            {
+              "text": "Drépanocytose",
+              "value": "Drépanocytose",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_DREPANOCYTOSE"
+            },
+            {
+              "text": "Thalassémie",
+              "value": "Thalassémie",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_THALASSEMIE"
+            },
+            {
+              "text": "Splénomégalie myéloïde (avec myélofibrose)",
+              "value": "Splénomégalie myéloïde (avec myélofibrose)",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_MYELOFIBROSE"
+            },
+            {
+              "text": "Maladie de Vaquez",
+              "value": "Maladie de Vaquez",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_VAQUEZ"
+            },
+            {
+              "text": "Autre(s) antécédent(s)",
+              "value": "autres",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_AUTRES"
+            },
+            {
+              "text": "Aucun antécédent",
+              "value": "aucun",
+              "isExclusive": true,
+              "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR"
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_002",
+          "questionText": "Précisez quelle(s) autre(s) pathologie(s) des globules rouges avez-vous eu ?",
+          "type": "TEXT",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_001",
+          "triggeredValue": "autres",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [{ "regex": "" }]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_003",
+          "questionText": "En quelle année le diagnostic d'anémie par carence en fer a-t-il été posé ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_001",
+          "triggeredValue": "Anémie par carence en fer",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_004",
+          "questionText": "En quelle année le diagnostic d'anémie par carence en vitamine B9 a-t-il été posé ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_001",
+          "triggeredValue": "Anémie par carence en vitamine B9",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_005",
+          "questionText": "En quelle année le diagnostic d'anémie par carence en vitamine B12 a-t-il été posé ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_001",
+          "triggeredValue": "Anémie par carence en vitamine B12",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_006",
+          "questionText": "En quelle année le diagnostic d'anémie inflammatoire a-t-il été posé ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_001",
+          "triggeredValue": "Anémie inflammatoire",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_007",
+          "questionText": "En quelle année le diagnostic d'anémie hémolytique a-t-il été posé ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_001",
+          "triggeredValue": "Anémie hémolytique",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_008",
+          "questionText": "En quelle année le diagnostic de drépanocytose a-t-il été posé ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_001",
+          "triggeredValue": "Drépanocytose",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_009",
+          "questionText": "En quelle année le diagnostic de thalassémie a-t-il été posé ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_001",
+          "triggeredValue": "Thalassémie",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_010",
+          "questionText": "En quelle année le diagnostic de splénomégalie myéloïde a-t-il été posé ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_001",
+          "triggeredValue": "Splénomégalie myéloïde (avec myélofibrose)",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_011",
+          "questionText": "En quelle année le diagnostic de maladie de Vaquez a-t-il été posé ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_001",
+          "triggeredValue": "Maladie de Vaquez",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_012",
+          "questionText": "En quelle année le diagnostic d'autre(s) antécédent(s) a/ont-t-il été posé ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_001",
+          "triggeredValue": "autres",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_013",
+          "questionText": "Avez-vous déjà eu une ou plusieurs de ces pathologies en lien avec les globules blancs ?",
+          "type": "MULTI_CHOICES",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_012",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_HE_IM_ATCD_HEMATOLOGIE_GB2",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Leucémie myéloïde chronique",
+              "value": "Leucémie myéloïde chronique",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GB_LMC"
+            },
+            {
+              "text": "Leucémie lymphoïde chronique",
+              "value": "Leucémie lymphoïde chronique",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GB_LLC"
+            },
+            {
+              "text": "Leucémie aigue myéloblastique",
+              "value": "Leucémie aigue myéloblastique",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GB_LAM"
+            },
+            {
+              "text": "Leucémie aigue lymphoblastique",
+              "value": "Leucémie aigue lymphoblastique",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GB_LAL"
+            },
+            {
+              "text": "Lymphome Hodgkinien",
+              "value": "Lymphome Hodgkinien",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GB_LYMPHOME_HODGKINIEN"
+            },
+            {
+              "text": "Lymphome non Hodgkinien",
+              "value": "Lymphome non Hodgkinien",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GB_LYMPHOME_NON_HODGKINIEN"
+            },
+            {
+              "text": "Autre(s) antécédent(s)",
+              "value": "autres",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GB_AUTRES"
+            },
+            {
+              "text": "Aucun antécédent",
+              "value": "aucun",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GB"
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_014",
+          "questionText": "Précisez quelle(s) autre(s) pathologie(s) des globules blancs avez-vous eu ?",
+          "type": "TEXT",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_013",
+          "triggeredValue": "autres",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [{ "regex": "" }]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_015",
+          "questionText": "En quelle année le diagnostic de leucémie myéloïde chronique a t’il été posé ? ",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_013",
+          "triggeredValue": "Leucémie myéloïde chronique",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_016",
+          "questionText": "En quelle année le diagnostic de leucémie lymphoïde chronique a t’il été posé ? ",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_013",
+          "triggeredValue": "Leucémie lymphoïde chronique",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_017",
+          "questionText": "En quelle année le diagnostic de leucémie aigue myéloblastique a t’il été posé ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_013",
+          "triggeredValue": "Leucémie aigue myéloblastique",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_018",
+          "questionText": "En quelle année le diagnostic de leucémie aigue lymphoblastique a t’il été posé ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_013",
+          "triggeredValue": "Leucémie aigue lymphoblastique",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_019",
+          "questionText": "En quelle année le diagnostic de lymphome Hodgkinien a t’il été posé ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_013",
+          "triggeredValue": "Lymphome Hodgkinien",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_020",
+          "questionText": "En quelle année le diagnostic de lymphome non Hodgkinien a t’il été posé ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_013",
+          "triggeredValue": "Lymphome non Hodgkinien",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_021",
+          "questionText": "En quelle année cet/ces autre(s) diagnostic(s) ont/a-t-il(s) été posé(s) ? ",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_013",
+          "triggeredValue": "autres",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_022",
+          "questionText": "Avez-vous déjà eu une ou plusieurs de ces pathologies en lien avec les plaquettes ou des facteurs de coagulation ?",
+          "type": "MULTI_CHOICES",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_021",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_HE_IM_ATCD_HEMATOLOGIE_COAG",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Thrombocytémie essentielle (excès de plaquettes)",
+              "value": "Thrombocytémie essentielle (excès de plaquettes)",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_COAG_THROMBOCYTEMIE"
+            },
+            {
+              "text": "Thrombopénie (insuffisance de plaquettes)",
+              "value": "Thrombopénie (insuffisance de plaquettes)",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_COAG_THROMBOPENIE"
+            },
+            {
+              "text": "Purpura thrombopénique idiopathique",
+              "value": "Purpura thrombopénique idiopathique",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_COAG_PURPURA_IDIOPATHIQUE"
+            },
+            {
+              "text": "Maladie de Von Willebrand",
+              "value": "Maladie de Von Willebrand",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_COAG_WILLEBRAND"
+            },
+            {
+              "text": "Purpura thrombopénique thrombotique",
+              "value": "Purpura thrombopénique thrombotique",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_COAG_PURPURA_THROMBOTIQUE"
+            },
+            {
+              "text": "Hémophilie",
+              "value": "Hémophilie",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_COAG_HEMOPHILIE"
+            },
+            {
+              "text": "Déficit en facteur XI",
+              "value": "Déficit en facteur XI",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_COAG_FACTEUR11"
+            },
+            {
+              "text": "Déficit en facteur V (Leiden)",
+              "value": "Déficit en facteur V (Leiden)",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_COAG_FACTEUR5"
+            },
+            {
+              "text": "Déficit en anti-thrombine III",
+              "value": "Déficit en anti-thrombine III",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_COAG_ANTITHROMBINE3"
+            },
+            {
+              "text": "Déficit en Protéine C",
+              "value": "Déficit en Protéine C",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_COAG_PROT_C"
+            },
+            {
+              "text": "Déficit en Protéine S",
+              "value": "Déficit en Protéine S",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_COAG_PROT_S"
+            },
+            {
+              "text": "Autre(s) antécédent(s)",
+              "value": "autres",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_COAG_AUTRES"
+            },
+            {
+              "text": "Aucun antécédent",
+              "value": "aucun",
+              "isExclusive": true,
+              "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_COAG"
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_023",
+          "questionText": "Précisez quelle(s) autre(s) pathologie(s) des plaquettes ou des facteurs de coagulation avez-vous eu ? ",
+          "type": "TEXT",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_022",
+          "triggeredValue": "autres",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [{ "regex": "" }]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_024",
+          "questionText": "Avez-vous déjà eu ou avez-vous un cancer actuellement (hématologique ou organique) ?",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_023",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_HE_IM_ATCD_IMMUNO_CANCER",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Jamais",
+              "value": 0,
+              "isExclusive": false,
+              "tagOID": ""
+            },
+            {
+              "text": "Cancer localisé en cours de traitement",
+              "value": 1,
+              "isExclusive": false,
+              "tagOID": ""
+            },
+            {
+              "text": "Cancer avec des métastases en cours de traitement",
+              "value": 2,
+              "isExclusive": false,
+              "tagOID": ""
+            },
+            {
+              "text": "Récidive de cancer en cours de traitement",
+              "value": 3,
+              "isExclusive": false,
+              "tagOID": ""
+            },
+            {
+              "text": "Cancer en rémission (plus de traitement mais surveillance)",
+              "value": 4,
+              "isExclusive": false,
+              "tagOID": ""
+            },
+            {
+              "text": "Plusieurs cancers de localisations différentes en rémission (surveillance)",
+              "value": 5,
+              "isExclusive": false,
+              "tagOID": ""
+            },
+            {
+              "text": "J’ai eu plusieurs cancers mais un est actuellement en traitement",
+              "value": "6",
+              "isExclusive": false,
+              "tagOID": ""
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_025",
+          "questionText": "Quel(s) traitement(s) contre le(s) cancer(s) a(ont) été effectué(s) ?",
+          "type": "MULTI_CHOICES",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_024",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_HE_IM_ATCD_IMMUNO_CANCER_TRAITEMENT",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Chirurgie",
+              "value": "Chirurgie",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_CANCER_TRAITEMENT_CHIRURGIE"
+            },
+            {
+              "text": "Radiothérapie",
+              "value": "Radiothérapie",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_CANCER_TRAITEMENT_RADIOTHERAPIE"
+            },
+            {
+              "text": "Chimiothérapie",
+              "value": "Chimiothérapie",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_CANCER_TRAITEMENT_CHIMIOTHERAPIE"
+            },
+            {
+              "text": "Thérapies ciblées",
+              "value": "Thérapies ciblées",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_CANCER_TRAITEMENT_THERAPIES_CIBLEES"
+            },
+            {
+              "text": "Hormonothérapie",
+              "value": "Hormonothérapie",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_CANCER_TRAITEMENT_HORMONOTHERAPIE"
+            },
+            {
+              "text": "Immunothérapie",
+              "value": "Immunothérapie",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_CANCER_TRAITEMENT_IMMUNOTHERAPIE"
+            },
+            {
+              "text": "Curiethérapie",
+              "value": "Curiethérapie",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_CANCER_TRAITEMENT_CURIETHERAPIE"
+            },
+            {
+              "text": "Greffe de moelle osseuse (ou de cellules souches)",
+              "value": "Greffe de moelle osseuse (ou de cellules souches)",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_CANCER_TRAITEMENT_GREFFE_MOELLE"
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_026",
+          "questionText": "Avez-vous une maladie auto-immune ?",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_025",
+          "triggeredValue": 1,
+          "triggeredDefault": 0,
+          "tag": "S_HE_IM_ATCD_IMMUNO_MAI",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Non",
+              "value": 0,
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_MAI"
+            },
+            {
+              "text": "Une seule",
+              "value": 1,
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_MAI"
+            },
+            {
+              "text": "Oui plusieurs",
+              "value": 2,
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_MAI"
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_027",
+          "questionText": "Parmi cette liste, quelle(s) maladie(s) auto-immune(s) avez-vous ?",
+          "type": "MULTI_CHOICES",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_026",
+          "triggeredValue": "Oui plusieurs",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Lupus érythémateux disséminé",
+              "value": "Lupus érythémateux disséminé",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_MAI_TYPE_LUPUS"
+            },
+            {
+              "text": "Sclérodermie",
+              "value": "Sclérodermie",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_MAI_TYPE_SCLERODERMIE"
+            },
+            {
+              "text": "Connectivité mixte (syndrome de Sharp)",
+              "value": "Connectivité mixte (syndrome de Sharp)",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_MAI_TYPE_SHARP"
+            },
+            {
+              "text": "Maladie de Sjögren",
+              "value": "Maladie de Sjögren",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_MAI_TYPE_SJOGREN"
+            },
+            {
+              "text": "Maladie de Behçet",
+              "value": "Maladie de Behçet",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_MAI_TYPE_BEHCET"
+            },
+            {
+              "text": "Vascularite",
+              "value": "Vascularite",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_MAI_TYPE_VASCULARITE"
+            },
+            {
+              "text": "Sarcoïdose",
+              "value": "Sarcoïdose",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_MAI_TYPE_SARCOIDOSE"
+            },
+            {
+              "text": "Fièvre familiale méditerranéenne (maladie périodique)",
+              "value": "Fièvre familiale méditerranéenne (maladie périodique)",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_MAI_MALADIE_PERIODIQUE"
+            },
+            {
+              "text": "Autre(s) maladie(s) auto-immune(s) que celles ci-dessus",
+              "value": "autres",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_MAI_TYPE_AUTRE"
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_028",
+          "questionText": "En quelle année le diagnostic de lupus érythémateux disséminé a t’il été posé ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_027",
+          "triggeredValue": "Lupus érythémateux disséminé",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_029",
+          "questionText": "En quelle année le diagnostic de sclérodermie a t’il été posé ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_027",
+          "triggeredValue": "Sclérodermie",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_030",
+          "questionText": "En quelle année le diagnostic de connectivite mixte (syndrome de Sharp) a t’il été posé ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_027",
+          "triggeredValue": "Connectivité mixte (syndrome de Sharp)",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_031",
+          "questionText": "En quelle année le diagnostic de maladie de Sjögren a t’il été posé ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_027",
+          "triggeredValue": "Maladie de Sjögren",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_032",
+          "questionText": "En quelle année le diagnostic de maladie de Behçet a t’il été posé ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_027",
+          "triggeredValue": "Maladie de Behçet",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_033",
+          "questionText": "En quelle année le diagnostic de vascularite a t’il été posé ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_027",
+          "triggeredValue": "Vascularite",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_034",
+          "questionText": "En quelle année le diagnostic de sarcoïdose a t’il été posé ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_027",
+          "triggeredValue": "Sarcoïdose",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_035",
+          "questionText": "En quelle année le diagnostic de fièvre familiale méditerranéenne (maladie périodique) a t’il été posé ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_027",
+          "triggeredValue": "Fièvre familiale méditerranéenne (maladie périodique)",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_036",
+          "questionText": "Est-ce qu’un traitement immunosuppresseur vous a été prescrit ?",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_027",
+          "triggeredValue": "Traitement immunosuppresseur",
+          "triggeredDefault": "aucun",
+          "tag": "S_HE_IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Oui, actuellement",
+              "value": 0,
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO"
+            },
+            {
+              "text": "Oui, par le passé",
+              "value": 1,
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO"
+            },
+            {
+              "text": "Oui, actuellement et par le passé",
+              "value": 2,
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO"
+            },
+            {
+              "text": "Non, jamais",
+              "value": 3,
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO"
+            },
+            {
+              "text": "Je ne sais pas",
+              "value": 4,
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO"
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_037",
+          "questionText": "Avez-vous une ou plusieurs de ces allergies ?",
+          "type": "MULTI_CHOICES",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_036",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_HE_IM_ATCD_IMMUNO_ALLERGIE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Maladie cœliaque",
+              "value": "Maladie cœliaque",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_ALLERGIE_COELIAQUE"
+            },
+            {
+              "text": "Allergie(s) alimentaire (urticaire, œdème de quincke)",
+              "value": "Allergie(s) alimentaire (urticaire, œdème de quincke)",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_ALLERGIE_ALIMENT"
+            },
+            {
+              "text": "Allergie acariens",
+              "value": "Allergie acariens",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_ALLERGIE_ACARIENS"
+            },
+            {
+              "text": "Allergie poils de chien, chat",
+              "value": "Allergie poils de chien, chat",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_ALLERGIE_POIL"
+            },
+            {
+              "text": "Allergie graminés et pollens",
+              "value": "Allergie graminés et pollens",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_ALLERGIE_GRAMINES"
+            },
+            {
+              "text": "Allergie de contact (nickel, ...)",
+              "value": "Allergie de contact (nickel, ...)",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_ALLERGIE_CONTACT"
+            },
+            {
+              "text": "Allergie médicamenteuse",
+              "value": "Allergie médicamenteuse",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_ALLERGIE_MEDICAMENT"
+            },
+            {
+              "text": "Autre(s) allergie(s)",
+              "value": "Autre(s) allergie(s)",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_ALLERGIE_AUTRES"
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_038",
+          "questionText": "Précisez quelle(s) autre(s) allergie(s) avez-vous ?",
+          "type": "TEXT",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_037",
+          "triggeredValue": "Autre(s) allergie(s)",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [{ "regex": "" }]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_039",
+          "questionText": "Précisez votre(vos) allergie(s) médicamenteuse(s) :",
+          "type": "TEXT",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_037",
+          "triggeredValue": "Allergie médicamenteuse",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [{ "regex": "" }]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_hemato-immuno_040",
+          "questionText": "Vous a-t-on diagnostiqué une (ou plusieurs) de ces pathologies ou infections ?",
+          "type": "MULTI_CHOICES",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_q1_hemato-immuno_039",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_HE_IM_ATCD_IMMUNO_INFECTION",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Déficit immunitaire primitif",
+              "value": "Déficit immunitaire primitif",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_DEFICIT_IMMUNI_PRIMITIF"
+            },
+            {
+              "text": "Maladie des plasmocytes (Waldenström, maladie des chaines lourdes, amylose primaire...)",
+              "value": "Maladie des plasmocytes",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_PLASMOCYTES"
+            },
+            {
+              "text": "Virus de l’immuno-déficience humaine (VIH-SIDA)",
+              "value": "Virus de l’immuno-déficience humaine (VIH-SIDA)",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_VIH"
+            },
+            {
+              "text": "Endocardite infectieuse (maladie d’Osler )",
+              "value": "Endocardite infectieuse (maladie d’Osler )",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_OSLER"
+            },
+            {
+              "text": "Herpès virus non-génital (bouton de fièvre, œil…)",
+              "value": "Herpès virus non-génital (bouton de fièvre, œil…)",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_HERPES1"
+            },
+            {
+              "text": "Cytomégalovirus (CMV)",
+              "value": "Cytomégalovirus (CMV)",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_CMV"
+            },
+            {
+              "text": "Varicelle et/ou zona",
+              "value": "Varicelle et/ou zona",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_VZV"
+            },
+            {
+              "text": "Rougeole",
+              "value": "Rougeole",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_ROUGEOLE"
+            },
+            {
+              "text": "Oreillons",
+              "value": "Oreillons",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_OREILLONS"
+            },
+            {
+              "text": "Rubéole",
+              "value": "Rubéole",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_RUBEOLE"
+            },
+            {
+              "text": "Papillomavirus",
+              "value": "Papillomavirus",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_PAPILLOMAVIRUS"
+            },
+            {
+              "text": "Aspergillose",
+              "value": "Aspergillose",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_ASPERGILLOSE"
+            },
+            {
+              "text": "Maladie de Lyme",
+              "value": "Maladie de Lyme",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_LYME"
+            },
+            {
+              "text": "Méningite",
+              "value": "Méningite",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_MENINGITE"
+            },
+            {
+              "text": "Toxoplasmose",
+              "value": "Toxoplasmose",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_TOXOPLASMOSE"
+            },
+            {
+              "text": "Amibiase",
+              "value": "Amibiase",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_AMIBIASE"
+            },
+            {
+              "text": "Giardiase",
+              "value": "Giardiase",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_GIARDIASE"
+            },
+            {
+              "text": "Paludisme",
+              "value": "Paludisme",
+              "isExclusive": false,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_PALUDISME"
+            },
+            {
+              "text": "Aucune de ces pathologies ou infections",
+              "value": "aucun",
+              "isExclusive": true,
+              "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "tagOID": "S_HE_IM",
+      "tagTitle": "Global Hématologie-Immunologie",
+      "tagDescription": "Global Hématologie-Immunologie",
+      "tagType": "SCORE",
+      "sunburstName": "HEMAT-IMMU",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1, 2, 3],
+      "rangeMax": [0, 1, 2, 3],
+      "parent": "",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE",
+      "tagTitle": "Antécédents Hématologie",
+      "tagDescription": "Antécédents Hématologie",
+      "tagType": "SCORE",
+      "sunburstName": "ATCD HEMAT",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 30],
+      "parent": "S_HE_IM",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR",
+      "tagTitle": "Antécédents Globules Rouges",
+      "tagDescription": "Antécédents Globules Rouges",
+      "tagType": "SCORE",
+      "sunburstName": "ATCD GR",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 15],
+      "parent": "S_HE_IM_ATCD_HEMATOLOGIE",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_FER",
+      "tagTitle": "Anémie par carence en fer",
+      "tagDescription": "Anémie par carence en fer",
+      "tagType": "SCORE",
+      "sunburstName": "ANE FER",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_HEMATOLOGIE_GR",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_B9",
+      "tagTitle": "Anémie par carence en vitamine B9",
+      "tagDescription": "Anémie par carence en vitamine B9",
+      "tagType": "SCORE",
+      "sunburstName": "ANE B9",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_HEMATOLOGIE_GR",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_B12",
+      "tagTitle": "Anémie par carence en vitamine B12",
+      "tagDescription": "Anémie par carence en vitamine B12",
+      "tagType": "SCORE",
+      "sunburstName": "ANE B12",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_HEMATOLOGIE_GR",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_ANEMIE_INFLAMMATOIRE",
+      "tagTitle": "Anémie inflammatoire",
+      "tagDescription": "Anémie inflammatoire",
+      "tagType": "SCORE",
+      "sunburstName": "ANE INFL",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_HEMATOLOGIE_GR",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_ANEMIE_HEMOLYTIQUE",
+      "tagTitle": "Anémie hémolytique",
+      "tagDescription": "Anémie hémolytique",
+      "tagType": "SCORE",
+      "sunburstName": "ANE HEMOL",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_HEMATOLOGIE_GR",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_DREPANOCYTOSE",
+      "tagTitle": "Drépanocytose",
+      "tagDescription": "Drépanocytose",
+      "tagType": "SCORE",
+      "sunburstName": "DREPANO",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_HEMATOLOGIE_GR",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_THALASSEMIE",
+      "tagTitle": "Thalassémie",
+      "tagDescription": "Thalassémie",
+      "tagType": "SCORE",
+      "sunburstName": "THALAS",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_HEMATOLOGIE_GR",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_MYELOFIBROSE",
+      "tagTitle": "Splénomégalie myéloïde (avec myélofibrose)",
+      "tagDescription": "Splénomégalie myéloïde (avec myélofibrose)",
+      "tagType": "SCORE",
+      "sunburstName": "SPL MYELO",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_HEMATOLOGIE_GR",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_VAQUEZ",
+      "tagTitle": "Maladie de Vaquez",
+      "tagDescription": "Maladie de Vaquez",
+      "tagType": "SCORE",
+      "sunburstName": "VAQUEZ",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_HEMATOLOGIE_GR",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_AUTRES",
+      "tagTitle": "Autre(s) antécédent(s) ",
+      "tagDescription": "Autre(s) antécédent(s) ",
+      "tagType": "SCORE",
+      "sunburstName": "AUTRES",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_HEMATOLOGIE_GR",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GB",
+      "tagTitle": "Antécédents Globules Blancs",
+      "tagDescription": "Antécédents Globules Blancs",
+      "tagType": "SCORE",
+      "sunburstName": "ATCD GB",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 30],
+      "parent": "S_HE_IM_ATCD_HEMATOLOGIE",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GB_LMC",
+      "tagTitle": "Leucémie myéloïde chronique",
+      "tagDescription": "Leucémie myéloïde chronique",
+      "tagType": "SCORE",
+      "sunburstName": "LMC",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_HEMATOLOGIE_GB",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GB_LLC",
+      "tagTitle": "Leucémie lymphoïde chronique",
+      "tagDescription": "Leucémie lymphoïde chronique",
+      "tagType": "SCORE",
+      "sunburstName": "LLC",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_HEMATOLOGIE_GB",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GB_LAM",
+      "tagTitle": "Leucémie aigue myéloblastique",
+      "tagDescription": "Leucémie aigue myéloblastique",
+      "tagType": "SCORE",
+      "sunburstName": "LAM",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_HEMATOLOGIE_GB",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GB_LAL",
+      "tagTitle": "Leucémie aigue lymphoblastique",
+      "tagDescription": "Leucémie aigue lymphoblastique",
+      "tagType": "SCORE",
+      "sunburstName": "LAL",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_HEMATOLOGIE_GB",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GB_LYMPHOME_HODGKINIEN",
+      "tagTitle": "Lymphome Hodgkinien",
+      "tagDescription": "Lymphome Hodgkinien",
+      "tagType": "SCORE",
+      "sunburstName": "HODGKIN",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_HEMATOLOGIE_GB",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GB_LYMPHOME_NON_HODGKINIEN",
+      "tagTitle": "Lymphome non Hodgkinien",
+      "tagDescription": "Lymphome non Hodgkinien",
+      "tagType": "SCORE",
+      "sunburstName": "L NON HODG",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_HEMATOLOGIE_GB",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GB_AUTRES",
+      "tagTitle": "Autre(s) antécédent(s)",
+      "tagDescription": "Autre(s) antécédent(s)",
+      "tagType": "SCORE",
+      "sunburstName": "AUTRES",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_HEMATOLOGIE_GB",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_COAG",
+      "tagTitle": "Antécédent(s) coagulation",
+      "tagDescription": "Antécédent(s) coagulation",
+      "tagType": "SCORE",
+      "sunburstName": "ATCD COAG",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 30],
+      "parent": "S_HE_IM_ATCD_HEMATOLOGIE",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_COAG_THROMBOCYTEMIE",
+      "tagTitle": "Thrombocytémie essentielle",
+      "tagDescription": "Thrombocytémie essentielle",
+      "tagType": "SCORE",
+      "sunburstName": "THROMBCYT",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_HEMATOLOGIE_COAG",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_COAG_THROMBOPENIE",
+      "tagTitle": "Thrombopénie",
+      "tagDescription": "Thrombopénie",
+      "tagType": "SCORE",
+      "sunburstName": "THROMBOPEN",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_HEMATOLOGIE_COAG",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_COAG_PURPURA_IDIOPATHIQUE",
+      "tagTitle": "Purpura thrombopénique idiopathique",
+      "tagDescription": "Purpura thrombopénique idiopathique",
+      "tagType": "SCORE",
+      "sunburstName": "PURP THR IDIO",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_HEMATOLOGIE_COAG",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_COAG_WILLEBRAND",
+      "tagTitle": "Maladie de Von Willebrand",
+      "tagDescription": "Maladie de Von Willebrand",
+      "tagType": "SCORE",
+      "sunburstName": "WILLEBRAND",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_HEMATOLOGIE_COAG",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_COAG_PURPURA_THROMBOTIQUE",
+      "tagTitle": "Purpura thrombopénique thrombotique",
+      "tagDescription": "Purpura thrombopénique thrombotique",
+      "tagType": "SCORE",
+      "sunburstName": "PURP THROMBOT",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_HEMATOLOGIE_COAG",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_COAG_HEMOPHILIE",
+      "tagTitle": "Hémophilie",
+      "tagDescription": "Hémophilie",
+      "tagType": "SCORE",
+      "sunburstName": "HEMOPH",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_HEMATOLOGIE_COAG",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_COAG_FACTEUR11",
+      "tagTitle": "Déficit en facteur XI",
+      "tagDescription": "Déficit en facteur XI",
+      "tagType": "SCORE",
+      "sunburstName": "FACT 11",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_HEMATOLOGIE_COAG",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_COAG_FACTEUR5",
+      "tagTitle": "Déficit en facteur V",
+      "tagDescription": "Déficit en facteur V",
+      "tagType": "SCORE",
+      "sunburstName": "FACT 5",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_HEMATOLOGIE_COAG",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_COAG_ANTITHROMBINE3",
+      "tagTitle": "Déficit en anti-thrombine III",
+      "tagDescription": "Déficit en anti-thrombine III",
+      "tagType": "SCORE",
+      "sunburstName": "ANTI THROMB",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_HEMATOLOGIE_COAG",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_COAG_PROT_C",
+      "tagTitle": "Déficit en Protéine C",
+      "tagDescription": "Déficit en Protéine C",
+      "tagType": "SCORE",
+      "sunburstName": "PROT C",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_HEMATOLOGIE_COAG",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_COAG_PROT_S",
+      "tagTitle": "Déficit en Protéine S",
+      "tagDescription": "Déficit en Protéine S",
+      "tagType": "SCORE",
+      "sunburstName": "PROT S",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_HEMATOLOGIE_COAG",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_COAG_AUTRES",
+      "tagTitle": "Autre(s) antécédent(s)",
+      "tagDescription": "Autre(s) antécédent(s)",
+      "tagType": "SCORE",
+      "sunburstName": "AUTRES",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_HEMATOLOGIE_COAG",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO",
+      "tagTitle": "Antécédents Immunologie",
+      "tagDescription": "Antécédents Immunologie",
+      "tagType": "SCORE",
+      "sunburstName": "ATCD IMMUNO",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 30],
+      "parent": "S_HE_IM",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_CANCER",
+      "tagTitle": "Antécédents Immunologie Cancer",
+      "tagDescription": "Antécédents Immunologie Cancer",
+      "tagType": "SCORE",
+      "sunburstName": "ATCD CANCER",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 10],
+      "parent": "S_HE_IM_ATCD_IMMUNO",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_CANCER_TRAITEMENT",
+      "tagTitle": "Antécédents de traitement cancer",
+      "tagDescription": "Antécédents de traitement cancer",
+      "tagType": "SCORE",
+      "sunburstName": "KC TRAITEMENT",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 20],
+      "parent": "S_HE_IM_ATCD_IMMUNO_CANCER",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_CANCER_TRAITEMENT_CHIRURGIE",
+      "tagTitle": "Chirurgie",
+      "tagDescription": "Chirurgie",
+      "tagType": "SCORE",
+      "sunburstName": "CHIR",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_CANCER_TRAITEMENT",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_CANCER_TRAITEMENT_RADIOTHERAPIE",
+      "tagTitle": "Radiothérapie",
+      "tagDescription": "Radiothérapie",
+      "tagType": "SCORE",
+      "sunburstName": "RADIOTH",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_CANCER_TRAITEMENT",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_CANCER_TRAITEMENT_CHIMIOTHERAPIE",
+      "tagTitle": "Chimiothérapie",
+      "tagDescription": "Chimiothérapie",
+      "tagType": "SCORE",
+      "sunburstName": "CHIMIO",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_CANCER_TRAITEMENT",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_CANCER_TRAITEMENT_THERAPIES_CIBLEES",
+      "tagTitle": "Thérapies ciblées",
+      "tagDescription": "Thérapies ciblées",
+      "tagType": "SCORE",
+      "sunburstName": "THER CIBL",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_CANCER_TRAITEMENT",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_CANCER_TRAITEMENT_HORMONOTHERAPIE",
+      "tagTitle": "Hormonothérapie",
+      "tagDescription": "Hormonothérapie",
+      "tagType": "SCORE",
+      "sunburstName": "HORMONOTH",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_CANCER_TRAITEMENT",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_CANCER_TRAITEMENT_IMMUNOTHERAPIE",
+      "tagTitle": "Immunothérapie",
+      "tagDescription": "Immunothérapie",
+      "tagType": "SCORE",
+      "sunburstName": "IMMUNOTH",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_CANCER_TRAITEMENT",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_CANCER_TRAITEMENT_CURIETHERAPIE",
+      "tagTitle": "Curiethérapie",
+      "tagDescription": "Curiethérapie",
+      "tagType": "SCORE",
+      "sunburstName": "CURIETH",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_CANCER_TRAITEMENT",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_CANCER_TRAITEMENT_GREFFE_MOELLE",
+      "tagTitle": "Greffe de moelle osseuse (ou de cellules souches)",
+      "tagDescription": "Greffe de moelle osseuse (ou de cellules souches)",
+      "tagType": "SCORE",
+      "sunburstName": "GREF MOELLE",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_CANCER_TRAITEMENT",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_CANCER_TRAITEMENT_EFFACE",
+      "tagTitle": "efface",
+      "tagDescription": "efface",
+      "tagType": "SCORE",
+      "sunburstName": "EFFACE",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_CANCER_TRAITEMENT",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_CANCER_TRAITEMENT_EFFACE2",
+      "tagTitle": "efface",
+      "tagDescription": "efface",
+      "tagType": "SCORE",
+      "sunburstName": "EFF",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_CANCER_TRAITEMENT",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_MAI",
+      "tagTitle": "Antécédents maladies auto-immunes",
+      "tagDescription": "Antécédents maladies auto-immunes",
+      "tagType": "SCORE",
+      "sunburstName": "ATCD MAI",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 3],
+      "parent": "S_HE_IM_ATCD_IMMUNO",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_MAI_TYPE_LUPUS",
+      "tagTitle": "Lupus érythémateux disséminé",
+      "tagDescription": "Lupus érythémateux disséminé",
+      "tagType": "SCORE",
+      "sunburstName": "LED",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_MAI",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_MAI_TYPE_SCLERODERMIE",
+      "tagTitle": "Sclérodermie",
+      "tagDescription": "Sclérodermie",
+      "tagType": "SCORE",
+      "sunburstName": "SCLERODER",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_MAI",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_MAI_TYPE_SHARP",
+      "tagTitle": "Connectivité mixte (syndrome de Sharp)",
+      "tagDescription": "Connectivité mixte (syndrome de Sharp)",
+      "tagType": "SCORE",
+      "sunburstName": "SHARP",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_MAI",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_MAI_TYPE_SJOGREN",
+      "tagTitle": "Maladie de Sjögren",
+      "tagDescription": "Maladie de Sjögren",
+      "tagType": "SCORE",
+      "sunburstName": "SJOGREN",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_MAI",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_MAI_TYPE_BEHCET",
+      "tagTitle": "Maladie de Behçet",
+      "tagDescription": "Maladie de Behçet",
+      "tagType": "SCORE",
+      "sunburstName": "BEHCET",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_MAI",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_MAI_TYPE_VASCULARITE",
+      "tagTitle": "Vascularite",
+      "tagDescription": "Vascularite",
+      "tagType": "SCORE",
+      "sunburstName": "VASCUL",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_MAI",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_MAI_TYPE_SARCOIDOSE",
+      "tagTitle": "Sarcoïdose",
+      "tagDescription": "Sarcoïdose",
+      "tagType": "SCORE",
+      "sunburstName": "SARCOID",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_MAI",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_MAI_MALADIE_PERIODIQUE",
+      "tagTitle": "Fièvre familiale méditerranéenne (maladie périodique)",
+      "tagDescription": "Fièvre familiale méditerranéenne (maladie périodique)",
+      "tagType": "SCORE",
+      "sunburstName": "MAL PERIOD",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_MAI",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_MAI_TYPE_AUTRE",
+      "tagTitle": "Autre(s) maladie(s) auto-immune(s)",
+      "tagDescription": "Autre(s) maladie(s) auto-immune(s)",
+      "tagType": "SCORE",
+      "sunburstName": "AUTRES",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_MAI",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO",
+      "tagTitle": "Traitement actuel",
+      "tagDescription": "Traitement actuel",
+      "tagType": "SCORE",
+      "sunburstName": "TRT ACTUEL",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 2],
+      "rangeMax": [3, 3],
+      "parent": "S_HE_IM_ATCD_IMMUNO_MAI",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_ALLERGIE",
+      "tagTitle": "Antécédent(s) allergie(s)",
+      "tagDescription": "Antécédent(s) allergie(s)",
+      "tagType": "SCORE",
+      "sunburstName": "ATCD ALLERG",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 10],
+      "parent": "S_HE_IM_ATCD_IMMUNO",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_ALLERGIE_COELIAQUE",
+      "tagTitle": "Maladie cœliaque",
+      "tagDescription": "Maladie cœliaque",
+      "tagType": "SCORE",
+      "sunburstName": "COELIAQ",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_ALLERGIE",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_ALLERGIE_ALIMENT",
+      "tagTitle": "Allergie(s) alimentaire (urticaire, œdème de quincke)",
+      "tagDescription": "Allergie(s) alimentaire (urticaire, œdème de quincke)",
+      "tagType": "SCORE",
+      "sunburstName": "ALIM",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_ALLERGIE",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_ALLERGIE_ACARIENS",
+      "tagTitle": "Allergie acariens",
+      "tagDescription": "Allergie acariens",
+      "tagType": "SCORE",
+      "sunburstName": "ACARIEN",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_ALLERGIE",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_ALLERGIE_POIL",
+      "tagTitle": "Allergie poils de chien, chat",
+      "tagDescription": "Allergie poils de chien, chat",
+      "tagType": "SCORE",
+      "sunburstName": "POIL",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_ALLERGIE",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_ALLERGIE_GRAMINES",
+      "tagTitle": "Allergie graminés et pollens",
+      "tagDescription": "Allergie graminés et pollens",
+      "tagType": "SCORE",
+      "sunburstName": "GRAM-POLL",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_ALLERGIE",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_ALLERGIE_CONTACT",
+      "tagTitle": "Allergie de contact",
+      "tagDescription": "Allergie de contact",
+      "tagType": "SCORE",
+      "sunburstName": "CONTACT",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_ALLERGIE",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_ALLERGIE_MEDICAMENT",
+      "tagTitle": "Allergie médicamenteuse",
+      "tagDescription": "Allergie médicamenteuse",
+      "tagType": "SCORE",
+      "sunburstName": "MEDIC",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_ALLERGIE",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_ALLERGIE_AUTRES",
+      "tagTitle": "Autre(s) allergie(s)",
+      "tagDescription": "Autre(s) allergie(s)",
+      "tagType": "SCORE",
+      "sunburstName": "AUTRES",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_ALLERGIE",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION",
+      "tagTitle": "Antécédent(s) d'infection",
+      "tagDescription": "Antécédent(s) d'infection",
+      "tagType": "SCORE",
+      "sunburstName": "ATCD INFECT",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 20],
+      "parent": "S_HE_IM_ATCD_IMMUNO",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_DEFICIT_IMMUNI_PRIMITIF",
+      "tagTitle": "Déficit immunitaire primitif",
+      "tagDescription": "Déficit immunitaire primitif",
+      "tagType": "SCORE",
+      "sunburstName": "DEF IMM PRIM",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_INFECTION",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_PLASMOCYTES",
+      "tagTitle": "Maladie des plasmocytes",
+      "tagDescription": "Maladie des plasmocytes",
+      "tagType": "SCORE",
+      "sunburstName": "PLASMOC",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_INFECTION",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_VIH",
+      "tagTitle": "Virus de l’immuno-déficience humaine (VIH-SIDA)",
+      "tagDescription": "Virus de l’immuno-déficience humaine (VIH-SIDA)",
+      "tagType": "SCORE",
+      "sunburstName": "VIH",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_INFECTION",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_OSLER",
+      "tagTitle": "Endocardite infectieuse (maladie d’Osler )",
+      "tagDescription": "Endocardite infectieuse (maladie d’Osler )",
+      "tagType": "SCORE",
+      "sunburstName": "OSLER",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_INFECTION",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_HERPES1",
+      "tagTitle": "Herpès virus non-génital (bouton de fièvre, œil…)",
+      "tagDescription": "Herpès virus non-génital (bouton de fièvre, œil…)",
+      "tagType": "SCORE",
+      "sunburstName": "HERPES 1",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_INFECTION",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_CMV",
+      "tagTitle": "Cytomégalovirus",
+      "tagDescription": "Cytomégalovirus",
+      "tagType": "SCORE",
+      "sunburstName": "CMV",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_INFECTION",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_VZV",
+      "tagTitle": "Varicelle et/ou zona",
+      "tagDescription": "Varicelle et/ou zona",
+      "tagType": "SCORE",
+      "sunburstName": "VZV",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_INFECTION",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_ROUGEOLE",
+      "tagTitle": "Rougeole",
+      "tagDescription": "Rougeole",
+      "tagType": "SCORE",
+      "sunburstName": "ROUGEOLE",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_INFECTION",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_OREILLONS",
+      "tagTitle": "Oreillons",
+      "tagDescription": "Oreillons",
+      "tagType": "SCORE",
+      "sunburstName": "OREILLONS",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_INFECTION",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_RUBEOLE",
+      "tagTitle": "Rubéole",
+      "tagDescription": "Rubéole",
+      "tagType": "SCORE",
+      "sunburstName": "RUBEOLE",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_INFECTION",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_PAPILLOMAVIRUS",
+      "tagTitle": "Papillomavirus",
+      "tagDescription": "Papillomavirus",
+      "tagType": "SCORE",
+      "sunburstName": "PVH",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_INFECTION",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_ASPERGILLOSE",
+      "tagTitle": "Aspergillose",
+      "tagDescription": "Aspergillose",
+      "tagType": "SCORE",
+      "sunburstName": "ASPERG",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_INFECTION",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_LYME",
+      "tagTitle": "Maladie de Lyme",
+      "tagDescription": "Maladie de Lyme",
+      "tagType": "SCORE",
+      "sunburstName": "LYME",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_INFECTION",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_MENINGITE",
+      "tagTitle": "Méningite",
+      "tagDescription": "Méningite",
+      "tagType": "SCORE",
+      "sunburstName": "MENINGO",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_INFECTION",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_TOXOPLASMOSE",
+      "tagTitle": "Toxoplasmose",
+      "tagDescription": "Toxoplasmose",
+      "tagType": "SCORE",
+      "sunburstName": "TOXO",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_INFECTION",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_AMIBIASE",
+      "tagTitle": "Amibiase",
+      "tagDescription": "Amibiase",
+      "tagType": "SCORE",
+      "sunburstName": "AMIBIASE",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_INFECTION",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_GIARDIASE",
+      "tagTitle": "Giardiase",
+      "tagDescription": "Giardiase",
+      "tagType": "SCORE",
+      "sunburstName": "GIARDIASE",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_INFECTION",
+      "children": []
+    },
+    {
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_PALUDISME",
+      "tagTitle": "Paludisme",
+      "tagDescription": "Paludisme",
+      "tagType": "SCORE",
+      "sunburstName": "PALU",
+      "module": "q1_hemato-immuno",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_HE_IM_ATCD_IMMUNO_INFECTION",
+      "children": []
+    }
+  ]
+}

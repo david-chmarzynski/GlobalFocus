@@ -1,0 +1,8 @@
+{
+  "oid": "q_infos_generales_005",
+  "title": "Quels sont les ages de vos enfants? (du plus agé au plus jeune, exemple : 8, 7, 5)",
+  "text": "Quels sont les ages de vos enfants? (du plus agé au plus jeune, exemple : 8, 7, 5)",
+  "type": "TEXT",
+  "choices": [],
+  "scores": []
+}

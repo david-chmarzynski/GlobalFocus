@@ -1,0 +1,11 @@
+{
+  "oid": "q_infos_generales_013",
+  "title": "Quel est votre tour de hanches ?",
+  "text": "Quel est votre tour de hanches ?",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": "0",
+    "max": "200",
+    "step": 1
+  }
+}

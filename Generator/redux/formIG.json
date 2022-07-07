@@ -1,0 +1,756 @@
+{
+    "questionaryName": "Global Consult module Informations générales",
+    "chapterOID": "chap_infos_generales",
+    "chapterTitle": "chap_Global Consult module Informations générales",
+    "estimatedTime": 45,
+    "pricing": 1,
+    "levelMax": "0",
+    "authors": [
+        "Jean-Philippe Astruc"
+    ],
+    "professions": [
+        "DENTIST"
+    ],
+    "companyId": [
+        {}
+    ],
+    "linkedForm": "",
+    "category": "HEALTH",
+    "scoreStrategy": "SUM",
+    "form": [
+        {
+            "formOID": "form_info_gen",
+            "formTitle": "Global Consult module Informations générales",
+            "formDescription": "Ce questionnaire est totalement personnel et confidentiel. Vos données de santé seront sécurisées selon les critères les plus stricts de la CNIL et stockées sur un serveur d’un hébergeur agréé (voir mentions légales). Ce questionnaire a pour but de mieux vous connaître pour optimiser votre consultation.  Conseils :  Prenez un moment de calme et de réflexion pour pouvoir répondre sereinement au questionnaire.  Le temps nécessaire est variable (de 45 minutes à une heure). Préparez votre dossier de santé : ordonnance de traitement, biologie, bilan. Vous aurez aussi besoin d’un mètre de couturière, de connaître votre poids et votre taille."
+        }
+    ],
+    "modules": [
+        {
+            "moduleOID": "infos_generales",
+            "moduleTitle": "Informations générales",
+            "questions": [
+                {
+                    "module": "",
+                    "questionOID": "q_infos_generales_000",
+                    "questionText": "Quelle est votre situation familiale (au sens de l’état civil) ? ",
+                    "type": "SINGLE_CHOICE_RADIO",
+                    "isTriggered": false,
+                    "triggeredQuestionOID": "",
+                    "triggeredValue": 0,
+                    "triggeredDefault": 0,
+                    "tag": "",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": false,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "text": "Célibataire (jamais marié)",
+                            "value": 0,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Pacsé(e)",
+                            "value": 1,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Marié(e)",
+                            "value": 2,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Séparé(e)",
+                            "value": 3,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Séparé(e), mais en couple",
+                            "value": 4,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Divorcé(e)",
+                            "value": 5,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Divorcé(e), mais en couple",
+                            "value": 6,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Veuf(ve)",
+                            "value": 7,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Veuf(ve), mais en couple",
+                            "value": "8",
+                            "isExclusive": false,
+                            "tagOID": ""
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_infos_generales_001",
+                    "questionText": "En quelle année a eu lieu votre situation familiale? (Pacs, mariage, séparation, divorce, mort du / de la conjoint(e))",
+                    "type": "ANALOG_SCALE",
+                    "isTriggered": true,
+                    "triggeredQuestionOID": "",
+                    "triggeredValue": 0,
+                    "triggeredDefault": 0,
+                    "tag": "",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": true,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "min": 1900,
+                            "max": 2022,
+                            "minText": "1900",
+                            "midText": "",
+                            "maxText": "Cette année",
+                            "minValue": "1900",
+                            "midValue": "",
+                            "maxValue": 2022,
+                            "step": 1,
+                            "hideAnalogScaleSelectorNumber": false
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_infos_generales_002",
+                    "questionText": "Avez-vous ou avez-vous eu des enfants (biologiques ou adoptés) ? ",
+                    "type": "SINGLE_CHOICE_RADIO",
+                    "isTriggered": false,
+                    "triggeredQuestionOID": "",
+                    "triggeredValue": 0,
+                    "triggeredDefault": 0,
+                    "tag": "",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": false,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "text": "Oui",
+                            "value": 0,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Non",
+                            "value": "1",
+                            "isExclusive": false,
+                            "tagOID": ""
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_infos_generales_003",
+                    "questionText": "Combien d'enfant(s) (biologique(s) ou adopté(s) avez-vous eu ?",
+                    "type": "INTEGER",
+                    "isTriggered": true,
+                    "tag": "",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": true,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "min": "0",
+                            "max": "100",
+                            "step": 1
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_infos_generales_004",
+                    "questionText": "Quelles sont les dates de naissances de vos enfants? (dans l'ordre chronologique)",
+                    "type": "TEXT",
+                    "isTriggered": true,
+                    "tag": "",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": true,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "regex": ""
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_infos_generales_005",
+                    "questionText": "Quels sont les ages de vos enfants? (du plus agé au plus jeune, exemple : 8, 7, 5)",
+                    "type": "TEXT",
+                    "isTriggered": false,
+                    "tag": "",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": true,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "regex": ""
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_infos_generales_006",
+                    "questionText": "Faites-vous des études ou occupez-vous un emploi actuellement ?",
+                    "type": "SINGLE_CHOICE_RADIO",
+                    "isTriggered": false,
+                    "triggeredQuestionOID": "",
+                    "triggeredValue": 0,
+                    "triggeredDefault": 0,
+                    "tag": "",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": true,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "text": "Oui",
+                            "value": 0,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Non",
+                            "value": "1",
+                            "isExclusive": false,
+                            "tagOID": ""
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_infos_generales_007",
+                    "questionText": "Quelles études faites-vous ou quel travail exercez-vous  ?",
+                    "type": "TEXT",
+                    "isTriggered": true,
+                    "tag": "",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": true,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "regex": ""
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_infos_generales_008",
+                    "questionText": "Pour quelle(s) raison(s) ne travaillez-vous pas actuellement ? ",
+                    "type": "TEXT",
+                    "isTriggered": true,
+                    "tag": "",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": true,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "regex": ""
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_infos_generales_009",
+                    "questionText": "Quel est votre poids actuel ? ",
+                    "type": "DECIMAL",
+                    "isTriggered": false,
+                    "tag": "",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": true,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "min": "0",
+                            "max": "600",
+                            "step": "0.01"
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_infos_generales_010",
+                    "questionText": "Quel serait votre poids idéal ?",
+                    "type": "DECIMAL",
+                    "isTriggered": false,
+                    "tag": "",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": true,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "min": "0",
+                            "max": "600",
+                            "step": "0.01"
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_infos_generales_011",
+                    "questionText": "Quelle est votre taille ? (en cm)",
+                    "type": "ANALOG_SCALE",
+                    "isTriggered": false,
+                    "triggeredQuestionOID": "",
+                    "triggeredValue": 0,
+                    "triggeredDefault": 0,
+                    "tag": "",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": true,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "min": "0",
+                            "max": "300",
+                            "minText": "0 cm",
+                            "midText": "150 cm",
+                            "maxText": "300 cm",
+                            "minValue": "0",
+                            "midValue": "",
+                            "maxValue": "300",
+                            "step": 1,
+                            "hideAnalogScaleSelectorNumber": false
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_infos_generales_012",
+                    "questionText": "Quel est votre périmètre ombilical ? Pour mesurer votre périmètre ombilical, prenez un mètre de couturière et faites lui faire le tour de votre ventre au niveau du nombril, à l’horizontale. La mesure se fait en position debout, sans chercher à rentrer le ventre, à même la peau (pas autour des vêtements). Si vous n’avez pas de mètre de couturière, utilisez votre ceinture, un ruban ou une cordelette. Marquez au crayon et mesurez la distance entre l’extrémité et votre repère.",
+                    "type": "ANALOG_SCALE",
+                    "isTriggered": false,
+                    "triggeredQuestionOID": "",
+                    "triggeredValue": 0,
+                    "triggeredDefault": 0,
+                    "tag": "",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": true,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "min": "0",
+                            "max": "200",
+                            "minText": "0 cm",
+                            "midText": "100 cm ",
+                            "maxText": "200 cm",
+                            "minValue": "0",
+                            "midValue": "",
+                            "maxValue": "200",
+                            "step": 1,
+                            "hideAnalogScaleSelectorNumber": false
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_infos_generales_013",
+                    "questionText": "Quel est votre tour de hanches ?",
+                    "type": "ANALOG_SCALE",
+                    "isTriggered": false,
+                    "triggeredQuestionOID": "",
+                    "triggeredValue": 0,
+                    "triggeredDefault": 0,
+                    "tag": "",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": true,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "min": "0",
+                            "max": "200",
+                            "minText": "0 cm",
+                            "midText": "100 cm",
+                            "maxText": "200 cm",
+                            "minValue": "0",
+                            "midValue": "",
+                            "maxValue": "200",
+                            "step": 1,
+                            "hideAnalogScaleSelectorNumber": false
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_infos_generales_014",
+                    "questionText": "Quel est votre tour de cou (périmètre cervical) ?",
+                    "type": "ANALOG_SCALE",
+                    "isTriggered": false,
+                    "triggeredQuestionOID": "",
+                    "triggeredValue": 0,
+                    "triggeredDefault": 0,
+                    "tag": "",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": true,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "min": "0",
+                            "max": "50",
+                            "minText": "0 cm",
+                            "midText": "25 cm",
+                            "maxText": "50 cm",
+                            "minValue": "0",
+                            "midValue": "",
+                            "maxValue": "50",
+                            "step": 1,
+                            "hideAnalogScaleSelectorNumber": false
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_infos_generales_015",
+                    "questionText": "Quel est votre tour de cou (périmètre cervical) ? Pour mesurer votre périmètre cervical, prenez un mètre de couturière et faites lui faire le tour de votre cou. La mesure se fait en position debout, la tête droite, à même la peau (pas autour des vêtements).",
+                    "type": "ANALOG_SCALE",
+                    "isTriggered": false,
+                    "triggeredQuestionOID": "",
+                    "triggeredValue": 0,
+                    "triggeredDefault": 0,
+                    "tag": "",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": true,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "min": "0",
+                            "max": "50",
+                            "minText": "0 cm",
+                            "midText": "25 cm",
+                            "maxText": "50 cm",
+                            "minValue": "0",
+                            "midValue": "",
+                            "maxValue": "50",
+                            "step": 1,
+                            "hideAnalogScaleSelectorNumber": false
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_infos_generales_016",
+                    "questionText": "Quel est votre motif de consultation ?",
+                    "type": "MULTI_CHOICES",
+                    "isTriggered": false,
+                    "triggeredQuestionOID": "",
+                    "triggeredValue": 0,
+                    "triggeredDefault": 0,
+                    "tag": "",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": true,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "text": "Évaluation globale de la santé",
+                            "value": 0,
+                            "isExclusive": true,
+                            "tagOID": "A"
+                        },
+                        {
+                            "text": "Mise en place d’un programme individualisé-personnalisé de santé",
+                            "value": 1,
+                            "isExclusive": true,
+                            "tagOID": "A_B"
+                        },
+                        {
+                            "text": "Éducation thérapeutique (prévention santé)",
+                            "value": 2,
+                            "isExclusive": true,
+                            "tagOID": "A_B_C"
+                        },
+                        {
+                            "text": "Prise en charge complémentaire d’une pathologie chronique",
+                            "value": 3,
+                            "isExclusive": false,
+                            "tagOID": "A_B_C_D"
+                        },
+                        {
+                            "text": "Troubles digestifs",
+                            "value": 4,
+                            "isExclusive": false,
+                            "tagOID": "A_B_C_D_E"
+                        },
+                        {
+                            "text": "Troubles du sommeil",
+                            "value": 5,
+                            "isExclusive": false,
+                            "tagOID": "A_B_C_D_E_F"
+                        },
+                        {
+                            "text": "Gestion du stress",
+                            "value": 6,
+                            "isExclusive": false,
+                            "tagOID": "A_B_C_D_E_F_G"
+                        },
+                        {
+                            "text": "Anxiété et / ou dépression",
+                            "value": 7,
+                            "isExclusive": false,
+                            "tagOID": "A_B_C_D_E_F_G_H"
+                        },
+                        {
+                            "text": "Douleurs chroniques",
+                            "value": 8,
+                            "isExclusive": false,
+                            "tagOID": "A_B_C_D_E_F_G_H_I"
+                        },
+                        {
+                            "text": "Fatigue",
+                            "value": 9,
+                            "isExclusive": false,
+                            "tagOID": "A_B_C_D_E_F_G_H_I_J"
+                        },
+                        {
+                            "text": "Accompagnement à la perte de poids",
+                            "value": 10,
+                            "isExclusive": false,
+                            "tagOID": "A_B_C_D_E_F_G_H_I_J_K"
+                        },
+                        {
+                            "text": "Difficultés de comportement alimentaire",
+                            "value": 11,
+                            "isExclusive": false,
+                            "tagOID": "A_B_C_D_E_F_G_H_I_J_K_L"
+                        },
+                        {
+                            "text": "Programme du bien vieillir (anti-aging)",
+                            "value": 12,
+                            "isExclusive": false,
+                            "tagOID": "A_B_C_D_E_F_G_H_I_J_K_L_M"
+                        },
+                        {
+                            "text": "Accompagnement du sportif (performance, nutrition, blessures, etc)",
+                            "value": 13,
+                            "isExclusive": false,
+                            "tagOID": "A_B_C_D_E_F_G_H_I_J_K_L_M_N"
+                        },
+                        {
+                            "text": "Accompagnement de la maladie cancéreuse",
+                            "value": 14,
+                            "isExclusive": false,
+                            "tagOID": "A_B_C_D_E_F_G_H_I_J_K_L_M_N_O"
+                        },
+                        {
+                            "text": "Recherche de traitements complémentaires",
+                            "value": 15,
+                            "isExclusive": false,
+                            "tagOID": "A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P"
+                        },
+                        {
+                            "text": "Sexologie",
+                            "value": "16",
+                            "isExclusive": false,
+                            "tagOID": "A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P_Q"
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_infos_generales_017",
+                    "questionText": "Avez-vous des allergies médicamenteuses ?",
+                    "type": "TEXT",
+                    "isTriggered": false,
+                    "tag": "",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": true,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "regex": ""
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_infos_generales_018",
+                    "questionText": "Avez-vous des allergies autres que médicamenteuses",
+                    "type": "TEXT",
+                    "isTriggered": false,
+                    "tag": "",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": true,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "regex": ""
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_infos_generales_019",
+                    "questionText": "Prenez-vous actuellement un traitement médicamenteux ?",
+                    "type": "SINGLE_CHOICE_RADIO",
+                    "isTriggered": false,
+                    "triggeredQuestionOID": "",
+                    "triggeredValue": 0,
+                    "triggeredDefault": 0,
+                    "tag": "",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": true,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "text": "Oui",
+                            "value": 0,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Non",
+                            "value": "1",
+                            "isExclusive": false,
+                            "tagOID": ""
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_infos_generales_020",
+                    "questionText": "Quels traitements médicamenteux prenez-vous actuellement ? Veuillez noter attentivement votre traitement avec le nom de chaque médicament accompagné de son dosage et de sa posologie.",
+                    "type": "TEXT",
+                    "isTriggered": true,
+                    "tag": "",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": true,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "regex": ""
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_infos_generales_021",
+                    "questionText": "Prenez-vous actuellement un traitement non médicamenteux ?",
+                    "type": "SINGLE_CHOICE_RADIO",
+                    "isTriggered": false,
+                    "triggeredQuestionOID": "",
+                    "triggeredValue": 0,
+                    "triggeredDefault": 0,
+                    "tag": "",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": true,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "text": "Oui",
+                            "value": 0,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Non",
+                            "value": "1",
+                            "isExclusive": false,
+                            "tagOID": ""
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_infos_generales_022",
+                    "questionText": "Quel(s) traitement(s) non médicamenteux prenez-vous actuellement ? Veuillez noter attentivement vos traitements non médicamenteux (homéopathie, pythothérapie, huiles essentielles, compléments nutritionnels, etc) avec le nom de chaque produit accompagné de son dosage et de sa posologie.",
+                    "type": "TEXT",
+                    "isTriggered": true,
+                    "tag": "",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": true,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "regex": ""
+                        }
+                    ]
+                }
+            ]
+        
+        }
+    ],
+    "tags": []
+}

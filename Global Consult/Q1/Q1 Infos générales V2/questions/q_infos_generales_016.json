@@ -1,0 +1,76 @@
+{
+  "oid": "q_infos_generales_016",
+  "title": "Quel est votre motif de consultation ?",
+  "text": "Quel est votre motif de consultation ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Évaluation globale de la santé"
+    },
+    {
+      "code": "1",
+      "text": "Mise en place d’un programme individualisé-personnalisé de santé"
+    },
+    {
+      "code": "2",
+      "text": "Éducation thérapeutique (prévention santé)"
+    },
+    {
+      "code": "3",
+      "text": "Prise en charge complémentaire d’une pathologie chronique"
+    },
+    {
+      "code": "4",
+      "text": "Troubles digestifs"
+    },
+    {
+      "code": "5",
+      "text": "Troubles du sommeil"
+    },
+    {
+      "code": "6",
+      "text": "Gestion du stress"
+    },
+    {
+      "code": "7",
+      "text": "Anxiété et / ou dépression"
+    },
+    {
+      "code": "8",
+      "text": "Douleurs chroniques"
+    },
+    {
+      "code": "9",
+      "text": "Fatigue"
+    },
+    {
+      "code": "10",
+      "text": "Accompagnement à la perte de poids"
+    },
+    {
+      "code": "11",
+      "text": "Difficultés de comportement alimentaire"
+    },
+    {
+      "code": "12",
+      "text": "Programme du bien vieillir (anti-aging)"
+    },
+    {
+      "code": "13",
+      "text": "Accompagnement du sportif (performance, nutrition, blessures, etc)"
+    },
+    {
+      "code": "14",
+      "text": "Accompagnement de la maladie cancéreuse"
+    },
+    {
+      "code": "15",
+      "text": "Recherche de traitements complémentaires"
+    },
+    {
+      "code": "16",
+      "text": "Sexologie"
+    }
+  ]
+}

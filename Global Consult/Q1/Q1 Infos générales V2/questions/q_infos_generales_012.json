@@ -1,0 +1,11 @@
+{
+  "oid": "q_infos_generales_012",
+  "title": "Quel est votre périmètre ombilical ? Pour mesurer votre périmètre ombilical, prenez un mètre de couturière et faites lui faire le tour de votre ventre au niveau du nombril, à l’horizontale. La mesure se fait en position debout, sans chercher à rentrer le ventre, à même la peau (pas autour des vêtements). Si vous n’avez pas de mètre de couturière, utilisez votre ceinture, un ruban ou une cordelette. Marquez au crayon et mesurez la distance entre l’extrémité et votre repère.",
+  "text": "Quel est votre périmètre ombilical ? Pour mesurer votre périmètre ombilical, prenez un mètre de couturière et faites lui faire le tour de votre ventre au niveau du nombril, à l’horizontale. La mesure se fait en position debout, sans chercher à rentrer le ventre, à même la peau (pas autour des vêtements). Si vous n’avez pas de mètre de couturière, utilisez votre ceinture, un ruban ou une cordelette. Marquez au crayon et mesurez la distance entre l’extrémité et votre repère.",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": "0",
+    "max": "200",
+    "step": 1
+  }
+}

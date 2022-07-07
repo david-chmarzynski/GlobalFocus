@@ -1,0 +1,12 @@
+{
+  "oid": "q_infos_generales_011",
+  "title": "Quelle est votre taille ? (en cm)",
+  "text": "Quelle est votre taille ? (en cm)",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": "0",
+    "max": "300",
+    "step": 1
+  },
+  "scores": []
+}

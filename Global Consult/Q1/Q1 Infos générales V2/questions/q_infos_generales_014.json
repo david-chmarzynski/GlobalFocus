@@ -1,0 +1,11 @@
+{
+  "oid": "q_infos_generales_014",
+  "title": "Quel est votre tour de cou (périmètre cervical) ?",
+  "text": "Quel est votre tour de cou (périmètre cervical) ?",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": "0",
+    "max": "50",
+    "step": 1
+  }
+}

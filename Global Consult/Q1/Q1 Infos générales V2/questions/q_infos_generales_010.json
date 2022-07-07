@@ -1,0 +1,11 @@
+{
+  "oid": "q_infos_generales_010",
+  "title": "Quel serait votre poids idéal ?",
+  "text": "Quel serait votre poids idéal ?",
+  "type": "DECIMAL",
+  "scale": {
+    "min": "0",
+    "max": "600",
+    "step": "0.01"
+  }
+}

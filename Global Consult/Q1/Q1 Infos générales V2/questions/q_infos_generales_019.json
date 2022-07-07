@@ -1,0 +1,16 @@
+{
+  "oid": "q_infos_generales_019",
+  "title": "Prenez-vous actuellement un traitement médicamenteux ?",
+  "text": "Prenez-vous actuellement un traitement médicamenteux ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ]
+}

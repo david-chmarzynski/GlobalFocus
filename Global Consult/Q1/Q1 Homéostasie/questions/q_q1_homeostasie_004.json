@@ -1,0 +1,109 @@
+{
+  "oid": "q_q1_homeostasie_004",
+  "title": "Présentez-vous actuellement une de ces situations médicales pour lesquelles un dysfonctionnement mitochondrial peut jouer un rôle favorisant ? (plusieurs réponses possibles)",
+  "text": "Présentez-vous actuellement une de ces situations médicales pour lesquelles un dysfonctionnement mitochondrial peut jouer un rôle favorisant ? (plusieurs réponses possibles)",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "dépression",
+      "text": "Dépression chronique ou récidivante, bipolarité"
+    },
+    {
+      "code": "Pathologie métabolique",
+      "text": "Pathologie métabolique : diabète de type 1 ou 2 et/ou foie gras (stéatose)"
+    },
+    {
+      "code": "Maladie neurodégénérative",
+      "text": "Maladie neurodégénérative"
+    },
+    {
+      "code": "neuromusculaire",
+      "text": "Fibromyalgie, syndrome de fatigue chronique, COVID long et/ou maladie de Lyme"
+    },
+    {
+      "code": "Syndrome d’apnées du sommeil",
+      "text": "Syndrome d’apnées du sommeil"
+    },
+    {
+      "code": "Syndrome d’épuisement (Burnout)",
+      "text": "Syndrome d’épuisement (Burnout)"
+    },
+    {
+      "code": "aucun",
+      "text": "Aucune de ces situations",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"dépression\" in q_q1_homeostasie_004",
+      "tagOID": "S_HOMEO_CELL_ATCD_MITOCHONDRIE_DEPRESSION",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"dépression\" in q_q1_homeostasie_004)",
+      "tagOID": "S_HOMEO_CELL_ATCD_MITOCHONDRIE_DEPRESSION",
+      "value": 0
+    },
+    {
+      "conditions": "\"Pathologie métabolique\" in q_q1_homeostasie_004",
+      "tagOID": "S_HOMEO_CELL_ATCD_MITOCHONDRIE_METABOLIQUE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Pathologie métabolique\" in q_q1_homeostasie_004)",
+      "tagOID": "S_HOMEO_CELL_ATCD_MITOCHONDRIE_METABOLIQUE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Maladie neurodégénérative\" in q_q1_homeostasie_004",
+      "tagOID": "S_HOMEO_CELL_ATCD_MITOCHONDRIE_NEURODEGENERATIF",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Maladie neurodégénérative\" in q_q1_homeostasie_004)",
+      "tagOID": "S_HOMEO_CELL_ATCD_MITOCHONDRIE_NEURODEGENERATIF",
+      "value": 0
+    },
+    {
+      "conditions": "\"neuromusculaire\" in q_q1_homeostasie_004",
+      "tagOID": "S_HOMEO_CELL_ATCD_MITOCHONDRIE_NEUROMUSCULAIRE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"neuromusculaire\" in q_q1_homeostasie_004)",
+      "tagOID": "S_HOMEO_CELL_ATCD_MITOCHONDRIE_NEUROMUSCULAIRE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Syndrome d’apnées du sommeil\" in q_q1_homeostasie_004",
+      "tagOID": "S_HOMEO_CELL_ATCD_MITOCHONDRIE_SOMMEIL",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Syndrome d’apnées du sommeil\" in q_q1_homeostasie_004)",
+      "tagOID": "S_HOMEO_CELL_ATCD_MITOCHONDRIE_SOMMEIL",
+      "value": 0
+    },
+    {
+      "conditions": "\"Syndrome d’épuisement (Burnout)\" in q_q1_homeostasie_004",
+      "tagOID": "S_HOMEO_CELL_ATCD_MITOCHONDRIE_BURNOUT",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Syndrome d’épuisement (Burnout)\" in q_q1_homeostasie_004)",
+      "tagOID": "S_HOMEO_CELL_ATCD_MITOCHONDRIE_BURNOUT",
+      "value": 0
+    },
+    {
+      "conditions": "\"aucun\" in q_q1_homeostasie_004",
+      "tagOID": "S_HOMEO_CELL_ATCD_MITOCHONDRIE",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_q1_homeostasie_004)",
+      "tagOID": "S_HOMEO_CELL_ATCD_MITOCHONDRIE",
+      "value": 1
+    }
+  ]
+}

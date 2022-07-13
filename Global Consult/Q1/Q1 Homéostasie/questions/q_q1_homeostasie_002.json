@@ -1,0 +1,136 @@
+{
+  "oid": "q_q1_homeostasie_002",
+  "title": "Présentez-vous actuellement une de ces situations médicales pour lesquelles un déficit d’apports en oméga 3 peut jouer un rôle favorisant ? (plusieurs réponses possibles)",
+  "text": "Présentez-vous actuellement une de ces situations médicales pour lesquelles un déficit d’apports en oméga 3 peut jouer un rôle favorisant ? (plusieurs réponses possibles)",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "Pathologie cardio-vasculaire",
+      "text": "Pathologie cardio-vasculaire nécessitant un traitement (angine de poitrine, infarctus du myocarde, artérite des membres inférieurs, accident vasculaire cérébral, trouble du rythme cardiaque, hypertension artérielle) (CV) Maladie cardio-vasculaire traitée : angine de poitrine, infarctus du myocarde, artérite des membres inférieurs, accident vasculaire cérébral, trouble du rythme cardiaque et/ou hypertension artérielle"
+    },
+    {
+      "code": "Maladie du foie",
+      "text": "Maladie du foie : stéatose (foie « gras »), fibrose ou cirrhose hépatique"
+    },
+    {
+      "code": "Maladie métabolique",
+      "text": "Maladie métabolique : diabète de type 1 ou 2 et/ou hypertriglycéridémie"
+    },
+    {
+      "code": "Eczéma ou dermatite atopique",
+      "text": "Eczéma ou dermatite atopique"
+    },
+    {
+      "code": "gynecologie",
+      "text": "Syndrome prémenstruel, endométriose active, syndrome des ovaires polykystiques"
+    },
+    {
+      "code": "Trouble du déficit de l'attentention",
+      "text": "Trouble du déficit de l'attention avec ou sans hyperactivité"
+    },
+    {
+      "code": "Maladie auto-immune",
+      "text": "Maladie auto-immune"
+    },
+    {
+      "code": "Dépression, cyclothymie, bipolarité",
+      "text": "Dépression, cyclothymie, bipolarité"
+    },
+    {
+      "code": "aucun",
+      "text": "Aucune de ces situations"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"Pathologie cardio-vasculaire\" in q_q1_homeostasie_002",
+      "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_CV",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Pathologie cardio-vasculaire\" in q_q1_homeostasie_002)",
+      "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_CV",
+      "value": 0
+    },
+    {
+      "conditions": "\"Maladie du foie\" in q_q1_homeostasie_002",
+      "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_FOIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Maladie du foie\" in q_q1_homeostasie_002)",
+      "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_FOIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Maladie métabolique\" in q_q1_homeostasie_002",
+      "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_METABOLIQUE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Maladie métabolique\" in q_q1_homeostasie_002)",
+      "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_METABOLIQUE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Eczéma ou dermatite atopique\" in q_q1_homeostasie_002",
+      "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_DERMATOLOGIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Eczéma ou dermatite atopique\" in q_q1_homeostasie_002)",
+      "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_DERMATOLOGIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"gynecologie\" in q_q1_homeostasie_002",
+      "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_GYNECOLOGIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"gynecologie\" in q_q1_homeostasie_002)",
+      "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_GYNECOLOGIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Trouble du déficit de l'attentention\" in q_q1_homeostasie_002",
+      "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_TDAH",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Trouble du déficit de l'attentention\" in q_q1_homeostasie_002)",
+      "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_TDAH",
+      "value": 0
+    },
+    {
+      "conditions": "\"Maladie auto-immune\" in q_q1_homeostasie_002",
+      "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_MAI",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Maladie auto-immune\" in q_q1_homeostasie_002)",
+      "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_MAI",
+      "value": 0
+    },
+    {
+      "conditions": "\"Dépression, cyclothymie, bipolarité\" in q_q1_homeostasie_002",
+      "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_DEPRESSION",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Dépression, cyclothymie, bipolarité\" in q_q1_homeostasie_002)",
+      "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_DEPRESSION",
+      "value": 0
+    },
+    {
+      "conditions": "\"aucun\" in q_q1_homeostasie_002",
+      "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_q1_homeostasie_002)",
+      "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3",
+      "value": 1
+    }
+  ]
+}

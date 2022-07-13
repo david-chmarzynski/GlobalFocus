@@ -1,0 +1,43 @@
+{
+  "oid": "q1_homeostasie",
+  "title": "Q1 Global Focus Homéostasie cellulaire",
+  "questions": [
+    {
+      "question": "q_q1_homeostasie_000",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q1_homeostasie_001",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_q1_homeostasie_002",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_q1_homeostasie_003",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_q1_homeostasie_004",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_q1_homeostasie_005",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Syndrome d’épuisement (Burnout)\" in q_q1_homeostasie_004)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_homeostasie_004": "aucun"
+        }
+      }
+    }
+  ]
+}

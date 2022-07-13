@@ -1,0 +1,55 @@
+{
+  "oid": "q_q1_gynecologie_061",
+  "title": "En vous basant sur vos 3 derniers cycles, vos règles sont-elles ?",
+  "text": "En vous basant sur vos 3 derniers cycles, vos règles sont-elles ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "Régulières spontanément (cycles de 24 à 32 jours environ)",
+      "text": "Régulières spontanément (cycles de 24 à 32 jours environ)",
+      "exclusive": true
+    },
+    {
+      "code": "Régulières sous pilule ou autre traitement hormonal",
+      "text": "Régulières sous pilule ou autre traitement hormonal",
+      "exclusive": true
+    },
+    {
+      "code": "Irrégulières",
+      "text": "Irrégulières",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"Régulières spontanément (cycles de 24 à 32 jours environ)\" in q_q1_gynecologie_061",
+      "tagOID": "S_GYN_VIE_GENITALE_CYCLE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Régulières spontanément (cycles de 24 à 32 jours environ)\" in q_q1_gynecologie_061)",
+      "tagOID": "S_GYN_VIE_GENITALE_CYCLE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Régulières sous pilule ou autre traitement hormonal\" in q_q1_gynecologie_061",
+      "tagOID": "S_GYN_VIE_GENITALE_CYCLE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Régulières sous pilule ou autre traitement hormonal\" in q_q1_gynecologie_061)",
+      "tagOID": "S_GYN_VIE_GENITALE_CYCLE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Irrégulières\" in q_q1_gynecologie_061",
+      "tagOID": "S_GYN_VIE_GENITALE_CYCLE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Irrégulières\" in q_q1_gynecologie_061)",
+      "tagOID": "S_GYN_VIE_GENITALE_CYCLE",
+      "value": 0
+    }
+  ]
+}

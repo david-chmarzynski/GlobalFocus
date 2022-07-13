@@ -1,0 +1,163 @@
+{
+  "oid": "q_q1_gynecologie_062",
+  "title": "En vous basant sur vos 3 derniers cycles, quelle est la durée moyenne de vos règles (nombre de jours de saignements) ? ",
+  "text": "En vous basant sur vos 3 derniers cycles, quelle est la durée moyenne de vos règles (nombre de jours de saignements) ? ",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": "1",
+    "max": "30",
+    "step": 1
+  },
+  "scores": [
+    {
+      "conditions": "q_q1_gynecologie_062 == 1",
+      "tagOID": "S_GYN_VIE_GENITALE_DUREE_CYCLE",
+      "value": 1
+    },
+    {
+      "conditions": "q_q1_gynecologie_062 == 2",
+      "tagOID": "S_GYN_VIE_GENITALE_DUREE_CYCLE",
+      "value": 2
+    },
+    {
+      "conditions": "q_q1_gynecologie_062 == 3",
+      "tagOID": "S_GYN_VIE_GENITALE_DUREE_CYCLE",
+      "value": 3
+    },
+    {
+      "conditions": "q_q1_gynecologie_062 == 4",
+      "tagOID": "S_GYN_VIE_GENITALE_DUREE_CYCLE",
+      "value": 4
+    },
+    {
+      "conditions": "q_q1_gynecologie_062 == 5",
+      "tagOID": "S_GYN_VIE_GENITALE_DUREE_CYCLE",
+      "value": 5
+    },
+    {
+      "conditions": "q_q1_gynecologie_062 == 6",
+      "tagOID": "S_GYN_VIE_GENITALE_DUREE_CYCLE",
+      "value": 6
+    },
+    {
+      "conditions": "q_q1_gynecologie_062 == 7",
+      "tagOID": "S_GYN_VIE_GENITALE_DUREE_CYCLE",
+      "value": 7
+    },
+    {
+      "conditions": "q_q1_gynecologie_062 == 8",
+      "tagOID": "S_GYN_VIE_GENITALE_DUREE_CYCLE",
+      "value": 8
+    },
+    {
+      "conditions": "q_q1_gynecologie_062 == 9",
+      "tagOID": "S_GYN_VIE_GENITALE_DUREE_CYCLE",
+      "value": 9
+    },
+    {
+      "conditions": "q_q1_gynecologie_062 == 10",
+      "tagOID": "S_GYN_VIE_GENITALE_DUREE_CYCLE",
+      "value": 10
+    },
+    {
+      "conditions": "q_q1_gynecologie_062 == 11",
+      "tagOID": "S_GYN_VIE_GENITALE_DUREE_CYCLE",
+      "value": 11
+    },
+    {
+      "conditions": "q_q1_gynecologie_062 == 12",
+      "tagOID": "S_GYN_VIE_GENITALE_DUREE_CYCLE",
+      "value": 12
+    },
+    {
+      "conditions": "q_q1_gynecologie_062 == 13",
+      "tagOID": "S_GYN_VIE_GENITALE_DUREE_CYCLE",
+      "value": 13
+    },
+    {
+      "conditions": "q_q1_gynecologie_062 == 14",
+      "tagOID": "S_GYN_VIE_GENITALE_DUREE_CYCLE",
+      "value": 14
+    },
+    {
+      "conditions": "q_q1_gynecologie_062 == 15",
+      "tagOID": "S_GYN_VIE_GENITALE_DUREE_CYCLE",
+      "value": 15
+    },
+    {
+      "conditions": "q_q1_gynecologie_062 == 16",
+      "tagOID": "S_GYN_VIE_GENITALE_DUREE_CYCLE",
+      "value": 16
+    },
+    {
+      "conditions": "q_q1_gynecologie_062 == 17",
+      "tagOID": "S_GYN_VIE_GENITALE_DUREE_CYCLE",
+      "value": 17
+    },
+    {
+      "conditions": "q_q1_gynecologie_062 == 18",
+      "tagOID": "S_GYN_VIE_GENITALE_DUREE_CYCLE",
+      "value": 18
+    },
+    {
+      "conditions": "q_q1_gynecologie_062 == 19",
+      "tagOID": "S_GYN_VIE_GENITALE_DUREE_CYCLE",
+      "value": 19
+    },
+    {
+      "conditions": "q_q1_gynecologie_062 == 20",
+      "tagOID": "S_GYN_VIE_GENITALE_DUREE_CYCLE",
+      "value": 20
+    },
+    {
+      "conditions": "q_q1_gynecologie_062 == 21",
+      "tagOID": "S_GYN_VIE_GENITALE_DUREE_CYCLE",
+      "value": 21
+    },
+    {
+      "conditions": "q_q1_gynecologie_062 == 22",
+      "tagOID": "S_GYN_VIE_GENITALE_DUREE_CYCLE",
+      "value": 22
+    },
+    {
+      "conditions": "q_q1_gynecologie_062 == 23",
+      "tagOID": "S_GYN_VIE_GENITALE_DUREE_CYCLE",
+      "value": 23
+    },
+    {
+      "conditions": "q_q1_gynecologie_062 == 24",
+      "tagOID": "S_GYN_VIE_GENITALE_DUREE_CYCLE",
+      "value": 24
+    },
+    {
+      "conditions": "q_q1_gynecologie_062 == 25",
+      "tagOID": "S_GYN_VIE_GENITALE_DUREE_CYCLE",
+      "value": 25
+    },
+    {
+      "conditions": "q_q1_gynecologie_062 == 26",
+      "tagOID": "S_GYN_VIE_GENITALE_DUREE_CYCLE",
+      "value": 26
+    },
+    {
+      "conditions": "q_q1_gynecologie_062 == 27",
+      "tagOID": "S_GYN_VIE_GENITALE_DUREE_CYCLE",
+      "value": 27
+    },
+    {
+      "conditions": "q_q1_gynecologie_062 == 28",
+      "tagOID": "S_GYN_VIE_GENITALE_DUREE_CYCLE",
+      "value": 28
+    },
+    {
+      "conditions": "q_q1_gynecologie_062 == 29",
+      "tagOID": "S_GYN_VIE_GENITALE_DUREE_CYCLE",
+      "value": 29
+    },
+    {
+      "conditions": "q_q1_gynecologie_062 == 30",
+      "tagOID": "S_GYN_VIE_GENITALE_DUREE_CYCLE",
+      "value": 30
+    }
+  ]
+}

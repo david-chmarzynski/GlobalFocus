@@ -81,6 +81,18 @@
       }
     },
     {
+      "question": "q_Q1_Psychiatrie_062",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Oui\" in q_Q1_Psychiatrie_002)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_Psychiatrie_002": "Non"
+        }
+      }
+    },
+    {
       "question": "q_Q1_Psychiatrie_010",
       "level": 1,
       "isGlobal": true,

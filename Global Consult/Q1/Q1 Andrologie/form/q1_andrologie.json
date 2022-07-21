@@ -5,17 +5,9 @@
   "pricing": 10,
   "description": "Q1 Global Focus Andrologie",
   "levelMax": "1",
-  "linkedForm": "",
-  "companyId": "[object Object]",
-  "authors": [
-    "Jean-Philippe Astruc"
-  ],
-  "chapters": [
-    "chap_q1_andrologie"
-  ],
-  "professions": [
-    "DENTIST"
-  ],
+  "authors": ["Jean-Philippe Astruc"],
+  "chapters": ["chap_q1_andrologie"],
+  "professions": ["DENTIST"],
   "diagnostics": [],
   "reportingTrees": [
     {

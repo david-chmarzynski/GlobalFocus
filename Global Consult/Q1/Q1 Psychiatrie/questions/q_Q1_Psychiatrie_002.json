@@ -33,6 +33,10 @@
       "text": "Dépression avec tentative de suicide"
     },
     {
+      "code": "Burn Out",
+      "text": "Burn Out"
+    },
+    {
       "code": "aucun",
       "text": "Aucun de ces antécédents",
       "exclusive": true
@@ -107,6 +111,16 @@
     {
       "conditions": "!(\"depression suicide\" in q_Q1_Psychiatrie_002)",
       "tagOID": "S_PSY_ATCD_DEPRESSION_SUICIDE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Burn Out\" in q_Q1_Psychiatrie_002",
+      "tagOID": "S_PSY_ATCD_DEPRESSION_BURN_OUT",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Burn Out\" in q_Q1_Psychiatrie_002)",
+      "tagOID": "S_PSY_ATCD_DEPRESSION_BURN_OUT",
       "value": 0
     },
     {

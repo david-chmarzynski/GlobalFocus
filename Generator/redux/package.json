@@ -19,6 +19,7 @@
     "react-router": "^6.2.1",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
+    "react-select": "^5.4.0",
     "react-sunburst-d3-v4": "^0.1.6",
     "react-window": "^1.8.6",
     "readline-sync": "^1.4.10",

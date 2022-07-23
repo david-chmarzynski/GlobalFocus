@@ -1,96 +1,93 @@
-import { useState }  from "react";
+import { useEffect, useState }  from "react";
 
-import IconButton from '@mui/material/IconButton';
-import Add from '@mui/icons-material/Add';
-
+import axios from 'axios';
 import './Report.css'
-import { TextField, Button, Select, MenuItem, FormControl, InputLabel } from "@mui/material";
+import { Button } from "@mui/material";
+
+import QuestionTextSelector from "./QuestionTextSelector";
+import QuestionAnswerSelector from "./QuestionAnswerSelector";
+import TextInput from "./TextInput";
+import ReportElement from "./ReportElement";
+import BreakLine from "./BreakLine";
+import IfQuestionAnswered from "./IfQuestionAnswered";
 
 export default function Report() {
 
-  function handleChange(val){
-    //let reportCopy = [...report]
-    //reportCopy[id]=val
-
-    setInputValue(val);
-    //setReport(reportCopy);
-  }
-
-  const [inputValue, setInputValue] = useState("")
-  const [report, setReport] = useState([""]);
-  const [textInputNumber, setTextInputNumber] = useState(1);
-  const [questionNumber, setQuestionNumber] = useState(0);
-  const [questionAnswerNumber, setQuestionAnswerNumber] = useState(0);
+  const BASE_URL = 'http://152.228.208.173:8040'
+  const TOKEN = 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkNTJhMDQ4My0yNDJjLTRmNzUtODM2OS03OGI3ZGY5MDBiNDQiLCJ0eXBlIjoiQURNSU4iLCJpYXQiOjE2NTc4NzcyMTh9.IjLUq7cgkbBLEk6iTc1zgq2GXnDuuNosNQAAJfg4gtQ'
   
-  function TextInput(){
-    return(
-      <div className="textInput" >
-        <TextField
-          placeholder="Write some text"
-          variant="standard"
-          multiline
-          maxRows={7}
-          value={inputValue}
-          onChange={(e) => handleChange(e.target.value)}
-        />
-      </div>
-    )
-  }
-  function QuestionInput(){
+  const [report, setReport] = useState([]);
+  const [questions, setQuestions] = useState([]);
+  const [elementId, setElementId] = useState(0);
+  const [options, setOptions] = useState([]);
 
-    return(
-      <FormControl sx={{ m: 1, minWidth: 200 }}>
-        <InputLabel id="inputTypeLabel">Input</InputLabel>
-        <Select
-          id="inputType"
-          labelId="inputTypeLabel"
-          defaultValue={-1}
-          label="Age"
-          onChange={(e) => handleChange(e.target.value)}
-        >
-          <MenuItem value={0}>Champ texte</MenuItem>
-        </Select>
-      </FormControl>
-    )
-  }
+  useEffect(()=> {
+    axios.get(`${BASE_URL}/questions`, {
+      headers: {
+        Authorization:`Bearer ${TOKEN}`,
+      }
+    }).then((response) => {
+      setQuestions(response.data);
+    }).catch((error) => {console.error(error);});
+  }, []);
 
+  useEffect(()=> {
+    let newOptions = []
+    questions.map((question)=>{
+      return newOptions.push({value: question.oid, label: question.oid})
+    })
+    setOptions(newOptions)
+  },[questions]);
+
+  useEffect(()=> {
+    console.log(report)
+  },[report]);
+
+  function addReportElement(newElementText, newElementDisplay){
+    setReport([...report, {id: elementId, text: newElementText, display: newElementDisplay}]);
+    setElementId(elementId + 1);
+  }
+  
+  function reportResult(){
+    let res = "";
+    for(let i=0 ; i< report.length ; i++){
+      res+= report[i].text + ' ';
+    }
+
+    console.log(res);
+  }
 
   return(
-    <div className="form">
+    <div className="report">
       <div className="reportContainer">
         {
-          // inputs.map((value, index) => {
+          report.map((element) => {
 
-          //   return(<Inputs type = {value} id={index} key={index}/>);
-          // })
-          //textInputNumber ? (<TextInput/>) : (<></>)
+            return(
+              <ReportElement key={element.id} element={element} report={report} setReport={setReport}/>
+            );
+          })
         }
         
       </div>
-      <TextInput/>
+      
+      <div className="inputs">
+        <TextInput addToReport={addReportElement}/>
+        <BreakLine addToReport={addReportElement}/> 
+        <QuestionTextSelector options={options} addToReport={addReportElement}/>
+        <QuestionAnswerSelector options={options} addToReport={addReportElement}/>
+        <IfQuestionAnswered options={options} addToReport={addReportElement}/>
+      </div>
 
       <div className="buttons">
-        <div className="addButton" >
-          <IconButton aria-label="add">
-            <Add/>
-          </IconButton>
-        </div>   
+
         <Button 
           className=""
           variant="contained"
           color="success"
-          onClick={() => console.log()}
+          onClick={() => reportResult()}
         >
           Valider
-        </Button>
-
-        <Button 
-          className=""
-          variant="contained"
-          color="error"
-          onClick={() => console.log()}
-        >
-          Supprimer le dernier élément
         </Button>
       </div>
     </div>

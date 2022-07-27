@@ -1,0 +1,277 @@
+{
+  "oid": "q_q1_hemato-immuno_040",
+  "title": "Vous a-t-on diagnostiqué une (ou plusieurs) de ces pathologies ou infections ?",
+  "text": "Vous a-t-on diagnostiqué une (ou plusieurs) de ces pathologies ou infections ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "Déficit immunitaire primitif",
+      "text": "Déficit immunitaire primitif"
+    },
+    {
+      "code": "Maladie des plasmocytes",
+      "text": "Maladie des plasmocytes (Waldenström, maladie des chaines lourdes, amylose primaire...)"
+    },
+    {
+      "code": "Virus de l’immuno-déficience humaine (VIH-SIDA)",
+      "text": "Virus de l’immuno-déficience humaine (VIH-SIDA)"
+    },
+    {
+      "code": "Endocardite infectieuse (maladie d’Osler )",
+      "text": "Endocardite infectieuse (maladie d’Osler )"
+    },
+    {
+      "code": "Herpès virus non-génital (bouton de fièvre, œil…)",
+      "text": "Herpès virus non-génital (bouton de fièvre, œil…)"
+    },
+    {
+      "code": "Cytomégalovirus (CMV)",
+      "text": "Cytomégalovirus (CMV)"
+    },
+    {
+      "code": "Varicelle et/ou zona",
+      "text": "Varicelle et/ou zona"
+    },
+    {
+      "code": "Rougeole",
+      "text": "Rougeole"
+    },
+    {
+      "code": "Oreillons",
+      "text": "Oreillons"
+    },
+    {
+      "code": "Rubéole",
+      "text": "Rubéole"
+    },
+    {
+      "code": "Papillomavirus",
+      "text": "Papillomavirus"
+    },
+    {
+      "code": "Aspergillose",
+      "text": "Aspergillose"
+    },
+    {
+      "code": "Maladie de Lyme",
+      "text": "Maladie de Lyme"
+    },
+    {
+      "code": "Méningite",
+      "text": "Méningite"
+    },
+    {
+      "code": "Toxoplasmose",
+      "text": "Toxoplasmose"
+    },
+    {
+      "code": "Amibiase",
+      "text": "Amibiase"
+    },
+    {
+      "code": "Giardiase",
+      "text": "Giardiase"
+    },
+    {
+      "code": "Paludisme",
+      "text": "Paludisme"
+    },
+    {
+      "code": "aucun",
+      "text": "Aucune de ces pathologies ou infections",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"Déficit immunitaire primitif\" in q_q1_hemato-immuno_040",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_DEFICIT_IMMUNI_PRIMITIF",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Déficit immunitaire primitif\" in q_q1_hemato-immuno_040)",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_DEFICIT_IMMUNI_PRIMITIF",
+      "value": 0
+    },
+    {
+      "conditions": "\"Maladie des plasmocytes\" in q_q1_hemato-immuno_040",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_PLASMOCYTES",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Maladie des plasmocytes\" in q_q1_hemato-immuno_040)",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_PLASMOCYTES",
+      "value": 0
+    },
+    {
+      "conditions": "\"Virus de l’immuno-déficience humaine (VIH-SIDA)\" in q_q1_hemato-immuno_040",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_VIH",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Virus de l’immuno-déficience humaine (VIH-SIDA)\" in q_q1_hemato-immuno_040)",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_VIH",
+      "value": 0
+    },
+    {
+      "conditions": "\"Endocardite infectieuse (maladie d’Osler )\" in q_q1_hemato-immuno_040",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_OSLER",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Endocardite infectieuse (maladie d’Osler )\" in q_q1_hemato-immuno_040)",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_OSLER",
+      "value": 0
+    },
+    {
+      "conditions": "\"Herpès virus non-génital (bouton de fièvre, œil…)\" in q_q1_hemato-immuno_040",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_HERPES1",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Herpès virus non-génital (bouton de fièvre, œil…)\" in q_q1_hemato-immuno_040)",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_HERPES1",
+      "value": 0
+    },
+    {
+      "conditions": "\"Cytomégalovirus (CMV)\" in q_q1_hemato-immuno_040",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_CMV",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Cytomégalovirus (CMV)\" in q_q1_hemato-immuno_040)",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_CMV",
+      "value": 0
+    },
+    {
+      "conditions": "\"Varicelle et/ou zona\" in q_q1_hemato-immuno_040",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_VZV",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Varicelle et/ou zona\" in q_q1_hemato-immuno_040)",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_VZV",
+      "value": 0
+    },
+    {
+      "conditions": "\"Rougeole\" in q_q1_hemato-immuno_040",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_ROUGEOLE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Rougeole\" in q_q1_hemato-immuno_040)",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_ROUGEOLE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Oreillons\" in q_q1_hemato-immuno_040",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_OREILLONS",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Oreillons\" in q_q1_hemato-immuno_040)",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_OREILLONS",
+      "value": 0
+    },
+    {
+      "conditions": "\"Rubéole\" in q_q1_hemato-immuno_040",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_RUBEOLE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Rubéole\" in q_q1_hemato-immuno_040)",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_RUBEOLE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Papillomavirus\" in q_q1_hemato-immuno_040",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_PAPILLOMAVIRUS",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Papillomavirus\" in q_q1_hemato-immuno_040)",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_PAPILLOMAVIRUS",
+      "value": 0
+    },
+    {
+      "conditions": "\"Aspergillose\" in q_q1_hemato-immuno_040",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_ASPERGILLOSE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Aspergillose\" in q_q1_hemato-immuno_040)",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_ASPERGILLOSE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Maladie de Lyme\" in q_q1_hemato-immuno_040",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_LYME",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Maladie de Lyme\" in q_q1_hemato-immuno_040)",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_LYME",
+      "value": 0
+    },
+    {
+      "conditions": "\"Méningite\" in q_q1_hemato-immuno_040",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_MENINGITE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Méningite\" in q_q1_hemato-immuno_040)",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_MENINGITE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Toxoplasmose\" in q_q1_hemato-immuno_040",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_TOXOPLASMOSE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Toxoplasmose\" in q_q1_hemato-immuno_040)",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_TOXOPLASMOSE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Amibiase\" in q_q1_hemato-immuno_040",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_AMIBIASE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Amibiase\" in q_q1_hemato-immuno_040)",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_AMIBIASE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Giardiase\" in q_q1_hemato-immuno_040",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_GIARDIASE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Giardiase\" in q_q1_hemato-immuno_040)",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_GIARDIASE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Paludisme\" in q_q1_hemato-immuno_040",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_PALUDISME",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Paludisme\" in q_q1_hemato-immuno_040)",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION_PALUDISME",
+      "value": 0
+    },
+    {
+      "conditions": "\"aucun\" in q_q1_hemato-immuno_040",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_q1_hemato-immuno_040)",
+      "tagOID": "S_HE_IM_ATCD_IMMUNO_INFECTION",
+      "value": 1
+    }
+  ]
+}

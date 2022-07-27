@@ -1,0 +1,11 @@
+{
+  "oid": "q_infos_generales_003",
+  "title": "Combien d'enfant(s) (biologique(s) ou adopté(s) avez-vous eu ?",
+  "text": "Combien d'enfant(s) (biologique(s) ou adopté(s) avez-vous eu ?",
+  "type": "INTEGER",
+  "scale": {
+    "min": "0",
+    "max": "100",
+    "step": 1
+  }
+}

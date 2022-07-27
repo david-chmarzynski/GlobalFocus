@@ -1,0 +1,11 @@
+{
+  "oid": "q_infos_generales_013",
+  "title": "Quel est votre tour de hanches ? (en centimètres) Pour mesurer votre tour de hanches, prenez un mètre de couturière et faites lui faire le tour de vos hanches et vos fesses à l’horizontale. La mesure se fait en position debout, à même la peau (pas autour des vêtements).",
+  "text": "Quel est votre tour de hanches ? (en centimètres) Pour mesurer votre tour de hanches, prenez un mètre de couturière et faites lui faire le tour de vos hanches et vos fesses à l’horizontale. La mesure se fait en position debout, à même la peau (pas autour des vêtements).",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": "0",
+    "max": "200",
+    "step": 1
+  }
+}

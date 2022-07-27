@@ -1,0 +1,12 @@
+{
+  "oid": "q_gastro_date_018",
+  "title": "En quelle année le diagnostic de colopathie fonctionnelle a-t-il été posé la première fois ? ",
+  "text": "En quelle année le diagnostic de colopathie fonctionnelle a-t-il été posé la première fois ? ",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 1900,
+    "max": 2022,
+    "step": 1
+  },
+  "scores": []
+}

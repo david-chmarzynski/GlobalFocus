@@ -45,12 +45,12 @@
     },
     {
       "conditions": "\"Démangeaisons du gland\" in q_q1_andrologie_015",
-      "tagOID": "S_AND_SYMP_DEMANGEAISONS",
+      "tagOID": "S_AND_SYMP_GENITAL_DEMANGEAISONS",
       "value": 1
     },
     {
       "conditions": "!(\"Démangeaisons du gland\" in q_q1_andrologie_015)",
-      "tagOID": "S_AND_SYMP_DEMANGEAISONS",
+      "tagOID": "S_AND_SYMP_GENITAL_DEMANGEAISONS",
       "value": 0
     },
     {

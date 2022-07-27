@@ -1,0 +1,16 @@
+{
+  "oid": "q_infos_generales_006",
+  "title": "Faites-vous des études ou occupez-vous un emploi actuellement ?",
+  "text": "Faites-vous des études ou occupez-vous un emploi actuellement ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ]
+}

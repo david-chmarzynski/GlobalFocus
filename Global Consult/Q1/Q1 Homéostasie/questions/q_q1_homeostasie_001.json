@@ -1,0 +1,122 @@
+{
+  "oid": "q_q1_homeostasie_001",
+  "title": "Présentez-vous actuellement une de ces situations médicales pour lesquelles le stress oxydo-inflammatoire peut jouer un rôle favorisant ? (plusieurs réponses possibles)",
+  "text": "Présentez-vous actuellement une de ces situations médicales pour lesquelles le stress oxydo-inflammatoire peut jouer un rôle favorisant ? (plusieurs réponses possibles)",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "athérosclérose",
+      "text": "Maladie due à l’athérosclérose : angine de poitrine, infarctus du myocarde, artérite des membres inférieurs et/ou accident vasculaire cérébral."
+    },
+    {
+      "code": "yeux",
+      "text": "Maladie liée au vieillissement des yeux : cataracte et/ou DMLA"
+    },
+    {
+      "code": "asthme",
+      "text": "Maladie inflammatoire chronique pulmonaire : bronchite chronique, BPCO, asthme en traitement et/ou tabagisme actif"
+    },
+    {
+      "code": "neurodégénératif",
+      "text": "Pathologie neurologique neurodégénérative : maladie d’Alzheimer, maladie de Parkinson, maladie à corps de Lewy…"
+    },
+    {
+      "code": "Cancer",
+      "text": "Antécédent de cancer solide (sauf cancer du sang) actuellement sous surveillance ou en rémission"
+    },
+    {
+      "code": "Maladie auto-immune",
+      "text": "Maladie auto-immune en cours de traitement par exemple : thyroïdite, psoriasis, diabète de type 1, sclérose en plaques, polyarthrite rhumatoïde, spondylarthrite ankylosante, psoriasis, lupus érythémateux disséminé, vitiligo, maladie de Crohn, syndrome de Guillain-Barré…"
+    },
+    {
+      "code": "Dépression",
+      "text": "Dépression (hors déprime saisonnière et/ou cyclothymie)"
+    },
+    {
+      "code": "aucun",
+      "text": "Aucune de ces situations"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"athérosclérose\" in q_q1_homeostasie_001",
+      "tagOID": "S_HOMEO_CELL_ATCD_OXYDO_INFLAM_ATHEROSCLEROSE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"athérosclérose\" in q_q1_homeostasie_001)",
+      "tagOID": "S_HOMEO_CELL_ATCD_OXYDO_INFLAM_ATHEROSCLEROSE",
+      "value": 0
+    },
+    {
+      "conditions": "\"yeux\" in q_q1_homeostasie_001",
+      "tagOID": "S_HOMEO_CELL_ATCD_OXYDO_INFLAM_YEUX",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"yeux\" in q_q1_homeostasie_001)",
+      "tagOID": "S_HOMEO_CELL_ATCD_OXYDO_INFLAM_YEUX",
+      "value": 0
+    },
+    {
+      "conditions": "\"asthme\" in q_q1_homeostasie_001",
+      "tagOID": "S_HOMEO_CELL_ATCD_OXYDO_INFLAM_ASTHME",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"asthme\" in q_q1_homeostasie_001)",
+      "tagOID": "S_HOMEO_CELL_ATCD_OXYDO_INFLAM_ASTHME",
+      "value": 0
+    },
+    {
+      "conditions": "\"neurodégénératif\" in q_q1_homeostasie_001",
+      "tagOID": "S_HOMEO_CELL_ATCD_OXYDO_INFLAM_NEURODEGENERATIF",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"neurodégénératif\" in q_q1_homeostasie_001)",
+      "tagOID": "S_HOMEO_CELL_ATCD_OXYDO_INFLAM_NEURODEGENERATIF",
+      "value": 0
+    },
+    {
+      "conditions": "\"Cancer\" in q_q1_homeostasie_001",
+      "tagOID": "S_HOMEO_CELL_ATCD_OXYDO_INFLAM_CANCER",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Cancer\" in q_q1_homeostasie_001)",
+      "tagOID": "S_HOMEO_CELL_ATCD_OXYDO_INFLAM_CANCER",
+      "value": 0
+    },
+    {
+      "conditions": "\"Maladie auto-immune\" in q_q1_homeostasie_001",
+      "tagOID": "S_HOMEO_CELL_ATCD_OXYDO_INFLAM_MAI",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Maladie auto-immune\" in q_q1_homeostasie_001)",
+      "tagOID": "S_HOMEO_CELL_ATCD_OXYDO_INFLAM_MAI",
+      "value": 0
+    },
+    {
+      "conditions": "\"Dépression\" in q_q1_homeostasie_001",
+      "tagOID": "S_HOMEO_CELL_ATCD_OXYDO_INFLAM_DEPRESSION",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Dépression\" in q_q1_homeostasie_001)",
+      "tagOID": "S_HOMEO_CELL_ATCD_OXYDO_INFLAM_DEPRESSION",
+      "value": 0
+    },
+    {
+      "conditions": "\"aucun\" in q_q1_homeostasie_001",
+      "tagOID": "S_HOMEO_CELL_ATCD_OXYDO_INFLAM",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_q1_homeostasie_001)",
+      "tagOID": "S_HOMEO_CELL_ATCD_OXYDO_INFLAM",
+      "value": 1
+    }
+  ]
+}

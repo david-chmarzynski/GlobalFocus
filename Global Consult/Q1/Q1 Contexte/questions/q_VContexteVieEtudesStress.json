@@ -1,0 +1,74 @@
+{
+  "oid": "q_VContexteVieEtudesStress",
+  "title": "Comment évaluez-vous votre niveau de stress actuel en lien avec vos études et/ou votre travail sur une échelle graduée de 0 (pas stressé) à 10 (extrêmement stressé) ?",
+  "text": "Comment évaluez-vous votre niveau de stress actuel en lien avec vos études et/ou votre travail sur une échelle graduée de 0 (pas stressé) à 10 (extrêmement stressé) ?",
+  "type": "ANALOG_SCALE",
+  "scale":{
+    "min":0.0,
+    "max":10.0,
+    "step":1.0,
+    "maxText": "Extrêmement stressé",
+    "midText": "",
+    "minText": "Pas stressé",
+    "maxValue": "10",
+    "midValue": "5",
+    "minValue": "0"
+  },
+  "scores": [
+    {
+      "tagOID": "tag_VContexteVieEtudesStress",
+      "conditions": "q_VContexteVieEtudesStress == 0",
+      "value": 0
+    },
+    {
+      "tagOID": "tag_VContexteVieEtudesStress",
+      "conditions": "q_VContexteVieEtudesStress == 1",
+      "value": 1
+    },
+    {
+      "tagOID": "tag_VContexteVieEtudesStress",
+      "conditions": "q_VContexteVieEtudesStress == 2",
+      "value": 2
+    },
+    {
+      "tagOID": "tag_VContexteVieEtudesStress",
+      "conditions": "q_VContexteVieEtudesStress == 3",
+      "value": 3
+    },
+    {
+      "tagOID": "tag_VContexteVieEtudesStress",
+      "conditions": "q_VContexteVieEtudesStress == 4",
+      "value": 4
+    },
+    {
+      "tagOID": "tag_VContexteVieEtudesStress",
+      "conditions": "q_VContexteVieEtudesStress == 5",
+      "value": 5
+    },
+    {
+      "tagOID": "tag_VContexteVieEtudesStress",
+      "conditions": "q_VContexteVieEtudesStress == 6",
+      "value": 6
+    },
+    {
+      "tagOID": "tag_VContexteVieEtudesStress",
+      "conditions": "q_VContexteVieEtudesStress == 7",
+      "value": 7
+    },
+    {
+      "tagOID": "tag_VContexteVieEtudesStress",
+      "conditions": "q_VContexteVieEtudesStress == 8",
+      "value": 8
+    },
+    {
+      "tagOID": "tag_VContexteVieEtudesStress",
+      "conditions": "q_VContexteVieEtudesStress == 9",
+      "value": 9
+    },
+    {
+      "tagOID": "tag_VContexteVieEtudesStress",
+      "conditions": "q_VContexteVieEtudesStress == 10",
+      "value": 10
+    }
+  ]
+}

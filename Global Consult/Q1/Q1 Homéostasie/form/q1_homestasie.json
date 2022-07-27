@@ -1,0 +1,643 @@
+{
+  "oid": "q1_homestasie",
+  "title": "Q1 Global Focus Homéostasie cellulaire",
+  "estimatedTime": 10,
+  "pricing": 10,
+  "description": "Q1 Global Focus Homéostasie cellulaire",
+  "levelMax": "1",
+  "authors": ["Jean-Philippe Astruc"],
+  "chapters": ["chap_q1_homeostasie"],
+  "professions": ["DENTIST"],
+  "diagnostics": [],
+  "reportingTrees": [
+    {
+      "category": "HEALTH",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "S_HOMEO_CELL",
+        "type": "SCORE",
+        "ranges": [
+          {
+            "min": 0,
+            "max": 0,
+            "color": "00FF00",
+            "text": "HOMEO-CELL"
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "color": "FFFF00",
+            "text": "HOMEO-CELL"
+          },
+          {
+            "min": 2,
+            "max": 2,
+            "color": "FF9900",
+            "text": "HOMEO-CELL"
+          },
+          {
+            "min": 3,
+            "max": 3,
+            "color": "FF0000",
+            "text": "HOMEO-CELL"
+          }
+        ],
+        "children": [
+          {
+            "tagOID": "S_HOMEO_CELL_ATCD_OXYDO_INFLAM",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "ATCD OX-INFL"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "ATCD OX-INFL"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_HOMEO_CELL_ATCD_OXYDO_INFLAM_ATHEROSCLEROSE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ATHEROSC"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ATHEROSC"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HOMEO_CELL_ATCD_OXYDO_INFLAM_YEUX",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "YEUX"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "YEUX"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HOMEO_CELL_ATCD_OXYDO_INFLAM_ASTHME",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ASTHME"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ASTHME"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HOMEO_CELL_ATCD_OXYDO_INFLAM_NEURODEGENERATIF",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "NEURODEG"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "NEURODEG"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HOMEO_CELL_ATCD_OXYDO_INFLAM_CANCER",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CANCER"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CANCER"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HOMEO_CELL_ATCD_OXYDO_INFLAM_MAI",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "MAI"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "MAI"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HOMEO_CELL_ATCD_OXYDO_INFLAM_DEPRESSION",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "DEPRESSION"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "DEPRESSION"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "ATCD OMEGA 3"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "ATCD OMEGA 3"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_CV",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CV"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CV"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_FOIE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "FOIE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "FOIE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_METABOLIQUE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "METABOLIQUE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "METABOLIQUE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_DERMATOLOGIE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "DERMATO"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "DERMATO"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_GYNECOLOGIE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "GYNECO"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "GYNECO"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_TDAH",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "TDAH"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "TDAH"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_MAI",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AUTO-IMMU"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AUTO-IMMU"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_DEPRESSION",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "DEPRESSION"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "DEPRESSION"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "S_HOMEO_CELL_ATCD_EAB",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "ATCD EAB"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "ATCD EAB"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_HOMEO_CELL_ATCD_EAB_HTA",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "HTA"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "HTA"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HOMEO_CELL_ATCD_EAB_REIN",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "REIN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "REIN"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HOMEO_CELL_ATCD_EAB_ANXIETE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ANXIETE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ANXIETE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HOMEO_CELL_ATCD_EAB_RHUMATOLOGIE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "RHUMATO"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "RHUMATO"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HOMEO_CELL_ATCD_EAB_SOMMEIL",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "SOMMEIL"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "SOMMEIL"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HOMEO_CELL_ATCD_EAB_TDAH",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "TDAH"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "TDAH"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "S_HOMEO_CELL_ATCD_MITOCHONDRIE",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "ATCD MITOCH"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "ATCD MITOCH"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_HOMEO_CELL_ATCD_MITOCHONDRIE_DEPRESSION",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "DEPRESSION"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "DEPRESSION"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HOMEO_CELL_ATCD_MITOCHONDRIE_METABOLIQUE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "METABOLIQUE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "METABOLIQUE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HOMEO_CELL_ATCD_MITOCHONDRIE_NEURODEGENERATIF",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "NEURODEG"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "NEURODEG"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HOMEO_CELL_ATCD_MITOCHONDRIE_NEUROMUSCULAIRE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "NEURO MUSC"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "NEURO MUSC"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HOMEO_CELL_ATCD_MITOCHONDRIE_SOMMEIL",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "SOMMEIL"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "SOMMEIL"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HOMEO_CELL_ATCD_MITOCHONDRIE_BURNOUT",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "BURNOUT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "BURNOUT"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

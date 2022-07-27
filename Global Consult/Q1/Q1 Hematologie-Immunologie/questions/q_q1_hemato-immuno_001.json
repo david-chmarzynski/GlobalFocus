@@ -1,0 +1,165 @@
+{
+  "oid": "q_q1_hemato-immuno_001",
+  "title": "Avez-vous déjà eu une ou plusieurs de ces pathologies ou situations en lien avec les globules rouges ?",
+  "text": "Avez-vous déjà eu une ou plusieurs de ces pathologies ou situations en lien avec les globules rouges ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "Anémie par carence en fer",
+      "text": "Anémie par carence en fer"
+    },
+    {
+      "code": "Anémie par carence en vitamine B9",
+      "text": "Anémie par carence en vitamine B9"
+    },
+    {
+      "code": "Anémie par carence en vitamine B12",
+      "text": "Anémie par carence en vitamine B12"
+    },
+    {
+      "code": "Anémie inflammatoire",
+      "text": "Anémie inflammatoire"
+    },
+    {
+      "code": "Anémie hémolytique",
+      "text": "Anémie hémolytique"
+    },
+    {
+      "code": "Drépanocytose",
+      "text": "Drépanocytose"
+    },
+    {
+      "code": "Thalassémie",
+      "text": "Thalassémie"
+    },
+    {
+      "code": "Splénomégalie myéloïde (avec myélofibrose)",
+      "text": "Splénomégalie myéloïde (avec myélofibrose)"
+    },
+    {
+      "code": "Maladie de Vaquez",
+      "text": "Maladie de Vaquez"
+    },
+    {
+      "code": "autres",
+      "text": "Autre(s) antécédent(s)"
+    },
+    {
+      "code": "aucun",
+      "text": "Aucun antécédent",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"Anémie par carence en fer\" in q_q1_hemato-immuno_001",
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_FER",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Anémie par carence en fer\" in q_q1_hemato-immuno_001)",
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_FER",
+      "value": 0
+    },
+    {
+      "conditions": "\"Anémie par carence en vitamine B9\" in q_q1_hemato-immuno_001",
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_B9",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Anémie par carence en vitamine B9\" in q_q1_hemato-immuno_001)",
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_B9",
+      "value": 0
+    },
+    {
+      "conditions": "\"Anémie par carence en vitamine B12\" in q_q1_hemato-immuno_001",
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_B12",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Anémie par carence en vitamine B12\" in q_q1_hemato-immuno_001)",
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_B12",
+      "value": 0
+    },
+    {
+      "conditions": "\"Anémie inflammatoire\" in q_q1_hemato-immuno_001",
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_ANEMIE_INFLAMMATOIRE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Anémie inflammatoire\" in q_q1_hemato-immuno_001)",
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_ANEMIE_INFLAMMATOIRE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Anémie hémolytique\" in q_q1_hemato-immuno_001",
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_ANEMIE_HEMOLYTIQUE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Anémie hémolytique\" in q_q1_hemato-immuno_001)",
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_ANEMIE_HEMOLYTIQUE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Drépanocytose\" in q_q1_hemato-immuno_001",
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_DREPANOCYTOSE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Drépanocytose\" in q_q1_hemato-immuno_001)",
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_DREPANOCYTOSE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Thalassémie\" in q_q1_hemato-immuno_001",
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_THALASSEMIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Thalassémie\" in q_q1_hemato-immuno_001)",
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_THALASSEMIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Splénomégalie myéloïde (avec myélofibrose)\" in q_q1_hemato-immuno_001",
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_MYELOFIBROSE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Splénomégalie myéloïde (avec myélofibrose)\" in q_q1_hemato-immuno_001)",
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_MYELOFIBROSE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Maladie de Vaquez\" in q_q1_hemato-immuno_001",
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_VAQUEZ",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Maladie de Vaquez\" in q_q1_hemato-immuno_001)",
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_VAQUEZ",
+      "value": 0
+    },
+    {
+      "conditions": "\"autres\" in q_q1_hemato-immuno_001",
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_AUTRES",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"autres\" in q_q1_hemato-immuno_001)",
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR_AUTRES",
+      "value": 0
+    },
+    {
+      "conditions": "\"aucun\" in q_q1_hemato-immuno_001",
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_q1_hemato-immuno_001)",
+      "tagOID": "S_HE_IM_ATCD_HEMATOLOGIE_GR",
+      "value": 1
+    }
+  ]
+}

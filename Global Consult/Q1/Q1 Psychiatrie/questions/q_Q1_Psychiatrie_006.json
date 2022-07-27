@@ -25,6 +25,10 @@
       "text": "Borderline"
     },
     {
+      "code": "Histrionique",
+      "text": "Histrionique"
+    },
+    {
       "code": "narcissique",
       "text": "Narcissique"
     },
@@ -95,6 +99,16 @@
     {
       "conditions": "!(\"borderline\" in q_Q1_Psychiatrie_006)",
       "tagOID": "S_PSY_ATCD_PERSONNALITE_BORDERLINE",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_006 in \"Histrionique\"",
+      "tagOID": "S_PSY_ATCD_PERSONNALITE_HISTRIONIQUE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Histrionique\" in q_Q1_Psychiatrie_006)",
+      "tagOID": "S_PSY_ATCD_PERSONNALITE_HISTRIONIQUE",
       "value": 0
     },
     {

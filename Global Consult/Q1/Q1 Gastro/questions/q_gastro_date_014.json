@@ -1,0 +1,12 @@
+{
+  "oid": "q_gastro_date_014",
+  "title": "En quelle année le diagnostic de gastrite a-t-il été posé la première fois ? ",
+  "text": "En quelle année le diagnostic de gastrite a-t-il été posé la première fois ? ",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 1900,
+    "max": 2022,
+    "step": 1
+  },
+  "scores": []
+}

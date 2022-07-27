@@ -1,0 +1,11 @@
+{
+  "oid": "q_infos_generales_009",
+  "title": "Quel est votre poids actuel ? (en Kilogrammes)",
+  "text": "Quel est votre poids actuel ? (en Kilogrammes)",
+  "type": "DECIMAL",
+  "scale": {
+    "min": "0",
+    "max": "600",
+    "step": "0.01"
+  }
+}

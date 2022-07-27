@@ -1,0 +1,183 @@
+{
+  "oid": "infos_generales",
+  "title": "Informations générales",
+  "questions": [
+    {
+      "question": "q_infos_generales_000",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_infos_generales_001",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "q_infos_generales_000 == \"0\"",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_infos_generales_000":"0"
+        }
+      }
+    },
+    {
+      "question": "q_infos_generales_002",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_infos_generales_003",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(q_infos_generales_002 == \"0\")",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {"q_infos_generales_002":"0"}
+      }
+    },
+    {
+      "question": "q_infos_generales_005",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(q_infos_generales_002 == \"0\")",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {"q_infos_generales_002":"0"}
+      }
+    },
+    {
+      "question": "q_VContexteVieWEtudesSitu",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VContexteVieWEtudesSituEtudesDetail",
+      "level": 1,
+      "isGlobal": false,
+      "trigger":{
+        "conditions": "!(\"0\" in q_VContexteVieWEtudesSitu)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VContexteVieWEtudesSitu":"8"}
+      }
+    },
+    {
+      "question": "q_VContexteVieWEtudesSituEmploiDetail",
+      "level": 1,
+      "isGlobal": false,
+      "trigger":{
+        "conditions": "!(\"1\" in q_VContexteVieWEtudesSitu)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VContexteVieWEtudesSitu":"8"}
+      }
+    },
+    {
+      "question": "q_VContexteVieWEtudesSituEmploiHeureParSemaine",
+      "level": 1,
+      "isGlobal": false,
+      "trigger":{
+        "conditions": "!(\"1\" in q_VContexteVieWEtudesSitu)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VContexteVieWEtudesSitu":"8"}
+      }
+    },
+    {
+      "question": "q_VContexteVieWEtudesSituEmploiContraintesParticulieres",
+      "level": 1,
+      "isGlobal": false,
+      "trigger":{
+        "conditions": "!(\"1\" in q_VContexteVieWEtudesSitu)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VContexteVieWEtudesSitu":"8"}
+      }
+    },
+    {
+      "question": "q_VContexteVieWEtudesSituAutreDetail",
+      "level": 1,
+      "isGlobal": false,
+      "trigger":{
+        "conditions": "!(\"8\" in q_VContexteVieWEtudesSitu)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VContexteVieWEtudesSitu":"8"}
+      }
+    },
+    {
+      "question": "q_infos_generales_009",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_infos_generales_010",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_infos_generales_011",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_infos_generales_012",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_infos_generales_013",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_infos_generales_015",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_infos_generales_014",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_infos_generales_016",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_infos_generales_017",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_infos_generales_018",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_infos_generales_019",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_infos_generales_020",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"0\" in q_infos_generales_019)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {"q_infos_generales_019":"0"}
+      }
+    },
+    {
+      "question": "q_infos_generales_021",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_infos_generales_022",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"0\" in q_infos_generales_021)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {"q_infos_generales_021":"0"}
+      }
+    }
+  ]
+}

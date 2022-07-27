@@ -1,0 +1,118 @@
+{
+  "oid": "q_q1_gynecologie_066",
+  "title": "Combien de fois avez-vous allaité ?",
+  "text": "Combien de fois avez-vous allaité ?",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": "0",
+    "max": "20",
+    "step": 1
+  },
+  "scores": [
+    {
+      "conditions": "q_q1_gynecologie_066 == 0",
+      "tagOID": "S_GYN_VIE_GENITALE_ALLAITEMENT_NOMBRE",
+      "value": 0
+    },
+    {
+      "conditions": "q_q1_gynecologie_066 == 1",
+      "tagOID": "S_GYN_VIE_GENITALE_ALLAITEMENT_NOMBRE",
+      "value": 1
+    },
+    {
+      "conditions": "q_q1_gynecologie_066 == 2",
+      "tagOID": "S_GYN_VIE_GENITALE_ALLAITEMENT_NOMBRE",
+      "value": 2
+    },
+    {
+      "conditions": "q_q1_gynecologie_066 == 3",
+      "tagOID": "S_GYN_VIE_GENITALE_ALLAITEMENT_NOMBRE",
+      "value": 3
+    },
+    {
+      "conditions": "q_q1_gynecologie_066 == 4",
+      "tagOID": "S_GYN_VIE_GENITALE_ALLAITEMENT_NOMBRE",
+      "value": 4
+    },
+    {
+      "conditions": "q_q1_gynecologie_066 == 5",
+      "tagOID": "S_GYN_VIE_GENITALE_ALLAITEMENT_NOMBRE",
+      "value": 5
+    },
+    {
+      "conditions": "q_q1_gynecologie_066 == 6",
+      "tagOID": "S_GYN_VIE_GENITALE_ALLAITEMENT_NOMBRE",
+      "value": 6
+    },
+    {
+      "conditions": "q_q1_gynecologie_066 == 7",
+      "tagOID": "S_GYN_VIE_GENITALE_ALLAITEMENT_NOMBRE",
+      "value": 7
+    },
+    {
+      "conditions": "q_q1_gynecologie_066 == 8",
+      "tagOID": "S_GYN_VIE_GENITALE_ALLAITEMENT_NOMBRE",
+      "value": 8
+    },
+    {
+      "conditions": "q_q1_gynecologie_066 == 9",
+      "tagOID": "S_GYN_VIE_GENITALE_ALLAITEMENT_NOMBRE",
+      "value": 9
+    },
+    {
+      "conditions": "q_q1_gynecologie_066 == 10",
+      "tagOID": "S_GYN_VIE_GENITALE_ALLAITEMENT_NOMBRE",
+      "value": 10
+    },
+    {
+      "conditions": "q_q1_gynecologie_066 == 11",
+      "tagOID": "S_GYN_VIE_GENITALE_ALLAITEMENT_NOMBRE",
+      "value": 11
+    },
+    {
+      "conditions": "q_q1_gynecologie_066 == 12",
+      "tagOID": "S_GYN_VIE_GENITALE_ALLAITEMENT_NOMBRE",
+      "value": 12
+    },
+    {
+      "conditions": "q_q1_gynecologie_066 == 13",
+      "tagOID": "S_GYN_VIE_GENITALE_ALLAITEMENT_NOMBRE",
+      "value": 13
+    },
+    {
+      "conditions": "q_q1_gynecologie_066 == 14",
+      "tagOID": "S_GYN_VIE_GENITALE_ALLAITEMENT_NOMBRE",
+      "value": 14
+    },
+    {
+      "conditions": "q_q1_gynecologie_066 == 15",
+      "tagOID": "S_GYN_VIE_GENITALE_ALLAITEMENT_NOMBRE",
+      "value": 15
+    },
+    {
+      "conditions": "q_q1_gynecologie_066 == 16",
+      "tagOID": "S_GYN_VIE_GENITALE_ALLAITEMENT_NOMBRE",
+      "value": 16
+    },
+    {
+      "conditions": "q_q1_gynecologie_066 == 17",
+      "tagOID": "S_GYN_VIE_GENITALE_ALLAITEMENT_NOMBRE",
+      "value": 17
+    },
+    {
+      "conditions": "q_q1_gynecologie_066 == 18",
+      "tagOID": "S_GYN_VIE_GENITALE_ALLAITEMENT_NOMBRE",
+      "value": 18
+    },
+    {
+      "conditions": "q_q1_gynecologie_066 == 19",
+      "tagOID": "S_GYN_VIE_GENITALE_ALLAITEMENT_NOMBRE",
+      "value": 19
+    },
+    {
+      "conditions": "q_q1_gynecologie_066 == 20",
+      "tagOID": "S_GYN_VIE_GENITALE_ALLAITEMENT_NOMBRE",
+      "value": 20
+    }
+  ]
+}

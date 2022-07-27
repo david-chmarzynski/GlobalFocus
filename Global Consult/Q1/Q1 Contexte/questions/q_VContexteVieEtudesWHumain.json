@@ -1,0 +1,46 @@
+{
+  "oid": "q_VContexteVieEtudesWHumain",
+  "title": "Êtes-vous satisfait(e) de vos études ou de votre travail actuel sur le plan humain (relations humaines, revenu, épanouissement personnel, perspectives…) ?",
+  "text": "Êtes-vous satisfait(e) de vos études ou de votre travail actuel sur le plan humain (relations humaines, revenu, épanouissement personnel, perspectives…) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisante"
+    },
+    {
+      "code": "1",
+      "text": "Assez satisfaisante"
+    },
+    {
+      "code": "2",
+      "text": "Plutôt insatisfaisante"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisante"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VContexteVieEtudesWHumain == \"0\"",
+      "tagOID": "tag_VContexteVieEtudesWHumain",
+      "value": 0
+    },
+    {
+      "conditions": "q_VContexteVieEtudesWHumain == \"1\"",
+      "tagOID": "tag_VContexteVieEtudesWHumain",
+      "value": 1
+    },
+    {
+      "conditions": "q_VContexteVieEtudesWHumain == \"2\"",
+      "tagOID": "tag_VContexteVieEtudesWHumain",
+      "value": 2
+    },
+    {
+      "conditions": "q_VContexteVieEtudesWHumain == \"3\"",
+      "tagOID": "tag_VContexteVieEtudesWHumain",
+      "value": 3
+    }
+  ]
+}

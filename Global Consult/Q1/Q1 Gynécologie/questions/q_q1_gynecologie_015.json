@@ -1,0 +1,136 @@
+{
+  "oid": "q_q1_gynecologie_015",
+  "title": "Avez-vous déjà eu une ou plusieurs de ces pathologies (ou traitement) ?",
+  "text": "Avez-vous déjà eu une ou plusieurs de ces pathologies (ou traitement) ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "Cancer de l’ovaire",
+      "text": "Cancer de l’ovaire"
+    },
+    {
+      "code": "Ablation chirurgicale d’un(des) ovaire(s) (ovariectomie)",
+      "text": "Ablation chirurgicale d’un(des) ovaire(s) (ovariectomie)"
+    },
+    {
+      "code": "Kyste fonctionnel de l’ovaire",
+      "text": "Kyste fonctionnel de l’ovaire"
+    },
+    {
+      "code": "Syndrome des ovaires poly-kystiques",
+      "text": "Syndrome des ovaires poly-kystiques"
+    },
+    {
+      "code": "Syndrome prémenstruel",
+      "text": "Syndrome prémenstruel (survenue fréquente avant ou au début de règles des symptômes invalidants suivants : douleurs pelviennes, gonflement des seins, irritabilité …)"
+    },
+    {
+      "code": "Infertilité",
+      "text": "Infertilité"
+    },
+    {
+      "code": "Procréation médicalement assistée (PMA)",
+      "text": "Procréation médicalement assistée (PMA)"
+    },
+    {
+      "code": "autres",
+      "text": "Autre(s) antécédent(s) au niveau de(s) ovaire(s)"
+    },
+    {
+      "code": "aucun",
+      "text": "Aucun de ces antécédents"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"Cancer de l’ovaire\" in q_q1_gynecologie_015",
+      "tagOID": "S_GYN_ATCD_OVAIRE_CANCER",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Cancer de l’ovaire\" in q_q1_gynecologie_015)",
+      "tagOID": "S_GYN_ATCD_OVAIRE_CANCER",
+      "value": 0
+    },
+    {
+      "conditions": "\"Ablation chirurgicale d’un(des) ovaire(s) (ovariectomie)\" in q_q1_gynecologie_015",
+      "tagOID": "S_GYN_ATCD_OVAIRE_OVARIECTOMIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Ablation chirurgicale d’un(des) ovaire(s) (ovariectomie)\" in q_q1_gynecologie_015)",
+      "tagOID": "S_GYN_ATCD_OVAIRE_OVARIECTOMIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Kyste fonctionnel de l’ovaire\" in q_q1_gynecologie_015",
+      "tagOID": "S_GYN_ATCD_OVAIRE_KYSTE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Kyste fonctionnel de l’ovaire\" in q_q1_gynecologie_015)",
+      "tagOID": "S_GYN_ATCD_OVAIRE_KYSTE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Syndrome des ovaires poly-kystiques\" in q_q1_gynecologie_015",
+      "tagOID": "S_GYN_ATCD_OVAIRE_SOPK",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Syndrome des ovaires poly-kystiques\" in q_q1_gynecologie_015)",
+      "tagOID": "S_GYN_ATCD_OVAIRE_SOPK",
+      "value": 0
+    },
+    {
+      "conditions": "\"Syndrome prémenstruel\" in q_q1_gynecologie_015",
+      "tagOID": "S_GYN_ATCD_OVAIRE_SPM",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Syndrome prémenstruel\" in q_q1_gynecologie_015)",
+      "tagOID": "S_GYN_ATCD_OVAIRE_SPM",
+      "value": 0
+    },
+    {
+      "conditions": "\"Infertilité\" in q_q1_gynecologie_015",
+      "tagOID": "S_GYN_ATCD_OVAIRE_INFERTILITE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Infertilité\" in q_q1_gynecologie_015)",
+      "tagOID": "S_GYN_ATCD_OVAIRE_INFERTILITE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Procréation médicalement assistée (PMA)\" in q_q1_gynecologie_015",
+      "tagOID": "S_GYN_ATCD_OVAIRE_PMA",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Procréation médicalement assistée (PMA)\" in q_q1_gynecologie_015)",
+      "tagOID": "S_GYN_ATCD_OVAIRE_PMA",
+      "value": 0
+    },
+    {
+      "conditions": "\"autres\" in q_q1_gynecologie_015",
+      "tagOID": "S_GYN_ATCD_OVAIRE_AUTRES",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"autres\" in q_q1_gynecologie_015)",
+      "tagOID": "S_GYN_ATCD_OVAIRE_AUTRES",
+      "value": 0
+    },
+    {
+      "conditions": "\"aucun\" in q_q1_gynecologie_015",
+      "tagOID": "S_GYN_ATCD_OVAIRE",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_q1_gynecologie_015)",
+      "tagOID": "S_GYN_ATCD_OVAIRE",
+      "value": 1
+    }
+  ]
+}

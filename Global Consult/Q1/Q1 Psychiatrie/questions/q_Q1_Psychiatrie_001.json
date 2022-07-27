@@ -1,7 +1,7 @@
 {
   "oid": "q_Q1_Psychiatrie_001",
-  "title": "Vous a-t-on déjà diagnostiqué un trouble anxieux ? (plusieurs réponses possibles)",
-  "text": "Vous a-t-on déjà diagnostiqué un trouble anxieux ? (plusieurs réponses possibles)",
+  "title": "Vous a-t-on déjà diagnostiqué un ou plusieurs de ces troubles anxieux ? (plusieurs réponses possibles)",
+  "text": "Vous a-t-on déjà diagnostiqué un ou plusieurs de ces troubles anxieux ? (plusieurs réponses possibles)",
   "type": "MULTI_CHOICES",
   "choices": [
     {
@@ -26,7 +26,7 @@
     },
     {
       "code": "phobie sociale",
-      "text": "Anxiété sociale (phobie sociale) (peur intense excessive des interactions sociales)"
+      "text": "Anxiété sociale ou phobie sociale (peur intense excessive des interactions sociales)"
     },
     {
       "code": "hypochondrie",
@@ -34,7 +34,7 @@
     },
     {
       "code": "TOC",
-      "text": "Trouble(s) obsessionnel(s) compulsif(s) (pensées angoissantes récurrentes : propreté, vérification…)"
+      "text": "Trouble obsessionnel compulsif (pensées angoissantes récurrentes : propreté, vérification…)"
     },
     {
       "code": "aucun",

@@ -1,0 +1,46 @@
+{
+  "oid": "q_VContexteVieEtudesWOrganisation",
+  "title": "Êtes-vous satisfait(e) de l’organisation pratique de vos études ou de votre travail (cadre, horaires, charge de travail, transport, cantine…) ?",
+  "text": "Êtes-vous satisfait(e) de l’organisation pratique de vos études ou de votre travail (cadre, horaires, charge de travail, transport, cantine…) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisante"
+    },
+    {
+      "code": "1",
+      "text": "Assez satisfaisante"
+    },
+    {
+      "code": "2",
+      "text": "Plutôt insatisfaisante"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisante"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VContexteVieEtudesWOrganisation == \"0\"",
+      "tagOID": "tag_VContexteVieEtudesWOrganisation",
+      "value": 0
+    },
+    {
+      "conditions": "q_VContexteVieEtudesWOrganisation == \"1\"",
+      "tagOID": "tag_VContexteVieEtudesWOrganisation",
+      "value": 1
+    },
+    {
+      "conditions": "q_VContexteVieEtudesWOrganisation == \"2\"",
+      "tagOID": "tag_VContexteVieEtudesWOrganisation",
+      "value": 2
+    },
+    {
+      "conditions": "q_VContexteVieEtudesWOrganisation == \"3\"",
+      "tagOID": "tag_VContexteVieEtudesWOrganisation",
+      "value": 3
+    }
+  ]
+}

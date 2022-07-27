@@ -1,0 +1,46 @@
+{
+  "oid": "q_q1_homeostasie_000",
+  "title": "Le bon fonctionnement de vos cellules dépend à la fois de votre génétique (héréditaire) et de votre mode de vie qui influence directement l’expression de vos gènes et l’évolution de votre santé.   Comment évaluez-vous votre mode de vie de manière globale (qualité de votre alimentation, de votre sommeil, niveau et gestion du stress, niveau de sédentarité et d’activité physique) ?",
+  "text": "Le bon fonctionnement de vos cellules dépend à la fois de votre génétique (héréditaire) et de votre mode de vie qui influence directement l’expression de vos gènes et l’évolution de votre santé.   Comment évaluez-vous votre mode de vie de manière globale (qualité de votre alimentation, de votre sommeil, niveau et gestion du stress, niveau de sédentarité et d’activité physique) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisant"
+    },
+    {
+      "code": "1",
+      "text": "Légèrement insatisfaisant"
+    },
+    {
+      "code": "2",
+      "text": "Plutôt insatisfaisant"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisant"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q1_homeostasie_000 == \"0\"",
+      "tagOID": "S_HOMEO_CELL",
+      "value": 0
+    },
+    {
+      "conditions": "q_q1_homeostasie_000 == \"1\"",
+      "tagOID": "S_HOMEO_CELL",
+      "value": 1
+    },
+    {
+      "conditions": "q_q1_homeostasie_000 == \"2\"",
+      "tagOID": "S_HOMEO_CELL",
+      "value": 2
+    },
+    {
+      "conditions": "q_q1_homeostasie_000 == \"3\"",
+      "tagOID": "S_HOMEO_CELL",
+      "value": 3
+    }
+  ]
+}

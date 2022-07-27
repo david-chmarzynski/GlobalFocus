@@ -1,0 +1,44 @@
+{
+  "oid": "q_VContexteVieWEtudesSitu",
+  "title": "Quelle est votre situation actuelle par rapport aux études ou au travail ?",
+  "text": "Quelle est votre situation actuelle par rapport aux études ou au travail ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Études (école, collège, lycée, faculté, formations…)"
+    },
+    {
+      "code": "1",
+      "text": "Emploi rémunéré"
+    },
+    {
+      "code": "2",
+      "text": "Demandeur ou à la recherche d’un emploi"
+    },
+    {
+      "code": "3",
+      "text": "Sans emploi pour raisons de santé (invalidité, maladie chronique, handicap…)"
+    },
+    {
+      "code": "4",
+      "text": "Sans emploi par choix personnel"
+    },
+    {
+      "code": "5",
+      "text": "Sans emploi car pas d’activité professionnelle"
+    },
+    {
+      "code": "6",
+      "text": "Bénévolat-activité associative"
+    },
+    {
+      "code": "7",
+      "text": "Retraite-retiré des affaires"
+    },
+    {
+      "code": "8",
+      "text": "Autre (préciser question suivante)"
+    }
+  ]
+}

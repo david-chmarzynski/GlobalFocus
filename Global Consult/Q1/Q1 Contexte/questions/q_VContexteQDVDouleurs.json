@@ -1,0 +1,74 @@
+{
+  "oid": "q_VContexteQDVDouleurs",
+  "title": "Comment évaluez-vous votre niveau d’inconfort ou de douleurs sur une échelle graduée de 0 (Ni inconfort, ni douleur) à 10 (inconfort et douleurs extrêmes) sur la période des 3 derniers mois ?",
+  "text": "Comment évaluez-vous votre niveau d’inconfort ou de douleurs sur une échelle graduée de 0 (Ni inconfort, ni douleur) à 10 (inconfort et douleurs extrêmes) sur la période des 3 derniers mois ?",
+  "type": "ANALOG_SCALE",
+  "scale":{
+    "min":0.0,
+    "max":10.0,
+    "step":1.0,
+    "maxText": "Inconfort et douleurs extrêmes",
+    "midText": "",
+    "minText": "Ni inconfort, ni douleur",
+    "maxValue": "10",
+    "midValue": "5",
+    "minValue": "0"
+  },
+  "scores": [
+    {
+      "tagOID": "tag_VContexteQDVDouleurs",
+      "conditions": "q_VContexteQDVDouleurs == 0",
+      "value": 0
+    },
+    {
+      "tagOID": "tag_VContexteQDVDouleurs",
+      "conditions": "q_VContexteQDVDouleurs == 1",
+      "value": 1
+    },
+    {
+      "tagOID": "tag_VContexteQDVDouleurs",
+      "conditions": "q_VContexteQDVDouleurs == 2",
+      "value": 2
+    },
+    {
+      "tagOID": "tag_VContexteQDVDouleurs",
+      "conditions": "q_VContexteQDVDouleurs == 3",
+      "value": 3
+    },
+    {
+      "tagOID": "tag_VContexteQDVDouleurs",
+      "conditions": "q_VContexteQDVDouleurs == 4",
+      "value": 4
+    },
+    {
+      "tagOID": "tag_VContexteQDVDouleurs",
+      "conditions": "q_VContexteQDVDouleurs == 5",
+      "value": 5
+    },
+    {
+      "tagOID": "tag_VContexteQDVDouleurs",
+      "conditions": "q_VContexteQDVDouleurs == 6",
+      "value": 6
+    },
+    {
+      "tagOID": "tag_VContexteQDVDouleurs",
+      "conditions": "q_VContexteQDVDouleurs == 7",
+      "value": 7
+    },
+    {
+      "tagOID": "tag_VContexteQDVDouleurs",
+      "conditions": "q_VContexteQDVDouleurs == 8",
+      "value": 8
+    },
+    {
+      "tagOID": "tag_VContexteQDVDouleurs",
+      "conditions": "q_VContexteQDVDouleurs == 9",
+      "value": 9
+    },
+    {
+      "tagOID": "tag_VContexteQDVDouleurs",
+      "conditions": "q_VContexteQDVDouleurs == 10",
+      "value": 10
+    }
+  ]
+}

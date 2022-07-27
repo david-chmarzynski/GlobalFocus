@@ -1,0 +1,46 @@
+{
+  "oid": "q_VContexteQDVActivites",
+  "title": "Éprouvez-vous des difficultés pour effectuer vos activités de la vie courante (travail, études, activités domestiques ou familiales, loisirs…) ?",
+  "text": "Éprouvez-vous des difficultés pour effectuer vos activités de la vie courante (travail, études, activités domestiques ou familiales, loisirs…) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Difficultés légères"
+    },
+    {
+      "code": "2",
+      "text": "Difficultés moyennes"
+    },
+    {
+      "code": "3",
+      "text": "Difficultés importantes"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VContexteQDVActivites == \"0\"",
+      "tagOID": "tag_VContexteQDVActivites",
+      "value": 0
+    },
+    {
+      "conditions": "q_VContexteQDVActivites == \"1\"",
+      "tagOID": "tag_VContexteQDVActivites",
+      "value": 1
+    },
+    {
+      "conditions": "q_VContexteQDVActivites == \"2\"",
+      "tagOID": "tag_VContexteQDVActivites",
+      "value": 2
+    },
+    {
+      "conditions": "q_VContexteQDVActivites == \"3\"",
+      "tagOID": "tag_VContexteQDVActivites",
+      "value": 3
+    }
+  ]
+}

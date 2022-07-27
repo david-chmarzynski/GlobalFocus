@@ -3,7 +3,7 @@
   "title": "Global Consult module Informations générales",
   "estimatedTime": 45,
   "pricing": 1,
-  "description": "Ce questionnaire est totalement personnel et confidentiel. Vos données de santé seront sécurisées selon les critères les plus stricts de la CNIL et stockées sur un serveur d’un hébergeur agréé (voir mentions légales). Ce questionnaire a pour but de mieux vous connaître pour optimiser votre consultation.  Conseils :  Prenez un moment de calme et de réflexion pour pouvoir répondre sereinement au questionnaire.  Le temps nécessaire est variable (de 45 minutes à une heure). Préparez votre dossier de santé : ordonnance de traitement, biologie, bilan. Vous aurez aussi besoin d’un mètre de couturière, de connaître votre poids et votre taille.",
+  "description": "Ce questionnaire est totalement personnel et confidentiel. Vos données de santé seront rendues anonymes et seront sécurisées selon les critères les plus stricts de la CNIL. Elles seront stockées dans un serveur d’un hébergeur agréé HDS de droit souverain européen(Lien fiche A4 d’accord-confidentialité). Ce questionnaire a pour but de mieux vous connaître pour optimiser votre consultation. Le temps nécessaire est variable (de 45 minutes à une heure). Voici quelques conseils : Prenez un moment de calme et de réflexion pour pouvoir répondre sereinement au questionnaire ; préparez votre dossier de santé : ordonnance de traitement, allergie médicamenteuse éventuelle, antécédents personnels de santé ; vous aurez aussi besoin d’un mètre de couturière ; de connaître votre poids et votre taille.",
   "levelMax": "1",
   "authors": [
     "Jean-Philippe Astruc"

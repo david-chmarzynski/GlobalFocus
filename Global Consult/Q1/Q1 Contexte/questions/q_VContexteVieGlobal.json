@@ -1,0 +1,46 @@
+{
+  "oid": "q_VContexteVieGlobal",
+  "title": "Comment évaluez-vous globalement votre vie actuelle ?",
+  "text": "Comment évaluez-vous globalement votre vie actuelle ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisante"
+    },
+    {
+      "code": "1",
+      "text": "Assez satisfaisante"
+    },
+    {
+      "code": "2",
+      "text": "Plutôt insatisfaisante"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisante"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VContexteVieGlobal == \"0\"",
+      "tagOID": "tag_VContexteVieGlobal",
+      "value": 0
+    },
+    {
+      "conditions": "q_VContexteVieGlobal == \"1\"",
+      "tagOID": "tag_VContexteVieGlobal",
+      "value": 1
+    },
+    {
+      "conditions": "q_VContexteVieGlobal == \"2\"",
+      "tagOID": "tag_VContexteVieGlobal",
+      "value": 2
+    },
+    {
+      "conditions": "q_VContexteVieGlobal == \"3\"",
+      "tagOID": "tag_VContexteVieGlobal",
+      "value": 3
+    }
+  ]
+}

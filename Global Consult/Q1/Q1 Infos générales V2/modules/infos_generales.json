@@ -45,28 +45,58 @@
       }
     },
     {
-      "question": "q_infos_generales_006",
+      "question": "q_VContexteVieWEtudesSitu",
       "level": 1,
-      "isGlobal": true
+      "isGlobal": false
     },
     {
-      "question": "q_infos_generales_007",
+      "question": "q_VContexteVieWEtudesSituEtudesDetail",
       "level": 1,
-      "isGlobal": true,
-      "trigger": {
-        "conditions": "!(q_infos_generales_006 == \"0\")",
+      "isGlobal": false,
+      "trigger":{
+        "conditions": "!(\"0\" in q_VContexteVieWEtudesSitu)",
         "scope": "MODULE_SCOPE",
-        "defaultValues": {"q_infos_generales_006":"0"}
+        "defaultValues":{"q_VContexteVieWEtudesSitu":"8"}
       }
     },
     {
-      "question": "q_infos_generales_008",
+      "question": "q_VContexteVieWEtudesSituEmploiDetail",
       "level": 1,
-      "isGlobal": true,
-      "trigger": {
-        "conditions": "!(q_infos_generales_006 == \"1\")",
+      "isGlobal": false,
+      "trigger":{
+        "conditions": "!(\"1\" in q_VContexteVieWEtudesSitu)",
         "scope": "MODULE_SCOPE",
-        "defaultValues": {"q_infos_generales_006":"0"}
+        "defaultValues":{"q_VContexteVieWEtudesSitu":"8"}
+      }
+    },
+    {
+      "question": "q_VContexteVieWEtudesSituEmploiHeureParSemaine",
+      "level": 1,
+      "isGlobal": false,
+      "trigger":{
+        "conditions": "!(\"1\" in q_VContexteVieWEtudesSitu)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VContexteVieWEtudesSitu":"8"}
+      }
+    },
+    {
+      "question": "q_VContexteVieWEtudesSituEmploiContraintesParticulieres",
+      "level": 1,
+      "isGlobal": false,
+      "trigger":{
+        "conditions": "!(\"1\" in q_VContexteVieWEtudesSitu)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VContexteVieWEtudesSitu":"8"}
+      }
+    },
+    {
+      "question": "q_VContexteVieWEtudesSituAutreDetail",
+      "level": 1,
+      "isGlobal": false,
+      "trigger":{
+        "conditions": "!(\"8\" in q_VContexteVieWEtudesSitu)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VContexteVieWEtudesSitu":"8"}
       }
     },
     {

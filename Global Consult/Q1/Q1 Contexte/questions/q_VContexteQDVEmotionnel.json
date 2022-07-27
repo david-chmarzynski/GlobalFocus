@@ -1,0 +1,46 @@
+{
+  "oid": "q_VContexteQDVEmotionnel",
+  "title": "Pendant ces 3 derniers mois, vous êtes-vous senti(e) anxieux(se) ou déprimé(e) ?",
+  "text": "Pendant ces 3 derniers mois, vous êtes-vous senti(e) anxieux(se) ou déprimé(e) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Gêne légère"
+    },
+    {
+      "code": "2",
+      "text": "Assez gênant"
+    },
+    {
+      "code": "3",
+      "text": "Gênant"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VContexteQDVEmotionnel == \"0\"",
+      "tagOID": "tag_VContexteQDVEmotionnel",
+      "value": 0
+    },
+    {
+      "conditions": "q_VContexteQDVEmotionnel == \"1\"",
+      "tagOID": "tag_VContexteQDVEmotionnel",
+      "value": 1
+    },
+    {
+      "conditions": "q_VContexteQDVEmotionnel == \"2\"",
+      "tagOID": "tag_VContexteQDVEmotionnel",
+      "value": 2
+    },
+    {
+      "conditions": "q_VContexteQDVEmotionnel == \"3\"",
+      "tagOID": "tag_VContexteQDVEmotionnel",
+      "value": 3
+    }
+  ]
+}

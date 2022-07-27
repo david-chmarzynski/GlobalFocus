@@ -1,0 +1,74 @@
+{
+  "oid": "q_VContexteQDVSante",
+  "title": "Sur une échelle de 0 (pire santé possible) à 10 (meilleure santé possible), comment évaluez-vous votre état de santé ces 3 derniers mois ?",
+  "text": "Sur une échelle de 0 (pire santé possible) à 10 (meilleure santé possible), comment évaluez-vous votre état de santé ces 3 derniers mois ?",
+  "type": "ANALOG_SCALE",
+  "scale":{
+    "min":0.0,
+    "max":10.0,
+    "step":1.0,
+    "maxText": "Meilleure santé possible",
+    "midText": "",
+    "minText": "Pire santé possible",
+    "maxValue": "10",
+    "midValue": "5",
+    "minValue": "0"
+  },
+  "scores": [
+    {
+      "tagOID": "tag_VContexteQDVSante",
+      "conditions": "q_VContexteQDVSante == 0",
+      "value": 0
+    },
+    {
+      "tagOID": "tag_VContexteQDVSante",
+      "conditions": "q_VContexteQDVSante == 1",
+      "value": 1
+    },
+    {
+      "tagOID": "tag_VContexteQDVSante",
+      "conditions": "q_VContexteQDVSante == 2",
+      "value": 2
+    },
+    {
+      "tagOID": "tag_VContexteQDVSante",
+      "conditions": "q_VContexteQDVSante == 3",
+      "value": 3
+    },
+    {
+      "tagOID": "tag_VContexteQDVSante",
+      "conditions": "q_VContexteQDVSante == 4",
+      "value": 4
+    },
+    {
+      "tagOID": "tag_VContexteQDVSante",
+      "conditions": "q_VContexteQDVSante == 5",
+      "value": 5
+    },
+    {
+      "tagOID": "tag_VContexteQDVSante",
+      "conditions": "q_VContexteQDVSante == 6",
+      "value": 6
+    },
+    {
+      "tagOID": "tag_VContexteQDVSante",
+      "conditions": "q_VContexteQDVSante == 7",
+      "value": 7
+    },
+    {
+      "tagOID": "tag_VContexteQDVSante",
+      "conditions": "q_VContexteQDVSante == 8",
+      "value": 8
+    },
+    {
+      "tagOID": "tag_VContexteQDVSante",
+      "conditions": "q_VContexteQDVSante == 9",
+      "value": 9
+    },
+    {
+      "tagOID": "tag_VContexteQDVSante",
+      "conditions": "q_VContexteQDVSante == 10",
+      "value": 10
+    }
+  ]
+}

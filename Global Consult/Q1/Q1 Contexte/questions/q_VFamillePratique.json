@@ -1,0 +1,46 @@
+{
+  "oid": "q_VFamillePratique",
+  "title": "Comment évaluez-vous votre vie familiale sur le plan de l’organisation pratique (cadre de vie, aspects financiers, travaux domestiques, éducation des enfants…) ?",
+  "text": "Comment évaluez-vous votre vie familiale sur le plan de l’organisation pratique (cadre de vie, aspects financiers, travaux domestiques, éducation des enfants…) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisante"
+    },
+    {
+      "code": "1",
+      "text": "Assez satisfaisante"
+    },
+    {
+      "code": "2",
+      "text": "Plutôt insatisfaisante"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisante"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VFamillePratique == \"0\"",
+      "tagOID": "tag_VFamillePratique",
+      "value": 0
+    },
+    {
+      "conditions": "q_VFamillePratique == \"1\"",
+      "tagOID": "tag_VFamillePratique",
+      "value": 1
+    },
+    {
+      "conditions": "q_VFamillePratique == \"2\"",
+      "tagOID": "tag_VFamillePratique",
+      "value": 2
+    },
+    {
+      "conditions": "q_VFamillePratique == \"3\"",
+      "tagOID": "tag_VFamillePratique",
+      "value": 3
+    }
+  ]
+}

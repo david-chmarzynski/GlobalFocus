@@ -1,0 +1,161 @@
+{
+  "oid": "mod_contexte_vie",
+  "title": "Contexte de vie",
+  "questions": [
+    {
+      "question": "q_VContexteVieGlobal",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VContexteVieWEtudesSitu",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VContexteVieWEtudesSituEtudesDetail",
+      "level": 1,
+      "isGlobal": false,
+      "trigger":{
+        "conditions": "!(\"0\" in q_VContexteVieWEtudesSitu)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VContexteVieWEtudesSitu":"8"}
+      }
+    },
+    {
+      "question": "q_VContexteVieWEtudesSituEmploiDetail",
+      "level": 1,
+      "isGlobal": false,
+      "trigger":{
+        "conditions": "!(\"1\" in q_VContexteVieWEtudesSitu)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VContexteVieWEtudesSitu":"8"}
+      }
+    },
+    {
+      "question": "q_VContexteVieWEtudesSituEmploiHeureParSemaine",
+      "level": 1,
+      "isGlobal": false,
+      "trigger":{
+        "conditions": "!(\"1\" in q_VContexteVieWEtudesSitu)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VContexteVieWEtudesSitu":"8"}
+      }
+    },
+    {
+      "question": "q_VContexteVieWEtudesSituEmploiContraintesParticulieres",
+      "level": 1,
+      "isGlobal": false,
+      "trigger":{
+        "conditions": "!(\"1\" in q_VContexteVieWEtudesSitu)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VContexteVieWEtudesSitu":"8"}
+      }
+    },
+    {
+      "question": "q_VContexteVieWEtudesSituAutreDetail",
+      "level": 1,
+      "isGlobal": false,
+      "trigger":{
+        "conditions": "!(\"8\" in q_VContexteVieWEtudesSitu)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VContexteVieWEtudesSitu":"8"}
+      }
+    },
+    {
+      "question": "q_VContexteVieWEtudesVecu",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VContexteVieEtudesWOrganisation",
+      "level": 1,
+      "isGlobal": false,
+      "trigger":{
+        "conditions": "!(\"0\" in q_VContexteVieWEtudesSitu || \"1\" in q_VContexteVieWEtudesSitu || \"6\" in q_VContexteVieWEtudesSitu)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VContexteVieWEtudesSitu":"8"}
+      }
+    },
+    {
+      "question": "q_VContexteVieEtudesWHumain",
+      "level": 1,
+      "isGlobal": false,
+      "trigger":{
+        "conditions": "!(\"0\" in q_VContexteVieWEtudesSitu || \"1\" in q_VContexteVieWEtudesSitu || \"6\" in q_VContexteVieWEtudesSitu)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VContexteVieWEtudesSitu":"8"}
+      }
+    },
+    {
+      "question": "q_VContexteVieEtudesStress",
+      "level": 1,
+      "isGlobal": false,
+      "trigger":{
+        "conditions": "!(\"0\" in q_VContexteVieWEtudesSitu || \"1\" in q_VContexteVieWEtudesSitu || \"6\" in q_VContexteVieWEtudesSitu)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VContexteVieWEtudesSitu":"8"}
+      }
+    },
+    {
+      "question": "q_VContexteVieQDVGlobal",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VContexteQDVDouleurs",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VContexteQDVEmotionnel",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VContexteQDVSante",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VContexteQDVCognitif",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VContexteQDVMobilite",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VContexteQDVAutonomie",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VContexteQDVActivites",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VContexteVieFamilleGlobal",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VContexteFamilleStress",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VFamilleHumaine",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VFamillePratique",
+      "level": 1,
+      "isGlobal": false
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "oid": "q_VFamilleHumaine",
+  "title": "Comment évaluez-vous votre vie familiale sur le plan humain (vie de couple, relations familiales et amicales, activités sportives ou de loisirs, soucis familiaux…) ?",
+  "text": "Comment évaluez-vous votre vie familiale sur le plan humain (vie de couple, relations familiales et amicales, activités sportives ou de loisirs, soucis familiaux…) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisante"
+    },
+    {
+      "code": "1",
+      "text": "Assez satisfaisante"
+    },
+    {
+      "code": "2",
+      "text": "Plutôt insatisfaisante"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisante"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VFamilleHumaine == \"0\"",
+      "tagOID": "tag_VFamilleHumaine",
+      "value": 0
+    },
+    {
+      "conditions": "q_VFamilleHumaine == \"1\"",
+      "tagOID": "tag_VFamilleHumaine",
+      "value": 1
+    },
+    {
+      "conditions": "q_VFamilleHumaine == \"2\"",
+      "tagOID": "tag_VFamilleHumaine",
+      "value": 2
+    },
+    {
+      "conditions": "q_VFamilleHumaine == \"3\"",
+      "tagOID": "tag_VFamilleHumaine",
+      "value": 3
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "oid": "q_VContexteQDVCognitif",
+  "title": "Pendant ces 3 derniers mois, avez-vous éprouvé des difficultés avec votre mémoire ou votre capacité de concentration ?",
+  "text": "Pendant ces 3 derniers mois, avez-vous éprouvé des difficultés avec votre mémoire ou votre capacité de concentration ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Gêne légère"
+    },
+    {
+      "code": "2",
+      "text": "Assez gênant"
+    },
+    {
+      "code": "3",
+      "text": "Gênant"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VContexteQDVCognitif == \"0\"",
+      "tagOID": "tag_VContexteQDVCognitif",
+      "value": 0
+    },
+    {
+      "conditions": "q_VContexteQDVCognitif == \"1\"",
+      "tagOID": "tag_VContexteQDVCognitif",
+      "value": 1
+    },
+    {
+      "conditions": "q_VContexteQDVCognitif == \"2\"",
+      "tagOID": "tag_VContexteQDVCognitif",
+      "value": 2
+    },
+    {
+      "conditions": "q_VContexteQDVCognitif == \"3\"",
+      "tagOID": "tag_VContexteQDVCognitif",
+      "value": 3
+    }
+  ]
+}

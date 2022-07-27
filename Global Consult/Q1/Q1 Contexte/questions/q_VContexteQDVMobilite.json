@@ -1,0 +1,46 @@
+{
+  "oid": "q_VContexteQDVMobilite",
+  "title": "Avez-vous des difficultés pour vous déplacer à pied ?",
+  "text": "Avez-vous des difficultés pour vous déplacer à pied ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Difficultés légères"
+    },
+    {
+      "code": "2",
+      "text": "Difficultés moyennes"
+    },
+    {
+      "code": "3",
+      "text": "Difficultés importantes"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VContexteQDVMobilite == \"0\"",
+      "tagOID": "tag_VContexteQDVMobilite",
+      "value": 0
+    },
+    {
+      "conditions": "q_VContexteQDVMobilite == \"1\"",
+      "tagOID": "tag_VContexteQDVMobilite",
+      "value": 1
+    },
+    {
+      "conditions": "q_VContexteQDVMobilite == \"2\"",
+      "tagOID": "tag_VContexteQDVMobilite",
+      "value": 2
+    },
+    {
+      "conditions": "q_VContexteQDVMobilite == \"3\"",
+      "tagOID": "tag_VContexteQDVMobilite",
+      "value": 3
+    }
+  ]
+}

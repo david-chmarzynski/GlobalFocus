@@ -1,7 +1,7 @@
 {
   "oid": "q_infos_generales_021",
-  "title": "Prenez-vous actuellement un traitement non médicamenteux ?",
-  "text": "Prenez-vous actuellement un traitement non médicamenteux ?",
+  "title": "Prenez-vous actuellement un traitement non médicamenteux (homéopathie, phytothérapie, huiles essentielles, compléments nutritionnels, etc) ?",
+  "text": "Prenez-vous actuellement un traitement non médicamenteux (homéopathie, phytothérapie, huiles essentielles, compléments nutritionnels, etc) ?",
   "type": "SINGLE_CHOICE_RADIO",
   "choices": [
     {

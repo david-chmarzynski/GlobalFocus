@@ -1,0 +1,46 @@
+{
+  "oid": "q_VContexteVieWEtudesVecu",
+  "title": "Êtes-vous satisfait(e) de votre situation actuelle par rapport aux études-travail-retraite (ou absence) ? ",
+  "text": "Êtes-vous satisfait(e) de votre situation actuelle par rapport aux études-travail-retraite (ou absence) ? ",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfait(e)"
+    },
+    {
+      "code": "1",
+      "text": "Assez satisfait(e)"
+    },
+    {
+      "code": "2",
+      "text": "Plutôt insatisfait(e)"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfait(e)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VContexteVieWEtudesVecu == \"0\"",
+      "tagOID": "tag_VContexteVieWEtudesVecu",
+      "value": 0
+    },
+    {
+      "conditions": "q_VContexteVieWEtudesVecu == \"1\"",
+      "tagOID": "tag_VContexteVieWEtudesVecu",
+      "value": 1
+    },
+    {
+      "conditions": "q_VContexteVieWEtudesVecu == \"2\"",
+      "tagOID": "tag_VContexteVieWEtudesVecu",
+      "value": 2
+    },
+    {
+      "conditions": "q_VContexteVieWEtudesVecu == \"3\"",
+      "tagOID": "tag_VContexteVieWEtudesVecu",
+      "value": 3
+    }
+  ]
+}

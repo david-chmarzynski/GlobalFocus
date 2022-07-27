@@ -1,0 +1,46 @@
+{
+  "oid": "q_VContexteQDVAutonomie",
+  "title": "Avez-vous des difficultés pour vous laver ou pour vous habiller ?",
+  "text": "Avez-vous des difficultés pour vous laver ou pour vous habiller ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Difficultés légères"
+    },
+    {
+      "code": "2",
+      "text": "Difficultés moyennes"
+    },
+    {
+      "code": "3",
+      "text": "Difficultés importantes"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VContexteQDVAutonomie == \"0\"",
+      "tagOID": "tag_VContexteQDVAutonomie",
+      "value": 0
+    },
+    {
+      "conditions": "q_VContexteQDVAutonomie == \"1\"",
+      "tagOID": "tag_VContexteQDVAutonomie",
+      "value": 1
+    },
+    {
+      "conditions": "q_VContexteQDVAutonomie == \"2\"",
+      "tagOID": "tag_VContexteQDVAutonomie",
+      "value": 2
+    },
+    {
+      "conditions": "q_VContexteQDVAutonomie == \"3\"",
+      "tagOID": "tag_VContexteQDVAutonomie",
+      "value": 3
+    }
+  ]
+}

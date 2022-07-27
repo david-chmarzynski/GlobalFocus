@@ -1,0 +1,8 @@
+{
+  "oid": "q_VContexteVieWEtudesSituEmploiHeureParSemaine",
+  "title": "Combien d’heures travaillez-vous par semaine ?",
+  "text": "Combien d’heures travaillez-vous par semaine ?",
+  "type": "INTEGER",
+  "choices": [],
+  "scores": []
+}

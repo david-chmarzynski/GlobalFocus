@@ -1,0 +1,12 @@
+{
+  "oid": "q_q1_gynecologie_043",
+  "title": "En quelle année avez-vous eu cette autre pathologie de l’utérus ?",
+  "text": "En quelle année avez-vous eu cette autre pathologie de l’utérus ?",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 1900,
+    "max": 2022,
+    "step": 1
+  },
+  "scores": []
+}

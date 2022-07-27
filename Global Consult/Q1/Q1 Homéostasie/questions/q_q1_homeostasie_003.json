@@ -1,0 +1,108 @@
+{
+  "oid": "q_q1_homeostasie_003",
+  "title": "Présentez-vous actuellement une de ces situations médicales pour lesquelles un déséquilibre acido-basique de l’organisme peut jouer un rôle favorisant ? (plusieurs réponses possibles)",
+  "text": "Présentez-vous actuellement une de ces situations médicales pour lesquelles un déséquilibre acido-basique de l’organisme peut jouer un rôle favorisant ? (plusieurs réponses possibles)",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "Hypertension artérielle traitée",
+      "text": "Hypertension artérielle traitée"
+    },
+    {
+      "code": "Rein",
+      "text": "Lithiase urinaire (colique néphrétique) et/ou insuffisance rénale "
+    },
+    {
+      "code": "Trouble anxieux",
+      "text": "Trouble anxieux : phobie, trouble panique, TOC, stress post traumatique et/ou trouble anxieux généralisé"
+    },
+    {
+      "code": "Rhumatologie",
+      "text": "Tendinite calcifiante, goutte, chondrocalcinose, capsulite de l’épaule et périarthrite scapulo-humérale et/ou ostéoporose."
+    },
+    {
+      "code": "Troubles du sommeil",
+      "text": "Troubles du sommeil, insomnie, syndrome d’apnées du sommeil et/ou syndrome des jambes sans repos."
+    },
+    {
+      "code": "TDAH",
+      "text": "Trouble du déficit de l'attention avec ou sans hyperactivité"
+    },
+    {
+      "code": "aucun",
+      "text": "Aucune de ces situations"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"Hypertension artérielle traitée\" in q_q1_homeostasie_003",
+      "tagOID": "S_HOMEO_CELL_ATCD_EAB_HTA",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Hypertension artérielle traitée\" in q_q1_homeostasie_003)",
+      "tagOID": "S_HOMEO_CELL_ATCD_EAB_HTA",
+      "value": 0
+    },
+    {
+      "conditions": "\"Rein\" in q_q1_homeostasie_003",
+      "tagOID": "S_HOMEO_CELL_ATCD_EAB_REIN",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Rein\" in q_q1_homeostasie_003)",
+      "tagOID": "S_HOMEO_CELL_ATCD_EAB_REIN",
+      "value": 0
+    },
+    {
+      "conditions": "\"Trouble anxieux\" in q_q1_homeostasie_003",
+      "tagOID": "S_HOMEO_CELL_ATCD_EAB_ANXIETE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Trouble anxieux\" in q_q1_homeostasie_003)",
+      "tagOID": "S_HOMEO_CELL_ATCD_EAB_ANXIETE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Rhumatologie\" in q_q1_homeostasie_003",
+      "tagOID": "S_HOMEO_CELL_ATCD_EAB_RHUMATOLOGIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Rhumatologie\" in q_q1_homeostasie_003)",
+      "tagOID": "S_HOMEO_CELL_ATCD_EAB_RHUMATOLOGIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Troubles du sommeil\" in q_q1_homeostasie_003",
+      "tagOID": "S_HOMEO_CELL_ATCD_EAB_SOMMEIL",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Troubles du sommeil\" in q_q1_homeostasie_003)",
+      "tagOID": "S_HOMEO_CELL_ATCD_EAB_SOMMEIL",
+      "value": 0
+    },
+    {
+      "conditions": "\"TDAH\" in q_q1_homeostasie_003",
+      "tagOID": "S_HOMEO_CELL_ATCD_EAB_TDAH",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"TDAH\" in q_q1_homeostasie_003)",
+      "tagOID": "S_HOMEO_CELL_ATCD_EAB_TDAH",
+      "value": 0
+    },
+    {
+      "conditions": "\"aucun\" in q_q1_homeostasie_003",
+      "tagOID": "S_HOMEO_CELL_ATCD_EAB",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_q1_homeostasie_003)",
+      "tagOID": "S_HOMEO_CELL_ATCD_EAB",
+      "value": 1
+    }
+  ]
+}

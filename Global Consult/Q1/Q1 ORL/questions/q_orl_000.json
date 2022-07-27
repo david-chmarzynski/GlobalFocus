@@ -1,7 +1,7 @@
 {
   "oid": "q_orl_000",
-  "title": "Comment évaluez-vous votre état de santé au niveau de la bouche, de la gorge, du nez et des oreilles ( goût, odorat, audition, douleurs, déglutition, infections à répétition, vertiges...) ?",
-  "text": "Comment évaluez-vous votre état de santé au niveau de la bouche, de la gorge, du nez et des oreilles ( goût, odorat, audition, douleurs, déglutition, infections à répétition, vertiges...) ?",
+  "title": "Comment évaluez-vous votre état de santé au niveau de la bouche, de la gorge, du nez et des oreilles (goût, odorat, audition, douleurs, déglutition, infections à répétition, vertiges, etc) ?",
+  "text": "Comment évaluez-vous votre état de santé au niveau de la bouche, de la gorge, du nez et des oreilles (goût, odorat, audition, douleurs, déglutition, infections à répétition, vertiges, etc) ?",
   "type": "SINGLE_CHOICE_RADIO",
   "choices": [
     {

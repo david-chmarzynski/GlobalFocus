@@ -1,0 +1,616 @@
+{
+  "oid": "form_orl",
+  "title": "Global Consult Q1 module ORL",
+  "estimatedTime": 10,
+  "pricing": 0,
+  "description": "Santé au niveau de la bouche, de la gorge du nez et des oreilles",
+  "levelMax": "1",
+  "authors": [
+    "Jacques Bassier"
+  ],
+  "chapters": [
+    "chap_orl"
+  ],
+  "professions": [
+    "DENTIST"
+  ],
+  "formReport": {
+    "reportDiagnostics":[],
+    "reports": {
+      "preventive": "### Patient:  Mr/Mme {{patient_firstname}} {{patient_lastname}} ({{patient_age}}), né(e) le {{patient_dateofbirth}}  ### \n\n {{question_q_orl_009_text}} \n * {{question_q_orl_009_answer}} * \n\n {{question_q_orl_010_text}} \n * {{question_q_orl_010_answer}} *"
+    }
+  },
+  "reportingTrees": [
+    {
+      "category": "HEALTH",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "S_ORL",
+        "type": "SCORE",
+        "ranges": [
+          {
+            "min": 0,
+            "max": 0,
+            "color": "00FF00",
+            "text": "ORL"
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "color": "FFFF00",
+            "text": "ORL"
+          },
+          {
+            "min": 2,
+            "max": 2,
+            "color": "FF9900",
+            "text": "ORL"
+          },
+          {
+            "min": 3,
+            "max": 3,
+            "color": "FF0000",
+            "text": "ORL"
+          }
+        ],
+        "children": [
+          {
+            "tagOID": "S_ORL_ATCD_OREILLE",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "A/OREIL"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "A/OREIL"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_ORL_ATCD_OREILLE_ACOUPHENES",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ACOU"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ACOU"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_OREILLE_HYPOACOUSIE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "HYPO"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "HYPO"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_OREILLE_CHIRURGIE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CHIR"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CHIR"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_OREILLE_NEURINOME",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "NEURI"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "NEURI"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_OREILLE_VERTIGES",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "VERTIG"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "VERTIG"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_OREILLE_CANCER",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CANCER"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CANCER"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_OREILLE_AUTRE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AUTRE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AUTRE"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },  
+          {
+            "tagOID": "S_ORL_ATCD_NEZ",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "A/NEZ"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "A/NEZ"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_ORL_ATCD_NEZ_RHINITE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "RHIN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "RHIN"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_NEZ_SINUSITE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "SINUS"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "SINUS"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_NEZ_POLYPOSE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "POLYP"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "POLYP"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_NEZ_ANOSMIE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ANO"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ANO"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_NEZ_ADENOIDECTOMIE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ADENO"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ADENO"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_NEZ_CANCER",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CANCER"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CANCER"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_NEZ_AUTRE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AUTRE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AUTRE"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },      
+          {
+            "tagOID": "S_ORL_ATCD_GORGE",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "A/GORGE"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "A/GORGE"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_ORL_ATCD_GORGE_ABCES",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ABCES"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ABCES"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_GORGE_AMYGDALECTOMIE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AMYGD"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AMYGD"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_GORGE_POLYPE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "POLYP"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "POLYP"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_GORGE_CANCER",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CANCER"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CANCER"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_GORGE_AUTRE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AUTRE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AUTRE"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "S_ORL_ATCD_BOUCHE",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "A/BOUCHE"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "A/BOUCHE"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_ORL_ATCD_BOUCHE_HERPES",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "HERPES"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "HERPES"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_BOUCHE_MYCOSE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "MYCOS"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "MYCOS"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_BOUCHE_LITHIASE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "LITHIA"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "LITHIA"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_BOUCHE_AGUEUSIE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AGUEU"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AGUEU"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_BOUCHE_CANCER",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CANCER"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CANCER"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_BOUCHE_AUTRE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AUTRE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AUTRE"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

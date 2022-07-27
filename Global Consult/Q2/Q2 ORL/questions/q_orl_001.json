@@ -1,0 +1,109 @@
+{
+  "oid": "q_orl_001",
+  "title": "Au niveau de la bouche (langue, lèvre, gencive, glandes salivaires…), vous a-t-on déjà diagnostiqué ?",
+  "text": "Au niveau de la bouche (langue, lèvre, gencive, glandes salivaires…), vous a-t-on déjà diagnostiqué ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Un herpès"
+    },
+    {
+      "code": "1",
+      "text": "Une mycose"
+    },
+    {
+      "code": "2",
+      "text": "Une lithiase des glandes salivaires"
+    },
+    {
+      "code": "3",
+      "text": "Une perte du goût"
+    },
+    {
+      "code": "4",
+      "text": "Un cancer"
+    },
+    {
+      "code": "5",
+      "text": "Autre(s) antécédent(s)"
+    },
+    {
+      "code": "6",
+      "text": "Aucun de ces antécédents",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"0\" in q_orl_001",
+      "tagOID": "S_ORL_ATCD_BOUCHE_HERPES",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"0\" in q_orl_001)",
+      "tagOID": "S_ORL_ATCD_BOUCHE_HERPES",
+      "value": 0
+    },
+    {
+      "conditions": "\"1\" in q_orl_001",
+      "tagOID": "S_ORL_ATCD_BOUCHE_MYCOSE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"1\" in q_orl_001)",
+      "tagOID": "S_ORL_ATCD_BOUCHE_MYCOSE",
+      "value": 0
+    },
+    {
+      "conditions": "\"2\" in q_orl_001",
+      "tagOID": "S_ORL_ATCD_BOUCHE_LITHIASE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"2\" in q_orl_001)",
+      "tagOID": "S_ORL_ATCD_BOUCHE_LITHIASE",
+      "value": 0
+    },
+    {
+      "conditions": "\"3\" in q_orl_001",
+      "tagOID": "S_ORL_ATCD_BOUCHE_AGUEUSIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"3\" in q_orl_001)",
+      "tagOID": "S_ORL_ATCD_BOUCHE_AGUEUSIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"4\" in q_orl_001",
+      "tagOID": "S_ORL_ATCD_BOUCHE_CANCER",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"4\" in q_orl_001)",
+      "tagOID": "S_ORL_ATCD_BOUCHE_CANCER",
+      "value": 0
+    },
+    {
+      "conditions": "\"5\" in q_orl_001",
+      "tagOID": "S_ORL_ATCD_BOUCHE_AUTRE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"5\" in q_orl_001)",
+      "tagOID": "S_ORL_ATCD_BOUCHE_AUTRE",
+      "value": 0
+    },
+    {
+      "conditions": "\"6\" in q_orl_001",
+      "tagOID": "S_ORL_ATCD_BOUCHE",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"6\" in q_orl_001)",
+      "tagOID": "S_ORL_ATCD_BOUCHE",
+      "value": 1
+    }    
+  ]
+}

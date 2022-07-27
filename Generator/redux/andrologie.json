@@ -1,0 +1,1284 @@
+{
+  "questionaryName": "Q1 Global Focus Andrologie",
+  "chapterOID": "chap_q1_andrologie",
+  "chapterTitle": "chap_Q1 Global Focus Andrologie",
+  "estimatedTime": 10,
+  "pricing": 10,
+  "levelMax": "1",
+  "authors": ["Jean-Philippe Astruc"],
+  "professions": ["DENTIST"],
+  "companyId": [{}],
+  "linkedForm": "",
+  "category": "HEALTH",
+  "scoreStrategy": "SUM",
+  "form": [
+    {
+      "formOID": "q1_andrologie",
+      "formTitle": "Q1 Global Focus Andrologie",
+      "formDescription": "Q1 Global Focus Andrologie"
+    }
+  ],
+  "modules": [
+    {
+      "moduleOID": "q1_andrologie",
+      "moduleTitle": "Andrologie",
+      "questions": [
+        {
+          "module": "",
+          "questionOID": "q_q1_andrologie_000",
+          "questionText": "Comment évaluez-vous votre fonctionnement, votre équilibre au niveau de la sphère masculine (libido, érection, fertilité, prostate, miction...) ?",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_AND",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Satisfaisante",
+              "value": 0,
+              "isExclusive": false,
+              "tagOID": ""
+            },
+            {
+              "text": "Légèrement insatisfaisante",
+              "value": 1,
+              "isExclusive": false,
+              "tagOID": ""
+            },
+            {
+              "text": "Plutôt insatisfaisante",
+              "value": 2,
+              "isExclusive": false,
+              "tagOID": ""
+            },
+            {
+              "text": "Insatisfaisante",
+              "value": "3",
+              "isExclusive": false,
+              "tagOID": ""
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_andrologie_001",
+          "questionText": "Vous a-t-on diagnostiqué une (ou plusieurs) de ces pathologies ?",
+          "type": "MULTI_CHOICES",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_q1_andrologie_000",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_AND_ATCD",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Cancer de la prostate",
+              "value": "cancer prostate",
+              "isExclusive": false,
+              "tagOID": "S_AND_ATCD_CANCER_PROSTATE"
+            },
+            {
+              "text": "Cancer des testicules",
+              "value": "Cancer des testicules",
+              "isExclusive": false,
+              "tagOID": "S_AND_ATCD_CANCER_TESTICULES"
+            },
+            {
+              "text": "Adénome bénin de la prostate",
+              "value": "adenome",
+              "isExclusive": false,
+              "tagOID": "S_AND_ATCD_HBP"
+            },
+            {
+              "text": "Chirurgie prostatique",
+              "value": "Chirurgie prostatique",
+              "isExclusive": false,
+              "tagOID": "S_AND_ATCD_CHIR_PROSTATE"
+            },
+            {
+              "text": "Prostatite",
+              "value": "Prostatite",
+              "isExclusive": false,
+              "tagOID": "S_AND_ATCD_PROSTATITE"
+            },
+            {
+              "text": "Orchite (infection testiculaire)",
+              "value": "orchite",
+              "isExclusive": false,
+              "tagOID": "S_AND_ATCD_ORCHITE"
+            },
+            {
+              "text": "Epididymite",
+              "value": "Epididymite",
+              "isExclusive": false,
+              "tagOID": "S_AND_ATCD_EPIDIDYMITE"
+            },
+            {
+              "text": "Torsion du testicule",
+              "value": "Torsion du testicule",
+              "isExclusive": false,
+              "tagOID": "S_AND_ATCD_TORSION_TESTICULE"
+            },
+            {
+              "text": "Varicocèle",
+              "value": "Varicocèle",
+              "isExclusive": false,
+              "tagOID": "S_AND_ATCD_VARICOCELE"
+            },
+            {
+              "text": "Infertilité",
+              "value": "Infertilité",
+              "isExclusive": false,
+              "tagOID": "S_AND_ATCD_INFERTILITE"
+            },
+            {
+              "text": "Infection à chlamydia",
+              "value": "chlamydia",
+              "isExclusive": false,
+              "tagOID": "S_AND_ATCD_CHLAMYDIA"
+            },
+            {
+              "text": "Maladie sexuellement transmissible (gonocoque, syphilis, herpes...)",
+              "value": "mst",
+              "isExclusive": false,
+              "tagOID": "S_AND_ATCD_MST"
+            },
+            {
+              "text": "Autre(s) antécédent(s) (phymosis, maladie de La Peyronie…)",
+              "value": "autres",
+              "isExclusive": false,
+              "tagOID": "S_AND_ATCD_AUTRES"
+            },
+            {
+              "text": "Aucun de ces antécédents",
+              "value": "aucun",
+              "isExclusive": true,
+              "tagOID": "S_AND_ATCD"
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_andrologie_002",
+          "questionText": "Précisez quelle(s) autre(s) pathologie(s) de l’appareil génital masculin a (ou ont) été diagnostiquée(s) ?",
+          "type": "TEXT",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_andrologie_001",
+          "triggeredValue": "autres",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "regex": ""
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_andrologie_003",
+          "questionText": "En quelle année le diagnostic de cancer de la prostate a été posé la première fois ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_andrologie_001",
+          "triggeredValue": "cancer prostate",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_andrologie_004",
+          "questionText": "En quelle année le diagnostic de cancer testiculaire a été posé la première fois ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_andrologie_001",
+          "triggeredValue": "Cancer des testicules",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_andrologie_005",
+          "questionText": "En quelle année le diagnostic d’hyperplasie bégnine de la prostate a été posé la première fois ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_andrologie_001",
+          "triggeredValue": "adenome",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_andrologie_006",
+          "questionText": "En quelle année a eu lieu votre chirurgie prostatique ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_andrologie_001",
+          "triggeredValue": "Chirurgie prostatique",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_andrologie_007",
+          "questionText": "En quelle année le diagnostic d’orchite a été posé la première fois ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_andrologie_001",
+          "triggeredValue": "orchite",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_andrologie_008",
+          "questionText": "En quelle année le diagnostic d’artérite de torsion des testicules a été posé la première fois ? ",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_andrologie_001",
+          "triggeredValue": "Torsion du testicule",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_andrologie_009",
+          "questionText": "En quelle année le diagnostic d’épididymite a été posé la première fois ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_andrologie_001",
+          "triggeredValue": "Epididymite",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_andrologie_010",
+          "questionText": "En quelle année le diagnostic d’infertilité a été posé la première fois ? ",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_andrologie_001",
+          "triggeredValue": "Infertilité",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_andrologie_011",
+          "questionText": "En quelle année le diagnostic de varicocèle a été posé la première fois ? ",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_andrologie_001",
+          "triggeredValue": "Varicocèle",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_andrologie_012",
+          "questionText": "En quelle année le diagnostic de chlamydia a été posé la première fois ? ",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_andrologie_001",
+          "triggeredValue": "chlamydia",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_andrologie_013",
+          "questionText": "En quelle année le diagnostic de maladie sexuellement transmissible (gonocoque, herpes...) a été posé la première fois ? ",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_andrologie_001",
+          "triggeredValue": "mst",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_andrologie_014",
+          "questionText": "En quelle année le (ou les) diagnostic(s) a (ont) été posé la première fois ?",
+          "type": "ANALOG_SCALE",
+          "isTriggered": true,
+          "triggeredQuestionOID": "q_q1_andrologie_001",
+          "triggeredValue": "autres",
+          "triggeredDefault": "aucun",
+          "tag": "",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": true,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "min": 1900,
+              "max": 2022,
+              "minText": "1900",
+              "midText": "",
+              "maxText": "Cette année",
+              "minValue": "1900",
+              "midValue": "",
+              "maxValue": 2022,
+              "step": 1,
+              "hideAnalogScaleSelectorNumber": false
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_andrologie_015",
+          "questionText": "Au cours des 3 derniers mois, avez-vous présenté ?",
+          "type": "MULTI_CHOICES",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_q1_andrologie_014",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_AND_SYMP",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Douleurs testiculaires",
+              "value": "Douleurs testiculaires",
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_GENITAL_DOULEUR_TESTICULE"
+            },
+            {
+              "text": "Écoulement du gland",
+              "value": "Écoulement du gland",
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_GENITAL_ECOULEMENT"
+            },
+            {
+              "text": "Démangeaisons du gland",
+              "value": "Démangeaisons du gland",
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_DEMANGEAISONS"
+            },
+            {
+              "text": "Aucun de ces symptômes",
+              "value": "aucun",
+              "isExclusive": true,
+              "tagOID": "S_AND_SYMP"
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_andrologie_017",
+          "questionText": "Je ressens de la fatigue, de la lassitude (manque d’énergie)",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_q1_andrologie_016",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_AND_SYMP_HYPOTESTOSTERONE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Pas du tout",
+              "value": 0,
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            },
+            {
+              "text": "Un peu",
+              "value": 1,
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            },
+            {
+              "text": "Moyennement",
+              "value": 2,
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            },
+            {
+              "text": "Beaucoup",
+              "value": "3",
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_andrologie_018",
+          "questionText": "J'ai moins de force musculaire, d'endurance",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_AND_SYMP_HYPOTESTOSTERONE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Pas du tout",
+              "value": 0,
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            },
+            {
+              "text": "Un peu",
+              "value": 1,
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            },
+            {
+              "text": "Moyennement",
+              "value": 2,
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            },
+            {
+              "text": "Beaucoup",
+              "value": "3",
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_andrologie_019",
+          "questionText": "Mon visage est plus pâle, moins musclé",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_AND_SYMP_HYPOTESTOSTERONE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Pas du tout",
+              "value": 0,
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            },
+            {
+              "text": "Un peu",
+              "value": 1,
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            },
+            {
+              "text": "Moyennement",
+              "value": 2,
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            },
+            {
+              "text": "Beaucoup",
+              "value": "3",
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_andrologie_020",
+          "questionText": "J’ai une baisse de libido",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_AND_SYMP_HYPOTESTOSTERONE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Pas du tout",
+              "value": 0,
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            },
+            {
+              "text": "Un peu",
+              "value": 1,
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            },
+            {
+              "text": "Moyennement",
+              "value": 2,
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            },
+            {
+              "text": "Beaucoup",
+              "value": "3",
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_andrologie_021",
+          "questionText": "J'ai une baisse d’intensité de l’érection",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_AND_SYMP_HYPOTESTOSTERONE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Pas du tout",
+              "value": 0,
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            },
+            {
+              "text": "Un peu",
+              "value": 1,
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            },
+            {
+              "text": "Moyennement",
+              "value": 2,
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            },
+            {
+              "text": "Beaucoup",
+              "value": "3",
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_andrologie_022",
+          "questionText": "J’ai tendance à engraisser au niveau du ventre",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_AND_SYMP_HYPOTESTOSTERONE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Pas du tout",
+              "value": 0,
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            },
+            {
+              "text": "Un peu",
+              "value": 1,
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            },
+            {
+              "text": "Moyennement",
+              "value": 2,
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            },
+            {
+              "text": "Beaucoup",
+              "value": "3",
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_andrologie_023",
+          "questionText": "Je suis plus sujet aux infections",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_AND_SYMP_HYPOTESTOSTERONE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Pas du tout",
+              "value": 0,
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            },
+            {
+              "text": "Un peu",
+              "value": 1,
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            },
+            {
+              "text": "Moyennement",
+              "value": 2,
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            },
+            {
+              "text": "Beaucoup",
+              "value": "3",
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_andrologie_024",
+          "questionText": "J’ai une peau de plus en plus sèche",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_AND_SYMP_HYPOTESTOSTERONE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Pas du tout",
+              "value": 0,
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            },
+            {
+              "text": "Un peu",
+              "value": 1,
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            },
+            {
+              "text": "Moyennement",
+              "value": 2,
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            },
+            {
+              "text": "Beaucoup",
+              "value": "3",
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_andrologie_025",
+          "questionText": "Je me sens plus triste et moins entreprenant",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_AND_SYMP_HYPOTESTOSTERONE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Pas du tout",
+              "value": 0,
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            },
+            {
+              "text": "Un peu",
+              "value": 1,
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            },
+            {
+              "text": "Moyennement",
+              "value": 2,
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            },
+            {
+              "text": "Beaucoup",
+              "value": "3",
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q1_andrologie_026",
+          "questionText": "J’ai tendance à m’endormir après le repas du soir",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_AND_SYMP_HYPOTESTOSTERONE",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Pas du tout",
+              "value": 0,
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            },
+            {
+              "text": "Un peu",
+              "value": 1,
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            },
+            {
+              "text": "Moyennement",
+              "value": 2,
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            },
+            {
+              "text": "Beaucoup",
+              "value": "3",
+              "isExclusive": false,
+              "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "tagOID": "S_AND",
+      "tagTitle": "Général Andrologie",
+      "tagDescription": "Général Andrologie",
+      "tagType": "SCORE",
+      "sunburstName": "ANDRO",
+      "module": "q1_andrologie",
+      "rangeMin": [0, 1, 2, 3],
+      "rangeMax": [0, 1, 2, 3],
+      "parent": "",
+      "children": []
+    },
+    {
+      "tagOID": "S_AND_ATCD",
+      "tagTitle": "Antécédent(s) personnel",
+      "tagDescription": "Antécédent(s) personnel",
+      "tagType": "SCORE",
+      "sunburstName": "ATCD",
+      "module": "q1_andrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 15],
+      "parent": "S_AND",
+      "children": []
+    },
+    {
+      "tagOID": "S_AND_ATCD_CANCER_PROSTATE",
+      "tagTitle": "Cancer de la prostate",
+      "tagDescription": "Cancer de la prostate",
+      "tagType": "SCORE",
+      "sunburstName": "KC PROST",
+      "module": "q1_andrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_AND_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_AND_ATCD_CANCER_TESTICULES",
+      "tagTitle": "Cancer des testicules",
+      "tagDescription": "Cancer des testicules",
+      "tagType": "SCORE",
+      "sunburstName": "KC TEST",
+      "module": "q1_andrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_AND_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_AND_ATCD_HBP",
+      "tagTitle": "HBP",
+      "tagDescription": "HBP",
+      "tagType": "SCORE",
+      "sunburstName": "HBP",
+      "module": "q1_andrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_AND_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_AND_ATCD_CHIR_PROSTATE",
+      "tagTitle": "Chirurgie prostatique",
+      "tagDescription": "Chirurgie prostatique",
+      "tagType": "SCORE",
+      "sunburstName": "CHIR PROST",
+      "module": "q1_andrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_AND_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_AND_ATCD_PROSTATITE",
+      "tagTitle": "Prostatite",
+      "tagDescription": "Prostatite",
+      "tagType": "SCORE",
+      "sunburstName": "PROSTATITE",
+      "module": "q1_andrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_AND_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_AND_ATCD_ORCHITE",
+      "tagTitle": "Orchite",
+      "tagDescription": "Orchite",
+      "tagType": "SCORE",
+      "sunburstName": "ORCHITE",
+      "module": "q1_andrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_AND_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_AND_ATCD_EPIDIDYMITE",
+      "tagTitle": "Epididymite",
+      "tagDescription": "Epididymite",
+      "tagType": "SCORE",
+      "sunburstName": "EPIDIDY",
+      "module": "q1_andrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_AND_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_AND_ATCD_TORSION_TESTICULE",
+      "tagTitle": "Torsion du testicule",
+      "tagDescription": "Torsion du testicule",
+      "tagType": "SCORE",
+      "sunburstName": "TORS TEST",
+      "module": "q1_andrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_AND_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_AND_ATCD_VARICOCELE",
+      "tagTitle": "Varicocèle",
+      "tagDescription": "Varicocèle",
+      "tagType": "SCORE",
+      "sunburstName": "VARICOCELE",
+      "module": "q1_andrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_AND_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_AND_ATCD_INFERTILITE",
+      "tagTitle": "Infertilité",
+      "tagDescription": "Infertilité",
+      "tagType": "SCORE",
+      "sunburstName": "INFERT",
+      "module": "q1_andrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_AND_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_AND_ATCD_CHLAMYDIA",
+      "tagTitle": "Chlamydia",
+      "tagDescription": "Chlamydia",
+      "tagType": "SCORE",
+      "sunburstName": "CHLAMYDIA",
+      "module": "q1_andrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_AND_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_AND_ATCD_MST",
+      "tagTitle": "MST",
+      "tagDescription": "MST",
+      "tagType": "SCORE",
+      "sunburstName": "MST",
+      "module": "q1_andrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_AND_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_AND_ATCD_AUTRES",
+      "tagTitle": "Autre(s)",
+      "tagDescription": "Autre(s)",
+      "tagType": "SCORE",
+      "sunburstName": "AUTRES",
+      "module": "q1_andrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_AND_ATCD",
+      "children": []
+    },
+    {
+      "tagOID": "S_AND_SYMP",
+      "tagTitle": "Symptôme(s) personnel",
+      "tagDescription": "Symptôme(s) personnel",
+      "tagType": "SCORE",
+      "sunburstName": "SYMP",
+      "module": "q1_andrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 5],
+      "parent": "S_AND",
+      "children": []
+    },
+    {
+      "tagOID": "S_AND_SYMP_GENITAL_DOULEUR_TESTICULE",
+      "tagTitle": "Douleurs testiculaires",
+      "tagDescription": "Douleurs testiculaires",
+      "tagType": "SCORE",
+      "sunburstName": "DLR TEST",
+      "module": "q1_andrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_AND_SYMP",
+      "children": []
+    },
+    {
+      "tagOID": "S_AND_SYMP_GENITAL_ECOULEMENT",
+      "tagTitle": "Écoulement du gland",
+      "tagDescription": "Écoulement du gland",
+      "tagType": "SCORE",
+      "sunburstName": "ECOUL GLAND",
+      "module": "q1_andrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_AND_SYMP",
+      "children": []
+    },
+    {
+      "tagOID": "S_AND_SYMP_GENITAL_DEMANGEAISONS",
+      "tagTitle": "Démangeaisons du gland",
+      "tagDescription": "Démangeaisons du gland",
+      "tagType": "SCORE",
+      "sunburstName": "PRURIT GLAND",
+      "module": "q1_andrologie",
+      "rangeMin": [0, 1],
+      "rangeMax": [0, 1],
+      "parent": "S_AND_SYMP",
+      "children": []
+    },
+    {
+      "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE",
+      "tagTitle": "Suspicion d’hypofonctionnement testostérone",
+      "tagDescription": "Suspicion d’hypofonctionnement testostérone",
+      "tagType": "SCORE",
+      "sunburstName": "HYPOTEST",
+      "module": "q1_andrologie",
+      "rangeMin": [0, 8, 13, 21],
+      "rangeMax": [7, 12, 20, 30],
+      "parent": "S_AND",
+      "children": []
+    }
+  ]
+}

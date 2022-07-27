@@ -6,19 +6,19 @@
   "choices": [
     {
       "code": "0",
-      "text": "Études (école, collège, lycée, faculté, formations…)"
+      "text": "Études (école, collège, lycée, faculté, formations, etc)"
     },
     {
       "code": "1",
-      "text": "Emploi rémunéré"
+      "text": "Emploi rémunéré (salarié, libéral, artisan, entrepreneur, etc)" 
     },
     {
       "code": "2",
-      "text": "Demandeur ou à la recherche d’un emploi"
+      "text": "Demandeur(euse) ou à la recherche d’un emploi"
     },
     {
       "code": "3",
-      "text": "Sans emploi pour raisons de santé (invalidité, maladie chronique, handicap…)"
+      "text": "Sans emploi pour raisons de santé (invalidité, maladie chronique, handicap, etc)"
     },
     {
       "code": "4",
@@ -30,15 +30,15 @@
     },
     {
       "code": "6",
-      "text": "Bénévolat-activité associative"
+      "text": "Bénévolat, activité associative"
     },
     {
       "code": "7",
-      "text": "Retraite-retiré des affaires"
+      "text": "Retraite, retiré(e) des affaires"
     },
     {
       "code": "8",
-      "text": "Autre (préciser question suivante)"
+      "text": "Autre"
     }
   ]
 }

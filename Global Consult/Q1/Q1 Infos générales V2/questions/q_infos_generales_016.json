@@ -1,7 +1,7 @@
 {
   "oid": "q_infos_generales_016",
-  "title": "Quel est votre motif de consultation ?",
-  "text": "Quel est votre motif de consultation ?",
+  "title": "Quels sont les motifs de votre téléconsultation ?",
+  "text": "Quels sont les motifs de votre téléconsultation ?",
   "type": "MULTI_CHOICES",
   "choices": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "code": "7",
-      "text": "Anxiété et / ou dépression"
+      "text": "Anxiété, dépression"
     },
     {
       "code": "8",

@@ -1,28 +1,48 @@
 {
   "oid": "q_VContexteVieWEtudesSituEmploiContraintesParticulieres",
-  "title": "Votre travail génère-t-il des contraintes particulières ?",
-  "text": "Votre travail génère-t-il des contraintes particulières ?",
+  "title": "Comment s'organise votre travail ?",
+  "text": "Comment s'organise votre travail ?",
   "type": "MULTI_CHOICES",
   "choices": [
     {
       "code": "0",
-      "text": "Travail de nuit"
+      "text": "Horaire réguliers de jour"
     },
     {
       "code": "1",
-      "text": "3x8"
+      "text": "2x8"
     },
     {
       "code": "2",
-      "text": "Travail le weekend"
+      "text": "3x8"
     },
     {
       "code": "3",
-      "text": "Déplacements fréquents"
+      "text": "Travail de nuit"
     },
     {
       "code": "4",
-      "text": "Non",
+      "text": "Travail le samedi"
+    },
+    {
+      "code": "5",
+      "text": "Travail le dimanche"
+    },
+    {
+      "code": "6",
+      "text": "Gardes ou astreintes"
+    },
+    {
+      "code": "7",
+      "text": "Déplacements fréquents"
+    },
+    {
+      "code": "8",
+      "text": "Télétravail"
+    },
+    {
+      "code": "9",
+      "text": "Aucune de ces réponses",
       "exclusive":true
     }
   ]

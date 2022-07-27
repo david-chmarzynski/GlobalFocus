@@ -1,7 +1,7 @@
 {
   "oid": "q_infos_generales_010",
-  "title": "Quel serait votre poids idéal ?",
-  "text": "Quel serait votre poids idéal ?",
+  "title": "Quel serait le poids que vous aimeriez avoir ?",
+  "text": "Quel serait le poids que vous aimeriez avoir ?",
   "type": "DECIMAL",
   "scale": {
     "min": "0",

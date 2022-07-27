@@ -1,12 +1,12 @@
 {
   "oid": "q_orl_002",
-  "title": "Au niveau de la gorge (amygdales, cordes vocales, pharynx, larynx…), vous a-t-on déjà diagnostiqué ? ",
-  "text": "Au niveau de la gorge (amygdales, cordes vocales, pharynx, larynx…), vous a-t-on déjà diagnostiqué ? ",
+  "title": "Au niveau de la gorge (amygdales, cordes vocales, pharynx, larynx, etc), vous a-t-on déjà diagnostiqué ? ",
+  "text": "Au niveau de la gorge (amygdales, cordes vocales, pharynx, larynx, etc), vous a-t-on déjà diagnostiqué ? ",
   "type": "MULTI_CHOICES",
   "choices": [
     {
       "code": "0",
-      "text": "Un phlegmin et/ou un abcès amygdalien"
+      "text": "Un phlegmon et/ou un abcès amygdalien"
     },
     {
       "code": "1",

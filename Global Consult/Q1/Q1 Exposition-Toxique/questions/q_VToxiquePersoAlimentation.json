@@ -1,7 +1,7 @@
 {
   "oid": "q_VToxiquePersoAlimentation",
-  "title": "Faites-vous habituellement attention à avoir une alimentation la plus saine possible ?",
-  "text": "Faites-vous habituellement attention à avoir une alimentation la plus saine possible ?",
+  "title": "Faites-vous habituellement attention à avoir une alimentation la plus saine possible e (alimentation bio, raisonnée, etc) ?",
+  "text": "Faites-vous habituellement attention à avoir une alimentation la plus saine possible e (alimentation bio, raisonnée, etc) ?",
   "type": "SINGLE_CHOICE_RADIO",
   "choices":[
     {"code": "0", "text": "Très fréquemment"},

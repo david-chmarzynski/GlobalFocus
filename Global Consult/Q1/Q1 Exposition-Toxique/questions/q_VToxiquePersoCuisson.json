@@ -1,7 +1,7 @@
 {
   "oid": "q_VToxiquePersoCuisson",
-  "title": "Mangez-vous des aliments cuisinés à haute température : grill, barbecue, friture, sautés à la poêle ou dorés au four ?",
-  "text": "Mangez-vous des aliments cuisinés à haute température : grill, barbecue, friture, sautés à la poêle ou dorés au four ?",
+  "title": "Mangez-vous des aliments cuisinés à haute température : grill, barbecue, friture, grillés à la poêle ou au four ?",
+  "text": "Mangez-vous des aliments cuisinés à haute température : grill, barbecue, friture, grillés à la poêle ou au four ?",
   "type": "SINGLE_CHOICE_RADIO",
   "choices":[
     {"code": "0", "text": "Rarement"},

@@ -1,0 +1,179 @@
+{
+  "oid": "q_q1_stomatologie_001",
+  "title": "Avez-vous eu ou vous a-t-on diagnostiqué ? (plusieurs réponses possibles)",
+  "text": "Avez-vous eu ou vous a-t-on diagnostiqué ? (plusieurs réponses possibles)",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "Parodontite (inflammation chronique des gencives)",
+      "text": "Parodontite (inflammation chronique des gencives)"
+    },
+    {
+      "code": "Bruxisme (serrement ou grincement involontaire des dents)",
+      "text": "Bruxisme (serrement ou grincement involontaire des dents)"
+    },
+    {
+      "code": "Traitement par biphosphonate pour ostéoporose",
+      "text": "Traitement par biphosphonate pour ostéoporose"
+    },
+    {
+      "code": "Traitement orthodontique (appareil type bague et/ou correction de l’occlusion)",
+      "text": "Traitement orthodontique (appareil type bague et/ou correction de l’occlusion)"
+    },
+    {
+      "code": "Caries dentaires ces 3 dernières années",
+      "text": "Caries dentaires ces 3 dernières années"
+    },
+    {
+      "code": "Greffe osseuse ou de gencive",
+      "text": "Greffe osseuse ou de gencive"
+    },
+    {
+      "code": "Bridges et/ou couronnes dentaires",
+      "text": "Bridges et/ou couronnes dentaires"
+    },
+    {
+      "code": "Implant(s) dentaire(s)",
+      "text": "Implant(s) dentaire(s)"
+    },
+    {
+      "code": "Appareil dentaire amovible (dentier)",
+      "text": "Appareil dentaire amovible (dentier)"
+    },
+    {
+      "code": "Orthèse avancée mandibulaire (traitement apnées du sommeil)",
+      "text": "Orthèse avancée mandibulaire (traitement apnées du sommeil)"
+    },
+    {
+      "code": "Autre(s) antécédent(s)",
+      "text": "Autre(s) antécédent(s)"
+    },
+    {
+      "code": "aucun",
+      "text": "Aucun de ces antécédents",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"Parodontite (inflammation chronique des gencives)\" in q_q1_stomatologie_001",
+      "tagOID": "S_STO_ATCD_PARODONTITE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Parodontite (inflammation chronique des gencives)\" in q_q1_stomatologie_001)",
+      "tagOID": "S_STO_ATCD_PARODONTITE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Bruxisme (serrement ou grincement involontaire des dents)\" in q_q1_stomatologie_001",
+      "tagOID": "S_STO_ATCD_BRUXISME",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Bruxisme (serrement ou grincement involontaire des dents)\" in q_q1_stomatologie_001)",
+      "tagOID": "S_STO_ATCD_BRUXISME",
+      "value": 0
+    },
+    {
+      "conditions": "\"Traitement par biphosphonate pour ostéoporose\" in q_q1_stomatologie_001",
+      "tagOID": "S_STO_ATCD_BIPHOSPHONATE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Traitement par biphosphonate pour ostéoporose\" in q_q1_stomatologie_001)",
+      "tagOID": "S_STO_ATCD_BIPHOSPHONATE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Traitement orthodontique (appareil type bague et/ou correction de l’occlusion)\" in q_q1_stomatologie_001",
+      "tagOID": "S_STO_ATCD_ORTHODONTIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Traitement orthodontique (appareil type bague et/ou correction de l’occlusion)\" in q_q1_stomatologie_001)",
+      "tagOID": "S_STO_ATCD_ORTHODONTIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Caries dentaires ces 3 dernières années\" in q_q1_stomatologie_001",
+      "tagOID": "S_STO_ATCD_CARIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Caries dentaires ces 3 dernières années\" in q_q1_stomatologie_001)",
+      "tagOID": "S_STO_ATCD_CARIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Greffe osseuse ou de gencive\" in q_q1_stomatologie_001",
+      "tagOID": "S_STO_ATCD_GREFFE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Greffe osseuse ou de gencive\" in q_q1_stomatologie_001)",
+      "tagOID": "S_STO_ATCD_GREFFE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Bridges et/ou couronnes dentaires\" in q_q1_stomatologie_001",
+      "tagOID": "S_STO_ATCD_BRIDGE_COURONNE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Bridges et/ou couronnes dentaires\" in q_q1_stomatologie_001)",
+      "tagOID": "S_STO_ATCD_BRIDGE_COURONNE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Implant(s) dentaire(s)\" in q_q1_stomatologie_001",
+      "tagOID": "S_STO_ATCD_IMPLANT",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Implant(s) dentaire(s)\" in q_q1_stomatologie_001)",
+      "tagOID": "S_STO_ATCD_IMPLANT",
+      "value": 0
+    },
+    {
+      "conditions": "\"Appareil dentaire amovible (dentier)\" in q_q1_stomatologie_001",
+      "tagOID": "S_STO_ATCD_DENTIER",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Appareil dentaire amovible (dentier)\" in q_q1_stomatologie_001)",
+      "tagOID": "S_STO_ATCD_DENTIER",
+      "value": 0
+    },
+    {
+      "conditions": "\"Orthèse avancée mandibulaire (traitement apnées du sommeil)\" in q_q1_stomatologie_001",
+      "tagOID": "S_STO_ATCD_ORTHESE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Orthèse avancée mandibulaire (traitement apnées du sommeil)\" in q_q1_stomatologie_001)",
+      "tagOID": "S_STO_ATCD_ORTHESE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Autre(s) antécédent(s)\" in q_q1_stomatologie_001",
+      "tagOID": "S_STO_ATCD_AUTRE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Autre(s) antécédent(s)\" in q_q1_stomatologie_001)",
+      "tagOID": "S_STO_ATCD_AUTRE",
+      "value": 0
+    },
+    {
+      "conditions": "\"aucun\" in q_q1_stomatologie_001",
+      "tagOID": "S_STO_ATCD_AUCUN",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_q1_stomatologie_001)",
+      "tagOID": "S_STO_ATCD_AUCUN",
+      "value": 1
+    }
+  ]
+}

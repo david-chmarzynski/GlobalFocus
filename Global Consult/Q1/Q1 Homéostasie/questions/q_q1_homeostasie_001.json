@@ -34,7 +34,8 @@
     },
     {
       "code": "aucun",
-      "text": "Aucune de ces situations"
+      "text": "Aucune de ces situations",
+      "exclusive": true
     }
   ],
   "scores": [

@@ -1,7 +1,7 @@
 {
   "oid": "q_VToxiquePerso",
-  "title": "Comment évaluez-vous votre exposition à des produits toxiques en lien direct avec vos comportements personnels (tabac, alcool, drogues, hygiène, alimentation...)",
-  "text": "Comment évaluez-vous votre exposition à des produits toxiques en lien direct avec vos comportements personnels (tabac, alcool, drogues, hygiène, alimentation...)",
+  "title": "Comment évaluez-vous votre exposition à des produits toxiques en lien direct avec vos comportements personnels (tabac, alcool, drogues, hygiène, alimentation, etc)",
+  "text": "Comment évaluez-vous votre exposition à des produits toxiques en lien direct avec vos comportements personnels (tabac, alcool, drogues, hygiène, alimentation, etc)",
   "type": "SINGLE_CHOICE_RADIO",
   "choices":[
     {"code": "0", "text": "Nulle ou très faible"},

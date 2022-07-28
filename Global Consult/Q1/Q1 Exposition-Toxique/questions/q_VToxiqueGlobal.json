@@ -1,7 +1,7 @@
 {
   "oid": "q_VToxiqueGlobal",
-  "title": "Comment évaluez-vous votre exposition personnelle à des produits toxiques (pollution, tabac, alcool…) dans votre environnement habituel ?",
-  "text": "Comment évaluez-vous votre exposition personnelle à des produits toxiques (pollution, tabac, alcooo…) dans votre environnement habituel ?",
+  "title": "Comment évaluez-vous votre exposition personnelle à des produits toxiques (pollution, tabac, alcool, etc) dans votre environnement habituel ?",
+  "text": "Comment évaluez-vous votre exposition personnelle à des produits toxiques (pollution, tabac, alcool, etc) dans votre environnement habituel ?",
   "type": "SINGLE_CHOICE_RADIO",
   "choices":[
     {"code": "0", "text": "Très faible"},

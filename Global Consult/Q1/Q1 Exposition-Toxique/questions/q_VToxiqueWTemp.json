@@ -1,13 +1,13 @@
 {
   "oid": "q_VToxiqueWTemp",
-  "title": "Êtes-vous exposé dans votre environnement de travail au bruit ou à des températures difficiles ?",
-  "text": "Êtes-vous exposé dans votre environnement de travail au bruit ou à des températures difficiles ?",
+  "title": "Êtes-vous exposé à des températures difficiles à supporter  (chaleur, froid) dans votre environnement de travail ?",
+  "text": "Êtes-vous exposé à des températures difficiles à supporter  (chaleur, froid) dans votre environnement de travail ?",
   "type": "SINGLE_CHOICE_RADIO",
   "choices":[
-    {"code": "0", "text": "Nulle ou très faible"},
-    {"code": "1", "text": "Modérée"},
-    {"code": "2", "text": "Moyenne"},
-    {"code": "3", "text": "Forte"}
+    {"code": "0", "text": "Exposition nulle ou très faible"},
+    {"code": "1", "text": "Exposition modérée"},
+    {"code": "2", "text": "Exposition moyenne"},
+    {"code": "3", "text": "Exposition forte"}
   ],
   "scores":[
     {

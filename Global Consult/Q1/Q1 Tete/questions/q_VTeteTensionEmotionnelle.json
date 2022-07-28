@@ -1,7 +1,7 @@
 {
   "oid": "q_VTeteTensionEmotionnelle",
-  "title": "Comment évaluez-vous votre niveau habituel de tension émotionnelle ?",
-  "text": "Comment évaluez-vous votre niveau habituel de tension émotionnelle ?",
+  "title": "Comment évaluez-vous votre niveau habituel de tension émotionnelle (stress, anxiété, capacité à faire face aux évènements) ?",
+  "text": "Comment évaluez-vous votre niveau habituel de tension émotionnelle (stress, anxiété, capacité à faire face aux évènements) ?",
   "type": "SINGLE_CHOICE_RADIO",
   "choices": [
     {

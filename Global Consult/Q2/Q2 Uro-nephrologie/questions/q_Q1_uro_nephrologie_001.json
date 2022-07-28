@@ -164,6 +164,16 @@
       "conditions": "!(\"autres\" in q_Q1_uro_nephrologie_001)",
       "tagOID": "S_UN_ATCD_AUTRES",
       "value": 0
+    },
+    {
+      "conditions": "\"aucun\" in q_Q1_uro_nephrologie_001",
+      "tagOID": "S_UN_ATCD",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_Q1_uro_nephrologie_001)",
+      "tagOID": "S_UN_ATCD",
+      "value": 1
     }
   ]
 }

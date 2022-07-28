@@ -9,10 +9,8 @@ from os import path
 from os.path import isfile, join
 from requests.exceptions import HTTPError
 
-rootUrl = "http://152.228.208.173:8040/"
-#rootUrl = "http://127.0.0.1:8080/"
-
-TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkNTJhMDQ4My0yNDJjLTRmNzUtODM2OS03OGI3ZGY5MDBiNDQiLCJ0eXBlIjoiQURNSU4iLCJpYXQiOjE2NTU5NzgxNjN9.0ev8Ww271tDN0nLBv2FnDqHwhyER4r8928Ito4dwt-M"
+rootUrl = "https://back.globalfocus.fr/"
+TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZTYzZmRkOS0zM2U2LTQ0MjgtYjM3Zi1lZTI3NWY5YzIyOTUiLCJ0eXBlIjoiQURNSU4iLCJpYXQiOjE2NTI4ODM2Mjl9.e5iFP7jwJO1dsIMKgDsaV9L8-talV4i-GMHzka7kB8U"
 QUESTION_POST_URL = "questions"
 MODULE_POST_URL = "modules"
 CHAPTER_POST_URL = "chapters"

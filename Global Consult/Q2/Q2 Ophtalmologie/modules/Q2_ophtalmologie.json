@@ -1,5 +1,5 @@
 {
-  "oid": "Q1_ophtalmologie",
+  "oid": "Q2_ophtalmologie",
   "title": "Ophtalmologie",
   "questions": [
     {
@@ -23,6 +23,28 @@
           "q_S_OPH_001":"12"
         }
       }
+    },
+    {
+      "question": "q_S_OPH_003",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_S_OPH_004",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"7\" in q_S_OPH_003)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_S_OPH_003":"6"
+        }
+      }
+    },
+    {
+      "question": "q_S_OPH_005",
+      "level": 1,
+      "isGlobal": false
     }
   ]
 }

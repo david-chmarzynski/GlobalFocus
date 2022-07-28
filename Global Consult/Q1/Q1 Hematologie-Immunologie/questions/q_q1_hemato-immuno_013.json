@@ -34,7 +34,8 @@
     },
     {
       "code": "aucun",
-      "text": "Aucun antécédent"
+      "text": "Aucun antécédent",
+      "exclusive": true
     }
   ],
   "scores": [

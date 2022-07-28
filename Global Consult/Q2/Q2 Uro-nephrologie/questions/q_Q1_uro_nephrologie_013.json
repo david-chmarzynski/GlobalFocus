@@ -38,18 +38,19 @@
     },
     {
       "code": "aucun",
-      "text": "Aucun de ces symptômes"
+      "text": "Aucun de ces symptômes",
+      "exclusive": true
     }
   ],
   "scores": [
     {
       "conditions": "\"douleurs reins\" in q_Q1_uro_nephrologie_013",
-      "tagOID": "S_UN_ATCD_DOULEUR_REIN",
+      "tagOID": "S_UN_SYMP_DOULEUR_REIN",
       "value": 1
     },
     {
       "conditions": "!(\"douleurs reins\" in q_Q1_uro_nephrologie_013)",
-      "tagOID": "S_UN_ATCD_DOULEUR_REIN",
+      "tagOID": "S_UN_SYMP_DOULEUR_REIN",
       "value": 0
     },
     {
@@ -124,13 +125,13 @@
     },
     {
       "conditions": "\"aucun\" in q_Q1_uro_nephrologie_013",
-      "tagOID": "S_UN_SYMP_AUCUN",
-      "value": 1
+      "tagOID": "S_UN_SYMP",
+      "value": 0
     },
     {
       "conditions": "!(\"aucun\" in q_Q1_uro_nephrologie_013)",
-      "tagOID": "S_UN_SYMP_AUCUN",
-      "value": 0
+      "tagOID": "S_UN_SYMP",
+      "value": 1
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "oid": "q_q1_hemato-immuno_025",
-  "title": "Quel(s) traitement(s) contre le(s) cancer(s) a(ont) été effectué(s) ?",
-  "text": "Quel(s) traitement(s) contre le(s) cancer(s) a(ont) été effectué(s) ?",
+  "title": "Qu’avez-vous déjà eu comme traitement(s) anti-cancéreux (plusieurs réponses possibles) ?",
+  "text": "Qu’avez-vous déjà eu comme traitement(s) anti-cancéreux (plusieurs réponses possibles) ?",
   "type": "MULTI_CHOICES",
   "choices": [
     {

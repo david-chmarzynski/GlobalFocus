@@ -1,0 +1,46 @@
+{
+  "oid": "q_Q1_uro_nephrologie_000",
+  "title": "Comment évaluez-vous la santé de vos reins et de votre appareil urinaire ?",
+  "text": "Comment évaluez-vous la santé de vos reins et de votre appareil urinaire ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisante"
+    },
+    {
+      "code": "1",
+      "text": "Légèrement insatisfaisante"
+    },
+    {
+      "code": "2",
+      "text": "Plutôt insatisfaisante"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisante"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_Q1_uro_nephrologie_000 == \"0\"",
+      "tagOID": "S_UN",
+      "value": 0
+    },
+    {
+      "conditions": "q_Q1_uro_nephrologie_000 == \"1\"",
+      "tagOID": "S_UN",
+      "value": 1
+    },
+    {
+      "conditions": "q_Q1_uro_nephrologie_000 == \"2\"",
+      "tagOID": "S_UN",
+      "value": 2
+    },
+    {
+      "conditions": "q_Q1_uro_nephrologie_000 == \"3\"",
+      "tagOID": "S_UN",
+      "value": 3
+    }
+  ]
+}

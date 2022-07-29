@@ -1,0 +1,28 @@
+{
+  "oid": "q_VAlimentationScoff4",
+  "title": "Pensez-vous que vous êtes trop gros(se) alors que d’autres vous trouvent trop mince ?",
+  "text": "Pensez-vous que vous êtes trop gros(se) alors que d’autres vous trouvent trop mince ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VAlimentationScoff4 == \"0\"",
+      "tagOID": "tag_VAlimentationScoff",
+      "value": 1
+    },
+    {
+      "conditions": "q_VAlimentationScoff4 == \"1\"",
+      "tagOID": "tag_VAlimentationScoff",
+      "value": 0
+    }
+  ]
+}

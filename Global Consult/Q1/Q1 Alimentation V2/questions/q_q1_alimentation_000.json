@@ -1,0 +1,46 @@
+{
+  "oid": "q_q1_alimentation_000",
+  "title": "Que pensez-vous globalement de votre alimentation habituelle (choix des aliments et comportement alimentaire) ?",
+  "text": "Que pensez-vous globalement de votre alimentation habituelle (choix des aliments et comportement alimentaire) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisante"
+    },
+    {
+      "code": "1",
+      "text": "Assez satisfaisante"
+    },
+    {
+      "code": "2",
+      "text": "Plutôt insatisfaisante"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisante"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q1_alimentation_000 == \"0\"",
+      "tagOID": "TAG_VALIMENTATIONGLOBAL",
+      "value": 0
+    },
+    {
+      "conditions": "q_q1_alimentation_000 == \"1\"",
+      "tagOID": "TAG_VALIMENTATIONGLOBAL",
+      "value": 1
+    },
+    {
+      "conditions": "q_q1_alimentation_000 == \"2\"",
+      "tagOID": "TAG_VALIMENTATIONGLOBAL",
+      "value": 2
+    },
+    {
+      "conditions": "q_q1_alimentation_000 == \"3\"",
+      "tagOID": "TAG_VALIMENTATIONGLOBAL",
+      "value": 3
+    }
+  ]
+}

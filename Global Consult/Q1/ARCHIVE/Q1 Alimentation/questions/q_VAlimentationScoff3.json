@@ -1,0 +1,28 @@
+{
+  "oid": "q_VAlimentationScoff3",
+  "title": "Avez-vous récemment perdu plus de 6 kilos en trois mois ?",
+  "text": "Avez-vous récemment perdu plus de 6 kilos en trois mois ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VAlimentationScoff3 == \"0\"",
+      "tagOID": "tag_VAlimentationScoff",
+      "value": 1
+    },
+    {
+      "conditions": "q_VAlimentationScoff3 == \"1\"",
+      "tagOID": "tag_VAlimentationScoff",
+      "value": 0
+    }
+  ]
+}

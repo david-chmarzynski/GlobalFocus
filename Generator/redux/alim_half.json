@@ -1,0 +1,698 @@
+{
+    "questionaryName": "Global consult Q1 module alimentation",
+    "chapterOID": "chap_q1_alimentation",
+    "chapterTitle": "chap_Global consult Q1 module alimentation",
+    "estimatedTime": 10,
+    "pricing": 10,
+    "levelMax": "1",
+    "authors": [
+        "Jean-Philippe Astruc"
+    ],
+    "professions": [
+        "DENTIST"
+    ],
+    "category": "LIFESTYLE",
+    "scoreStrategy": "SUM",
+    "form": [
+        {
+            "formOID": "form_alim",
+            "formTitle": "Global consult Q1 module alimentation",
+            "formDescription": "Global consult Q1 module alimentation"
+        }
+    ],
+    "modules": [
+        {
+            "moduleOID": "q1_alimentation",
+            "moduleTitle": "q1_alimentation",
+            "questions": [
+                {
+                    "module": "",
+                    "questionOID": "q_q1_alimentation_000",
+                    "questionText": "Que pensez-vous globalement de votre alimentation habituelle (choix des aliments et comportement alimentaire) ?",
+                    "type": "SINGLE_CHOICE_RADIO",
+                    "isTriggered": false,
+                    "triggeredQuestionOID": "",
+                    "triggeredValue": 0,
+                    "triggeredDefault": 0,
+                    "tag": "TAG_VALIMENTATIONGLOBAL",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": false,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "text": "Satisfaisante",
+                            "value": 0,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Assez satisfaisante",
+                            "value": 1,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Plutôt insatisfaisante",
+                            "value": 2,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Insatisfaisante",
+                            "value": "3",
+                            "isExclusive": false,
+                            "tagOID": ""
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_q1_alimentation_001",
+                    "questionText": "Que pensez-vous de votre comportement alimentaire habituel ?",
+                    "type": "SINGLE_CHOICE_RADIO",
+                    "isTriggered": false,
+                    "triggeredQuestionOID": "q_q1_alimentation_000",
+                    "triggeredValue": 0,
+                    "triggeredDefault": 0,
+                    "tag": "TAG_VALIMENTATION_COMPORTEMENT",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": false,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "text": "Satisfaisant",
+                            "value": 0,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Assez satisfaisant",
+                            "value": 1,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Plutôt insatisfaisant",
+                            "value": 2,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Insatisfaisant",
+                            "value": "3",
+                            "isExclusive": false,
+                            "tagOID": ""
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_q1_alimentation_002",
+                    "questionText": "Que pensez-vous du contenu de votre alimentation habituelle (quantité et équilibre alimentaire) ?",
+                    "type": "SINGLE_CHOICE_RADIO",
+                    "isTriggered": false,
+                    "triggeredQuestionOID": "q_q1_alimentation_001",
+                    "triggeredValue": 0,
+                    "triggeredDefault": 0,
+                    "tag": "TAG_VALIMENTATION_CONTENU",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": false,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "text": "Satisfaisante",
+                            "value": 0,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Assez satisfaisante",
+                            "value": 1,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Plutôt insatisfaisante ",
+                            "value": 2,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Insatisfaisante",
+                            "value": "3",
+                            "isExclusive": false,
+                            "tagOID": ""
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_q1_alimentation_003",
+                    "questionText": "Choisissez la proposition qui est la plus proche de vos choix alimentaires par rapport à l’utilisation des aliment d’origine animale (viande, poissons, œuf, produits laitiers)",
+                    "type": "SINGLE_CHOICE_RADIO",
+                    "isTriggered": false,
+                    "triggeredQuestionOID": "q_q1_alimentation_002",
+                    "triggeredValue": 0,
+                    "triggeredDefault": 0,
+                    "tag": "TAG_VALIMENTATION_CONTENU_CONTRAITE_CHOIX",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": false,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "text": "Omnivore diversifié : Vous mangez de tout.",
+                            "value": 0,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Flexitarien : Consommation modérée de viande. Alimentation diversifiée par ailleurs.",
+                            "value": 1,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Semi-végétarien : Pas de viande. Alimentation diversifiée par ailleurs.",
+                            "value": 2,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Lacto-ovo-végétarien : Pas de viande ni poisson. Alimentation diversifiée par ailleurs.",
+                            "value": 3,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Lacto-végétarien : Pas de viande ni poisson ni œuf. ",
+                            "value": 4,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Lacto-végétarien : Pas de viande ni poisson ni œuf. Confidentiel Copyright Global Focus Holding Diffusion interdite Alimentation à base de produits laitiers et de végétaux : fruits, légumes, céréales, légumineuses, féculents, graisses végétales.",
+                            "value": 5,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Végétalien : Pas d’aliment du monde animal. Alimentation uniquement à base de végétaux : fruits, légumes, céréales, légumineuses, féculents, graisses végétales. ",
+                            "value": 6,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Vegan : vous refusez l’exploitation animale et vous ne consommez ni aliments ni produits dérivés provenant du monde animal. Alimentation uniquement à base de végétaux : fruits, légumes, céréales, légumineuses, féculents, graisses végétales.",
+                            "value": 7,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Kéto – alimentation cétogène : limitation drastique des glucides. Alimentation composée de protéines surtout animales + légumes + graisses.",
+                            "value": "8",
+                            "isExclusive": false,
+                            "tagOID": ""
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_q1_alimentation_004",
+                    "questionText": "Choisissez la proposition qui est la plus proche de votre manière habituelle de vous alimenter",
+                    "type": "SINGLE_CHOICE_RADIO",
+                    "isTriggered": false,
+                    "triggeredQuestionOID": "q_q1_alimentation_003",
+                    "triggeredValue": 0,
+                    "triggeredDefault": 0,
+                    "tag": "TAG_VALIMENTATION_CONTENU_TYPOLOGIE",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": false,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "text": "Petit(e) mangeur(se) diversifié(e) : Alimentation variée ; riche en fruits et légumes ; apports énergétiques modérés",
+                            "value": 0,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Gros mangeur diversifié : Alimentation diversifiée ; riche en énergie avec consommation importante de pain, beurre, viande, sauces, féculents, sucre ; grosses portions ; fruits et légumes présents",
+                            "value": 1,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Mangeur standard : Alimentation traditionnelle française ; équilibrée, classique ; sans préférence alimentaire ; portions standard ; fruits et légumes présents",
+                            "value": 2,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Petit(e) mangeur(se) pressé(e) : Consommation d’aliments pratiques, facilement disponibles (viennoiseries, pizza, quiches, snack, plats composés) ; consommation modérée de fruits et légumes ; apports caloriques raisonnables ",
+                            "value": 3,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Gros mangeurs monotones : Apports énergétiques élevés ; consommation importante de pomme de terre, viande, charcuterie, abats, fromage ; alcool, café ; grosses portions ; consommation faible de fruits et légumes",
+                            "value": "4",
+                            "isExclusive": false,
+                            "tagOID": ""
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_q1_alimentation_005",
+                    "questionText": "Suivez-vous actuellement un régime alimentaire particulier pour raison(s) de santé ?",
+                    "type": "MULTI_CHOICES",
+                    "isTriggered": false,
+                    "triggeredQuestionOID": "q_q1_alimentation_004",
+                    "triggeredValue": 0,
+                    "triggeredDefault": 0,
+                    "tag": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": false,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "text": "Régime pauvre en sel (HTA, insuffisance cardiaque, etc)",
+                            "value": 0,
+                            "isExclusive": false,
+                            "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_SEL"
+                        },
+                        {
+                            "text": "Régime/Cholestérol-Triglycérides",
+                            "value": 1,
+                            "isExclusive": false,
+                            "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_DYSLIP"
+                        },
+                        {
+                            "text": "Régime/acide urique",
+                            "value": 2,
+                            "isExclusive": false,
+                            "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_DYSLIP"
+                        },
+                        {
+                            "text": "Régime limité en protéines (insuffisance rénale)",
+                            "value": 3,
+                            "isExclusive": false,
+                            "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_IR"
+                        },
+                        {
+                            "text": "Régime pauvre en Fodmap’s",
+                            "value": 4,
+                            "isExclusive": false,
+                            "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_FODMAPS"
+                        },
+                        {
+                            "text": "Régime/maladie cœliaque",
+                            "value": 5,
+                            "isExclusive": false,
+                            "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_GLUTEN"
+                        },
+                        {
+                            "text": "Régime/allergie alimentaire (arachide, lait, œuf, fruits de mer, blé, soja, etc)",
+                            "value": 6,
+                            "isExclusive": false,
+                            "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_ALLERGIE"
+                        },
+                        {
+                            "text": "Régimes/intolérances alimentaires (lactose, blé, arachide, noisette, kiwi, banane,  crevette, œuf, etc)",
+                            "value": 7,
+                            "isExclusive": false,
+                            "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_INTOL"
+                        },
+                        {
+                            "text": "Aucune de ces réponses",
+                            "value": "8",
+                            "isExclusive": true,
+                            "tagOID": ""
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_q1_alimentation_006",
+                    "questionText": "Sur ces 3 derniers mois, contrôlezvous votre alimentation dans le but de perdre du poids ?",
+                    "type": "SINGLE_CHOICE_RADIO",
+                    "isTriggered": false,
+                    "triggeredQuestionOID": "q_q1_alimentation_005",
+                    "triggeredValue": 0,
+                    "triggeredDefault": 0,
+                    "tag": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_POIDS",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": false,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "text": "Non",
+                            "value": 0,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Oui, je fais un peu attention",
+                            "value": 1,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Oui je fais attention assez souvent",
+                            "value": 2,
+                            "isExclusive": false,
+                            "tagOID": ""
+                        },
+                        {
+                            "text": "Oui je fais attention tout le temps",
+                            "value": "3",
+                            "isExclusive": false,
+                            "tagOID": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "tags": [
+        {
+            "tagOID": "TAG_VALIMENTATIONGLOBAL",
+            "tagTitle": "Satisfaction globale / alimentation habituelle",
+            "tagDescription": "Satisfaction globale / alimentation habituelle",
+            "tagType": "SCORE",
+            "sunburstName": "EVAL/ALIM",
+            "module": "q1_alimentation",
+            "rangeMin": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "rangeMax": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "parent": "",
+            "children": []
+        },
+        {
+            "tagOID": "TAG_VALIMENTATION_COMPORTEMENT",
+            "tagTitle": ": Auto-évaluation du comportement alimentaire",
+            "tagDescription": ": Auto-évaluation du comportement alimentaire",
+            "tagType": "SCORE",
+            "sunburstName": "EVAL/CA",
+            "module": "q1_alimentation",
+            "rangeMin": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "rangeMax": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "parent": "TAG_VALIMENTATIONGLOBAL",
+            "children": []
+        },
+        {
+            "tagOID": "TAG_VALIMENTATION_CONTENU",
+            "tagTitle": "Auto-évaluation du contenu alimentaire",
+            "tagDescription": "Auto-évaluation du contenu alimentaire",
+            "tagType": "SCORE",
+            "sunburstName": "EVAL/CONT",
+            "module": "q1_alimentation",
+            "rangeMin": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "rangeMax": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "parent": "TAG_VALIMENTATIONGLOBAL",
+            "children": []
+        },
+        {
+            "tagOID": "TAG_VALIMENTATION_CONTENU_CONTRAITE_CHOIX",
+            "tagTitle": "Contraintes/choix alimentaires",
+            "tagDescription": "Contraintes/choix alimentaires",
+            "tagType": "SCORE",
+            "sunburstName": "OMNI",
+            "module": "q1_alimentation",
+            "rangeMin": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "rangeMax": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "parent": "TAG_VALIMENTATION_CONTENU",
+            "children": []
+        },
+        {
+            "tagOID": "TAG_VALIMENTATION_CONTENU_TYPOLOGIE",
+            "tagTitle": "Typologie alimentaire",
+            "tagDescription": "Typologie alimentaire",
+            "tagType": "SCORE",
+            "sunburstName": "PMD",
+            "module": "q1_alimentation",
+            "rangeMin": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "rangeMax": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "parent": "TAG_VALIMENTATION_CONTENU",
+            "children": []
+        },
+        {
+            "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ",
+            "tagTitle": "Contraintes alimentaires / santé",
+            "tagDescription": "Contraintes alimentaires / santé",
+            "tagType": "SCORE",
+            "sunburstName": "CONTR/SANTÉ",
+            "module": "q1_alimentation",
+            "rangeMin": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "rangeMax": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "parent": "TAG_VALIMENTATION_COMPORTEMENT",
+            "children": []
+        },
+        {
+            "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_SEL",
+            "tagTitle": "Régime pauvre en sel (HTA, insuffisance cardiaque, etc)",
+            "tagDescription": "Régime pauvre en sel (HTA, insuffisance cardiaque, etc)",
+            "tagType": "SCORE",
+            "sunburstName": "SEL",
+            "module": "q1_alimentation",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ",
+            "children": []
+        },
+        {
+            "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_DYSLIP",
+            "tagTitle": "Régime/Cholestérol-Triglycérides",
+            "tagDescription": "Régime/Cholestérol-Triglycérides",
+            "tagType": "SCORE",
+            "sunburstName": "DYSLIP",
+            "module": "q1_alimentation",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ",
+            "children": []
+        },
+        {
+            "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_",
+            "tagTitle": "Régime/acide urique",
+            "tagDescription": "Régime/acide urique",
+            "tagType": "SCORE",
+            "sunburstName": "URATE",
+            "module": "q1_alimentation",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ",
+            "children": []
+        },
+        {
+            "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_IR",
+            "tagTitle": "Régime limité en protéines (insuffisance rénale)",
+            "tagDescription": "Régime limité en protéines (insuffisance rénale)",
+            "tagType": "SCORE",
+            "sunburstName": "IR",
+            "module": "q1_alimentation",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ",
+            "children": []
+        },
+        {
+            "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_FODMAPS",
+            "tagTitle": "Régime pauvre en Fodmap’s",
+            "tagDescription": "Régime pauvre en Fodmap’s",
+            "tagType": "SCORE",
+            "sunburstName": "FODMAP'S",
+            "module": "q1_alimentation",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ",
+            "children": []
+        },
+        {
+            "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_GLUTEN",
+            "tagTitle": "Régime/maladie cœliaque",
+            "tagDescription": "Régime/maladie cœliaque",
+            "tagType": "SCORE",
+            "sunburstName": "GLUTEN",
+            "module": "q1_alimentation",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ",
+            "children": []
+        },
+        {
+            "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_ALLERGIE",
+            "tagTitle": "Régime/allergie alimentaire (arachide, lait, œuf, fruits de mer, blé, soja, etc)",
+            "tagDescription": "Régime/allergie alimentaire (arachide, lait, œuf, fruits de mer, blé, soja, etc)",
+            "tagType": "SCORE",
+            "sunburstName": "ALLERGIE",
+            "module": "q1_alimentation",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ",
+            "children": []
+        },
+        {
+            "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_INTOL",
+            "tagTitle": "Régimes/intolérances alimentaires (lactose, blé, arachide, noisette, kiwi, banane, crevette, œuf, etc)",
+            "tagDescription": "Régimes/intolérances alimentaires (lactose, blé, arachide, noisette, kiwi, banane, crevette, œuf, etc)",
+            "tagType": "SCORE",
+            "sunburstName": "INTOL",
+            "module": "q1_alimentation",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ",
+            "children": []
+        },
+        {
+            "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_POIDS",
+            "tagTitle": "Contraintes alimentaires / maîtrise du poids",
+            "tagDescription": "Contraintes alimentaires / maîtrise du poids",
+            "tagType": "SCORE",
+            "sunburstName": "ALIM/POIDS",
+            "module": "q1_alimentation",
+            "rangeMin": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "rangeMax": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "parent": "TAG_VALIMENTATION_COMPORTEMENT",
+            "children": []
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+  "oid": "q_q1_alimentation_001",
+  "title": "Que pensez-vous de votre comportement alimentaire habituel ?",
+  "text": "Que pensez-vous de votre comportement alimentaire habituel ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisant"
+    },
+    {
+      "code": "1",
+      "text": "Assez satisfaisant"
+    },
+    {
+      "code": "2",
+      "text": "Plutôt insatisfaisant"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisant"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q1_alimentation_001 == \"0\"",
+      "tagOID": "TAG_VALIMENTATION_COMPORTEMENT",
+      "value": 0
+    },
+    {
+      "conditions": "q_q1_alimentation_001 == \"1\"",
+      "tagOID": "TAG_VALIMENTATION_COMPORTEMENT",
+      "value": 1
+    },
+    {
+      "conditions": "q_q1_alimentation_001 == \"2\"",
+      "tagOID": "TAG_VALIMENTATION_COMPORTEMENT",
+      "value": 2
+    },
+    {
+      "conditions": "q_q1_alimentation_001 == \"3\"",
+      "tagOID": "TAG_VALIMENTATION_COMPORTEMENT",
+      "value": 3
+    }
+  ]
+}

@@ -51,7 +51,7 @@
   ],
   "scores": [
     {
-      "conditions": "\"0 in q_gastro_006\"",
+      "conditions": "\"0\" in q_gastro_006",
       "tagOID": "S_DIG_ATCD_TD_BAS_SIBO",
       "value": 1
     },
@@ -61,7 +61,7 @@
       "value": 0
     },
     {
-      "conditions": "\"1 in q_gastro_006\"",
+      "conditions": "\"1\" in q_gastro_006",
       "tagOID": "S_DIG_ATCD_TD_BAS_TFI",
       "value": 1
     },
@@ -71,7 +71,7 @@
       "value": 0
     },
     {
-      "conditions": "\"2 in q_gastro_006\"",
+      "conditions": "\"2\" in q_gastro_006",
       "tagOID": "S_DIG_ATCD_TD_BAS_POLYPE",
       "value": 1
     },
@@ -81,7 +81,7 @@
       "value": 0
     },
     {
-      "conditions": "\"3 in q_gastro_006\"",
+      "conditions": "\"3\" in q_gastro_006",
       "tagOID": "S_DIG_ATCD_TD_BAS_DIVERTICULE",
       "value": 1
     },
@@ -91,7 +91,7 @@
       "value": 0
     },
     {
-      "conditions": "\"4 in q_gastro_006\"",
+      "conditions": "\"4\" in q_gastro_006",
       "tagOID": "S_DIG_ATCD_TD_BAS_CHRON",
       "value": 1
     },
@@ -101,7 +101,7 @@
       "value": 0
     },
     {
-      "conditions": "\"5 in q_gastro_006\"",
+      "conditions": "\"5\" in q_gastro_006",
       "tagOID": "S_DIG_ATCD_TD_BAS_RCH",
       "value": 1
     },
@@ -111,7 +111,7 @@
       "value": 0
     },
     {
-      "conditions": "\"6 in q_gastro_006\"",
+      "conditions": "\"6\" in q_gastro_006",
       "tagOID": "S_DIG_ATCD_TD_BAS_COL_PMEMB",
       "value": 1
     },
@@ -121,7 +121,7 @@
       "value": 0
     },
     {
-      "conditions": "\"7 in q_gastro_006\"",
+      "conditions": "\"7\" in q_gastro_006",
       "tagOID": "S_DIG_ATCD_TD_BAS_HEMOR",
       "value": 1
     },
@@ -131,7 +131,7 @@
       "value": 0
     },
     {
-      "conditions": "\"8 in q_gastro_006\"",
+      "conditions": "\"8\" in q_gastro_006",
       "tagOID": "S_DIG_ATCD_TD_BAS_F_ANAL",
       "value": 1
     },
@@ -141,7 +141,7 @@
       "value": 0
     },
     {
-      "conditions": "\"9 in q_gastro_006\"",
+      "conditions": "\"9\" in q_gastro_006",
       "tagOID": "S_DIG_ATCD_TD_BAS_INC_ANAL",
       "value": 1
     },
@@ -151,7 +151,7 @@
       "value": 0
     },
     {
-      "conditions": "\"10 in q_gastro_006\"",
+      "conditions": "\"10\" in q_gastro_006",
       "tagOID": "S_DIG_ATCD_TD_BAS_AUTRE",
       "value": 1
     },

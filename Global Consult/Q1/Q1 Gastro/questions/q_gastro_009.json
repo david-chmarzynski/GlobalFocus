@@ -1,7 +1,7 @@
 {
   "oid": "q_gastro_009",
-  "title": "Quelle(s) autre(s) pathologie(s) des organes digestifs annexes (foie, vésicule, pancréas) a (ou ont) été diagnostiquée(s) ? ",
-  "text": "Quelle(s) autre(s) pathologie(s) des organes digestifs annexes (foie, vésicule, pancréas) a (ou ont) été diagnostiquée(s) ? ",
+  "title": "Quelle(s) autre(s) pathologie(s) des organes digestifs annexes (foie, vésicule, pancréas) vous a-t-on diagnostiqué ?",
+  "text": "Quelle(s) autre(s) pathologie(s) des organes digestifs annexes (foie, vésicule, pancréas) vous a-t-on diagnostiqué ?",
   "type": "TEXT",
   "choices": [],
   "scores": []

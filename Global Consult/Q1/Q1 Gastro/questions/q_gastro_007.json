@@ -1,7 +1,7 @@
 {
   "oid": "q_gastro_007",
-  "title": "Quelle(s) autre(s) pathologie(s) digestive basse (intestin grêle, côlon, rectum, anus) a (ou ont) été diagnostiquée(s) ? ",
-  "text": "Quelle(s) autre(s) pathologie(s) digestive basse (intestin grêle, côlon, rectum, anus) a (ou ont) été diagnostiquée(s) ? ",
+  "title": "Quelle(s) autre(s) pathologie(s) digestive basse (intestin grêle, côlon, rectum, anus) vous a-t-on diagnostiqué ?",
+  "text": "Quelle(s) autre(s) pathologie(s) digestive basse (intestin grêle, côlon, rectum, anus) vous a-t-on diagnostiqué ?",
   "type": "TEXT",
   "choices": [],
   "scores": []

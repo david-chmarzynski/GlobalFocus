@@ -1,0 +1,81 @@
+{
+  "oid": "q_gastro_001",
+  "title": "Vous a-t-on déjà diagnostiqué une de ces pathologies ?",
+  "text": "Vous a-t-on déjà diagnostiqué une de ces pathologies ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Cancer digestif (tube digestif, foie, vésicule, voies biliaires, pancréas)"
+    },
+    {
+      "code": "1",
+      "text": "Maladie du tube digestif haut (œsophage, estomac, duodénum) : œsophagite, hernie hiatale, gastrite, ulcère…"
+    },
+    {
+      "code": "2",
+      "text": "Maladie du tube digestif bas (intestin grêle, colon, rectum anus) : SIBO, colopathie fonctionnelle, diverticule, polypes, hémorroïdes…"
+    },
+    {
+      "code": "3",
+      "text": "Maladie des organes digestif annexes (foie, vésicule, voies biliaires, pancréas) : hépatite, stéatose, calcul vésiculaire, pancréatite…"
+    },
+    {
+      "code": "4",
+      "text": "Aucun de ces antécédents",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"0 in q_gastro_001\"",
+      "tagOID": "S_DIG_ATCD_CANCER",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"0\" in q_gastro_001)",
+      "tagOID": "S_DIG_ATCD_CANCER",
+      "value": 1
+    },
+    {
+      "conditions": "\"1 in q_gastro_001\"",
+      "tagOID": "S_DIG_ATCD_TD_HAUT",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"1\" in q_gastro_001)",
+      "tagOID": "S_DIG_ATCD_TD_HAUT",
+      "value": 1
+    },
+    {
+      "conditions": "\"2 in q_gastro_001\"",
+      "tagOID": "S_DIG_ATCD_TD_BAS",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"2\" in q_gastro_001)",
+      "tagOID": "S_DIG_ATCD_TD_BAS",
+      "value": 1
+    },
+    {
+      "conditions": "\"3 in q_gastro_001\"",
+      "tagOID": "S_DIG_ATCD_ANNEXES",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"3\" in q_gastro_001)",
+      "tagOID": "S_DIG_ATCD_ANNEXES",
+      "value": 1
+    },
+    {
+      "conditions": "\"4 in q_gastro_001\"",
+      "tagOID": "S_DIG_ATCD",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"4\" in q_gastro_001)",
+      "tagOID": "S_DIG_ATCD",
+      "value": 1
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "oid": "q_gastro_008",
+  "title": "Quelle(s) pathologie(s) des  organes digestifs annexes vous a-t-on diagnostiqué ?",
+  "text": "Quelle(s) pathologie(s) des  organes digestifs annexes vous a-t-on diagnostiqué ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Stéatose hépatique (foie gras) "
+    },
+    {
+      "code": "1",
+      "text": "Fibrose du foie "
+    },
+    {
+      "code": "2",
+      "text": "Cirrhose du foie "
+    },
+    {
+      "code": "3",
+      "text": "Hépatite B"
+    },
+    {
+      "code": "4",
+      "text": "Hépatite C"
+    },
+    {
+      "code": "5",
+      "text": "Cholangite "
+    },
+    {
+      "code": "6",
+      "text": "Cholécystite (infection de la vésicule biliaire)"
+    },
+    {
+      "code": "7",
+      "text": "Lithiase (calcul) de la vésicule biliaire "
+    },
+    {
+      "code": "8",
+      "text": "Vésicule opérée (cholécystectomie)"
+    },
+    {
+      "code": "9",
+      "text": "Pancréatite aigue "
+    },
+    {
+      "code": "10",
+      "text": "Pancréatite chronique"
+    },
+    {
+      "code": "11",
+      "text": "Autre(s) antécédent(s) (hépatites A, D, E, médicamenteuse, auto-immune et autres pathologies…)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"0 in q_gastro_008\"",
+      "tagOID": "S_DIG_ATCD_ANNEXES_STEATOSE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"0\" in q_gastro_008)",
+      "tagOID": "S_DIG_ATCD_ANNEXES_STEATOSE",
+      "value": 0
+    },
+    {
+      "conditions": "\"1 in q_gastro_008\"",
+      "tagOID": "S_DIG_ATCD_ANNEXES_FIBR",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"1\" in q_gastro_008)",
+      "tagOID": "S_DIG_ATCD_ANNEXES_FIBR",
+      "value": 0
+    },
+    {
+      "conditions": "\"2 in q_gastro_008\"",
+      "tagOID": "S_DIG_ATCD_ANNEXES_CIRRHOSE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"2\" in q_gastro_008)",
+      "tagOID": "S_DIG_ATCD_ANNEXES_CIRRHOSE",
+      "value": 0
+    },
+    {
+      "conditions": "\"3 in q_gastro_008\"",
+      "tagOID": "S_DIG_ATCD_ANNEXES_HEPAT_B",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"3\" in q_gastro_008)",
+      "tagOID": "S_DIG_ATCD_ANNEXES_HEPAT_B",
+      "value": 0
+    },
+    {
+      "conditions": "\"4 in q_gastro_008\"",
+      "tagOID": "S_DIG_ATCD_ANNEXES_HEPAT_C",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"4\" in q_gastro_008)",
+      "tagOID": "S_DIG_ATCD_ANNEXES_HEPAT_C",
+      "value": 0
+    },
+    {
+      "conditions": "\"5 in q_gastro_008\"",
+      "tagOID": "S_DIG_ATCD_ANNEXES_CHOLANG",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"5\" in q_gastro_008)",
+      "tagOID": "S_DIG_ATCD_ANNEXES_CHOLANG",
+      "value": 0
+    },
+    {
+      "conditions": "\"6 in q_gastro_008\"",
+      "tagOID": "S_DIG_ATCD_ANNEXES_CHOLECY",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"6\" in q_gastro_008)",
+      "tagOID": "S_DIG_ATCD_ANNEXES_CHOLECY",
+      "value": 0
+    },
+    {
+      "conditions": "\"7 in q_gastro_008\"",
+      "tagOID": "S_DIG_ATCD_ANNEXES_LITH_V",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"7\" in q_gastro_008)",
+      "tagOID": "S_DIG_ATCD_ANNEXES_LITH_V",
+      "value": 0
+    },
+    {
+      "conditions": "\"8 in q_gastro_008\"",
+      "tagOID": "S_DIG_ATCD_ANNEXES_CHOLECYSTECTOMIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"8\" in q_gastro_008)",
+      "tagOID": "S_DIG_ATCD_ANNEXES_CHOLECYSTECTOMIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"9 in q_gastro_008\"",
+      "tagOID": "S_DIG_ATCD_ANNEXES_PANC_AIG",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"9\" in q_gastro_008)",
+      "tagOID": "S_DIG_ATCD_ANNEXES_PANC_AIG",
+      "value": 0
+    },
+    {
+      "conditions": "\"10 in q_gastro_008\"",
+      "tagOID": "S_DIG_ATCD_ANNEXES_PANC_CHR",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"10\" in q_gastro_008)",
+      "tagOID": "S_DIG_ATCD_ANNEXES_PANC_CHR",
+      "value": 0
+    },
+    {
+      "conditions": "\"11 in q_gastro_008\"",
+      "tagOID": "S_DIG_ATCD_ANNEXES_AUTRE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"11\" in q_gastro_008)",
+      "tagOID": "S_DIG_ATCD_ANNEXES_AUTRE",
+      "value": 0
+    }
+  ]
+}

@@ -1,0 +1,1038 @@
+{
+  "oid": "q1_endocrinologie",
+  "title": "Global Focus Q1 Endocrinologie-Métabolisme",
+  "estimatedTime": 10,
+  "pricing": 10,
+  "description": "Santé au niveau endocrinien et métabolique",
+  "levelMax": "1",
+  "authors": [
+    "Jean-Philippe Astruc", "Jacques Bassier"
+  ],
+  "chapters": [
+    "Endocrinologie q1"
+  ],
+  "professions": [
+    "DENTIST"
+  ],
+  "diagnostics": [],
+  "reportingTrees": [
+    {
+      "category": "HEALTH",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "S_ENDO",
+        "type": "SCORE",
+        "ranges": [
+          {
+            "min": 0,
+            "max": 0,
+            "color": "00FF00",
+            "text":"ENDO"
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "color": "FFFF00",
+            "text":"ENDO"
+          },
+          {
+            "min": 2,
+            "max": 2,
+            "color": "FF9900",
+            "text":"ENDO"
+          },
+          {
+            "min": 3,
+            "max": 3,
+            "color": "FF0000",
+            "text":"ENDO"
+          }
+        ],
+        "children": [
+          {
+            "tagOID": "S_ENDO_SYMP",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "SYMP"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FFFF00",
+                "text": "SYMP"
+              },
+              {
+                "min": 2,
+                "max": 2,
+                "color": "FF9900",
+                "text": "SYMP"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "FF0000",
+                "text": "SYMP"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_ENDO_SYMP_HYPOTHYROIDE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 7,
+                    "color": "00FF00",
+                    "text": "HYPOTHYR"
+                  },
+                  {
+                    "min": 8,
+                    "max": 12,
+                    "color": "FFFF00",
+                    "text": "HYPOTHYR"
+                  },
+                  {
+                    "min": 13,
+                    "max": 20,
+                    "color": "FF9900",
+                    "text": "HYPOTHYR"
+                  },
+                  {
+                    "min": 21,
+                    "max": 30,
+                    "color": "FF0000",
+                    "text": "HYPOTHYR"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ENDO_SYMP_HYPERTHYROIDE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 7,
+                    "color": "00FF00",
+                    "text": "HYPERTHYR"
+                  },
+                  {
+                    "min": 8,
+                    "max": 12,
+                    "color": "FFFF00",
+                    "text": "HYPERTHYR"
+                  },
+                  {
+                    "min": 13,
+                    "max": 20,
+                    "color": "FF9900",
+                    "text": "HYPERTHYR"
+                  },
+                  {
+                    "min": 21,
+                    "max": 30,
+                    "color": "FF0000",
+                    "text": "HYPERTHYR"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ENDO_SYMP_HYPOCORTICISME",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 7,
+                    "color": "00FF00",
+                    "text": "HYPOCORT"
+                  },
+                  {
+                    "min": 8,
+                    "max": 12,
+                    "color": "FFFF00",
+                    "text": "HYPOCORT"
+                  },
+                  {
+                    "min": 13,
+                    "max": 20,
+                    "color": "FF9900",
+                    "text": "HYPOCORT"
+                  },
+                  {
+                    "min": 21,
+                    "max": 30,
+                    "color": "FF0000",
+                    "text": "HYPOCORT"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ENDO_SYMP_HYPERCORTICISME",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 7,
+                    "color": "00FF00",
+                    "text": "HYPERCORT"
+                  },
+                  {
+                    "min": 8,
+                    "max": 12,
+                    "color": "FFFF00",
+                    "text": "HYPERCORT"
+                  },
+                  {
+                    "min": 13,
+                    "max": 20,
+                    "color": "FF9900",
+                    "text": "HYPERCORT"
+                  },
+                  {
+                    "min": 21,
+                    "max": 30,
+                    "color": "FF0000",
+                    "text": "HYPERCORT"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ENDO_SYMP_HYPOALDOSTERONISME",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 7,
+                    "color": "00FF00",
+                    "text": "HYPOALDO"
+                  },
+                  {
+                    "min": 8,
+                    "max": 12,
+                    "color": "FFFF00",
+                    "text": "HYPOALDO"
+                  },
+                  {
+                    "min": 13,
+                    "max": 20,
+                    "color": "FF9900",
+                    "text": "HYPOALDO"
+                  },
+                  {
+                    "min": 21,
+                    "max": 30,
+                    "color": "FF0000",
+                    "text": "HYPOALDO"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ENDO_SYMP_HYPODHEA",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 7,
+                    "color": "00FF00",
+                    "text": "HYPOHEA"
+                  },
+                  {
+                    "min": 8,
+                    "max": 12,
+                    "color": "FFFF00",
+                    "text": "HYPOHEA"
+                  },
+                  {
+                    "min": 13,
+                    "max": 20,
+                    "color": "FF9900",
+                    "text": "HYPOHEA"
+                  },
+                  {
+                    "min": 21,
+                    "max": 30,
+                    "color": "FF0000",
+                    "text": "HYPOHEA"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ENDO_SYMP_HYPOGH",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 7,
+                    "color": "00FF00",
+                    "text": "HYPOGH"
+                  },
+                  {
+                    "min": 8,
+                    "max": 12,
+                    "color": "FFFF00",
+                    "text": "HYPOGH"
+                  },
+                  {
+                    "min": 13,
+                    "max": 20,
+                    "color": "FF9900",
+                    "text": "HYPOGH"
+                  },
+                  {
+                    "min": 21,
+                    "max": 30,
+                    "color": "FF0000",
+                    "text": "HYPOGH"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ENDO_SYMP_HYPERINSULINISME",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 7,
+                    "color": "00FF00",
+                    "text": "HYPERINSUL"
+                  },
+                  {
+                    "min": 8,
+                    "max": 12,
+                    "color": "FFFF00",
+                    "text": "HYPERINSUL"
+                  },
+                  {
+                    "min": 13,
+                    "max": 20,
+                    "color": "FF9900",
+                    "text": "HYPERINSUL"
+                  },
+                  {
+                    "min": 21,
+                    "max": 30,
+                    "color": "FF0000",
+                    "text": "HYPERINSUL"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "S_ENDO_ATCD",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text":"ATCD PERSO"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text":"ATCD PERSO"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_ENDO_ATCD_METABOLIQUE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"METABO"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"METABO"
+                  }
+                ],
+                "children": [
+                  {
+                    "tagOID": "S_ENDO_ATCD_METABOLIQUE_DIABETE1",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text":"DIAB1"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text":"DIAB1"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_ENDO_ATCD_METABOLIQUE_DIABETE2",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text":"DIAB2"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text":"DIAB2"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_ENDO_ATCD_METABOLIQUE_OBESITE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text":"OBES"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text":"OBES"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_ENDO_ATCD_METABOLIQUE_CHOLESTEROL",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text":"CHOL"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text":"CHOL"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_ENDO_ATCD_METABOLIQUE_TRIGLYCERIDE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text":"TG"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text":"TG"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_ENDO_ATCD_METABOLIQUE_URATE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text":"URATE"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text":"URATE"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_ENDO_ATCD_METABOLIQUE_AUTRE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text":"AUTRE"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text":"AUTRE"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "tagOID": "S_ENDO_ATCD_SURRENALE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"SURRENALE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"SURRENALE"
+                  }
+                ],
+                "children": [
+                  {
+                    "tagOID": "S_ENDO_ATCD_SURRENALE_HYPERPLASIE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text":"HY-PLAS"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text":"HY-PLAS"
+                      }
+                    ]
+                  },
+                  {
+                    "tagOID": "S_ENDO_ATCD_SURRENALE_CONN",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text":"CONN"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text":"CONN"
+                      }
+                    ]
+                  },
+                  {
+                    "tagOID": "S_ENDO_ATCD_SURRENALE_ADDISON",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text":"ADD"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text":"ADD"
+                      }
+                    ]
+                  },
+                  {
+                    "tagOID": "S_ENDO_ATCD_SURRENALE_CUSHING",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text":"CUSH"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text":"CUSH"
+                      }
+                    ]
+                  },
+                  {
+                    "tagOID": "S_ENDO_ATCD_SURRENALE_PHEOCHROMOCYTOME",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text":"PHEO"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text":"PHEO"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_ENDO_ATCD_SURRENALE_CANCER",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text":"CANCER"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text":"CANCER"
+                      }
+                    ]
+                  },
+                  {
+                    "tagOID": "S_ENDO_ATCD_SURRENALE_INSUFFISANCE_SECONDAIRE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text":"INSUF"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text":"INSUF"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_ENDO_ATCD_SURRENALE_AUTRE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text":"AUTRE"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text":"AUTRE"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "tagOID": "S_ENDO_ATCD_HYPOPHYSE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"HYPOPHYSE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"HYPOPHYSE"
+                  }
+                ],
+                "children": [
+                  {
+                    "tagOID": "S_ENDO_ATCD_HYPOPHYSE_HYPERPROLACTINE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text":"HY-PROLA"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text":"HY-PROLA"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_ENDO_ATCD_HYPOPHYSE_ADENOME",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text":"ADENOM"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text":"ADENOM"
+                      }
+                    ]
+                  },
+                  {
+                    "tagOID": "S_ENDO_ATCD_HYPOPHYSE_INSUFFISANCE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text":"INSUF"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text":"INSUF"
+                      }
+                    ]
+                  },
+                  {
+                    "tagOID": "S_ENDO_ATCD_HYPOPHYSE_ACROMEGALIE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text":"ACRO"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text":"ACRO"
+                      }
+                    ]
+                  },
+                  {
+                    "tagOID": "S_ENDO_ATCD_HYPOPHYSE_DIABETE_INSIPIDE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text":"DIAB"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text":"DIAB"
+                      }
+                    ]
+                  },
+                  {
+                    "tagOID": "S_ENDO_ATCD_HYPOPHYSE_AUTRE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text":"AUTRE"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text":"AUTRE"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "tagOID": "S_ENDO_ATCD_PARATHYROIDE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"PARATHYR"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"PARATHYR"
+                  }
+                ],
+                "children": [
+                  {
+                    "tagOID": "S_ENDO_ATCD_PARATHYROIDE_HYPO",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text":"HYPO"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text":"HYPO"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_ENDO_ATCD_PARATHYROIDE_HYPER",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text":"HYPER"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text":"HYPER"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_ENDO_ATCD_PARATHYROIDE_CANCER",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text":"CANCER"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text":"CANCER"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_ENDO_ATCD_PARATHYROIDE_AUTRE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text":"AUTRE"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text":"AUTRE"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              { 
+                "tagOID": "S_ENDO_ATCD_THYROIDE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"THYR"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"THYR"
+                  }
+                ],
+                "children": [
+                  {
+                    "tagOID": "S_ENDO_ATCD_THYROIDE_HYPO",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text":"HYPO"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text":"HYPO"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_ENDO_ATCD_THYROIDE_HYPER",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text":"HYPER"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text":"HYPER"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_ENDO_ATCD_THYROIDE_CANCER",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text":"CANCER"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text":"CANCER"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_ENDO_ATCD_THYROIDE_NODULE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text":"NODULE"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text":"NODULE"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_ENDO_ATCD_THYROIDE_THYROIDITE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text":"THYR"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text":"THYR"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_ENDO_ATCD_THYROIDE_AUTRE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text":"AUTRE"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text":"AUTRE"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+              
+              
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

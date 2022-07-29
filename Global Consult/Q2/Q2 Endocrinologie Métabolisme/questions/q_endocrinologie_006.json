@@ -1,0 +1,122 @@
+{
+  "oid": "q_endocrinologie_006",
+  "title": "Indiquez la ou les pathologie(s) surrénalienne(s) diagnostiquée(s).",
+  "text": "Indiquez la ou les pathologie(s) surrénalienne(s) diagnostiquée(s).",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Hyperplasie congénitale des surrénales"
+    },
+    {
+      "code": "1",
+      "text": "Hyperaldostéronisme primaire (syndrome de Conn)"
+    },
+    {
+      "code": "2",
+      "text": "Maladie d’Addison"
+    },
+    {
+      "code": "3",
+      "text": "Syndrome de Cushing"
+    },
+    {
+      "code": "4",
+      "text": "Cancer de la glande surrénale"
+    },
+    {
+      "code": "5",
+      "text": "Phéochromocytome"
+    },
+    {
+      "code": "6",
+      "text": "Insuffisance surrénalienne secondaire"
+    },
+    {
+      "code": "7",
+      "text": "Autre(s) réponse(s)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"0\" in q_endocrinologie_006",
+      "tagOID": "S_ENDO_ATCD_SURRENALE_HYPERPLASIE",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"0\" in q_endocrinologie_006)",
+      "tagOID": "S_ENDO_ATCD_SURRENALE_HYPERPLASIE",
+      "value": "0"
+    },
+    {
+      "conditions": "\"1\" in q_endocrinologie_006",
+      "tagOID": "S_ENDO_ATCD_SURRENALE_CONN",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"1\" in q_endocrinologie_006)",
+      "tagOID": "S_ENDO_ATCD_SURRENALE_CONN",
+      "value": "0"
+    },
+    {
+      "conditions": "\"2\" in q_endocrinologie_006",
+      "tagOID": "S_ENDO_ATCD_SURRENALE_ADDISON",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"2\" in q_endocrinologie_006)",
+      "tagOID": "S_ENDO_ATCD_SURRENALE_ADDISON",
+      "value": "0"
+    },
+    {
+      "conditions": "\"3\" in q_endocrinologie_006",
+      "tagOID": "S_ENDO_ATCD_SURRENALE_CUSHING",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"3\" in q_endocrinologie_006)",
+      "tagOID": "S_ENDO_ATCD_SURRENALE_CUSHING",
+      "value": "0"
+    },
+    {
+      "conditions": "\"4\" in q_endocrinologie_006",
+      "tagOID": "S_ENDO_ATCD_SURRENALE_PHEOCHROMOCYTOME",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"4\" in q_endocrinologie_006)",
+      "tagOID": "S_ENDO_ATCD_SURRENALE_PHEOCHROMOCYTOME",
+      "value": "0"
+    },
+    {
+      "conditions": "\"5\" in q_endocrinologie_006",
+      "tagOID": "S_ENDO_ATCD_SURRENALE_CANCER",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"5\" in q_endocrinologie_006)",
+      "tagOID": "S_ENDO_ATCD_SURRENALE_CANCER",
+      "value": "0"
+    },
+    {
+      "conditions": "\"6\" in q_endocrinologie_006",
+      "tagOID": "S_ENDO_ATCD_SURRENALE_INSUFFISANCE_SECONDAIRE",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"6\" in q_endocrinologie_006)",
+      "tagOID": "S_ENDO_ATCD_SURRENALE_INSUFFISANCE_SECONDAIRE",
+      "value": "0"
+    },
+    {
+      "conditions": "\"7\" in q_endocrinologie_006",
+      "tagOID": "S_ENDO_ATCD_SURRENALE_AUTRE",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"7\" in q_endocrinologie_006)",
+      "tagOID": "S_ENDO_ATCD_SURRENALE_AUTRE",
+      "value": "0"
+    }
+  ]
+}

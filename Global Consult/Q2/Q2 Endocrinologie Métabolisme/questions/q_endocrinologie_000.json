@@ -1,0 +1,46 @@
+{
+  "oid": "q_endocrinologie_000",
+  "title": "Comment évaluez-vous votre santé au niveau endocrinien (thyroïde, parathyroïdes, hypophyse, surrénales) et métabolique (obésité, diabète et lipides : cholestérol, triglycérides) ?",
+  "text": "Comment évaluez-vous votre santé au niveau endocrinien (thyroïde, parathyroïdes, hypophyse, surrénales) et métabolique (obésité, diabète et lipides : cholestérol, triglycérides) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisante"
+    },
+    {
+      "code": "1",
+      "text": "Légèrement insatisfaisante"
+    },
+    {
+      "code": "2",
+      "text": "Plutôt insatisfaisante"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisante"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_endocrinologie_000 == \"0\"",
+      "tagOID": "S_ENDO",
+      "value": 0
+    },
+    {
+      "conditions": "q_endocrinologie_000 == \"1\"",
+      "tagOID": "S_ENDO",
+      "value": 1
+    },
+    {
+      "conditions": "q_endocrinologie_000 == \"2\"",
+      "tagOID": "S_ENDO",
+      "value": 2
+    },
+    {
+      "conditions": "q_endocrinologie_000 == \"3\"",
+      "tagOID": "S_ENDO",
+      "value": "3"
+    }
+  ]
+}

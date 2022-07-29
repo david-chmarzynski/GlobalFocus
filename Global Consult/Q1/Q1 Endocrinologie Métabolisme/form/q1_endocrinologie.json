@@ -5,15 +5,9 @@
   "pricing": 10,
   "description": "Santé au niveau endocrinien et métabolique",
   "levelMax": "1",
-  "authors": [
-    "Jean-Philippe Astruc", "Jacques Bassier"
-  ],
-  "chapters": [
-    "Endocrinologie q1"
-  ],
-  "professions": [
-    "DENTIST"
-  ],
+  "authors": ["Jean-Philippe Astruc", "Jacques Bassier"],
+  "chapters": ["Endocrinologie q1"],
+  "professions": ["DENTIST"],
   "diagnostics": [],
   "reportingTrees": [
     {
@@ -27,308 +21,28 @@
             "min": 0,
             "max": 0,
             "color": "00FF00",
-            "text":"ENDO"
+            "text": "ENDO"
           },
           {
             "min": 1,
             "max": 1,
             "color": "FFFF00",
-            "text":"ENDO"
+            "text": "ENDO"
           },
           {
             "min": 2,
             "max": 2,
             "color": "FF9900",
-            "text":"ENDO"
+            "text": "ENDO"
           },
           {
             "min": 3,
             "max": 3,
             "color": "FF0000",
-            "text":"ENDO"
+            "text": "ENDO"
           }
         ],
         "children": [
-          {
-            "tagOID": "S_ENDO_SYMP",
-            "type": "SCORE",
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "SYMP"
-              },
-              {
-                "min": 1,
-                "max": 1,
-                "color": "FFFF00",
-                "text": "SYMP"
-              },
-              {
-                "min": 2,
-                "max": 2,
-                "color": "FF9900",
-                "text": "SYMP"
-              },
-              {
-                "min": 3,
-                "max": 3,
-                "color": "FF0000",
-                "text": "SYMP"
-              }
-            ],
-            "children": [
-              {
-                "tagOID": "S_ENDO_SYMP_HYPOTHYROIDE",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 7,
-                    "color": "00FF00",
-                    "text": "HYPOTHYR"
-                  },
-                  {
-                    "min": 8,
-                    "max": 12,
-                    "color": "FFFF00",
-                    "text": "HYPOTHYR"
-                  },
-                  {
-                    "min": 13,
-                    "max": 20,
-                    "color": "FF9900",
-                    "text": "HYPOTHYR"
-                  },
-                  {
-                    "min": 21,
-                    "max": 30,
-                    "color": "FF0000",
-                    "text": "HYPOTHYR"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_ENDO_SYMP_HYPERTHYROIDE",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 7,
-                    "color": "00FF00",
-                    "text": "HYPERTHYR"
-                  },
-                  {
-                    "min": 8,
-                    "max": 12,
-                    "color": "FFFF00",
-                    "text": "HYPERTHYR"
-                  },
-                  {
-                    "min": 13,
-                    "max": 20,
-                    "color": "FF9900",
-                    "text": "HYPERTHYR"
-                  },
-                  {
-                    "min": 21,
-                    "max": 30,
-                    "color": "FF0000",
-                    "text": "HYPERTHYR"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_ENDO_SYMP_HYPOCORTICISME",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 7,
-                    "color": "00FF00",
-                    "text": "HYPOCORT"
-                  },
-                  {
-                    "min": 8,
-                    "max": 12,
-                    "color": "FFFF00",
-                    "text": "HYPOCORT"
-                  },
-                  {
-                    "min": 13,
-                    "max": 20,
-                    "color": "FF9900",
-                    "text": "HYPOCORT"
-                  },
-                  {
-                    "min": 21,
-                    "max": 30,
-                    "color": "FF0000",
-                    "text": "HYPOCORT"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_ENDO_SYMP_HYPERCORTICISME",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 7,
-                    "color": "00FF00",
-                    "text": "HYPERCORT"
-                  },
-                  {
-                    "min": 8,
-                    "max": 12,
-                    "color": "FFFF00",
-                    "text": "HYPERCORT"
-                  },
-                  {
-                    "min": 13,
-                    "max": 20,
-                    "color": "FF9900",
-                    "text": "HYPERCORT"
-                  },
-                  {
-                    "min": 21,
-                    "max": 30,
-                    "color": "FF0000",
-                    "text": "HYPERCORT"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_ENDO_SYMP_HYPOALDOSTERONISME",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 7,
-                    "color": "00FF00",
-                    "text": "HYPOALDO"
-                  },
-                  {
-                    "min": 8,
-                    "max": 12,
-                    "color": "FFFF00",
-                    "text": "HYPOALDO"
-                  },
-                  {
-                    "min": 13,
-                    "max": 20,
-                    "color": "FF9900",
-                    "text": "HYPOALDO"
-                  },
-                  {
-                    "min": 21,
-                    "max": 30,
-                    "color": "FF0000",
-                    "text": "HYPOALDO"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_ENDO_SYMP_HYPODHEA",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 7,
-                    "color": "00FF00",
-                    "text": "HYPOHEA"
-                  },
-                  {
-                    "min": 8,
-                    "max": 12,
-                    "color": "FFFF00",
-                    "text": "HYPOHEA"
-                  },
-                  {
-                    "min": 13,
-                    "max": 20,
-                    "color": "FF9900",
-                    "text": "HYPOHEA"
-                  },
-                  {
-                    "min": 21,
-                    "max": 30,
-                    "color": "FF0000",
-                    "text": "HYPOHEA"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_ENDO_SYMP_HYPOGH",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 7,
-                    "color": "00FF00",
-                    "text": "HYPOGH"
-                  },
-                  {
-                    "min": 8,
-                    "max": 12,
-                    "color": "FFFF00",
-                    "text": "HYPOGH"
-                  },
-                  {
-                    "min": 13,
-                    "max": 20,
-                    "color": "FF9900",
-                    "text": "HYPOGH"
-                  },
-                  {
-                    "min": 21,
-                    "max": 30,
-                    "color": "FF0000",
-                    "text": "HYPOGH"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_ENDO_SYMP_HYPERINSULINISME",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 7,
-                    "color": "00FF00",
-                    "text": "HYPERINSUL"
-                  },
-                  {
-                    "min": 8,
-                    "max": 12,
-                    "color": "FFFF00",
-                    "text": "HYPERINSUL"
-                  },
-                  {
-                    "min": 13,
-                    "max": 20,
-                    "color": "FF9900",
-                    "text": "HYPERINSUL"
-                  },
-                  {
-                    "min": 21,
-                    "max": 30,
-                    "color": "FF0000",
-                    "text": "HYPERINSUL"
-                  }
-                ],
-                "children": []
-              }
-            ]
-          },
           {
             "tagOID": "S_ENDO_ATCD",
             "type": "SCORE",
@@ -337,13 +51,13 @@
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text":"ATCD PERSO"
+                "text": "ATCD PERSO"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FF0000",
-                "text":"ATCD PERSO"
+                "text": "ATCD PERSO"
               }
             ],
             "children": [
@@ -355,13 +69,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text":"METABO"
+                    "text": "METABO"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text":"METABO"
+                    "text": "METABO"
                   }
                 ],
                 "children": [
@@ -373,13 +87,13 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text":"DIAB1"
+                        "text": "DIAB1"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text":"DIAB1"
+                        "text": "DIAB1"
                       }
                     ],
                     "children": []
@@ -392,13 +106,13 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text":"DIAB2"
+                        "text": "DIAB2"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text":"DIAB2"
+                        "text": "DIAB2"
                       }
                     ],
                     "children": []
@@ -411,13 +125,13 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text":"OBES"
+                        "text": "OBES"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text":"OBES"
+                        "text": "OBES"
                       }
                     ],
                     "children": []
@@ -430,13 +144,13 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text":"CHOL"
+                        "text": "CHOL"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text":"CHOL"
+                        "text": "CHOL"
                       }
                     ],
                     "children": []
@@ -449,13 +163,13 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text":"TG"
+                        "text": "TG"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text":"TG"
+                        "text": "TG"
                       }
                     ],
                     "children": []
@@ -468,13 +182,13 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text":"URATE"
+                        "text": "URATE"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text":"URATE"
+                        "text": "URATE"
                       }
                     ],
                     "children": []
@@ -487,13 +201,13 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text":"AUTRE"
+                        "text": "AUTRE"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text":"AUTRE"
+                        "text": "AUTRE"
                       }
                     ],
                     "children": []
@@ -508,13 +222,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text":"SURRENALE"
+                    "text": "SURRENALE"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text":"SURRENALE"
+                    "text": "SURRENALE"
                   }
                 ],
                 "children": [
@@ -526,13 +240,13 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text":"HY-PLAS"
+                        "text": "HY-PLAS"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text":"HY-PLAS"
+                        "text": "HY-PLAS"
                       }
                     ]
                   },
@@ -544,13 +258,13 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text":"CONN"
+                        "text": "CONN"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text":"CONN"
+                        "text": "CONN"
                       }
                     ]
                   },
@@ -562,13 +276,13 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text":"ADD"
+                        "text": "ADD"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text":"ADD"
+                        "text": "ADD"
                       }
                     ]
                   },
@@ -580,13 +294,13 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text":"CUSH"
+                        "text": "CUSH"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text":"CUSH"
+                        "text": "CUSH"
                       }
                     ]
                   },
@@ -598,13 +312,13 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text":"PHEO"
+                        "text": "PHEO"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text":"PHEO"
+                        "text": "PHEO"
                       }
                     ],
                     "children": []
@@ -617,13 +331,13 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text":"CANCER"
+                        "text": "CANCER"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text":"CANCER"
+                        "text": "CANCER"
                       }
                     ]
                   },
@@ -635,13 +349,13 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text":"INSUF"
+                        "text": "INSUF"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text":"INSUF"
+                        "text": "INSUF"
                       }
                     ],
                     "children": []
@@ -654,13 +368,13 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text":"AUTRE"
+                        "text": "AUTRE"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text":"AUTRE"
+                        "text": "AUTRE"
                       }
                     ],
                     "children": []
@@ -675,13 +389,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text":"HYPOPHYSE"
+                    "text": "HYPOPHYSE"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text":"HYPOPHYSE"
+                    "text": "HYPOPHYSE"
                   }
                 ],
                 "children": [
@@ -693,13 +407,13 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text":"HY-PROLA"
+                        "text": "HY-PROLA"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text":"HY-PROLA"
+                        "text": "HY-PROLA"
                       }
                     ],
                     "children": []
@@ -712,13 +426,13 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text":"ADENOM"
+                        "text": "ADENOM"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text":"ADENOM"
+                        "text": "ADENOM"
                       }
                     ]
                   },
@@ -730,13 +444,13 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text":"INSUF"
+                        "text": "INSUF"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text":"INSUF"
+                        "text": "INSUF"
                       }
                     ]
                   },
@@ -748,13 +462,13 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text":"ACRO"
+                        "text": "ACRO"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text":"ACRO"
+                        "text": "ACRO"
                       }
                     ]
                   },
@@ -766,13 +480,13 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text":"DIAB"
+                        "text": "DIAB"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text":"DIAB"
+                        "text": "DIAB"
                       }
                     ]
                   },
@@ -784,13 +498,13 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text":"AUTRE"
+                        "text": "AUTRE"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text":"AUTRE"
+                        "text": "AUTRE"
                       }
                     ],
                     "children": []
@@ -805,13 +519,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text":"PARATHYR"
+                    "text": "PARATHYR"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text":"PARATHYR"
+                    "text": "PARATHYR"
                   }
                 ],
                 "children": [
@@ -823,13 +537,13 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text":"HYPO"
+                        "text": "HYPO"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text":"HYPO"
+                        "text": "HYPO"
                       }
                     ],
                     "children": []
@@ -842,13 +556,13 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text":"HYPER"
+                        "text": "HYPER"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text":"HYPER"
+                        "text": "HYPER"
                       }
                     ],
                     "children": []
@@ -861,13 +575,13 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text":"CANCER"
+                        "text": "CANCER"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text":"CANCER"
+                        "text": "CANCER"
                       }
                     ],
                     "children": []
@@ -880,20 +594,20 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text":"AUTRE"
+                        "text": "AUTRE"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text":"AUTRE"
+                        "text": "AUTRE"
                       }
                     ],
                     "children": []
                   }
                 ]
               },
-              { 
+              {
                 "tagOID": "S_ENDO_ATCD_THYROIDE",
                 "type": "SCORE",
                 "ranges": [
@@ -901,13 +615,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text":"THYR"
+                    "text": "THYR"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text":"THYR"
+                    "text": "THYR"
                   }
                 ],
                 "children": [
@@ -919,13 +633,13 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text":"HYPO"
+                        "text": "HYPO"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text":"HYPO"
+                        "text": "HYPO"
                       }
                     ],
                     "children": []
@@ -938,13 +652,13 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text":"HYPER"
+                        "text": "HYPER"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text":"HYPER"
+                        "text": "HYPER"
                       }
                     ],
                     "children": []
@@ -957,13 +671,13 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text":"CANCER"
+                        "text": "CANCER"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text":"CANCER"
+                        "text": "CANCER"
                       }
                     ],
                     "children": []
@@ -976,13 +690,13 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text":"NODULE"
+                        "text": "NODULE"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text":"NODULE"
+                        "text": "NODULE"
                       }
                     ],
                     "children": []
@@ -995,13 +709,13 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text":"THYR"
+                        "text": "THYR"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text":"THYR"
+                        "text": "THYR"
                       }
                     ],
                     "children": []
@@ -1014,21 +728,19 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text":"AUTRE"
+                        "text": "AUTRE"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text":"AUTRE"
+                        "text": "AUTRE"
                       }
                     ],
                     "children": []
                   }
                 ]
               }
-              
-              
             ]
           }
         ]

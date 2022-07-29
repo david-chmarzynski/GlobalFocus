@@ -1,0 +1,94 @@
+{
+  "oid": "q_endocrinologie_004",
+  "title": "Indiquez la ou les pathologie(s) hypophysaire(s) diagnostiquée(s).",
+  "text": "Indiquez la ou les pathologie(s) hypophysaire(s) diagnostiquée(s).",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Hyperprolactinémie"
+    },
+    {
+      "code": "1",
+      "text": "Adénome de l’hypophyse"
+    },
+    {
+      "code": "2",
+      "text": "Insuffisance hypophysaire (ou phéochromocytome)"
+    },
+    {
+      "code": "3",
+      "text": "Acromégalie"
+    },
+    {
+      "code": "4",
+      "text": "Diabète insipide"
+    },
+    {
+      "code": "5",
+      "text": "Autre(s)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"0\" in q_endocrinologie_004",
+      "tagOID": "S_ENDO_ATCD_HYPOPHYSE_HYPERPROLACTINE",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"0\" in q_endocrinologie_004)",
+      "tagOID": "S_ENDO_ATCD_HYPOPHYSE_HYPERPROLACTINE",
+      "value": "0"
+    },
+    {
+      "conditions": "\"1\" in q_endocrinologie_004",
+      "tagOID": "S_ENDO_ATCD_HYPOPHYSE_ADENOME",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"1\" in q_endocrinologie_004)",
+      "tagOID": "S_ENDO_ATCD_HYPOPHYSE_ADENOME",
+      "value": "0"
+    },
+    {
+      "conditions": "\"2\" in q_endocrinologie_004",
+      "tagOID": "S_ENDO_ATCD_HYPOPHYSE_INSUFFISANCE",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"2\" in q_endocrinologie_004)",
+      "tagOID": "S_ENDO_ATCD_HYPOPHYSE_INSUFFISANCE",
+      "value": "0"
+    },
+    {
+      "conditions": "\"3\" in q_endocrinologie_004",
+      "tagOID": "S_ENDO_ATCD_HYPOPHYSE_ACROMEGALIE",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"3\" in q_endocrinologie_004)",
+      "tagOID": "S_ENDO_ATCD_HYPOPHYSE_ACROMEGALIE",
+      "value": "0"
+    },
+    {
+      "conditions": "\"4\" in q_endocrinologie_004",
+      "tagOID": "S_ENDO_ATCD_HYPOPHYSE_DIABETE_INSIPIDE",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"4\" in q_endocrinologie_004)",
+      "tagOID": "S_ENDO_ATCD_HYPOPHYSE_DIABETE_INSIPIDE",
+      "value": "0"
+    },
+    {
+      "conditions": "\"5\" in q_endocrinologie_004",
+      "tagOID": "S_ENDO_ATCD_HYPOPHYSE_AUTRE",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"5\" in q_endocrinologie_004)",
+      "tagOID": "S_ENDO_ATCD_HYPOPHYSE_AUTRE",
+      "value": "0"
+    }
+  ]
+}

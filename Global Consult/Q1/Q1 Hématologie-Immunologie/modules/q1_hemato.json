@@ -1,0 +1,394 @@
+{
+  "oid": "q1_hemato",
+  "title": "Q1 Global Consult Hémato-Immunologie",
+  "questions": [
+    {
+      "question": "q_q1_hemato_000",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q1_hemato_001",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_q1_hemato_002",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Anémie par carence en fer\" in q_q1_hemato_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_hemato_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_hemato_003",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Anémie par carence en vitamine B9\" in q_q1_hemato_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_hemato_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_hemato_004",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Anémie par carence en vitamine B12\" in q_q1_hemato_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_hemato_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_hemato_005",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Anémie inflammatoire\" in q_q1_hemato_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_hemato_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_hemato_006",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Anémie hémolytique\" in q_q1_hemato_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_hemato_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_hemato_007",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Drépanocytose\" in q_q1_hemato_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_hemato_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_hemato_008",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Thalassémie\" in q_q1_hemato_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_hemato_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_hemato_009",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Splénomégalie myéloïde (avec myélofibrose)\" in q_q1_hemato_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_hemato_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_hemato_010",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Maladie de Vaquez\" in q_q1_hemato_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_hemato_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_hemato_011",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"autres\" in q_q1_hemato_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_hemato_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_hemato_012",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_q1_hemato_013",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Leucémie myéloïde chronique\" in q_q1_hemato_012)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_hemato_012": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_hemato_014",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Leucémie lymphoïde chronique\" in q_q1_hemato_012)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_hemato_012": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_hemato_015",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Leucémie aigue myéloblastique\" in q_q1_hemato_012)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_hemato_012": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_hemato_016",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Leucémie aigue lymphoblastique\" in q_q1_hemato_012)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_hemato_012": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_hemato_017",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Lymphome Hodgkinien\" in q_q1_hemato_012)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_hemato_012": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_hemato_018",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Lymphome non Hodgkinien\" in q_q1_hemato_012)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_hemato_012": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_hemato_019",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"autres\" in q_q1_hemato_012)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_hemato_012": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_hemato_020",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_q1_hemato_021",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_q1_hemato_022",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "(\"Jamais\" in q_q1_hemato_021)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_hemato_021": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_hemato_023",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q1_hemato_024",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "(\"0\" in q_q1_hemato_023) || (0 in q_q1_hemato_023)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_hemato_023": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_hemato_025",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Lupus érythémateux disséminé\" in q_q1_hemato_024)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_hemato_024": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_hemato_026",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Sclérodermie\" in q_q1_hemato_024)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_hemato_024": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_hemato_027",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Connectivite mixte (syndrome de Sharp)\" in q_q1_hemato_024)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_hemato_024": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_hemato_028",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Maladie de Sjögren\" in q_q1_hemato_024)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_hemato_024": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_hemato_029",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Maladie de Behçet\" in q_q1_hemato_024)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_hemato_024": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_hemato_030",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Vascularite\" in q_q1_hemato_024)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_hemato_024": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_hemato_031",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Sarcoïdose\" in q_q1_hemato_024)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_hemato_024": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_hemato_032",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Fièvre familiale méditerranéenne (maladie périodique)\" in q_q1_hemato_024)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_hemato_024": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_hemato_033",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "(\"aucun\" in q_q1_hemato_024)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_hemato_024": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_hemato_034",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_q1_hemato_035",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"autres\" in q_q1_hemato_034)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_hemato_034": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_hemato_036",
+      "level": 1,
+      "isGlobal": true
+    }
+  ]
+}

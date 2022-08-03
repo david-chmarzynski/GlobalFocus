@@ -1,0 +1,46 @@
+{
+  "oid": "q_q1_hemato_000",
+  "title": "Comment évaluez-vous votre santé au niveau hématologique (anémie, cancer du sang, coagulation...) et immunologique (cancer, maladies auto-immunes, allergies et défenses anti-infectieuses ?",
+  "text": "Comment évaluez-vous votre santé au niveau hématologique (anémie, cancer du sang, coagulation...) et immunologique (cancer, maladies auto-immunes, allergies et défenses anti-infectieuses ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisante"
+    },
+    {
+      "code": "1",
+      "text": "Légèrement insatisfaisante"
+    },
+    {
+      "code": "2",
+      "text": "Plutôt insatisfaisante"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisante"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q1_hemato_000 == \"0\"",
+      "tagOID": "S_HE-IM",
+      "value": 0
+    },
+    {
+      "conditions": "q_q1_hemato_000 == \"1\"",
+      "tagOID": "S_HE-IM",
+      "value": 1
+    },
+    {
+      "conditions": "q_q1_hemato_000 == \"2\"",
+      "tagOID": "S_HE-IM",
+      "value": 2
+    },
+    {
+      "conditions": "q_q1_hemato_000 == \"3\"",
+      "tagOID": "S_HE-IM",
+      "value": 3
+    }
+  ]
+}

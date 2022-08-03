@@ -1,0 +1,1865 @@
+{
+  "oid": "q1_hemato",
+  "title": "Q1 Global Consult Hémato-Immunologie",
+  "estimatedTime": 10,
+  "pricing": 10,
+  "description": "Q1 Global Consult Hémato-Immunologie",
+  "levelMax": "1",
+  "authors": ["Jean-Philippe Astruc"],
+  "chapters": ["chap_q1_hemato"],
+  "professions": ["DENTIST"],
+  "diagnostics": [],
+  "reportingTrees": [
+    {
+      "category": "HEALTH",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "S_HE-IM",
+        "type": "SCORE",
+        "ranges": [
+          {
+            "min": 0,
+            "max": 0,
+            "color": "00FF00",
+            "text": "HEMAT-IMMU"
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "color": "FFFF00",
+            "text": "HEMAT-IMMU"
+          },
+          {
+            "min": 2,
+            "max": 2,
+            "color": "FF9900",
+            "text": "HEMAT-IMMU"
+          },
+          {
+            "min": 3,
+            "max": 3,
+            "color": "FF0000",
+            "text": "HEMAT-IMMU"
+          }
+        ],
+        "children": [
+          {
+            "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GR",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "ATCD GR"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "ATCD GR"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GR_FER",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ANE FER"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ANE FER"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GR_B9",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ANE B9"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ANE B9"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GR_B12",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ANE B12"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ANE B12"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GR_INFLAMMATOIRE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ANE INFL"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ANE INFL"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GR_HEMOLYTIQUE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ANE HEMOL"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ANE HEMOL"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GR_DREPANOCYTOSE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "DREPANO"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "DREPANO"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GR_THALASSEMIE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "THALAS"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "THALAS"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GR_MYELOFIBROSE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "SPL MYELO"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "SPL MYELO"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GR_VAQUEZ",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "VAQUEZ"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "VAQUEZ"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GR_AUTRES",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AUTRES"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AUTRES"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GB",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "ATCD GB"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "ATCD GB"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GB_LMC",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "LMC"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "LMC"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GB_LLC",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "LLC"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "LLC"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GB_LAM",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "LAM"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "LAM"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GB_LAL",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "LAL"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "LAL"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GB_HODGKINIEN",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "HODGKIN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "HODGKIN"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GB_NON_HODGKINIEN",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "L NON HODG"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "L NON HODG"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GB_AUTRES",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AUTRES"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AUTRES"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "ATCD PLAQ/COAG"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "ATCD PLAQ/COAG"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_THROMBOCYTEMIE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "THROMBOCYT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "THROMBOCYT"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_THROMBOPENIE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "THROMBOPEN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "THROMBOPEN"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_PURPURA_IDIOPATHIQUE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "PURP THR IDIO"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "PURP THR IDIO"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_WILLEBRAND",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "WILLEBRAND"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "WILLEBRAND"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_PURPURA_THROMBOTIQUE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "PURP THROMB"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "PURP THROMB"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_HEMOPHILIE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "HEMOPH"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "HEMOPH"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_XI",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "FACT 11"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "FACT 11"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_V",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "FACT V"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "FACT V"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_III",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ANTI THROM"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ANTI THROM"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_PROT_C",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "PROT C"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "PROT C"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_PROT_S",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "PROT S"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "PROT S"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_AUTRES",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AUTRES"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AUTRES"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "ATCD CANCER"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "ATCD CANCER"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_JAMAIS",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "JAMAIS"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "JAMAIS"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_LOCAL_EN_TRT",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "KC EN TRT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "KC EN TRT"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_METASTASE_EN_TRT",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "KC META EN TRT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "KC META EN TRT"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_RECIDIVE_EN_TRT",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "REC KC EN TRT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "REC KC EN TRT"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_REMISSION",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "KC EN REM"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "KC EN REM"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_KC_PLUSIEURS_EN_REM",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "KC MULTI EN REM"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "KC MULTI EN REM"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_KC_PLUSIEURS_EN_TRT",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "KC MULTI EN TRT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "KC MULTI EN TRT"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_TRAITEMENT",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 10,
+                "max": 10,
+                "color": "00FF00",
+                "text": "TRAIT KC"
+              },
+              {
+                "min": 0,
+                "max": 1,
+                "color": "FF0000",
+                "text": "TRAIT KC"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_TRAITEMENT_CHIR",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CHIR"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CHIR"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_TRAITEMENT_RADIOTH",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "RADIOTH"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "RADIOTH"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_TRAITEMENT_CHIMIO",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CHIMIO"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CHIMIO"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_TRAITEMENT_THERAPIES_CIBLEES",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "THER CIBL"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "THER CIBL"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_TRAITEMENT_HORMONOTH",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "HORMONOTH"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "HORMONOTH"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_TRAITEMENT_IMMUNOTH",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "IMMUNOTH"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "IMMUNOTH"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_TRAITEMENT_CURIETH",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CURIETH"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CURIETH"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_TRAITEMENT_GREFFE_MOELLE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "GREF MOELLE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "GREF MOELLE"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "ATCD MAI"
+              },
+              {
+                "min": 1,
+                "max": 2,
+                "color": "FF0000",
+                "text": "ATCD MAI"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TYPE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "TYPE MAI"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "TYPE MAI"
+                  }
+                ],
+                "children": [
+                  {
+                    "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TYPE_LUPUS",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "LUPUS"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "LUPUS"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TYPE_SCLERODERMIE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "SCLERODER"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "SCLERODER"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TYPE_SHARP",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "SHARP"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "SHARP"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TYPE_SJOGREN",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "SJOGREN"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "SJOGREN"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TYPE_BEHCET",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "BEHCET"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "BEHCET"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TYPE_VASCULARITE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "VASCUL"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "VASCUL"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TYPE_SARCOIDOSE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "SARCOID"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "SARCOID"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TYPE_MALADIE_PERIODIQUE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "MAL PERIODE"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "MAL PERIODE"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TYPE_AUTRES",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "AUTRES"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "AUTRES"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "TRT IMMUNO"
+                  },
+                  {
+                    "min": 1,
+                    "max": 10,
+                    "color": "FF0000",
+                    "text": "TRT IMMUNO"
+                  }
+                ],
+                "children": [
+                  {
+                    "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_ACTUELLEMENT",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "TRT ACTUEL"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "TRT ACTUEL"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_PASSE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "PASSE"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "PASSE"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_ACTUEL_PASSE",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "TRT ACT-PASS"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "TRT ACT-PASS"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_JAMAIS",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "JAMAIS"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "JAMAIS"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_NSP",
+                    "type": "SCORE",
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "TRT NSP"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "TRT NSP"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tagOID": "S_HE-IM_ATCD_IMMUNO_ALLERGIE",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "ATCD ALLERG"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "ATCD ALLERG"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_ALLERGIE_COELIAQUE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "COELIAQ"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "COELIAQ"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_ALLERGIE_ALIM",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ALIM"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ALIM"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_ALLERGIE_ACARIEN",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ACARIEN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ACARIEN"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_ALLERGIE_POILS",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "POILS"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "POILS"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_ALLERGIE_GRAM_POLL",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "GRAM-POLL"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "GRAM-POLL"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_ALLERGIE_CONTACT",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CONTACT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CONTACT"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_ALLERGIE_MEDIC",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "MEDIC"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "MEDIC"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_ALLERGIE_AUTRES",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AUTRES"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AUTRES"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "ATCD INFECT"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "ATCD INFECT"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_DEFICIT",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "DEF IMM PRIM"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "DEF IMM PRIM"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_PLASMOCYTES",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "PLASMOC"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "PLASMOC"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_VIH",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "VIH"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "VIH"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_OSLER",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "OSLER"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "OSLER"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_HERPES1",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "HERPES 1"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "HERPES 1"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_CMV",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CMV"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CMV"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_VZV",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "VZV"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "VZV"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_EBV",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "EBV"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "EBV"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_ROUGEOLE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ROUGEOLE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ROUGEOLE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_OREILLONS",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "OREILLONS"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "OREILLONS"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_RUBEOLE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "RUBEOLE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "RUBEOLE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_PAPILLOMAVIRUS",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "PVH"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "PVH"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_ASPERGILLOSE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ASPERG"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ASPERG"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_LYME",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "LYME"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "LYME"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_MENINGITE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "MENINGO"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "MENINGO"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_TOXOPLASMOSE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "TOXO"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "TOXO"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_AMIBIASE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AMIBIASE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AMIBIASE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_GIARDIASE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "GIARDIASE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "GIARDIASE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_PALUDISME",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "PALUD"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "PALUD"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

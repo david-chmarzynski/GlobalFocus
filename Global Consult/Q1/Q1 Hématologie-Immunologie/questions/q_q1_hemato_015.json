@@ -1,0 +1,12 @@
+{
+  "oid": "q_q1_hemato_015",
+  "title": "En quelle année le diagnostic de leucémie aigue myéloblastique a t’il été posé ?",
+  "text": "En quelle année le diagnostic de leucémie aigue myéloblastique a t’il été posé ?",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 1900,
+    "max": 2022,
+    "step": 1
+  },
+  "scores": []
+}

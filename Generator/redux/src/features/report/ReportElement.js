@@ -5,17 +5,17 @@ import ArrowForward from '@mui/icons-material/ArrowForward'
 
 import './Report.css'
 
-export default function ReportElement({element, report, setReport}){
+export default function ReportElement({element, report, setReport, ifStatements, setIfStatements}){
 
-    function getElementIndex(elementId) {
-        return [...report].findIndex(element => {
+    function getElementIndex(list, elementId) {
+        return list.findIndex(element => {
             return element.id === elementId;
         });
     }
 
     function moveElementLeft(elementId){
         let elements = [...report];
-        let elementIndex = getElementIndex(elementId)
+        let elementIndex = getElementIndex(elements, elementId)
         
         if(elementIndex > 0){
           let elementToMove = elements[elementIndex];
@@ -27,7 +27,7 @@ export default function ReportElement({element, report, setReport}){
 
     function moveElementRight(elementId){
         let elements = [...report];
-        let elementIndex = getElementIndex(elementId)
+        let elementIndex = getElementIndex(elements, elementId)
 
         if(elementIndex < elements.length -1){
             let elementToMove = elements[elementIndex];
@@ -37,12 +37,19 @@ export default function ReportElement({element, report, setReport}){
         }
     }
 
-    function deleteElement(elementId){
+    function deleteElement(elementId, isIfStatement){
         let elements = [...report];
-        let elementIndex = getElementIndex(elementId)
+        let elementIndex = getElementIndex(elements, elementId)
 
         elements.splice(elementIndex, 1);
         setReport(elements);
+
+        if(isIfStatement) {
+            let ifStatementsList = [...ifStatements];
+            let ifStatementIndex = getElementIndex(ifStatementsList, elementId);
+            ifStatementsList.splice(ifStatementIndex, 1);
+            setIfStatements(ifStatementsList);
+        }
     }
 
     return(
@@ -58,7 +65,7 @@ export default function ReportElement({element, report, setReport}){
                 </IconButton>
 
                 <IconButton color="error" aria-label="delete" onClick={ () => {
-                    deleteElement(element.id);
+                    deleteElement(element.id, element.ifStatement);
                 }}>
                     <Delete/>
                 </IconButton>

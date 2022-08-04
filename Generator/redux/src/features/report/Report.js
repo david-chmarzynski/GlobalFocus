@@ -10,6 +10,8 @@ import TextInput from "./TextInput";
 import ReportElement from "./ReportElement";
 import BreakLine from "./BreakLine";
 import IfQuestionAnswered from "./IfQuestionAnswered";
+import IfQuestionNotAnswered from "./IfQuestionNotAnswered";
+import EndIfQuestion from "./EndIfQuestion";
 
 export default function Report() {
 
@@ -18,9 +20,12 @@ export default function Report() {
   
   const [report, setReport] = useState([]);
   const [questions, setQuestions] = useState([]);
-  const [elementId, setElementId] = useState(0);
+  const [newElementId, setNewElementId] = useState(0);
   const [options, setOptions] = useState([]);
 
+  const [ifStatements, setIfStatements] = useState([]); // oid de questions pour permettre de générer des end if correspondants : "{{/oid_question}}"
+
+  useEffect(()=>console.log(ifStatements),[ifStatements])
   useEffect(()=> {
     axios.get(`${BASE_URL}/questions`, {
       headers: {
@@ -43,9 +48,13 @@ export default function Report() {
     console.log(report)
   },[report]);
 
-  function addReportElement(newElementText, newElementDisplay){
-    setReport([...report, {id: elementId, text: newElementText, display: newElementDisplay}]);
-    setElementId(elementId + 1);
+  function addReportElement(newElementText, newElementDisplay, ifStatement = false){
+    setReport([...report, {id: newElementId, text: newElementText, display: newElementDisplay, ifStatement : ifStatement}])
+    setNewElementId(newElementId + 1);
+  }
+
+  async function addIfStatement(questionOid){
+    setIfStatements([...ifStatements, {id: newElementId, oid: questionOid}]);
   }
   
   function reportResult(){
@@ -64,7 +73,14 @@ export default function Report() {
           report.map((element) => {
 
             return(
-              <ReportElement key={element.id} element={element} report={report} setReport={setReport}/>
+              <ReportElement 
+                key={element.id} 
+                element={element} 
+                report={report} 
+                setReport={setReport}
+                ifStatements={ifStatements}
+                setIfStatements={setIfStatements}
+              />
             );
           })
         }
@@ -76,7 +92,9 @@ export default function Report() {
         <BreakLine addToReport={addReportElement}/> 
         <QuestionTextSelector options={options} addToReport={addReportElement}/>
         <QuestionAnswerSelector options={options} addToReport={addReportElement}/>
-        <IfQuestionAnswered options={options} addToReport={addReportElement}/>
+        <IfQuestionAnswered options={options} addToReport={addReportElement} addIfStatement={addIfStatement}/>
+        <IfQuestionNotAnswered options={options} addToReport={addReportElement} addIfStatement={addIfStatement}/>
+        <EndIfQuestion addToReport={addReportElement} ifStatements={ifStatements} setIfStatements={setIfStatements}/>
       </div>
 
       <div className="buttons">

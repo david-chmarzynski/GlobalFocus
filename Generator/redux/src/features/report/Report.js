@@ -5,7 +5,6 @@ import './Report.css'
 import { Button } from "@mui/material";
 
 import QuestionTextSelector from "./QuestionTextSelector";
-import QuestionAnswerSelector from "./QuestionAnswerSelector";
 import TextInput from "./TextInput";
 import ReportElement from "./ReportElement";
 import BreakLine from "./BreakLine";
@@ -13,6 +12,8 @@ import IfQuestionAnswered from "./IfQuestionAnswered";
 import IfQuestionNotAnswered from "./IfQuestionNotAnswered";
 import EndIfQuestion from "./EndIfQuestion";
 import PatientInfo from "./PatientInfo";
+import SingleChoiceAnswerSelector from "./SingleChoiceAnswerSelector";
+import MultiChoiceAnswerSelector from "./MultiChoiceAnswerSelector";
 
 export default function Report() {
 
@@ -111,7 +112,8 @@ export default function Report() {
         <BreakLine addToReport={addReportElement}/> 
         <PatientInfo addToReport={addReportElement}/>
         <QuestionTextSelector options={options} addToReport={addReportElement}/>
-        <QuestionAnswerSelector options={options} addToReport={addReportElement}/>
+        <SingleChoiceAnswerSelector options={options} addToReport={addReportElement}/>
+        <MultiChoiceAnswerSelector options={options} addToReport={addReportElement}/>
         <IfQuestionAnswered options={options} addToReport={addReportElement} addIfStatement={addIfStatement}/>
         <IfQuestionNotAnswered options={options} addToReport={addReportElement} addIfStatement={addIfStatement}/>
         <EndIfQuestion addToReport={addReportElement} ifStatements={ifStatements} setIfStatements={setIfStatements}/>

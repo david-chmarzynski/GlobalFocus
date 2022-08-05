@@ -8,7 +8,7 @@ export default function IfQuestionNotAnswered({options, addToReport, addIfStatem
         if(choice) 
         {
             addIfStatement(choice.value).then(() => 
-                addToReport(`{{^${choice.value}}}`, `Si NON ${choice.value} [`, false, true));
+                addToReport(`{{^global_${choice.value}_answer}}`, `Si NON ${choice.value} [`, false, true));
             setChoice(null);
         }
     }, [choice, addToReport])

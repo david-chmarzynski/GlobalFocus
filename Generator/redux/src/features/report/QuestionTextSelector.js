@@ -7,7 +7,7 @@ export default function QuestionTextSelector({options, addToReport}) {
     useEffect(() => {
         if(choice) 
         {
-            addToReport(`{{${choice.value}_text}}`, `${choice.value} texte`);
+            addToReport(`{{general_${choice.value}_text}}`, `${choice.value} texte`);
             setChoice(null);
         }
     }, [choice, addToReport])

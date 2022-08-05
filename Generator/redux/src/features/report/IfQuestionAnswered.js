@@ -8,7 +8,7 @@ export default function IfQuestionAnswered({options, addToReport, addIfStatement
         if(choice) 
         {
             addIfStatement(choice.value).then(() => 
-                addToReport(`{{#${choice.value}}}`, `Si ${choice.value} [`, false, true));
+                addToReport(`{{#global_${choice.value}_answer}}`, `Si ${choice.value} [`, false, true));
             setChoice(null);
         }
     }, [choice, addToReport])

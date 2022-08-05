@@ -53,7 +53,7 @@ export default function Report() {
   },[report]);
 
   function addReportElement(newElementText, newElementDisplay, format = true, ifStatement = false){
-    setReport([...report, {id: newElementId, text: newElementText, display: newElementDisplay, format: format, ifStatement : ifStatement, italics : false, bold : false, title : 0}])
+    setReport([...report, {id: newElementId, text: newElementText.trim(), display: newElementDisplay, format: format, ifStatement : ifStatement, italics : false, bold : false, title : 0}])
     setNewElementId(newElementId + 1);
   }
 
@@ -65,7 +65,7 @@ export default function Report() {
     let res = "";
     for(let i=0 ; i< report.length ; i++){
       if(report[i].title) {
-        res+= '  \n';
+        res+= '  \\n';
         for(let level = 1 ; level <= report[i].title ; level ++) res += '#';
         res += ' '
       }
@@ -77,7 +77,7 @@ export default function Report() {
       if(report[i].italics) res+=  '*';
       res+= ' ';
 
-      if(report[i].title) res+= '  \n'
+      if(report[i].title) res+= '  \\n'
       
       
     }

@@ -5,7 +5,7 @@
     {
       "question": "q_infos_generales_000",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_infos_generales_001",
@@ -22,7 +22,7 @@
     {
       "question": "q_infos_generales_002",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_infos_generales_003",
@@ -47,12 +47,12 @@
     {
       "question": "q_VContexteVieWEtudesSitu",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VContexteVieWEtudesSituEtudesDetail",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger":{
         "conditions": "!(\"0\" in q_VContexteVieWEtudesSitu)",
         "scope": "MODULE_SCOPE",
@@ -62,7 +62,7 @@
     {
       "question": "q_VContexteVieWEtudesSituEmploiDetail",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger":{
         "conditions": "!(\"1\" in q_VContexteVieWEtudesSitu)",
         "scope": "MODULE_SCOPE",
@@ -72,7 +72,7 @@
     {
       "question": "q_VContexteVieWEtudesSituEmploiHeureParSemaine",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger":{
         "conditions": "!(\"1\" in q_VContexteVieWEtudesSitu)",
         "scope": "MODULE_SCOPE",
@@ -82,7 +82,7 @@
     {
       "question": "q_VContexteVieWEtudesSituEmploiContraintesParticulieres",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger":{
         "conditions": "!(\"1\" in q_VContexteVieWEtudesSitu)",
         "scope": "MODULE_SCOPE",
@@ -92,7 +92,7 @@
     {
       "question": "q_VContexteVieWEtudesSituAutreDetail",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger":{
         "conditions": "!(\"8\" in q_VContexteVieWEtudesSitu)",
         "scope": "MODULE_SCOPE",

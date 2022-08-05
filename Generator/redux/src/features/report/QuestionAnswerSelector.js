@@ -7,7 +7,7 @@ export default function QuestionAnswerSelector({options, addToReport}) {
     useEffect(() => {
         if(choice) 
         {
-            addToReport(`{{${choice.value}_answer}}`, `${choice.value} réponse`);
+            addToReport(`{{general_${choice.value}_answer}}`, `${choice.value} réponse`);
             setChoice(null);
         }
     }, [choice, addToReport])

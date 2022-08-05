@@ -13,7 +13,7 @@ export default function EndIfQuestion({addToReport, ifStatements, setIfStatement
     function handleAdd(){
         let ifStatementsList = [...ifStatements];    
         addToReport(
-            `{{/${lastIfStatement.oid}}}`, `] Fin si (${lastIfStatement.oid})`, false
+            `{{/global_${lastIfStatement.oid}_answer}}`, `] Fin si (${lastIfStatement.oid})`, false
         );
         ifStatementsList.pop()
         setIfStatements(ifStatementsList);

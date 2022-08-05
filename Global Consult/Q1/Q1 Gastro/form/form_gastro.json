@@ -5,8 +5,6 @@
   "pricing": 1,
   "description": "Santé sur le plan digestif",
   "levelMax": "1",
-  "linkedForm": "",
-  "companyId": "[object Object]",
   "authors": [
     "Jacques Bassier"
   ],
@@ -52,1493 +50,880 @@
         ],
         "children": [
           {
-            "tagOID": "S_DIG_ATCD",
+            "tagOID": "S_DIG_ATCD_CANCER",
             "type": "SCORE",
             "ranges": [
               {
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text": "ATCD"
+                "text": "CANCER"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FF0000",
-                "text": "ATCD"
+                "text": "CANCER"
               }
             ],
             "children": [
               {
-                "tagOID": "S_DIG_ATCD_CANCER",
+                "tagOID": "S_DIG_ATCD_CANCER_OESOPHAGE",
                 "type": "SCORE",
                 "ranges": [
                   {
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "CANCER"
+                    "text": "ŒSO"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "CANCER"
+                    "text": "ŒSO"
                   }
                 ],
-                "children": [
-                  {
-                    "tagOID": "S_DIG_ATCD_CANCER_OESOPHAGE",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "ŒSO"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "ŒSO"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_CANCER_ESTOMAC",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "ESTOMAC"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "ESTOMAC"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_CANCER_DUODENUM",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "DUOD"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "DUOD"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_CANCER_INTEST_GRELE",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "INT GREL"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "INT GREL"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_CANCER_COLON",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "COLON"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "COLON"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_CANCER_SIGMOIDE",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "SIGM"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "SIGM"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_CANCER_RECTUM",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "RECTUM"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "RECTUM"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_CANCER_ANUS",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "ANUS"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "ANUS"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_CANCER_FOIE",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "FOIE"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "FOIE"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_CANCER_VOIES_BILIAIRES",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "VB"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "VB"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_CANCER_PANCREAS",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "PANCR"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "PANCR"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_CANCER_AUTRE",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "AUTRE"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "AUTRE"
-                      }
-                    ],
-                    "children": []
-                  }
-                ]
+                "children": []
               },
               {
-                "tagOID": "S_DIG_ATCD_TD_HAUT",
+                "tagOID": "S_DIG_ATCD_CANCER_ESTOMAC",
                 "type": "SCORE",
                 "ranges": [
                   {
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "DIG HAUT"
+                    "text": "ESTOMAC"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "DIG HAUT"
+                    "text": "ESTOMAC"
                   }
                 ],
-                "children": [
-                  {
-                    "tagOID": "S_DIG_ATCD_TD_HAUT_OESOPHAGITE",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "OESOPH"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "OESOPH"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_TD_HAUT_RGO",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "RGO"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "RGO"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_TD_HAUT_HERNIE_HIATALE",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "HER HIAT"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "HER HIAT"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_TD_HAUT_GASTRITE",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "GASTRIT"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "GASTRIT"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_TD_HAUT_ULC_E",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "ULC/ESTO"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "ULC/ESTO"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_TD_HAUT_ULC_D",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "ULC/DUO"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "ULC/DUO"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_TD_HAUT_DUOD",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "DUOD"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "DUOD"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_TD_HAUT_AUTRE",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "AUTRE"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "AUTRE"
-                      }
-                    ],
-                    "children": []
-                  }
-                ]
+                "children": []
               },
               {
-                "tagOID": "S_DIG_ATCD_TD_BAS",
+                "tagOID": "S_DIG_ATCD_CANCER_DUODENUM",
                 "type": "SCORE",
                 "ranges": [
                   {
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "DIG BAS"
+                    "text": "DUOD"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "DIG BAS"
+                    "text": "DUOD"
                   }
                 ],
-                "children": [
-                  {
-                    "tagOID": "S_DIG_ATCD_TD_BAS_SIBO",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "SIBO"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "SIBO"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_TD_BAS_TFI",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "TFI"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "TFI"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_TD_BAS_POLYPE",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "POLYP"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "POLYP"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_TD_BAS_DIVERTICULE",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "DIVERTI"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "DIVERTI"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_TD_BAS_RCH",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "RCH"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "RCH"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_TD_BAS_COL_PMEMB",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "COL/PMEMB"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "COL/PMEMB"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_TD_BAS_HEMOR",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "HEMORRO"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "HEMORRO"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_TD_BAS_F_ANAL",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "F_ANAL"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "F_ANAL"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_TD_BAS_INC_ANAL",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "INC/ANAL"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "INC/ANAL"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_TD_BAS_AUTRE",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "AUTRE"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "AUTRE"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "AUTRE",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "aaa"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "aaa"
-                      }
-                    ],
-                    "children": []
-                  }
-                ]
+                "children": []
               },
               {
-                "tagOID": "S_DIG_ATCD_ANNEXES",
+                "tagOID": "S_DIG_ATCD_CANCER_INTEST_GRELE",
                 "type": "SCORE",
                 "ranges": [
                   {
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "ANNEXE"
+                    "text": "INT GREL"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "ANNEXE"
+                    "text": "INT GREL"
                   }
                 ],
-                "children": [
+                "children": []
+              },
+              {
+                "tagOID": "S_DIG_ATCD_CANCER_COLON",
+                "type": "SCORE",
+                "ranges": [
                   {
-                    "tagOID": "S_DIG_ATCD_ANNEXES_STEATOSE",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "STEAT"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "STEAT"
-                      }
-                    ],
-                    "children": []
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "COLON"
                   },
                   {
-                    "tagOID": "S_DIG_ATCD_ANNEXES_FIBR",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "FIBR/H"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "FIBR/H"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_ANNEXES_CIRRHOSE",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "CIRRH"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "CIRRH"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_ANNEXES_HEPAT_B",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "HEPAT/B"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "HEPAT/B"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_ANNEXES_HEPAT_C",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "HEPAT/C"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "HEPAT/C"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_ANNEXES_CHOLANG",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "CHOLANG"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "CHOLANG"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_ANNEXES_CHOLECY",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "CHOLECY"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "CHOLECY"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_ANNEXES_LITH_V",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "LITH/VB"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "LITH/VB"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_ANNEXES_PANC_AIG",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "PANC/A"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "PANC/A"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_ANNEXES_PANC_CHR",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "PANC/C"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "PANC/C"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_ATCD_ANNEXES_AUTRE",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "AUTRE"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "AUTRE"
-                      }
-                    ],
-                    "children": []
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "COLON"
                   }
-                ]
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_DIG_ATCD_CANCER_SIGMOIDE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "SIGM"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "SIGM"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_DIG_ATCD_CANCER_RECTUM",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "RECTUM"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "RECTUM"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_DIG_ATCD_CANCER_ANUS",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ANUS"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ANUS"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_DIG_ATCD_CANCER_FOIE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "FOIE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "FOIE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_DIG_ATCD_CANCER_VOIES_BILIAIRES",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "VB"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "VB"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_DIG_ATCD_CANCER_PANCREAS",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "PANCR"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "PANCR"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_DIG_ATCD_CANCER_AUTRE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AUTRE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AUTRE"
+                  }
+                ],
+                "children": []
               }
             ]
           },
           {
-            "tagOID": "S_DIG_SYMP",
+            "tagOID": "S_DIG_ATCD_TD_HAUT",
             "type": "SCORE",
             "ranges": [
               {
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text": "SYMP"
+                "text": "DIG HAUT"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FF0000",
-                "text": "SYMP"
+                "text": "DIG HAUT"
               }
             ],
             "children": [
               {
-                "tagOID": "S_DIG_SYMP_DIG_HAUT",
+                "tagOID": "S_DIG_ATCD_TD_HAUT_OESOPHAGITE",
                 "type": "SCORE",
                 "ranges": [
                   {
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "HAUT"
+                    "text": "OESOPH"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "HAUT"
+                    "text": "OESOPH"
                   }
                 ],
-                "children": [
-                  {
-                    "tagOID": "S_DIG_SYMP_DIG_HAUT_DYSPHAGIE",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "DYSPH"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "DYSPH"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_SYMP_DIG_HAUT_PYROSIS",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "PYRO"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "PYRO"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_SYMP_DIG_HAUT_DYSPEPSIE",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "DYSPE"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "DYSPE"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_SYMP_DIG_HAUT_ROTS",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "RÔTS"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "RÔTS"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_SYMP_DIG_HAUT_BRUL",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "GASTR"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "GASTR"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_SYMP_DIG_HAUT_ULCUS",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "ULCUS"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "ULCUS"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_SYMP_DIG_HAUT_NAUSEE",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "NAUSEE"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "NAUSEE"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_SYMP_DIG_HAUT_VOMI",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "VOMI"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "VOMI"
-                      }
-                    ],
-                    "children": []
-                  }
-                ]
+                "children": []
               },
               {
-                "tagOID": "S_DIG_SYMP_DIG_BAS",
+                "tagOID": "S_DIG_ATCD_TD_HAUT_RGO",
                 "type": "SCORE",
                 "ranges": [
                   {
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "BAS"
+                    "text": "RGO"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "BAS"
+                    "text": "RGO"
                   }
                 ],
-                "children": [
-                  {
-                    "tagOID": "S_DIG_SYMP_DIG_BAS_CONSTIP",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "Constip"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "Constip"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_SYMP_DIG_BAS_DIARRHEE",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "DIARR"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "DIARR"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_SYMP_DIG_BAS_ALT_DIARR_CONST",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "ALT DC"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "ALT DC"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_SYMP_DIG_BAS_MALDIG_GRAS",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "DIG GRAS"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "DIG GRAS"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_SYMP_DIG_BAS_SELLE_GRAS",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "SELLE GRAS"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "SELLE GRAS"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_SYMP_DIG_BAS_SIBO",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "SIBO"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "SIBO"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_SYMP_DIG_BAS_FERMENTATION",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "FERMENT"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "FERMENT"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_SYMP_DIG_BAS_PUTREFACTION",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "PUTREF"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "PUTREF"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_SYMP_DIG_BAS_DOUL_ABDO",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "DLR ABDO"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "DLR ABDO"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_SYMP_DIG_BAS_SII",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "SII"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "SII"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_SYMP_DIG_BAS_MODIF_SELLE",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "MOD SELLE"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "MOD SELLE"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_SYMP_DIG_BAS_SANG_SELLE",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "SANG SELLE"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "SANG SELLE"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_SYMP_DIG_BAS_GLAIRES",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "GLAIRE"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "GLAIRE"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_SYMP_DIG_BAS_PURIT_ANAL",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "PURIT ANAL"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "PURIT ANAL"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_SYMP_DIG_BAS_DOULEURS_ANAL",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "DOUL ANUS"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "DOUL ANUS"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_SYMP_DIG_BAS_INCONT_ANAL",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "INCONT"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "INCONT"
-                      }
-                    ],
-                    "children": []
-                  }
-                ]
+                "children": []
               },
               {
-                "tagOID": "S_DIG_SYMP_ANNEXES",
+                "tagOID": "S_DIG_ATCD_TD_HAUT_HERNIE_HIATALE",
                 "type": "SCORE",
                 "ranges": [
                   {
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "ANNEXE"
+                    "text": "HER HIAT"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "ANNEXE"
+                    "text": "HER HIAT"
                   }
                 ],
-                "children": [
+                "children": []
+              },
+              {
+                "tagOID": "S_DIG_ATCD_TD_HAUT_GASTRITE",
+                "type": "SCORE",
+                "ranges": [
                   {
-                    "tagOID": "S_DIG_SYMP_ANNEXES_PRURIT",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "PRURIT"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "PRURIT"
-                      }
-                    ],
-                    "children": []
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "GASTRIT"
                   },
                   {
-                    "tagOID": "S_DIG_SYMP_ANNEXES_ICTERE",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "ICTERE"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "ICTERE"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_DIG_SYMP_ANNEXES_SELLES_BLANCHES",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "SELLE PALE"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "SELLE PALE"
-                      }
-                    ],
-                    "children": []
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "GASTRIT"
                   }
-                ]
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_DIG_ATCD_TD_HAUT_ULC_E",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ULC/ESTO"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ULC/ESTO"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_DIG_ATCD_TD_HAUT_ULC_D",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ULC/DUO"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ULC/DUO"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_DIG_ATCD_TD_HAUT_HELICOBACTER",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "HELICO"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "HELICO"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_DIG_ATCD_TD_HAUT_DUOD",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "DUOD"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "DUOD"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_DIG_ATCD_TD_HAUT_AUTRE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AUTRE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AUTRE"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "S_DIG_ATCD_TD_BAS",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "DIG BAS"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "DIG BAS"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_DIG_ATCD_TD_BAS_SIBO",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "SIBO"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "SIBO"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_DIG_ATCD_TD_BAS_TFI",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "TFI"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "TFI"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_DIG_ATCD_TD_BAS_POLYPE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "POLYP"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "POLYP"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_DIG_ATCD_TD_BAS_DIVERTICULE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "DIVERTI"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "DIVERTI"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_DIG_ATCD_TD_BAS_RCH",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "RCH"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "RCH"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_DIG_ATCD_TD_BAS_COL_PMEMB",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "COL/PMEMB"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "COL/PMEMB"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_DIG_ATCD_TD_BAS_HEMOR",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "HEMORRO"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "HEMORRO"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_DIG_ATCD_TD_BAS_F_ANAL",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "F_ANAL"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "F_ANAL"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_DIG_ATCD_TD_BAS_INC_ANAL",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "INC/ANAL"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "INC/ANAL"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_DIG_ATCD_TD_BAS_AUTRE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AUTRE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AUTRE"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "S_DIG_ATCD_ANNEXES",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "ANNEXE"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "ANNEXE"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_DIG_ATCD_ANNEXES_STEATOSE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "STEAT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "STEAT"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_DIG_ATCD_ANNEXES_FIBR",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "FIBR/H"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "FIBR/H"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_DIG_ATCD_ANNEXES_CIRRHOSE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CIRRH"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CIRRH"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_DIG_ATCD_ANNEXES_HEPAT_B",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "HEPAT/B"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "HEPAT/B"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_DIG_ATCD_ANNEXES_HEPAT_C",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "HEPAT/C"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "HEPAT/C"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_DIG_ATCD_ANNEXES_CHOLANG",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CHOLANG"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CHOLANG"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_DIG_ATCD_ANNEXES_CHOLECY",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CHOLECY"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CHOLECY"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_DIG_ATCD_ANNEXES_LITH_V",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "LITH/VB"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "LITH/VB"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_DIG_ATCD_ANNEXES_PANC_AIG",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "PANC/A"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "PANC/A"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_DIG_ATCD_ANNEXES_PANC_CHR",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "PANC/C"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "PANC/C"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_DIG_ATCD_ANNEXES_AUTRE",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AUTRE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AUTRE"
+                  }
+                ],
+                "children": []
               }
             ]
           }

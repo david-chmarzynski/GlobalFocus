@@ -1,0 +1,12 @@
+{
+  "oid": "q_gastro_date_036",
+  "title": "En quelle année la cholécystectomie a-t-elle été pratiquée ? ",
+  "text": "En quelle année la cholécystectomie a-t-elle été pratiquée ? ",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 1900,
+    "max": 2022,
+    "step": 1
+  },
+  "scores": []
+}

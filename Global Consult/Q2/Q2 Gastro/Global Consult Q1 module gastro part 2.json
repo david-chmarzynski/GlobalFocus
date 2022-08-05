@@ -1,0 +1,2140 @@
+{
+    "questionaryName": "Global Consult Q1 module dastro",
+    "chapterOID": "chap_gastro",
+    "chapterTitle": "chap_Global Consult Q1 module dastro",
+    "estimatedTime": 30,
+    "pricing": 1,
+    "levelMax": "1",
+    "authors": [
+        "Jacques Bassier"
+    ],
+    "professions": [
+        "DENTIST"
+    ],
+    "companyId": [
+        {}
+    ],
+    "linkedForm": "",
+    "category": "HEALTH",
+    "scoreStrategy": "SUM",
+    "form": [
+        {
+            "formOID": "form_gastro",
+            "formTitle": "Global Consult Q1 module gastro-entérologie",
+            "formDescription": "Santé sur le plan digestif"
+        }
+    ],
+    "modules": [
+        {
+            "moduleOID": "gastro",
+            "moduleTitle": "Gastro-entérologie",
+            "questions": [
+                {
+                    "module": "",
+                    "questionOID": "q_gastro_000",
+                    "questionText": "Comment évaluez-vous votre état de santé sur le plan digestif ?",
+                    "type": "SINGLE_CHOICE_RADIO",
+                    "isTriggered": false,
+                    "triggeredQuestionOID": "",
+                    "triggeredValue": 0,
+                    "triggeredDefault": 0,
+                    "tag": "S_DIG",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": false,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "text": "Satisfaisant",
+                            "value": 0,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Légèrement insatisfaisant",
+                            "value": 1,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Plutôt insatisfaisant",
+                            "value": 2,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Insatisfaisant",
+                            "value": "3",
+                            "isExclusive": false
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_gastro_001",
+                    "questionText": "Vous a-t-on déjà diagnostiqué une de ces pathologies ?",
+                    "type": "MULTI_CHOICES",
+                    "isTriggered": false,
+                    "triggeredQuestionOID": "q_gastro_000",
+                    "triggeredValue": 0,
+                    "triggeredDefault": 0,
+                    "tag": "S_DIG_ATCD",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": true,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "text": "Cancer digestif (tube digestif, foie, vésicule, voies biliaires, pancréas)",
+                            "value": 0,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Maladie du tube digestif haut (œsophage, estomac, duodénum) : œsophagite, hernie hiatale, gastrite, ulcère…",
+                            "value": 1,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Maladie du tube digestif bas (intestin grêle, colon, rectum anus) : SIBO, colopathie fonctionnelle, diverticule, polypes, hémorroïdes…",
+                            "value": 2,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Maladie des organes digestif annexes (foie, vésicule, voies biliaires, pancréas) : hépatite, stéatose, calcul vésiculaire, pancréatite…",
+                            "value": 3,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Aucun de ces antécédents",
+                            "value": "4",
+                            "isExclusive": false
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_gastro_002",
+                    "questionText": "Quel(s) cancer(s) vous a-t-on diagnostiqué ?",
+                    "type": "MULTI_CHOICES",
+                    "isTriggered": true,
+                    "triggeredQuestionOID": "q_gastro_001",
+                    "triggeredValue": 0,
+                    "triggeredDefault": "4",
+                    "tag": "S_DIG_ATCD_CANCER",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": true,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "text": "Oesophage ",
+                            "value": 0,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Estomac ",
+                            "value": 1,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Duodénum ",
+                            "value": 2,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Intestin grêle",
+                            "value": 3,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Côlon (gros intestin)",
+                            "value": 4,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Sigmoïde",
+                            "value": 5,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Rectum",
+                            "value": 6,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Rectum",
+                            "value": 7,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Foie",
+                            "value": 8,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Vésicule-voies biliaires",
+                            "value": 9,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Pancréas",
+                            "value": 10,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Autre(s) cancer(s)",
+                            "value": "11",
+                            "isExclusive": false
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_gastro_003",
+                    "questionText": "Quelle(s) autre(s) pathologie(s) digestive(s) cancéreuse(s) a (ou ont) étée(s) diagnostiquée(s) ?",
+                    "type": "TEXT",
+                    "isTriggered": true,
+                    "tag": "S_DIG_ATCD_CANCER_AUTRE",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": true,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "regex": ""
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_gastro_004",
+                    "questionText": "Quelle(s) pathologie(s) du tube digestif haut vous a-t-on diagnostiqué ?",
+                    "type": "MULTI_CHOICES",
+                    "isTriggered": true,
+                    "triggeredQuestionOID": "q_gastro_003",
+                    "triggeredValue": "1",
+                    "triggeredDefault": "4",
+                    "tag": "S_DIG_ATCD_TD_HAUT",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": true,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "text": "Œsophagite",
+                            "value": 0,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Reflux gastro-œsophagien ",
+                            "value": 1,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Hernie hiatale",
+                            "value": 2,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Gastrite",
+                            "value": 3,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Ulcère de l'estomac",
+                            "value": 4,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Ulcère du duodénum",
+                            "value": 5,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Duodénite",
+                            "value": 6,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Autre(s) antécédent(s)",
+                            "value": "7",
+                            "isExclusive": false
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_gastro_005",
+                    "questionText": "Quelle(s) autre(s) pathologie(s) digestive haute (œsophage, estomac, duodénum) a (ou ont) étée(s) diagnostiquée(s) ?",
+                    "type": "TEXT",
+                    "isTriggered": true,
+                    "tag": "S_DIG_ATCD_TD_HAUT_AUTRE",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": true,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "regex": ""
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_gastro_006",
+                    "questionText": "Quelle(s) pathologie(s) du tube digestif bas vous a-t-on diagnostiqué ?",
+                    "type": "MULTI_CHOICES",
+                    "isTriggered": true,
+                    "triggeredQuestionOID": "q_gastro_005",
+                    "triggeredValue": "2",
+                    "triggeredDefault": "4",
+                    "tag": "S_DIG_ATCD_TD_BAS",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": true,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "text": "SIBO ",
+                            "value": 0,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Trouble fonctionnel intestinal (colopathie, syndrome de l’intestin irritable) ",
+                            "value": 1,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Polype bénin côlon ou rectum ",
+                            "value": 2,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Diverticules ",
+                            "value": 3,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Maladie de Crohn ",
+                            "value": 4,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Rectocolite hémorragique ",
+                            "value": 5,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Colite pseudo-membraneuse ",
+                            "value": 6,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "HémorroÏdes ",
+                            "value": 7,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Fissure anale",
+                            "value": 8,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Incontinence anale ",
+                            "value": 9,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Autre(s) antécédent(s)",
+                            "value": "10",
+                            "isExclusive": false
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_gastro_007",
+                    "questionText": "Quelle(s) autre(s) pathologie(s) digestive basse (intestin grêle, côlon, rectum, anus) a (ou ont) été diagnostiquée(s) ? ",
+                    "type": "TEXT",
+                    "isTriggered": true,
+                    "tag": "S_DIG_ATCD_TD_BAS_AUTRE",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": true,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "regex": ""
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_gastro_008",
+                    "questionText": "Quelle(s) pathologie(s) des  organes digestifs annexes vous a-t-on diagnostiqué ?",
+                    "type": "MULTI_CHOICES",
+                    "isTriggered": true,
+                    "triggeredQuestionOID": "q_gastro_001",
+                    "triggeredValue": "3",
+                    "triggeredDefault": "4",
+                    "tag": "S_DIG_ATCD_ANNEXES",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": true,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "text": "Stéatose hépatique (foie gras) ",
+                            "value": 0,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Fibrose du foie ",
+                            "value": 1,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Cirrhose du foie ",
+                            "value": 2,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Hépatite B",
+                            "value": 3,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Hépatite C",
+                            "value": 4,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Cholangite ",
+                            "value": 5,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Cholécystite (infection de la vésicule biliaire)",
+                            "value": 6,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Lithiase (calcul) de la vésicule biliaire ",
+                            "value": 7,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Vésicule opérée (cholécystectomie)",
+                            "value": 8,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Pancréatite aigue ",
+                            "value": 9,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Pancréatite chronique",
+                            "value": 10,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Autre(s) antécédent(s) (hépatites A, D, E, médicamenteuse, auto-immune et autres pathologies…)",
+                            "value": "11",
+                            "isExclusive": false
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_gastro_009",
+                    "questionText": "Quelle(s) autre(s) pathologie(s) des organes digestifs annexes (foie, vésicule, pancréas) a (ou ont) été diagnostiquée(s) ? ",
+                    "type": "TEXT",
+                    "isTriggered": true,
+                    "tag": "S_DIG_ATCD_ANNEXES_AUTRE",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": true,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "regex": ""
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_gastro_010",
+                    "questionText": "Au cours de ces 3 derniers mois, avez-vous présenté certains de ces symptômes ?",
+                    "type": "MULTI_CHOICES",
+                    "isTriggered": false,
+                    "triggeredQuestionOID": "",
+                    "triggeredValue": 0,
+                    "triggeredDefault": 0,
+                    "tag": "S_DIG_SYMP",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": true,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "text": "Symptômes du tube digestif haut (sensations d’inconfort, de brûlures et/ou de douleurs  à l’estomac, remontées acides, nausées, vomissements...) ",
+                            "value": 0,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Symptômes du tube digestif bas (constipation, diarrhées, ballonnements, flatulences, spasmes, douleurs du ventre...)",
+                            "value": 1,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Symptômes des organes digestifs annexes (démangeaisons, teint jaune de la peau et des yeux, selles décolorées…)",
+                            "value": 2,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Aucun de ces antécédents",
+                            "value": "3",
+                            "isExclusive": true
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_gastro_011",
+                    "questionText": "Au cours de ces 3 derniers mois, avez-vous présenté certains de ces symptômes du tube digestif haut ?",
+                    "type": "MULTI_CHOICES",
+                    "isTriggered": true,
+                    "triggeredQuestionOID": "q_gastro_010",
+                    "triggeredValue": "0",
+                    "triggeredDefault": "3",
+                    "tag": "S_DIG_SYMP_DIG_HAUT",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": true,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "text": "Difficultés à avaler des bouchées d’aliments solides (pain, viande…) ",
+                            "value": 0,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Sensation de brulures, de remontées d’acidité au niveau de l’œsophage (en arrière du sternum) ",
+                            "value": 1,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Sensation d’inconfort, de douleurs, de trop-plein et/ou de lenteur de digestion au niveau de l’estomac ",
+                            "value": 2,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Éructations excessives (rôts) ",
+                            "value": 3,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Sensation de brûlure au niveau de l’estomac, aggravées par certains aliments (alcool fort, concentré de tomates…)  ",
+                            "value": 4,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Sensation douloureuse de brûlures et/ou de poids au niveau de l’estomac (partie supérieure de l’abdomen), souvent calmée par les repas",
+                            "value": 5,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Nausées",
+                            "value": 6,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Vomissements",
+                            "value": "7",
+                            "isExclusive": false
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_gastro_012",
+                    "questionText": "Au cours de ces 3 derniers mois, avez-vous présenté certains de ces symptômes du tube digestif bas ?",
+                    "type": "SINGLE_CHOICE_RADIO",
+                    "isTriggered": true,
+                    "triggeredQuestionOID": "q_gastro_010",
+                    "triggeredValue": "1",
+                    "triggeredDefault": "3",
+                    "tag": "S_DIG_SYMP_DIG_BAS",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": true,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "text": "Constipation (évacuation difficile, rare et/ou incomplète des selles, selles dures) ?",
+                            "value": 0,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Diarrhée chronique",
+                            "value": 1,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Alternance de diarrhées et de constipation",
+                            "value": 2,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Difficultés récurrentes à digérer les aliments gras",
+                            "value": 3,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Selles « graisseuses », huileuses, flottant et laissant des traces grasses même après la chasse d’eau ",
+                            "value": 4,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Ballonnements douloureux, dilatant le ventre, survenant immédiatement ou à proximité des repas et n’occasionnant pas d’émissions de gaz ",
+                            "value": 5,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Ballonnements avec émission excessive de gaz inodores par l’anus",
+                            "value": 6,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Ballonnements avec émission excessive de gaz très malodorants par l’anus",
+                            "value": 7,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Douleurs abdominales récurrentes ",
+                            "value": 8,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Soulagement des douleurs abdominales par la défécation ",
+                            "value": 9,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Modification anormale et persistante des selles",
+                            "value": 10,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Sang dans les selles à plusieurs reprises ",
+                            "value": 11,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Présence de glaires dans les selles (mucosités épaisses et visqueuses, translucides ou blanchâtres)",
+                            "value": 12,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Démangeaisons au niveau de l’anus",
+                            "value": 13,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Douleurs au niveau de l’anus",
+                            "value": 14,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Difficultés à retenir les selles occasionnant des fuites de selles au niveau de l’anus (incontinence anale)",
+                            "value": "15",
+                            "isExclusive": false
+                        }
+                    ]
+                },
+                {
+                    "module": "",
+                    "questionOID": "q_gastro_013",
+                    "questionText": "Au cours de ces 3 derniers mois, avez-vous présenté certains de ces symptômes des organes digestifs annexes ?",
+                    "type": "SINGLE_CHOICE_RADIO",
+                    "isTriggered": true,
+                    "triggeredQuestionOID": "q_gastro_010",
+                    "triggeredValue": "2",
+                    "triggeredDefault": "3",
+                    "tag": "S_DIG_SYMP_ANNEXES",
+                    "scope": "MODULE_SCOPE",
+                    "isGlobal": true,
+                    "isCalculation": false,
+                    "calculation": [],
+                    "isWithConditions": false,
+                    "conditions": [],
+                    "answers": [
+                        {
+                            "text": "Démangeaisons au niveau des paumes des mains et des plantes des pieds et/ou généralisée à tout le corps ",
+                            "value": 0,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Coloration jaune de la peau et du fond de l’œil ",
+                            "value": 1,
+                            "isExclusive": false
+                        },
+                        {
+                            "text": "Selles décolorées, blanchâtres, souvent malodorantes ",
+                            "value": "2",
+                            "isExclusive": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "tags": [
+        {
+            "tagOID": "S_DIG",
+            "tagTitle": "État de santé sur le plan digestif",
+            "tagDescription": "État de santé sur le plan digestif",
+            "tagType": "SCORE",
+            "sunburstName": "DIG",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD",
+            "tagTitle": "Antécédents personnels",
+            "tagDescription": "Antécédents personnels",
+            "tagType": "SCORE",
+            "sunburstName": "ATCD",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_CANCER",
+            "tagTitle": "Cancer digestif",
+            "tagDescription": "Cancer digestif",
+            "tagType": "SCORE",
+            "sunburstName": "CANCER",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_CANCER_OESOPHAGE",
+            "tagTitle": "Œsophage",
+            "tagDescription": "Œsophage",
+            "tagType": "SCORE",
+            "sunburstName": "ŒSO",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_CANCER",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_CANCER_ESTOMAC",
+            "tagTitle": "Estomac",
+            "tagDescription": "Estomac",
+            "tagType": "SCORE",
+            "sunburstName": "ESTOMAC",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_CANCER",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_CANCER_DUODENUM",
+            "tagTitle": "Duodénum",
+            "tagDescription": "Duodénum",
+            "tagType": "SCORE",
+            "sunburstName": "DUOD",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_CANCER",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_CANCER_INTEST_GRELE",
+            "tagTitle": "Intestin grêle",
+            "tagDescription": "Intestin grêle",
+            "tagType": "SCORE",
+            "sunburstName": "INT GREL",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_CANCER",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_CANCER_COLON",
+            "tagTitle": "Côlon",
+            "tagDescription": "Côlon",
+            "tagType": "SCORE",
+            "sunburstName": "COLON",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_CANCER",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_CANCER_SIGMOIDE",
+            "tagTitle": "Sigmoïde",
+            "tagDescription": "Sigmoïde",
+            "tagType": "SCORE",
+            "sunburstName": "SIGM",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_CANCER",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_CANCER_RECTUM",
+            "tagTitle": "Rectum",
+            "tagDescription": "Rectum",
+            "tagType": "SCORE",
+            "sunburstName": "RECTUM",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_CANCER",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_CANCER_ANUS",
+            "tagTitle": "Anus",
+            "tagDescription": "Anus",
+            "tagType": "SCORE",
+            "sunburstName": "ANUS",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_CANCER",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_CANCER_FOIE",
+            "tagTitle": "Foie",
+            "tagDescription": "Foie",
+            "tagType": "SCORE",
+            "sunburstName": "FOIE",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_CANCER",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_CANCER_VOIES_BILIAIRES",
+            "tagTitle": "Vésicule-voies biliaires",
+            "tagDescription": "Vésicule-voies biliaires",
+            "tagType": "SCORE",
+            "sunburstName": "VB",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_CANCER",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_CANCER_PANCREAS",
+            "tagTitle": "Pancréas",
+            "tagDescription": "Pancréas",
+            "tagType": "SCORE",
+            "sunburstName": "PANCR",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_CANCER",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_CANCER_AUTRE",
+            "tagTitle": "Autre(s) cancer(s)",
+            "tagDescription": "Autre(s) cancer(s)",
+            "tagType": "SCORE",
+            "sunburstName": "AUTRE",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_CANCER",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_TD_HAUT",
+            "tagTitle": "Maladie du tube digestif haut",
+            "tagDescription": "Maladie du tube digestif haut",
+            "tagType": "SCORE",
+            "sunburstName": "DIG HAUT",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_TD_HAUT_OESOPHAGITE",
+            "tagTitle": "Œsophagite",
+            "tagDescription": "Œsophagite",
+            "tagType": "SCORE",
+            "sunburstName": "OESOPH",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_TD_HAUT",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_TD_HAUT_RGO",
+            "tagTitle": "Reflux gastro-œsophagien",
+            "tagDescription": "Reflux gastro-œsophagien",
+            "tagType": "SCORE",
+            "sunburstName": "RGO",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_TD_HAUT",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_TD_HAUT_HERNIE_HIATALE",
+            "tagTitle": "Hernie hiatale",
+            "tagDescription": "Hernie hiatale",
+            "tagType": "SCORE",
+            "sunburstName": "HER HIAT",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_TD_HAUT",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_TD_HAUT_GASTRITE",
+            "tagTitle": "Gastrite",
+            "tagDescription": "Gastrite",
+            "tagType": "SCORE",
+            "sunburstName": "GASTRIT",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_TD_HAUT",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_TD_HAUT_ULC_E",
+            "tagTitle": "Ulcère estomac",
+            "tagDescription": "Ulcère estomac",
+            "tagType": "SCORE",
+            "sunburstName": "ULC/ESTO",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_TD_HAUT",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_TD_HAUT_ULC_D",
+            "tagTitle": "Ulcère duodénum",
+            "tagDescription": "Ulcère duodénum",
+            "tagType": "SCORE",
+            "sunburstName": "ULC/DUO",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_TD_HAUT",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_TD_HAUT_DUOD",
+            "tagTitle": "Duodénite",
+            "tagDescription": "Duodénite",
+            "tagType": "SCORE",
+            "sunburstName": "DUOD",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_TD_HAUT",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_TD_HAUT_AUTRE",
+            "tagTitle": "Autre(s) antécédent(s)",
+            "tagDescription": "Autre(s) antécédent(s)",
+            "tagType": "SCORE",
+            "sunburstName": "AUTRE",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_TD_HAUT",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_TD_BAS",
+            "tagTitle": "Maladie du tube digestif bas",
+            "tagDescription": "Maladie du tube digestif bas",
+            "tagType": "SCORE",
+            "sunburstName": "DIG BAS",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_TD_BAS_SIBO",
+            "tagTitle": "SIBO",
+            "tagDescription": "SIBO",
+            "tagType": "SCORE",
+            "sunburstName": "SIBO",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_TD_BAS",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_TD_BAS_TFI",
+            "tagTitle": "Trouble fonctionnel intestinal ",
+            "tagDescription": "Trouble fonctionnel intestinal ",
+            "tagType": "SCORE",
+            "sunburstName": "TFI",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_TD_BAS",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_TD_BAS_POLYPE",
+            "tagTitle": "Polype",
+            "tagDescription": "Polype",
+            "tagType": "SCORE",
+            "sunburstName": "POLYP",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_TD_BAS",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_TD_BAS_DIVERTICULE",
+            "tagTitle": "Diverticules",
+            "tagDescription": "Diverticules",
+            "tagType": "SCORE",
+            "sunburstName": "DIVERTI",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_TD_BAS",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_TD_BAS_RCH",
+            "tagTitle": "Rectocolite hémorragique ",
+            "tagDescription": "Rectocolite hémorragique ",
+            "tagType": "SCORE",
+            "sunburstName": "RCH",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_TD_BAS",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_TD_BAS_COL_PMEMB",
+            "tagTitle": "Colite pseudo-membraneuse ",
+            "tagDescription": "Colite pseudo-membraneuse ",
+            "tagType": "SCORE",
+            "sunburstName": "COL/PMEMB",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_TD_BAS",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_TD_BAS_HEMOR",
+            "tagTitle": "Hémorroïdes",
+            "tagDescription": "Démorroïdes",
+            "tagType": "SCORE",
+            "sunburstName": "HEMORRO",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_TD_BAS",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_TD_BAS_F_ANAL",
+            "tagTitle": "Fissure anale",
+            "tagDescription": "Fissure anale",
+            "tagType": "SCORE",
+            "sunburstName": "F_ANAL",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_TD_BAS",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_TD_BAS_INC_ANAL",
+            "tagTitle": "Incontinence anale",
+            "tagDescription": "Incontinence anale",
+            "tagType": "SCORE",
+            "sunburstName": "INC/ANAL",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_TD_BAS",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_TD_BAS_AUTRE",
+            "tagTitle": "Autre(s) antécédent(s)",
+            "tagDescription": "Autre(s) antécédent(s)",
+            "tagType": "SCORE",
+            "sunburstName": "AUTRE",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_TD_BAS",
+            "children": []
+        },
+        {
+            "tagOID": "AUTRE",
+            "tagTitle": "aaa",
+            "tagDescription": "aaa",
+            "tagType": "SCORE",
+            "sunburstName": "aaa",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_TD_BAS",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_ANNEXES",
+            "tagTitle": "Maladie des organes digestif annexes ",
+            "tagDescription": "Maladie des organes digestif annexes ",
+            "tagType": "SCORE",
+            "sunburstName": "ANNEXE",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_ANNEXES_STEATOSE",
+            "tagTitle": "Stéatose hépatique",
+            "tagDescription": "Stéatose hépatique",
+            "tagType": "SCORE",
+            "sunburstName": "STEAT",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_ANNEXES",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_ANNEXES_FIBR",
+            "tagTitle": "Fibrose hépatique",
+            "tagDescription": "Fibrose hépatique",
+            "tagType": "SCORE",
+            "sunburstName": "FIBR/H",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_ANNEXES",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_ANNEXES_CIRRHOSE",
+            "tagTitle": "Cirrhose foie",
+            "tagDescription": "Cirrhose foie",
+            "tagType": "SCORE",
+            "sunburstName": "CIRRH",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_ANNEXES",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_ANNEXES_HEPAT_B",
+            "tagTitle": "Hépatite B",
+            "tagDescription": "Hépatite C",
+            "tagType": "SCORE",
+            "sunburstName": "HEPAT/B",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_ANNEXES",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_ANNEXES_HEPAT_C",
+            "tagTitle": "Hépatite C",
+            "tagDescription": "Hépatite C",
+            "tagType": "SCORE",
+            "sunburstName": "HEPAT/C",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_ANNEXES",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_ANNEXES_CHOLANG",
+            "tagTitle": "Cholangite",
+            "tagDescription": "Cholangite",
+            "tagType": "SCORE",
+            "sunburstName": "CHOLANG",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_ANNEXES",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_ANNEXES_CHOLECY",
+            "tagTitle": "Cholécystite",
+            "tagDescription": "Cholécystite",
+            "tagType": "SCORE",
+            "sunburstName": "CHOLECY",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_ANNEXES",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_ANNEXES_LITH_V",
+            "tagTitle": "Lithiase vésicule biliaire",
+            "tagDescription": "Lithiase vésicule biliaire",
+            "tagType": "SCORE",
+            "sunburstName": "LITH/VB",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_ANNEXES",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_ANNEXES_PANC_AIG",
+            "tagTitle": "Pancréatite aigue",
+            "tagDescription": "Pancréatite aigue",
+            "tagType": "SCORE",
+            "sunburstName": "PANC/A",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_ANNEXES",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_ANNEXES_PANC_CHR",
+            "tagTitle": "Pancréatite chronique",
+            "tagDescription": "Pancréatite chronique",
+            "tagType": "SCORE",
+            "sunburstName": "PANC/C",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_ANNEXES",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_ATCD_ANNEXES_AUTRE",
+            "tagTitle": "Autre(s) antécédent(s)",
+            "tagDescription": "Autre(s) antécédent(s)",
+            "tagType": "SCORE",
+            "sunburstName": "AUTRE",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_ATCD_ANNEXES",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_SYMP",
+            "tagTitle": "Symptômes",
+            "tagDescription": "Symptômes",
+            "tagType": "SCORE",
+            "sunburstName": "SYMP",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_SYMP_DIG_HAUT",
+            "tagTitle": "Symptômes du tube digestif haut ",
+            "tagDescription": "Symptômes du tube digestif haut ",
+            "tagType": "SCORE",
+            "sunburstName": "HAUT",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_SYMP",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_SYMP_DIG_HAUT_DYSPHAGIE",
+            "tagTitle": "Dysphagie",
+            "tagDescription": "Dysphagie",
+            "tagType": "SCORE",
+            "sunburstName": "DYSPH",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_SYMP_DIG_HAUT",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_SYMP_DIG_HAUT_PYROSIS",
+            "tagTitle": "Pyrosis",
+            "tagDescription": "Pyrosis",
+            "tagType": "SCORE",
+            "sunburstName": "PYRO",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_SYMP_DIG_HAUT",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_SYMP_DIG_HAUT_DYSPEPSIE",
+            "tagTitle": "Dyspepsie",
+            "tagDescription": "Dyspepsie",
+            "tagType": "SCORE",
+            "sunburstName": "DYSPE",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_SYMP_DIG_HAUT",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_SYMP_DIG_HAUT_ROTS",
+            "tagTitle": "Rôts",
+            "tagDescription": "Rôts",
+            "tagType": "SCORE",
+            "sunburstName": "RÔTS",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_SYMP_DIG_HAUT",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_SYMP_DIG_HAUT_BRUL",
+            "tagTitle": "Gastrite",
+            "tagDescription": "Gastrite",
+            "tagType": "SCORE",
+            "sunburstName": "GASTR",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_SYMP_DIG_HAUT",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_SYMP_DIG_HAUT_ULCUS",
+            "tagTitle": "Ulcus",
+            "tagDescription": "Ulcus",
+            "tagType": "SCORE",
+            "sunburstName": "ULCUS",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_SYMP_DIG_HAUT",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_SYMP_DIG_HAUT_NAUSEE",
+            "tagTitle": "Nausées",
+            "tagDescription": "Nausées",
+            "tagType": "SCORE",
+            "sunburstName": "NAUSEE",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_SYMP_DIG_HAUT",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_SYMP_DIG_HAUT_VOMI",
+            "tagTitle": "Vomissements",
+            "tagDescription": "Vomissements",
+            "tagType": "SCORE",
+            "sunburstName": "VOMI",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_SYMP_DIG_HAUT",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_SYMP_DIG_BAS",
+            "tagTitle": "Symptômes du tube digestif bas ",
+            "tagDescription": "Symptômes du tube digestif bas ",
+            "tagType": "SCORE",
+            "sunburstName": "BAS",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_SYMP",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_SYMP_DIG_BAS_CONSTIP",
+            "tagTitle": "Constipation",
+            "tagDescription": "Constipation",
+            "tagType": "SCORE",
+            "sunburstName": "Constip",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_SYMP_DIG_BAS",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_SYMP_DIG_BAS_DIARRHEE",
+            "tagTitle": "Diarrhée chronique",
+            "tagDescription": "Diarrhée chronique",
+            "tagType": "SCORE",
+            "sunburstName": "DIARR",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_SYMP_DIG_BAS",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_SYMP_DIG_BAS_ALT_DIARR_CONST",
+            "tagTitle": "Alternance de diarrhées et de constipation",
+            "tagDescription": "Alternance de diarrhées et de constipation",
+            "tagType": "SCORE",
+            "sunburstName": "ALT DC",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_SYMP_DIG_BAS",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_SYMP_DIG_BAS_MALDIG_GRAS",
+            "tagTitle": "Maldigestion aliments gras",
+            "tagDescription": "Maldigestion aliments gras",
+            "tagType": "SCORE",
+            "sunburstName": "DIG GRAS",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_SYMP_DIG_BAS",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_SYMP_DIG_BAS_SELLE_GRAS",
+            "tagTitle": "Selles graisseuses",
+            "tagDescription": "Selles graisseuses",
+            "tagType": "SCORE",
+            "sunburstName": "SELLE GRAS",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_SYMP_DIG_BAS",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_SYMP_DIG_BAS_SIBO",
+            "tagTitle": "SIBO",
+            "tagDescription": "SIBO",
+            "tagType": "SCORE",
+            "sunburstName": "SIBO",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_SYMP_DIG_BAS",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_SYMP_DIG_BAS_FERMENTATION",
+            "tagTitle": "Fermentation",
+            "tagDescription": "Fermentation",
+            "tagType": "SCORE",
+            "sunburstName": "FERMENT",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_SYMP_DIG_BAS",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_SYMP_DIG_BAS_PUTREFACTION",
+            "tagTitle": "Putrefaction",
+            "tagDescription": "Putrefaction",
+            "tagType": "SCORE",
+            "sunburstName": "PUTREF",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_SYMP_DIG_BAS",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_SYMP_DIG_BAS_DOUL_ABDO",
+            "tagTitle": "Douleurs abdominales",
+            "tagDescription": "Douleurs abdominales",
+            "tagType": "SCORE",
+            "sunburstName": "DLR ABDO",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_SYMP_DIG_BAS",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_SYMP_DIG_BAS_SII",
+            "tagTitle": "SII",
+            "tagDescription": "SII",
+            "tagType": "SCORE",
+            "sunburstName": "SII",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_SYMP_DIG_BAS",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_SYMP_DIG_BAS_MODIF_SELLE",
+            "tagTitle": "Modification des selles",
+            "tagDescription": "Modification des selles",
+            "tagType": "SCORE",
+            "sunburstName": "MOD SELLE",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_SYMP_DIG_BAS",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_SYMP_DIG_BAS_SANG_SELLE",
+            "tagTitle": "Sang dans les selles",
+            "tagDescription": "Sang dans les selles",
+            "tagType": "SCORE",
+            "sunburstName": "SANG SELLE",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_SYMP_DIG_BAS",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_SYMP_DIG_BAS_GLAIRES",
+            "tagTitle": "Glaires dans les selles",
+            "tagDescription": "Glaires dans les selles",
+            "tagType": "SCORE",
+            "sunburstName": "GLAIRE",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_SYMP_DIG_BAS",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_SYMP_DIG_BAS_PURIT_ANAL",
+            "tagTitle": "Démangeaisons anales",
+            "tagDescription": "Démandeaisons anales",
+            "tagType": "SCORE",
+            "sunburstName": "PURIT ANAL",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_SYMP_DIG_BAS",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_SYMP_DIG_BAS_DOULEURS_ANAL",
+            "tagTitle": "Douleurs anales",
+            "tagDescription": "Douleurs anales",
+            "tagType": "SCORE",
+            "sunburstName": "DOUL ANUS",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_SYMP_DIG_BAS",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_SYMP_DIG_BAS_INCONT_ANAL",
+            "tagTitle": "Incontinence anale",
+            "tagDescription": "Inconrtinence anale",
+            "tagType": "SCORE",
+            "sunburstName": "INCONT",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_SYMP_DIG_BAS",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_SYMP_ANNEXES",
+            "tagTitle": "Symptômes des organes digestifs annexes ",
+            "tagDescription": "Symptômes des organes digestifs annexes ",
+            "tagType": "SCORE",
+            "sunburstName": "ANNEXE",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_SYMP",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_SYMP_ANNEXES_PRURIT",
+            "tagTitle": "Prurit",
+            "tagDescription": "Prurit",
+            "tagType": "SCORE",
+            "sunburstName": "PRURIT",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_SYMP_ANNEXES",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_SYMP_ANNEXES_ICTERE",
+            "tagTitle": "Ictère",
+            "tagDescription": "Ictère",
+            "tagType": "SCORE",
+            "sunburstName": "ICTERE",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_SYMP_ANNEXES",
+            "children": []
+        },
+        {
+            "tagOID": "S_DIG_SYMP_ANNEXES_SELLES_BLANCHES",
+            "tagTitle": "Selles blanchâtres",
+            "tagDescription": "Selles blanchâtres",
+            "tagType": "SCORE",
+            "sunburstName": "SELLE PALE",
+            "module": "gastro",
+            "rangeMin": [
+                0,
+                1
+            ],
+            "rangeMax": [
+                0,
+                1
+            ],
+            "parent": "S_DIG_SYMP_ANNEXES",
+            "children": []
+        }
+    ]
+}

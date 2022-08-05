@@ -1,0 +1,137 @@
+{
+  "oid": "q_Q1_uro_nephrologie_013",
+  "title": "Au cours des 3 derniers mois, avez-vous présenté un (ou plusieurs) de ces symptômes ?",
+  "text": "Au cours des 3 derniers mois, avez-vous présenté un (ou plusieurs) de ces symptômes ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "douleurs reins",
+      "text": "Douleurs au niveau des fosses lombaires, dans le dos sous les côtes"
+    },
+    {
+      "code": "sang urines",
+      "text": "Sang dans les urines"
+    },
+    {
+      "code": "cystalgie",
+      "text": "Pesanteur au niveau de la vessie et/ou une gêne douloureuse à la miction (émission d’urines)"
+    },
+    {
+      "code": "difficultés à uriner",
+      "text": "Difficultés à uriner (démarrage, jet…)"
+    },
+    {
+      "code": "nycturie",
+      "text": "Nécessité de se lever pour uriner durant la nuit"
+    },
+    {
+      "code": "Pollakiurie",
+      "text": "Besoin d’uriner de manière anormalement fréquente"
+    },
+    {
+      "code": "Impériosité",
+      "text": "Besoin soudain et pressant d’uriner sous peine d’avoir une fuite involontaire d’urine"
+    },
+    {
+      "code": "Incontinence",
+      "text": "Fuite involontaire d’urine, même occasionnelle"
+    },
+    {
+      "code": "aucun",
+      "text": "Aucun de ces symptômes",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"douleurs reins\" in q_Q1_uro_nephrologie_013",
+      "tagOID": "S_UN_SYMP_DOULEUR_REIN",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"douleurs reins\" in q_Q1_uro_nephrologie_013)",
+      "tagOID": "S_UN_SYMP_DOULEUR_REIN",
+      "value": 0
+    },
+    {
+      "conditions": "\"sang urines\" in q_Q1_uro_nephrologie_013",
+      "tagOID": "S_UN_SYMP_HEMATURIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"sang urines\" in q_Q1_uro_nephrologie_013)",
+      "tagOID": "S_UN_SYMP_HEMATURIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"cystalgie\" in q_Q1_uro_nephrologie_013",
+      "tagOID": "S_UN_SYMP_CYSTALGIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"cystalgie\" in q_Q1_uro_nephrologie_013)",
+      "tagOID": "S_UN_SYMP_CYSTALGIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"difficultés à uriner\" in q_Q1_uro_nephrologie_013",
+      "tagOID": "S_UN_SYMP_DYSURIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"difficultés à uriner\" in q_Q1_uro_nephrologie_013)",
+      "tagOID": "S_UN_SYMP_DYSURIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"nycturie\" in q_Q1_uro_nephrologie_013",
+      "tagOID": "S_UN_SYMP_NYCTURIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"nycturie\" in q_Q1_uro_nephrologie_013)",
+      "tagOID": "S_UN_SYMP_NYCTURIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Pollakiurie\" in q_Q1_uro_nephrologie_013",
+      "tagOID": "S_UN_SYMP_POLLAKIURIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Pollakiurie\" in q_Q1_uro_nephrologie_013)",
+      "tagOID": "S_UN_SYMP_POLLAKIURIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Impériosité\" in q_Q1_uro_nephrologie_013",
+      "tagOID": "S_UN_SYMP_IMPERIOSITE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Impériosité\" in q_Q1_uro_nephrologie_013)",
+      "tagOID": "S_UN_SYMP_IMPERIOSITE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Incontinence\" in q_Q1_uro_nephrologie_013",
+      "tagOID": "S_UN_SYMP_INCONTINENCE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Incontinence\" in q_Q1_uro_nephrologie_013)",
+      "tagOID": "S_UN_SYMP_INCONTINENCE",
+      "value": 0
+    },
+    {
+      "conditions": "\"aucun\" in q_Q1_uro_nephrologie_013",
+      "tagOID": "S_UN_SYMP",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_Q1_uro_nephrologie_013)",
+      "tagOID": "S_UN_SYMP",
+      "value": 1
+    }
+  ]
+}

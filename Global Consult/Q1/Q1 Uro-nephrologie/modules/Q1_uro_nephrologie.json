@@ -32,7 +32,7 @@
         "conditions": "!(\"cancer de la vessie\" in q_Q1_uro_nephrologie_000)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_Q1_uro_nephrologie_000": "aucun"
+          "q_Q1_uro_nephrologie_001": "aucun"
         }
       }
     },
@@ -41,10 +41,10 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Polykystose rénale\" in q_Q1_uro_nephrologie_000)",
+        "conditions": "!(\"Polykystose rénale\" in q_Q1_uro_nephrologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_Q1_uro_nephrologie_000": "aucun"
+          "q_Q1_uro_nephrologie_001": "aucun"
         }
       }
     },
@@ -53,10 +53,10 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Insuffisance rénale\" in q_Q1_uro_nephrologie_000)",
+        "conditions": "!(\"Insuffisance rénale\" in q_Q1_uro_nephrologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_Q1_uro_nephrologie_000": "aucun"
+          "q_Q1_uro_nephrologie_001": "aucun"
         }
       }
     },
@@ -65,10 +65,10 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Coliques néphrétiques (calculs rénaux)\" in q_Q1_uro_nephrologie_000)",
+        "conditions": "!(\"Coliques néphrétiques (calculs rénaux)\" in q_Q1_uro_nephrologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_Q1_uro_nephrologie_000": "aucun"
+          "q_Q1_uro_nephrologie_001": "aucun"
         }
       }
     },
@@ -77,10 +77,10 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Pyélonéphrite(s)\" in q_Q1_uro_nephrologie_000)",
+        "conditions": "!(\"Pyélonéphrite(s)\" in q_Q1_uro_nephrologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_Q1_uro_nephrologie_000": "aucun"
+          "q_Q1_uro_nephrologie_001": "aucun"
         }
       }
     },
@@ -89,10 +89,10 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Malformation de l’uretère\" in q_Q1_uro_nephrologie_007)",
+        "conditions": "!(\"Malformation de l’uretère\" in q_Q1_uro_nephrologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_Q1_uro_nephrologie_007": "aucun"
+          "q_Q1_uro_nephrologie_001": "aucun"
         }
       }
     },
@@ -101,10 +101,10 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Polype(s) de la vessie \" in q_Q1_uro_nephrologie_000)",
+        "conditions": "!(\"Polype(s) de la vessie \" in q_Q1_uro_nephrologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_Q1_uro_nephrologie_000": "aucun"
+          "q_Q1_uro_nephrologie_001": "aucun"
         }
       }
     },
@@ -113,10 +113,10 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Infections urinaires à répétition\" in q_Q1_uro_nephrologie_000)",
+        "conditions": "!(\"Infections urinaires à répétition\" in q_Q1_uro_nephrologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_Q1_uro_nephrologie_000": "aucun"
+          "q_Q1_uro_nephrologie_001": "aucun"
         }
       }
     },
@@ -125,10 +125,10 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Incontinence urinaire\" in q_Q1_uro_nephrologie_000)",
+        "conditions": "!(\"Incontinence urinaire\" in q_Q1_uro_nephrologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_Q1_uro_nephrologie_000": "aucun"
+          "q_Q1_uro_nephrologie_001": "aucun"
         }
       }
     },
@@ -137,17 +137,12 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"autres\" in q_Q1_uro_nephrologie_000)",
+        "conditions": "!(\"autres\" in q_Q1_uro_nephrologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_Q1_uro_nephrologie_000": "aucun"
+          "q_Q1_uro_nephrologie_001": "aucun"
         }
       }
-    },
-    {
-      "question": "q_Q1_uro_nephrologie_013",
-      "level": 1,
-      "isGlobal": false
     }
   ]
 }

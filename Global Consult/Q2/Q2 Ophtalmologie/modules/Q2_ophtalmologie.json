@@ -1,0 +1,50 @@
+{
+  "oid": "Q2_ophtalmologie",
+  "title": "Ophtalmologie",
+  "questions": [
+    {
+      "question": "q_S_OPH_000",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_S_OPH_001",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_S_OPH_002",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"13\" in q_S_OPH_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_S_OPH_001":"12"
+        }
+      }
+    },
+    {
+      "question": "q_S_OPH_003",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_S_OPH_004",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"7\" in q_S_OPH_003)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_S_OPH_003":"6"
+        }
+      }
+    },
+    {
+      "question": "q_S_OPH_005",
+      "level": 1,
+      "isGlobal": false
+    }
+  ]
+}

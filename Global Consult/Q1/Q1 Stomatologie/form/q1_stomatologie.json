@@ -1,0 +1,284 @@
+{
+  "oid": "q1_stomatologie",
+  "title": "Q1 Global Focus Stomatologie",
+  "estimatedTime": 10,
+  "pricing": 10,
+  "description": "Q1 Global Focus Stomatologie",
+  "levelMax": "1",
+  "authors": [
+    "test"
+  ],
+  "chapters": [
+    "chap_q1_stomatologie"
+  ],
+  "professions": [
+    "DENTIST"
+  ],
+  "diagnostics": [],
+  "reportingTrees": [
+    {
+      "category": "HEALTH",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "S_STO",
+        "type": "SCORE",
+        "ranges": [
+          {
+            "min": 0,
+            "max": 0,
+            "color": "00FF00",
+            "text": "STO"
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "color": "FFFF00",
+            "text": "STO"
+          },
+          {
+            "min": 2,
+            "max": 2,
+            "color": "FF9900",
+            "text": "STO"
+          },
+          {
+            "min": 3,
+            "max": 3,
+            "color": "FF0000",
+            "text": "STO"
+          }
+        ],
+        "children": [
+          {
+            "tagOID": "S_STO_ATCD_PARODONTITE",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "PARODON"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "PARODON"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "S_STO_ATCD_BRUXISME",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "BRUXISME"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "BRUXISME"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "S_STO_ATCD_BIPHOSPHONATE",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "BIPHOSPH"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "BIPHOSPH"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "S_STO_ATCD_ORTHODONTIE",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "ORTHODON"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "ORTHODON"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "S_STO_ATCD_CARIE",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "CARIE"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "CARIE"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "S_STO_ATCD_GREFFE",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "GREFFE"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "GREFFE"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "S_STO_ATCD_BRIDGE_COURONNE",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "BRID/COU"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "BRID/COU"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "S_STO_ATCD_IMPLANT",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "IMPLANT"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "IMPLANT"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "S_STO_ATCD_DENTIER",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "DENTIER"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "DENTIER"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "S_STO_ATCD_ORTHESE",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "ORTHESE"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "ORTHESE"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "S_STO_ATCD_AUTRE",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "AUTRE"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "AUTRE"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "S_STO_ATCD_AUCUN",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "EFFACE"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "EFFACE"
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    }
+  ]
+}

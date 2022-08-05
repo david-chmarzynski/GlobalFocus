@@ -20,7 +20,7 @@
         "conditions": "!(\"0\" in q_endocrinologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_endocrinologie_001":""
+          "q_endocrinologie_001": ""
         }
       }
     },
@@ -32,7 +32,7 @@
         "conditions": "!(\"1\" in q_endocrinologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_endocrinologie_001":""
+          "q_endocrinologie_001": ""
         }
       }
     },
@@ -44,7 +44,7 @@
         "conditions": "!(\"2\" in q_endocrinologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_endocrinologie_001":""
+          "q_endocrinologie_001": ""
         }
       }
     },
@@ -56,7 +56,7 @@
         "conditions": "!(\"3\" in q_endocrinologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_endocrinologie_001":""
+          "q_endocrinologie_001": ""
         }
       }
     },
@@ -68,7 +68,7 @@
         "conditions": "!(\"4\" in q_endocrinologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_endocrinologie_001":""
+          "q_endocrinologie_001": ""
         }
       }
     },
@@ -80,7 +80,7 @@
         "conditions": "!(\"0\" in q_endocrinologie_002)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_endocrinologie_002":""
+          "q_endocrinologie_002": ""
         }
       }
     },
@@ -92,7 +92,7 @@
         "conditions": "!(\"1\" in q_endocrinologie_002)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_endocrinologie_002":""
+          "q_endocrinologie_002": ""
         }
       }
     },
@@ -104,7 +104,7 @@
         "conditions": "!(\"2\" in q_endocrinologie_002)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_endocrinologie_002":""
+          "q_endocrinologie_002": ""
         }
       }
     },
@@ -116,7 +116,7 @@
         "conditions": "!(\"3\" in q_endocrinologie_002)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_endocrinologie_002":""
+          "q_endocrinologie_002": ""
         }
       }
     },
@@ -128,7 +128,7 @@
         "conditions": "!(\"4\" in q_endocrinologie_002)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_endocrinologie_002":""
+          "q_endocrinologie_002": ""
         }
       }
     },
@@ -140,7 +140,7 @@
         "conditions": "!(\"5\" in q_endocrinologie_002)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_endocrinologie_002":""
+          "q_endocrinologie_002": ""
         }
       }
     },
@@ -152,7 +152,7 @@
         "conditions": "!(\"0\" in q_endocrinologie_003)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_endocrinologie_003":""
+          "q_endocrinologie_003": ""
         }
       }
     },
@@ -164,7 +164,7 @@
         "conditions": "!(\"1\" in q_endocrinologie_003)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_endocrinologie_003":""
+          "q_endocrinologie_003": ""
         }
       }
     },
@@ -176,7 +176,7 @@
         "conditions": "!(\"2\" in q_endocrinologie_003)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_endocrinologie_003":""
+          "q_endocrinologie_003": ""
         }
       }
     },
@@ -188,7 +188,7 @@
         "conditions": "!(\"3\" in q_endocrinologie_003)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_endocrinologie_003":""
+          "q_endocrinologie_003": ""
         }
       }
     },
@@ -200,7 +200,7 @@
         "conditions": "!(\"0\" in q_endocrinologie_004)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_endocrinologie_004":""
+          "q_endocrinologie_004": ""
         }
       }
     },
@@ -212,7 +212,7 @@
         "conditions": "!(\"1\" in q_endocrinologie_004)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_endocrinologie_004":""
+          "q_endocrinologie_004": ""
         }
       }
     },
@@ -224,7 +224,7 @@
         "conditions": "!(\"2\" in q_endocrinologie_004)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_endocrinologie_004":""
+          "q_endocrinologie_004": ""
         }
       }
     },
@@ -236,7 +236,7 @@
         "conditions": "!(\"3\" in q_endocrinologie_004)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_endocrinologie_004":""
+          "q_endocrinologie_004": ""
         }
       }
     },
@@ -248,7 +248,7 @@
         "conditions": "!(\"4\" in q_endocrinologie_004)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_endocrinologie_004":""
+          "q_endocrinologie_004": ""
         }
       }
     },
@@ -260,7 +260,7 @@
         "conditions": "!(\"5\" in q_endocrinologie_004)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_endocrinologie_004":""
+          "q_endocrinologie_004": ""
         }
       }
     },
@@ -272,7 +272,7 @@
         "conditions": "!(\"0\" in q_endocrinologie_006)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_endocrinologie_006":""
+          "q_endocrinologie_006": ""
         }
       }
     },
@@ -284,7 +284,7 @@
         "conditions": "!(\"1\" in q_endocrinologie_006)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_endocrinologie_006":""
+          "q_endocrinologie_006": ""
         }
       }
     },
@@ -296,7 +296,7 @@
         "conditions": "!(\"2\" in q_endocrinologie_006)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_endocrinologie_006":""
+          "q_endocrinologie_006": ""
         }
       }
     },
@@ -308,7 +308,7 @@
         "conditions": "!(\"3\" in q_endocrinologie_006)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_endocrinologie_006":""
+          "q_endocrinologie_006": ""
         }
       }
     },
@@ -320,7 +320,7 @@
         "conditions": "!(\"4\" in q_endocrinologie_006)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_endocrinologie_006":""
+          "q_endocrinologie_006": ""
         }
       }
     },
@@ -332,7 +332,7 @@
         "conditions": "!(\"5\" in q_endocrinologie_006)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_endocrinologie_006":""
+          "q_endocrinologie_006": ""
         }
       }
     },
@@ -344,7 +344,7 @@
         "conditions": "!(\"6\" in q_endocrinologie_006)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_endocrinologie_006":""
+          "q_endocrinologie_006": ""
         }
       }
     },
@@ -356,7 +356,7 @@
         "conditions": "!(\"0\" in q_endocrinologie_007)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_endocrinologie_007":""
+          "q_endocrinologie_007": ""
         }
       }
     },
@@ -368,7 +368,7 @@
         "conditions": "!(\"1\" in q_endocrinologie_007)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_endocrinologie_007":""
+          "q_endocrinologie_007": ""
         }
       }
     },
@@ -380,7 +380,7 @@
         "conditions": "!(\"0\" in q_endocrinologie_007)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_endocrinologie_007":""
+          "q_endocrinologie_007": ""
         }
       }
     },
@@ -392,7 +392,7 @@
         "conditions": "!(\"0\" in q_endocrinologie_007)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_endocrinologie_007":""
+          "q_endocrinologie_007": ""
         }
       }
     },
@@ -404,7 +404,7 @@
         "conditions": "!(\"0\" in q_endocrinologie_007)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_endocrinologie_007":""
+          "q_endocrinologie_007": ""
         }
       }
     },
@@ -416,416 +416,9 @@
         "conditions": "!(\"0\" in q_endocrinologie_007)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_endocrinologie_007":""
+          "q_endocrinologie_007": ""
         }
       }
-    },
-    {
-      "question": "q_endocrinologie_007_AUTRE",
-      "level": 1,
-      "isGlobal": true,
-      "trigger": {
-        "conditions": "!(\"0\" in q_endocrinologie_007)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues": {
-          "q_endocrinologie_007":""
-        }
-      }
-    },
-    {
-      "question": "q_endocrinologie_032",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_033",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_034",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_035",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_036",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_037",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_038",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_039",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_040",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_040.5",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_041",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_042",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_043",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_044",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_045",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_046",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_047",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_048",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_049",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_050",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_051",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_052",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_053",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_054",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_055",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_056",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_057",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_058",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_059",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_060",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_061",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_062",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_063",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_064",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_065",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_066",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_067",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_068",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_069",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_070",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_071",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_072",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_073",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_074",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_075",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_076",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_077",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_078",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_079",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_080",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_081",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_082",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_083",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_084",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_085",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_086",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_087",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_088",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_089",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_090",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_091",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_092",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_093",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_094",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_095",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_096",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_097",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_098",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_099",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_100",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_101",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_102",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_103",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_104",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_105",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_106",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_107",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_108",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_endocrinologie_109",
-      "level": 1,
-      "isGlobal": false
     }
   ]
 }

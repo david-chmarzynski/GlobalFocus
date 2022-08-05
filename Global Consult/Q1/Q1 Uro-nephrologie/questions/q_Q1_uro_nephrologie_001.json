@@ -47,6 +47,11 @@
     {
       "code": "autres",
       "text": "Autre(s) antécédent(s) (rétention aigüe d’urine…)"
+    },
+    {
+      "code": "aucun",
+      "text": "Aucun de ces antécédents",
+      "exclusive": true
     }
   ],
   "scores": [

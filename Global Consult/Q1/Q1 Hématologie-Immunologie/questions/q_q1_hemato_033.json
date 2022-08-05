@@ -1,0 +1,125 @@
+{
+  "oid": "q_q1_hemato_033",
+  "title": "Est-ce qu’un traitement immunosuppresseur vous-a été prescrit ? (une seule réponse)",
+  "text": "Est-ce qu’un traitement immunosuppresseur vous-a été prescrit ? (une seule réponse)",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "Oui, actuellement",
+      "text": "Oui, actuellement",
+      "exclusive": true
+    },
+    {
+      "code": "Oui, par le passé",
+      "text": "Oui, par le passé",
+      "exclusive": true
+    },
+    {
+      "code": "Oui, actuellement et par le passé",
+      "text": "Oui, actuellement et par le passé",
+      "exclusive": true
+    },
+    {
+      "code": "Non, jamais",
+      "text": "Non, jamais",
+      "exclusive": true
+    },
+    {
+      "code": "Je ne sais pas",
+      "text": "Je ne sais pas",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"Oui, actuellement\" in q_q1_hemato_033",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_ACTUELLEMENT",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Oui, actuellement\" in q_q1_hemato_033)",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_ACTUELLEMENT",
+      "value": 0
+    },
+    {
+      "conditions": "\"Oui, actuellement\" in q_q1_hemato_033",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Oui, actuellement\" in q_q1_hemato_033)",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO",
+      "value": 0
+    },
+    {
+      "conditions": "\"Oui, par le passé\" in q_q1_hemato_033",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_PASSE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Oui, par le passé\" in q_q1_hemato_033)",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_PASSE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Oui, par le passé\" in q_q1_hemato_033",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Oui, par le passé\" in q_q1_hemato_033)",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO",
+      "value": 0
+    },
+    {
+      "conditions": "\"Oui, actuellement et par le passé\" in q_q1_hemato_033",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_ACTUEL_PASSE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Oui, actuellement et par le passé\" in q_q1_hemato_033)",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_ACTUEL_PASSE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Oui, actuellement et par le passé\" in q_q1_hemato_033",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Oui, actuellement et par le passé\" in q_q1_hemato_033)",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO",
+      "value": 0
+    },
+    {
+      "conditions": "\"Non, jamais\" in q_q1_hemato_033",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_JAMAIS",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Non, jamais\" in q_q1_hemato_033)",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_JAMAIS",
+      "value": 0
+    },
+    {
+      "conditions": "\"Non, jamais\" in q_q1_hemato_033",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"Non, jamais\" in q_q1_hemato_033)",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO",
+      "value": 1
+    },
+    {
+      "conditions": "\"Je ne sais pas\" in q_q1_hemato_033",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_NSP",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Je ne sais pas\" in q_q1_hemato_033)",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_NSP",
+      "value": 0
+    }
+  ]
+}

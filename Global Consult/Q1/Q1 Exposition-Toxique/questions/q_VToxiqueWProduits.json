@@ -1,7 +1,7 @@
 {
   "oid": "q_VToxiqueWProduits",
-  "title": "Comment évaluez-vous votre exposition à des produits chimiques dans votre environnement de travail (gaz d’échappement, solvants, fumées, poussières, amiante, pesticides, engrais, huile, graisses, dérivés du pétrole, colle, adhésif, papier thermique…) ?",
-  "text": "Comment évaluez-vous votre exposition à des produits chimiques dans votre environnement de travail (gaz d’échappement, solvants, fumées, poussières, amiante, pesticides, engrais, huile, graisses, dérivés du pétrole, colle, adhésif, papier thermique…) ?",
+  "title": "Comment évaluez-vous votre exposition à des produits chimiques dans votre environnement de travail (gaz d’échappement, solvants, fumées, poussières, amiante, pesticides, engrais, huile, graisses, dérivés du pétrole, colle, adhésif, papier thermique, etc) ?",
+  "text": "Comment évaluez-vous votre exposition à des produits chimiques dans votre environnement de travail (gaz d’échappement, solvants, fumées, poussières, amiante, pesticides, engrais, huile, graisses, dérivés du pétrole, colle, adhésif, papier thermique, etc) ?",
   "type": "SINGLE_CHOICE_RADIO",
   "choices":[
     {"code": "0", "text": "Nulle ou très faible"},

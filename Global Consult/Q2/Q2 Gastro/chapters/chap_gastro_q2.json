@@ -1,0 +1,7 @@
+{
+  "oid": "chap_gastro_q2",
+  "title": "chap_Global Consult Q2 module dastro",
+  "modules": [
+    "gastro_q2"
+  ]
+}

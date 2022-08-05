@@ -1,7 +1,7 @@
 {
   "oid": "q_VToxiqueWAir",
-  "title": "Comment évaluez-vous la qualité de l’air ambiant sur votre lieu de travail (humidité, poussières, odeurs, fumée de tabac, renouvellement de l’air, VMC, polluants divers...) ?",
-  "text": "Comment évaluez-vous la qualité de l’air ambiant sur votre lieu de travail (humidité, poussières, odeurs, fumée de tabac, renouvellement de l’air, VMC, polluants divers...) ?",
+  "title": "Comment évaluez-vous la qualité de l’air ambiant sur votre lieu de travail (humidité, poussières, odeurs, fumée de tabac, renouvellement de l’air, VMC, polluants divers, etc) ?",
+  "text": "Comment évaluez-vous la qualité de l’air ambiant sur votre lieu de travail (humidité, poussières, odeurs, fumée de tabac, renouvellement de l’air, VMC, polluants divers, etc) ?",
   "type": "SINGLE_CHOICE_RADIO",
   "choices":[
     {"code": "0", "text": "Bonne qualité de l'air"},

@@ -1,0 +1,207 @@
+{
+  "oid": "q_S_OPH_001",
+  "title": "Vous a-t-on diagnostiqué ?",
+  "text": "Vous a-t-on diagnostiqué ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Un cancer de l'œil"
+    },
+    {
+      "code": "1",
+      "text": "Une dégénérescence maculaire liée à l'âge"
+    },
+    {
+      "code": "2",
+      "text": "Un glaucome à angle ouvert"
+    },
+    {
+      "code": "3",
+      "text": "Une inflammation chronique de type uvéite"
+    },
+    {
+      "code": "4",
+      "text": "Une inflammation chronique de type kératite"
+    },
+    {
+      "code": "5",
+      "text": "Une cataracte"
+    },
+    {
+      "code": "6",
+      "text": "Une rétinopathie"
+    },
+    {
+      "code": "7",
+      "text": "Une myopie (difficulté à voir de loin)"
+    },
+    {
+      "code": "8",
+      "text": "Une presbytie (difficulté à voir de près)"
+    },
+    {
+      "code": "9",
+      "text": "Une astigmatie"
+    },
+    {
+      "code": "10",
+      "text": "Une hypermétropie"
+    },
+    {
+      "code": "11",
+      "text": "Une cécité d'un ou des deux yeux"
+    },
+    {
+      "code": "12",
+      "text": "Aucun de ces antécédents",
+      "exclusive":true
+    },
+    {
+      "code": "13",
+      "text": "Autre(s) antécédent(s)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"0\" in q_S_OPH_001",
+      "tagOID": "S_OPH_ATCD_CANCER_OEIL",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"0\" in q_S_OPH_001)",
+      "tagOID": "S_OPH_ATCD_CANCER_OEIL",
+      "value": "0"
+    },
+    {
+      "conditions": "\"1\" in q_S_OPH_001",
+      "tagOID": "S_OPH_ATCD_DMLA",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"1\" in q_S_OPH_001)",
+      "tagOID": "S_OPH_ATCD_DMLA",
+      "value": "0"
+    },
+    {
+      "conditions": "\"2\" in q_S_OPH_001",
+      "tagOID": "S_OPH_ATCD_GLAUCOME",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"2\" in q_S_OPH_001)",
+      "tagOID": "S_OPH_ATCD_GLAUCOME",
+      "value": "0"
+    },
+    {
+      "conditions": "\"3\" in q_S_OPH_001",
+      "tagOID": "S_OPH_ATCD_UVEITE",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"3\" in q_S_OPH_001)",
+      "tagOID": "S_OPH_ATCD_UVEITE",
+      "value": "0"
+    },
+    {
+      "conditions": "\"4\" in q_S_OPH_001",
+      "tagOID": "S_OPH_ATCD_KERATITE",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"4\" in q_S_OPH_001)",
+      "tagOID": "S_OPH_ATCD_KERATITE",
+      "value": "0"
+    },
+    {
+      "conditions": "\"5\" in q_S_OPH_001",
+      "tagOID": "S_OPH_ATCD_CATARACTE",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"5\" in q_S_OPH_001)",
+      "tagOID": "S_OPH_ATCD_CATARACTE",
+      "value": "0"
+    },
+    {
+      "conditions": "\"6\" in q_S_OPH_001",
+      "tagOID": "S_OPH_ATCD_RETINE",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"6\" in q_S_OPH_001)",
+      "tagOID": "S_OPH_ATCD_RETINE",
+      "value": "0"
+    },
+    {
+      "conditions": "\"7\" in q_S_OPH_001",
+      "tagOID": "S_OPH_ATCD_MYOPIE",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"7\" in q_S_OPH_001)",
+      "tagOID": "S_OPH_ATCD_MYOPIE",
+      "value": "0"
+    },
+    {
+      "conditions": "\"8\" in q_S_OPH_001",
+      "tagOID": "S_OPH_ATCD_ASTIGMATIE",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"8\" in q_S_OPH_001)",
+      "tagOID": "S_OPH_ATCD_ASTIGMATIE",
+      "value": "0"
+    },
+    {
+      "conditions": "\"9\" in q_S_OPH_001",
+      "tagOID": "S_OPH_ATCD_PRESBYTIE",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"9\" in q_S_OPH_001)",
+      "tagOID": "S_OPH_ATCD_PRESBYTIE",
+      "value": "0"
+    },
+    {
+      "conditions": "\"10\" in q_S_OPH_001",
+      "tagOID": "S_OPH_ATCD_HYPERMETROPIE",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"10\" in q_S_OPH_001)",
+      "tagOID": "S_OPH_ATCD_HYPERMETROPIE",
+      "value": "0"
+    },
+    {
+      "conditions": "\"11\" in q_S_OPH_001",
+      "tagOID": "S_OPH_ATCD_CECITE",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"11\" in q_S_OPH_001)",
+      "tagOID": "S_OPH_ATCD_CECITE",
+      "value": "0"
+    },
+    {
+      "conditions": "\"12\" in q_S_OPH_001",
+      "tagOID": "S_OPH_ATCD",
+      "value": "0"
+    },
+    {
+      "conditions": "!(\"12\" in q_S_OPH_001)",
+      "tagOID": "S_OPH_ATCD",
+      "value": "1"
+    },
+    {
+      "conditions": "\"13\" in q_S_OPH_001",
+      "tagOID": "S_OPH_ATCD_AUTRE",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"13\" in q_S_OPH_001)",
+      "tagOID": "S_OPH_ATCD_AUTRE",
+      "value": "0"
+    }
+  ]
+}

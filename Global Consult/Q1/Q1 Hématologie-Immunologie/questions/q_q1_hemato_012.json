@@ -1,0 +1,123 @@
+{
+  "oid": "q_q1_hemato_012",
+  "title": "Avez-vous déjà eu une ou plusieurs de ces pathologies en lien avec les globules blancs ?",
+  "text": "Avez-vous déjà eu une ou plusieurs de ces pathologies en lien avec les globules blancs ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "Leucémie myéloïde chronique",
+      "text": "Leucémie myéloïde chronique"
+    },
+    {
+      "code": "Leucémie lymphoïde chronique",
+      "text": "Leucémie lymphoïde chronique"
+    },
+    {
+      "code": "Leucémie aigue myéloblastique",
+      "text": "Leucémie aigue myéloblastique"
+    },
+    {
+      "code": "Leucémie aigue lymphoblastique",
+      "text": "Leucémie aigue lymphoblastique"
+    },
+    {
+      "code": "Lymphome Hodgkinien",
+      "text": "Lymphome Hodgkinien"
+    },
+    {
+      "code": "Lymphome non Hodgkinien",
+      "text": "Lymphome non Hodgkinien"
+    },
+    {
+      "code": "autres",
+      "text": "Autre(s) antécédent(s)"
+    },
+    {
+      "code": "aucun",
+      "text": "Aucun antécédent",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"Leucémie myéloïde chronique\" in q_q1_hemato_012",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GB_LMC",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Leucémie myéloïde chronique\" in q_q1_hemato_012)",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GB_LMC",
+      "value": 0
+    },
+    {
+      "conditions": "\"Leucémie lymphoïde chronique\" in q_q1_hemato_012",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GB_LLC",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Leucémie lymphoïde chronique\" in q_q1_hemato_012)",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GB_LLC",
+      "value": 0
+    },
+    {
+      "conditions": "\"Leucémie aigue myéloblastique\" in q_q1_hemato_012",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GB_LAM",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Leucémie aigue myéloblastique\" in q_q1_hemato_012)",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GB_LAM",
+      "value": 0
+    },
+    {
+      "conditions": "\"Leucémie aigue lymphoblastique\" in q_q1_hemato_012",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GB_LAL",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Leucémie aigue lymphoblastique\" in q_q1_hemato_012)",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GB_LAL",
+      "value": 0
+    },
+    {
+      "conditions": "\"Lymphome Hodgkinien\" in q_q1_hemato_012",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GB_HODGKINIEN",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Lymphome Hodgkinien\" in q_q1_hemato_012)",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GB_HODGKINIEN",
+      "value": 0
+    },
+    {
+      "conditions": "\"Lymphome non Hodgkinien\" in q_q1_hemato_012",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GB_NON_HODGKINIEN",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Lymphome non Hodgkinien\" in q_q1_hemato_012)",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GB_NON_HODGKINIEN",
+      "value": 0
+    },
+    {
+      "conditions": "\"autres\" in q_q1_hemato_012",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GB_AUTRES",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"autres\" in q_q1_hemato_012)",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GB_AUTRES",
+      "value": 0
+    },
+    {
+      "conditions": "\"aucun\" in q_q1_hemato_012",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GB",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_q1_hemato_012)",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GB",
+      "value": 1
+    }
+  ]
+}

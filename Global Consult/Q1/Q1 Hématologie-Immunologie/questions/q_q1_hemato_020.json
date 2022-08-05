@@ -1,0 +1,193 @@
+{
+  "oid": "q_q1_hemato_020",
+  "title": "Avez-vous déjà eu une ou plusieurs de ces pathologies en lien avec les plaquettes ou des facteurs de coagulation ?",
+  "text": "Avez-vous déjà eu une ou plusieurs de ces pathologies en lien avec les plaquettes ou des facteurs de coagulation ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "Thrombocytémie essentielle (excès de plaquettes)",
+      "text": "Thrombocytémie essentielle (excès de plaquettes)"
+    },
+    {
+      "code": "Thrombopénie (insuffisance de plaquettes)",
+      "text": "Thrombopénie (insuffisance de plaquettes)"
+    },
+    {
+      "code": "Purpura thrombopénique idiopathique",
+      "text": "Purpura thrombopénique idiopathique"
+    },
+    {
+      "code": "Maladie de Von Willebrand",
+      "text": "Maladie de Von Willebrand"
+    },
+    {
+      "code": "Purpura thrombopénique thrombotique",
+      "text": "Purpura thrombopénique thrombotique"
+    },
+    {
+      "code": "Hémophilie",
+      "text": "Hémophilie"
+    },
+    {
+      "code": "Déficit en facteur XI",
+      "text": "Déficit en facteur XI"
+    },
+    {
+      "code": "Déficit en facteur V (Leiden)",
+      "text": "Déficit en facteur V (Leiden)"
+    },
+    {
+      "code": "Déficit en anti-thrombine III",
+      "text": "Déficit en anti-thrombine III"
+    },
+    {
+      "code": "Déficit en Protéine C",
+      "text": "Déficit en Protéine C"
+    },
+    {
+      "code": "Déficit en Protéine S",
+      "text": "Déficit en Protéine S"
+    },
+    {
+      "code": "autres",
+      "text": "Autre(s) antécédent(s)"
+    },
+    {
+      "code": "aucun",
+      "text": "Aucun antécédent",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"Thrombocytémie essentielle (excès de plaquettes)\" in q_q1_hemato_020",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_THROMBOCYTEMIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Thrombocytémie essentielle (excès de plaquettes)\" in q_q1_hemato_020)",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_THROMBOCYTEMIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Thrombopénie (insuffisance de plaquettes)\" in q_q1_hemato_020",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_THROMBOPENIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Thrombopénie (insuffisance de plaquettes)\" in q_q1_hemato_020)",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_THROMBOPENIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Purpura thrombopénique idiopathique\" in q_q1_hemato_020",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_PURPURA_IDIOPATHIQUE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Purpura thrombopénique idiopathique\" in q_q1_hemato_020)",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_PURPURA_IDIOPATHIQUE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Maladie de Von Willebrand\" in q_q1_hemato_020",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_WILLEBRAND",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Maladie de Von Willebrand\" in q_q1_hemato_020)",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_WILLEBRAND",
+      "value": 0
+    },
+    {
+      "conditions": "\"Purpura thrombopénique thrombotique\" in q_q1_hemato_020",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_PURPURA_THROMBOTIQUE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Purpura thrombopénique thrombotique\" in q_q1_hemato_020)",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_PURPURA_THROMBOTIQUE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Hémophilie\" in q_q1_hemato_020",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_HEMOPHILIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Hémophilie\" in q_q1_hemato_020)",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_HEMOPHILIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Déficit en facteur XI\" in q_q1_hemato_020",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_XI",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Déficit en facteur XI\" in q_q1_hemato_020)",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_XI",
+      "value": 0
+    },
+    {
+      "conditions": "\"Déficit en facteur V (Leiden)\" in q_q1_hemato_020",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_V",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Déficit en facteur V (Leiden)\" in q_q1_hemato_020)",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_V",
+      "value": 0
+    },
+    {
+      "conditions": "\"Déficit en anti-thrombine III\" in q_q1_hemato_020",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_III",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Déficit en anti-thrombine III\" in q_q1_hemato_020)",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_III",
+      "value": 0
+    },
+    {
+      "conditions": "\"Déficit en Protéine C\" in q_q1_hemato_020",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_PROT_C",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Déficit en Protéine C\" in q_q1_hemato_020)",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_PROT_C",
+      "value": 0
+    },
+    {
+      "conditions": "\"Déficit en Protéine S\" in q_q1_hemato_020",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_PROT_S",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Déficit en Protéine S\" in q_q1_hemato_020)",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_PROT_S",
+      "value": 0
+    },
+    {
+      "conditions": "\"autres\" in q_q1_hemato_020",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_AUTRES",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"autres\" in q_q1_hemato_020)",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_AUTRES",
+      "value": 0
+    },
+    {
+      "conditions": "\"aucun\" in q_q1_hemato_020",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_q1_hemato_020)",
+      "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG",
+      "value": 1
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "oid": "q_q1_hemato_021",
+  "title": "Avez-vous déjà eu ou avez-vous un cancer actuellement (hématologique ou organique) ? (une seule réponse)",
+  "text": "Avez-vous déjà eu ou avez-vous un cancer actuellement (hématologique ou organique) ? (une seule réponse)",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "Jamais",
+      "text": "Jamais",
+      "exclusive": true
+    },
+    {
+      "code": "Cancer localisé en cours de traitement",
+      "text": "Cancer localisé en cours de traitement",
+      "exclusive": true
+    },
+    {
+      "code": "Cancer avec des métastases en cours de traitement",
+      "text": "Cancer avec des métastases en cours de traitement",
+      "exclusive": true
+    },
+    {
+      "code": "Récidive de cancer en cours de traitement",
+      "text": "Récidive de cancer en cours de traitement",
+      "exclusive": true
+    },
+    {
+      "code": "Cancer en rémission (plus de traitement mais surveillance)",
+      "text": "Cancer en rémission (plus de traitement mais surveillance)",
+      "exclusive": true
+    },
+    {
+      "code": "Plusieurs cancers de localisations différentes en rémission (surveillance)",
+      "text": "Plusieurs cancers de localisations différentes en rémission (surveillance)",
+      "exclusive": true
+    },
+    {
+      "code": "J’ai eu plusieurs cancers mais un est actuellement en traitement",
+      "text": "J’ai eu plusieurs cancers mais un est actuellement en traitement",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"Jamais\" in q_q1_hemato_021",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_JAMAIS",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Jamais\" in q_q1_hemato_021)",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_JAMAIS",
+      "value": 0
+    },
+    {
+      "conditions": "\"Jamais\" in q_q1_hemato_021",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"Jamais\" in q_q1_hemato_021)",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER",
+      "value": 1
+    },
+    {
+      "conditions": "\"Jamais\" in q_q1_hemato_021",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_TRAITEMENT",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"Jamais\" in q_q1_hemato_021)",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_TRAITEMENT",
+      "value": 1
+    },
+    {
+      "conditions": "\"Cancer localisé en cours de traitement\" in q_q1_hemato_021",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_LOCAL_EN_TRT",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Cancer localisé en cours de traitement\" in q_q1_hemato_021)",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_LOCAL_EN_TRT",
+      "value": 0
+    },
+    {
+      "conditions": "\"Cancer avec des métastases en cours de traitement\" in q_q1_hemato_021",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_METASTASE_EN_TRT",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Cancer avec des métastases en cours de traitement\" in q_q1_hemato_021)",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_METASTASE_EN_TRT",
+      "value": 0
+    },
+    {
+      "conditions": "\"Récidive de cancer en cours de traitement\" in q_q1_hemato_021",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_RECIDIVE_EN_TRT",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Récidive de cancer en cours de traitement\" in q_q1_hemato_021)",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_RECIDIVE_EN_TRT",
+      "value": 0
+    },
+    {
+      "conditions": "\"Cancer en rémission (plus de traitement mais surveillance)\" in q_q1_hemato_021",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_REMISSION",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Cancer en rémission (plus de traitement mais surveillance)\" in q_q1_hemato_021)",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_REMISSION",
+      "value": 0
+    },
+    {
+      "conditions": "\"Plusieurs cancers de localisations différentes en rémission (surveillance)\" in q_q1_hemato_021",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_KC_PLUSIEURS_EN_REM",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Plusieurs cancers de localisations différentes en rémission (surveillance)\" in q_q1_hemato_021)",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_KC_PLUSIEURS_EN_REM",
+      "value": 0
+    },
+    {
+      "conditions": "\"J’ai eu plusieurs cancers mais un est actuellement en traitement\" in q_q1_hemato_021",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_KC_PLUSIEURS_EN_TRT",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"J’ai eu plusieurs cancers mais un est actuellement en traitement\" in q_q1_hemato_021)",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_KC_PLUSIEURS_EN_TRT",
+      "value": 0
+    }
+  ]
+}

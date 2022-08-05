@@ -1,7 +1,7 @@
 {
   "oid": "q_VToxiquePersoHygiene",
-  "title": "Utilisez-vous, des produits d’hygiène (savon, gel douche, shampoing) et des cosmétiques (crème de jour, de nuit, désodorisant, rouge à lèvre, mascara, fond de teint, vernis…) sans vous préoccuper de leur composition (hors bio) ?",
-  "text": "Utilisez-vous, des produits d’hygiène (savon, gel douche, shampoing) et des cosmétiques (crème de jour, de nuit, désodorisant, rouge à lèvre, mascara, fond de teint, vernis…) sans vous préoccuper de leur composition (hors bio) ?",
+  "title": "Utilisez-vous, des produits d’hygiène (savon, gel douche, shampoing) et des cosmétiques (crème de jour, de nuit, désodorisant, rouge à lèvre, mascara, fond de teint, vernis, etc) sans vous préoccuper de leur composition (hors bio) ?",
+  "text": "Utilisez-vous, des produits d’hygiène (savon, gel douche, shampoing) et des cosmétiques (crème de jour, de nuit, désodorisant, rouge à lèvre, mascara, fond de teint, vernis, etc) sans vous préoccuper de leur composition (hors bio) ?",
   "type": "SINGLE_CHOICE_RADIO",
   "choices":[
     {"code": "0", "text": "Jamais"},

@@ -1,7 +1,7 @@
 {
   "oid": "q_gastro_008",
-  "title": "Quelle(s) pathologie(s) des  organes digestifs annexes vous a-t-on diagnostiqué ?",
-  "text": "Quelle(s) pathologie(s) des  organes digestifs annexes vous a-t-on diagnostiqué ?",
+  "title": "Quelle(s) pathologie(s) des organes digestifs annexes vous a-t-on diagnostiqué ?",
+  "text": "Quelle(s) pathologie(s) des organes digestifs annexes vous a-t-on diagnostiqué ?",
   "type": "MULTI_CHOICES",
   "choices": [
     {
@@ -55,7 +55,7 @@
   ],
   "scores": [
     {
-      "conditions": "\"0 in q_gastro_008\"",
+      "conditions": "\"0\" in q_gastro_008",
       "tagOID": "S_DIG_ATCD_ANNEXES_STEATOSE",
       "value": 1
     },
@@ -65,7 +65,7 @@
       "value": 0
     },
     {
-      "conditions": "\"1 in q_gastro_008\"",
+      "conditions": "\"1\" in q_gastro_008",
       "tagOID": "S_DIG_ATCD_ANNEXES_FIBR",
       "value": 1
     },
@@ -75,7 +75,7 @@
       "value": 0
     },
     {
-      "conditions": "\"2 in q_gastro_008\"",
+      "conditions": "\"2\" in q_gastro_008",
       "tagOID": "S_DIG_ATCD_ANNEXES_CIRRHOSE",
       "value": 1
     },
@@ -85,7 +85,7 @@
       "value": 0
     },
     {
-      "conditions": "\"3 in q_gastro_008\"",
+      "conditions": "\"3\" in q_gastro_008",
       "tagOID": "S_DIG_ATCD_ANNEXES_HEPAT_B",
       "value": 1
     },
@@ -95,7 +95,7 @@
       "value": 0
     },
     {
-      "conditions": "\"4 in q_gastro_008\"",
+      "conditions": "\"4\" in q_gastro_008",
       "tagOID": "S_DIG_ATCD_ANNEXES_HEPAT_C",
       "value": 1
     },
@@ -105,7 +105,7 @@
       "value": 0
     },
     {
-      "conditions": "\"5 in q_gastro_008\"",
+      "conditions": "\"5\" in q_gastro_008",
       "tagOID": "S_DIG_ATCD_ANNEXES_CHOLANG",
       "value": 1
     },
@@ -115,7 +115,7 @@
       "value": 0
     },
     {
-      "conditions": "\"6 in q_gastro_008\"",
+      "conditions": "\"6\" in q_gastro_008",
       "tagOID": "S_DIG_ATCD_ANNEXES_CHOLECY",
       "value": 1
     },
@@ -125,7 +125,7 @@
       "value": 0
     },
     {
-      "conditions": "\"7 in q_gastro_008\"",
+      "conditions": "\"7\" in q_gastro_008",
       "tagOID": "S_DIG_ATCD_ANNEXES_LITH_V",
       "value": 1
     },
@@ -135,7 +135,7 @@
       "value": 0
     },
     {
-      "conditions": "\"8 in q_gastro_008\"",
+      "conditions": "\"8\" in q_gastro_008",
       "tagOID": "S_DIG_ATCD_ANNEXES_CHOLECYSTECTOMIE",
       "value": 1
     },
@@ -145,7 +145,7 @@
       "value": 0
     },
     {
-      "conditions": "\"9 in q_gastro_008\"",
+      "conditions": "\"9\" in q_gastro_008",
       "tagOID": "S_DIG_ATCD_ANNEXES_PANC_AIG",
       "value": 1
     },
@@ -155,7 +155,7 @@
       "value": 0
     },
     {
-      "conditions": "\"10 in q_gastro_008\"",
+      "conditions": "\"10\" in q_gastro_008",
       "tagOID": "S_DIG_ATCD_ANNEXES_PANC_CHR",
       "value": 1
     },
@@ -165,7 +165,7 @@
       "value": 0
     },
     {
-      "conditions": "\"11 in q_gastro_008\"",
+      "conditions": "\"11\" in q_gastro_008",
       "tagOID": "S_DIG_ATCD_ANNEXES_AUTRE",
       "value": 1
     },

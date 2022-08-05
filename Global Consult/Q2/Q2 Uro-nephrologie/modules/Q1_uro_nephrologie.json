@@ -1,0 +1,153 @@
+{
+  "oid": "Q1_uro_nephrologie",
+  "title": "Q1 Global Focus Uro-néphrologie",
+  "questions": [
+    {
+      "question": "q_Q1_uro_nephrologie_000",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_Q1_uro_nephrologie_001",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_Q1_uro_nephrologie_002",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"cancer du rein\" in q_Q1_uro_nephrologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_uro_nephrologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_uro_nephrologie_003",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"cancer de la vessie\" in q_Q1_uro_nephrologie_000)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_uro_nephrologie_000": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_uro_nephrologie_004",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Polykystose rénale\" in q_Q1_uro_nephrologie_000)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_uro_nephrologie_000": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_uro_nephrologie_005",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Insuffisance rénale\" in q_Q1_uro_nephrologie_000)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_uro_nephrologie_000": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_uro_nephrologie_006",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Coliques néphrétiques (calculs rénaux)\" in q_Q1_uro_nephrologie_000)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_uro_nephrologie_000": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_uro_nephrologie_007",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Pyélonéphrite(s)\" in q_Q1_uro_nephrologie_000)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_uro_nephrologie_000": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_uro_nephrologie_008",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Malformation de l’uretère\" in q_Q1_uro_nephrologie_007)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_uro_nephrologie_007": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_uro_nephrologie_009",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Polype(s) de la vessie \" in q_Q1_uro_nephrologie_000)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_uro_nephrologie_000": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_uro_nephrologie_010",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Infections urinaires à répétition\" in q_Q1_uro_nephrologie_000)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_uro_nephrologie_000": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_uro_nephrologie_011",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Incontinence urinaire\" in q_Q1_uro_nephrologie_000)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_uro_nephrologie_000": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_uro_nephrologie_012",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"autres\" in q_Q1_uro_nephrologie_000)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_Q1_uro_nephrologie_000": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_Q1_uro_nephrologie_013",
+      "level": 1,
+      "isGlobal": false
+    }
+  ]
+}

@@ -53,13 +53,13 @@
       "text": "Une cécité d'un ou des deux yeux"
     },
     {
+      "code": "13",
+      "text": "Autre(s) antécédent(s)"
+    },
+    {
       "code": "12",
       "text": "Aucun de ces antécédents",
       "exclusive":true
-    },
-    {
-      "code": "13",
-      "text": "Autre(s) antécédent(s)"
     }
   ],
   "scores": [

@@ -1,0 +1,66 @@
+{
+  "oid": "q_endocrinologie_003",
+  "title": "Indiquez la ou les pathologie(s) parathyroïdienne(s) diagnostiquée(s).",
+  "text": "Indiquez la ou les pathologie(s) parathyroïdienne(s) diagnostiquée(s).",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Hypoparathyroïdie"
+    },
+    {
+      "code": "1",
+      "text": "Hyperparathyroïdie"
+    },
+    {
+      "code": "2",
+      "text": "Cancer parathyroïdien"
+    },
+    {
+      "code": "3",
+      "text": "Autre(s)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"0\" in q_endocrinologie_003",
+      "tagOID": "S_ENDO_ATCD_PARATHYROIDE_HYPO",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"0\" in q_endocrinologie_003)",
+      "tagOID": "S_ENDO_ATCD_PARATHYROIDE_HYPO",
+      "value": "0"
+    },
+    {
+      "conditions": "\"1\" in q_endocrinologie_003",
+      "tagOID": "S_ENDO_ATCD_PARATHYROIDE_HYPER",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"1\" in q_endocrinologie_003)",
+      "tagOID": "S_ENDO_ATCD_PARATHYROIDE_HYPER",
+      "value": "0"
+    },
+    {
+      "conditions": "\"2\" in q_endocrinologie_003",
+      "tagOID": "S_ENDO_ATCD_PARATHYROIDE_CANCER",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"2\" in q_endocrinologie_003)",
+      "tagOID": "S_ENDO_ATCD_PARATHYROIDE_CANCER",
+      "value": "0"
+    },
+    {
+      "conditions": "\"3\" in q_endocrinologie_003",
+      "tagOID": "S_ENDO_ATCD_PARATHYROIDE_AUTRE",
+      "value": "1"
+    },
+    {
+      "conditions": "!(\"3\" in q_endocrinologie_003)",
+      "tagOID": "S_ENDO_ATCD_PARATHYROIDE_AUTRE",
+      "value": "0"
+    }
+  ]
+}

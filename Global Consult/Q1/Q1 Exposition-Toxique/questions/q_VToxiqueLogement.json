@@ -1,7 +1,7 @@
 {
   "oid": "q_VToxiqueLogement",
-  "title": "Comment évaluez-vous votre exposition à des toxiques à l’intérieur de votre logement ?",
-  "text": "Comment évaluez-vous votre exposition à des toxiques à l’intérieur de votre logement ?",
+  "title": "Comment évaluez-vous votre exposition à des polluants à l’intérieur de votre logement ?",
+  "text": "Comment évaluez-vous votre exposition à des polluants à l’intérieur de votre logement ?",
   "type": "SINGLE_CHOICE_RADIO",
   "choices":[
     {"code": "0", "text": "Exposition nulle ou très faible"},

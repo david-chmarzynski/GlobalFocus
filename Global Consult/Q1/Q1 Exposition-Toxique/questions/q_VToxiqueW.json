@@ -1,7 +1,7 @@
 {
   "oid": "q_VToxiqueW",
-  "title": "Comment évaluez-vous votre exposition à des toxiques sur votre lieu de travail ?",
-  "text": "Comment évaluez-vous votre exposition à des toxiques sur votre lieu de travail ?",
+  "title": "Comment évaluez-vous votre exposition à des toxiques sur votre lieu de travail ?",
+  "text": "Comment évaluez-vous votre exposition à des toxiques sur votre lieu de travail ?",
   "type": "SINGLE_CHOICE_RADIO",
   "choices":[
     {"code": "0", "text": "Nulle ou très faible"},

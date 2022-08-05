@@ -31,447 +31,274 @@
             "min": 0,
             "max": 0,
             "color": "00FF00",
-            "text":"OPH"
+            "text":"EVAL/GLOB"
           },
           {
             "min": 1,
             "max": 1,
             "color": "FFFF00",
-            "text":"OPH"
+            "text":"EVAL/GLOB"
           },
           {
             "min": 2,
             "max": 2,
-            "color": "FF9900",
-            "text":"OPH"
+            "color": "FF0000",
+            "text":"EVAL/GLOB"
           },
           {
             "min": 3,
             "max": 3,
             "color": "FF0000",
-            "text":"OPH"
+            "text":"EVAL/GLOB"
           }
         ],
         "children": [
           {
-            "tagOID": "S_OPH_ATCD",
+            "tagOID": "S_OPH_ATCD_CANCER_OEIL",
             "type": "SCORE",
             "ranges": [
               {
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text":"ATCD"
+                "text":"CANCER"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FF0000",
-                "text":"ATCD"
+                "text":"CANCER"
               }
             ],
-            "children": [
-              {
-                "tagOID": "S_OPH_ATCD_CANCER_OEIL",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text":"CANCER"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text":"CANCER"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_OPH_ATCD_DMLA",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text":"DMLA"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text":"DMLA"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_OPH_ATCD_GLAUCOME",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text":"GLAU"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text":"GLAU"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_OPH_ATCD_UVEITE",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text":"UVEIT"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text":"UVEIT"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_OPH_ATCD_KERATITE",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text":"KERA"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF9900",
-                    "text":"KERA"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_OPH_ATCD_CATARACTE",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text":"CATA"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FFFF00",
-                    "text":"CATA"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_OPH_ATCD_RETINE",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text":"RETINO"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text":"RETINO"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_OPH_ATCD_MYOPIE",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text":"MYOP"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FFFF00",
-                    "text":"MYOP"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_OPH_ATCD_PRESBYTIE",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text":"PRESB"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FFFF00",
-                    "text":"PRESB"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_OPH_ATCD_ASTIGMATIE",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text":"ASTI"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FFFF00",
-                    "text":"ASTI"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_OPH_ATCD_HYPERMETROPIE",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text":"HYPER"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FFFF00",
-                    "text":"HYPER"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_OPH_ATCD_CECITE",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text":"CECIT"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text":"CECIT"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_OPH_ATCD_AUTRE",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text":"AUTRE"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text":"AUTRE"
-                  }
-                ],
-                "children": []
-              }
-            ]
+            "children": []
           },
           {
-            "tagOID": "S_OPH_SYMP",
+            "tagOID": "S_OPH_ATCD_DMLA",
             "type": "SCORE",
             "ranges": [
               {
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text":"SYMP"
+                "text":"DMLA"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FF0000",
-                "text":"SYMP"
+                "text":"DMLA"
               }
             ],
-            "children": [
+            "children": []
+          },
+          {
+            "tagOID": "S_OPH_ATCD_GLAUCOME",
+            "type": "SCORE",
+            "ranges": [
               {
-                "tagOID": "S_OPH_SYMP_VISION",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text":"BAISSE"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text":"BAISSE"
-                  }
-                ],
-                "children": []
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text":"GLAU"
               },
               {
-                "tagOID": "S_OPH_SYMP_SCOTOME",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text":"SCOT"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text":"SCOT"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_OPH_SYMP_DEFORMATION",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text":"DEFRM"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text":"DEFRM"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_OPH_SYMP_YEUX_SECS",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text":"SEC"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text":"SEC"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_OPH_SYMP_DOULEURS_YEUX",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text":"DOUL"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text":"DOUL"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_OPH_SYMP_ROUGEUR_YEUX",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text":"ROUG"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text":"ROUG"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_OPH_SYMP_AUTRE",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text":"AUTRE"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text":"AUTRE"
-                  }
-                ],
-                "children": []
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text":"GLAU"
               }
-            ]
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "S_OPH_ATCD_UVEITE",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text":"UVEIT"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text":"UVEIT"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "S_OPH_ATCD_KERATITE",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text":"KERA"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text":"KERA"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "S_OPH_ATCD_CATARACTE",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text":"CATA"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text":"CATA"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "S_OPH_ATCD_RETINE",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text":"RETINO"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text":"RETINO"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "S_OPH_ATCD_MYOPIE",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text":"MYOP"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text":"MYOP"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "S_OPH_ATCD_PRESBYTIE",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text":"PRESB"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text":"PRESB"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "S_OPH_ATCD_ASTIGMATIE",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text":"ASTI"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text":"ASTI"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "S_OPH_ATCD_HYPERMETROPIE",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text":"HYPER"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text":"HYPER"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "S_OPH_ATCD_CECITE",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text":"CECIT"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text":"CECIT"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "S_OPH_ATCD_AUTRE",
+            "type": "SCORE",
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text":"AUTRE"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text":"AUTRE"
+              }
+            ],
+            "children": []
           }
         ]
       }

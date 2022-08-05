@@ -1,0 +1,164 @@
+{
+  "oid": "q_gastro_006",
+  "title": "Quelle(s) pathologie(s) du tube digestif bas vous a-t-on diagnostiqué ?",
+  "text": "Quelle(s) pathologie(s) du tube digestif bas vous a-t-on diagnostiqué ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "SIBO "
+    },
+    {
+      "code": "1",
+      "text": "Trouble fonctionnel intestinal (colopathie, syndrome de l’intestin irritable) "
+    },
+    {
+      "code": "2",
+      "text": "Polype bénin côlon ou rectum "
+    },
+    {
+      "code": "3",
+      "text": "Diverticules "
+    },
+    {
+      "code": "4",
+      "text": "Maladie de Crohn "
+    },
+    {
+      "code": "5",
+      "text": "Rectocolite hémorragique "
+    },
+    {
+      "code": "6",
+      "text": "Colite pseudo-membraneuse "
+    },
+    {
+      "code": "7",
+      "text": "HémorroÏdes "
+    },
+    {
+      "code": "8",
+      "text": "Fissure anale"
+    },
+    {
+      "code": "9",
+      "text": "Incontinence anale "
+    },
+    {
+      "code": "10",
+      "text": "Autre(s) antécédent(s)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"0 in q_gastro_006\"",
+      "tagOID": "S_DIG_ATCD_TD_BAS_SIBO",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"0\" in q_gastro_006)",
+      "tagOID": "S_DIG_ATCD_TD_BAS_SIBO",
+      "value": 0
+    },
+    {
+      "conditions": "\"1 in q_gastro_006\"",
+      "tagOID": "S_DIG_ATCD_TD_BAS_TFI",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"1\" in q_gastro_006)",
+      "tagOID": "S_DIG_ATCD_TD_BAS_TFI",
+      "value": 0
+    },
+    {
+      "conditions": "\"2 in q_gastro_006\"",
+      "tagOID": "S_DIG_ATCD_TD_BAS_POLYPE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"2\" in q_gastro_006)",
+      "tagOID": "S_DIG_ATCD_TD_BAS_POLYPE",
+      "value": 0
+    },
+    {
+      "conditions": "\"3 in q_gastro_006\"",
+      "tagOID": "S_DIG_ATCD_TD_BAS_DIVERTICULE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"3\" in q_gastro_006)",
+      "tagOID": "S_DIG_ATCD_TD_BAS_DIVERTICULE",
+      "value": 0
+    },
+    {
+      "conditions": "\"4 in q_gastro_006\"",
+      "tagOID": "S_DIG_ATCD_TD_BAS_CHRON",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"4\" in q_gastro_006)",
+      "tagOID": "S_DIG_ATCD_TD_BAS_CHRON",
+      "value": 0
+    },
+    {
+      "conditions": "\"5 in q_gastro_006\"",
+      "tagOID": "S_DIG_ATCD_TD_BAS_RCH",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"5\" in q_gastro_006)",
+      "tagOID": "S_DIG_ATCD_TD_BAS_RCH",
+      "value": 0
+    },
+    {
+      "conditions": "\"6 in q_gastro_006\"",
+      "tagOID": "S_DIG_ATCD_TD_BAS_COL_PMEMB",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"6\" in q_gastro_006)",
+      "tagOID": "S_DIG_ATCD_TD_BAS_COL_PMEMB",
+      "value": 0
+    },
+    {
+      "conditions": "\"7 in q_gastro_006\"",
+      "tagOID": "S_DIG_ATCD_TD_BAS_HEMOR",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"7\" in q_gastro_006)",
+      "tagOID": "S_DIG_ATCD_TD_BAS_HEMOR",
+      "value": 0
+    },
+    {
+      "conditions": "\"8 in q_gastro_006\"",
+      "tagOID": "S_DIG_ATCD_TD_BAS_F_ANAL",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"8\" in q_gastro_006)",
+      "tagOID": "S_DIG_ATCD_TD_BAS_F_ANAL",
+      "value": 0
+    },
+    {
+      "conditions": "\"9 in q_gastro_006\"",
+      "tagOID": "S_DIG_ATCD_TD_BAS_INC_ANAL",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"9\" in q_gastro_006)",
+      "tagOID": "S_DIG_ATCD_TD_BAS_INC_ANAL",
+      "value": 0
+    },
+    {
+      "conditions": "\"10 in q_gastro_006\"",
+      "tagOID": "S_DIG_ATCD_TD_BAS_AUTRE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"10\" in q_gastro_006)",
+      "tagOID": "S_DIG_ATCD_TD_BAS_AUTRE",
+      "value": 0
+    }
+  ]
+}

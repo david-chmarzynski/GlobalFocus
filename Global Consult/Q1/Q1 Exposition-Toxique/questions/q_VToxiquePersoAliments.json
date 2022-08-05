@@ -1,7 +1,7 @@
 {
   "oid": "q_VToxiquePersoAliments",
-  "title": "Consommez-vous des aliments sans vous préoccuper qu’ils soient bio, des aliments industriels transformés (pizza, biscuits, plats cuisinés…), des gros poissons (thon, espadon, saumon, dorade…) ",
-  "text": "Consommez-vous des aliments sans vous préoccuper qu’ils soient bio, des aliments industriels transformés (pizza, biscuits, plats cuisinés…), des gros poissons (thon, espadon, saumon, dorade…) ",
+  "title": "Consommez-vous des aliments sans vous préoccuper qu’ils soient bio, des aliments industriels transformés (pizza, biscuits, plats cuisinés…), des gros poissons (thon, espadon, saumon, dorade, etc) ",
+  "text": "Consommez-vous des aliments sans vous préoccuper qu’ils soient bio, des aliments industriels transformés (pizza, biscuits, plats cuisinés…), des gros poissons (thon, espadon, saumon, dorade, etc) ",
   "type": "SINGLE_CHOICE_RADIO",
   "choices":[
     {"code": "0", "text": "Jamais"},

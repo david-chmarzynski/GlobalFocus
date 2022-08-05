@@ -1,7 +1,7 @@
 {
   "oid": "q_VTeteMotivationStade",
-  "title": "Par rapport au projet de changement (santé, poids…) qui motive votre consultation, choisissez la proposition la plus proche de ce que vous ressentez :",
-  "text": "Par rapport au projet de changement (santé, poids…) qui motive votre consultation, choisissez la proposition la plus proche de ce que vous ressentez :",
+  "title": "Par rapport au projet de changement (amélioration de votre santé, de votre poids, de votre mode de vie…) qui motive votre consultation, choisissez la proposition la plus proche de ce que vous ressentez :",
+  "text": "Par rapport au projet de changement (amélioration de votre santé, de votre poids, de votre mode de vie…) qui motive votre consultation, choisissez la proposition la plus proche de ce que vous ressentez :",
   "type": "SINGLE_CHOICE_RADIO",
   "choices": [
     {

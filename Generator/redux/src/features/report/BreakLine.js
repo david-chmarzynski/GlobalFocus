@@ -8,7 +8,7 @@ export default function BreakLine({addToReport}) {
             className='breakLine'
             variant="outlined"
             color="primary"
-            onClick={() => addToReport(`\n\n`, `↵`)}
+            onClick={() => addToReport(`  \n`, `↵`)}
         >
             Retourner à la ligne
         </Button>

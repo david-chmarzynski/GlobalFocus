@@ -37,11 +37,15 @@ export default function Report() {
   }, []);
 
   useEffect(()=> {
-    let newOptions = []
-    questions.map((question)=>{
-      return newOptions.push({value: question.oid, label: question.oid})
-    })
-    setOptions(newOptions)
+    if(questions){
+      let newOptions = []
+      let questionsSorted = [...questions];
+      questionsSorted.sort((a, b) => a.oid.localeCompare(b.oid))
+      questionsSorted.map((question)=>{
+        return newOptions.push({value: question.oid, label: question.oid})
+      })
+      setOptions(newOptions)
+    }
   },[questions]);
 
   useEffect(()=> {

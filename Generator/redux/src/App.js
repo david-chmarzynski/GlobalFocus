@@ -10,6 +10,7 @@ import Navigation from "./features/navigation/Navigation";
 import Answer from "./features/answer/Answer";
 import Module from "./features/module/Module";
 import Result from "./features/result/Result";
+import Report from "./features/report/Report";
 
 // REACT ROUTER
 import { Routes, Route } from "react-router-dom";
@@ -25,6 +26,7 @@ function App() {
         <Route path="/answers" element={<Answer />} />
         <Route path="/modules" element={<Module />} />
         <Route path="/result" element={<Result />} />
+        <Route path="/report" element={<Report />} />
       </Routes>
       {/* <Navigation /> */}
     </div>

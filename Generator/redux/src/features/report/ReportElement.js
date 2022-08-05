@@ -17,10 +17,11 @@ export default function ReportElement({element, report, setReport, ifStatements,
     const [title, setTitle] = useState(element.title);
 
     useEffect(()=>{
+        console.log(element.format)
         let elements = [...report];
         let elementIndex = getElementIndex(elements, element.id);
         
-        if(elements[elementIndex].italics != italics || elements[elementIndex].bold != bold || [elementIndex].title != title ){
+        if(elements[elementIndex].italics !== italics || elements[elementIndex].bold !== bold || [elementIndex].title !== title ){
             elements[elementIndex].italics = italics;
             elements[elementIndex].bold = bold;
             elements[elementIndex].title = title;
@@ -109,7 +110,7 @@ export default function ReportElement({element, report, setReport, ifStatements,
                         <ArrowForward/>
                     </IconButton>
                 </div>
-                <div>
+                {element.format && <div>
                     <IconButton color={italics ? "warning" : "primary"} aria-label="left-arrow" onClick={ () => {
                         setItalics(!italics);
                     }}>
@@ -131,7 +132,7 @@ export default function ReportElement({element, report, setReport, ifStatements,
                         </Badge>
                         
                     </IconButton>
-                </div>
+                </div>}
             </div>
 
         </div>

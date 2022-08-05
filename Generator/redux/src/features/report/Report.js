@@ -12,6 +12,7 @@ import BreakLine from "./BreakLine";
 import IfQuestionAnswered from "./IfQuestionAnswered";
 import IfQuestionNotAnswered from "./IfQuestionNotAnswered";
 import EndIfQuestion from "./EndIfQuestion";
+import PatientInfo from "./PatientInfo";
 
 export default function Report() {
 
@@ -25,7 +26,6 @@ export default function Report() {
 
   const [ifStatements, setIfStatements] = useState([]); // oid de questions pour permettre de générer des end if correspondants : "{{/oid_question}}"
 
-  useEffect(()=>console.log(ifStatements),[ifStatements])
   useEffect(()=> {
     axios.get(`${BASE_URL}/questions`, {
       headers: {
@@ -48,8 +48,8 @@ export default function Report() {
     console.log(report)
   },[report]);
 
-  function addReportElement(newElementText, newElementDisplay, ifStatement = false){
-    setReport([...report, {id: newElementId, text: newElementText, display: newElementDisplay, ifStatement : ifStatement, italics : false, bold : false, title : 0}])
+  function addReportElement(newElementText, newElementDisplay, format = true, ifStatement = false){
+    setReport([...report, {id: newElementId, text: newElementText, display: newElementDisplay, format: format, ifStatement : ifStatement, italics : false, bold : false, title : 0}])
     setNewElementId(newElementId + 1);
   }
 
@@ -72,7 +72,7 @@ export default function Report() {
       if(report[i].bold) res+= '**';
       if(report[i].italics) res+=  '*';
       res+= ' ';
-      
+
       if(report[i].title) res+= '  \n'
       
       
@@ -105,6 +105,7 @@ export default function Report() {
       <div className="inputs">
         <TextInput addToReport={addReportElement}/>
         <BreakLine addToReport={addReportElement}/> 
+        <PatientInfo addToReport={addReportElement}/>
         <QuestionTextSelector options={options} addToReport={addReportElement}/>
         <QuestionAnswerSelector options={options} addToReport={addReportElement}/>
         <IfQuestionAnswered options={options} addToReport={addReportElement} addIfStatement={addIfStatement}/>

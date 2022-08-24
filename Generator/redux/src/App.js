@@ -28,7 +28,7 @@ function App() {
         <Route path="/result" element={<Result />} />
         <Route path="/report" element={<Report />} />
       </Routes>
-      {/* <Navigation /> */}
+      <Navigation />
     </div>
   );
 }

@@ -42,34 +42,10 @@ export default function CustomizedBreadcrumbs() {
         }}
       >
         <Link to="/">
-          <StyledBreadcrumb
-            label="Formulaire"
-            sx={{ backgroundColor: path === "/" && "#a6a6a6" }}
-          />
+          <span>Questionnaires</span>
         </Link>
-        <Link to="/modules">
-          <StyledBreadcrumb
-            label="Module"
-            sx={{ backgroundColor: path === "/modules" && "#a6a6a6" }}
-          />
-        </Link>
-        <Link to="/tags">
-          <StyledBreadcrumb
-            label="Tags"
-            sx={{ backgroundColor: path === "/tags" && "#a6a6a6" }}
-          />
-        </Link>
-        <Link to="/questions">
-          <StyledBreadcrumb
-            label="Questions"
-            sx={{ backgroundColor: path === "/questions" && "#a6a6a6" }}
-          />
-        </Link>
-        <Link to="/answers">
-          <StyledBreadcrumb
-            label="Answers"
-            sx={{ backgroundColor: path === "/answers" && "#a6a6a6" }}
-          />
+        <Link to="/report">
+          <span>Rapports</span>
         </Link>
       </Breadcrumbs>
     </div>

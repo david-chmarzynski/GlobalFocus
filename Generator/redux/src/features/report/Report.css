@@ -88,3 +88,7 @@
 .qSelector {
   min-width: 45%;
 }
+
+.error {
+  color: red
+}

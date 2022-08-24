@@ -1,15 +1,18 @@
 import React, { useEffect, useState } from 'react'
 import Select from 'react-select'
 
-export default function QuestionTextSelector({options, addToReport}) {
+export default function QuestionTextSelector({options, addToReport, infoGen}) {
     const [choice, setChoice] = useState(null);
 
     useEffect(() => {
         if(choice) 
         {
-            addToReport(`{{general_${choice.value}_text}}`, `${choice.value} texte`);
+            if(infoGen) addToReport(`{{global_${choice.value}_text}}`, `${choice.value} texte`);
+            else addToReport(`{{question_${choice.value}_text}}`, `${choice.value} texte`);
             setChoice(null);
         }
+        
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [choice, addToReport])
 
     return(<Select 

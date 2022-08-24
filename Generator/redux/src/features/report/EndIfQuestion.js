@@ -1,7 +1,7 @@
 import { Button } from '@mui/material';
 import React, { useEffect, useState } from 'react';
 
-export default function EndIfQuestion({addToReport, ifStatements, setIfStatements}) {
+export default function EndIfQuestion({addToReport, ifStatements, setIfStatements, infoGen}) {
 
     const [lastIfStatement, setLastIfStatement] = useState(false)
     
@@ -12,9 +12,12 @@ export default function EndIfQuestion({addToReport, ifStatements, setIfStatement
     
     function handleAdd(){
         let ifStatementsList = [...ifStatements];    
-        addToReport(
+        if (infoGen) addToReport(
             `{{/global_${lastIfStatement.oid}_answer}}`, `] Fin si (${lastIfStatement.oid})`, false
-        );
+        ) 
+        else  addToReport(
+            `{{/question_${lastIfStatement.oid}_answer}}`, `] Fin si (${lastIfStatement.oid})`, false
+        )
         ifStatementsList.pop()
         setIfStatements(ifStatementsList);
         setLastIfStatement(ifStatementsList.at(-1))

@@ -1,14 +1,17 @@
 import React, { useEffect, useState } from 'react'
 import Select from 'react-select'
 
-export default function IfQuestionNotAnswered({options, addToReport, addIfStatement}) {
+export default function IfQuestionNotAnswered({options, addToReport, addIfStatement, infoGen}) {
     const [choice, setChoice] = useState(null);
 
     useEffect(() => {
         if(choice) 
         {
-            addIfStatement(choice.value).then(() => 
-                addToReport(`{{^global_${choice.value}_answer}}`, `Si NON ${choice.value} [`, false, true));
+            addIfStatement(choice.value).then(() =>
+            { 
+                if (infoGen) addToReport(`{{^global_${choice.value}_answer}}`, `Si NON ${choice.value} [`, false, true)
+                else addToReport(`{{^question_${choice.value}_answer}}`, `Si NON ${choice.value} [`, false, true)
+            });
             setChoice(null);
         }
     }, [choice, addToReport])

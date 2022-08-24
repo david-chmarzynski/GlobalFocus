@@ -2,7 +2,7 @@ import { useEffect, useState }  from "react";
 
 import axios from 'axios';
 import './Report.css'
-import { Button } from "@mui/material";
+import { Checkbox, FormControlLabel } from "@mui/material";
 
 import QuestionTextSelector from "./QuestionTextSelector";
 import TextInput from "./TextInput";
@@ -26,7 +26,11 @@ export default function Report() {
   const [options, setOptions] = useState([]);
 
   const [ifStatements, setIfStatements] = useState([]); // oid de questions pour permettre de générer des end if correspondants : "{{/oid_question}}"
+  const [result, setResult] = useState(null);
+  const [infoGen, setInfoGen] = useState(true);
+  const [fetchQuestionsError, setFetchQuestionsError] = useState(null);
 
+  //fetch question oids
   useEffect(()=> {
     axios.get(`${BASE_URL}/questions`, {
       headers: {
@@ -34,9 +38,13 @@ export default function Report() {
       }
     }).then((response) => {
       setQuestions(response.data);
-    }).catch((error) => {console.error(error);});
+    }).catch((error) => {
+      console.error(error);
+      setFetchQuestionsError(`Fetch question oids error : ${error.message}`)
+    });
   }, []);
 
+  //set question options
   useEffect(()=> {
     if(questions){
       let newOptions = []
@@ -49,22 +57,13 @@ export default function Report() {
     }
   },[questions]);
 
+  //display report on change
   useEffect(()=> {
     console.log(report)
-  },[report]);
-
-  function addReportElement(newElementText, newElementDisplay, format = true, ifStatement = false){
-    setReport([...report, {id: newElementId, text: newElementText.trim(), display: newElementDisplay, format: format, ifStatement : ifStatement, italics : false, bold : false, title : 0}])
-    setNewElementId(newElementId + 1);
-  }
-
-  async function addIfStatement(questionOid){
-    setIfStatements([...ifStatements, {id: newElementId, oid: questionOid}]);
-  }
-  
-  function reportResult(){
+    
     let res = "";
     for(let i=0 ; i< report.length ; i++){
+
       if(report[i].title) {
         res+= '  \\n';
         for(let level = 1 ; level <= report[i].title ; level ++) res += '#';
@@ -78,16 +77,32 @@ export default function Report() {
       if(report[i].italics) res+=  '*';
       res+= ' ';
 
-      if(report[i].title) res+= '  \\n'
-      
-      
+      if(report[i].title) res+= '  \\n'     
     }
+    setResult(res)
 
-    console.log(res);
+  },[report]);
+
+  function addReportElement(newElementText, newElementDisplay, format = true, ifStatement = false){
+    setReport([...report, {id: newElementId, text: newElementText.trim(), display: newElementDisplay, format: format, ifStatement : ifStatement, italics : false, bold : false, title : 0}])
+    setNewElementId(newElementId + 1);
+  }
+
+  async function addIfStatement(questionOid){
+    setIfStatements([...ifStatements, {id: newElementId, oid: questionOid}]);
   }
 
   return(
     <div className="report">
+      {fetchQuestionsError && <span className="error">{fetchQuestionsError}</span>}
+      <h1>Report generator</h1>
+      <FormControlLabel control={
+        <Checkbox
+          checked={infoGen}
+          onChange={()=>setInfoGen(!infoGen)}
+        />
+      } label="Informations générales ?" />
+      
       <div className="reportContainer">
         {
           report.map((element) => {
@@ -111,25 +126,24 @@ export default function Report() {
         <TextInput addToReport={addReportElement}/>
         <BreakLine addToReport={addReportElement}/> 
         <PatientInfo addToReport={addReportElement}/>
-        <QuestionTextSelector options={options} addToReport={addReportElement}/>
-        <SingleChoiceAnswerSelector options={options} addToReport={addReportElement}/>
-        <MultiChoiceAnswerSelector options={options} addToReport={addReportElement}/>
-        <IfQuestionAnswered options={options} addToReport={addReportElement} addIfStatement={addIfStatement}/>
-        <IfQuestionNotAnswered options={options} addToReport={addReportElement} addIfStatement={addIfStatement}/>
-        <EndIfQuestion addToReport={addReportElement} ifStatements={ifStatements} setIfStatements={setIfStatements}/>
+        <QuestionTextSelector options={options} addToReport={addReportElement} infoGen={infoGen}/>
+        <SingleChoiceAnswerSelector options={options} addToReport={addReportElement} infoGen={infoGen}/>
+        <MultiChoiceAnswerSelector options={options} addToReport={addReportElement} infoGen={infoGen}/>
+        <IfQuestionAnswered options={options} addToReport={addReportElement} addIfStatement={addIfStatement} infoGen={infoGen}/>
+        <IfQuestionNotAnswered options={options} addToReport={addReportElement} addIfStatement={addIfStatement} infoGen={infoGen}/>
+        <EndIfQuestion addToReport={addReportElement} ifStatements={ifStatements} setIfStatements={setIfStatements} infoGen={infoGen}/>
       </div>
 
-      <div className="buttons">
-
-        <Button 
-          className=""
-          variant="contained"
-          color="success"
-          onClick={() => reportResult()}
-        >
-          Valider
-        </Button>
-      </div>
+      {result && <div className="reportContainer">
+        {
+          infoGen 
+          ? 
+            <h2>Copier le texte ci-dessous dans le body de la requête SetGeneralTexts dans Postman pour mettre à jour le rapport général</h2> 
+          :
+            <h2>Copier le texte ci-dessous dans la propriété "report" du formulaire souhaité</h2> 
+        }
+        <span  className="reportContainer">{result}</span>
+      </div>}
     </div>
   
   );

@@ -10,9 +10,6 @@ import { changeError, changeMessage } from "../error/errorSlice";
 // MUI
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
-import Checkbox from "@mui/material/Checkbox";
-import FormGroup from "@mui/material/FormGroup";
-import FormControlLabel from "@mui/material/FormControlLabel";
 
 // COMPONENTS
 import Range from "../range/Range";
@@ -141,7 +138,7 @@ function Tag() {
           id="outlined-required"
           label="Tag OID"
           value={tagOID}
-          onChange={(e) => setTagOID(e.target.value.toUpperCase().trim())}
+          onChange={(e) => setTagOID(e.target.value.trim())}
         />
         <TextField
           required

@@ -22,6 +22,7 @@ const Classic = ({
   isExclusive,
   setIsExclusive,
   isTagSet,
+  addTag,
 }) => {
   return (
     <>
@@ -39,51 +40,32 @@ const Classic = ({
         value={value}
         onChange={(e) => setValue(e.target.value)}
       />
-      <FormGroup onChange={() => setIsExclusive(!isExclusive)}>
-        <FormControlLabel control={<Checkbox />} label="Is exclusive" />
-      </FormGroup>
-      {isTagSet && currentQuestion.type === "MULTI_CHOICES" && (
-        <Button variant="outlined" onClick={() => handleSubmit()}>
-          Ajouter
-        </Button>
-      )}
-      {answers.length > 0 &&
-        isTagSet &&
-        currentQuestion.type === "MULTI_CHOICES" && (
+      {currentQuestion.type === "MULTI_CHOICES" && 
+        <FormGroup onChange={() => setIsExclusive(!isExclusive)}>
+          <FormControlLabel control={<Checkbox />} label="Is exclusive" />
+        </FormGroup>
+      }
+      
+      {(!addTag || isTagSet )&&
+        <>
+          <Button variant="outlined" onClick={() => handleSubmit()}>
+            Ajouter
+          </Button>
+
           <Link to="/tags">
             <Button variant="outlined" onClick={handleSubmitQuestion}>
               Terminer tag
             </Button>
           </Link>
-        )}
-      {answers.length > 0 &&
-        isTagSet &&
-        currentQuestion.type === "MULTI_CHOICES" && (
+
           <Link to="/modules">
             <Button variant="outlined" onClick={handleSubmitQuestion}>
               Terminer module
             </Button>
           </Link>
-        )}
-      {currentQuestion.type !== "MULTI_CHOICES" && (
-        <Button variant="outlined" onClick={() => handleSubmit()}>
-          Ajouter
-        </Button>
-      )}
-      {answers.length > 0 && currentQuestion.type !== "MULTI_CHOICES" && (
-        <Link to="/tags">
-          <Button variant="outlined" onClick={handleSubmitQuestion}>
-            Terminer tag
-          </Button>
-        </Link>
-      )}
-      {answers.length > 0 && currentQuestion.type !== "MULTI_CHOICES" && (
-        <Link to="/modules">
-          <Button variant="outlined" onClick={handleSubmitQuestion}>
-            Terminer module
-          </Button>
-        </Link>
-      )}
+        </>
+      }
+
     </>
   );
 };

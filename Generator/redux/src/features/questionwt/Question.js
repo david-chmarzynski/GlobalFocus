@@ -55,7 +55,7 @@ function Question() {
   const [trigger, setTrigger] = useState([]);
   const [triggeredQuestionOID, setTriggeredQuestionOID] = useState("");
   const [triggeredValue, setTriggeredValue] = useState(0);
-  const [triggeredDefault, setTriggeredDefault] = useState(0);
+  const [triggeredDefault, setTriggeredDefault] = useState('aucun');
   const [navigate, setNavigate] = useState(false);
   const [scope, setScope] = useState("MODULE_SCOPE");
   const [currentTriggeredQuestion, setCurrentTriggeredQuestion] =

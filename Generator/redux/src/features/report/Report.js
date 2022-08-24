@@ -42,6 +42,7 @@ export default function Report() {
       console.error(error);
       setFetchQuestionsError(`Fetch question oids error : ${error.message}`)
     });
+    // setQuestions(['q_001','q_002','q_003']);
   }, []);
 
   //set question options
@@ -52,6 +53,7 @@ export default function Report() {
       questionsSorted.sort((a, b) => a.oid.localeCompare(b.oid))
       questionsSorted.map((question)=>{
         return newOptions.push({value: question.oid, label: question.oid})
+        // return newOptions.push({value: question, label: question})
       })
       setOptions(newOptions)
     }

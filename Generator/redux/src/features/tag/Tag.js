@@ -146,7 +146,7 @@ function Tag() {
         <TextField
           required
           id="outlined-required"
-          label="Titre du tag"
+          label="Texte du tag au survol"
           value={tagTitle}
           onChange={(e) => {
             setTagTitle(e.target.value);

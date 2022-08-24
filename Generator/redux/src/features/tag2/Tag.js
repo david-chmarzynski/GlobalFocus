@@ -149,7 +149,7 @@ function Tag({ newTag, setNewTag, setIsTagSet, setAddTag }) {
           label="Tag OID"
           value={tagOID}
           onChange={(e) =>
-            handleChangeTags(e.target.value.toUpperCase().trim())
+            handleChangeTags(e.target.value.trim())
           }
         />
         <TextField

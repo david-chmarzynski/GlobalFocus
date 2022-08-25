@@ -1,0 +1,109 @@
+{
+  "oid": "q_q1_neurologie_017",
+  "title": "Au cours de ces 3 derniers mois, avez-vous présenté certains de ces symptômes ? (plusieurs réponses possibles)",
+  "text": "Au cours de ces 3 derniers mois, avez-vous présenté certains de ces symptômes ? (plusieurs réponses possibles)",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "Tremblements",
+      "text": "Tremblements"
+    },
+    {
+      "code": "gestes maladroits",
+      "text": "Gestes maladroits, lents et moins précis, difficultés à coordonner ses mouvements"
+    },
+    {
+      "code": "Fatigue musculaire",
+      "text": "Fatigabilité musculaire inhabituelle et/ou baisse anormale de force ?"
+    },
+    {
+      "code": "Crampes",
+      "text": "Crampes musculaires (contraction musculaire involontaire douloureuse de courte durée)"
+    },
+    {
+      "code": "Tics musculaires",
+      "text": "Tics musculaires (mouvements involontaires rapides, inutiles, répétitifs) ou tics vocaux (mots et/ou sons soudains, souvent répétitifs)"
+    },
+    {
+      "code": "Spasticité",
+      "text": "Spasticité (augmentation involontaire prolongée du tonus musculaire) occasionnant raideur et contractures"
+    },
+    {
+      "code": "aucun",
+      "text": "Aucun de ces symptômes",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"Tremblements\" in q_q1_neurologie_017",
+      "tagOID": "S_N_SYMP_MOTEUR_TREMBLEMENT",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Tremblements\" in q_q1_neurologie_017)",
+      "tagOID": "S_N_SYMP_MOTEUR_TREMBLEMENT",
+      "value": 0
+    },
+    {
+      "conditions": "\"gestes maladroits\" in q_q1_neurologie_017",
+      "tagOID": "S_N_SYMP_MOTEUR_PRAXIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"gestes maladroits\" in q_q1_neurologie_017)",
+      "tagOID": "S_N_SYMP_MOTEUR_PRAXIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Fatigue musculaire\" in q_q1_neurologie_017",
+      "tagOID": "S_N_SYMP_MOTEUR_MUSCLE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Fatigue musculaire\" in q_q1_neurologie_017)",
+      "tagOID": "S_N_SYMP_MOTEUR_MUSCLE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Crampes\" in q_q1_neurologie_017",
+      "tagOID": "S_N_SYMP_MOTEUR_CRAMPES",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Crampes\" in q_q1_neurologie_017)",
+      "tagOID": "S_N_SYMP_MOTEUR_CRAMPES",
+      "value": 0
+    },
+    {
+      "conditions": "\"Tics musculaires\" in q_q1_neurologie_017",
+      "tagOID": "S_N_SYMP_MOTEUR_TICS",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Tics musculaires\" in q_q1_neurologie_017)",
+      "tagOID": "S_N_SYMP_MOTEUR_TICS",
+      "value": 0
+    },
+    {
+      "conditions": "\"Spasticité\" in q_q1_neurologie_017",
+      "tagOID": "S_N_SYMP_MOTEUR_SPASTICITE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Spasticité\" in q_q1_neurologie_017)",
+      "tagOID": "S_N_SYMP_MOTEUR_SPASTICITE",
+      "value": 0
+    },
+    {
+      "conditions": "\"aucun\" in q_q1_neurologie_017",
+      "tagOID": "S_N_SYMP_MOTEUR",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_q1_neurologie_017)",
+      "tagOID": "S_N_SYMP_MOTEUR",
+      "value": 1
+    }
+  ]
+}

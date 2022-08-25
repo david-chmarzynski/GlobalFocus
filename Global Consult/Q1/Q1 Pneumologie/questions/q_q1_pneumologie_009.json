@@ -1,0 +1,12 @@
+{
+  "oid": "q_q1_pneumologie_009",
+  "title": "A quelle date vous a-t-on diagnostiqué vos lésions pulmonaires et/ou pleurales dues à l’amiante ?",
+  "text": "A quelle date vous a-t-on diagnostiqué vos lésions pulmonaires et/ou pleurales dues à l’amiante ?",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 1900,
+    "max": 2022,
+    "step": 1
+  },
+  "scores": []
+}

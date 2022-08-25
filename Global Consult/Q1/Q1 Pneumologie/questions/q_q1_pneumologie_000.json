@@ -1,0 +1,46 @@
+{
+  "oid": "q_q1_pneumologie_000",
+  "title": "Comment évaluez-vous votre état de santé sur le plan respiratoire ?",
+  "text": "Comment évaluez-vous votre état de santé sur le plan respiratoire ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisante"
+    },
+    {
+      "code": "1",
+      "text": "Légèrement insatisfaisante"
+    },
+    {
+      "code": "2",
+      "text": "Plutôt insatisfaisante"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisante"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q1_pneumologie_000 == \"0\"",
+      "tagOID": "S_PN",
+      "value": 0
+    },
+    {
+      "conditions": "q_q1_pneumologie_000 == \"1\"",
+      "tagOID": "S_PN",
+      "value": 1
+    },
+    {
+      "conditions": "q_q1_pneumologie_000 == \"2\"",
+      "tagOID": "S_PN",
+      "value": 2
+    },
+    {
+      "conditions": "q_q1_pneumologie_000 == \"3\"",
+      "tagOID": "S_PN",
+      "value": 3
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "oid": "q1_neurologie",
+  "title": "Q1 Global Focus Neurologie",
+  "questions": [
+    {
+      "question": "q_q1_neurologie_000",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q1_neurologie_001",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q1_neurologie_002",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Migraine\" in q_q1_neurologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_neurologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_neurologie_003",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Épilepsie\" in q_q1_neurologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_neurologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_neurologie_004",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Tremblement essentiel\" in q_q1_neurologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_neurologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_neurologie_005",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Coma\" in q_q1_neurologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_neurologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_neurologie_006",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"parkinson\" in q_q1_neurologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_neurologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_neurologie_007",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Neurodegeneratif\" in q_q1_neurologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_neurologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_neurologie_008",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"avc\" in q_q1_neurologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_neurologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_neurologie_009",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"SEP\" in q_q1_neurologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_neurologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_neurologie_010",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Neuropathie\" in q_q1_neurologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_neurologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_neurologie_011",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Neuropathie\" in q_q1_neurologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_neurologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_neurologie_012",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Tumeur bénigne du cerveau\" in q_q1_neurologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_neurologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_neurologie_013",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Tumeur maligne du cerveau\" in q_q1_neurologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_neurologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_neurologie_014",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Opération du cerveau et/ou moelle épinière\" in q_q1_neurologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_neurologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_neurologie_015",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"autres\" in q_q1_neurologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_neurologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_neurologie_016",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q1_neurologie_017",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q1_neurologie_018",
+      "level": 1,
+      "isGlobal": false
+    }
+  ]
+}

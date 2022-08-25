@@ -1,0 +1,12 @@
+{
+  "oid": "q_q1_neurologie_014",
+  "title": "En quelle année l’intervention sur le cerveau a été pratiqué ?",
+  "text": "En quelle année l’intervention sur le cerveau a été pratiqué ?",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 1900,
+    "max": 2022,
+    "step": 1
+  },
+  "scores": []
+}

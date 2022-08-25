@@ -1,0 +1,207 @@
+{
+  "oid": "q_q1_neurologie_001",
+  "title": "Vous a-t-on déjà diagnostiqué une de ces pathologies et/ou vous a-t-on déjà opéré ? (plusieurs réponses possibles)",
+  "text": "Vous a-t-on déjà diagnostiqué une de ces pathologies et/ou vous a-t-on déjà opéré ? (plusieurs réponses possibles)",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "Migraine",
+      "text": "Migraine"
+    },
+    {
+      "code": "Épilepsie",
+      "text": "Épilepsie"
+    },
+    {
+      "code": "Tremblement essentiel",
+      "text": "Tremblement essentiel"
+    },
+    {
+      "code": "Coma",
+      "text": "Coma"
+    },
+    {
+      "code": "avc",
+      "text": "Séquelles d’accident vasculaire cérébral"
+    },
+    {
+      "code": "parkinson",
+      "text": "Maladie de Parkinson"
+    },
+    {
+      "code": "Neurodegeneratif",
+      "text": "Pathologie neurodégénérative (maladie d’Alzheimer, maladie à corps de Léwy…) "
+    },
+    {
+      "code": "SEP",
+      "text": "Sclérose en plaque"
+    },
+    {
+      "code": "Neuropathie",
+      "text": "Neuropathie périphérique (post-zona, diabète, alcool, médicament, chimiothérapie, compression, auto-immun, héréditaire…)"
+    },
+    {
+      "code": "Tumeur bénigne du cerveau",
+      "text": "Tumeur bénigne du cerveau"
+    },
+    {
+      "code": "Tumeur maligne du cerveau",
+      "text": "Tumeur maligne du cerveau"
+    },
+    {
+      "code": "Opération du cerveau et/ou moelle épinière",
+      "text": "Opération du cerveau et/ou moelle épinière"
+    },
+    {
+      "code": "autres",
+      "text": "Autre(s) antécédent(s)"
+    },
+    {
+      "code": "aucun",
+      "text": "Aucun de ces antécédents",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"Migraine\" in q_q1_neurologie_001",
+      "tagOID": "S_N_ATCD_MIGRAINE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Migraine\" in q_q1_neurologie_001)",
+      "tagOID": "S_N_ATCD_MIGRAINE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Épilepsie\" in q_q1_neurologie_001",
+      "tagOID": "S_N_ATCD_EPILEPSIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Épilepsie\" in q_q1_neurologie_001)",
+      "tagOID": "S_N_ATCD_EPILEPSIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Tremblement essentiel\" in q_q1_neurologie_001",
+      "tagOID": "S_N_ATCD_TREMBLEMENT",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Tremblement essentiel\" in q_q1_neurologie_001)",
+      "tagOID": "S_N_ATCD_TREMBLEMENT",
+      "value": 0
+    },
+    {
+      "conditions": "\"Coma\" in q_q1_neurologie_001",
+      "tagOID": "S_N_ATCD_COMA",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Coma\" in q_q1_neurologie_001)",
+      "tagOID": "S_N_ATCD_COMA",
+      "value": 0
+    },
+    {
+      "conditions": "\"avc\" in q_q1_neurologie_001",
+      "tagOID": "S_N_ATCD_AVC",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"avc\" in q_q1_neurologie_001)",
+      "tagOID": "S_N_ATCD_AVC",
+      "value": 0
+    },
+    {
+      "conditions": "\"parkinson\" in q_q1_neurologie_001",
+      "tagOID": "S_N_ATCD_PARKINSON",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"parkinson\" in q_q1_neurologie_001)",
+      "tagOID": "S_N_ATCD_PARKINSON",
+      "value": 0
+    },
+    {
+      "conditions": "\"Neurodegeneratif\" in q_q1_neurologie_001",
+      "tagOID": "S_N_ATCD_NEURODEGENERATIF",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Neurodegeneratif\" in q_q1_neurologie_001)",
+      "tagOID": "S_N_ATCD_NEURODEGENERATIF",
+      "value": 0
+    },
+    {
+      "conditions": "\"SEP\" in q_q1_neurologie_001",
+      "tagOID": "S_N_ATCD_SEP",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"SEP\" in q_q1_neurologie_001)",
+      "tagOID": "S_N_ATCD_SEP",
+      "value": 0
+    },
+    {
+      "conditions": "\"Neuropathie\" in q_q1_neurologie_001",
+      "tagOID": "S_N_ATCD_NEUROPATHIE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Neuropathie\" in q_q1_neurologie_001)",
+      "tagOID": "S_N_ATCD_NEUROPATHIE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Tumeur bénigne du cerveau\" in q_q1_neurologie_001",
+      "tagOID": "S_N_ATCD_TUMEUR_BENIGNE_CERVEAU",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Tumeur bénigne du cerveau\" in q_q1_neurologie_001)",
+      "tagOID": "S_N_ATCD_TUMEUR_BENIGNE_CERVEAU",
+      "value": 0
+    },
+    {
+      "conditions": "\"Tumeur maligne du cerveau\" in q_q1_neurologie_001",
+      "tagOID": "S_N_ATCD_TUMEUR_MALIGNE_CERVEAU",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Tumeur maligne du cerveau\" in q_q1_neurologie_001)",
+      "tagOID": "S_N_ATCD_TUMEUR_MALIGNE_CERVEAU",
+      "value": 0
+    },
+    {
+      "conditions": "\"Opération du cerveau et/ou moelle épinière\" in q_q1_neurologie_001",
+      "tagOID": "S_N_ATCD_CHIR",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Opération du cerveau et/ou moelle épinière\" in q_q1_neurologie_001)",
+      "tagOID": "S_N_ATCD_CHIR",
+      "value": 0
+    },
+    {
+      "conditions": "\"autres\" in q_q1_neurologie_001",
+      "tagOID": "S_N_ATCD_AUTRES",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"autres\" in q_q1_neurologie_001)",
+      "tagOID": "S_N_ATCD_AUTRES",
+      "value": 0
+    },
+    {
+      "conditions": "\"aucun\" in q_q1_neurologie_001",
+      "tagOID": "S_N_ATCD",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_q1_neurologie_001)",
+      "tagOID": "S_N_ATCD",
+      "value": 1
+    }
+  ]
+}

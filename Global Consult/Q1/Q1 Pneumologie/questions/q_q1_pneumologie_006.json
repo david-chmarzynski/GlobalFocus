@@ -1,0 +1,12 @@
+{
+  "oid": "q_q1_pneumologie_006",
+  "title": "A quelle date vous a-t-on diagnostiqué votre emphysème ?",
+  "text": "A quelle date vous a-t-on diagnostiqué votre emphysème ?",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 1900,
+    "max": 2022,
+    "step": 1
+  },
+  "scores": []
+}

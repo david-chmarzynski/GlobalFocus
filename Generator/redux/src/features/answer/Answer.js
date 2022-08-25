@@ -90,7 +90,7 @@ function Answer() {
 
   const handleSubmit = () => {
     if (text === "" || value === "") {
-      dispatch(changeMessage("Champ(s) recquis manquant(s)"));
+      dispatch(changeMessage("Champ(s) requis manquant(s)"));
       dispatch(changeError(true));
     } else {
       dispatch(changeAnswer({ text, value, isExclusive, newTag }));
@@ -225,6 +225,7 @@ function Answer() {
             newTag={newTag}
             setNewTag={setNewTag}
             isTagSet={isTagSet}
+            addTag={addTag}
           />
         )}
         {numType.includes(`${currentQuestion.type}`) && (
@@ -263,20 +264,24 @@ function Answer() {
             handleSubmitScaleQuestion={handleSubmitScaleQuestion}
           />
         )}
-        <FormGroup onChange={() => setAddTag(!addTag)}>
-          <FormControlLabel
-            control={<Checkbox />}
-            label="Ajouter Tag"
-            checked={addTag}
-          />
-        </FormGroup>
-        {currentQuestion.type === "MULTI_CHOICES" && addTag && (
-          <Tag
-            newTag={newTag}
-            setNewTag={setNewTag}
-            setIsTagSet={setIsTagSet}
-            setAddTag={setAddTag}
-          />
+        
+        {currentQuestion.type === "MULTI_CHOICES" && (
+          <>
+            <FormGroup onChange={() => setAddTag(!addTag)}>
+              <FormControlLabel
+                control={<Checkbox />}
+                label="Ajouter Tag"
+                checked={addTag}
+              />
+            </FormGroup>
+
+            { addTag && <Tag
+              newTag={newTag}
+              setNewTag={setNewTag}
+              setIsTagSet={setIsTagSet}
+              setAddTag={setAddTag}
+            /> }
+          </>
         )}
       </div>
       {error === true && <Error />}

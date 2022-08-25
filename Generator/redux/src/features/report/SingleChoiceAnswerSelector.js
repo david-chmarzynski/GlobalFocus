@@ -15,7 +15,7 @@ export default function SingleChoiceAnswerSelector({options, addToReport, infoGe
 
     return(<Select 
         options={options} 
-        placeholder = "Reponse d'une question SINGLE CHOICE" 
+        placeholder = "Reponse d'une question CLASSIQUE (pas MULTI_CHOICES)" 
         className='qSelector'
         value={choice}
         onChange={setChoice}

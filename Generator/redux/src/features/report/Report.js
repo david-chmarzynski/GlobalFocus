@@ -52,7 +52,7 @@ export default function Report() {
       let questionsSorted = [...questions];
       questionsSorted.sort((a, b) => a.oid.localeCompare(b.oid))
       questionsSorted.map((question)=>{
-        return newOptions.push({value: question.oid, label: question.oid})
+        return newOptions.push({value: question.oid, label: `${question.oid} : ${question.title}`})
         // return newOptions.push({value: question, label: question})
       })
       setOptions(newOptions)

@@ -1,7 +1,7 @@
 {
-  "oid": "q_Q1_cardiologie_000",
-  "title": "Nous allons maintenant explorer votre santé cardio-vasculaire.  Comment évaluez-vous votre santé cardio-vasculaire ?",
-  "text": "Nous allons maintenant explorer votre santé cardio-vasculaire.  Comment évaluez-vous votre santé cardio-vasculaire ?",
+  "oid": "q_q1_cardiologie_000",
+  "title": "Nous allons maintenant explorer votre santé cardiovasculaire. Comment évaluez-vous votre santé cardio-vasculaire ?",
+  "text": "Nous allons maintenant explorer votre santé cardiovasculaire. Comment évaluez-vous votre santé cardio-vasculaire ?",
   "type": "SINGLE_CHOICE_RADIO",
   "choices": [
     {
@@ -23,22 +23,22 @@
   ],
   "scores": [
     {
-      "conditions": "q_Q1_cardiologie_000 == \"0\"",
+      "conditions": "q_q1_cardiologie_000 == \"0\"",
       "tagOID": "S_CV",
       "value": 0
     },
     {
-      "conditions": "q_Q1_cardiologie_000 == \"1\"",
+      "conditions": "q_q1_cardiologie_000 == \"1\"",
       "tagOID": "S_CV",
       "value": 1
     },
     {
-      "conditions": "q_Q1_cardiologie_000 == \"2\"",
+      "conditions": "q_q1_cardiologie_000 == \"2\"",
       "tagOID": "S_CV",
       "value": 2
     },
     {
-      "conditions": "q_Q1_cardiologie_000 == \"3\"",
+      "conditions": "q_q1_cardiologie_000 == \"3\"",
       "tagOID": "S_CV",
       "value": 3
     }

@@ -1,0 +1,46 @@
+{
+  "oid": "q_q2_contexte_de_vie_011",
+  "title": "Comment évaluez-vous la pénibilité et/ou le stress de votre travail lié(s) à vos horaires (travail de nuit, travail en équipes successives alternantes de type 3x8 ou 2x8, emploi du temps) ?",
+  "text": "Comment évaluez-vous la pénibilité et/ou le stress de votre travail lié(s) à vos horaires (travail de nuit, travail en équipes successives alternantes de type 3x8 ou 2x8, emploi du temps) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas de pénibilité particulière"
+    },
+    {
+      "code": "1",
+      "text": "Pénibilité et/ou stress modéré(s)"
+    },
+    {
+      "code": "2",
+      "text": "Pénibilité et/ou stress assez élevé(s)"
+    },
+    {
+      "code": "3",
+      "text": "Pénibilité et/ou stress élevés"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q2_contexte_de_vie_011 == \"0\"",
+      "tagOID": "Tag_VContexteVieEtudesWStressHoraires",
+      "value": 0
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_011 == \"1\"",
+      "tagOID": "Tag_VContexteVieEtudesWStressHoraires",
+      "value": 1
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_011 == \"2\"",
+      "tagOID": "Tag_VContexteVieEtudesWStressHoraires",
+      "value": 2
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_011 == \"3\"",
+      "tagOID": "Tag_VContexteVieEtudesWStressHoraires",
+      "value": 3
+    }
+  ]
+}

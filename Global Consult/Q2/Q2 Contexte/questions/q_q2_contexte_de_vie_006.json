@@ -1,0 +1,46 @@
+{
+  "oid": "q_q2_contexte_de_vie_006",
+  "title": "Comment évaluez-vous la pénibilité et/ou le stress liés à votre charge de travail (intensité du rythme, durée du travail hebdomadaire) ?",
+  "text": "Comment évaluez-vous la pénibilité et/ou le stress liés à votre charge de travail (intensité du rythme, durée du travail hebdomadaire) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas de pénibilité particulière"
+    },
+    {
+      "code": "1",
+      "text": "Pénibilité et/ou stress modérés"
+    },
+    {
+      "code": "2",
+      "text": "Pénibilité et/ou stress assez élevés"
+    },
+    {
+      "code": "3",
+      "text": "Pénibilité et/ou stress élevés"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q2_contexte_de_vie_006 == \"0\"",
+      "tagOID": "Tag_VContexteVieEtudesWStressCharge",
+      "value": 0
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_006 == \"1\"",
+      "tagOID": "Tag_VContexteVieEtudesWStressCharge",
+      "value": 1
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_006 == \"2\"",
+      "tagOID": "Tag_VContexteVieEtudesWStressCharge",
+      "value": 2
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_006 == \"3\"",
+      "tagOID": "Tag_VContexteVieEtudesWStressCharge",
+      "value": 3
+    }
+  ]
+}

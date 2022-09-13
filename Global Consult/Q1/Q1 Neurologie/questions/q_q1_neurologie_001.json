@@ -195,13 +195,13 @@
     },
     {
       "conditions": "\"aucun\" in q_q1_neurologie_001",
-      "tagOID": "S_N_ATCD_AUCUN",
-      "value": 1
+      "tagOID": "S_N_ATCD",
+      "value": 0
     },
     {
       "conditions": "!(\"aucun\" in q_q1_neurologie_001)",
-      "tagOID": "S_N_ATCD_AUCUN",
-      "value": 0
+      "tagOID": "S_N_ATCD",
+      "value": 1
     }
   ]
 }

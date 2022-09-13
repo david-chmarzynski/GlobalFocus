@@ -15,6 +15,11 @@
     {
       "code": "Paresthésie",
       "text": "Sensations anormales, désagréables à type de fourmillements, de picotements, de sensations de chaleur, de froid et/ou de peau cartonnée dans une région du corps "
+    },
+    {
+      "code": "aucun",
+      "text": "Aucun de ces symptômes",
+      "exclusive": true
     }
   ],
   "scores": [
@@ -47,6 +52,16 @@
       "conditions": "!(\"Paresthésie\" in q_q1_neurologie_018)",
       "tagOID": "S_N_SYMP_SENSITIF_PARESTHESIE",
       "value": 0
+    },
+    {
+      "conditions": "\"aucun\" in q_q1_neurologie_018",
+      "tagOID": "S_N_SYMP_SENSITIF",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_q1_neurologie_018)",
+      "tagOID": "S_N_SYMP_SENSITIF",
+      "value": 1
     }
   ]
 }

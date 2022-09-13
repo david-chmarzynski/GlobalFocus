@@ -27,6 +27,11 @@
     {
       "code": "Spasticité",
       "text": "Spasticité (augmentation involontaire prolongée du tonus musculaire) occasionnant raideur et contractures"
+    },
+    {
+      "code": "aucun",
+      "text": "Aucun de ces symptômes",
+      "exclusive": true
     }
   ],
   "scores": [
@@ -89,6 +94,16 @@
       "conditions": "!(\"Spasticité\" in q_q1_neurologie_017)",
       "tagOID": "S_N_SYMP_MOTEUR_SPASTICITE",
       "value": 0
+    },
+    {
+      "conditions": "\"aucun\" in q_q1_neurologie_017",
+      "tagOID": "S_N_SYMP_MOTEUR",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_q1_neurologie_017)",
+      "tagOID": "S_N_SYMP_MOTEUR",
+      "value": 1
     }
   ]
 }

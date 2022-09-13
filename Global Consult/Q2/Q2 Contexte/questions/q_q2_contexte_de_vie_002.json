@@ -1,0 +1,46 @@
+{
+  "oid": "q_q2_contexte_de_vie_002",
+  "title": "Comment évaluez-vous votre contexte de travail-études (cadre de travail, horaires, emploi du temps, organisation globale du travail) ?",
+  "text": "Comment évaluez-vous votre contexte de travail-études (cadre de travail, horaires, emploi du temps, organisation globale du travail) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisant"
+    },
+    {
+      "code": "1",
+      "text": "Légèrement insatisfaisant"
+    },
+    {
+      "code": "2",
+      "text": "Plutôt insatisfaisant"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisant"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q2_contexte_de_vie_002 == \"0\"",
+      "tagOID": "Tag_VContexteVieEtudesWOrganisationContexte",
+      "value": 0
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_002 == \"1\"",
+      "tagOID": "Tag_VContexteVieEtudesWOrganisationContexte",
+      "value": 1
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_002 == \"2\"",
+      "tagOID": "Tag_VContexteVieEtudesWOrganisationContexte",
+      "value": 2
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_002 == \"3\"",
+      "tagOID": "Tag_VContexteVieEtudesWOrganisationContexte",
+      "value": 3
+    }
+  ]
+}

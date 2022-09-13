@@ -1,39 +1,52 @@
 {
-  "oid": "q_Q1_cardiologie_017",
-  "title": "Quel type d'intervention avez-vous subi ?",
-  "text": "Quel type d'intervention avez-vous subi ?",
+  "oid": "q_q1_cardiologie_017",
+  "title": "Quel type d’intervention avez-vous subi ?",
+  "text": "Quel type d’intervention avez-vous subi ?",
   "type": "MULTI_CHOICES",
   "choices": [
     {
-      "code": "Remplacement des valves cardiaques",
-      "text": "Remplacement des valves cardiaques"
+      "code": "Stent",
+      "text": "Stent"
     },
     {
-      "code": "Aucune chirurgie",
-      "text": "Aucune chirurgie",
+      "code": "Pontage",
+      "text": "Pontage"
+    },
+    {
+      "code": "aucun",
+      "text": "Aucune intervention chirurgicale",
       "exclusive": true
     }
   ],
   "scores": [
     {
-      "conditions": "q_Q1_cardiologie_017 == \"Remplacement des valves cardiaques\"",
-      "tagOID": "S_CV_ATCD_TRAITEMENT_INTERVENTIONNEL_VALVULOPATHIE",
+      "conditions": "\"Stent\" in q_q1_cardiologie_017",
+      "tagOID": "S_CV_ATCD_INFARCTUS_TI_STENT",
       "value": 1
     },
     {
-      "conditions": "!(\"Remplacement des valves cardiaques\" in q_Q1_cardiologie_017)",
-      "tagOID": "S_CV_ATCD_TRAITEMENT_INTERVENTIONNEL_VALVULOPATHIE",
+      "conditions": "!(\"Stent\" in q_q1_cardiologie_017)",
+      "tagOID": "S_CV_ATCD_INFARCTUS_TI_STENT",
       "value": 0
     },
     {
-      "conditions": "q_Q1_cardiologie_017 == \"Aucune chirurgie\"",
-      "tagOID": "S_CV_ATCD_TRAITEMENT_INTERVENTIONNEL_VALVULOPATHIE",
-      "value": 0,
-      "exclusive": true
+      "conditions": "\"Pontage\" in q_q1_cardiologie_017",
+      "tagOID": "S_CV_ATCD_INFARCTUS_TI_PONTAGE",
+      "value": 1
     },
     {
-      "conditions": "!(\"Aucune chirurgie\" in q_Q1_cardiologie_017)",
-      "tagOID": "S_CV_ATCD_TRAITEMENT_INTERVENTIONNEL_VALVULOPATHIE",
+      "conditions": "!(\"Pontage\" in q_q1_cardiologie_017)",
+      "tagOID": "S_CV_ATCD_INFARCTUS_TI_PONTAGE",
+      "value": 0
+    },
+    {
+      "conditions": "\"aucun\" in q_q1_cardiologie_017",
+      "tagOID": "S_CV_ATCD_INFARCTUS_TI_AUCUN",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_q1_cardiologie_017)",
+      "tagOID": "S_CV_ATCD_INFARCTUS_TI_AUCUN",
       "value": 1
     }
   ]

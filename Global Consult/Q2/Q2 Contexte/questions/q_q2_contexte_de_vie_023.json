@@ -1,0 +1,28 @@
+{
+  "oid": "q_q2_contexte_de_vie_023",
+  "title": "Avez-vous ces six derniers mois (et ce, de façon plus importante qu’avant) ressenti l’impression de chercher les mots en parlant (sauf les noms propres) et d’être obligé d’utiliser d’autres mots, de vous arrêter de parler ou de dire plus souvent que d’ordinaire \" truc \" ou  \" machin \" ?",
+  "text": "Avez-vous ces six derniers mois (et ce, de façon plus importante qu’avant) ressenti l’impression de chercher les mots en parlant (sauf les noms propres) et d’être obligé d’utiliser d’autres mots, de vous arrêter de parler ou de dire plus souvent que d’ordinaire \" truc \" ou  \" machin \" ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Oui"
+    },
+    {
+      "code": "0",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q2_contexte_de_vie_023 == \"0\"",
+      "tagOID": "S_N_PREDICTIF_QPC",
+      "value": 0
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_023 == \"1\"",
+      "tagOID": "S_N_PREDICTIF_QPC",
+      "value": 1
+    }
+  ]
+}

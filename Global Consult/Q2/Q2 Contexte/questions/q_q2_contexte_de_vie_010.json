@@ -1,0 +1,46 @@
+{
+  "oid": "q_q2_contexte_de_vie_010",
+  "title": "Comment évaluez-vous la pénibilité et le stress de votre travail liés à des expositions à risque (agents chimiques, physiques (poussières, radiations, milieu hyperbare…) et/ou infectieux) ?",
+  "text": "Comment évaluez-vous la pénibilité et le stress de votre travail liés à des expositions à risque (agents chimiques, physiques (poussières, radiations, milieu hyperbare…) et/ou infectieux) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas de pénibilité particulière"
+    },
+    {
+      "code": "1",
+      "text": "Pénibilité et stress modérés"
+    },
+    {
+      "code": "2",
+      "text": "Pénibilité et stress assez élevés"
+    },
+    {
+      "code": "3",
+      "text": "Pénibilité et stress élevés"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q2_contexte_de_vie_010 == \"0\"",
+      "tagOID": "Tag_VContexteVieEtudesWStressExpositions",
+      "value": 0
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_010 == \"1\"",
+      "tagOID": "Tag_VContexteVieEtudesWStressExpositions",
+      "value": 1
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_010 == \"2\"",
+      "tagOID": "Tag_VContexteVieEtudesWStressExpositions",
+      "value": 2
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_010 == \"3\"",
+      "tagOID": "Tag_VContexteVieEtudesWStressExpositions",
+      "value": 3
+    }
+  ]
+}

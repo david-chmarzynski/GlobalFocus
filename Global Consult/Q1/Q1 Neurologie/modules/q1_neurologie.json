@@ -113,9 +113,11 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"undefined\" in undefined)",
+        "conditions": "!(\"Neuropathie\" in q_q1_neurologie_001)",
         "scope": "MODULE_SCOPE",
-        "defaultValues": {}
+        "defaultValues": {
+          "q_q1_neurologie_001": "aucun"
+        }
       }
     },
     {

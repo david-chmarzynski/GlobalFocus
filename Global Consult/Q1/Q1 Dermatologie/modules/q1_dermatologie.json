@@ -1,0 +1,28 @@
+{
+  "oid": "q1_dermatologie",
+  "title": "Q1 Global Focus Dermatologie",
+  "questions": [
+    {
+      "question": "q_q1_dermatologie_000",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q1_dermatologie_001",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q1_dermatologie_002",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Autre(s) antécédent(s)\" in q_q1_dermatologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_dermatologie_001": "aucun"
+        }
+      }
+    }
+  ]
+}

@@ -1,237 +1,256 @@
 {
-  "oid": "Q1_cardiologie",
-  "title": "Q1 Cardiologie",
+  "oid": "q1_cardiologie",
+  "title": "Q1 Global Focus Cardiologie",
   "questions": [
     {
-      "question": "q_Q1_cardiologie_000",
+      "question": "q_q1_cardiologie_000",
       "level": 1,
       "isGlobal": false
     },
     {
-      "question": "q_Q1_cardiologie_001",
+      "question": "q_q1_cardiologie_001",
       "level": 1,
       "isGlobal": false
     },
     {
-      "question": "q_Q1_cardiologie_002",
+      "question": "q_q1_cardiologie_002",
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"hta\" in q_Q1_cardiologie_001)",
+        "conditions": "!(\"Autre(s) antécédent(s) cardiovasculaire(s)\" in q_q1_cardiologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_Q1_cardiologie_001": "aucun"
+          "q_q1_cardiologie_001": "aucun"
         }
       }
     },
     {
-      "question": "q_Q1_cardiologie_003",
+      "question": "q_q1_cardiologie_003",
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"angine\" in q_Q1_cardiologie_001)",
+        "conditions": "!(\"Hypertension artérielle\" in q_q1_cardiologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_Q1_cardiologie_001": "aucun"
+          "q_q1_cardiologie_001": "aucun"
         }
       }
     },
     {
-      "question": "q_Q1_cardiologie_004",
+      "question": "q_q1_cardiologie_004",
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"infarctus\" in q_Q1_cardiologie_001)",
+        "conditions": "!(\"Angine de poitrine\" in q_q1_cardiologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_Q1_cardiologie_001": "aucun"
+          "q_q1_cardiologie_001": "aucun"
         }
       }
     },
     {
-      "question": "q_Q1_cardiologie_005",
+      "question": "q_q1_cardiologie_005",
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"avc\" in q_Q1_cardiologie_001)",
+        "conditions": "!(\"Infarctus du myocarde\" in q_q1_cardiologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_Q1_cardiologie_001": "aucun"
+          "q_q1_cardiologie_001": "aucun"
         }
       }
     },
     {
-      "question": "q_Q1_cardiologie_006",
+      "question": "q_q1_cardiologie_006",
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"arterite\" in q_Q1_cardiologie_001)",
+        "conditions": "!(\"Accident vasculaire cérébral \" in q_q1_cardiologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_Q1_cardiologie_001": "aucun"
+          "q_q1_cardiologie_001": "aucun"
         }
       }
     },
     {
-      "question": "q_Q1_cardiologie_007",
+      "question": "q_q1_cardiologie_007",
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"embolie\" in q_Q1_cardiologie_001)",
+        "conditions": "!(\"Artérite\" in q_q1_cardiologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_Q1_cardiologie_001": "aucun"
+          "q_q1_cardiologie_001": "aucun"
         }
       }
     },
     {
-      "question": "q_Q1_cardiologie_008",
+      "question": "q_q1_cardiologie_008",
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"phlebites\" in q_Q1_cardiologie_001)",
+        "conditions": "!(\"Embolie pulmonaire\" in q_q1_cardiologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_Q1_cardiologie_001": "aucun"
+          "q_q1_cardiologie_001": "aucun"
         }
       }
     },
     {
-      "question": "q_Q1_cardiologie_009",
+      "question": "q_q1_cardiologie_009",
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"phlebites\" in q_Q1_cardiologie_001)",
+        "conditions": "!(\"Phlébite(s)\" in q_q1_cardiologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_Q1_cardiologie_001": "aucun"
+          "q_q1_cardiologie_001": "aucun"
         }
       }
     },
     {
-      "question": "q_Q1_cardiologie_010",
+      "question": "q_q1_cardiologie_010",
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"varices\" in q_Q1_cardiologie_001)",
+        "conditions": "!(\"Phlébite(s)\" in q_q1_cardiologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_Q1_cardiologie_001": "aucun"
+          "q_q1_cardiologie_001": "aucun"
         }
       }
     },
     {
-      "question": "q_Q1_cardiologie_011",
+      "question": "q_q1_cardiologie_011",
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"valvulopathie\" in q_Q1_cardiologie_001)",
+        "conditions": "!(\"Varices\" in q_q1_cardiologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_Q1_cardiologie_001": "aucun"
+          "q_q1_cardiologie_001": "aucun"
         }
       }
     },
     {
-      "question": "q_Q1_cardiologie_012",
+      "question": "q_q1_cardiologie_012",
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"tdr\" in q_Q1_cardiologie_001)",
+        "conditions": "!(\"Valvulopathie (Insuffisance aortique ou mitrale, rétrécissement aortique ou mitral)\" in q_q1_cardiologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_Q1_cardiologie_001": "aucun"
+          "q_q1_cardiologie_001": "aucun"
         }
       }
     },
     {
-      "question": "q_Q1_cardiologie_013",
+      "question": "q_q1_cardiologie_013",
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"cardiomyopathie\" in q_Q1_cardiologie_001)",
+        "conditions": "!(\"Trouble du rythme cardiaque (fibrillation auriculaire, flutter, extrasystoles,...)\" in q_q1_cardiologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_Q1_cardiologie_001": "aucun"
+          "q_q1_cardiologie_001": "aucun"
         }
       }
     },
     {
-      "question": "q_Q1_cardiologie_014",
+      "question": "q_q1_cardiologie_014",
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"anevrysme\" in q_Q1_cardiologie_001)",
+        "conditions": "!(\"Cardiomyopathie\" in q_q1_cardiologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_Q1_cardiologie_001": "aucun"
+          "q_q1_cardiologie_001": "aucun"
         }
       }
     },
     {
-      "question": "q_Q1_cardiologie_015",
+      "question": "q_q1_cardiologie_015",
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"angor\" in q_Q1_cardiologie_001) || !(\"infarctus\" in q_Q1_cardiologie_001)",
+        "conditions": "!(\"Anévrysme artériel\" in q_q1_cardiologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_Q1_cardiologie_001": "aucun"
+          "q_q1_cardiologie_001": "aucun"
         }
       }
     },
     {
-      "question": "q_Q1_cardiologie_016",
+      "question": "q_q1_cardiologie_016",
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"arterite\" in q_Q1_cardiologie_001)",
+        "conditions": "!(\"Angine de poitrine\" in q_q1_cardiologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_Q1_cardiologie_001": "aucun"
+          "q_q1_cardiologie_001": "aucun"
         }
       }
     },
     {
-      "question": "q_Q1_cardiologie_017",
+      "question": "q_q1_cardiologie_017",
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"valvulopathie\" in q_Q1_cardiologie_001)",
+        "conditions": "!(\"Infarctus du myocarde\" in q_q1_cardiologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_Q1_cardiologie_001": "aucun"
+          "q_q1_cardiologie_001": "aucun"
         }
       }
     },
     {
-      "question": "q_Q1_cardiologie_018",
+      "question": "q_q1_cardiologie_018",
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"tdr\" in q_Q1_cardiologie_001)",
+        "conditions": "!(\"Artérite\" in q_q1_cardiologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_Q1_cardiologie_001": "aucun"
+          "q_q1_cardiologie_001": "aucun"
         }
       }
     },
     {
-      "question": "q_Q1_cardiologie_019",
+      "question": "q_q1_cardiologie_019",
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"anevrysme\" in q_Q1_cardiologie_001)",
+        "conditions": "!(\"Valvulopathie (Insuffisance aortique ou mitrale, rétrécissement aortique ou mitral)\" in q_q1_cardiologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_Q1_cardiologie_001": "aucun"
+          "q_q1_cardiologie_001": "aucun"
         }
       }
     },
     {
-      "question": "q_Q1_cardiologie_020",
+      "question": "q_q1_cardiologie_020",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Trouble du rythme cardiaque (fibrillation auriculaire, flutter, extrasystoles,...)\" in q_q1_cardiologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_cardiologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_cardiologie_021",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Anévrysme artériel\" in q_q1_cardiologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_cardiologie_001": "aucun"
+        }
+      }
     }
   ]
 }

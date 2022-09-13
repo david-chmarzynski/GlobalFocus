@@ -1,38 +1,38 @@
 {
-  "oid": "q_Q1_cardiologie_019",
-  "title": "Quel type d'intervention avez-vous subi ?",
-  "text": "Quel type d'intervention avez-vous subi ?",
+  "oid": "q_q1_cardiologie_019",
+  "title": "Quel type d’intervention avez-vous subi ?",
+  "text": "Quel type d’intervention avez-vous subi ?",
   "type": "MULTI_CHOICES",
   "choices": [
     {
-      "code": "Prothèse artérielle",
-      "text": "Prothèse artérielle"
+      "code": "Remplacement de valves cardiaques",
+      "text": "Remplacement de valves cardiaques"
     },
     {
-      "code": "Aucune intervention chirurgicale",
-      "text": "Aucune intervention chirurgicale",
+      "code": "aucun",
+      "text": "Aucune chirurgie",
       "exclusive": true
     }
   ],
   "scores": [
     {
-      "conditions": "q_Q1_cardiologie_019 == \"Prothèse artérielle\"",
-      "tagOID": "S_CV_ATCD_TRAITEMENT_INTERVENTIONNEL_ANEVRYSME",
+      "conditions": "\"Remplacement de valves cardiaques\" in q_q1_cardiologie_019",
+      "tagOID": "S_CV_ATCD_VALVULOPATHIE_TI_VALVE",
       "value": 1
     },
     {
-      "conditions": "!(\"Prothèse artérielle\" in q_Q1_cardiologie_019)",
-      "tagOID": "S_CV_ATCD_TRAITEMENT_INTERVENTIONNEL_ANEVRYSME",
+      "conditions": "!(\"Remplacement de valves cardiaques\" in q_q1_cardiologie_019)",
+      "tagOID": "S_CV_ATCD_VALVULOPATHIE_TI_VALVE",
       "value": 0
     },
     {
-      "conditions": "q_Q1_cardiologie_019 == \"Aucune intervention chirurgicale\"",
-      "tagOID": "S_CV_ATCD_TRAITEMENT_INTERVENTIONNEL_ANEVRYSME",
+      "conditions": "\"aucun\" in q_q1_cardiologie_019",
+      "tagOID": "S_CV_ATCD_VALVULOPATHIE_TI_AUCUN",
       "value": 0
     },
     {
-      "conditions": "!(\"Aucune intervention chirurgicale\" in q_Q1_cardiologie_019)",
-      "tagOID": "S_CV_ATCD_TRAITEMENT_INTERVENTIONNEL_ANEVRYSME",
+      "conditions": "!(\"aucun\" in q_q1_cardiologie_019)",
+      "tagOID": "S_CV_ATCD_VALVULOPATHIE_TI_AUCUN",
       "value": 1
     }
   ]

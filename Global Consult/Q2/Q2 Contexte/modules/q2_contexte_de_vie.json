@@ -1,0 +1,186 @@
+{
+  "oid": "q2_contexte_de_vie",
+  "title": "Q2 Global Focus Contexte de Vie",
+  "questions": [
+    {
+      "question": "q_q2_contexte_de_vie_000",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q2_contexte_de_vie_001",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q2_contexte_de_vie_002",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q2_contexte_de_vie_003",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q2_contexte_de_vie_004",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q2_contexte_de_vie_005",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q2_contexte_de_vie_006",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q2_contexte_de_vie_007",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q2_contexte_de_vie_008",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q2_contexte_de_vie_009",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q2_contexte_de_vie_010",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q2_contexte_de_vie_011",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q2_contexte_de_vie_012",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q2_contexte_de_vie_013",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q2_contexte_de_vie_014",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q2_contexte_de_vie_015",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q2_contexte_de_vie_016",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(q_VContexteQDVCognitif !==\"0\")",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VContexteQDVCognitif":"\"0\""}
+      }
+    },
+    {
+      "question": "q_q2_contexte_de_vie_017",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(q_VContexteQDVCognitif !==\"0\")",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VContexteQDVCognitif":"\"0\""}
+      }
+    },
+    {
+      "question": "q_q2_contexte_de_vie_018",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(q_VContexteQDVCognitif !==\"0\")",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VContexteQDVCognitif":"\"0\""}
+      }
+    },
+    {
+      "question": "q_q2_contexte_de_vie_019",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(q_VContexteQDVCognitif !==\"0\")",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VContexteQDVCognitif":"\"0\""}
+      }
+    },
+    {
+      "question": "q_q2_contexte_de_vie_020",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(q_VContexteQDVCognitif !==\"0\")",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VContexteQDVCognitif":"\"0\""}
+      }
+    },
+    {
+      "question": "q_q2_contexte_de_vie_021",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(q_VContexteQDVCognitif !==\"0\")",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VContexteQDVCognitif":"\"0\""}
+      }
+    },
+    {
+      "question": "q_q2_contexte_de_vie_022",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(q_VContexteQDVCognitif !==\"0\")",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VContexteQDVCognitif":"\"0\""}
+      }
+    },
+    {
+      "question": "q_q2_contexte_de_vie_023",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(q_VContexteQDVCognitif !==\"0\")",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VContexteQDVCognitif":"\"0\""}
+      }
+    },
+    {
+      "question": "q_q2_contexte_de_vie_024",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(q_VContexteQDVCognitif !==\"0\")",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VContexteQDVCognitif":"\"0\""}
+      }
+    },
+    {
+      "question": "q_q2_contexte_de_vie_025",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(q_VContexteQDVCognitif !==\"0\")",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VContexteQDVCognitif":"\"0\""}
+      }
+    }
+  ]
+}

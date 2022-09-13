@@ -1,0 +1,46 @@
+{
+  "oid": "q_q2_contexte_de_vie_012",
+  "title": "Comment évaluez-vous la pénibilité et le stress de votre travail liés à sa charge émotionnelle (objectifs élevés, stress relationnel, exposition à des situations difficiles (dangers, souffrance d’autrui…), manque de reconnaissance, critiques injustifiées…) ?",
+  "text": "Comment évaluez-vous la pénibilité et le stress de votre travail liés à sa charge émotionnelle (objectifs élevés, stress relationnel, exposition à des situations difficiles (dangers, souffrance d’autrui…), manque de reconnaissance, critiques injustifiées…) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas de pénibilité particulière"
+    },
+    {
+      "code": "1",
+      "text": "Pénibilité et stress modérés"
+    },
+    {
+      "code": "2",
+      "text": "Pénibilité et stress assez élevés"
+    },
+    {
+      "code": "3",
+      "text": "Pénibilité et stress élevés"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q2_contexte_de_vie_012 == \"0\"",
+      "tagOID": "Tag_VContexteVieEtudesWStressEmotionnnel",
+      "value": 0
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_012 == \"1\"",
+      "tagOID": "Tag_VContexteVieEtudesWStressEmotionnnel",
+      "value": 1
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_012 == \"2\"",
+      "tagOID": "Tag_VContexteVieEtudesWStressEmotionnnel",
+      "value": 2
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_012 == \"3\"",
+      "tagOID": "Tag_VContexteVieEtudesWStressEmotionnnel",
+      "value": 3
+    }
+  ]
+}

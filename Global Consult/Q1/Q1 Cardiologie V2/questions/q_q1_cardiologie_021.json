@@ -1,0 +1,39 @@
+{
+  "oid": "q_q1_cardiologie_021",
+  "title": "Quel type d’intervention avez-vous subi ?",
+  "text": "Quel type d’intervention avez-vous subi ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "Prothèse artérielle",
+      "text": "Prothèse artérielle"
+    },
+    {
+      "code": "aucun",
+      "text": "Aucune intervention chirurgicale",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"Prothèse artérielle\" in q_q1_cardiologie_021",
+      "tagOID": "S_CV_ATCD_ANEVRYSME_TI_PROTHESE_ART",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Prothèse artérielle\" in q_q1_cardiologie_021)",
+      "tagOID": "S_CV_ATCD_ANEVRYSME_TI_PROTHESE_ART",
+      "value": 0
+    },
+    {
+      "conditions": "\"aucun\" in q_q1_cardiologie_021",
+      "tagOID": "S_CV_ATCD_ANEVRYSME_TI_AUCUN",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_q1_cardiologie_021)",
+      "tagOID": "S_CV_ATCD_ANEVRYSME_TI_AUCUN",
+      "value": 1
+    }
+  ]
+}

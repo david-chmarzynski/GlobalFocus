@@ -31,6 +31,11 @@
     {
       "code": "Absence",
       "text": "Absence (sensation de baisse de conscience, de vigilance)"
+    },
+    {
+      "code": "aucun",
+      "text": "Aucun de ces symptômes",
+      "exclusive": true
     }
   ],
   "scores": [
@@ -103,6 +108,16 @@
       "conditions": "!(\"Absence\" in q_q1_neurologie_016)",
       "tagOID": "S_N_SYMP_CENTRAL_MALAISE",
       "value": 0
+    },
+    {
+      "conditions": "\"aucun\" in q_q1_neurologie_016",
+      "tagOID": "S_N_SYMP_CENTRAL",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_q1_neurologie_016)",
+      "tagOID": "S_N_SYMP_CENTRAL",
+      "value": 1
     }
   ]
 }

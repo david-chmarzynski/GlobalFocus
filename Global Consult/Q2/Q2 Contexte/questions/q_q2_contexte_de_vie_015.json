@@ -1,0 +1,55 @@
+{
+  "oid": "q_q2_contexte_de_vie_015",
+  "title": "Comment évaluez-vous le retentissement de vos douleurs sur votre capacité à pouvoir mener une vie normale et à réaliser les projets qui vous tiennent à cœur ?",
+  "text": "Comment évaluez-vous le retentissement de vos douleurs sur votre capacité à pouvoir mener une vie normale et à réaliser les projets qui vous tiennent à cœur ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas de gène"
+    },
+    {
+      "code": "2",
+      "text": "Gène légère"
+    },
+    {
+      "code": "3",
+      "text": "Assez gênant"
+    },
+    {
+      "code": "4",
+      "text": "Gênant"
+    },
+    {
+      "code": "5",
+      "text": "Très gênant"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q2_contexte_de_vie_015 == \"0\"",
+      "tagOID": "Tag_VContexteQDVDouleursRetentissement",
+      "value": 0
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_015 == \"2\"",
+      "tagOID": "Tag_VContexteQDVDouleursRetentissement",
+      "value": 2
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_015 == \"3\"",
+      "tagOID": "Tag_VContexteQDVDouleursRetentissement",
+      "value": 3
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_015 == \"4\"",
+      "tagOID": "Tag_VContexteQDVDouleursRetentissement",
+      "value": 4
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_015 == \"5\"",
+      "tagOID": "Tag_VContexteQDVDouleursRetentissement",
+      "value": 5
+    }
+  ]
+}

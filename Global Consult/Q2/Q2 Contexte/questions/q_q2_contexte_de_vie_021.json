@@ -1,0 +1,28 @@
+{
+  "oid": "q_q2_contexte_de_vie_021",
+  "title": "Avez-vous ces six derniers mois (et ce, de façon plus importante qu’avant) ressenti des difficultés plus grandes à vous orienter et/ou le sentiment de ne pas connaître un endroit où vos proches vous ont dit que vous étiez déjà venu ?",
+  "text": "Avez-vous ces six derniers mois (et ce, de façon plus importante qu’avant) ressenti des difficultés plus grandes à vous orienter et/ou le sentiment de ne pas connaître un endroit où vos proches vous ont dit que vous étiez déjà venu ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Oui"
+    },
+    {
+      "code": "0",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q2_contexte_de_vie_021 == \"0\"",
+      "tagOID": "S_N_PREDICTIF_QPC",
+      "value": 0
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_021 == \"1\"",
+      "tagOID": "S_N_PREDICTIF_QPC",
+      "value": 1.5
+    }
+  ]
+}

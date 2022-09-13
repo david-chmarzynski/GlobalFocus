@@ -1,0 +1,28 @@
+{
+  "oid": "q_q2_contexte_de_vie_024",
+  "title": "Avez-vous ces six derniers mois (et ce, de façon plus importante qu’avant) réduit certaines activités (ou demandé de l’aide à un proche) de peur de vous tromper : activités personnelles (papiers administratifs, factures, déclaration d’impôt, etc....) ou associatives ?",
+  "text": "Avez-vous ces six derniers mois (et ce, de façon plus importante qu’avant) réduit certaines activités (ou demandé de l’aide à un proche) de peur de vous tromper : activités personnelles (papiers administratifs, factures, déclaration d’impôt, etc....) ou associatives ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Oui"
+    },
+    {
+      "code": "0",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q2_contexte_de_vie_024 == \"0\"",
+      "tagOID": "S_N_PREDICTIF_QPC",
+      "value": 0
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_024 == \"1\"",
+      "tagOID": "S_N_PREDICTIF_QPC",
+      "value": 1.5
+    }
+  ]
+}

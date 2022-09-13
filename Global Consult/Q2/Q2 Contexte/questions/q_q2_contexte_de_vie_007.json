@@ -1,0 +1,46 @@
+{
+  "oid": "q_q2_contexte_de_vie_007",
+  "title": "Comment évaluez-vous la pénibilité physique de votre travail (manutention manuelle de charge, gestes répétitifs, cadences élevées, postures pénibles, vibrations mécaniques…) ?",
+  "text": "Comment évaluez-vous la pénibilité physique de votre travail (manutention manuelle de charge, gestes répétitifs, cadences élevées, postures pénibles, vibrations mécaniques…) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas de pénibilité particulière"
+    },
+    {
+      "code": "1",
+      "text": "Pénibilité modérée"
+    },
+    {
+      "code": "2",
+      "text": "Pénibilité assez élevée"
+    },
+    {
+      "code": "3",
+      "text": "Pénibilité élevée"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q2_contexte_de_vie_007 == \"0\"",
+      "tagOID": "Tag_VContexteVieEtudesWStressPénibilitéPhysique",
+      "value": 0
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_007 == \"1\"",
+      "tagOID": "Tag_VContexteVieEtudesWStressPénibilitéPhysique",
+      "value": 1
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_007 == \"2\"",
+      "tagOID": "Tag_VContexteVieEtudesWStressPénibilitéPhysique",
+      "value": 2
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_007 == \"3\"",
+      "tagOID": "Tag_VContexteVieEtudesWStressPénibilitéPhysique",
+      "value": 3
+    }
+  ]
+}

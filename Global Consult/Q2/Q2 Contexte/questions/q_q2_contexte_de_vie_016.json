@@ -1,0 +1,28 @@
+{
+  "oid": "q_q2_contexte_de_vie_016",
+  "title": "Avez-vous ressenti un changement de votre mémoire dans les six derniers mois écoulés ?",
+  "text": "Avez-vous ressenti un changement de votre mémoire dans les six derniers mois écoulés ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Oui"
+    },
+    {
+      "code": "0",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q2_contexte_de_vie_016 == \"0\"",
+      "tagOID": "S_N_PREDICTIF_QPC",
+      "value": 0
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_016 == \"1\"",
+      "tagOID": "S_N_PREDICTIF_QPC",
+      "value": 1.5
+    }
+  ]
+}

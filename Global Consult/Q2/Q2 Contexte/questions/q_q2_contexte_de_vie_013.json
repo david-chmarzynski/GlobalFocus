@@ -1,0 +1,46 @@
+{
+  "oid": "q_q2_contexte_de_vie_013",
+  "title": "Êtes-vous inquiet de perdre votre travail actuel ou de ne pas pouvoir poursuivre vos études ?",
+  "text": "Êtes-vous inquiet de perdre votre travail actuel ou de ne pas pouvoir poursuivre vos études ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas d’inquiétude particulière"
+    },
+    {
+      "code": "1",
+      "text": "Légères inquiétudes"
+    },
+    {
+      "code": "2",
+      "text": "Assez fortes inquiétudes"
+    },
+    {
+      "code": "3",
+      "text": "Fortes inquiétudes"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q2_contexte_de_vie_013 == \"0\"",
+      "tagOID": "Tag_VContexteVieEtudesWStressPérennité",
+      "value": 0
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_013 == \"1\"",
+      "tagOID": "Tag_VContexteVieEtudesWStressPérennité",
+      "value": 1
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_013 == \"2\"",
+      "tagOID": "Tag_VContexteVieEtudesWStressPérennité",
+      "value": 2
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_013 == \"3\"",
+      "tagOID": "Tag_VContexteVieEtudesWStressPérennité",
+      "value": 3
+    }
+  ]
+}

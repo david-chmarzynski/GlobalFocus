@@ -1,0 +1,22 @@
+{
+  "oid": "chap_complet",
+  "title": "chap_complet",
+  "modules": [
+    "TETE",
+    "mod_contexte_vie",
+    "mod_VToxique",
+    "sommeil",
+    "q1_alimentation",
+    "bouger_q1",
+    "Q1_Psychiatrie",
+    "gastro",
+    "q1_endocrinologie",
+    "q1_gynecologie",
+    "q1_andrologie",
+    "q1_hemato",
+    "q1_cardiologie",
+    "q1_pneumologie",
+    "Q1_uro_nephrologie",
+    "q1_neurologie"
+  ]
+}

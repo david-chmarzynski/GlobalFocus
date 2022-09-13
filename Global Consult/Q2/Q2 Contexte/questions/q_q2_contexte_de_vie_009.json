@@ -1,0 +1,46 @@
+{
+  "oid": "q_q2_contexte_de_vie_009",
+  "title": "Comment évaluez-vous la pénibilité de votre travail liée à l’exposition à des températures extrêmes (froid, chaleur) ?",
+  "text": "Comment évaluez-vous la pénibilité de votre travail liée à l’exposition à des températures extrêmes (froid, chaleur) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas de pénibilité particulière"
+    },
+    {
+      "code": "1",
+      "text": "Pénibilité modérée"
+    },
+    {
+      "code": "2",
+      "text": "Pénibilité assez élevée"
+    },
+    {
+      "code": "3",
+      "text": "Pénibilité élevée"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q2_contexte_de_vie_009 == \"0\"",
+      "tagOID": "Tag_VContexteVieEtudesWStressPénibilitéTempérature",
+      "value": 0
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_009 == \"1\"",
+      "tagOID": "Tag_VContexteVieEtudesWStressPénibilitéTempérature",
+      "value": 1
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_009 == \"2\"",
+      "tagOID": "Tag_VContexteVieEtudesWStressPénibilitéTempérature",
+      "value": 2
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_009 == \"3\"",
+      "tagOID": "Tag_VContexteVieEtudesWStressPénibilitéTempérature",
+      "value": 3
+    }
+  ]
+}

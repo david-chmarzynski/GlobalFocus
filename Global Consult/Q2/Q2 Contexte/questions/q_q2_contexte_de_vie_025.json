@@ -1,0 +1,28 @@
+{
+  "oid": "q_q2_contexte_de_vie_025",
+  "title": "Avez-vous ces six derniers mois (et ce, de façon plus importante qu’avant) observé une modification de votre caractère avec un repli sur soi, une réduction des contacts avec autrui voire le sentiment d’avoir moins d’intérêt pour les choses ou moins d’initiative ?",
+  "text": "Avez-vous ces six derniers mois (et ce, de façon plus importante qu’avant) observé une modification de votre caractère avec un repli sur soi, une réduction des contacts avec autrui voire le sentiment d’avoir moins d’intérêt pour les choses ou moins d’initiative ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Oui"
+    },
+    {
+      "code": "0",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q2_contexte_de_vie_025 == \"0\"",
+      "tagOID": "S_N_PREDICTIF_QPC",
+      "value": 0
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_025 == \"1\"",
+      "tagOID": "S_N_PREDICTIF_QPC",
+      "value": 1.5
+    }
+  ]
+}

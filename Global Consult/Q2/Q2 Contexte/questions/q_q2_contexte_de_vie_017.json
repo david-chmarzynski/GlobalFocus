@@ -1,0 +1,28 @@
+{
+  "oid": "q_q2_contexte_de_vie_017",
+  "title": "Avez-vous l’impression que votre mémoire fonctionne moins bien que celle des sujets de votre âge ?",
+  "text": "Avez-vous l’impression que votre mémoire fonctionne moins bien que celle des sujets de votre âge ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Oui"
+    },
+    {
+      "code": "0",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q2_contexte_de_vie_017 == \"0\"",
+      "tagOID": "S_N_PREDICTIF_QPC",
+      "value": 0
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_017 == \"1\"",
+      "tagOID": "S_N_PREDICTIF_QPC",
+      "value": 1
+    }
+  ]
+}

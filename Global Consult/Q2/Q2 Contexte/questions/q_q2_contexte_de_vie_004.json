@@ -1,0 +1,46 @@
+{
+  "oid": "q_q2_contexte_de_vie_004",
+  "title": "Comment évaluez-vous votre épanouissement dans le travail (intérêt, diversité et utilité de votre travail ou de vos études…) ?",
+  "text": "Comment évaluez-vous votre épanouissement dans le travail (intérêt, diversité et utilité de votre travail ou de vos études…) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisant"
+    },
+    {
+      "code": "1",
+      "text": "Légèrement insatisfaisant"
+    },
+    {
+      "code": "2",
+      "text": "Plutôt insatisfaisant"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisant"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q2_contexte_de_vie_004 == \"0\"",
+      "tagOID": "Tag_VContexteVieEtudesWHumainEpanouissement",
+      "value": 0
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_004 == \"1\"",
+      "tagOID": "Tag_VContexteVieEtudesWHumainEpanouissement",
+      "value": 1
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_004 == \"2\"",
+      "tagOID": "Tag_VContexteVieEtudesWHumainEpanouissement",
+      "value": 2
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_004 == \"3\"",
+      "tagOID": "Tag_VContexteVieEtudesWHumainEpanouissement",
+      "value": 3
+    }
+  ]
+}

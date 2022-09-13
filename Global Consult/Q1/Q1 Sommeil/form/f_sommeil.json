@@ -451,7 +451,179 @@
                 "text": "ATCD/SOM"
               }
             ],
-            "children": []
+            "children": [
+              {
+                "tagOID": "tag_VSomATCDInsomnies",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0.9,
+                    "color": "00FF00",
+                    "text": "ATCD/INS"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "FF0000",
+                    "text": "ATCD/INS"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VSomATCDSyndromeAS",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0.9,
+                    "color": "00FF00",
+                    "text": "ATCD/SYND_AS"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "FF0000",
+                    "text": "ATCD/SYND_AS"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VSomATCDSyndromeJSR",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0.9,
+                    "color": "00FF00",
+                    "text": "ATCD/SYND_JSR"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "FF0000",
+                    "text": "ATCD/SYND_JSR"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VSomATCDHypersomnolence",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0.9,
+                    "color": "00FF00",
+                    "text": "ATCD/HSOM"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "FF0000",
+                    "text": "ATCD/HSOM"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VSomATCDSomnambulisme",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0.9,
+                    "color": "00FF00",
+                    "text": "ATCD/SOMN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "FF0000",
+                    "text": "ATCD/SOMN"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VSomATCDTerreursNocturnes",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0.9,
+                    "color": "00FF00",
+                    "text": "ATCD/TERR"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "FF0000",
+                    "text": "ATCD/TERR"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VSomATCDNarcolepsie",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0.9,
+                    "color": "00FF00",
+                    "text": "ATCD/NARC"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "FF0000",
+                    "text": "ATCD/NARC"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VSomATCDCauchemars",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0.9,
+                    "color": "00FF00",
+                    "text": "ATCD/CAUCH"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "FF0000",
+                    "text": "ATCD/CAUCH"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VSomATCDCataplexie",
+                "type": "SCORE",
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0.9,
+                    "color": "00FF00",
+                    "text": "ATCD/CATAP"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "FF0000",
+                    "text": "ATCD/CATAP"
+                  }
+                ],
+                "children": []
+              }
+            ]
           }
         ]
       }

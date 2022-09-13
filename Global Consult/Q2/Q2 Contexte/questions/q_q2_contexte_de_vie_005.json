@@ -1,0 +1,46 @@
+{
+  "oid": "q_q2_contexte_de_vie_005",
+  "title": "Comment évaluez-vous les aspects socio-économiques de votre travail et/ou de vos études (revenus, statut, fonction, perspectives d’évolution, formations proposées, évaluations…) ?",
+  "text": "Comment évaluez-vous les aspects socio-économiques de votre travail et/ou de vos études (revenus, statut, fonction, perspectives d’évolution, formations proposées, évaluations…) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisants"
+    },
+    {
+      "code": "1",
+      "text": "Légèrement insatisfaisants"
+    },
+    {
+      "code": "2",
+      "text": "Plutôt insatisfaisants"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisants"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q2_contexte_de_vie_005 == \"0\"",
+      "tagOID": "Tag_VContexteVieEtudesWHumainSocio-Eco",
+      "value": 0
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_005 == \"1\"",
+      "tagOID": "Tag_VContexteVieEtudesWHumainSocio-Eco",
+      "value": 1
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_005 == \"2\"",
+      "tagOID": "Tag_VContexteVieEtudesWHumainSocio-Eco",
+      "value": 2
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_005 == \"3\"",
+      "tagOID": "Tag_VContexteVieEtudesWHumainSocio-Eco",
+      "value": 3
+    }
+  ]
+}

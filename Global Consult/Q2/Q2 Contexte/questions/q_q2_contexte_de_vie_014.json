@@ -1,0 +1,55 @@
+{
+  "oid": "q_q2_contexte_de_vie_014",
+  "title": "Vous sentez-vous épuisé(e) par votre travail au point d’avoir peur de craquer moralement et/ou physiquement (surmenage, contraintes excessives, stress prolongé, surinvestissement personnel, manque de reconnaissance…) ?",
+  "text": "Vous sentez-vous épuisé(e) par votre travail au point d’avoir peur de craquer moralement et/ou physiquement (surmenage, contraintes excessives, stress prolongé, surinvestissement personnel, manque de reconnaissance…) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "2",
+      "text": "Rarement"
+    },
+    {
+      "code": "3",
+      "text": "Assez souvent"
+    },
+    {
+      "code": "4",
+      "text": "Souvent"
+    },
+    {
+      "code": "5",
+      "text": "Très souvent"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q2_contexte_de_vie_014 == \"0\"",
+      "tagOID": "Tag_VContexteVieEtudesWStressEpuisement",
+      "value": 0
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_014 == \"2\"",
+      "tagOID": "Tag_VContexteVieEtudesWStressEpuisement",
+      "value": 2
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_014 == \"3\"",
+      "tagOID": "Tag_VContexteVieEtudesWStressEpuisement",
+      "value": 3
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_014 == \"4\"",
+      "tagOID": "Tag_VContexteVieEtudesWStressEpuisement",
+      "value": 4
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_014 == \"5\"",
+      "tagOID": "Tag_VContexteVieEtudesWStressEpuisement",
+      "value": 5
+    }
+  ]
+}

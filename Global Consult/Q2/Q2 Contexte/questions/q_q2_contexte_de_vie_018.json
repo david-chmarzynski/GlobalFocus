@@ -1,0 +1,28 @@
+{
+  "oid": "q_q2_contexte_de_vie_018",
+  "title": "Avez-vous ces six derniers mois (et ce, de façon plus importante qu’avant) ressenti l’impression d’enregistrer moins bien les événements et/ou entendu plus souvent vos proches dire \" je te l’ai déjà dit \" ?",
+  "text": "Avez-vous ces six derniers mois (et ce, de façon plus importante qu’avant) ressenti l’impression d’enregistrer moins bien les événements et/ou entendu plus souvent vos proches dire \" je te l’ai déjà dit \" ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "1",
+      "text": "Oui"
+    },
+    {
+      "code": "0",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q2_contexte_de_vie_018 == \"0\"",
+      "tagOID": "S_N_PREDICTIF_QPC",
+      "value": 0
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_018 == \"1\"",
+      "tagOID": "S_N_PREDICTIF_QPC",
+      "value": 1
+    }
+  ]
+}

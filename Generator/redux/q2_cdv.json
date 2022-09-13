@@ -1,0 +1,503 @@
+{
+  "questionaryName": "Q2 Global Focus Contexte de Vie",
+  "chapterOID": "chap_q2_contexte_de_vie",
+  "chapterTitle": "chap_Q2 Global Focus Contexte de Vie",
+  "estimatedTime": 10,
+  "pricing": 10,
+  "levelMax": "1",
+  "authors": [
+    "test"
+  ],
+  "professions": [
+    "DENTIST"
+  ],
+  "companyId": [
+    {}
+  ],
+  "linkedForm": "",
+  "category": "HEALTH",
+  "scoreStrategy": "SUM",
+  "form": [
+    {
+      "formOID": "q2_contexte_de_vie",
+      "formTitle": "Q2 Global Focus Contexte de Vie",
+      "formDescription": "Q2 Global Focus Contexte de Vie"
+    }
+  ],
+  "modules": [
+    {
+      "moduleOID": "q2_contexte_de_vie",
+      "moduleTitle": "Q2 Global Focus Contexte de Vie",
+      "questions": [
+        {
+          "module": "",
+          "questionOID": "q_q2_contexte_de_vie_000",
+          "questionText": "Avez-vous ressenti un changement de votre mémoire dans les six derniers mois écoulés ?",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_N_PREDICTIF_QPC_A",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Oui",
+              "value": 0,
+              "isExclusive": false,
+              "tagOID": ""
+            },
+            {
+              "text": "Non",
+              "value": "1",
+              "isExclusive": false,
+              "tagOID": ""
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q2_contexte_de_vie_001",
+          "questionText": "Avez-vous l’impression que votre mémoire fonctionne moins bien que celle des sujets de votre âge ?",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_q2_contexte_de_vie_000",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_N_PREDICTIF_QPC_B",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Oui",
+              "value": 0,
+              "isExclusive": false,
+              "tagOID": ""
+            },
+            {
+              "text": "Non",
+              "value": "1",
+              "isExclusive": false,
+              "tagOID": ""
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q2_contexte_de_vie_002",
+          "questionText": "Avez-vous ces six derniers mois (et ce, de façon plus importante qu’avant) ressenti l’impression d’enregistrer moins bien les événements et/ou entendu plus souvent vos proches dire \" je te l’ai déjà dit \" ?",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_q2_contexte_de_vie_001",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_N_PREDICTIF_QPC_1",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Oui",
+              "value": 0,
+              "isExclusive": false,
+              "tagOID": ""
+            },
+            {
+              "text": "Non",
+              "value": "1",
+              "isExclusive": false,
+              "tagOID": ""
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q2_contexte_de_vie_003",
+          "questionText": "Avez-vous ces six derniers mois (et ce, de façon plus importante qu’avant) oublié un rendez-vous important ?",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_q2_contexte_de_vie_002",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_N_PREDICTIF_QPC_2",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Oui",
+              "value": 0,
+              "isExclusive": false,
+              "tagOID": ""
+            },
+            {
+              "text": "Non",
+              "value": "1",
+              "isExclusive": false,
+              "tagOID": ""
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q2_contexte_de_vie_004",
+          "questionText": "Avez-vous ces six derniers mois (et ce, de façon plus importante qu’avant) perdu vos affaires plus souvent et/ou plus longtemps que d’habitude ?",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_q2_contexte_de_vie_003",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_N_PREDICTIF_QPC_3",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Oui",
+              "value": 0,
+              "isExclusive": false,
+              "tagOID": ""
+            },
+            {
+              "text": "Non",
+              "value": "1",
+              "isExclusive": false,
+              "tagOID": ""
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q2_contexte_de_vie_005",
+          "questionText": "Avez-vous ces six derniers mois (et ce, de façon plus importante qu’avant) ressenti des difficultés plus grandes à vous orienter et/ou le sentiment de ne pas connaître un endroit où vos proches vous ont dit que vous étiez déjà venu ?",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_q2_contexte_de_vie_004",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_N_PREDICTIF_QPC_4",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Oui",
+              "value": 0,
+              "isExclusive": false,
+              "tagOID": ""
+            },
+            {
+              "text": "Non",
+              "value": "1",
+              "isExclusive": false,
+              "tagOID": ""
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q2_contexte_de_vie_006",
+          "questionText": "Avez-vous ces six derniers mois (et ce, de façon plus importante qu’avant) oublié complètement un événement y compris lorsque vos proches vous l’ont raconté et/ou lorsque vous avez pu revoir des photos de celui-ci ?",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_q2_contexte_de_vie_005",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_N_PREDICTIF_QPC_5",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Oui",
+              "value": 0,
+              "isExclusive": false,
+              "tagOID": ""
+            },
+            {
+              "text": "Non",
+              "value": "1",
+              "isExclusive": false,
+              "tagOID": ""
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q2_contexte_de_vie_007",
+          "questionText": "Avez-vous ces six derniers mois (et ce, de façon plus importante qu’avant) ressenti l’impression de chercher les mots en parlant (sauf les noms propres) et d’être obligé d’utiliser d’autres mots, de vous arrêter de parler ou de dire plus souvent que d’ordinaire \" truc \" ou  \" machin \" ?",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_q2_contexte_de_vie_006",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_N_PREDICTIF_QPC_6",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Oui",
+              "value": 0,
+              "isExclusive": false,
+              "tagOID": ""
+            },
+            {
+              "text": "Non",
+              "value": "1",
+              "isExclusive": false,
+              "tagOID": ""
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q2_contexte_de_vie_008",
+          "questionText": "Avez-vous ces six derniers mois (et ce, de façon plus importante qu’avant) réduit certaines activités (ou demandé de l’aide à un proche) de peur de vous tromper : activités personnelles (papiers administratifs, factures, déclaration d’impôt, etc....) ou associatives ?",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_q2_contexte_de_vie_007",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_N_PREDICTIF_QPC_6",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Oui",
+              "value": 0,
+              "isExclusive": false,
+              "tagOID": ""
+            },
+            {
+              "text": "Non",
+              "value": "1",
+              "isExclusive": true,
+              "tagOID": ""
+            }
+          ]
+        },
+        {
+          "module": "",
+          "questionOID": "q_q2_contexte_de_vie_009",
+          "questionText": "Avez-vous ces six derniers mois (et ce, de façon plus importante qu’avant) observé une modification de votre caractère avec un repli sur soi, une réduction des contacts avec autrui voire le sentiment d’avoir moins d’intérêt pour les choses ou moins d’initiative ?",
+          "type": "SINGLE_CHOICE_RADIO",
+          "isTriggered": false,
+          "triggeredQuestionOID": "q_q2_contexte_de_vie_008",
+          "triggeredValue": 0,
+          "triggeredDefault": 0,
+          "tag": "S_N_PREDICTIF_QPC_6",
+          "scope": "MODULE_SCOPE",
+          "isGlobal": false,
+          "isCalculation": false,
+          "calculation": [],
+          "isWithConditions": false,
+          "conditions": [],
+          "answers": [
+            {
+              "text": "Oui",
+              "value": 0,
+              "isExclusive": false,
+              "tagOID": ""
+            },
+            {
+              "text": "Non",
+              "value": "1",
+              "isExclusive": false,
+              "tagOID": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "tagOID": "S_N_PREDICTIF_QPC",
+      "tagTitle": "PLAINTES COGNITIVES",
+      "tagDescription": "PLAINTES COGNITIVES",
+      "tagType": "SCORE",
+      "sunburstName": "QPC",
+      "module": "q2_contexte_de_vie",
+      "rangeMin": [],
+      "rangeMax": [],
+      "parent": "",
+      "children": []
+    },
+    {
+      "tagOID": "S_N_PREDICTIF_QPC_A",
+      "tagTitle": "A",
+      "tagDescription": "A",
+      "tagType": "SCORE",
+      "sunburstName": "A",
+      "module": "q2_contexte_de_vie",
+      "rangeMin": [
+        0,
+        1
+      ],
+      "rangeMax": [
+        0,
+        1
+      ],
+      "parent": "S_N_PREDICTIF_QPC",
+      "children": []
+    },
+    {
+      "tagOID": "S_N_PREDICTIF_QPC_B",
+      "tagTitle": "B",
+      "tagDescription": "B",
+      "tagType": "SCORE",
+      "sunburstName": "B",
+      "module": "q2_contexte_de_vie",
+      "rangeMin": [
+        0,
+        1
+      ],
+      "rangeMax": [
+        0,
+        1
+      ],
+      "parent": "S_N_PREDICTIF_QPC",
+      "children": []
+    },
+    {
+      "tagOID": "S_N_PREDICTIF_QPC_1",
+      "tagTitle": "1",
+      "tagDescription": "1",
+      "tagType": "SCORE",
+      "sunburstName": "1",
+      "module": "q2_contexte_de_vie",
+      "rangeMin": [
+        0,
+        1
+      ],
+      "rangeMax": [
+        0,
+        1
+      ],
+      "parent": "S_N_PREDICTIF_QPC",
+      "children": []
+    },
+    {
+      "tagOID": "S_N_PREDICTIF_QPC_2",
+      "tagTitle": "2",
+      "tagDescription": "2",
+      "tagType": "SCORE",
+      "sunburstName": "2",
+      "module": "q2_contexte_de_vie",
+      "rangeMin": [
+        0,
+        1
+      ],
+      "rangeMax": [
+        0,
+        1
+      ],
+      "parent": "S_N_PREDICTIF_QPC",
+      "children": []
+    },
+    {
+      "tagOID": "S_N_PREDICTIF_QPC_3",
+      "tagTitle": "3",
+      "tagDescription": "3",
+      "tagType": "SCORE",
+      "sunburstName": "3",
+      "module": "q2_contexte_de_vie",
+      "rangeMin": [
+        0,
+        1
+      ],
+      "rangeMax": [
+        0,
+        1
+      ],
+      "parent": "S_N_PREDICTIF_QPC",
+      "children": []
+    },
+    {
+      "tagOID": "S_N_PREDICTIF_QPC_4",
+      "tagTitle": "4",
+      "tagDescription": "4",
+      "tagType": "SCORE",
+      "sunburstName": "4",
+      "module": "q2_contexte_de_vie",
+      "rangeMin": [
+        0,
+        1
+      ],
+      "rangeMax": [
+        0,
+        1
+      ],
+      "parent": "S_N_PREDICTIF_QPC",
+      "children": []
+    },
+    {
+      "tagOID": "S_N_PREDICTIF_QPC_5",
+      "tagTitle": "5",
+      "tagDescription": "5",
+      "tagType": "SCORE",
+      "sunburstName": "5",
+      "module": "q2_contexte_de_vie",
+      "rangeMin": [
+        0,
+        1
+      ],
+      "rangeMax": [
+        0,
+        1
+      ],
+      "parent": "S_N_PREDICTIF_QPC",
+      "children": []
+    },
+    {
+      "tagOID": "S_N_PREDICTIF_QPC_6",
+      "tagTitle": "6",
+      "tagDescription": "6",
+      "tagType": "SCORE",
+      "sunburstName": "6",
+      "module": "q2_contexte_de_vie",
+      "rangeMin": [
+        0,
+        1
+      ],
+      "rangeMax": [
+        0,
+        1
+      ],
+      "parent": "S_N_PREDICTIF_QPC",
+      "children": []
+    }
+  ]
+}

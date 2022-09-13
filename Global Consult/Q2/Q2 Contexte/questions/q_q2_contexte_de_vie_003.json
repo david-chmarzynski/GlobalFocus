@@ -1,0 +1,46 @@
+{
+  "oid": "q_q2_contexte_de_vie_003",
+  "title": "Comment évaluez-vous la qualité des relations humaines dans votre vie professionnelle et/ou vos études (communication avec les collègues et/ou la hiérarchie, collaboration, soutien, aide, confiance…) ?",
+  "text": "Comment évaluez-vous la qualité des relations humaines dans votre vie professionnelle et/ou vos études (communication avec les collègues et/ou la hiérarchie, collaboration, soutien, aide, confiance…) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisante"
+    },
+    {
+      "code": "1",
+      "text": "Légèrement insatisfaisante"
+    },
+    {
+      "code": "2",
+      "text": "Plutôt insatisfaisante"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisante"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q2_contexte_de_vie_003 == \"0\"",
+      "tagOID": "Tag_VContexteVieEtudesWHumainRelationnel",
+      "value": 0
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_003 == \"1\"",
+      "tagOID": "Tag_VContexteVieEtudesWHumainRelationnel",
+      "value": 1
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_003 == \"2\"",
+      "tagOID": "Tag_VContexteVieEtudesWHumainRelationnel",
+      "value": 2
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_003 == \"3\"",
+      "tagOID": "Tag_VContexteVieEtudesWHumainRelationnel",
+      "value": 3
+    }
+  ]
+}

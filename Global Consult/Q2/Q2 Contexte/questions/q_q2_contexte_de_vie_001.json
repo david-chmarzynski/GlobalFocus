@@ -1,0 +1,46 @@
+{
+  "oid": "q_q2_contexte_de_vie_001",
+  "title": "Comment évaluez-vous la pénibilité liée aux contraintes de votre transport domicile- travail (type de transport, heures de pointe, embouteillages, retards…) ?",
+  "text": "Comment évaluez-vous la pénibilité liée aux contraintes de votre transport domicile- travail (type de transport, heures de pointe, embouteillages, retards…) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Pas de pénibilité"
+    },
+    {
+      "code": "1",
+      "text": "Pénibilité légère"
+    },
+    {
+      "code": "2",
+      "text": "Pénibilité moyenne"
+    },
+    {
+      "code": "3",
+      "text": "Pénibilité forte"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q2_contexte_de_vie_001 == \"0\"",
+      "tagOID": "Tag_VContexteVieEtudesWOrganisationTrajetPénibilité",
+      "value": 0
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_001 == \"1\"",
+      "tagOID": "Tag_VContexteVieEtudesWOrganisationTrajetPénibilité",
+      "value": 1
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_001 == \"2\"",
+      "tagOID": "Tag_VContexteVieEtudesWOrganisationTrajetPénibilité",
+      "value": 2
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_001 == \"3\"",
+      "tagOID": "Tag_VContexteVieEtudesWOrganisationTrajetPénibilité",
+      "value": 3
+    }
+  ]
+}

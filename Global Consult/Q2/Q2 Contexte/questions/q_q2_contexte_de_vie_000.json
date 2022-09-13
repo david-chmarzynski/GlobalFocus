@@ -1,0 +1,46 @@
+{
+  "oid": "q_q2_contexte_de_vie_000",
+  "title": "Quelle est la durée moyenne de votre trajet aller-retour domicile- travail ?",
+  "text": "Quelle est la durée moyenne de votre trajet aller-retour domicile- travail ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "< 30 minutes"
+    },
+    {
+      "code": "1",
+      "text": "30-60 minutes"
+    },
+    {
+      "code": "2",
+      "text": "1-1h30"
+    },
+    {
+      "code": "3",
+      "text": ">1h30"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q2_contexte_de_vie_000 == \"0\"",
+      "tagOID": "Tag_VContexteVieEtudesWOrganisationTrajetDurée",
+      "value": 0
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_000 == \"1\"",
+      "tagOID": "Tag_VContexteVieEtudesWOrganisationTrajetDurée",
+      "value": 1
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_000 == \"2\"",
+      "tagOID": "Tag_VContexteVieEtudesWOrganisationTrajetDurée",
+      "value": 2
+    },
+    {
+      "conditions": "q_q2_contexte_de_vie_000 == \"3\"",
+      "tagOID": "Tag_VContexteVieEtudesWOrganisationTrajetDurée",
+      "value": 3
+    }
+  ]
+}

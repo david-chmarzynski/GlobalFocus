@@ -74,19 +74,20 @@ export default function Report() {
 
       if(report[i].italics) res+= '*';
       if(report[i].bold) res+= '**';
+      if(report[i].display === '↵') res+= '  '
       res+= report[i].text;
       if(report[i].bold) res+= '**';
       if(report[i].italics) res+=  '*';
       res+= ' ';
 
-      if(report[i].title) res+= '  \\n'     
+      if(report[i].title) res+= '"   "\\n'     
     }
     setResult(res)
 
   },[report]);
 
   function addReportElement(newElementText, newElementDisplay, format = true, ifStatement = false){
-    setReport([...report, {id: newElementId, text: newElementText.trim(), display: newElementDisplay, format: format, ifStatement : ifStatement, italics : false, bold : false, title : 0}])
+    setReport([...report, {id: newElementId, text: newElementText.trimEnd(), display: newElementDisplay, format: format, ifStatement : ifStatement, italics : false, bold : false, title : 0}])
     setNewElementId(newElementId + 1);
   }
 

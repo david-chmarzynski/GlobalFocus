@@ -1,0 +1,3196 @@
+{
+    "questionaryName": "Q1 Global Focus Rhumatologie",
+    "chapterOID": "chap_q1_rhumatologie",
+    "chapterTitle": "chap_Q1 Global Focus Rhumatologie",
+    "estimatedTime": 10,
+    "pricing": 10,
+    "levelMax": "1",
+    "authors": [
+      "test"
+    ],
+    "professions": [
+      "DENTIST"
+    ],
+    "companyId": [
+      {}
+    ],
+    "linkedForm": "",
+    "category": "HEALTH",
+    "scoreStrategy": "SUM",
+    "form": [
+      {
+        "formOID": "q1_rhumatologie",
+        "formTitle": "Q1 Global Focus Rhumatologie",
+        "formDescription": "Q1 Global Focus Rhumatologie"
+      }
+    ],
+    "modules": [
+      {
+        "moduleOID": "q1_rhumatologie",
+        "moduleTitle": "Q1 Global Focus Rhumatologie",
+        "questions": [
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_000",
+            "questionText": "Nous allons maintenant explorer votre santé rhumatologique et musculo-squelettique (douleurs articulaires, faiblesse musculaire, arthrite, arthrose...) Comment évaluez-vous votre santé rhumatologique et bien-être musculo-squelettique (rachis, membres) ?",
+            "type": "SINGLE_CHOICE_RADIO",
+            "isTriggered": false,
+            "triggeredQuestionOID": "",
+            "triggeredValue": 0,
+            "triggeredDefault": "aucun",
+            "tag": "S_RMS",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": false,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "text": "Satisfaisante",
+                "value": 0,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Légèrement insatisfaisante",
+                "value": 1,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Plutôt insatisfaisante",
+                "value": 2,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Insatisfaisante",
+                "value": "3",
+                "isExclusive": false,
+                "tagOID": ""
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_001",
+            "questionText": "Vous a-t-on déjà opéré et/ou diagnostiqué ? (plusieurs réponses possibles)",
+            "type": "MULTI_CHOICES",
+            "isTriggered": false,
+            "triggeredQuestionOID": "",
+            "triggeredValue": 0,
+            "triggeredDefault": "aucun",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": false,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "text": "Chirurgie de l’appareil locomoteur (vertèbres, membres supérieurs et/ou inférieurs)",
+                "value": "Chirurgie de l’appareil locomoteur (vertèbres, membres supérieurs et/ou inférieurs)",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR"
+              },
+              {
+                "text": "Maladie touchant les os, les articulations, les muscles et les tendons (arthrose, ostéoporose, lombalgies, sciatique, cruralgie, canal carpien, tendinite, rhumatisme inflammatoire, goutte, fibromyalgie, syndrome de fatigue chronique, cancer des os, métastases osseuses, myopathies...)",
+                "value": "Maladie touchant les os, les articulations, les muscles et les tendons (arthrose, ostéoporose, lombalgies, sciatique, cruralgie, canal carpien, tendinite, rhumatisme inflammatoire, goutte, fibromyalgie, syndrome de fatigue chronique, cancer des os, métastases osseuses, myopathies...)",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_MED"
+              },
+              {
+                "text": "Aucun de ces antécédents",
+                "value": "aucun",
+                "isExclusive": true,
+                "tagOID": "S_RMS_ATCD_AUCUN"
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_002",
+            "questionText": "De quoi avez-vous été opéré (plusieurs réponses possibles)",
+            "type": "MULTI_CHOICES",
+            "isTriggered": false,
+            "triggeredQuestionOID": "",
+            "triggeredValue": 0,
+            "triggeredDefault": "aucun",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": false,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "text": "Intervention(s) du rachis (vertèbres, disques)",
+                "value": "Intervention(s) du rachis (vertèbres, disques)",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS"
+              },
+              {
+                "text": "Intervention(s) membres supérieurs",
+                "value": "Intervention(s) membres supérieurs",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP"
+              },
+              {
+                "text": "Intervention(s) membres inférieurs",
+                "value": "Intervention(s) membres inférieurs",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF"
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_003",
+            "questionText": "Précisez la localisation de votre(vos) intervention(s) (plusieurs réponses possibles)",
+            "type": "MULTI_CHOICES",
+            "isTriggered": false,
+            "triggeredQuestionOID": "",
+            "triggeredValue": 0,
+            "triggeredDefault": "aucun",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": false,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "text": "Hernie discale cervicale",
+                "value": "Hernie discale cervicale",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS_HERNIE_CERV"
+              },
+              {
+                "text": "Arthrodèse cervicale",
+                "value": "Arthrodèse cervicale",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS_ARTHROD_CERV"
+              },
+              {
+                "text": "Fracture de vertèbre(s) cervicale(s)",
+                "value": "Fracture de vertèbre(s) cervicale(s)",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS_FRACT_CERV"
+              },
+              {
+                "text": "Fracture de vertèbre(s) dorsale(s)",
+                "value": "Fracture de vertèbre(s) dorsale(s)",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS_FRACT_DORS"
+              },
+              {
+                "text": "Fracture de vertèbre(s) lombaire(s)",
+                "value": "Fracture de vertèbre(s) lombaire(s)",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS_FRACT_LOMB"
+              },
+              {
+                "text": "Arthrodèse dorso-lombaire",
+                "value": "Arthrodèse dorso-lombaire",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS_ARTHROD_DO_LO"
+              },
+              {
+                "text": "Arthrodèse lombaire",
+                "value": "Arthrodèse lombaire",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS_ARTHROD_LOMB"
+              },
+              {
+                "text": "Hernie discale lombaire",
+                "value": "Hernie discale lombaire",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS_HERNIE_LOMB"
+              },
+              {
+                "text": "Autre(s) chirurgie(s) du rachis",
+                "value": "Autre(s) chirurgie(s) du rachis",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS_AUTRE"
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_004",
+            "questionText": "De quoi vous a-t-on opéré ?",
+            "type": "TEXT",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_003",
+            "triggeredValue": "Autre(s) chirurgie(s) du rachis",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "regex": ""
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_005",
+            "questionText": "En quelle année l’intervention sur la hernie cervicale a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_003",
+            "triggeredValue": "Hernie discale cervicale",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_006",
+            "questionText": "En quelle année l’arthrodèse cervicale a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_003",
+            "triggeredValue": "Arthrodèse cervicale",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_007",
+            "questionText": "En quelle année l’intervention sur la fracture du rachis cervical a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_003",
+            "triggeredValue": "Fracture de vertèbre(s) cervicale(s)",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_008",
+            "questionText": "En quelle année l’intervention sur la fracture du rachis dorsal a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_003",
+            "triggeredValue": "Fracture de vertèbre(s) dorsale(s)",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_009",
+            "questionText": "En quelle année l’arthrodèse dorso-lombaire a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_003",
+            "triggeredValue": "Arthrodèse dorso-lombaire",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_010",
+            "questionText": "A quelle date l’arthrodèse lombaire a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_003",
+            "triggeredValue": "Arthrodèse lombaire",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_011",
+            "questionText": "En quelle année l’intervention sur la hernie lombaire a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_003",
+            "triggeredValue": "Hernie discale lombaire",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_012",
+            "questionText": "En quelle année l’intervention sur la fracture du rachis lombaire a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_003",
+            "triggeredValue": "Fracture de vertèbre(s) lombaire(s)",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_013",
+            "questionText": "En quelle année votre autre intervention a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_003",
+            "triggeredValue": "Autre(s) chirurgie(s) du rachis",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_014",
+            "questionText": "Précisez la localisation de votre(vos) intervention(s) (plusieurs réponses possibles) ?",
+            "type": "MULTI_CHOICES",
+            "isTriggered": false,
+            "triggeredQuestionOID": "",
+            "triggeredValue": 0,
+            "triggeredDefault": "aucun",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": false,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "text": "Fracture épaule droite",
+                "value": "Fracture épaule droite",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_FRACT_EPAULE_D"
+              },
+              {
+                "text": "Fracture épaule gauche",
+                "value": "Fracture épaule gauche",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_FRACT_EPAULE_G"
+              },
+              {
+                "text": "Coiffe des rotateurs à droite",
+                "value": "Coiffe des rotateurs à droite",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_COIF_ROT_D"
+              },
+              {
+                "text": "Coiffe des rotateurs à gauche",
+                "value": "Coiffe des rotateurs à gauche",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_COIF_ROT_G"
+              },
+              {
+                "text": "Fracture coude droit",
+                "value": "Fracture coude droit",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_FRACT_COUDE_D"
+              },
+              {
+                "text": "Fracture coude gauche",
+                "value": "Fracture coude gauche",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_FRACT_COUDE_G"
+              },
+              {
+                "text": "Fracture poignet droit",
+                "value": "Fracture poignet droit",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_FRACT_POIGNET_D"
+              },
+              {
+                "text": "Fracture poignet gauche",
+                "value": "Fracture poignet gauche",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_FRACT_POIGNET_G"
+              },
+              {
+                "text": "Fracture main droite",
+                "value": "Fracture main droite",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_FRACT_MAIN_D"
+              },
+              {
+                "text": "Fracture main gauche",
+                "value": "Fracture main gauche",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_FRACT_MAIN_G"
+              },
+              {
+                "text": "Chirurgie arthrose du pouce droit",
+                "value": "Chirurgie arthrose du pouce droit",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_ARTHROSE_POUCE_D"
+              },
+              {
+                "text": "Chirurgie arthrose du pouce gauche",
+                "value": "Chirurgie arthrose du pouce gauche",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_ARTHROSE_POUCE_G"
+              },
+              {
+                "text": "Autre(s) chirurgie(s) des membres supérieurs",
+                "value": "Autre(s) chirurgie(s) des membres supérieurs",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_AUTRE"
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_015",
+            "questionText": "De quoi vous a-t-on opéré ?",
+            "type": "TEXT",
+            "isTriggered": true,
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "regex": ""
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_016",
+            "questionText": "En quelle année l’intervention sur la fracture de l’épaule droite a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_014",
+            "triggeredValue": "Fracture épaule droite",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_017",
+            "questionText": "En quelle année l’intervention sur la fracture de l’épaule gauche a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_014",
+            "triggeredValue": "Fracture épaule gauche",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_018",
+            "questionText": "En quelle année l’intervention sur la coiffe des rotateurs de l’épaule droite a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_014",
+            "triggeredValue": "Coiffe des rotateurs à droite",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_019",
+            "questionText": "En quelle année l’intervention sur la coiffe des rotateurs de l’épaule gauche a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_014",
+            "triggeredValue": "Coiffe des rotateurs à gauche",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_020",
+            "questionText": "En quelle année l’intervention sur la fracture du coude droit a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_014",
+            "triggeredValue": "Coiffe des rotateurs à gauche",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_021",
+            "questionText": "En quelle année l’intervention sur la fracture du coude gauche a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_014",
+            "triggeredValue": "Fracture coude gauche",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_022",
+            "questionText": "En quelle année l’intervention sur la fracture du poignet droit a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_014",
+            "triggeredValue": "Fracture poignet droit",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_023",
+            "questionText": "En quelle année l’intervention sur la fracture du poignet gauche a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_014",
+            "triggeredValue": "Fracture poignet gauche",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_024",
+            "questionText": "En quelle année l’intervention sur la fracture de la main droite a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_014",
+            "triggeredValue": "Fracture main droite",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_025",
+            "questionText": "En quelle année l’intervention sur la fracture de la main gauche a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_014",
+            "triggeredValue": "Fracture main gauche",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_026",
+            "questionText": "En quelle année l’intervention sur l’arthrose du pouce droit a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_014",
+            "triggeredValue": "Chirurgie arthrose du pouce droit",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_027",
+            "questionText": "En quelle année l’intervention sur l’arthrose du pouce gauche a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_014",
+            "triggeredValue": "Chirurgie arthrose du pouce gauche",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_028",
+            "questionText": "En quelle année votre autre intervention a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_014",
+            "triggeredValue": "Autre(s) chirurgie(s) des membres supérieurs",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_029",
+            "questionText": "Précisez la localisation de votre(vos) intervention(s) (plusieurs réponses possibles) ?",
+            "type": "MULTI_CHOICES",
+            "isTriggered": false,
+            "triggeredQuestionOID": "",
+            "triggeredValue": 0,
+            "triggeredDefault": "aucun",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": false,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "text": "Fracture du bassin",
+                "value": "Fracture du bassin",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_BASSIN"
+              },
+              {
+                "text": "Fracture de hanche droite",
+                "value": "Fracture de hanche droite",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_FRACT_HANCHE_D"
+              },
+              {
+                "text": "Fracture de hanche gauche",
+                "value": "Fracture de hanche gauche",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_FRACT_HANCHE_G"
+              },
+              {
+                "text": "Prothèse de hanche droite",
+                "value": "Prothèse de hanche droite",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_PROTHESE_HANCHE_D"
+              },
+              {
+                "text": "Prothèse de hanche gauche",
+                "value": "Prothèse de hanche gauche",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_PROTHESE_HANCHE_G"
+              },
+              {
+                "text": "Prothèse de genou droit",
+                "value": "Prothèse de genou droit",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_PROTHESE_GENOU_D"
+              },
+              {
+                "text": "Prothèse de genou gauche",
+                "value": "Prothèse de genou gauche",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_PROTHESE_GENOU_G"
+              },
+              {
+                "text": "Ligament croisé antérieur du genou droit",
+                "value": "Ligament croisé antérieur du genou droit",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_LCA_GENOU_D"
+              },
+              {
+                "text": "Ligament croisé antérieur du genou gauche",
+                "value": "Ligament croisé antérieur du genou gauche",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_LCA_GENOU_G"
+              },
+              {
+                "text": "Ménisque(s) du genou droit",
+                "value": "Ménisque(s) du genou droit",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_MENISQUE_GENOU_D"
+              },
+              {
+                "text": "Ménisque(s) du genou gauche",
+                "value": "Ménisque(s) du genou gauche",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_MENISQUE_GENOU_G"
+              },
+              {
+                "text": "Fracture de cheville droite",
+                "value": "Fracture de cheville droite",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_FRACT_CHEVILLE_D"
+              },
+              {
+                "text": "Fracture de cheville gauche",
+                "value": "Fracture de cheville gauche",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_FRACT_CHEVILLE_G"
+              },
+              {
+                "text": "Hallux valgus du pied droit",
+                "value": "Hallux valgus du pied droit",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_HALLUX_VALGUS_D"
+              },
+              {
+                "text": "Hallux valgus du pied gauche",
+                "value": "Hallux valgus du pied gauche",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_HALLUX_VALGUS_G"
+              },
+              {
+                "text": "Autre(s) chirurgie(s) des membres inférieurs",
+                "value": "Autre(s) chirurgie(s) des membres inférieurs",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_AUTRE"
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_030",
+            "questionText": "De quoi vous a-t-on opéré ?",
+            "type": "TEXT",
+            "isTriggered": true,
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "regex": ""
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_031",
+            "questionText": "En quelle année l’intervention sur la fracture du bassin a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_029",
+            "triggeredValue": 0,
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_032",
+            "questionText": "En quelle année l’intervention sur la fracture de hanche droite a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_029",
+            "triggeredValue": "Fracture de hanche droite",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_033",
+            "questionText": "En quelle année l’intervention sur la fracture de hanche gauche a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_029",
+            "triggeredValue": "Fracture de hanche gauche",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_034",
+            "questionText": "En quelle année la prothèse de la hanche droite a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_029",
+            "triggeredValue": "Prothèse de hanche droite",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_035",
+            "questionText": "En quelle année la prothèse de la hanche gauche a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_029",
+            "triggeredValue": "Prothèse de hanche gauche",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_036",
+            "questionText": "En quelle année la prothèse du genou droite a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_029",
+            "triggeredValue": "Prothèse de genou droit",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_037",
+            "questionText": "En quelle année la prothèse du genou gauche a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_029",
+            "triggeredValue": "Prothèse de genou gauche",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_038",
+            "questionText": "En quelle année l’intervention sur le LCA du genou droite a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_029",
+            "triggeredValue": "Ligament croisé antérieur du genou droit",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_039",
+            "questionText": "En quelle année l’intervention sur le LCA du genou gauche a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_029",
+            "triggeredValue": "Ligament croisé antérieur du genou gauche",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_040",
+            "questionText": "En quelle année l’intervention sur le(s) ménisque(s) du genou droite a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_029",
+            "triggeredValue": "Ménisque(s) du genou droit",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_041",
+            "questionText": "En quelle année l’intervention sur le(s) ménisque(s) du genou gauche a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_029",
+            "triggeredValue": "Ménisque(s) du genou gauche",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_042",
+            "questionText": "En quelle année l’intervention sur la fracture de la cheville droite a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_029",
+            "triggeredValue": "Fracture de cheville droite",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_043",
+            "questionText": "En quelle année l’intervention sur la fracture de la cheville gauche a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_029",
+            "triggeredValue": "Fracture de cheville gauche",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_044",
+            "questionText": "En quelle année l’intervention sur l’hallux valgus du pied droit a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_029",
+            "triggeredValue": "Hallux valgus du pied droit",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_045",
+            "questionText": "En quelle année l’intervention sur l’hallux valgus du pied gauche a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_029",
+            "triggeredValue": "Hallux valgus du pied gauche",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_046",
+            "questionText": "En quelle année votre autre intervention a-t-elle été pratiquée ?",
+            "type": "ANALOG_SCALE",
+            "isTriggered": true,
+            "triggeredQuestionOID": "q_q1_rhumatologie_029",
+            "triggeredValue": "Autre(s) chirurgie(s) des membres inférieurs",
+            "triggeredDefault": "0",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "min": 1900,
+                "max": 2022,
+                "minText": "1900",
+                "midText": "",
+                "maxText": "Cette année",
+                "minValue": "1900",
+                "midValue": "",
+                "maxValue": 2022,
+                "step": 1,
+                "hideAnalogScaleSelectorNumber": false
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_047",
+            "questionText": "Vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies ? (plusieurs réponses possibles)",
+            "type": "MULTI_CHOICES",
+            "isTriggered": false,
+            "triggeredQuestionOID": "",
+            "triggeredValue": 0,
+            "triggeredDefault": "aucun",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": false,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "text": "Ostéopénie",
+                "value": "Ostéopénie",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_OSTEOPENIE"
+              },
+              {
+                "text": "Ostéoporose",
+                "value": "Ostéoporose",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_OSTEOPOROSE"
+              },
+              {
+                "text": "Arthrose",
+                "value": "Arthrose",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_ARTHROSE"
+              },
+              {
+                "text": "Goutte",
+                "value": "Goutte",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_GOUTTE"
+              },
+              {
+                "text": "Chondro-calcinose articulaire",
+                "value": "Chondro-calcinose articulaire",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_CHONDROCALCINOSE"
+              },
+              {
+                "text": "Périarthrite scapulo-humérale",
+                "value": "Périarthrite scapulo-humérale",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_PASH"
+              },
+              {
+                "text": "Capsulite de l’épaule",
+                "value": "Capsulite de l’épaule",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_CAPS"
+              },
+              {
+                "text": "Myélome",
+                "value": "Myélome",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_MYELOME"
+              },
+              {
+                "text": "Ostéite (infection osseuse)",
+                "value": "Ostéite (infection osseuse)",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_OSTEITE"
+              },
+              {
+                "text": "Cancer primitif osseux (ostéosarcome, chondrosarcoma…)",
+                "value": "Cancer primitif osseux (ostéosarcome, chondrosarcoma…)",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_CANCER"
+              },
+              {
+                "text": "Métastase(s) osseuse(s)",
+                "value": "Métastase(s) osseuse(s)",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_METASTASE"
+              },
+              {
+                "text": "Aucune de ces pathologies",
+                "value": "aucun",
+                "isExclusive": true,
+                "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_AUCUN"
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_048",
+            "questionText": "Vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies ? (plusieurs réponses possibles)",
+            "type": "MULTI_CHOICES",
+            "isTriggered": false,
+            "triggeredQuestionOID": "",
+            "triggeredValue": 0,
+            "triggeredDefault": "aucun",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": false,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "text": "Sciatique",
+                "value": "Sciatique",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_SCIATIQUE"
+              },
+              {
+                "text": "Cruralgie",
+                "value": "Cruralgie",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_CRURALGIE"
+              },
+              {
+                "text": "Canal carpien",
+                "value": "Canal carpien",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_CANAL_CAPRIEN"
+              },
+              {
+                "text": "Myopathie",
+                "value": "Myopathie",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_MYOPATHIE"
+              },
+              {
+                "text": "Polymyosite",
+                "value": "Polymyosite",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_POLYMYOSITE"
+              },
+              {
+                "text": "Fibromyalgie",
+                "value": "Fibromyalgie",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_FIBROMYALGIE"
+              },
+              {
+                "text": "Syndrome de fatigue chronique",
+                "value": "Syndrome de fatigue chronique",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_SFC"
+              },
+              {
+                "text": "Syndrome de fatigue chronique post-infectieux (Covid long, Lyme…)",
+                "value": "Syndrome de fatigue chronique post-infectieux (Covid long, Lyme…)",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_SFC8POST_INFECTIEUX"
+              },
+              {
+                "text": "Algoneurodystrophie",
+                "value": "Algoneurodystrophie",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_ALGONEUDYSTROPHIE"
+              },
+              {
+                "text": "Tendinopathie(s)",
+                "value": "Tendinopathie(s)",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_TENDINITE"
+              },
+              {
+                "text": "Tendinopathie(s) calcifiante(s)",
+                "value": "Tendinopathie(s) calcifiante(s)",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_TENDINOPATHIE_CALCIFIANTE"
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_rhumatologie_049",
+            "questionText": "Vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies ? (plusieurs réponses possibles)",
+            "type": "MULTI_CHOICES",
+            "isTriggered": false,
+            "triggeredQuestionOID": "",
+            "triggeredValue": 0,
+            "triggeredDefault": "aucun",
+            "tag": "",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": false,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "text": "Polyarthrite rhumatoÏde",
+                "value": "Polyarthrite rhumatoÏde",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_MED_TYPE_AUTO_IMMUN_POLYARTHRITE_RHUMATOIDE"
+              },
+              {
+                "text": "Spondylarthrite ankylosante",
+                "value": "Spondylarthrite ankylosante",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_MED_TYPE_AUTO_IMMUN_SPONDYLARTHRITE_ANKYOLOSANTE"
+              },
+              {
+                "text": "Rhumatisme psoriasique",
+                "value": "Rhumatisme psoriasique",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_MED_TYPE_AUTO_IMMUN_RHUMATISME_PSORIASIQUE"
+              },
+              {
+                "text": "Polyarthrite pseudo-rhizomélique",
+                "value": "Polyarthrite pseudo-rhizomélique",
+                "isExclusive": false,
+                "tagOID": "S_RMS_ATCD_MED_TYPE_AUTO_IMMUN_POLYARTHRITE_PSEUDO_RHIZOMELIQUE"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tags": [
+      {
+        "tagOID": "S_RMS",
+        "tagTitle": "Tag Central Rhumatologie",
+        "tagDescription": "Tag Central Rhumatologie",
+        "tagType": "SCORE",
+        "sunburstName": "RMS",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rangeMax": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "parent": "",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR",
+        "tagTitle": "Chirurgie de l’appareil locomoteur (vertèbres, membres supérieurs et/ou inférieurs)",
+        "tagDescription": "Chirurgie de l’appareil locomoteur (vertèbres, membres supérieurs et/ou inférieurs)",
+        "tagType": "SCORE",
+        "sunburstName": "ATCD CHIR",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_MED",
+        "tagTitle": "Maladie touchant les os, les articulations, les muscles et les tendons (arthrose, ostéoporose, lombalgies, sciatique, cruralgie, canal carpien, tendinite, rhumatisme inflammatoire, goutte, fibromyalgie, syndrome de fatigue chronique, cancer des os, métastases osseuses, myopathies...)",
+        "tagDescription": "Maladie touchant les os, les articulations, les muscles et les tendons (arthrose, ostéoporose, lombalgies, sciatique, cruralgie, canal carpien, tendinite, rhumatisme inflammatoire, goutte, fibromyalgie, syndrome de fatigue chronique, cancer des os, métastases osseuses, myopathies...)",
+        "tagType": "SCORE",
+        "sunburstName": "ATCD MED",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_AUCUN",
+        "tagTitle": "efface",
+        "tagDescription": "efface",
+        "tagType": "SCORE",
+        "sunburstName": "EFFACE",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS",
+        "tagTitle": "Intervention(s) du rachis (vertèbres, disques)",
+        "tagDescription": "Intervention(s) du rachis (vertèbres, disques)",
+        "tagType": "SCORE",
+        "sunburstName": "RACHIS",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP",
+        "tagTitle": "Intervention(s) membres supérieurs",
+        "tagDescription": "Intervention(s) membres supérieurs",
+        "tagType": "SCORE",
+        "sunburstName": "MBRES SUP",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF",
+        "tagTitle": "Intervention(s) membres inférieurs",
+        "tagDescription": "Intervention(s) membres inférieurs",
+        "tagType": "SCORE",
+        "sunburstName": "MBRES INF",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS_HERNIE_CERV",
+        "tagTitle": "Hernie discale cervicale",
+        "tagDescription": "Hernie discale cervicale",
+        "tagType": "SCORE",
+        "sunburstName": "HER DIS CER",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS_ARTHROD_CERV",
+        "tagTitle": "Arthrodèse cervicale",
+        "tagDescription": "Arthrodèse cervicale",
+        "tagType": "SCORE",
+        "sunburstName": "ART CER",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS_FRACT_CERV",
+        "tagTitle": "Fracture de vertèbre(s) cervicale(s)",
+        "tagDescription": "Fracture de vertèbre(s) cervicale(s)",
+        "tagType": "SCORE",
+        "sunburstName": "FRACT CER",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS_FRACT_DORS",
+        "tagTitle": "Fracture de vertèbre(s) dorsale(s)",
+        "tagDescription": "Fracture de vertèbre(s) dorsale(s)",
+        "tagType": "SCORE",
+        "sunburstName": "FRACT DOR",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS_FRACT_LOMB",
+        "tagTitle": "Fracture de vertèbre(s) lombaire(s)",
+        "tagDescription": "Fracture de vertèbre(s) lombaire(s)",
+        "tagType": "SCORE",
+        "sunburstName": "FRACT LOM",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS_ARTHROD_DO_LO",
+        "tagTitle": "Arthrodèse dorso-lombaire",
+        "tagDescription": "Arthrodèse dorso-lombaire",
+        "tagType": "SCORE",
+        "sunburstName": "ART D-L",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS_ARTHROD_LOMB",
+        "tagTitle": "Arthrodèse lombaire",
+        "tagDescription": "Arthrodèse lombaire",
+        "tagType": "SCORE",
+        "sunburstName": "ART LOM",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS_HERNIE_LOMB",
+        "tagTitle": "Hernie discale lombaire",
+        "tagDescription": "Hernie discale lombaire",
+        "tagType": "SCORE",
+        "sunburstName": "HER DIS LOM",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS_AUTRE",
+        "tagTitle": "Autre(s) chirurgie(s) du rachis",
+        "tagDescription": "Autre(s) chirurgie(s) du rachis",
+        "tagType": "SCORE",
+        "sunburstName": "AUTRE",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_FRACT_EPAULE_D",
+        "tagTitle": "Fracture épaule droite",
+        "tagDescription": "Fracture épaule droite",
+        "tagType": "SCORE",
+        "sunburstName": "FRACT EPD",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_FRACT_EPAULE_G",
+        "tagTitle": "Fracture épaule gauche",
+        "tagDescription": "Fracture épaule gauche",
+        "tagType": "SCORE",
+        "sunburstName": "FRACT EP G",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_COIF_ROT_D",
+        "tagTitle": "Coiffe des rotateurs à droite",
+        "tagDescription": "Coiffe des rotateurs à droite",
+        "tagType": "SCORE",
+        "sunburstName": "COIF ROT D",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_COIF_ROT_G",
+        "tagTitle": "Coiffe des rotateurs à gauche",
+        "tagDescription": "Coiffe des rotateurs à gauche",
+        "tagType": "SCORE",
+        "sunburstName": "COIF ROT G",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_FRACT_COUDE_D",
+        "tagTitle": "Fracture coude droit",
+        "tagDescription": "Fracture coude droit",
+        "tagType": "SCORE",
+        "sunburstName": "FRACT COUD D",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_FRACT_COUDE_G",
+        "tagTitle": "Fracture coude gauche",
+        "tagDescription": "Fracture coude gauche",
+        "tagType": "SCORE",
+        "sunburstName": "FRACT COUD G",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_FRACT_POIGNET_D",
+        "tagTitle": "Fracture poignet droit",
+        "tagDescription": "Fracture poignet droit",
+        "tagType": "SCORE",
+        "sunburstName": "FRACT POIG D",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_FRACT_POIGNET_G",
+        "tagTitle": "Fracture poignet gauche",
+        "tagDescription": "Fracture poignet gauche",
+        "tagType": "SCORE",
+        "sunburstName": "FRACT POIG G",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_FRACT_MAIN_D",
+        "tagTitle": "Fracture main droite",
+        "tagDescription": "Fracture main droite",
+        "tagType": "SCORE",
+        "sunburstName": "FRACT MAIN D",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_FRACT_MAIN_G",
+        "tagTitle": "Fracture main gauche",
+        "tagDescription": "Fracture main gauche",
+        "tagType": "SCORE",
+        "sunburstName": "FRACT MAIN G",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_ARTHROSE_POUCE_D",
+        "tagTitle": "Chirurgie arthrose du pouce droit",
+        "tagDescription": "Chirurgie arthrose du pouce droit",
+        "tagType": "SCORE",
+        "sunburstName": "CHIR POUC D",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_ARTHROSE_POUCE_G",
+        "tagTitle": "Chirurgie arthrose du pouce gauche",
+        "tagDescription": "Chirurgie arthrose du pouce gauche",
+        "tagType": "SCORE",
+        "sunburstName": "CHIR POUC G",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_AUTRE",
+        "tagTitle": "Autre(s) chirurgie(s) des membres supérieurs",
+        "tagDescription": "Autre(s) chirurgie(s) des membres supérieurs",
+        "tagType": "SCORE",
+        "sunburstName": "AUTRE",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_BASSIN",
+        "tagTitle": "Fracture du bassin",
+        "tagDescription": "Fracture du bassin",
+        "tagType": "SCORE",
+        "sunburstName": "FRACT BASSIN",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_FRACT_HANCHE_D",
+        "tagTitle": "Fracture de hanche droite",
+        "tagDescription": "Fracture de hanche droite",
+        "tagType": "SCORE",
+        "sunburstName": "FRACT HAN D",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_FRACT_HANCHE_G",
+        "tagTitle": "Fracture de hanche gauche",
+        "tagDescription": "Fracture de hanche gauche",
+        "tagType": "SCORE",
+        "sunburstName": "FRACT HAN G",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_PROTHESE_HANCHE_D",
+        "tagTitle": "Prothèse de hanche droite",
+        "tagDescription": "Prothèse de hanche droite",
+        "tagType": "SCORE",
+        "sunburstName": "PROT HAN D",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_PROTHESE_HANCHE_G",
+        "tagTitle": "Prothèse de hanche gauche",
+        "tagDescription": "Prothèse de hanche gauche",
+        "tagType": "SCORE",
+        "sunburstName": "PROT HAN G",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_PROTHESE_GENOU_D",
+        "tagTitle": "Prothèse de genou droit",
+        "tagDescription": "Prothèse de genou droit",
+        "tagType": "SCORE",
+        "sunburstName": "PROT GEN D",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_PROTHESE_GENOU_G",
+        "tagTitle": "Prothèse de genou gauche",
+        "tagDescription": "Prothèse de genou gauche",
+        "tagType": "SCORE",
+        "sunburstName": "PROT GEN G",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_LCA_GENOU_D",
+        "tagTitle": "Ligament croisé antérieur du genou droit",
+        "tagDescription": "Ligament croisé antérieur du genou droit",
+        "tagType": "SCORE",
+        "sunburstName": "LCA D",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_LCA_GENOU_G",
+        "tagTitle": "Ligament croisé antérieur du genou gauche",
+        "tagDescription": "Ligament croisé antérieur du genou gauche",
+        "tagType": "SCORE",
+        "sunburstName": "LCA G",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_MENISQUE_GENOU_D",
+        "tagTitle": "Ménisque(s) du genou droit",
+        "tagDescription": "Ménisque(s) du genou droit",
+        "tagType": "SCORE",
+        "sunburstName": "MEN GEN D",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_MENISQUE_GENOU_G",
+        "tagTitle": "Ménisque(s) du genou gauche",
+        "tagDescription": "Ménisque(s) du genou gauche",
+        "tagType": "SCORE",
+        "sunburstName": "MEN GEN G",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_FRACT_CHEVILLE_D",
+        "tagTitle": "Fracture de cheville droite",
+        "tagDescription": "Fracture de cheville droite",
+        "tagType": "SCORE",
+        "sunburstName": "FRACT CHE D",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_FRACT_CHEVILLE_G",
+        "tagTitle": "Fracture de cheville gauche",
+        "tagDescription": "Fracture de cheville gauche",
+        "tagType": "SCORE",
+        "sunburstName": "FRACT CHE G",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_HALLUX_VALGUS_D",
+        "tagTitle": "Hallux valgus du pied droit",
+        "tagDescription": "Hallux valgus du pied droit",
+        "tagType": "SCORE",
+        "sunburstName": "HAL VALG D",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_HALLUX_VALGUS_G",
+        "tagTitle": "Hallux valgus du pied gauche",
+        "tagDescription": "Hallux valgus du pied gauche",
+        "tagType": "SCORE",
+        "sunburstName": "HAL VALG G",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_AUTRE",
+        "tagTitle": "Autre(s) chirurgie(s) des membres inférieurs",
+        "tagDescription": "Autre(s) chirurgie(s) des membres inférieurs",
+        "tagType": "SCORE",
+        "sunburstName": "AUTRE",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_OSTEOPENIE",
+        "tagTitle": "Ostéopénie",
+        "tagDescription": "Ostéopénie",
+        "tagType": "SCORE",
+        "sunburstName": "OSTEOPENIE",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_MED",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_OSTEOPOROSE",
+        "tagTitle": "Ostéoporose",
+        "tagDescription": "Ostéoporose",
+        "tagType": "SCORE",
+        "sunburstName": "OSTEOPOR",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_MED",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_ARTHROSE",
+        "tagTitle": "Arthrose",
+        "tagDescription": "Arthrose",
+        "tagType": "SCORE",
+        "sunburstName": "ARTHROSE",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_MED",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_GOUTTE",
+        "tagTitle": "Goutte",
+        "tagDescription": "Goutte",
+        "tagType": "SCORE",
+        "sunburstName": "GOUTTE",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_MED",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_CHONDROCALCINOSE",
+        "tagTitle": "Chondro-calcinose articulaire",
+        "tagDescription": "Chondro-calcinose articulaire",
+        "tagType": "SCORE",
+        "sunburstName": "CCA",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_MED",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_PASH",
+        "tagTitle": "Périarthrite scapulo-humérale",
+        "tagDescription": "Périarthrite scapulo-humérale",
+        "tagType": "SCORE",
+        "sunburstName": "PASH",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_MED",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_CAPS",
+        "tagTitle": "Capsulite de l’épaule",
+        "tagDescription": "Capsulite de l’épaule",
+        "tagType": "SCORE",
+        "sunburstName": "CAPS",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_MED",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_MYELOME",
+        "tagTitle": "Myélome",
+        "tagDescription": "Myélome",
+        "tagType": "SCORE",
+        "sunburstName": "MYELOME",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_MED",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_OSTEITE",
+        "tagTitle": "Ostéite (infection osseuse)",
+        "tagDescription": "Ostéite (infection osseuse)",
+        "tagType": "SCORE",
+        "sunburstName": "OSTEITE",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_MED",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_CANCER",
+        "tagTitle": "Cancer primitif osseux (ostéosarcome, chondrosarcoma…)",
+        "tagDescription": "Cancer primitif osseux (ostéosarcome, chondrosarcoma…)",
+        "tagType": "SCORE",
+        "sunburstName": "CANCER",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_MED",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_METASTASE",
+        "tagTitle": "Métastase(s) osseuse(s)",
+        "tagDescription": "Métastase(s) osseuse(s)",
+        "tagType": "SCORE",
+        "sunburstName": "META",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_MED",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_AUCUN",
+        "tagTitle": "efface",
+        "tagDescription": "efface",
+        "tagType": "SCORE",
+        "sunburstName": "EFFACE",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_MED",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_SCIATIQUE",
+        "tagTitle": "Sciatique",
+        "tagDescription": "Sciatique",
+        "tagType": "SCORE",
+        "sunburstName": "SCIAT",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_MED",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_CRURALGIE",
+        "tagTitle": "Cruralgie",
+        "tagDescription": "Cruralgie",
+        "tagType": "SCORE",
+        "sunburstName": "CRURAL",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_MED",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_CANAL_CAPRIEN",
+        "tagTitle": "Canal carpien",
+        "tagDescription": "Canal carpien",
+        "tagType": "SCORE",
+        "sunburstName": "C CARPIEN",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_MED",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_MYOPATHIE",
+        "tagTitle": "Myopathie",
+        "tagDescription": "Myopathie",
+        "tagType": "SCORE",
+        "sunburstName": "MYOPATH",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_MED",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_POLYMYOSITE",
+        "tagTitle": "Polymyosite",
+        "tagDescription": "Polymyosite",
+        "tagType": "SCORE",
+        "sunburstName": "POLYMYO",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_MED",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_FIBROMYALGIE",
+        "tagTitle": "Fibromyalgie",
+        "tagDescription": "Fibromyalgie",
+        "tagType": "SCORE",
+        "sunburstName": "FIBROMYA",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_MED",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_SFC",
+        "tagTitle": "Syndrome de fatigue chronique",
+        "tagDescription": "Syndrome de fatigue chronique",
+        "tagType": "SCORE",
+        "sunburstName": "SFC",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_MED",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_SFC8POST_INFECTIEUX",
+        "tagTitle": "Syndrome de fatigue chronique post-infectieux (Covid long, Lyme…)",
+        "tagDescription": "Syndrome de fatigue chronique post-infectieux (Covid long, Lyme…)",
+        "tagType": "SCORE",
+        "sunburstName": "SFC POST INF",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_MED",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_ALGONEUDYSTROPHIE",
+        "tagTitle": "Algoneurodystrophie",
+        "tagDescription": "Algoneurodystrophie",
+        "tagType": "SCORE",
+        "sunburstName": "ALGONEURO",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_MED",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_TENDINITE",
+        "tagTitle": "Tendinopathie(s)",
+        "tagDescription": "Tendinopathie(s)",
+        "tagType": "SCORE",
+        "sunburstName": "TEND",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_MED",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_TENDINOPATHIE_CALCIFIANTE",
+        "tagTitle": "Tendinopathie(s) calcifiante(s)",
+        "tagDescription": "Tendinopathie(s) calcifiante(s)",
+        "tagType": "SCORE",
+        "sunburstName": "TEND CALC",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_MED",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_MED_TYPE_AUTO_IMMUN_POLYARTHRITE_RHUMATOIDE",
+        "tagTitle": "Polyarthrite rhumatoÏde",
+        "tagDescription": "Polyarthrite rhumatoÏde",
+        "tagType": "SCORE",
+        "sunburstName": "PR",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_MED",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_MED_TYPE_AUTO_IMMUN_SPONDYLARTHRITE_ANKYOLOSANTE",
+        "tagTitle": "Spondylarthrite ankylosante",
+        "tagDescription": "Spondylarthrite ankylosante",
+        "tagType": "SCORE",
+        "sunburstName": "SA",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_MED",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_MED_TYPE_AUTO_IMMUN_RHUMATISME_PSORIASIQUE",
+        "tagTitle": "Rhumatisme psoriasique",
+        "tagDescription": "Rhumatisme psoriasique",
+        "tagType": "SCORE",
+        "sunburstName": "RHU PSO",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_MED",
+        "children": []
+      },
+      {
+        "tagOID": "S_RMS_ATCD_MED_TYPE_AUTO_IMMUN_POLYARTHRITE_PSEUDO_RHIZOMELIQUE",
+        "tagTitle": "Polyarthrite pseudo-rhizomélique",
+        "tagDescription": "Polyarthrite pseudo-rhizomélique",
+        "tagType": "SCORE",
+        "sunburstName": "PPR",
+        "module": "q1_rhumatologie",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "S_RMS_ATCD_MED",
+        "children": []
+      }
+    ]
+  }

@@ -1,0 +1,55 @@
+{
+  "oid": "q_q1_sommeil_007",
+  "title": "Sur ces 3 derniers mois, vous sentez-vous fatigué(e) le matin au réveil ?",
+  "text": "Sur ces 3 derniers mois, vous sentez-vous fatigué(e) le matin au réveil ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais (ou presque)"
+    },
+    {
+      "code": "1",
+      "text": "1 à 3 fois/mois"
+    },
+    {
+      "code": "2",
+      "text": "1 à 2 fois/semaine"
+    },
+    {
+      "code": "3",
+      "text": "3 à 5 fois par semaine"
+    },
+    {
+      "code": "4",
+      "text": "Tous les jours (ou presque)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q1_sommeil_007 == \"0\"",
+      "tagOID": "Tag_VSomAsthénieMatinale",
+      "value": 0
+    },
+    {
+      "conditions": "q_q1_sommeil_007 == \"1\"",
+      "tagOID": "Tag_VSomAsthénieMatinale",
+      "value": 1
+    },
+    {
+      "conditions": "q_q1_sommeil_007 == \"2\"",
+      "tagOID": "Tag_VSomAsthénieMatinale",
+      "value": 2
+    },
+    {
+      "conditions": "q_q1_sommeil_007 == \"3\"",
+      "tagOID": "Tag_VSomAsthénieMatinale",
+      "value": 3
+    },
+    {
+      "conditions": "q_q1_sommeil_007 == \"4\"",
+      "tagOID": "Tag_VSomAsthénieMatinale",
+      "value": 4
+    }
+  ]
+}

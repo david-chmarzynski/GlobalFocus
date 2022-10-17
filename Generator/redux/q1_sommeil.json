@@ -1,0 +1,994 @@
+{
+    "questionaryName": "Q1 Global Focus Sommeil",
+    "chapterOID": "chap_q1_sommeil",
+    "chapterTitle": "chap_Q1 Global Focus Sommeil",
+    "estimatedTime": 10,
+    "pricing": 10,
+    "levelMax": "1",
+    "authors": [
+      "test"
+    ],
+    "professions": [
+      "DENTIST"
+    ],
+    "companyId": [
+      {}
+    ],
+    "linkedForm": "",
+    "category": "HEALTH",
+    "scoreStrategy": "SUM",
+    "form": [
+      {
+        "formOID": "q1_sommeil",
+        "formTitle": "Q1 Global Focus Sommeil",
+        "formDescription": "Q1 Global Focus Sommeil"
+      }
+    ],
+    "modules": [
+      {
+        "moduleOID": "q1_sommeil",
+        "moduleTitle": "Q1 Global Focus Sommeil",
+        "questions": [
+          {
+            "module": "",
+            "questionOID": "q_q1_sommeil_000",
+            "questionText": "Sur ces 3 derniers mois, comment évaluez-vous votre satisfaction globale en lien avec la quantité et/ou la qualité de votre sommeil ?",
+            "type": "SINGLE_CHOICE_RADIO",
+            "isTriggered": false,
+            "triggeredQuestionOID": "",
+            "triggeredValue": 0,
+            "triggeredDefault": "aucun",
+            "tag": "Tag_VSomSatisfactionGlobale",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": false,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "text": "Satisfaisante",
+                "value": 0,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Légèrement insatisfaisante",
+                "value": 1,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Plutôt insatisfaisante",
+                "value": 2,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Insatisfaisante",
+                "value": "3",
+                "isExclusive": false,
+                "tagOID": ""
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_sommeil_001",
+            "questionText": "Sur ces 3 derniers mois, comment évaluez-vous votre contexte habituel de sommeil (chambre, respect de vos rythmes naturels de sommeil…) ?",
+            "type": "SINGLE_CHOICE_RADIO",
+            "isTriggered": false,
+            "triggeredQuestionOID": "q_q1_sommeil_000",
+            "triggeredValue": 0,
+            "triggeredDefault": "aucun",
+            "tag": "Tag_VSomContexteRythmesGlobal",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": false,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "text": "Satisfaisant",
+                "value": 0,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Légèrement insatisfaisant",
+                "value": 1,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Plutôt insatisfaisant",
+                "value": 2,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Insatisfaisant (ou très insatisfaisant)",
+                "value": "3",
+                "isExclusive": false,
+                "tagOID": ""
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_sommeil_002",
+            "questionText": "Sur ces 3 derniers mois, avez-vous eu besoin d’une aide pour dormir (médicament, mélatonine, plantes, alcool, cannabis…) ?",
+            "type": "SINGLE_CHOICE_RADIO",
+            "isTriggered": false,
+            "triggeredQuestionOID": "q_q1_sommeil_001",
+            "triggeredValue": 0,
+            "triggeredDefault": "aucun",
+            "tag": "Tag_VSomAide",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": false,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "text": "Jamais (ou presque)",
+                "value": 0,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "1 à 3 fois par mois",
+                "value": 1,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "1 à 2 fois par semaine",
+                "value": 2,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "3 à 5 fois par semaine",
+                "value": 3,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Tous les soirs (ou presque)",
+                "value": "4",
+                "isExclusive": false,
+                "tagOID": ""
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_sommeil_003",
+            "questionText": "Sur ces 3 derniers mois, avez-vous eu de la difficulté à vous endormir ?",
+            "type": "SINGLE_CHOICE_RADIO",
+            "isTriggered": false,
+            "triggeredQuestionOID": "q_q1_sommeil_002",
+            "triggeredValue": 0,
+            "triggeredDefault": "aucun",
+            "tag": "Tag_VSomEndormissement",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": false,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "text": "Jamais (ou presque)",
+                "value": 0,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "1 à 3 fois/mois",
+                "value": 1,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "1 à 2 fois/semaine",
+                "value": 2,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "3 à 5 fois par semaine",
+                "value": 3,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Tous les jours (ou presque)",
+                "value": "4",
+                "isExclusive": false,
+                "tagOID": ""
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_sommeil_004",
+            "questionText": "Sur ces 3 derniers mois, avez-vous eu de la difficulté à maintenir votre sommeil (réveils nocturnes, difficultés à vous rendormir, réveil précoce le matin…) ?",
+            "type": "SINGLE_CHOICE_RADIO",
+            "isTriggered": false,
+            "triggeredQuestionOID": "q_q1_sommeil_003",
+            "triggeredValue": 0,
+            "triggeredDefault": "aucun",
+            "tag": "Tag_VSomMaintien",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": false,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "text": "Jamais (ou  presque)",
+                "value": 0,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "1 à 3 fois/mois",
+                "value": 1,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "1 à 2 fois/semaine",
+                "value": 2,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "3 à 5 fois par semaine",
+                "value": 3,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Tous les jours (ou presque)",
+                "value": "4",
+                "isExclusive": false,
+                "tagOID": ""
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_sommeil_005",
+            "questionText": "Sur ces 3 derniers mois, comment évaluez-vous votre satisfaction en lien avec la durée habituelle de votre sommeil ?",
+            "type": "SINGLE_CHOICE_RADIO",
+            "isTriggered": false,
+            "triggeredQuestionOID": "q_q1_sommeil_004",
+            "triggeredValue": 0,
+            "triggeredDefault": "aucun",
+            "tag": "Tag_VSomSatisfactionQuantité",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": false,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "text": "Satisfaisante",
+                "value": 0,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Légèrement insatisfaisante",
+                "value": 1,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Plutôt insatisfaisante",
+                "value": 2,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Insatisfaisante",
+                "value": "3",
+                "isExclusive": false,
+                "tagOID": ""
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_sommeil_006",
+            "questionText": "Sur ces 3 derniers mois, comment évaluez-vous votre satisfaction en lien avec la qualité de votre sommeil (facilité à vous endormir ou vous rendormir, sommeil réparateur) ?",
+            "type": "SINGLE_CHOICE_RADIO",
+            "isTriggered": false,
+            "triggeredQuestionOID": "q_q1_sommeil_005",
+            "triggeredValue": 0,
+            "triggeredDefault": "aucun",
+            "tag": "Tag_VSomSatisfactionQualité",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": false,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "text": "Satisfaisante",
+                "value": 0,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Légèrement insatisfaisante",
+                "value": 1,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Plutôt insatisfaisante",
+                "value": 2,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Insatisfaisante",
+                "value": "3",
+                "isExclusive": false,
+                "tagOID": ""
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_sommeil_007",
+            "questionText": "Sur ces 3 derniers mois, vous sentez-vous fatigué(e) le matin au réveil ?",
+            "type": "SINGLE_CHOICE_RADIO",
+            "isTriggered": false,
+            "triggeredQuestionOID": "q_q1_sommeil_006",
+            "triggeredValue": 0,
+            "triggeredDefault": "aucun",
+            "tag": "Tag_VSomAsthénieMatinale",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": false,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "text": "Jamais (ou presque)",
+                "value": 0,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "1 à 3 fois/mois",
+                "value": 1,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "1 à 2 fois/semaine",
+                "value": 2,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "3 à 5 fois par semaine",
+                "value": 3,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Tous les jours (ou presque)",
+                "value": "4",
+                "isExclusive": false,
+                "tagOID": ""
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_sommeil_008",
+            "questionText": "Sur ces 3 derniers mois, vous sentez-vous fatigué(e) et gêné(e) dans la journée à cause de la mauvaise qualité et/ou quantité de sommeil (manque d’énergie, besoin de dormir ou de faire la sieste, difficultés de concentration ou de mémoire, irritabilité…) ?",
+            "type": "SINGLE_CHOICE_RADIO",
+            "isTriggered": false,
+            "triggeredQuestionOID": "q_q1_sommeil_007",
+            "triggeredValue": 0,
+            "triggeredDefault": "aucun",
+            "tag": "Tag_VSomAsthénieDiurne",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": false,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "text": "Jamais (ou presque)",
+                "value": 0,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "1 à 3 fois/mois",
+                "value": 1,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "1 à 2 fois/semaine",
+                "value": 2,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "3 à 5 fois par semaine",
+                "value": 3,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Tous les jours (ou presque)",
+                "value": "4",
+                "isExclusive": false,
+                "tagOID": ""
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_sommeil_009",
+            "questionText": "Pensez-vous souffrir actuellement de troubles du sommeil (insomnie, syndrome d’apnée du sommeil, syndrome des  jambes sans repos, hypersomnolence, somnambulisme, terreurs nocturnes, narcolepsie…)  ?",
+            "type": "SINGLE_CHOICE_RADIO",
+            "isTriggered": false,
+            "triggeredQuestionOID": "q_q1_sommeil_008",
+            "triggeredValue": 0,
+            "triggeredDefault": "aucun",
+            "tag": "Tag_VSomSuspicionTroublesSommeil",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": false,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "text": "Non",
+                "value": 0,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Très peu probable",
+                "value": 1,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Oui, peut-être",
+                "value": 2,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Oui, certainement",
+                "value": "3",
+                "isExclusive": false,
+                "tagOID": ""
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_q1_sommeil_010",
+            "questionText": "Avez-vous un ou plusieurs de ces antécédents de troubles du sommeil diagnostiqué par un médecin ? (plusieurs réponses possibles)",
+            "type": "MULTI_CHOICES",
+            "isTriggered": false,
+            "triggeredQuestionOID": "q_q1_sommeil_009",
+            "triggeredValue": 0,
+            "triggeredDefault": "aucun",
+            "tag": "Tag_VSomATCDTroublesSommeil",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": false,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "text": "Insomnies",
+                "value": "Insomnies",
+                "isExclusive": false,
+                "tagOID": "Tag_VSomATCDTroublesSommeil_Insomnies"
+              },
+              {
+                "text": "Syndrome d’apnées du sommeil",
+                "value": "Syndrome d’apnées du sommeil",
+                "isExclusive": false,
+                "tagOID": "Tag_VSomATCDTroublesSommeil_SyndromeADS"
+              },
+              {
+                "text": "Syndrome des jambes sans repos",
+                "value": "Syndrome des jambes sans repos",
+                "isExclusive": false,
+                "tagOID": "Tag_VSomATCDTroublesSommeil_SyndromeJSR"
+              },
+              {
+                "text": "Hypersomnolence",
+                "value": "Hypersomnolence",
+                "isExclusive": false,
+                "tagOID": "Tag_VSomATCDTroublesSommeil_Hypersomnolence"
+              },
+              {
+                "text": "Somnambulisme",
+                "value": "Somnambulisme",
+                "isExclusive": false,
+                "tagOID": "Tag_VSomATCDTroublesSommeil_Somnambulisme"
+              },
+              {
+                "text": "Terreurs nocturnes",
+                "value": "Terreurs nocturnes",
+                "isExclusive": false,
+                "tagOID": "Tag_VSomATCDTroublesSommeil_TerreursNoct"
+              },
+              {
+                "text": "Narcolepsie",
+                "value": "Narcolepsie",
+                "isExclusive": false,
+                "tagOID": "Tag_VSomATCDTroublesSommeil_Narcolepsie"
+              },
+              {
+                "text": "Cauchemars",
+                "value": "Cauchemars",
+                "isExclusive": false,
+                "tagOID": "Tag_VSomATCDTroublesSommeil_Cauchemars"
+              },
+              {
+                "text": "Cataplexie",
+                "value": "Cataplexie",
+                "isExclusive": false,
+                "tagOID": "Tag_VSomATCDTroublesSommeil_Cataplexie"
+              },
+              {
+                "text": "Aucun trouble du sommeil",
+                "value": "Aucun trouble du sommeil",
+                "isExclusive": true,
+                "tagOID": "Tag_VSomATCDTroublesSommeil_Aucun"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tags": [
+      {
+        "tagOID": "Tag_VSomSatisfactionGlobale",
+        "tagTitle": "Satisfaction globale/sommeil",
+        "tagDescription": "Satisfaction globale/sommeil",
+        "tagType": "SCORE",
+        "sunburstName": "SATISF/SOM",
+        "module": "q1_sommeil",
+        "rangeMin": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rangeMax": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "parent": "",
+        "children": []
+      },
+      {
+        "tagOID": "Tag_VSomContexteRythmesGlobal",
+        "tagTitle": "Contexte de sommeil",
+        "tagDescription": "Contexte de sommeil",
+        "tagType": "SCORE",
+        "sunburstName": "CONTEXT/SOM",
+        "module": "q1_sommeil",
+        "rangeMin": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rangeMax": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "parent": "",
+        "children": []
+      },
+      {
+        "tagOID": "Tag_VSomAide",
+        "tagTitle": "Aide/Sommeil",
+        "tagDescription": "Aide/Sommeil",
+        "tagType": "SCORE",
+        "sunburstName": "AIDE/SOM",
+        "module": "q1_sommeil",
+        "rangeMin": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rangeMax": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "parent": "",
+        "children": []
+      },
+      {
+        "tagOID": "Tag_VSomEndormissement",
+        "tagTitle": "Endormissement",
+        "tagDescription": "Endormissement",
+        "tagType": "SCORE",
+        "sunburstName": "ENDORM",
+        "module": "q1_sommeil",
+        "rangeMin": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rangeMax": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "parent": "",
+        "children": []
+      },
+      {
+        "tagOID": "Tag_VSomMaintien",
+        "tagTitle": "MAINTIEN",
+        "tagDescription": "MAINTIEN",
+        "tagType": "SCORE",
+        "sunburstName": "MAINTIEN DU SOMMEIL",
+        "module": "q1_sommeil",
+        "rangeMin": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rangeMax": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "parent": "",
+        "children": []
+      },
+      {
+        "tagOID": "Tag_VSomSatisfactionQuantité",
+        "tagTitle": "Satisfaction/Quantité de sommeil",
+        "tagDescription": "Satisfaction/Quantité de sommeil",
+        "tagType": "SCORE",
+        "sunburstName": "QUANT/SOM",
+        "module": "q1_sommeil",
+        "rangeMin": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rangeMax": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "parent": "",
+        "children": []
+      },
+      {
+        "tagOID": "Tag_VSomSatisfactionQualité",
+        "tagTitle": "Satisfaction/Qualité de sommeil",
+        "tagDescription": "Satisfaction/Qualité de sommeil",
+        "tagType": "SCORE",
+        "sunburstName": "QUAL/SOM",
+        "module": "q1_sommeil",
+        "rangeMin": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rangeMax": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "parent": "",
+        "children": []
+      },
+      {
+        "tagOID": "Tag_VSomAsthénieMatinale",
+        "tagTitle": "Asthénie matinale",
+        "tagDescription": "Asthénie matinale",
+        "tagType": "SCORE",
+        "sunburstName": "ASTH-M",
+        "module": "q1_sommeil",
+        "rangeMin": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rangeMax": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "parent": "",
+        "children": []
+      },
+      {
+        "tagOID": "Tag_VSomAsthénieDiurne",
+        "tagTitle": "Asthénie diurne",
+        "tagDescription": "Asthénie diurne",
+        "tagType": "SCORE",
+        "sunburstName": "ASTH-J",
+        "module": "q1_sommeil",
+        "rangeMin": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rangeMax": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "parent": "",
+        "children": []
+      },
+      {
+        "tagOID": "Tag_VSomSuspicionTroublesSommeil",
+        "tagTitle": "Suspicion de troubles du sommeil",
+        "tagDescription": "Suspicion de troubles du sommeil",
+        "tagType": "SCORE",
+        "sunburstName": "TRBLE/SOM",
+        "module": "q1_sommeil",
+        "rangeMin": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rangeMax": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "parent": "",
+        "children": []
+      },
+      {
+        "tagOID": "Tag_VSomATCDTroublesSommeil",
+        "tagTitle": "ATCD de troubles du sommeil",
+        "tagDescription": "ATCD de troubles du sommeil",
+        "tagType": "SCORE",
+        "sunburstName": "ATCD-P",
+        "module": "q1_sommeil",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "",
+        "children": []
+      },
+      {
+        "tagOID": "Tag_VSomATCDTroublesSommeil_Insomnies",
+        "tagTitle": "Insomnies",
+        "tagDescription": "Insomnies",
+        "tagType": "SCORE",
+        "sunburstName": "INSOMN",
+        "module": "q1_sommeil",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "Tag_VSomATCDTroublesSommeil",
+        "children": []
+      },
+      {
+        "tagOID": "Tag_VSomATCDTroublesSommeil_SyndromeADS",
+        "tagTitle": "Syndrome d’apnées du sommeil",
+        "tagDescription": "Syndrome d’apnées du sommeil",
+        "tagType": "SCORE",
+        "sunburstName": "SADS",
+        "module": "q1_sommeil",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "Tag_VSomATCDTroublesSommeil",
+        "children": []
+      },
+      {
+        "tagOID": "Tag_VSomATCDTroublesSommeil_SyndromeJSR",
+        "tagTitle": "Syndrome des jambes sans repos",
+        "tagDescription": "Syndrome des jambes sans repos",
+        "tagType": "SCORE",
+        "sunburstName": "SJSR",
+        "module": "q1_sommeil",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "Tag_VSomATCDTroublesSommeil",
+        "children": []
+      },
+      {
+        "tagOID": "Tag_VSomATCDTroublesSommeil_Hypersomnolence",
+        "tagTitle": "Hypersomnolence",
+        "tagDescription": "Hypersomnolence",
+        "tagType": "SCORE",
+        "sunburstName": "HSOMN",
+        "module": "q1_sommeil",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "Tag_VSomATCDTroublesSommeil",
+        "children": []
+      },
+      {
+        "tagOID": "Tag_VSomATCDTroublesSommeil_Somnambulisme",
+        "tagTitle": "Somnambulisme",
+        "tagDescription": "Somnambulisme",
+        "tagType": "SCORE",
+        "sunburstName": "SOMNB",
+        "module": "q1_sommeil",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "Tag_VSomATCDTroublesSommeil",
+        "children": []
+      },
+      {
+        "tagOID": "Tag_VSomATCDTroublesSommeil_TerreursNoct",
+        "tagTitle": "Terreurs nocturnes",
+        "tagDescription": "Terreurs nocturnes",
+        "tagType": "SCORE",
+        "sunburstName": "T/NOCT",
+        "module": "q1_sommeil",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "Tag_VSomATCDTroublesSommeil",
+        "children": []
+      },
+      {
+        "tagOID": "Tag_VSomATCDTroublesSommeil_Narcolepsie",
+        "tagTitle": "Narcolepsie",
+        "tagDescription": "Narcolepsie",
+        "tagType": "SCORE",
+        "sunburstName": "NARCO",
+        "module": "q1_sommeil",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "Tag_VSomATCDTroublesSommeil",
+        "children": []
+      },
+      {
+        "tagOID": "Tag_VSomATCDTroublesSommeil_Cauchemars",
+        "tagTitle": "Cauchemars",
+        "tagDescription": "Cauchemars",
+        "tagType": "SCORE",
+        "sunburstName": "CAUCH",
+        "module": "q1_sommeil",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "Tag_VSomATCDTroublesSommeil",
+        "children": []
+      },
+      {
+        "tagOID": "Tag_VSomATCDTroublesSommeil_Cataplexie",
+        "tagTitle": "Cataplexie",
+        "tagDescription": "Cataplexie",
+        "tagType": "SCORE",
+        "sunburstName": "CATAPL",
+        "module": "q1_sommeil",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "Tag_VSomATCDTroublesSommeil",
+        "children": []
+      },
+      {
+        "tagOID": "Tag_VSomATCDTroublesSommeil_Aucun",
+        "tagTitle": "efface",
+        "tagDescription": "efface",
+        "tagType": "SCORE",
+        "sunburstName": "EFFACE",
+        "module": "q1_sommeil",
+        "rangeMin": [
+          0,
+          1
+        ],
+        "rangeMax": [
+          0,
+          1
+        ],
+        "parent": "Tag_VSomATCDTroublesSommeil",
+        "children": []
+      }
+    ]
+  }

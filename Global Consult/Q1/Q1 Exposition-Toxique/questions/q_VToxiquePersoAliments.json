@@ -12,11 +12,6 @@
   "scores":[
     {
       "tagOID": "Tag_VToxiquePersoAliments",
-      "conditions": "q_VToxiquePersoAliments == '0'",
-      "value": 0
-    },
-    {
-      "tagOID": "Tag_VToxiquePersoAliments",
       "conditions": "q_VToxiquePersoAliments == '1'",
       "value": 1
     },

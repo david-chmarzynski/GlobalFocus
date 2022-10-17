@@ -36,19 +36,9 @@
       "value": "1"
     },
     {
-      "conditions": "!(\"0\" in q_endocrinologie_002)",
-      "tagOID": "S_ENDO_ATCD_THYROIDE_HYPO",
-      "value": "0"
-    },
-    {
       "conditions": "\"1\" in q_endocrinologie_002",
       "tagOID": "S_ENDO_ATCD_THYROIDE_HYPER",
       "value": "1"
-    },
-    {
-      "conditions": "!(\"1\" in q_endocrinologie_002)",
-      "tagOID": "S_ENDO_ATCD_THYROIDE_HYPER",
-      "value": "0"
     },
     {
       "conditions": "\"2\" in q_endocrinologie_002",
@@ -56,19 +46,9 @@
       "value": "1"
     },
     {
-      "conditions": "!(\"2\" in q_endocrinologie_002)",
-      "tagOID": "S_ENDO_ATCD_THYROIDE_CANCER",
-      "value": "0"
-    },
-    {
       "conditions": "\"3\" in q_endocrinologie_002",
       "tagOID": "S_ENDO_ATCD_THYROIDE_NODULE",
       "value": "1"
-    },
-    {
-      "conditions": "!(\"3\" in q_endocrinologie_002)",
-      "tagOID": "S_ENDO_ATCD_THYROIDE_NODULE",
-      "value": "0"
     },
     {
       "conditions": "\"4\" in q_endocrinologie_002",
@@ -76,19 +56,9 @@
       "value": "1"
     },
     {
-      "conditions": "!(\"4\" in q_endocrinologie_002)",
-      "tagOID": "S_ENDO_ATCD_THYROIDE_THYROIDITE",
-      "value": "0"
-    },
-    {
       "conditions": "\"5\" in q_endocrinologie_002",
       "tagOID": "S_ENDO_ATCD_THYROIDE_AUTRE",
       "value": "1"
-    },
-    {
-      "conditions": "!(\"5\" in q_endocrinologie_002)",
-      "tagOID": "S_ENDO_ATCD_THYROIDE_AUTRE",
-      "value": "0"
     }
   ]
 }

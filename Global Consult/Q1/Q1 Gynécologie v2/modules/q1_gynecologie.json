@@ -20,7 +20,7 @@
         "conditions": "!(\"0\" in q_q1_gynecologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_q1_gynecologie_001": "0"
+          "q_q1_gynecologie_001": "aucun"
         }
       }
     },
@@ -32,7 +32,7 @@
         "conditions": "(\"0\" in q_q1_gynecologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_q1_gynecologie_001": "0"
+          "q_q1_gynecologie_001": "aucun"
         }
       }
     },
@@ -176,7 +176,7 @@
         "conditions": "(\"0\" in q_q1_gynecologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_q1_gynecologie_001": "0"
+          "q_q1_gynecologie_001": "aucun"
         }
       }
     },
@@ -296,7 +296,7 @@
         "conditions": "(\"0\" in q_q1_gynecologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_q1_gynecologie_001": "0"
+          "q_q1_gynecologie_001": "aucun"
         }
       }
     },
@@ -512,7 +512,7 @@
         "conditions": "(\"0\" in q_q1_gynecologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_q1_gynecologie_001": "0"
+          "q_q1_gynecologie_001": "aucun"
         }
       }
     },
@@ -692,7 +692,7 @@
         "conditions": "(\"0\" in q_q1_gynecologie_001) || (\"1\" in q_q1_gynecologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_q1_gynecologie_001": 0
+          "q_q1_gynecologie_001": "aucun"
         }
       }
     },
@@ -704,7 +704,7 @@
         "conditions": "(\"0\" in q_q1_gynecologie_001) || (\"1\" in q_q1_gynecologie_001) || (\"4\" in q_q1_gynecologie_001) || (\"5\" in q_q1_gynecologie_001) || (\"6\" in q_q1_gynecologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_q1_gynecologie_001": "0"
+          "q_q1_gynecologie_001": "aucun"
         }
       }
     },
@@ -716,7 +716,7 @@
         "conditions": "(\"0\" in q_q1_gynecologie_001) || (\"1\" in q_q1_gynecologie_001) || (\"4\" in q_q1_gynecologie_001) || (\"5\" in q_q1_gynecologie_001) || (\"6\" in q_q1_gynecologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_q1_gynecologie_001": "0"
+          "q_q1_gynecologie_001": "aucun"
         }
       }
     },
@@ -728,7 +728,7 @@
         "conditions": "(\"0\" in q_q1_gynecologie_001) || (\"1\" in q_q1_gynecologie_001) || (\"4\" in q_q1_gynecologie_001) || (\"5\" in q_q1_gynecologie_001) || (\"6\" in q_q1_gynecologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_q1_gynecologie_001": "0"
+          "q_q1_gynecologie_001": "aucun"
         }
       }
     },
@@ -740,7 +740,7 @@
         "conditions": "(\"0\" in q_q1_gynecologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_q1_gynecologie_001": "0"
+          "q_q1_gynecologie_001": "aucun"
         }
       }
     },
@@ -752,7 +752,7 @@
         "conditions": "(\"0\" in q_q1_gynecologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_q1_gynecologie_001": "0"
+          "q_q1_gynecologie_001": "aucun"
         }
       }
     },
@@ -764,7 +764,7 @@
         "conditions": "!(\"0\" in q_q1_gynecologie_065)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_q1_gynecologie_065": "1"
+          "q_q1_gynecologie_065": "aucun"
         }
       }
     },
@@ -776,7 +776,7 @@
         "conditions": "!(\"0\" in q_q1_gynecologie_065)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_q1_gynecologie_065": "1"
+          "q_q1_gynecologie_065": "aucun"
         }
       }
     },
@@ -788,7 +788,7 @@
         "conditions": "(\"0\" in q_q1_gynecologie_001) || (\"1\" in q_q1_gynecologie_001) || (\"2\" in q_q1_gynecologie_001) || (\"3\" in q_q1_gynecologie_001) || (\"4\" in q_q1_gynecologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_q1_gynecologie_001": 0
+          "q_q1_gynecologie_001": "aucun"
         }
       }
     }

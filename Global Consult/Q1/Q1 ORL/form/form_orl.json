@@ -27,6 +27,7 @@
       "reportingNode": {
         "tagOID": "S_ORL",
         "type": "SCORE",
+        "hideNodeIfEmpty": true,
         "ranges": [
           {
             "min": 0,
@@ -57,6 +58,7 @@
           {
             "tagOID": "S_ORL_ATCD_OREILLE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -75,6 +77,7 @@
               {
                 "tagOID": "S_ORL_ATCD_OREILLE_ACOUPHENES",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -94,6 +97,7 @@
               {
                 "tagOID": "S_ORL_ATCD_OREILLE_HYPOACOUSIE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -113,6 +117,7 @@
               {
                 "tagOID": "S_ORL_ATCD_OREILLE_CHIRURGIE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -132,6 +137,7 @@
               {
                 "tagOID": "S_ORL_ATCD_OREILLE_NEURINOME",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -151,6 +157,7 @@
               {
                 "tagOID": "S_ORL_ATCD_OREILLE_VERTIGES",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -170,6 +177,7 @@
               {
                 "tagOID": "S_ORL_ATCD_OREILLE_CANCER",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -189,6 +197,7 @@
               {
                 "tagOID": "S_ORL_ATCD_OREILLE_AUTRE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -210,6 +219,7 @@
           {
             "tagOID": "S_ORL_ATCD_NEZ",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -228,6 +238,7 @@
               {
                 "tagOID": "S_ORL_ATCD_NEZ_RHINITE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -247,6 +258,7 @@
               {
                 "tagOID": "S_ORL_ATCD_NEZ_SINUSITE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -266,6 +278,7 @@
               {
                 "tagOID": "S_ORL_ATCD_NEZ_POLYPOSE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -285,6 +298,7 @@
               {
                 "tagOID": "S_ORL_ATCD_NEZ_ANOSMIE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -304,6 +318,7 @@
               {
                 "tagOID": "S_ORL_ATCD_NEZ_ADENOIDECTOMIE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -323,6 +338,7 @@
               {
                 "tagOID": "S_ORL_ATCD_NEZ_CANCER",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -342,6 +358,7 @@
               {
                 "tagOID": "S_ORL_ATCD_NEZ_AUTRE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -363,6 +380,7 @@
           {
             "tagOID": "S_ORL_ATCD_GORGE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -381,6 +399,7 @@
               {
                 "tagOID": "S_ORL_ATCD_GORGE_ABCES",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -400,6 +419,7 @@
               {
                 "tagOID": "S_ORL_ATCD_GORGE_AMYGDALECTOMIE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -419,6 +439,7 @@
               {
                 "tagOID": "S_ORL_ATCD_GORGE_POLYPE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -438,6 +459,7 @@
               {
                 "tagOID": "S_ORL_ATCD_GORGE_CANCER",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -457,6 +479,7 @@
               {
                 "tagOID": "S_ORL_ATCD_GORGE_AUTRE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -478,6 +501,7 @@
           {
             "tagOID": "S_ORL_ATCD_BOUCHE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -496,6 +520,7 @@
               {
                 "tagOID": "S_ORL_ATCD_BOUCHE_HERPES",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -515,6 +540,7 @@
               {
                 "tagOID": "S_ORL_ATCD_BOUCHE_MYCOSE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -534,6 +560,7 @@
               {
                 "tagOID": "S_ORL_ATCD_BOUCHE_LITHIASE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -553,6 +580,7 @@
               {
                 "tagOID": "S_ORL_ATCD_BOUCHE_AGUEUSIE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -572,6 +600,7 @@
               {
                 "tagOID": "S_ORL_ATCD_BOUCHE_CANCER",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -591,6 +620,7 @@
               {
                 "tagOID": "S_ORL_ATCD_BOUCHE_AUTRE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,

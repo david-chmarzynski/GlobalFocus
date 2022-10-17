@@ -22,6 +22,7 @@
       "reportingNode": {
         "tagOID": "S_STO",
         "type": "SCORE",
+        "hideNodeIfEmpty": true,
         "ranges": [
           {
             "min": 0,
@@ -52,6 +53,7 @@
           {
             "tagOID": "S_STO_ATCD_PARODONTITE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -71,6 +73,7 @@
           {
             "tagOID": "S_STO_ATCD_BRUXISME",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -90,6 +93,7 @@
           {
             "tagOID": "S_STO_ATCD_BIPHOSPHONATE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -109,6 +113,7 @@
           {
             "tagOID": "S_STO_ATCD_ORTHODONTIE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -128,6 +133,7 @@
           {
             "tagOID": "S_STO_ATCD_CARIE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -147,6 +153,7 @@
           {
             "tagOID": "S_STO_ATCD_GREFFE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -166,6 +173,7 @@
           {
             "tagOID": "S_STO_ATCD_BRIDGE_COURONNE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -185,6 +193,7 @@
           {
             "tagOID": "S_STO_ATCD_IMPLANT",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -204,6 +213,7 @@
           {
             "tagOID": "S_STO_ATCD_DENTIER",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -223,6 +233,7 @@
           {
             "tagOID": "S_STO_ATCD_ORTHESE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -242,6 +253,7 @@
           {
             "tagOID": "S_STO_ATCD_AUTRE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -261,6 +273,7 @@
           {
             "tagOID": "S_STO_ATCD_AUCUN",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,

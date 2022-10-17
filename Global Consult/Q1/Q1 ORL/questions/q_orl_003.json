@@ -45,19 +45,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"0\" in q_orl_003)",
-      "tagOID": "S_ORL_ATCD_NEZ_RHINITE",
-      "value": 0
-    },
-    {
       "conditions": "\"1\" in q_orl_003",
       "tagOID": "S_ORL_ATCD_NEZ_SINUSITE",
       "value": 1
-    },
-    {
-      "conditions": "!(\"1\" in q_orl_003)",
-      "tagOID": "S_ORL_ATCD_NEZ_SINUSITE",
-      "value": 0
     },
     {
       "conditions": "\"2\" in q_orl_003",
@@ -65,19 +55,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"2\" in q_orl_003)",
-      "tagOID": "S_ORL_ATCD_NEZ_POLYPOSE",
-      "value": 0
-    },
-    {
       "conditions": "\"3\" in q_orl_003",
       "tagOID": "S_ORL_ATCD_NEZ_ANOSMIE",
       "value": 1
-    },
-    {
-      "conditions": "!(\"3\" in q_orl_003)",
-      "tagOID": "S_ORL_ATCD_NEZ_ANOSMIE",
-      "value": 0
     },
     {
       "conditions": "\"4\" in q_orl_003",
@@ -85,29 +65,14 @@
       "value": 1
     },
     {
-      "conditions": "!(\"4\" in q_orl_003)",
-      "tagOID": "S_ORL_ATCD_NEZ_ADENOIDECTOMIE",
-      "value": 0
-    },
-    {
       "conditions": "\"5\" in q_orl_003",
       "tagOID": "S_ORL_ATCD_NEZ_CANCER",
       "value": 1
     },
     {
-      "conditions": "!(\"5\" in q_orl_003)",
-      "tagOID": "S_ORL_ATCD_NEZ_CANCER",
-      "value": 0
-    },
-    {
       "conditions": "\"6\" in q_orl_003",
       "tagOID": "S_ORL_ATCD_NEZ_AUTRE",
       "value": 1
-    },
-    {
-      "conditions": "!(\"6\" in q_orl_003)",
-      "tagOID": "S_ORL_ATCD_NEZ_AUTRE",
-      "value": 0
     },
     {
       "conditions": "\"7\" in q_orl_003",

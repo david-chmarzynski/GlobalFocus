@@ -53,108 +53,53 @@
       "value": 1
     },
     {
-      "conditions": "!(\"hospitalisation psy\" in q_Q1_Psychiatrie_003)",
-      "tagOID": "S_PSY_ATCD_TRAITEMENT_HOSPI",
-      "value": 0
-    },
-    {
-      "conditions": "\"traitement medicamenteux\" in q_Q1_Psychiatrie_00",
+      "conditions": "\"traitement medicamenteux\" in q_Q1_Psychiatrie_003",
       "tagOID": "S_PSY_ATCD_TRAITEMENT_MEDIC",
       "value": 1
     },
     {
-      "conditions": "!(\"traitement medicamenteux\" in q_Q1_Psychiatrie_003)",
-      "tagOID": "S_PSY_ATCD_TRAITEMENT_MEDIC",
-      "value": 0
-    },
-    {
-      "conditions": "\"consult psychiatre\" in q_Q1_Psychiatrie_00",
+      "conditions": "\"consult psychiatre\" in q_Q1_Psychiatrie_003",
       "tagOID": "S_PSY_ATCD_TRAITEMENT_PSYCHIATRE",
       "value": 1
     },
     {
-      "conditions": "!(\"consult psychiatre\" in q_Q1_Psychiatrie_003)",
-      "tagOID": "S_PSY_ATCD_TRAITEMENT_PSYCHIATRE",
-      "value": 0
-    },
-    {
-      "conditions": "\"consultation psychologue\" in q_Q1_Psychiatrie_00",
+      "conditions": "\"consultation psychologue\" in q_Q1_Psychiatrie_003",
       "tagOID": "S_PSY_ATCD_TRAITEMENT_PSYCHOLOGUE",
       "value": 1
     },
     {
-      "conditions": "!(\"consultation psychologue\" in q_Q1_Psychiatrie_003)",
-      "tagOID": "S_PSY_ATCD_TRAITEMENT_PSYCHOLOGUE",
-      "value": 0
-    },
-    {
-      "conditions": "\"psychanalyse\" in q_Q1_Psychiatrie_00",
+      "conditions": "\"psychanalyse\" in q_Q1_Psychiatrie_003",
       "tagOID": "S_PSY_ATCD_TRAITEMENT_PSYCHANALYSE",
       "value": 1
     },
     {
-      "conditions": "!(\"psychanalyse\" in q_Q1_Psychiatrie_003)",
-      "tagOID": "S_PSY_ATCD_TRAITEMENT_PSYCHANALYSE",
-      "value": 0
-    },
-    {
-      "conditions": "\"tcc\" in q_Q1_Psychiatrie_00",
+      "conditions": "\"tcc\" in q_Q1_Psychiatrie_003",
       "tagOID": "S_PSY_ATCD_TRAITEMENT_PSYCHOTCC",
       "value": 1
     },
     {
-      "conditions": "!(\"tcc\" in q_Q1_Psychiatrie_003)",
-      "tagOID": "S_PSY_ATCD_TRAITEMENT_PSYCHOTCC",
-      "value": 0
-    },
-    {
-      "conditions": "\"hypnose\" in q_Q1_Psychiatrie_00",
+      "conditions": "\"hypnose\" in q_Q1_Psychiatrie_003",
       "tagOID": "S_PSY_ATCD_TRAITEMENT_HYPNOSE",
       "value": 1
     },
     {
-      "conditions": "!(\"hypnose\" in q_Q1_Psychiatrie_003)",
-      "tagOID": "S_PSY_ATCD_TRAITEMENT_HYPNOSE",
-      "value": 0
-    },
-    {
-      "conditions": "\"EMDR\" in q_Q1_Psychiatrie_00",
+      "conditions": "\"EMDR\" in q_Q1_Psychiatrie_003",
       "tagOID": "S_PSY_ATCD_TRAITEMENT_EMDR",
       "value": 1
     },
     {
-      "conditions": "!(\"EMDR\" in q_Q1_Psychiatrie_003)",
-      "tagOID": "S_PSY_ATCD_TRAITEMENT_EMDR",
-      "value": 0
-    },
-    {
-      "conditions": "\"autres\" in q_Q1_Psychiatrie_00",
+      "conditions": "\"autres\" in q_Q1_Psychiatrie_003",
       "tagOID": "S_PSY_ATCD_TRAITEMENT_AUTRES",
       "value": 1
     },
     {
-      "conditions": "!(\"autres\" in q_Q1_Psychiatrie_003)",
-      "tagOID": "S_PSY_ATCD_TRAITEMENT_AUTRES",
-      "value": 0
-    },
-    {
-      "conditions": "\"aucun\" in q_Q1_Psychiatrie_00",
+      "conditions": "\"aucun\" in q_Q1_Psychiatrie_003",
       "tagOID": "S_PSY_ATCD_TRAITEMENT",
       "value": 0
     },
     {
       "conditions": "!(\"aucun\" in q_Q1_Psychiatrie_003)",
       "tagOID": "S_PSY_ATCD_TRAITEMENT",
-      "value": 1
-    },
-    {
-      "conditions": "\"aucun\" in q_Q1_Psychiatrie_00",
-      "tagOID": "S_PSY_ATCD",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"aucun\" in q_Q1_Psychiatrie_003)",
-      "tagOID": "S_PSY_ATCD",
       "value": 1
     }
   ]

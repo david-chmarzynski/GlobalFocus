@@ -1,0 +1,46 @@
+{
+  "oid": "q_q1_sommeil_006",
+  "title": "Sur ces 3 derniers mois, comment évaluez-vous votre satisfaction en lien avec la qualité de votre sommeil (facilité à vous endormir ou vous rendormir, sommeil réparateur) ?",
+  "text": "Sur ces 3 derniers mois, comment évaluez-vous votre satisfaction en lien avec la qualité de votre sommeil (facilité à vous endormir ou vous rendormir, sommeil réparateur) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisante"
+    },
+    {
+      "code": "1",
+      "text": "Légèrement insatisfaisante"
+    },
+    {
+      "code": "2",
+      "text": "Plutôt insatisfaisante"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisante"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q1_sommeil_006 == \"0\"",
+      "tagOID": "Tag_VSomSatisfactionQualité",
+      "value": 0
+    },
+    {
+      "conditions": "q_q1_sommeil_006 == \"1\"",
+      "tagOID": "Tag_VSomSatisfactionQualité",
+      "value": 1
+    },
+    {
+      "conditions": "q_q1_sommeil_006 == \"2\"",
+      "tagOID": "Tag_VSomSatisfactionQualité",
+      "value": 2
+    },
+    {
+      "conditions": "q_q1_sommeil_006 == \"3\"",
+      "tagOID": "Tag_VSomSatisfactionQualité",
+      "value": 3
+    }
+  ]
+}

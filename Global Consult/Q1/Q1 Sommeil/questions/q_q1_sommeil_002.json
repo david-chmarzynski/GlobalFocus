@@ -1,0 +1,55 @@
+{
+  "oid": "q_q1_sommeil_002",
+  "title": "Sur ces 3 derniers mois, avez-vous eu besoin d’une aide pour dormir (médicament, mélatonine, plantes, alcool, cannabis…) ?",
+  "text": "Sur ces 3 derniers mois, avez-vous eu besoin d’une aide pour dormir (médicament, mélatonine, plantes, alcool, cannabis…) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais (ou presque)"
+    },
+    {
+      "code": "1",
+      "text": "1 à 3 fois par mois"
+    },
+    {
+      "code": "2",
+      "text": "1 à 2 fois par semaine"
+    },
+    {
+      "code": "3",
+      "text": "3 à 5 fois par semaine"
+    },
+    {
+      "code": "4",
+      "text": "Tous les soirs (ou presque)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q1_sommeil_002 == \"0\"",
+      "tagOID": "Tag_VSomAide",
+      "value": 0
+    },
+    {
+      "conditions": "q_q1_sommeil_002 == \"1\"",
+      "tagOID": "Tag_VSomAide",
+      "value": 1
+    },
+    {
+      "conditions": "q_q1_sommeil_002 == \"2\"",
+      "tagOID": "Tag_VSomAide",
+      "value": 2
+    },
+    {
+      "conditions": "q_q1_sommeil_002 == \"3\"",
+      "tagOID": "Tag_VSomAide",
+      "value": 3
+    },
+    {
+      "conditions": "q_q1_sommeil_002 == \"4\"",
+      "tagOID": "Tag_VSomAide",
+      "value": 4
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "oid": "chap_test",
+  "title": "chap_test",
+  "modules": [
+    "q1_orl",
+    "q1_gynecologie",
+    "q1_sexe"
+  ]
+}

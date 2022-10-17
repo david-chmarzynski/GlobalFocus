@@ -256,7 +256,7 @@
         "conditions": "(\"0\" in q_q1_hemato_023) || (0 in q_q1_hemato_023)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_q1_hemato_023": 0
+          "q_q1_hemato_023": "aucun"
         }
       }
     },
@@ -361,10 +361,10 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "(\"aucun\" in q_q1_hemato_024)",
+        "conditions": "(\"0\" in q_q1_hemato_023)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_q1_hemato_024": "aucun"
+          "q_q1_hemato_023": "aucun"
         }
       }
     },

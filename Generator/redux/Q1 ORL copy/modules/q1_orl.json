@@ -1,0 +1,77 @@
+{
+  "oid": "q1_orl",
+  "title": "ORL",
+  "questions": [
+    {
+      "question": "q_orl_000",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"1\" in q_q1_sexe_000)",
+        "scope": "FORM_SCOPE",
+        "defaultValues": {
+          "q_q1_sexe_000": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_orl_001",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"1\" in q_q1_sexe_000)",
+        "scope": "FORM_SCOPE",
+        "defaultValues": {
+          "q_q1_sexe_000": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_orl_002",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"1\" in q_q1_sexe_000)",
+        "scope": "FORM_SCOPE",
+        "defaultValues": {
+          "q_q1_sexe_000": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_orl_003",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"1\" in q_q1_sexe_000)",
+        "scope": "FORM_SCOPE",
+        "defaultValues": {
+          "q_q1_sexe_000": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_orl_004",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"1\" in q_q1_sexe_000)",
+        "scope": "FORM_SCOPE",
+        "defaultValues": {
+          "q_q1_sexe_000": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_orl_009",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"5\" in q_orl_001 || \"4\" in q_orl_002 || \"6\" in q_orl_003 || \"7\" in q_orl_004 )",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {"q_orl_001":"6", "q_orl_002":"5", "q_orl_003":"7", "q_orl_004":"8"}
+      }
+    }
+    
+  ]
+}

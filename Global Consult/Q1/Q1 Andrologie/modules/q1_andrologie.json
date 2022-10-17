@@ -167,61 +167,6 @@
           "q_q1_andrologie_001": "aucun"
         }
       }
-    },
-    {
-      "question": "q_q1_andrologie_015",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_q1_andrologie_017",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_q1_andrologie_018",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_q1_andrologie_019",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_q1_andrologie_020",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_q1_andrologie_021",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_q1_andrologie_022",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_q1_andrologie_023",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_q1_andrologie_024",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_q1_andrologie_025",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_q1_andrologie_026",
-      "level": 1,
-      "isGlobal": false
     }
   ]
 }

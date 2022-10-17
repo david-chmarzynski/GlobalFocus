@@ -37,19 +37,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"0\" in q_orl_002)",
-      "tagOID": "S_ORL_ATCD_GORGE_ABCES",
-      "value": 0
-    },
-    {
       "conditions": "\"1\" in q_orl_002",
       "tagOID": "S_ORL_ATCD_GORGE_AMYGDALECTOMIE",
       "value": 1
-    },
-    {
-      "conditions": "!(\"1\" in q_orl_002)",
-      "tagOID": "S_ORL_ATCD_GORGE_AMYGDALECTOMIE",
-      "value": 0
     },
     {
       "conditions": "\"2\" in q_orl_002",
@@ -57,29 +47,14 @@
       "value": 1
     },
     {
-      "conditions": "!(\"2\" in q_orl_002)",
-      "tagOID": "S_ORL_ATCD_GORGE_POLYPE",
-      "value": 0
-    },
-    {
       "conditions": "\"3\" in q_orl_002",
       "tagOID": "S_ORL_ATCD_GORGE_CANCER",
       "value": 1
     },
     {
-      "conditions": "!(\"3\" in q_orl_002)",
-      "tagOID": "S_ORL_ATCD_GORGE_CANCER",
-      "value": 0
-    },
-    {
       "conditions": "\"4\" in q_orl_002",
       "tagOID": "S_ORL_ATCD_GORGE_AUTRE",
       "value": 1
-    },
-    {
-      "conditions": "!(\"4\" in q_orl_002)",
-      "tagOID": "S_ORL_ATCD_GORGE_AUTRE",
-      "value": 0
     },
     {
       "conditions": "\"5\" in q_orl_002",

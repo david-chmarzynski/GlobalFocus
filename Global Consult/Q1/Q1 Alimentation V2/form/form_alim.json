@@ -1,6 +1,6 @@
 {
   "oid": "form_alim",
-  "title": "Global consult Q1 module alimentation",
+  "title": "Global consult Q1 Alimentation",
   "estimatedTime": 10,
   "pricing": 10,
   "description": "Global consult Q1 module alimentation",
@@ -22,6 +22,7 @@
       "reportingNode": {
         "tagOID": "TAG_VALIMENTATIONGLOBAL",
         "type": "SCORE",
+        "hideNodeIfEmpty": true,
         "ranges": [
           {
             "min": 0,
@@ -52,6 +53,7 @@
           {
             "tagOID": "TAG_VALIMENTATION_CONTENU",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -82,6 +84,7 @@
               {
                 "tagOID": "TAG_VALIMENTATION_CONTENU_CONTRAITE_CHOIX",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -137,6 +140,7 @@
               {
                 "tagOID": "TAG_VALIMENTATION_CONTENU_TYPOLOGIE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -176,248 +180,285 @@
           {
             "tagOID": "TAG_VALIMENTATION_COMPORTEMENT",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text": "EVAL/CA"
+                "text": "CONDUITE"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FFFF00",
-                "text": "EVAL/CA"
+                "text": "CONDUITE"
               },
               {
                 "min": 2,
                 "max": 2,
                 "color": "FF9900",
-                "text": "EVAL/CA"
+                "text": "CONDUITE"
               },
               {
                 "min": 3,
                 "max": 3,
                 "color": "FF0000",
-                "text": "EVAL/CA"
+                "text": "CONDUITE"
               }
             ],
             "children": [
               {
-                "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ",
+                "tagOID": "TAG_VALIMENTATIONCACONTRAINTES",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "CONTR/SANTÉ"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "CONTR/SANTÉ"
-                  }
-                ],
-                "children": [
-                  {
-                    
-                    "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_SEL",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "SEL"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "SEL"
-                      }
-                    ],
-                    "hideNodeIfEmpty":true,
-                    "children": []
-                  },
-                  {
-                    "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_DYSLIP",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "DYSLIP"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "DYSLIP"
-                      }
-                    ],
-                    "hideNodeIfEmpty":true,
-                    "children": []
-                  },
-                  {
-                    "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_URATE",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "URATE"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "URATE"
-                      }
-                    ],
-                    "hideNodeIfEmpty":true,
-                    "children": []
-                  },
-                  {
-                    "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_IR",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "IR"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "IR"
-                      }
-                    ],
-                    "hideNodeIfEmpty":true,
-                    "children": []
-                  },
-                  {
-                    "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_FODMAPS",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "FODMAP'S"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "FODMAP'S"
-                      }
-                    ],
-                    "hideNodeIfEmpty":true,
-                    "children": []
-                  },
-                  {
-                    "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_GLUTEN",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "GLUTEN"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "GLUTEN"
-                      }
-                    ],
-                    "hideNodeIfEmpty":true,
-                    "children": []
-                  },
-                  {
-                    "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_ALLERGIE",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "ALLERGIE"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "ALLERGIE"
-                      }
-                    ],
-                    "hideNodeIfEmpty":true,
-                    "children": []
-                  },
-                  {
-                    "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_INTOL",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "INTOL"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "INTOL"
-                      }
-                    ],
-                    "hideNodeIfEmpty":true,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_POIDS",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "ALIM/POIDS"
+                    "text": "CONTRAINTES"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FFFF00",
-                    "text": "ALIM/POIDS"
+                    "text": "CONTRAINTES"
                   },
                   {
                     "min": 2,
                     "max": 2,
                     "color": "FF9900",
-                    "text": "ALIM/POIDS"
+                    "text": "CONTRAINTES"
                   },
                   {
                     "min": 3,
                     "max": 3,
                     "color": "FF0000",
-                    "text": "ALIM/POIDS"
+                    "text": "CONTRAINTES"
                   }
                 ],
-                "children": []
+                "children": [
+                  {
+                    "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "CONTR/SANTÉ"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "CONTR/SANTÉ"
+                      }
+                    ],
+                    "children": [
+                      {
+                        
+                        "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_SEL",
+                        "type": "SCORE",
+                        "hideNodeIfEmpty": true,
+                        "ranges": [
+                          {
+                            "min": 0,
+                            "max": 0,
+                            "color": "00FF00",
+                            "text": "SEL"
+                          },
+                          {
+                            "min": 1,
+                            "max": 1,
+                            "color": "FF0000",
+                            "text": "SEL"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_DYSLIP",
+                        "type": "SCORE",
+                        "hideNodeIfEmpty": true,
+                        "ranges": [
+                          {
+                            "min": 0,
+                            "max": 0,
+                            "color": "00FF00",
+                            "text": "DYSLIP"
+                          },
+                          {
+                            "min": 1,
+                            "max": 1,
+                            "color": "FF0000",
+                            "text": "DYSLIP"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_URATE",
+                        "type": "SCORE",
+                        "hideNodeIfEmpty": true,
+                        "ranges": [
+                          {
+                            "min": 0,
+                            "max": 0,
+                            "color": "00FF00",
+                            "text": "URATE"
+                          },
+                          {
+                            "min": 1,
+                            "max": 1,
+                            "color": "FF0000",
+                            "text": "URATE"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_IR",
+                        "type": "SCORE",
+                        "hideNodeIfEmpty": true,
+                        "ranges": [
+                          {
+                            "min": 0,
+                            "max": 0,
+                            "color": "00FF00",
+                            "text": "IR"
+                          },
+                          {
+                            "min": 1,
+                            "max": 1,
+                            "color": "FF0000",
+                            "text": "IR"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_FODMAPS",
+                        "type": "SCORE",
+                        "hideNodeIfEmpty": true,
+                        "ranges": [
+                          {
+                            "min": 0,
+                            "max": 0,
+                            "color": "00FF00",
+                            "text": "FODMAP'S"
+                          },
+                          {
+                            "min": 1,
+                            "max": 1,
+                            "color": "FF0000",
+                            "text": "FODMAP'S"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_GLUTEN",
+                        "type": "SCORE",
+                        "hideNodeIfEmpty": true,
+                        "ranges": [
+                          {
+                            "min": 0,
+                            "max": 0,
+                            "color": "00FF00",
+                            "text": "GLUTEN"
+                          },
+                          {
+                            "min": 1,
+                            "max": 1,
+                            "color": "FF0000",
+                            "text": "GLUTEN"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_ALLERGIE",
+                        "type": "SCORE",
+                        "hideNodeIfEmpty": true,
+                        "ranges": [
+                          {
+                            "min": 0,
+                            "max": 0,
+                            "color": "00FF00",
+                            "text": "ALLERGIE"
+                          },
+                          {
+                            "min": 1,
+                            "max": 1,
+                            "color": "FF0000",
+                            "text": "ALLERGIE"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_INTOL",
+                        "type": "SCORE",
+                        "hideNodeIfEmpty": true,
+                        "ranges": [
+                          {
+                            "min": 0,
+                            "max": 0,
+                            "color": "00FF00",
+                            "text": "INTOL"
+                          },
+                          {
+                            "min": 1,
+                            "max": 1,
+                            "color": "FF0000",
+                            "text": "INTOL"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_POIDS",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "POIDS"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FFFF00",
+                        "text": "POIDS"
+                      },
+                      {
+                        "min": 2,
+                        "max": 2,
+                        "color": "FF9900",
+                        "text": "POIDS"
+                      },
+                      {
+                        "min": 3,
+                        "max": 3,
+                        "color": "FF0000",
+                        "text": "POIDS"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
               },
               {
                 "tagOID": "tag_VAlimentationScoff",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -443,6 +484,7 @@
               {
                 "tagOID": "tag_VAlimentationAtcd",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -461,18 +503,19 @@
                   {
                     "tagOID": "tag_VAlimentationAtcd1",
                     "type": "SCORE",
+                    "hideNodeIfEmpty": true,
                     "ranges": [
                       {
                         "min": 0,
                         "max": 0.9,
                         "color": "00FF00",
-                        "text": "CONDUITE"
+                        "text": "T/CONDUITE"
                       },
                       {
                         "min": 1,
                         "max": 1.9,
                         "color": "FF0000",
-                        "text": "CONDUITE"
+                        "text": "T/CONDUITE"
                       }
                     ],
                     "children": []
@@ -480,6 +523,7 @@
                   {
                     "tagOID": "tag_VAlimentationAtcd2",
                     "type": "SCORE",
+                    "hideNodeIfEmpty": true,
                     "ranges": [
                       {
                         "min": 0,
@@ -499,6 +543,7 @@
                   {
                     "tagOID": "tag_VAlimentationAtcd3",
                     "type": "SCORE",
+                    "hideNodeIfEmpty": true,
                     "ranges": [
                       {
                         "min": 0,
@@ -518,6 +563,7 @@
                   {
                     "tagOID": "tag_VAlimentationAtcd4",
                     "type": "SCORE",
+                    "hideNodeIfEmpty": true,
                     "ranges": [
                       {
                         "min": 0,
@@ -537,6 +583,7 @@
                   {
                     "tagOID": "tag_VAlimentationAtcd5",
                     "type": "SCORE",
+                    "hideNodeIfEmpty": true,
                     "ranges": [
                       {
                         "min": 0,

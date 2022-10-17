@@ -16,6 +16,7 @@
       "reportingNode": {
         "tagOID": "tag_VBougerGlobal",
         "type": "SCORE",
+        "hideNodeIfEmpty": true,
         "ranges": [
           {
             "min": 0,
@@ -58,6 +59,7 @@
           {
             "tagOID": "tag_VBougerAP",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 5,
@@ -101,6 +103,7 @@
           {
             "tagOID": "tag_VBougerSedentarite",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,

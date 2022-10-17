@@ -17,26 +17,6 @@
   "scores": [
     {
       "tagOID": "tag_VContexteQDVSante",
-      "conditions": "q_VContexteQDVSante == 0",
-      "value": 0
-    },
-    {
-      "tagOID": "tag_VContexteQDVSante",
-      "conditions": "q_VContexteQDVSante == 1",
-      "value": 1
-    },
-    {
-      "tagOID": "tag_VContexteQDVSante",
-      "conditions": "q_VContexteQDVSante == 2",
-      "value": 2
-    },
-    {
-      "tagOID": "tag_VContexteQDVSante",
-      "conditions": "q_VContexteQDVSante == 3",
-      "value": 3
-    },
-    {
-      "tagOID": "tag_VContexteQDVSante",
       "conditions": "q_VContexteQDVSante == 4",
       "value": 4
     },

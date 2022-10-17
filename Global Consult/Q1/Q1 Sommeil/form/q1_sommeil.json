@@ -1,0 +1,631 @@
+{
+  "oid": "q1_sommeil",
+  "title": "Q1 Global Focus Sommeil",
+  "estimatedTime": 10,
+  "pricing": 10,
+  "description": "Q1 Global Focus Sommeil",
+  "levelMax": "1",
+  "authors": [
+    "test"
+  ],
+  "chapters": [
+    "chap_q1_sommeil"
+  ],
+  "professions": [
+    "DENTIST"
+  ],
+  "diagnostics": [],
+  "reportingTrees": [
+    {
+      "category": "LIFE_STYLE",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "Tag_VSomSatisfactionGlobale",
+        "type": "SCORE",
+        "hideNodeIfEmpty": true,
+        "ranges": [
+          {
+            "min": 0,
+            "max": 0,
+            "color": "00FF00",
+            "text": "SATISF/SOM"
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "color": "FFFF00",
+            "text": "SATISF/SOM"
+          },
+          {
+            "min": 2,
+            "max": 2,
+            "color": "FF9900",
+            "text": "SATISF/SOM"
+          },
+          {
+            "min": 3,
+            "max": 3,
+            "color": "FF0000",
+            "text": "SATISF/SOM"
+          }
+        ],
+        "children": [
+          {
+            "tagOID": "Tag_VSomContexteRythmesGlobal",
+            "type": "SCORE",
+            "hideNodeIfEmpty": true,
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "CONTEXT/SOM"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FFFF00",
+                "text": "CONTEXT/SOM"
+              },
+              {
+                "min": 2,
+                "max": 2,
+                "color": "FF9900",
+                "text": "CONTEXT/SOM"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "FF0000",
+                "text": "CONTEXT/SOM"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "Tag_VSomAide",
+            "type": "SCORE",
+            "hideNodeIfEmpty": true,
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "AIDE/SOM"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FFFF00",
+                "text": "AIDE/SOM"
+              },
+              {
+                "min": 2,
+                "max": 2,
+                "color": "FF9900",
+                "text": "AIDE/SOM"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "FF0000",
+                "text": "AIDE/SOM"
+              },
+              {
+                "min": 4,
+                "max": 4,
+                "color": "990000",
+                "text": "AIDE/SOM"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "Tag_VSomEndormissement",
+            "type": "SCORE",
+            "hideNodeIfEmpty": true,
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "ENDORM"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FFFF00",
+                "text": "ENDORM"
+              },
+              {
+                "min": 2,
+                "max": 2,
+                "color": "FF9900",
+                "text": "ENDORM"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "FF0000",
+                "text": "ENDORM"
+              },
+              {
+                "min": 4,
+                "max": 4,
+                "color": "990000",
+                "text": "ENDORM"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "Tag_VSomMaintien",
+            "type": "SCORE",
+            "hideNodeIfEmpty": true,
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "MAINT"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FFFF00",
+                "text": "MAINT"
+              },
+              {
+                "min": 2,
+                "max": 2,
+                "color": "FF9900",
+                "text": "MAINT"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "FF0000",
+                "text": "MAINT"
+              },
+              {
+                "min": 4,
+                "max": 4,
+                "color": "990000",
+                "text": "MAINT"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "Tag_VSomSatisfactionQuantité",
+            "type": "SCORE",
+            "hideNodeIfEmpty": true,
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "QUANT/SOM"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FFFF00",
+                "text": "QUANT/SOM"
+              },
+              {
+                "min": 2,
+                "max": 2,
+                "color": "FF9900",
+                "text": "QUANT/SOM"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "FF0000",
+                "text": "QUANT/SOM"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "Tag_VSomSatisfactionQualité",
+            "type": "SCORE",
+            "hideNodeIfEmpty": true,
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "QUAL/SOM"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FFFF00",
+                "text": "QUAL/SOM"
+              },
+              {
+                "min": 2,
+                "max": 2,
+                "color": "FF9900",
+                "text": "QUAL/SOM"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "FF0000",
+                "text": "QUAL/SOM"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "Tag_VSomAsthénieMatinale",
+            "type": "SCORE",
+            "hideNodeIfEmpty": true,
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "ASTH-M"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FFFF00",
+                "text": "ASTH-M"
+              },
+              {
+                "min": 2,
+                "max": 2,
+                "color": "FF9900",
+                "text": "ASTH-M"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "FF0000",
+                "text": "ASTH-M"
+              },
+              {
+                "min": 4,
+                "max": 4,
+                "color": "990000",
+                "text": "ASTH-M"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "Tag_VSomAsthénieDiurne",
+            "type": "SCORE",
+            "hideNodeIfEmpty": true,
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "ASTH-J"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FFFF00",
+                "text": "ASTH-J"
+              },
+              {
+                "min": 2,
+                "max": 2,
+                "color": "FF9900",
+                "text": "ASTH-J"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "FF0000",
+                "text": "ASTH-J"
+              },
+              {
+                "min": 4,
+                "max": 4,
+                "color": "990000",
+                "text": "ASTH-J"
+              }
+            ],
+            "children": []
+          },
+          {
+            "tagOID": "Tag_VSomSuspicionTroublesSommeil",
+            "type": "SCORE",
+            "hideNodeIfEmpty": true,
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "TRBLE/SOM"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FFFF00",
+                "text": "TRBLE/SOM"
+              },
+              {
+                "min": 2,
+                "max": 2,
+                "color": "FF9900",
+                "text": "TRBLE/SOM"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "FF0000",
+                "text": "TRBLE/SOM"
+              }
+            ],
+            "children": [
+              {
+                "diagnosticOID": "diagnosticSAOS",
+                "type": "DIAGNOSTIC",
+                "diagnosticTitle": "SAOS",
+                "diagnostics": {
+                  "SAOS_VERT": {
+                    "text": "SAOS",
+                    "color": "00FF00",
+                    "severity": 0
+                  },
+                  "SAOS_ORANGE": {
+                    "text": "SAOS",
+                    "color": "FF9900",
+                    "severity": 1
+                  },
+                  "SAOS_ROUGE": {
+                    "text": "SAOS",
+                    "color": "FF0000",
+                    "severity": 2
+                  }
+                }
+              },
+              {
+                "tagOID": "tag_VSSJR",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0.9,
+                    "color": "00FF00",
+                    "text": "SJSR"
+                  },
+                  {
+                    "min": 1,
+                    "max": 2.9,
+                    "color": "FFFF00",
+                    "text": "SJSR"
+                  },
+                  {
+                    "min": 3,
+                    "max": 4.9,
+                    "color": "FF9900",
+                    "text": "SJSR"
+                  },
+                  {
+                    "min": 5,
+                    "max": 20.9,
+                    "color": "FF0000",
+                    "text": "SJSR"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "Tag_VSomATCDTroublesSommeil_Aucun",
+            "type": "SCORE",
+            "hideNodeIfEmpty": true,
+            "ranges": [
+              {
+                "min": 1,
+                "max": 1,
+                "color": "00FF00",
+                "text": "ATCD-P"
+              },
+              {
+                "min": 0,
+                "max": 0,
+                "color": "FF0000",
+                "text": "ATCD-P"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "Tag_VSomATCDTroublesSommeil_Insomnies",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "INSOMN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "INSOMN"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "Tag_VSomATCDTroublesSommeil_SyndromeADS",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "SADS"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "SADS"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "Tag_VSomATCDTroublesSommeil_SyndromeJSR",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "SJSR"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "SJSR"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "Tag_VSomATCDTroublesSommeil_Hypersomnolence",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "HSOMN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "HSOMN"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "Tag_VSomATCDTroublesSommeil_Somnambulisme",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "SOMNB"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "SOMNB"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "Tag_VSomATCDTroublesSommeil_TerreursNoct",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "T/NOCT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "T/NOCT"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "Tag_VSomATCDTroublesSommeil_Narcolepsie",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "NARCO"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "NARCO"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "Tag_VSomATCDTroublesSommeil_Cauchemars",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CAUCH"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CAUCH"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "Tag_VSomATCDTroublesSommeil_Cataplexie",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CATAPL"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CATAPL"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

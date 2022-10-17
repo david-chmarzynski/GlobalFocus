@@ -16,6 +16,7 @@
       "reportingNode": {
         "tagOID": "S_GYN",
         "type": "SCORE",
+        "hideNodeIfEmpty": true,
         "ranges": [
           {
             "min": 0,
@@ -46,6 +47,7 @@
           {
             "tagOID": "S_GYN_ATCD_VULVE_VAGIN",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -64,6 +66,7 @@
               {
                 "tagOID": "S_GYN_ATCD_VULVE_VAGIN_MYCOSE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -83,6 +86,7 @@
               {
                 "tagOID": "S_GYN_ATCD_VULVE_VAGIN_AUTRES",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -102,6 +106,7 @@
               {
                 "tagOID": "S_GYN_ATCD_VULVE_VAGIN_CANCER_VAGIN",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -121,6 +126,7 @@
               {
                 "tagOID": "S_GYN_ATCD_VULVE_VAGIN_CANCER_VULVE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -140,6 +146,7 @@
               {
                 "tagOID": "S_GYN_ATCD_VULVE_VAGIN_PROLAPSUS",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -159,6 +166,7 @@
               {
                 "tagOID": "S_GYN_ATCD_VULVE_VAGIN_BARTHOLINITE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -178,6 +186,7 @@
               {
                 "tagOID": "S_GYN_ATCD_VULVE_VAGIN_HERPES",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -197,6 +206,7 @@
               {
                 "tagOID": "S_GYN_ATCD_VULVE_VAGIN_CHLAMYDIAE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -216,6 +226,7 @@
               {
                 "tagOID": "S_GYN_ATCD_VULVE_VAGIN_GONOCOQUE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -235,6 +246,7 @@
               {
                 "tagOID": "S_GYN_ATCD_VULVE_VAGIN_MYCOPLASME",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -254,6 +266,7 @@
               {
                 "tagOID": "S_GYN_ATCD_VULVE_VAGIN_TRICHOMONAS",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -273,6 +286,7 @@
               {
                 "tagOID": "S_GYN_ATCD_VULVE_VAGIN_SYPHILIS",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -292,6 +306,7 @@
               {
                 "tagOID": "S_GYN_ATCD_VULVE_VAGIN_AUTRES_INF",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -313,6 +328,7 @@
           {
             "tagOID": "S_GYN_ATCD_SEIN",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -331,6 +347,7 @@
               {
                 "tagOID": "S_GYN_ATCD_SEIN_CANCER",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -345,31 +362,12 @@
                     "text": "KC SEIN"
                   }
                 ],
-                "children": [
-                  {
-                    "tagOID": "S_GYN_ATCD_SEIN_CANCER_LOCALISATION",
-                    "type": "SCORE",
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "KC SEIN"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "KC SEIN"
-                      }
-                    ],
-                    "children": []
-                  }
-                ]
+                "children": []
               },
               {
                 "tagOID": "S_GYN_ATCD_SEIN_KYSTE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -389,6 +387,7 @@
               {
                 "tagOID": "S_GYN_ATCD_SEIN_MASTOSE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -408,6 +407,7 @@
               {
                 "tagOID": "S_GYN_ATCD_SEIN_MASTECTOMIE_PARTIELLE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -427,6 +427,7 @@
               {
                 "tagOID": "S_GYN_ATCD_SEIN_MASTECTOMIE_TOTALE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -446,6 +447,7 @@
               {
                 "tagOID": "S_GYN_ATCD_SEIN_PROTHESE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -465,6 +467,7 @@
               {
                 "tagOID": "S_GYN_ATCD_SEIN_REDUCTION",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -484,6 +487,7 @@
               {
                 "tagOID": "S_GYN_ATCD_SEIN_MASTITE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -503,6 +507,7 @@
               {
                 "tagOID": "S_GYN_ATCD_SEIN_AUTRES",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -524,6 +529,7 @@
           {
             "tagOID": "S_GYN_ATCD_OVAIRE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -542,6 +548,7 @@
               {
                 "tagOID": "S_GYN_ATCD_OVAIRE_CANCER",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -561,6 +568,7 @@
               {
                 "tagOID": "S_GYN_ATCD_OVAIRE_OVARIECTOMIE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -580,6 +588,7 @@
               {
                 "tagOID": "S_GYN_ATCD_OVAIRE_KYSTE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -599,6 +608,7 @@
               {
                 "tagOID": "S_GYN_ATCD_OVAIRE_SOPK",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -618,6 +628,7 @@
               {
                 "tagOID": "S_GYN_ATCD_OVAIRE_SPM",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -637,6 +648,7 @@
               {
                 "tagOID": "S_GYN_ATCD_OVAIRE_INFERTILITE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -656,6 +668,7 @@
               {
                 "tagOID": "S_GYN_ATCD_OVAIRE_PMA",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -675,6 +688,7 @@
               {
                 "tagOID": "S_GYN_ATCD_OVAIRE_AUTRES",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -696,6 +710,7 @@
           {
             "tagOID": "S_GYN_ATCD_UTERUS",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -714,6 +729,7 @@
               {
                 "tagOID": "S_GYN_ATCD_UTERUS_CANCER_ENDOMETRE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -733,6 +749,7 @@
               {
                 "tagOID": "S_GYN_ATCD_UTERUS_CANCER_COL",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -752,6 +769,7 @@
               {
                 "tagOID": "S_GYN_ATCD_UTERUS_FCS",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -771,6 +789,7 @@
               {
                 "tagOID": "S_GYN_ATCD_UTERUS_IVG",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -790,6 +809,7 @@
               {
                 "tagOID": "S_GYN_ATCD_UTERUS_IMG",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -809,6 +829,7 @@
               {
                 "tagOID": "S_GYN_ATCD_UTERUS_GEU",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -828,6 +849,7 @@
               {
                 "tagOID": "S_GYN_ATCD_UTERUS_CESARIENNE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -847,6 +869,7 @@
               {
                 "tagOID": "S_GYN_ATCD_UTERUS_FIBROME",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -866,6 +889,7 @@
               {
                 "tagOID": "S_GYN_ATCD_UTERUS_HYSTERECTOMIE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -885,6 +909,7 @@
               {
                 "tagOID": "S_GYN_ATCD_UTERUS_ENDOMETRIOSE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -904,6 +929,7 @@
               {
                 "tagOID": "S_GYN_ATCD_UTERUS_SALPINGITE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -923,6 +949,7 @@
               {
                 "tagOID": "S_GYN_ATCD_UTERUS_HPV",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -942,6 +969,7 @@
               {
                 "tagOID": "S_GYN_ATCD_UTERUS_DYSPLASIE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -961,6 +989,7 @@
               {
                 "tagOID": "S_GYN_ATCD_UTERUS_CONISATION",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -980,6 +1009,7 @@
               {
                 "tagOID": "S_GYN_ATCD_UTERUS_AUTRES",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,

@@ -26,6 +26,7 @@
       "reportingNode": {
         "tagOID": "S_OPH",
         "type": "SCORE",
+        "hideNodeIfEmpty": true,
         "ranges": [
           {
             "min": 0,
@@ -56,6 +57,7 @@
           {
             "tagOID": "S_OPH_ATCD_CANCER_OEIL",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -75,6 +77,7 @@
           {
             "tagOID": "S_OPH_ATCD_DMLA",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -94,6 +97,7 @@
           {
             "tagOID": "S_OPH_ATCD_GLAUCOME",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -113,6 +117,7 @@
           {
             "tagOID": "S_OPH_ATCD_UVEITE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -132,6 +137,7 @@
           {
             "tagOID": "S_OPH_ATCD_KERATITE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -151,6 +157,7 @@
           {
             "tagOID": "S_OPH_ATCD_CATARACTE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -170,6 +177,7 @@
           {
             "tagOID": "S_OPH_ATCD_RETINE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -189,6 +197,7 @@
           {
             "tagOID": "S_OPH_ATCD_MYOPIE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -208,6 +217,7 @@
           {
             "tagOID": "S_OPH_ATCD_PRESBYTIE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -227,6 +237,7 @@
           {
             "tagOID": "S_OPH_ATCD_ASTIGMATIE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -246,6 +257,7 @@
           {
             "tagOID": "S_OPH_ATCD_HYPERMETROPIE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -265,6 +277,7 @@
           {
             "tagOID": "S_OPH_ATCD_CECITE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -284,6 +297,7 @@
           {
             "tagOID": "S_OPH_ATCD_AUTRE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,

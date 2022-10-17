@@ -48,19 +48,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"0\" in q_gastro_004)",
-      "tagOID": "S_DIG_ATCD_TD_HAUT_OESOPHAGITE",
-      "value": 0
-    },
-    {
       "conditions": "\"1\" in q_gastro_004",
       "tagOID": "S_DIG_ATCD_TD_HAUT_RGO",
       "value": 1
-    },
-    {
-      "conditions": "!(\"1\" in q_gastro_004)",
-      "tagOID": "S_DIG_ATCD_TD_HAUT_RGO",
-      "value": 0
     },
     {
       "conditions": "\"2\" in q_gastro_004",
@@ -68,19 +58,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"2\" in q_gastro_004)",
-      "tagOID": "S_DIG_ATCD_TD_HAUT_HERNIE_HIATALE",
-      "value": 0
-    },
-    {
       "conditions": "\"3\" in q_gastro_004",
       "tagOID": "S_DIG_ATCD_TD_HAUT_GASTRITE",
       "value": 1
-    },
-    {
-      "conditions": "!(\"3\" in q_gastro_004)",
-      "tagOID": "S_DIG_ATCD_TD_HAUT_GASTRITE",
-      "value": 0
     },
     {
       "conditions": "\"4\" in q_gastro_004",
@@ -88,19 +68,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"4\" in q_gastro_004)",
-      "tagOID": "S_DIG_ATCD_TD_HAUT_ULC_E",
-      "value": 0
-    },
-    {
       "conditions": "\"5\" in q_gastro_004",
       "tagOID": "S_DIG_ATCD_TD_HAUT_ULC_D",
       "value": 1
-    },
-    {
-      "conditions": "!(\"5\" in q_gastro_004)",
-      "tagOID": "S_DIG_ATCD_TD_HAUT_ULC_D",
-      "value": 0
     },
     {
       "conditions": "\"6\" in q_gastro_004",
@@ -108,29 +78,14 @@
       "value": 1
     },
     {
-      "conditions": "!(\"6\" in q_gastro_004)",
-      "tagOID": "S_DIG_ATCD_TD_HAUT_DUOD",
-      "value": 0
-    },
-    {
       "conditions": "\"7\" in q_gastro_004",
       "tagOID": "S_DIG_ATCD_TD_HAUT_AUTRE",
       "value": 1
     },
     {
-      "conditions": "!(\"7\" in q_gastro_004)",
-      "tagOID": "S_DIG_ATCD_TD_HAUT_AUTRE",
-      "value": 0
-    },
-    {
       "conditions": "\"8\" in q_gastro_004",
       "tagOID": "S_DIG_ATCD_TD_HAUT_HELICOBACTER",
       "value": 1
-    },
-    {
-      "conditions": "!(\"8\" in q_gastro_004)",
-      "tagOID": "S_DIG_ATCD_TD_HAUT_HELICOBACTER",
-      "value": 0
     }
   ]
 }

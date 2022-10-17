@@ -1,7 +1,7 @@
 {
   "oid": "q_infos_generales_016",
-  "title": "Quels sont les motifs de votre téléconsultation ?",
-  "text": "Quels sont les motifs de votre téléconsultation ?",
+  "title": "Choisissez votre(vos) motif(s) de téléconsultation (plusieurs choix possibles)",
+  "text": "Choisissez votre(vos) motif(s) de téléconsultation (plusieurs choix possibles)",
   "type": "MULTI_CHOICES",
   "choices": [
     {

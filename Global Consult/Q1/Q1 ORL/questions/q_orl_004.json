@@ -49,19 +49,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"0\" in q_orl_004)",
-      "tagOID": "S_ORL_ATCD_OREILLE_ACOUPHENES",
-      "value": 0
-    },
-    {
       "conditions": "\"1\" in q_orl_004",
       "tagOID": "S_ORL_ATCD_OREILLE_HYPOACOUSIE",
       "value": 1
-    },
-    {
-      "conditions": "!(\"1\" in q_orl_004)",
-      "tagOID": "S_ORL_ATCD_OREILLE_HYPOACOUSIE",
-      "value": 0
     },
     {
       "conditions": "\"2\" in q_orl_004",
@@ -69,19 +59,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"2\" in q_orl_004)",
-      "tagOID": "S_ORL_ATCD_OREILLE_SURDITE",
-      "value": 0
-    },
-    {
       "conditions": "\"3\" in q_orl_004",
       "tagOID": "S_ORL_ATCD_OREILLE_CHIRURGIE",
       "value": 1
-    },
-    {
-      "conditions": "!(\"3\" in q_orl_004)",
-      "tagOID": "S_ORL_ATCD_OREILLE_CHIRURGIE",
-      "value": 0
     },
     {
       "conditions": "\"4\" in q_orl_004",
@@ -89,19 +69,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"4\" in q_orl_004)",
-      "tagOID": "S_ORL_ATCD_OREILLE_NEURINOME",
-      "value": 0
-    },
-    {
       "conditions": "\"5\" in q_orl_004",
       "tagOID": "S_ORL_ATCD_OREILLE_VERTIGES",
       "value": 1
-    },
-    {
-      "conditions": "!(\"5\" in q_orl_004)",
-      "tagOID": "S_ORL_ATCD_OREILLE_VERTIGES",
-      "value": 0
     },
     {
       "conditions": "\"6\" in q_orl_004",
@@ -109,19 +79,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"6\" in q_orl_004)",
-      "tagOID": "S_ORL_ATCD_OREILLE_CANCER",
-      "value": 0
-    },
-    {
       "conditions": "\"7\" in q_orl_004",
       "tagOID": "S_ORL_ATCD_OREILLE_AUTRE",
       "value": 1
-    },
-    {
-      "conditions": "!(\"7\" in q_orl_004)",
-      "tagOID": "S_ORL_ATCD_OREILLE_AUTRE",
-      "value": 0
     },
     {
       "conditions": "\"8\" in q_orl_004",

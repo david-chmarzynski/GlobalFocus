@@ -49,19 +49,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Cancer de la peau de type basocellulaire\" in q_q1_dermatologie_001)",
-      "tagOID": "S_DER_ATCD_CANCER_BASO",
-      "value": 0
-    },
-    {
       "conditions": "\"Cancer de la peau spinocellulaire (ou carcinome épidermoïde)\" in q_q1_dermatologie_001",
       "tagOID": "S_DER_ATCD_CANCER_SPINO",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Cancer de la peau spinocellulaire (ou carcinome épidermoïde)\" in q_q1_dermatologie_001)",
-      "tagOID": "S_DER_ATCD_CANCER_SPINO",
-      "value": 0
     },
     {
       "conditions": "\"Mélanome\" in q_q1_dermatologie_001",
@@ -69,19 +59,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Mélanome\" in q_q1_dermatologie_001)",
-      "tagOID": "S_DER_ATCD_MELANOME",
-      "value": 0
-    },
-    {
       "conditions": "\"Dermatite atopique (eczéma débutant généralement dans l’enfance)\" in q_q1_dermatologie_001",
       "tagOID": "S_DER_ATCD_DERMATITE_ATOPIQUE",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Dermatite atopique (eczéma débutant généralement dans l’enfance)\" in q_q1_dermatologie_001)",
-      "tagOID": "S_DER_ATCD_DERMATITE_ATOPIQUE",
-      "value": 0
     },
     {
       "conditions": "\"Psoriasis\" in q_q1_dermatologie_001",
@@ -89,19 +69,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Psoriasis\" in q_q1_dermatologie_001)",
-      "tagOID": "S_DER_ATCD_PSORIASIS",
-      "value": 0
-    },
-    {
       "conditions": "\"Vitiligo\" in q_q1_dermatologie_001",
       "tagOID": "S_DER_ATCD_VITILIGO",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Vitiligo\" in q_q1_dermatologie_001)",
-      "tagOID": "S_DER_ATCD_VITILIGO",
-      "value": 0
     },
     {
       "conditions": "\"Pelade (chute de cheveux en plaques)\" in q_q1_dermatologie_001",
@@ -109,19 +79,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Pelade (chute de cheveux en plaques)\" in q_q1_dermatologie_001)",
-      "tagOID": "S_DER_ATCD_PELADE",
-      "value": 0
-    },
-    {
       "conditions": "\"Autre(s) antécédent(s)\" in q_q1_dermatologie_001",
       "tagOID": "S_DER_ATCD_AUTRE",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Autre(s) antécédent(s)\" in q_q1_dermatologie_001)",
-      "tagOID": "S_DER_ATCD_AUTRE",
-      "value": 0
     }
   ]
 }

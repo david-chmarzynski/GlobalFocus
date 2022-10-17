@@ -69,19 +69,9 @@
       "value": "1"
     },
     {
-      "conditions": "!(\"0\" in q_S_OPH_001)",
-      "tagOID": "S_OPH_ATCD_CANCER_OEIL",
-      "value": "0"
-    },
-    {
       "conditions": "\"1\" in q_S_OPH_001",
       "tagOID": "S_OPH_ATCD_DMLA",
       "value": "1"
-    },
-    {
-      "conditions": "!(\"1\" in q_S_OPH_001)",
-      "tagOID": "S_OPH_ATCD_DMLA",
-      "value": "0"
     },
     {
       "conditions": "\"2\" in q_S_OPH_001",
@@ -89,19 +79,9 @@
       "value": "1"
     },
     {
-      "conditions": "!(\"2\" in q_S_OPH_001)",
-      "tagOID": "S_OPH_ATCD_GLAUCOME",
-      "value": "0"
-    },
-    {
       "conditions": "\"3\" in q_S_OPH_001",
       "tagOID": "S_OPH_ATCD_UVEITE",
       "value": "1"
-    },
-    {
-      "conditions": "!(\"3\" in q_S_OPH_001)",
-      "tagOID": "S_OPH_ATCD_UVEITE",
-      "value": "0"
     },
     {
       "conditions": "\"4\" in q_S_OPH_001",
@@ -109,19 +89,9 @@
       "value": "1"
     },
     {
-      "conditions": "!(\"4\" in q_S_OPH_001)",
-      "tagOID": "S_OPH_ATCD_KERATITE",
-      "value": "0"
-    },
-    {
       "conditions": "\"5\" in q_S_OPH_001",
       "tagOID": "S_OPH_ATCD_CATARACTE",
       "value": "1"
-    },
-    {
-      "conditions": "!(\"5\" in q_S_OPH_001)",
-      "tagOID": "S_OPH_ATCD_CATARACTE",
-      "value": "0"
     },
     {
       "conditions": "\"6\" in q_S_OPH_001",
@@ -129,19 +99,9 @@
       "value": "1"
     },
     {
-      "conditions": "!(\"6\" in q_S_OPH_001)",
-      "tagOID": "S_OPH_ATCD_RETINE",
-      "value": "0"
-    },
-    {
       "conditions": "\"7\" in q_S_OPH_001",
       "tagOID": "S_OPH_ATCD_MYOPIE",
       "value": "1"
-    },
-    {
-      "conditions": "!(\"7\" in q_S_OPH_001)",
-      "tagOID": "S_OPH_ATCD_MYOPIE",
-      "value": "0"
     },
     {
       "conditions": "\"8\" in q_S_OPH_001",
@@ -149,19 +109,9 @@
       "value": "1"
     },
     {
-      "conditions": "!(\"8\" in q_S_OPH_001)",
-      "tagOID": "S_OPH_ATCD_ASTIGMATIE",
-      "value": "0"
-    },
-    {
       "conditions": "\"9\" in q_S_OPH_001",
       "tagOID": "S_OPH_ATCD_PRESBYTIE",
       "value": "1"
-    },
-    {
-      "conditions": "!(\"9\" in q_S_OPH_001)",
-      "tagOID": "S_OPH_ATCD_PRESBYTIE",
-      "value": "0"
     },
     {
       "conditions": "\"10\" in q_S_OPH_001",
@@ -169,24 +119,9 @@
       "value": "1"
     },
     {
-      "conditions": "!(\"10\" in q_S_OPH_001)",
-      "tagOID": "S_OPH_ATCD_HYPERMETROPIE",
-      "value": "0"
-    },
-    {
       "conditions": "\"11\" in q_S_OPH_001",
       "tagOID": "S_OPH_ATCD_CECITE",
       "value": "1"
-    },
-    {
-      "conditions": "!(\"11\" in q_S_OPH_001)",
-      "tagOID": "S_OPH_ATCD_CECITE",
-      "value": "0"
-    },
-    {
-      "conditions": "\"12\" in q_S_OPH_001",
-      "tagOID": "S_OPH_ATCD",
-      "value": "0"
     },
     {
       "conditions": "!(\"12\" in q_S_OPH_001)",
@@ -194,14 +129,14 @@
       "value": "1"
     },
     {
-      "conditions": "\"13\" in q_S_OPH_001",
-      "tagOID": "S_OPH_ATCD_AUTRE",
-      "value": "1"
-    },
-    {
       "conditions": "!(\"13\" in q_S_OPH_001)",
       "tagOID": "S_OPH_ATCD_AUTRE",
       "value": "0"
+    },
+    {
+      "conditions": "\"13\" in q_S_OPH_001",
+      "tagOID": "S_OPH_ATCD_AUTRE",
+      "value": "1"
     }
   ]
 }

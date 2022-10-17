@@ -12,11 +12,6 @@
   "scores":[
     {
       "tagOID": "Tag_VToxiquePersoCuisine",
-      "conditions": "q_VToxiquePersoCuisine == '0'",
-      "value": 0
-    },
-    {
-      "tagOID": "Tag_VToxiquePersoCuisine",
       "conditions": "q_VToxiquePersoCuisine == '1'",
       "value": 1
     },

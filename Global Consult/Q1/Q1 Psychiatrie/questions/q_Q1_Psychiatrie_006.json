@@ -52,123 +52,63 @@
   ],
   "scores": [
     {
-      "conditions": "q_Q1_Psychiatrie_006 in \"paranoide\"",
+      "conditions": "\"paranoide\" in q_Q1_Psychiatrie_006",
       "tagOID": "S_PSY_ATCD_PERSONNALITE_PARANOIDE",
       "value": 1
     },
     {
-      "conditions": "!(\"paranoide\" in q_Q1_Psychiatrie_006)",
-      "tagOID": "S_PSY_ATCD_PERSONNALITE_PARANOIDE",
-      "value": 0
-    },
-    {
-      "conditions": "q_Q1_Psychiatrie_006 in \"schizoide\"",
+      "conditions": "\"schizoide\" in q_Q1_Psychiatrie_006",
       "tagOID": "S_PSY_ATCD_PERSONNALITE_SCHIZOIDE",
       "value": 1
     },
     {
-      "conditions": "!(\"schizoide\" in q_Q1_Psychiatrie_006)",
-      "tagOID": "S_PSY_ATCD_PERSONNALITE_SCHIZOIDE",
-      "value": 0
-    },
-    {
-      "conditions": "q_Q1_Psychiatrie_006 in \"schizophrenie\"",
+      "conditions": "\"schizophrenie\" in q_Q1_Psychiatrie_006",
       "tagOID": "S_PSY_ATCD_PERSONNALITE_SCHIZOTYPIQUE",
       "value": 1
     },
     {
-      "conditions": "!(\"schizophrenie\" in q_Q1_Psychiatrie_006)",
-      "tagOID": "S_PSY_ATCD_PERSONNALITE_SCHIZOTYPIQUE",
-      "value": 0
-    },
-    {
-      "conditions": "q_Q1_Psychiatrie_006 in \"antisociale\"",
+      "conditions": "\"antisociale\" in q_Q1_Psychiatrie_006",
       "tagOID": "S_PSY_ATCD_PERSONNALITE_ANTISOCIALE",
       "value": 1
     },
     {
-      "conditions": "!(\"antisociale\" in q_Q1_Psychiatrie_006)",
-      "tagOID": "S_PSY_ATCD_PERSONNALITE_ANTISOCIALE",
-      "value": 0
-    },
-    {
-      "conditions": "q_Q1_Psychiatrie_006 in \"borderline\"",
+      "conditions": "\"borderline\" in q_Q1_Psychiatrie_006",
       "tagOID": "S_PSY_ATCD_PERSONNALITE_BORDERLINE",
       "value": 1
     },
     {
-      "conditions": "!(\"borderline\" in q_Q1_Psychiatrie_006)",
-      "tagOID": "S_PSY_ATCD_PERSONNALITE_BORDERLINE",
-      "value": 0
-    },
-    {
-      "conditions": "q_Q1_Psychiatrie_006 in \"Histrionique\"",
+      "conditions": "\"Histrionique\" in q_Q1_Psychiatrie_006",
       "tagOID": "S_PSY_ATCD_PERSONNALITE_HISTRIONIQUE",
       "value": 1
     },
     {
-      "conditions": "!(\"Histrionique\" in q_Q1_Psychiatrie_006)",
-      "tagOID": "S_PSY_ATCD_PERSONNALITE_HISTRIONIQUE",
-      "value": 0
-    },
-    {
-      "conditions": "q_Q1_Psychiatrie_006 in \"narcissique\"",
+      "conditions": "\"narcissique\" in q_Q1_Psychiatrie_006",
       "tagOID": "S_PSY_ATCD_PERSONNALITE_NARCISSIQUE",
       "value": 1
     },
     {
-      "conditions": "!(\"narcissique\" in q_Q1_Psychiatrie_006)",
-      "tagOID": "S_PSY_ATCD_PERSONNALITE_NARCISSIQUE",
-      "value": 0
-    },
-    {
-      "conditions": "q_Q1_Psychiatrie_006 in \"evitante\"",
+      "conditions": "\"evitante\" in q_Q1_Psychiatrie_006",
       "tagOID": "S_PSY_ATCD_PERSONNALITE_EVITANT",
       "value": 1
     },
     {
-      "conditions": "!(\"evitante\" in q_Q1_Psychiatrie_006)",
-      "tagOID": "S_PSY_ATCD_PERSONNALITE_EVITANT",
-      "value": 0
-    },
-    {
-      "conditions": "q_Q1_Psychiatrie_006 in \"dependante\"",
+      "conditions": "\"dependante\" in q_Q1_Psychiatrie_006",
       "tagOID": "S_PSY_ATCD_PERSONNALITE_DEPENDANT",
       "value": 1
     },
     {
-      "conditions": "!(\"dependante\" in q_Q1_Psychiatrie_006)",
-      "tagOID": "S_PSY_ATCD_PERSONNALITE_DEPENDANT",
-      "value": 0
-    },
-    {
-      "conditions": "q_Q1_Psychiatrie_006 in \"obsessionnelle compulsive\"",
+      "conditions": "\"obsessionnelle compulsive\" in q_Q1_Psychiatrie_006",
       "tagOID": "S_PSY_ATCD_PERSONNALITE_OBSESSIONNEL",
       "value": 1
     },
     {
-      "conditions": "!(\"obsessionnelle compulsive\" in q_Q1_Psychiatrie_006)",
-      "tagOID": "S_PSY_ATCD_PERSONNALITE_OBSESSIONNEL",
-      "value": 0
-    },
-    {
-      "conditions": "q_Q1_Psychiatrie_006 in \"aucun\"",
+      "conditions": "\"aucun\" in q_Q1_Psychiatrie_006",
       "tagOID": "S_PSY_ATCD_PERSONNALITE",
       "value": 0
     },
     {
       "conditions": "!(\"aucun\" in q_Q1_Psychiatrie_006)",
       "tagOID": "S_PSY_ATCD_PERSONNALITE",
-      "value": 1
-    },
-    {
-      "conditions": "q_Q1_Psychiatrie_006 in \"aucun\"",
-      "tagOID": "S_PSY_ATCD",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"aucun\" in q_Q1_Psychiatrie_006)",
-      "tagOID": "S_PSY_ATCD",
       "value": 1
     }
   ]

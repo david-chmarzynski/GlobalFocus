@@ -1,7 +1,7 @@
 {
   "oid": "q_VSomSuspicionSAOSBerlin6",
-  "title": "Combien de fois vous arrive-t-il de vous sentir fatigué ou las après votre nuit de sommeil ?",
-  "text": "Combien de fois vous arrive-t-il de vous sentir fatigué ou las après votre nuit de sommeil ?",
+  "title": "Combien de fois vous arrive-t-il de vous sentir fatigué ou pas après votre nuit de sommeil ?",
+  "text": "Combien de fois vous arrive-t-il de vous sentir fatigué ou pas après votre nuit de sommeil ?",
   "type": "SINGLE_CHOICE_RADIO",
   "choices": [
     {

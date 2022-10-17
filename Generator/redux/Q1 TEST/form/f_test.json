@@ -1,0 +1,1683 @@
+{
+  "oid": "f_test",
+  "title": "Global Consult Q1 test",
+  "estimatedTime": 60,
+  "pricing": 1,
+  "description": "Ce questionnaire est totalement personnel et confidentiel. Vos données de santé seront rendues anonymes et seront sécurisées selon les critères les plus stricts de la CNIL. Elles seront stockées dans un serveur d’un hébergeur agréé HDS de droit souverain européen(Lien fiche A4 d’accord-confidentialité). Ce questionnaire a pour but de mieux vous connaître pour optimiser votre consultation. Le temps nécessaire est variable (de 45 minutes à une heure). Voici quelques conseils : Prenez un moment de calme et de réflexion pour pouvoir répondre sereinement au questionnaire ; préparez votre dossier de santé : ordonnance de traitement, allergie médicamenteuse éventuelle, antécédents personnels de santé ; vous aurez aussi besoin d’un mètre de couturière ; de connaître votre poids et votre taille.",
+  "levelMax": "1",
+  "authors": ["Jean-Philippe Astruc", "Jacques Bassier"],
+  "chapters": ["chap_test"],
+  "professions": ["DENTIST"],
+  "fromReport": {
+    "reports": {
+      "custom": "\n# **RAPPORT PERSONNALISÉ DE** \n{{patient_gender}} {{patient_firstname}} {{patient_lastname}} {{patient_age}} \n **Motif de consultation :** *{{question_q_infos_generales_016_answer}}* \n\n## **Motivation par rapport au projet de santé :** \n*{{question_q_VTeteMotivationStade_answer}}* \n **Niveau d'importance :** *{{question_q_VTeteMotivationEnvie_answer}}* /10 \n **Confiance en soi / réalisation du projet :** *{{question_q_VTeteMotivationConfiance_answer}}* /10 \n **Moment favorable / réalisation du projet :** *{{question_q_VTeteMotivationPret_answer}}* /10 \n \n## **Personnalité :** \n **Tendance dominante :** *{{global_q_VTeteCouleur_answer}}* \n **Tension émotionnelle (niveau habituel) :** *{{global_q_VTeteTensionEmotionnelle_answer}}* \n **Anxiété-trait :** *{{global_q_VTeteAnxieteTrait_answer}}* \n **Perfectionnisme :** *{{global_q_VTetePerfectionnisme_answer}}* \n **Stress actuel :** *{{global_q_VTeteStressGlobal_answer}}* \n \n## **Perception de soi :** \n**Image corporelle :** *{{global_q_VTeteImageCorporelle_answer}}* \n **Affirmation de soi :** *{{global_q_VTeteADSGlobale_answer}}* \n **Confiance en soi :** *{{global_q_VTeteConfianceSoi_answer}}* /10 \n **Estime de soi :** *{{global_q_VTeteEstimeSoi_answer}}* \n \n## **Contexte de vie actuel :** \n**Auto-évaluation globale :** *{{global_q_VContexteVieQDVGlobal_answer}}* \n **Santé/santé optimale :** *{{global_q_VContexteQDVSante_answer}}* \n **Douleurs :** *{{global_q_VContexteQDVDouleurs_answer}}* \n **État émotionnel (anxiété-dépression) :** *{{global_q_VContexteQDVEmotionnel_answer}}* \n **Plaintes cognitives :** *{{global_q_VContexteQDVCognitif_answer}}* \n **Difficultés à la marche :** *{{global_q_VContexteQDVMobilite_answer}}* \n **Difficultés à se laver ou s'habiller :** *{{global_q_VContexteQDVAutonomie_answer}}* \n **Difficultés à effectuer les activités de la vie courante :** *{{global_q_VContexteQDVActivites_answer}}* \n \n## **Exposition aux toxiques environnementaux :** \n**Auto-évaluation globale :** *{{global_q_VToxiqueGlobal_answer}}* \n **Exposition toxique au travail :** *{{global_q_VToxiqueW_answer}}* \n **Aération du logement :** *{{global_q_VToxiqueIntAeration_answer}}* \n **Utilisation de produits chimiques ménagers :** *{{global_q_VToxiqueIntEntretien_answer}}* \n **Alimentation bio ou raisonnée :** *{{global_q_VToxiquePersoAlimentation_answer}}* \n **Consommation de drogues :** *{{global_q_VToxiquePersoDrogues_answer}}* \n **Alcool :** *{{global_q_VToxiquePersoAlcool_answer}}* \n **Tabac :** *{{global_q_VToxiquePersoTabac_answer}}* \n **Paquets-année :** *{{global_calc_VToxiquePersoTabacPA_answer}}* \n **Questionnaire HSI :** *{{global_calc_VToxiquePersoTabacHSI_answer}}* \n **Tabagisme passif :** *{{global_q_VToxiquePersoTabac_answer}}* \n \n## **Sommeil actuel :** \n **Auto-évaluation globale du sommeil :** *{{global_q_VSomSatisfactionGlobale_answer}}* \n **Contexte habituel :** *{{global_q_VSomContexteRythmesGlobal_answer}}* \n **Besoin d’une aide pour dormir :** *{{global_q_VSomAideMedicament_answer}}* \n **Difficultés d’endormissement :** *{{global_q_VSomEndormissement_answer}}* \n **Difficultés de maintien du sommeil :** *{{global_q_VSomMaintien_answer}}* \n **Durée du sommeil :** *{{global_q_VSomSatisfactionQuantite_answer}}* \n **Qualité du sommeil :** *{{global_q_VSomSatisfactionQualite_answer}}* \n **Asthénie matinale :** *{{global_q_VSomAsthenieMatinale_answer}}* \n **Asthénie diurne (en lien avec le sommeil) :** *{{global_q_VSomAsthenieDiurne_answer}}* \n \n## **Alimentation habituelle :** \n**Auto-évaluation globale :** *{{global_q_VAlimentationGlobal_answer}}* \n **Choix alimentaire :** *{{global_q_VAlimentationContrainteChoix_answer}}* \n **Typologie alimentaire :** *{{global_q_VAlimentationTypologie_answer}}* \n **Contraintes alimentaires / santé :** *{{global_q_VAlimentationContrainteSante_answer}}* \n **Comportement alimentaire (auto-évaluation) :** *{{global_q_VAlimentationComportementGlobal_answer}}* \n \n## **Activité physique – Sédentarité :** \n**Auto-évaluation globale de l’activité physique habituelle :** *{{global_q_VBougerGlobal_answer}}* \n **Activité physique habituelle :** *{{global_q_VBougerAP_answer}}* \n **Sédentarité (temps passé assis ou allongé hors sommeil) :** *{{global_q_VBougerSedentarite_answer}}* \n"
+    }
+  },
+  "reportingTrees": [
+    {
+      "category": "HEALTH",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "S_ORL",
+        "type": "SCORE",
+        "hideNodeIfEmpty": true,
+        "ranges": [
+          {
+            "min": 0,
+            "max": 0,
+            "color": "00FF00",
+            "text": "ORL"
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "color": "FFFF00",
+            "text": "ORL"
+          },
+          {
+            "min": 2,
+            "max": 2,
+            "color": "FF9900",
+            "text": "ORL"
+          },
+          {
+            "min": 3,
+            "max": 3,
+            "color": "FF0000",
+            "text": "ORL"
+          }
+        ],
+        "children": [
+          {
+            "tagOID": "S_ORL_ATCD_OREILLE",
+            "type": "SCORE",
+            "hideNodeIfEmpty": true,
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "A/OREIL"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "A/OREIL"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_ORL_ATCD_OREILLE_ACOUPHENES",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ACOU"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ACOU"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_OREILLE_HYPOACOUSIE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "HYPO"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "HYPO"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_OREILLE_CHIRURGIE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CHIR"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CHIR"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_OREILLE_NEURINOME",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "NEURI"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "NEURI"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_OREILLE_VERTIGES",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "VERTIG"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "VERTIG"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_OREILLE_CANCER",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CANCER"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CANCER"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_OREILLE_AUTRE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AUTRE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AUTRE"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },  
+          {
+            "tagOID": "S_ORL_ATCD_NEZ",
+            "type": "SCORE",
+            "hideNodeIfEmpty": true,
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "A/NEZ"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "A/NEZ"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_ORL_ATCD_NEZ_RHINITE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "RHIN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "RHIN"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_NEZ_SINUSITE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "SINUS"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "SINUS"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_NEZ_POLYPOSE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "POLYP"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "POLYP"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_NEZ_ANOSMIE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ANO"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ANO"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_NEZ_ADENOIDECTOMIE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ADENO"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ADENO"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_NEZ_CANCER",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CANCER"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CANCER"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_NEZ_AUTRE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AUTRE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AUTRE"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },      
+          {
+            "tagOID": "S_ORL_ATCD_GORGE",
+            "type": "SCORE",
+            "hideNodeIfEmpty": true,
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "A/GORGE"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "A/GORGE"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_ORL_ATCD_GORGE_ABCES",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ABCES"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ABCES"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_GORGE_AMYGDALECTOMIE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AMYGD"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AMYGD"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_GORGE_POLYPE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "POLYP"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "POLYP"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_GORGE_CANCER",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CANCER"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CANCER"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_GORGE_AUTRE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AUTRE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AUTRE"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "S_ORL_ATCD_BOUCHE",
+            "type": "SCORE",
+            "hideNodeIfEmpty": true,
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "A/BOUCHE"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "A/BOUCHE"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_ORL_ATCD_BOUCHE_HERPES",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "HERPES"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "HERPES"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_BOUCHE_MYCOSE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "MYCOS"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "MYCOS"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_BOUCHE_LITHIASE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "LITHIA"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "LITHIA"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_BOUCHE_AGUEUSIE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AGUEU"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AGUEU"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_BOUCHE_CANCER",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CANCER"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CANCER"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_BOUCHE_AUTRE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AUTRE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AUTRE"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "category": "HEALTH",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "S_GYN",
+        "type": "SCORE",
+        "hideNodeIfEmpty": true,
+        "ranges": [
+          {
+            "min": 0,
+            "max": 0,
+            "color": "00FF00",
+            "text": "GYN"
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "color": "FFFF00",
+            "text": "GYN"
+          },
+          {
+            "min": 2,
+            "max": 2,
+            "color": "FF9900",
+            "text": "GYN"
+          },
+          {
+            "min": 3,
+            "max": 3,
+            "color": "FF0000",
+            "text": "GYN"
+          }
+        ],
+        "children": [
+          {
+            "tagOID": "S_GYN_ATCD_VULVE_VAGIN",
+            "type": "SCORE",
+            "hideNodeIfEmpty": true,
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "ATCD VULVE-VAGIN"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "ATCD VULVE-VAGIN"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_GYN_ATCD_VULVE_VAGIN_MYCOSE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "MYCOS"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "MYCOS"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_VULVE_VAGIN_AUTRES",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AUTRE INF"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AUTRE INF"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_VULVE_VAGIN_CANCER_VAGIN",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "KC VAGIN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "KC VAGIN"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_VULVE_VAGIN_CANCER_VULVE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "KC VULVE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "KC VULVE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_VULVE_VAGIN_PROLAPSUS",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "PROLAPS GEN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "PROLAPS GEN"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_VULVE_VAGIN_BARTHOLINITE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "BARTHOLIN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "BARTHOLIN"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_VULVE_VAGIN_HERPES",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "HERPES GEN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "HERPES GEN"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_VULVE_VAGIN_CHLAMYDIAE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CHLAMYD"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CHLAMYD"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_VULVE_VAGIN_GONOCOQUE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "GONOC"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "GONOC"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_VULVE_VAGIN_MYCOPLASME",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "MYCOPL"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "MYCOPL"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_VULVE_VAGIN_TRICHOMONAS",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "TRICHOM"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "TRICHOM"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_VULVE_VAGIN_SYPHILIS",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "SYPHIL"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "SYPHIL"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_VULVE_VAGIN_AUTRES_INF",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AUTRE INF"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AUTRE INF"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "S_GYN_ATCD_SEIN",
+            "type": "SCORE",
+            "hideNodeIfEmpty": true,
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "ATCD SEIN"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "ATCD SEIN"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_GYN_ATCD_SEIN_CANCER",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "KC SEIN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "KC SEIN"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_SEIN_KYSTE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "KYST SEIN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "KYST SEIN"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_SEIN_MASTOSE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "MASTOSE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "MASTOSE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_SEIN_MASTECTOMIE_PARTIELLE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "MASTEC PART"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "MASTEC PART"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_SEIN_MASTECTOMIE_TOTALE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "MASTEC TOT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "MASTEC TOT"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_SEIN_PROTHESE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "PROTHESE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "PROTHESE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_SEIN_REDUCTION",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "REDUCTION"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "REDUCTION"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_SEIN_MASTITE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "MASTITE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "MASTITE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_SEIN_AUTRES",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AUTRES"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AUTRES"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "S_GYN_ATCD_OVAIRE",
+            "type": "SCORE",
+            "hideNodeIfEmpty": true,
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "ATCD OVAIRE"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "ATCD OVAIRE"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_GYN_ATCD_OVAIRE_CANCER",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "KC OVAIRE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "KC OVAIRE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_OVAIRE_OVARIECTOMIE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "OVARIECT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "OVARIECT"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_OVAIRE_KYSTE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "KYST OVA"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "KYST OVA"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_OVAIRE_SOPK",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "SOPK"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "SOPK"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_OVAIRE_SPM",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "SPM"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "SPM"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_OVAIRE_INFERTILITE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "INFERT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "INFERT"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_OVAIRE_PMA",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "PMA"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "PMA"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_OVAIRE_AUTRES",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AUTRES"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AUTRES"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "S_GYN_ATCD_UTERUS",
+            "type": "SCORE",
+            "hideNodeIfEmpty": true,
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "ATCD UTERUS"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "ATCD UTERUS"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "S_GYN_ATCD_UTERUS_CANCER_ENDOMETRE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "KC ENDOMET"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "KC ENDOMET"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_UTERUS_CANCER_COL",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "KC COL"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "KC COL"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_UTERUS_FCS",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "FCS"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "FCS"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_UTERUS_IVG",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "IVG"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "IVG"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_UTERUS_IMG",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "IMG"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "IMG"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_UTERUS_GEU",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "GEU"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "GEU"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_UTERUS_CESARIENNE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CESARIEN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CESARIEN"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_UTERUS_FIBROME",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "FIBROME"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "FIBROME"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_UTERUS_HYSTERECTOMIE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "HYSTERECT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "HYSTERECT"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_UTERUS_ENDOMETRIOSE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ENDOMET"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ENDOMET"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_UTERUS_SALPINGITE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "SALPING"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "SALPING"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_UTERUS_HPV",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "HPV"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "HPV"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_UTERUS_DYSPLASIE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "DYSP COL"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "DYSP COL"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_UTERUS_CONISATION",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CONISAT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CONISAT"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_GYN_ATCD_UTERUS_AUTRES",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AUTRES"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AUTRES"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "category": "HEALTH",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "SEXE",
+        "type": "SCORE",
+        "ranges": [
+          {
+            "min": 0,
+            "max": 0,
+            "color": "00FF00",
+            "text": "SEXE CHR"
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "color": "00FF00",
+            "text": "SEXE CHR"
+          }
+        ],
+        "children": []
+      }
+    }
+  ]
+}

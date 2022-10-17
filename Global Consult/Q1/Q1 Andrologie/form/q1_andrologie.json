@@ -16,6 +16,7 @@
       "reportingNode": {
         "tagOID": "S_AND",
         "type": "SCORE",
+        "hideNodeIfEmpty": true,
         "ranges": [
           {
             "min": 0,
@@ -46,6 +47,7 @@
           {
             "tagOID": "S_AND_ATCD",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -64,6 +66,7 @@
               {
                 "tagOID": "S_AND_ATCD_CANCER_PROSTATE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -83,6 +86,7 @@
               {
                 "tagOID": "S_AND_ATCD_CANCER_TESTICULES",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -102,6 +106,7 @@
               {
                 "tagOID": "S_AND_ATCD_HBP",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -121,6 +126,7 @@
               {
                 "tagOID": "S_AND_ATCD_CHIR_PROSTATE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -140,6 +146,7 @@
               {
                 "tagOID": "S_AND_ATCD_PROSTATITE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -159,6 +166,7 @@
               {
                 "tagOID": "S_AND_ATCD_ORCHITE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -178,6 +186,7 @@
               {
                 "tagOID": "S_AND_ATCD_EPIDIDYMITE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -197,6 +206,7 @@
               {
                 "tagOID": "S_AND_ATCD_TORSION_TESTICULE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -216,6 +226,7 @@
               {
                 "tagOID": "S_AND_ATCD_VARICOCELE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -235,6 +246,7 @@
               {
                 "tagOID": "S_AND_ATCD_INFERTILITE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -254,6 +266,7 @@
               {
                 "tagOID": "S_AND_ATCD_CHLAMYDIA",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -273,6 +286,7 @@
               {
                 "tagOID": "S_AND_ATCD_MST",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -292,6 +306,7 @@
               {
                 "tagOID": "S_AND_ATCD_AUTRES",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -309,114 +324,6 @@
                 "children": []
               }
             ]
-          },
-          {
-            "tagOID": "S_AND_SYMP",
-            "type": "SCORE",
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "SYMP"
-              },
-              {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "SYMP"
-              }
-            ],
-            "children": [
-              {
-                "tagOID": "S_AND_SYMP_GENITAL_DOULEUR_TESTICULE",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "DLR TEST"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "DLR TEST"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_AND_SYMP_GENITAL_ECOULEMENT",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "ECOUL GLAND"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "ECOUL GLAND"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_AND_SYMP_GENITAL_DEMANGEAISONS",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "PRURIT GLAND"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "PRURIT GLAND"
-                  }
-                ],
-                "children": []
-              }
-            ]
-          },
-          {
-            "tagOID": "S_AND_SYMP_HYPOTESTOSTERONE",
-            "type": "SCORE",
-            "ranges": [
-              {
-                "min": 0,
-                "max": 7,
-                "color": "00FF00",
-                "text": "HYPOTEST"
-              },
-              {
-                "min": 8,
-                "max": 12,
-                "color": "FFFF00",
-                "text": "HYPOTEST"
-              },
-              {
-                "min": 13,
-                "max": 20,
-                "color": "FF9900",
-                "text": "HYPOTEST"
-              },
-              {
-                "min": 21,
-                "max": 30,
-                "color": "FF0000",
-                "text": "HYPOTEST"
-              }
-            ],
-            "children": []
           }
         ]
       }

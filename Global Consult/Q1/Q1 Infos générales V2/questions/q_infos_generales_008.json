@@ -1,7 +1,7 @@
 {
   "oid": "q_infos_generales_008",
-  "title": "Pour quelle(s) raison(s) ne travaillez-vous pas actuellement ? ",
-  "text": "Pour quelle(s) raison(s) ne travaillez-vous pas actuellement ? ",
+  "title": "Quelle est votre profession actuelle ?",
+  "text": "Quelle est votre profession actuelle ?",
   "type": "TEXT",
   "choices": [],
   "scores": []

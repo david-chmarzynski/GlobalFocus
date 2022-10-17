@@ -1,0 +1,127 @@
+{
+  "oid": "q_q1_rhumatologie_014",
+  "title": "Précisez la localisation de votre(vos) intervention(s) (plusieurs réponses possibles) ?",
+  "text": "Précisez la localisation de votre(vos) intervention(s) (plusieurs réponses possibles) ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "Fracture épaule droite",
+      "text": "Fracture épaule droite"
+    },
+    {
+      "code": "Fracture épaule gauche",
+      "text": "Fracture épaule gauche"
+    },
+    {
+      "code": "Coiffe des rotateurs à droite",
+      "text": "Coiffe des rotateurs à droite"
+    },
+    {
+      "code": "Coiffe des rotateurs à gauche",
+      "text": "Coiffe des rotateurs à gauche"
+    },
+    {
+      "code": "Fracture coude droit",
+      "text": "Fracture coude droit"
+    },
+    {
+      "code": "Fracture coude gauche",
+      "text": "Fracture coude gauche"
+    },
+    {
+      "code": "Fracture poignet droit",
+      "text": "Fracture poignet droit"
+    },
+    {
+      "code": "Fracture poignet gauche",
+      "text": "Fracture poignet gauche"
+    },
+    {
+      "code": "Fracture main droite",
+      "text": "Fracture main droite"
+    },
+    {
+      "code": "Fracture main gauche",
+      "text": "Fracture main gauche"
+    },
+    {
+      "code": "Chirurgie arthrose du pouce droit",
+      "text": "Chirurgie arthrose du pouce droit"
+    },
+    {
+      "code": "Chirurgie arthrose du pouce gauche",
+      "text": "Chirurgie arthrose du pouce gauche"
+    },
+    {
+      "code": "Autre(s) chirurgie(s) des membres supérieurs",
+      "text": "Autre(s) chirurgie(s) des membres supérieurs"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"Fracture épaule droite\" in q_q1_rhumatologie_014",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_FRACT_EPAULE_D",
+      "value": 1
+    },
+    {
+      "conditions": "\"Fracture épaule gauche\" in q_q1_rhumatologie_014",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_FRACT_EPAULE_G",
+      "value": 1
+    },
+    {
+      "conditions": "\"Coiffe des rotateurs à droite\" in q_q1_rhumatologie_014",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_COIF_ROT_D",
+      "value": 1
+    },
+    {
+      "conditions": "\"Coiffe des rotateurs à gauche\" in q_q1_rhumatologie_014",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_COIF_ROT_G",
+      "value": 1
+    },
+    {
+      "conditions": "\"Fracture coude droit\" in q_q1_rhumatologie_014",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_FRACT_COUDE_D",
+      "value": 1
+    },
+    {
+      "conditions": "\"Fracture coude gauche\" in q_q1_rhumatologie_014",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_FRACT_COUDE_G",
+      "value": 1
+    },
+    {
+      "conditions": "\"Fracture poignet droit\" in q_q1_rhumatologie_014",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_FRACT_POIGNET_D",
+      "value": 1
+    },
+    {
+      "conditions": "\"Fracture poignet gauche\" in q_q1_rhumatologie_014",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_FRACT_POIGNET_G",
+      "value": 1
+    },
+    {
+      "conditions": "\"Fracture main droite\" in q_q1_rhumatologie_014",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_FRACT_MAIN_D",
+      "value": 1
+    },
+    {
+      "conditions": "\"Fracture main gauche\" in q_q1_rhumatologie_014",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_FRACT_MAIN_G",
+      "value": 1
+    },
+    {
+      "conditions": "\"Chirurgie arthrose du pouce droit\" in q_q1_rhumatologie_014",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_ARTHROSE_POUCE_D",
+      "value": 1
+    },
+    {
+      "conditions": "\"Chirurgie arthrose du pouce gauche\" in q_q1_rhumatologie_014",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_ARTHROSE_POUCE_G",
+      "value": 1
+    },
+    {
+      "conditions": "\"Autre(s) chirurgie(s) des membres supérieurs\" in q_q1_rhumatologie_014",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP_AUTRE",
+      "value": 1
+    }
+  ]
+}

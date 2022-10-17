@@ -61,19 +61,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"cancer rein\" in q_Q1_uro_nephrologie_001)",
-      "tagOID": "S_UN_ATCD_CANCER_REIN",
-      "value": 0
-    },
-    {
       "conditions": "\"Cancer de la vessie\" in q_Q1_uro_nephrologie_001",
       "tagOID": "S_UN_ATCD_CANCER_VESSIE",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Cancer de la vessie\" in q_Q1_uro_nephrologie_001)",
-      "tagOID": "S_UN_ATCD_CANCER_VESSIE",
-      "value": 0
     },
     {
       "conditions": "\"Polykystose rénale\" in q_Q1_uro_nephrologie_001",
@@ -81,19 +71,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Polykystose rénale\" in q_Q1_uro_nephrologie_001)",
-      "tagOID": "S_UN_ATCD_POLYKYSTOSE_RENALE",
-      "value": 0
-    },
-    {
       "conditions": "\"Insuffisance rénale\" in q_Q1_uro_nephrologie_001",
       "tagOID": "S_UN_ATCD_INSUFFISANCE_RENALE",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Insuffisance rénale\" in q_Q1_uro_nephrologie_001)",
-      "tagOID": "S_UN_ATCD_INSUFFISANCE_RENALE",
-      "value": 0
     },
     {
       "conditions": "\"Coliques néphrétiques\" in q_Q1_uro_nephrologie_001",
@@ -101,19 +81,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Coliques néphrétiques\" in q_Q1_uro_nephrologie_001)",
-      "tagOID": "S_UN_ATCD_LITHIASE _URINAIRE",
-      "value": 0
-    },
-    {
       "conditions": "\"Pyélonéphrite(s)\" in q_Q1_uro_nephrologie_001",
       "tagOID": "S_UN_ATCD_PYELONEPHRITE",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Pyélonéphrite(s)\" in q_Q1_uro_nephrologie_001)",
-      "tagOID": "S_UN_ATCD_PYELONEPHRITE",
-      "value": 0
     },
     {
       "conditions": "\"Malformation de l’uretère\" in q_Q1_uro_nephrologie_001",
@@ -121,19 +91,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Malformation de l’uretère\" in q_Q1_uro_nephrologie_001)",
-      "tagOID": "S_UN_ATCD_MALFORMATION_URETERE",
-      "value": 0
-    },
-    {
       "conditions": "\"Polype(s) de la vessie\" in q_Q1_uro_nephrologie_001",
       "tagOID": "S_UN_ATCD_POLYPE_VESSIE",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Polype(s) de la vessie\" in q_Q1_uro_nephrologie_001)",
-      "tagOID": "S_UN_ATCD_POLYPE_VESSIE",
-      "value": 0
     },
     {
       "conditions": "\"Infections urinaires à répétition\" in q_Q1_uro_nephrologie_001",
@@ -141,29 +101,14 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Infections urinaires à répétition\" in q_Q1_uro_nephrologie_001)",
-      "tagOID": "S_UN_ATCD_INFECTION_URINAIRE_REPETITION",
-      "value": 0
-    },
-    {
       "conditions": "\"Incontinence urinaire\" in q_Q1_uro_nephrologie_001",
       "tagOID": "S_UN_ATCD_INCONTINENCE",
       "value": 1
     },
     {
-      "conditions": "!(\"Incontinence urinaire\" in q_Q1_uro_nephrologie_001)",
-      "tagOID": "S_UN_ATCD_INCONTINENCE",
-      "value": 0
-    },
-    {
       "conditions": "\"autres\" in q_Q1_uro_nephrologie_001",
       "tagOID": "S_UN_ATCD_AUTRES",
       "value": 1
-    },
-    {
-      "conditions": "!(\"autres\" in q_Q1_uro_nephrologie_001)",
-      "tagOID": "S_UN_ATCD_AUTRES",
-      "value": 0
     }
   ]
 }

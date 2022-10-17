@@ -38,6 +38,10 @@
     },
     {
       "code": "8",
+      "text": "Régime cétogène-Kéto"
+    },
+    {
+      "code": "aucun",
       "text": "Aucune de ces réponses",
       "exclusive": true
     }
@@ -85,11 +89,11 @@
     },
     {
       "conditions": "\"8\" in q_q1_alimentation_005",
-      "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ",
-      "value": 0
+      "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_CETOGENE",
+      "value": 1
     },
     {
-      "conditions": "!(\"8\" in q_q1_alimentation_005)",
+      "conditions": "!(\"aucun\" in q_q1_alimentation_005)",
       "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ",
       "value": 1
     }

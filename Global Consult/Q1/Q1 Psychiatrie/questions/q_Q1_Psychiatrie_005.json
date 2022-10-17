@@ -45,19 +45,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"tdha\" in q_Q1_Psychiatrie_005)",
-      "tagOID": "S_PSY_ATCD_NEURO_DEV_TDHA",
-      "value": 0
-    },
-    {
       "conditions": "\"impulsivite\" in q_Q1_Psychiatrie_005",
       "tagOID": "S_PSY_ATCD_NEURO_DEV_IMPULSIVITE",
       "value": 1
-    },
-    {
-      "conditions": "!(\"impulsivite\" in q_Q1_Psychiatrie_005)",
-      "tagOID": "S_PSY_ATCD_NEURO_DEV_IMPULSIVITE",
-      "value": 0
     },
     {
       "conditions": "\"dyslexie\" in q_Q1_Psychiatrie_005",
@@ -65,19 +55,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"dyslexie\" in q_Q1_Psychiatrie_005)",
-      "tagOID": "S_PSY_ATCD_NEURO_DEV_DYSLEXIE",
-      "value": 0
-    },
-    {
       "conditions": "\"dysorthographie\" in q_Q1_Psychiatrie_005",
       "tagOID": "S_PSY_ATCD_NEURO_DEV_DYSORTHO",
       "value": 1
-    },
-    {
-      "conditions": "!(\"dysorthographie\" in q_Q1_Psychiatrie_005)",
-      "tagOID": "S_PSY_ATCD_NEURO_DEV_DYSORTHO",
-      "value": 0
     },
     {
       "conditions": "\"dyscalculie\" in q_Q1_Psychiatrie_005",
@@ -85,19 +65,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"dyscalculie\" in q_Q1_Psychiatrie_005)",
-      "tagOID": "S_PSY_ATCD_NEURO_DEV_DYSCALC",
-      "value": 0
-    },
-    {
       "conditions": "\"dyspraxie\" in q_Q1_Psychiatrie_005",
       "tagOID": "S_PSY_ATCD_NEURO_DEV_DYSPRAXIE",
       "value": 1
-    },
-    {
-      "conditions": "!(\"dyspraxie\" in q_Q1_Psychiatrie_005)",
-      "tagOID": "S_PSY_ATCD_NEURO_DEV_DYSPRAXIE",
-      "value": 0
     },
     {
       "conditions": "\"autres\" in q_Q1_Psychiatrie_005",
@@ -105,11 +75,6 @@
       "value": 1
     },
     {
-      "conditions": "!(\"autres\" in q_Q1_Psychiatrie_005)",
-      "tagOID": "S_PSY_ATCD_NEURO_DEV_AUTRE",
-      "value": 0
-    },
-    {
       "conditions": "\"aucun\" in q_Q1_Psychiatrie_005",
       "tagOID": "S_PSY_ATCD_NEURO_DEV",
       "value": 0
@@ -117,16 +82,6 @@
     {
       "conditions": "!(\"aucun\" in q_Q1_Psychiatrie_005)",
       "tagOID": "S_PSY_ATCD_NEURO_DEV",
-      "value": 1
-    },
-    {
-      "conditions": "\"aucun\" in q_Q1_Psychiatrie_005",
-      "tagOID": "S_PSY_ATCD",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"aucun\" in q_Q1_Psychiatrie_005)",
-      "tagOID": "S_PSY_ATCD",
       "value": 1
     }
   ]

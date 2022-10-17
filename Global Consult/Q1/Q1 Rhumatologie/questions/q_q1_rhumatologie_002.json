@@ -1,0 +1,52 @@
+{
+  "oid": "q_q1_rhumatologie_002",
+  "title": "De quoi avez-vous été opéré (plusieurs réponses possibles)",
+  "text": "De quoi avez-vous été opéré (plusieurs réponses possibles)",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "Intervention(s) du rachis (vertèbres, disques)",
+      "text": "Intervention(s) du rachis (vertèbres, disques)"
+    },
+    {
+      "code": "Intervention(s) membres supérieurs",
+      "text": "Intervention(s) membres supérieurs"
+    },
+    {
+      "code": "Intervention(s) membres inférieurs",
+      "text": "Intervention(s) membres inférieurs"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"Intervention(s) du rachis (vertèbres, disques)\" in q_q1_rhumatologie_002",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Intervention(s) du rachis (vertèbres, disques)\" in q_q1_rhumatologie_002)",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS",
+      "value": 0
+    },
+    {
+      "conditions": "\"Intervention(s) membres supérieurs\" in q_q1_rhumatologie_002",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Intervention(s) membres supérieurs\" in q_q1_rhumatologie_002)",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP",
+      "value": 0
+    },
+    {
+      "conditions": "\"Intervention(s) membres inférieurs\" in q_q1_rhumatologie_002",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Intervention(s) membres inférieurs\" in q_q1_rhumatologie_002)",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF",
+      "value": 0
+    }
+  ]
+}

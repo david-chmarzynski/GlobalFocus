@@ -41,19 +41,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Hypertension artérielle traitée\" in q_q1_homeostasie_003)",
-      "tagOID": "S_HOMEO_CELL_ATCD_EAB_HTA",
-      "value": 0
-    },
-    {
       "conditions": "\"Rein\" in q_q1_homeostasie_003",
       "tagOID": "S_HOMEO_CELL_ATCD_EAB_REIN",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Rein\" in q_q1_homeostasie_003)",
-      "tagOID": "S_HOMEO_CELL_ATCD_EAB_REIN",
-      "value": 0
     },
     {
       "conditions": "\"Trouble anxieux\" in q_q1_homeostasie_003",
@@ -61,19 +51,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Trouble anxieux\" in q_q1_homeostasie_003)",
-      "tagOID": "S_HOMEO_CELL_ATCD_EAB_ANXIETE",
-      "value": 0
-    },
-    {
       "conditions": "\"Rhumatologie\" in q_q1_homeostasie_003",
       "tagOID": "S_HOMEO_CELL_ATCD_EAB_RHUMATOLOGIE",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Rhumatologie\" in q_q1_homeostasie_003)",
-      "tagOID": "S_HOMEO_CELL_ATCD_EAB_RHUMATOLOGIE",
-      "value": 0
     },
     {
       "conditions": "\"Troubles du sommeil\" in q_q1_homeostasie_003",
@@ -81,19 +61,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Troubles du sommeil\" in q_q1_homeostasie_003)",
-      "tagOID": "S_HOMEO_CELL_ATCD_EAB_SOMMEIL",
-      "value": 0
-    },
-    {
       "conditions": "\"TDAH\" in q_q1_homeostasie_003",
       "tagOID": "S_HOMEO_CELL_ATCD_EAB_TDAH",
       "value": 1
-    },
-    {
-      "conditions": "!(\"TDAH\" in q_q1_homeostasie_003)",
-      "tagOID": "S_HOMEO_CELL_ATCD_EAB_TDAH",
-      "value": 0
     },
     {
       "conditions": "\"aucun\" in q_q1_homeostasie_003",

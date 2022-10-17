@@ -60,19 +60,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"0\" in q_gastro_002)",
-      "tagOID": "S_DIG_ATCD_CANCER_OESOPHAGE",
-      "value": 0
-    },
-    {
       "conditions": "\"1\" in q_gastro_002",
       "tagOID": "S_DIG_ATCD_CANCER_ESTOMAC",
       "value": 1
-    },
-    {
-      "conditions": "!(\"1\" in q_gastro_002)",
-      "tagOID": "S_DIG_ATCD_CANCER_ESTOMAC",
-      "value": 0
     },
     {
       "conditions": "\"2\" in q_gastro_002",
@@ -80,19 +70,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"2\" in q_gastro_002)",
-      "tagOID": "S_DIG_ATCD_CANCER_DUODENUM",
-      "value": 0
-    },
-    {
       "conditions": "\"3\" in q_gastro_002",
       "tagOID": "S_DIG_ATCD_CANCER_INTEST_GRELE",
       "value": 1
-    },
-    {
-      "conditions": "!(\"3\" in q_gastro_002)",
-      "tagOID": "S_DIG_ATCD_CANCER_INTEST_GRELE",
-      "value": 0
     },
     {
       "conditions": "\"4\" in q_gastro_002",
@@ -100,19 +80,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"4\" in q_gastro_002)",
-      "tagOID": "S_DIG_ATCD_CANCER_COLON",
-      "value": 0
-    },
-    {
       "conditions": "\"5\" in q_gastro_002",
       "tagOID": "S_DIG_ATCD_CANCER_SIGMOIDE",
       "value": 1
-    },
-    {
-      "conditions": "!(\"5\" in q_gastro_002)",
-      "tagOID": "S_DIG_ATCD_CANCER_SIGMOIDE",
-      "value": 0
     },
     {
       "conditions": "\"6\" in q_gastro_002",
@@ -120,19 +90,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"6\" in q_gastro_002)",
-      "tagOID": "S_DIG_ATCD_CANCER_RECTUM",
-      "value": 0
-    },
-    {
       "conditions": "\"7\" in q_gastro_002",
       "tagOID": "S_DIG_ATCD_CANCER_ANUS",
       "value": 1
-    },
-    {
-      "conditions": "!(\"7\" in q_gastro_002)",
-      "tagOID": "S_DIG_ATCD_CANCER_ANUS",
-      "value": 0
     },
     {
       "conditions": "\"8\" in q_gastro_002",
@@ -140,19 +100,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"8\" in q_gastro_002)",
-      "tagOID": "S_DIG_ATCD_CANCER_FOIE",
-      "value": 0
-    },
-    {
       "conditions": "\"9\" in q_gastro_002",
       "tagOID": "S_DIG_ATCD_CANCER_VOIES_BILIAIRES",
       "value": 1
-    },
-    {
-      "conditions": "!(\"9\" in q_gastro_002)",
-      "tagOID": "S_DIG_ATCD_CANCER_VOIES_BILIAIRES",
-      "value": 0
     },
     {
       "conditions": "\"10\" in q_gastro_002",
@@ -160,19 +110,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"10\" in q_gastro_002)",
-      "tagOID": "S_DIG_ATCD_CANCER_PANCREAS",
-      "value": 0
-    },
-    {
       "conditions": "\"11\" in q_gastro_002",
       "tagOID": "S_DIG_ATCD_CANCER_AUTRE",
       "value": 1
-    },
-    {
-      "conditions": "!(\"11\" in q_gastro_002)",
-      "tagOID": "S_DIG_ATCD_CANCER_AUTRE",
-      "value": 0
     }
   ]
 }

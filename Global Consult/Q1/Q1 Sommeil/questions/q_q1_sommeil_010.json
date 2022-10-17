@@ -1,0 +1,106 @@
+{
+  "oid": "q_q1_sommeil_010",
+  "title": "Avez-vous un ou plusieurs de ces antécédents de troubles du sommeil diagnostiqué par un médecin ? (plusieurs réponses possibles)",
+  "text": "Avez-vous un ou plusieurs de ces antécédents de troubles du sommeil diagnostiqué par un médecin ? (plusieurs réponses possibles)",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "Insomnies",
+      "text": "Insomnies"
+    },
+    {
+      "code": "Syndrome d’apnées du sommeil",
+      "text": "Syndrome d’apnées du sommeil"
+    },
+    {
+      "code": "Syndrome des jambes sans repos",
+      "text": "Syndrome des jambes sans repos"
+    },
+    {
+      "code": "Hypersomnolence",
+      "text": "Hypersomnolence"
+    },
+    {
+      "code": "Somnambulisme",
+      "text": "Somnambulisme"
+    },
+    {
+      "code": "Terreurs nocturnes",
+      "text": "Terreurs nocturnes"
+    },
+    {
+      "code": "Narcolepsie",
+      "text": "Narcolepsie"
+    },
+    {
+      "code": "Cauchemars",
+      "text": "Cauchemars"
+    },
+    {
+      "code": "Cataplexie",
+      "text": "Cataplexie"
+    },
+    {
+      "code": "Aucun trouble du sommeil",
+      "text": "Aucun trouble du sommeil",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"Insomnies\" in q_q1_sommeil_010",
+      "tagOID": "Tag_VSomATCDTroublesSommeil_Insomnies",
+      "value": 1
+    },
+    {
+      "conditions": "\"Syndrome d’apnées du sommeil\" in q_q1_sommeil_010",
+      "tagOID": "Tag_VSomATCDTroublesSommeil_SyndromeADS",
+      "value": 1
+    },
+    {
+      "conditions": "\"Syndrome des jambes sans repos\" in q_q1_sommeil_010",
+      "tagOID": "Tag_VSomATCDTroublesSommeil_SyndromeJSR",
+      "value": 1
+    },
+    {
+      "conditions": "\"Hypersomnolence\" in q_q1_sommeil_010",
+      "tagOID": "Tag_VSomATCDTroublesSommeil_Hypersomnolence",
+      "value": 1
+    },
+    {
+      "conditions": "\"Somnambulisme\" in q_q1_sommeil_010",
+      "tagOID": "Tag_VSomATCDTroublesSommeil_Somnambulisme",
+      "value": 1
+    },
+    {
+      "conditions": "\"Terreurs nocturnes\" in q_q1_sommeil_010",
+      "tagOID": "Tag_VSomATCDTroublesSommeil_TerreursNoct",
+      "value": 1
+    },
+    {
+      "conditions": "\"Narcolepsie\" in q_q1_sommeil_010",
+      "tagOID": "Tag_VSomATCDTroublesSommeil_Narcolepsie",
+      "value": 1
+    },
+    {
+      "conditions": "\"Cauchemars\" in q_q1_sommeil_010",
+      "tagOID": "Tag_VSomATCDTroublesSommeil_Cauchemars",
+      "value": 1
+    },
+    {
+      "conditions": "\"Cataplexie\" in q_q1_sommeil_010",
+      "tagOID": "Tag_VSomATCDTroublesSommeil_Cataplexie",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Aucun trouble du sommeil\" in q_q1_sommeil_010)",
+      "tagOID": "Tag_VSomATCDTroublesSommeil_Aucun",
+      "value": 0
+    },
+    {
+      "conditions": "\"Aucun trouble du sommeil\" in q_q1_sommeil_010",
+      "tagOID": "Tag_VSomATCDTroublesSommeil_Aucun",
+      "value": 1
+    }
+  ]
+}

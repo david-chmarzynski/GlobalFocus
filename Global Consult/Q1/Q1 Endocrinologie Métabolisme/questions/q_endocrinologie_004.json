@@ -36,19 +36,9 @@
       "value": "1"
     },
     {
-      "conditions": "!(\"0\" in q_endocrinologie_004)",
-      "tagOID": "S_ENDO_ATCD_HYPOPHYSE_HYPERPROLACTINE",
-      "value": "0"
-    },
-    {
       "conditions": "\"1\" in q_endocrinologie_004",
       "tagOID": "S_ENDO_ATCD_HYPOPHYSE_ADENOME",
       "value": "1"
-    },
-    {
-      "conditions": "!(\"1\" in q_endocrinologie_004)",
-      "tagOID": "S_ENDO_ATCD_HYPOPHYSE_ADENOME",
-      "value": "0"
     },
     {
       "conditions": "\"2\" in q_endocrinologie_004",
@@ -56,19 +46,9 @@
       "value": "1"
     },
     {
-      "conditions": "!(\"2\" in q_endocrinologie_004)",
-      "tagOID": "S_ENDO_ATCD_HYPOPHYSE_INSUFFISANCE",
-      "value": "0"
-    },
-    {
       "conditions": "\"3\" in q_endocrinologie_004",
       "tagOID": "S_ENDO_ATCD_HYPOPHYSE_ACROMEGALIE",
       "value": "1"
-    },
-    {
-      "conditions": "!(\"3\" in q_endocrinologie_004)",
-      "tagOID": "S_ENDO_ATCD_HYPOPHYSE_ACROMEGALIE",
-      "value": "0"
     },
     {
       "conditions": "\"4\" in q_endocrinologie_004",
@@ -76,19 +56,9 @@
       "value": "1"
     },
     {
-      "conditions": "!(\"4\" in q_endocrinologie_004)",
-      "tagOID": "S_ENDO_ATCD_HYPOPHYSE_DIABETE_INSIPIDE",
-      "value": "0"
-    },
-    {
       "conditions": "\"5\" in q_endocrinologie_004",
       "tagOID": "S_ENDO_ATCD_HYPOPHYSE_AUTRE",
       "value": "1"
-    },
-    {
-      "conditions": "!(\"5\" in q_endocrinologie_004)",
-      "tagOID": "S_ENDO_ATCD_HYPOPHYSE_AUTRE",
-      "value": "0"
     }
   ]
 }

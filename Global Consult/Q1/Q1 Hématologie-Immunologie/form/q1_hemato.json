@@ -16,6 +16,7 @@
       "reportingNode": {
         "tagOID": "S_HE-IM",
         "type": "SCORE",
+        "hideNodeIfEmpty": true,
         "ranges": [
           {
             "min": 0,
@@ -46,6 +47,7 @@
           {
             "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GR",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -64,6 +66,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GR_FER",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -83,6 +86,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GR_B9",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -102,6 +106,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GR_B12",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -121,6 +126,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GR_INFLAMMATOIRE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -140,6 +146,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GR_HEMOLYTIQUE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -159,6 +166,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GR_DREPANOCYTOSE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -178,6 +186,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GR_THALASSEMIE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -197,6 +206,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GR_MYELOFIBROSE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -216,6 +226,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GR_VAQUEZ",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -235,6 +246,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GR_AUTRES",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -256,6 +268,7 @@
           {
             "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GB",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -274,6 +287,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GB_LMC",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -293,6 +307,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GB_LLC",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -312,6 +327,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GB_LAM",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -331,6 +347,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GB_LAL",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -350,6 +367,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GB_HODGKINIEN",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -369,6 +387,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GB_NON_HODGKINIEN",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -388,6 +407,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GB_AUTRES",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -409,6 +429,7 @@
           {
             "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -427,6 +448,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_THROMBOCYTEMIE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -446,6 +468,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_THROMBOPENIE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -465,6 +488,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_PURPURA_IDIOPATHIQUE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -484,6 +508,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_WILLEBRAND",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -503,6 +528,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_PURPURA_THROMBOTIQUE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -522,6 +548,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_HEMOPHILIE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -541,6 +568,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_XI",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -560,6 +588,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_V",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -579,6 +608,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_III",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -598,6 +628,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_PROT_C",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -617,6 +648,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_PROT_S",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -636,6 +668,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_AUTRES",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -657,6 +690,7 @@
           {
             "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -673,27 +707,9 @@
             ],
             "children": [
               {
-                "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_JAMAIS",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "JAMAIS"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "JAMAIS"
-                  }
-                ],
-                "children": []
-              },
-              {
                 "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_LOCAL_EN_TRT",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -713,6 +729,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_METASTASE_EN_TRT",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -732,6 +749,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_RECIDIVE_EN_TRT",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -751,6 +769,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_REMISSION",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -770,6 +789,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_KC_PLUSIEURS_EN_REM",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -789,6 +809,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_KC_PLUSIEURS_EN_TRT",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -801,178 +822,6 @@
                     "max": 1,
                     "color": "FF0000",
                     "text": "KC MULTI EN TRT"
-                  }
-                ],
-                "children": []
-              }
-            ]
-          },
-          {
-            "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_TRAITEMENT",
-            "type": "SCORE",
-            "ranges": [
-              {
-                "min": 10,
-                "max": 10,
-                "color": "00FF00",
-                "text": "TRAIT KC"
-              },
-              {
-                "min": 0,
-                "max": 1,
-                "color": "FF0000",
-                "text": "TRAIT KC"
-              }
-            ],
-            "children": [
-              {
-                "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_TRAITEMENT_CHIR",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "CHIR"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "CHIR"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_TRAITEMENT_RADIOTH",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "RADIOTH"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "RADIOTH"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_TRAITEMENT_CHIMIO",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "CHIMIO"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "CHIMIO"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_TRAITEMENT_THERAPIES_CIBLEES",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "THER CIBL"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "THER CIBL"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_TRAITEMENT_HORMONOTH",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "HORMONOTH"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "HORMONOTH"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_TRAITEMENT_IMMUNOTH",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "IMMUNOTH"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "IMMUNOTH"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_TRAITEMENT_CURIETH",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "CURIETH"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "CURIETH"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_TRAITEMENT_GREFFE_MOELLE",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "GREF MOELLE"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "GREF MOELLE"
                   }
                 ],
                 "children": []
@@ -982,6 +831,7 @@
           {
             "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -991,7 +841,7 @@
               },
               {
                 "min": 1,
-                "max": 2,
+                "max": 1,
                 "color": "FF0000",
                 "text": "ATCD MAI"
               }
@@ -1000,6 +850,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TYPE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -1018,6 +869,7 @@
                   {
                     "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TYPE_LUPUS",
                     "type": "SCORE",
+                    "hideNodeIfEmpty": true,
                     "ranges": [
                       {
                         "min": 0,
@@ -1037,6 +889,7 @@
                   {
                     "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TYPE_SCLERODERMIE",
                     "type": "SCORE",
+                    "hideNodeIfEmpty": true,
                     "ranges": [
                       {
                         "min": 0,
@@ -1056,6 +909,7 @@
                   {
                     "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TYPE_SHARP",
                     "type": "SCORE",
+                    "hideNodeIfEmpty": true,
                     "ranges": [
                       {
                         "min": 0,
@@ -1075,6 +929,7 @@
                   {
                     "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TYPE_SJOGREN",
                     "type": "SCORE",
+                    "hideNodeIfEmpty": true,
                     "ranges": [
                       {
                         "min": 0,
@@ -1094,6 +949,7 @@
                   {
                     "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TYPE_BEHCET",
                     "type": "SCORE",
+                    "hideNodeIfEmpty": true,
                     "ranges": [
                       {
                         "min": 0,
@@ -1113,6 +969,7 @@
                   {
                     "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TYPE_VASCULARITE",
                     "type": "SCORE",
+                    "hideNodeIfEmpty": true,
                     "ranges": [
                       {
                         "min": 0,
@@ -1132,6 +989,7 @@
                   {
                     "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TYPE_SARCOIDOSE",
                     "type": "SCORE",
+                    "hideNodeIfEmpty": true,
                     "ranges": [
                       {
                         "min": 0,
@@ -1151,6 +1009,7 @@
                   {
                     "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TYPE_MALADIE_PERIODIQUE",
                     "type": "SCORE",
+                    "hideNodeIfEmpty": true,
                     "ranges": [
                       {
                         "min": 0,
@@ -1170,6 +1029,7 @@
                   {
                     "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TYPE_AUTRES",
                     "type": "SCORE",
+                    "hideNodeIfEmpty": true,
                     "ranges": [
                       {
                         "min": 0,
@@ -1191,6 +1051,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -1200,7 +1061,7 @@
                   },
                   {
                     "min": 1,
-                    "max": 10,
+                    "max": 1,
                     "color": "FF0000",
                     "text": "TRT IMMUNO"
                   }
@@ -1209,6 +1070,7 @@
                   {
                     "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_ACTUELLEMENT",
                     "type": "SCORE",
+                    "hideNodeIfEmpty": true,
                     "ranges": [
                       {
                         "min": 0,
@@ -1228,6 +1090,7 @@
                   {
                     "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_PASSE",
                     "type": "SCORE",
+                    "hideNodeIfEmpty": true,
                     "ranges": [
                       {
                         "min": 0,
@@ -1247,6 +1110,7 @@
                   {
                     "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_ACTUEL_PASSE",
                     "type": "SCORE",
+                    "hideNodeIfEmpty": true,
                     "ranges": [
                       {
                         "min": 0,
@@ -1266,6 +1130,7 @@
                   {
                     "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_JAMAIS",
                     "type": "SCORE",
+                    "hideNodeIfEmpty": true,
                     "ranges": [
                       {
                         "min": 0,
@@ -1285,6 +1150,7 @@
                   {
                     "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_NSP",
                     "type": "SCORE",
+                    "hideNodeIfEmpty": true,
                     "ranges": [
                       {
                         "min": 0,
@@ -1308,6 +1174,7 @@
           {
             "tagOID": "S_HE-IM_ATCD_IMMUNO_ALLERGIE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -1326,6 +1193,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_IMMUNO_ALLERGIE_COELIAQUE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -1345,6 +1213,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_IMMUNO_ALLERGIE_ALIM",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -1364,6 +1233,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_IMMUNO_ALLERGIE_ACARIEN",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -1383,6 +1253,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_IMMUNO_ALLERGIE_POILS",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -1402,6 +1273,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_IMMUNO_ALLERGIE_GRAM_POLL",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -1421,6 +1293,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_IMMUNO_ALLERGIE_CONTACT",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -1440,6 +1313,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_IMMUNO_ALLERGIE_MEDIC",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -1459,6 +1333,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_IMMUNO_ALLERGIE_AUTRES",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -1480,6 +1355,7 @@
           {
             "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -1498,6 +1374,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_DEFICIT",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -1517,6 +1394,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_PLASMOCYTES",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -1536,6 +1414,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_VIH",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -1555,6 +1434,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_OSLER",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -1574,6 +1454,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_HERPES1",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -1593,6 +1474,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_CMV",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -1612,6 +1494,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_VZV",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -1631,6 +1514,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_EBV",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -1650,6 +1534,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_ROUGEOLE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -1669,6 +1554,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_OREILLONS",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -1688,6 +1574,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_RUBEOLE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -1707,6 +1594,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_PAPILLOMAVIRUS",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -1726,6 +1614,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_ASPERGILLOSE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -1745,6 +1634,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_LYME",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -1764,6 +1654,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_MENINGITE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -1783,6 +1674,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_TOXOPLASMOSE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -1802,6 +1694,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_AMIBIASE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -1821,6 +1714,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_GIARDIASE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -1840,6 +1734,7 @@
               {
                 "tagOID": "S_HE-IM_ATCD_IMMUNO_INFECTION_PALUDISME",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,

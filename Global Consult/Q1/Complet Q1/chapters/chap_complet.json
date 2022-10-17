@@ -5,18 +5,23 @@
     "TETE",
     "mod_contexte_vie",
     "mod_VToxique",
-    "sommeil",
+    "q1_sommeil",
     "q1_alimentation",
     "bouger_q1",
     "Q1_Psychiatrie",
     "gastro",
     "q1_endocrinologie",
     "q1_gynecologie",
-    "q1_andrologie",
     "q1_hemato",
     "q1_cardiologie",
     "q1_pneumologie",
     "Q1_uro_nephrologie",
-    "q1_neurologie"
+    "q1_neurologie",
+    "q1_rhumatologie",
+    "q1_stomatologie",
+    "q1_dermatologie",
+    "q1_orl",
+    "Q1_ophtalmologie",
+    "q1_homeostasie"
   ]
 }

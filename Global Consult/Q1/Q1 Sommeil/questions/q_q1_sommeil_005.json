@@ -1,0 +1,46 @@
+{
+  "oid": "q_q1_sommeil_005",
+  "title": "Sur ces 3 derniers mois, comment évaluez-vous votre satisfaction en lien avec la durée habituelle de votre sommeil ?",
+  "text": "Sur ces 3 derniers mois, comment évaluez-vous votre satisfaction en lien avec la durée habituelle de votre sommeil ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisante"
+    },
+    {
+      "code": "1",
+      "text": "Légèrement insatisfaisante"
+    },
+    {
+      "code": "2",
+      "text": "Plutôt insatisfaisante"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisante"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q1_sommeil_005 == \"0\"",
+      "tagOID": "Tag_VSomSatisfactionQuantité",
+      "value": 0
+    },
+    {
+      "conditions": "q_q1_sommeil_005 == \"1\"",
+      "tagOID": "Tag_VSomSatisfactionQuantité",
+      "value": 1
+    },
+    {
+      "conditions": "q_q1_sommeil_005 == \"2\"",
+      "tagOID": "Tag_VSomSatisfactionQuantité",
+      "value": 2
+    },
+    {
+      "conditions": "q_q1_sommeil_005 == \"3\"",
+      "tagOID": "Tag_VSomSatisfactionQuantité",
+      "value": 3
+    }
+  ]
+}

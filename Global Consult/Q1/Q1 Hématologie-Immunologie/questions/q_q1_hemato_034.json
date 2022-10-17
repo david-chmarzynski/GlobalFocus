@@ -49,19 +49,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Maladie cœliaque\" in q_q1_hemato_034)",
-      "tagOID": "S_HE-IM_ATCD_IMMUNO_ALLERGIE_COELIAQUE",
-      "value": 0
-    },
-    {
       "conditions": "\"Allergie(s) alimentaire (urticaire, œdème de quincke)\" in q_q1_hemato_034",
       "tagOID": "S_HE-IM_ATCD_IMMUNO_ALLERGIE_ALIM",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Allergie(s) alimentaire (urticaire, œdème de quincke)\" in q_q1_hemato_034)",
-      "tagOID": "S_HE-IM_ATCD_IMMUNO_ALLERGIE_ALIM",
-      "value": 0
     },
     {
       "conditions": "\"Allergie acariens\" in q_q1_hemato_034",
@@ -69,19 +59,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Allergie acariens\" in q_q1_hemato_034)",
-      "tagOID": "S_HE-IM_ATCD_IMMUNO_ALLERGIE_ACARIEN",
-      "value": 0
-    },
-    {
       "conditions": "\"Allergie poils de chien, chat\" in q_q1_hemato_034",
       "tagOID": "S_HE-IM_ATCD_IMMUNO_ALLERGIE_POILS",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Allergie poils de chien, chat\" in q_q1_hemato_034)",
-      "tagOID": "S_HE-IM_ATCD_IMMUNO_ALLERGIE_POILS",
-      "value": 0
     },
     {
       "conditions": "\"Allergie graminés et pollens\" in q_q1_hemato_034",
@@ -89,19 +69,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Allergie graminés et pollens\" in q_q1_hemato_034)",
-      "tagOID": "S_HE-IM_ATCD_IMMUNO_ALLERGIE_GRAM_POLL",
-      "value": 0
-    },
-    {
       "conditions": "\"Allergie de contact (nickel...)\" in q_q1_hemato_034",
       "tagOID": "S_HE-IM_ATCD_IMMUNO_ALLERGIE_CONTACT",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Allergie de contact (nickel...)\" in q_q1_hemato_034)",
-      "tagOID": "S_HE-IM_ATCD_IMMUNO_ALLERGIE_CONTACT",
-      "value": 0
     },
     {
       "conditions": "\"Allergie médicamenteuse\" in q_q1_hemato_034",
@@ -109,19 +79,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Allergie médicamenteuse\" in q_q1_hemato_034)",
-      "tagOID": "S_HE-IM_ATCD_IMMUNO_ALLERGIE_MEDIC",
-      "value": 0
-    },
-    {
       "conditions": "\"autres\" in q_q1_hemato_034",
       "tagOID": "S_HE-IM_ATCD_IMMUNO_ALLERGIE_AUTRES",
       "value": 1
-    },
-    {
-      "conditions": "!(\"autres\" in q_q1_hemato_034)",
-      "tagOID": "S_HE-IM_ATCD_IMMUNO_ALLERGIE_AUTRES",
-      "value": 0
     },
     {
       "conditions": "\"aucun\" in q_q1_hemato_034",

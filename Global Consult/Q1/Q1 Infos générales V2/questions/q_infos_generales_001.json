@@ -1,12 +1,8 @@
 {
   "oid": "q_infos_generales_001",
-  "title": "En quelle année a eu lieu votre situation familiale? (Pacs, mariage, séparation, divorce, mort du / de la conjoint(e))",
-  "text": "En quelle année a eu lieu votre situation familiale? (Pacs, mariage, séparation, divorce, mort du / de la conjoint(e))",
-  "type": "ANALOG_SCALE",
-  "scale": {
-    "min": 1900,
-    "max": 2022,
-    "step": 1
-  },
+  "title": "En quelle année a eu lieu votre situation familiale? (Pacs, mariage, séparation, divorce, mort du / de la conjoint(e)) (format JJ/MM/AAAA)",
+  "text": "En quelle année a eu lieu votre situation familiale? (Pacs, mariage, séparation, divorce, mort du / de la conjoint(e)) (format JJ/MM/AAAA)",
+  "type": "TEXT",
+  "choices": [],
   "scores": []
 }

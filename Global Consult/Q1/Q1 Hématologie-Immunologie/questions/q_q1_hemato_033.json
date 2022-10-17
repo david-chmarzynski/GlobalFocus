@@ -3,6 +3,7 @@
   "title": "Est-ce qu’un traitement immunosuppresseur vous-a été prescrit ? (une seule réponse)",
   "text": "Est-ce qu’un traitement immunosuppresseur vous-a été prescrit ? (une seule réponse)",
   "type": "MULTI_CHOICES",
+  "displayChoices": false,
   "choices": [
     {
       "code": "Oui, actuellement",
@@ -37,11 +38,6 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Oui, actuellement\" in q_q1_hemato_033)",
-      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_ACTUELLEMENT",
-      "value": 0
-    },
-    {
       "conditions": "\"Oui, actuellement\" in q_q1_hemato_033",
       "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO",
       "value": 1
@@ -57,11 +53,6 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Oui, par le passé\" in q_q1_hemato_033)",
-      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_PASSE",
-      "value": 0
-    },
-    {
       "conditions": "\"Oui, par le passé\" in q_q1_hemato_033",
       "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO",
       "value": 1
@@ -77,11 +68,6 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Oui, actuellement et par le passé\" in q_q1_hemato_033)",
-      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_ACTUEL_PASSE",
-      "value": 0
-    },
-    {
       "conditions": "\"Oui, actuellement et par le passé\" in q_q1_hemato_033",
       "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO",
       "value": 1
@@ -97,19 +83,14 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Non, jamais\" in q_q1_hemato_033)",
-      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_JAMAIS",
-      "value": 0
-    },
-    {
       "conditions": "\"Non, jamais\" in q_q1_hemato_033",
       "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO",
-      "value": 0
+      "value": 1
     },
     {
       "conditions": "!(\"Non, jamais\" in q_q1_hemato_033)",
       "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO",
-      "value": 1
+      "value": 0
     },
     {
       "conditions": "\"Je ne sais pas\" in q_q1_hemato_033",
@@ -117,8 +98,13 @@
       "value": 1
     },
     {
+      "conditions": "\"Je ne sais pas\" in q_q1_hemato_033",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO",
+      "value": 1
+    },
+    {
       "conditions": "!(\"Je ne sais pas\" in q_q1_hemato_033)",
-      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_NSP",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO",
       "value": 0
     }
   ]

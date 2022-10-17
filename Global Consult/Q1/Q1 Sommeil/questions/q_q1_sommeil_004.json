@@ -1,0 +1,55 @@
+{
+  "oid": "q_q1_sommeil_004",
+  "title": "Sur ces 3 derniers mois, avez-vous eu de la difficulté à maintenir votre sommeil (réveils nocturnes, difficultés à vous rendormir, réveil précoce le matin…) ?",
+  "text": "Sur ces 3 derniers mois, avez-vous eu de la difficulté à maintenir votre sommeil (réveils nocturnes, difficultés à vous rendormir, réveil précoce le matin…) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais (ou  presque)"
+    },
+    {
+      "code": "1",
+      "text": "1 à 3 fois/mois"
+    },
+    {
+      "code": "2",
+      "text": "1 à 2 fois/semaine"
+    },
+    {
+      "code": "3",
+      "text": "3 à 5 fois par semaine"
+    },
+    {
+      "code": "4",
+      "text": "Tous les jours (ou presque)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q1_sommeil_004 == \"0\"",
+      "tagOID": "Tag_VSomMaintien",
+      "value": 0
+    },
+    {
+      "conditions": "q_q1_sommeil_004 == \"1\"",
+      "tagOID": "Tag_VSomMaintien",
+      "value": 1
+    },
+    {
+      "conditions": "q_q1_sommeil_004 == \"2\"",
+      "tagOID": "Tag_VSomMaintien",
+      "value": 2
+    },
+    {
+      "conditions": "q_q1_sommeil_004 == \"3\"",
+      "tagOID": "Tag_VSomMaintien",
+      "value": 3
+    },
+    {
+      "conditions": "q_q1_sommeil_004 == \"4\"",
+      "tagOID": "Tag_VSomMaintien",
+      "value": 4
+    }
+  ]
+}

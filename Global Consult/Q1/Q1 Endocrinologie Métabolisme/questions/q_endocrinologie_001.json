@@ -37,69 +37,9 @@
       "value": "1"
     },
     {
-      "conditions": "!(\"0\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_THYROIDE",
-      "value": "0"
-    },
-    {
-      "conditions": "!(\"0\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_THYROIDE_AUTRE",
-      "value": "0"
-    },
-    {
-      "conditions": "!(\"0\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_THYROIDE_CANCER",
-      "value": "0"
-    },
-    {
-      "conditions": "!(\"0\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_THYROIDE_HYPER",
-      "value": "0"
-    },
-    {
-      "conditions": "!(\"0\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_THYROIDE_HYPO",
-      "value": "0"
-    },
-    {
-      "conditions": "!(\"0\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_THYROIDE_NODULE",
-      "value": "0"
-    },
-    {
-      "conditions": "!(\"0\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_THYROIDE_THYROIDITE",
-      "value": "0"
-    },
-    {
       "conditions": "\"1\" in q_endocrinologie_001",
       "tagOID": "S_ENDO_ATCD_PARATHYROIDE",
       "value": "1"
-    },
-    {
-      "conditions": "!(\"1\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_PARATHYROIDE",
-      "value": "0"
-    },
-    {
-      "conditions": "!(\"1\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_PARATHYROIDE_AUTRE",
-      "value": "0"
-    },
-    {
-      "conditions": "!(\"1\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_PARATHYROIDE_CANCER",
-      "value": "0"
-    },
-    {
-      "conditions": "!(\"1\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_PARATHYROIDE_HYPER",
-      "value": "0"
-    },
-    {
-      "conditions": "!(\"1\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_PARATHYROIDE_HYPO",
-      "value": "0"
     },
     {
       "conditions": "\"2\" in q_endocrinologie_001",
@@ -107,139 +47,14 @@
       "value": "1"
     },
     {
-      "conditions": "!(\"2\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_HYPOPHYSE",
-      "value": "0"
-    },
-    {
-      "conditions": "!(\"2\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_HYPOPHYSE_ACROMEGALIE",
-      "value": "0"
-    },
-    {
-      "conditions": "!(\"2\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_HYPOPHYSE_ADENOME",
-      "value": "0"
-    },
-    {
-      "conditions": "!(\"2\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_HYPOPHYSE_AUTRE",
-      "value": "0"
-    },
-    {
-      "conditions": "!(\"2\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_HYPOPHYSE_DIABETE_INSIPIDE",
-      "value": "0"
-    },
-    {
-      "conditions": "!(\"2\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_HYPOPHYSE_HYPERPROLACTINE",
-      "value": "0"
-    },
-    {
-      "conditions": "!(\"2\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_HYPOPHYSE_INSUFFISANCE",
-      "value": "0"
-    },
-    {
       "conditions": "\"3\" in q_endocrinologie_001",
       "tagOID": "S_ENDO_ATCD_SURRENALE",
       "value": "1"
     },
     {
-      "conditions": "!(\"3\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_SURRENALE",
-      "value": "0"
-    },
-    {
-      "conditions": "!(\"3\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_SURRENALE_ADDISON",
-      "value": "0"
-    },
-    {
-      "conditions": "!(\"3\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_SURRENALE_AUTRE",
-      "value": "0"
-    },
-    {
-      "conditions": "!(\"3\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_SURRENALE_CANCER",
-      "value": "0"
-    },
-    {
-      "conditions": "!(\"3\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_SURRENALE_CONN",
-      "value": "0"
-    },
-    {
-      "conditions": "!(\"3\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_SURRENALE_CUSHING",
-      "value": "0"
-    },
-    {
-      "conditions": "!(\"3\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_SURRENALE_HYPERPLASIE",
-      "value": "0"
-    },
-    {
-      "conditions": "!(\"3\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_SURRENALE_INSUFFISANCE_SECONDAIRE",
-      "value": "0"
-    },
-    {
-      "conditions": "!(\"3\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_SURRENALE_PHEOCHROMOCYTOME",
-      "value": "0"
-    },
-    {
       "conditions": "\"4\" in q_endocrinologie_001",
       "tagOID": "S_ENDO_ATCD_METABOLIQUE",
       "value": "1"
-    },
-    {
-      "conditions": "!(\"4\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_METABOLIQUE",
-      "value": "0"
-    },
-    {
-      "conditions": "!(\"4\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_METABOLIQUE_AUTRE",
-      "value": "0"
-    },
-    {
-      "conditions": "!(\"4\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_METABOLIQUE_CHOLESTEROL",
-      "value": "0"
-    },
-    {
-      "conditions": "!(\"4\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_METABOLIQUE_DIABETE1",
-      "value": "0"
-    },
-    {
-      "conditions": "!(\"4\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_METABOLIQUE_DIABETE2",
-      "value": "0"
-    },
-    {
-      "conditions": "!(\"4\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_METABOLIQUE_OBESITE",
-      "value": "0"
-    },
-    {
-      "conditions": "!(\"4\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_METABOLIQUE_TRIGLYCERIDE",
-      "value": "0"
-    },
-    {
-      "conditions": "!(\"4\" in q_endocrinologie_001)",
-      "tagOID": "S_ENDO_ATCD_METABOLIQUE_URATE",
-      "value": "0"
-    },
-    {
-      "conditions": "\"5\" in q_endocrinologie_001",
-      "tagOID": "S_ENDO_ATCD",
-      "value": "0"
     },
     {
       "conditions": "!(\"5\" in q_endocrinologie_001)",

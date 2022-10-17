@@ -49,19 +49,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Pathologie cardio-vasculaire\" in q_q1_homeostasie_002)",
-      "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_CV",
-      "value": 0
-    },
-    {
       "conditions": "\"Maladie du foie\" in q_q1_homeostasie_002",
       "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_FOIE",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Maladie du foie\" in q_q1_homeostasie_002)",
-      "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_FOIE",
-      "value": 0
     },
     {
       "conditions": "\"Maladie métabolique\" in q_q1_homeostasie_002",
@@ -69,19 +59,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Maladie métabolique\" in q_q1_homeostasie_002)",
-      "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_METABOLIQUE",
-      "value": 0
-    },
-    {
       "conditions": "\"Eczéma ou dermatite atopique\" in q_q1_homeostasie_002",
       "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_DERMATOLOGIE",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Eczéma ou dermatite atopique\" in q_q1_homeostasie_002)",
-      "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_DERMATOLOGIE",
-      "value": 0
     },
     {
       "conditions": "\"gynecologie\" in q_q1_homeostasie_002",
@@ -89,19 +69,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"gynecologie\" in q_q1_homeostasie_002)",
-      "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_GYNECOLOGIE",
-      "value": 0
-    },
-    {
       "conditions": "\"Trouble du déficit de l'attentention\" in q_q1_homeostasie_002",
       "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_TDAH",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Trouble du déficit de l'attentention\" in q_q1_homeostasie_002)",
-      "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_TDAH",
-      "value": 0
     },
     {
       "conditions": "\"Maladie auto-immune\" in q_q1_homeostasie_002",
@@ -109,19 +79,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Maladie auto-immune\" in q_q1_homeostasie_002)",
-      "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_MAI",
-      "value": 0
-    },
-    {
       "conditions": "\"Dépression, cyclothymie, bipolarité\" in q_q1_homeostasie_002",
       "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_DEPRESSION",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Dépression, cyclothymie, bipolarité\" in q_q1_homeostasie_002)",
-      "tagOID": "S_HOMEO_CELL_ATCD_OMEGA3_DEPRESSION",
-      "value": 0
     },
     {
       "conditions": "\"aucun\" in q_q1_homeostasie_002",

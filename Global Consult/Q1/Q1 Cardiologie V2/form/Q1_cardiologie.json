@@ -22,6 +22,7 @@
       "reportingNode": {
         "tagOID": "S_CV",
         "type": "SCORE",
+        "hideNodeIfEmpty": true,
         "ranges": [
           {
             "min": 0,
@@ -52,6 +53,7 @@
           {
             "tagOID": "S_CV_ATCD_HTA",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -71,6 +73,7 @@
           {
             "tagOID": "S_CV_ATCD_ANGOR",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -90,6 +93,7 @@
           {
             "tagOID": "S_CV_ATCD_INFARCTUS",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -109,6 +113,7 @@
           {
             "tagOID": "S_CV_ATCD_AVC",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -128,6 +133,7 @@
           {
             "tagOID": "S_CV_ATCD_ARTERITE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -147,6 +153,7 @@
           {
             "tagOID": "S_CV_ATCD_EMBOLIE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -166,6 +173,7 @@
           {
             "tagOID": "S_CV_ATCD_PHLEBITE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -185,6 +193,7 @@
           {
             "tagOID": "S_CV_ATCD_VARICE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -204,6 +213,7 @@
           {
             "tagOID": "S_CV_ATCD_VALVULOPATHIE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -223,6 +233,7 @@
           {
             "tagOID": "S_CV_ATCD_TDR",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -243,6 +254,7 @@
           {
             "tagOID": "S_CV_ATCD_CARDIOMYOPATHIE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -262,6 +274,7 @@
           {
             "tagOID": "S_CV_ATCD_ANEVRYSME",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -282,6 +295,7 @@
           {
             "tagOID": "S_CV_ATCD_AUTRES",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,

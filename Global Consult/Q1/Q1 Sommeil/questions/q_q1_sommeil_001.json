@@ -1,0 +1,46 @@
+{
+  "oid": "q_q1_sommeil_001",
+  "title": "Sur ces 3 derniers mois, comment évaluez-vous votre contexte habituel de sommeil (chambre, respect de vos rythmes naturels de sommeil…) ?",
+  "text": "Sur ces 3 derniers mois, comment évaluez-vous votre contexte habituel de sommeil (chambre, respect de vos rythmes naturels de sommeil…) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisant"
+    },
+    {
+      "code": "1",
+      "text": "Légèrement insatisfaisant"
+    },
+    {
+      "code": "2",
+      "text": "Plutôt insatisfaisant"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisant (ou très insatisfaisant)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q1_sommeil_001 == \"0\"",
+      "tagOID": "Tag_VSomContexteRythmesGlobal",
+      "value": 0
+    },
+    {
+      "conditions": "q_q1_sommeil_001 == \"1\"",
+      "tagOID": "Tag_VSomContexteRythmesGlobal",
+      "value": 1
+    },
+    {
+      "conditions": "q_q1_sommeil_001 == \"2\"",
+      "tagOID": "Tag_VSomContexteRythmesGlobal",
+      "value": 2
+    },
+    {
+      "conditions": "q_q1_sommeil_001 == \"3\"",
+      "tagOID": "Tag_VSomContexteRythmesGlobal",
+      "value": 3
+    }
+  ]
+}

@@ -44,19 +44,9 @@
       "value": "1"
     },
     {
-      "conditions": "!(\"0\" in q_endocrinologie_006)",
-      "tagOID": "S_ENDO_ATCD_SURRENALE_HYPERPLASIE",
-      "value": "0"
-    },
-    {
       "conditions": "\"1\" in q_endocrinologie_006",
       "tagOID": "S_ENDO_ATCD_SURRENALE_CONN",
       "value": "1"
-    },
-    {
-      "conditions": "!(\"1\" in q_endocrinologie_006)",
-      "tagOID": "S_ENDO_ATCD_SURRENALE_CONN",
-      "value": "0"
     },
     {
       "conditions": "\"2\" in q_endocrinologie_006",
@@ -64,19 +54,9 @@
       "value": "1"
     },
     {
-      "conditions": "!(\"2\" in q_endocrinologie_006)",
-      "tagOID": "S_ENDO_ATCD_SURRENALE_ADDISON",
-      "value": "0"
-    },
-    {
       "conditions": "\"3\" in q_endocrinologie_006",
       "tagOID": "S_ENDO_ATCD_SURRENALE_CUSHING",
       "value": "1"
-    },
-    {
-      "conditions": "!(\"3\" in q_endocrinologie_006)",
-      "tagOID": "S_ENDO_ATCD_SURRENALE_CUSHING",
-      "value": "0"
     },
     {
       "conditions": "\"4\" in q_endocrinologie_006",
@@ -84,19 +64,9 @@
       "value": "1"
     },
     {
-      "conditions": "!(\"4\" in q_endocrinologie_006)",
-      "tagOID": "S_ENDO_ATCD_SURRENALE_PHEOCHROMOCYTOME",
-      "value": "0"
-    },
-    {
       "conditions": "\"5\" in q_endocrinologie_006",
       "tagOID": "S_ENDO_ATCD_SURRENALE_CANCER",
       "value": "1"
-    },
-    {
-      "conditions": "!(\"5\" in q_endocrinologie_006)",
-      "tagOID": "S_ENDO_ATCD_SURRENALE_CANCER",
-      "value": "0"
     },
     {
       "conditions": "\"6\" in q_endocrinologie_006",
@@ -104,19 +74,9 @@
       "value": "1"
     },
     {
-      "conditions": "!(\"6\" in q_endocrinologie_006)",
-      "tagOID": "S_ENDO_ATCD_SURRENALE_INSUFFISANCE_SECONDAIRE",
-      "value": "0"
-    },
-    {
       "conditions": "\"7\" in q_endocrinologie_006",
       "tagOID": "S_ENDO_ATCD_SURRENALE_AUTRE",
       "value": "1"
-    },
-    {
-      "conditions": "!(\"7\" in q_endocrinologie_006)",
-      "tagOID": "S_ENDO_ATCD_SURRENALE_AUTRE",
-      "value": "0"
     }
   ]
 }

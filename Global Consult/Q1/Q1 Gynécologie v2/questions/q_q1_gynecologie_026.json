@@ -77,19 +77,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Cancer de l’endomètre (utérus)\" in q_q1_gynecologie_026)",
-      "tagOID": "S_GYN_ATCD_UTERUS_CANCER_ENDOMETRE",
-      "value": 0
-    },
-    {
       "conditions": "\"Cancer du col de l’utérus\" in q_q1_gynecologie_026",
       "tagOID": "S_GYN_ATCD_UTERUS_CANCER_COL",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Cancer du col de l’utérus\" in q_q1_gynecologie_026)",
-      "tagOID": "S_GYN_ATCD_UTERUS_CANCER_COL",
-      "value": 0
     },
     {
       "conditions": "\"Fausse-couche spontanée (FCS)\" in q_q1_gynecologie_026",
@@ -97,19 +87,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Fausse-couche spontanée (FCS)\" in q_q1_gynecologie_026)",
-      "tagOID": "S_GYN_ATCD_UTERUS_FCS",
-      "value": 0
-    },
-    {
       "conditions": "\"Interruption volontaire de grossesse (IVG)\" in q_q1_gynecologie_026",
       "tagOID": "S_GYN_ATCD_UTERUS_IVG",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Interruption volontaire de grossesse (IVG)\" in q_q1_gynecologie_026)",
-      "tagOID": "S_GYN_ATCD_UTERUS_IVG",
-      "value": 0
     },
     {
       "conditions": "\"Interruption médicale de grossesse (IMG)\" in q_q1_gynecologie_026",
@@ -117,19 +97,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Interruption médicale de grossesse (IMG)\" in q_q1_gynecologie_026)",
-      "tagOID": "S_GYN_ATCD_UTERUS_IMG",
-      "value": 0
-    },
-    {
       "conditions": "\"Grossesse extra-utérine (GEU)\" in q_q1_gynecologie_026",
       "tagOID": "S_GYN_ATCD_UTERUS_GEU",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Grossesse extra-utérine (GEU)\" in q_q1_gynecologie_026)",
-      "tagOID": "S_GYN_ATCD_UTERUS_GEU",
-      "value": 0
     },
     {
       "conditions": "\"Césarienne\" in q_q1_gynecologie_026",
@@ -137,19 +107,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Césarienne\" in q_q1_gynecologie_026)",
-      "tagOID": "S_GYN_ATCD_UTERUS_CESARIENNE",
-      "value": 0
-    },
-    {
       "conditions": "\"Fibrome de l’utérus\" in q_q1_gynecologie_026",
       "tagOID": "S_GYN_ATCD_UTERUS_FIBROME",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Fibrome de l’utérus\" in q_q1_gynecologie_026)",
-      "tagOID": "S_GYN_ATCD_UTERUS_FIBROME",
-      "value": 0
     },
     {
       "conditions": "\"Ablation de l’utérus (Hystérectomie)\" in q_q1_gynecologie_026",
@@ -157,19 +117,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Ablation de l’utérus (Hystérectomie)\" in q_q1_gynecologie_026)",
-      "tagOID": "S_GYN_ATCD_UTERUS_HYSTERECTOMIE",
-      "value": 0
-    },
-    {
       "conditions": "\"Endométriose\" in q_q1_gynecologie_026",
       "tagOID": "S_GYN_ATCD_UTERUS_ENDOMETRIOSE",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Endométriose\" in q_q1_gynecologie_026)",
-      "tagOID": "S_GYN_ATCD_UTERUS_ENDOMETRIOSE",
-      "value": 0
     },
     {
       "conditions": "\"Salpingite (infection des trompes)\" in q_q1_gynecologie_026",
@@ -177,19 +127,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Salpingite (infection des trompes)\" in q_q1_gynecologie_026)",
-      "tagOID": "S_GYN_ATCD_UTERUS_SALPINGITE",
-      "value": 0
-    },
-    {
       "conditions": "\"Infection à Papillomavirus (HPV)\" in q_q1_gynecologie_026",
       "tagOID": "S_GYN_ATCD_UTERUS_HPV",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Infection à Papillomavirus (HPV)\" in q_q1_gynecologie_026)",
-      "tagOID": "S_GYN_ATCD_UTERUS_HPV",
-      "value": 0
     },
     {
       "conditions": "\"Dysplasie du col de l’utérus\" in q_q1_gynecologie_026",
@@ -197,29 +137,14 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Dysplasie du col de l’utérus\" in q_q1_gynecologie_026)",
-      "tagOID": "S_GYN_ATCD_UTERUS_DYSPLASIE",
-      "value": 0
-    },
-    {
       "conditions": "\"Conisation du col de l’utérus\" in q_q1_gynecologie_026",
       "tagOID": "S_GYN_ATCD_UTERUS_CONISATION",
       "value": 1
     },
     {
-      "conditions": "!(\"Conisation du col de l’utérus\" in q_q1_gynecologie_026)",
-      "tagOID": "S_GYN_ATCD_UTERUS_CONISATION",
-      "value": 0
-    },
-    {
       "conditions": "\"autres\" in q_q1_gynecologie_026",
       "tagOID": "S_GYN_ATCD_UTERUS_AUTRES",
       "value": 1
-    },
-    {
-      "conditions": "!(\"autres\" in q_q1_gynecologie_026)",
-      "tagOID": "S_GYN_ATCD_UTERUS_AUTRES",
-      "value": 0
     },
     {
       "conditions": "\"aucun\" in q_q1_gynecologie_026",

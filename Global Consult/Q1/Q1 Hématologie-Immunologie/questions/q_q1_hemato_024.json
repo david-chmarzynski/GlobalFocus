@@ -3,6 +3,7 @@
   "title": "Parmi cette liste, quelle(s) maladie(s) auto-immune(s) avez-vous ? (plusieurs réponses possibles)",
   "text": "Parmi cette liste, quelle(s) maladie(s) auto-immune(s) avez-vous ? (plusieurs réponses possibles)",
   "type": "MULTI_CHOICES",
+  "displayChoices": true,
   "choices": [
     {
       "code": "Lupus érythémateux disséminé",
@@ -48,19 +49,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Lupus érythémateux disséminé\" in q_q1_hemato_024)",
-      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TYPE_LUPUS",
-      "value": 0
-    },
-    {
       "conditions": "\"Sclérodermie\" in q_q1_hemato_024",
       "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TYPE_SCLERODERMIE",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Sclérodermie\" in q_q1_hemato_024)",
-      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TYPE_SCLERODERMIE",
-      "value": 0
     },
     {
       "conditions": "\"Connectivite mixte (syndrome de Sharp)\" in q_q1_hemato_024",
@@ -68,19 +59,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Connectivite mixte (syndrome de Sharp)\" in q_q1_hemato_024)",
-      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TYPE_SHARP",
-      "value": 0
-    },
-    {
       "conditions": "\"Maladie de Sjögren\" in q_q1_hemato_024",
       "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TYPE_SJOGREN",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Maladie de Sjögren\" in q_q1_hemato_024)",
-      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TYPE_SJOGREN",
-      "value": 0
     },
     {
       "conditions": "\"Maladie de Behçet\" in q_q1_hemato_024",
@@ -88,19 +69,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Maladie de Behçet\" in q_q1_hemato_024)",
-      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TYPE_BEHCET",
-      "value": 0
-    },
-    {
       "conditions": "\"Vascularite\" in q_q1_hemato_024",
       "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TYPE_VASCULARITE",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Vascularite\" in q_q1_hemato_024)",
-      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TYPE_VASCULARITE",
-      "value": 0
     },
     {
       "conditions": "\"Sarcoïdose\" in q_q1_hemato_024",
@@ -108,29 +79,14 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Sarcoïdose\" in q_q1_hemato_024)",
-      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TYPE_SARCOIDOSE",
-      "value": 0
-    },
-    {
       "conditions": "\"Fièvre familiale méditerranéenne (maladie périodique)\" in q_q1_hemato_024",
       "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TYPE_MALADIE_PERIODIQUE",
       "value": 1
     },
     {
-      "conditions": "!(\"Fièvre familiale méditerranéenne (maladie périodique)\" in q_q1_hemato_024)",
-      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TYPE_MALADIE_PERIODIQUE",
-      "value": 0
-    },
-    {
       "conditions": "\"autres\" in q_q1_hemato_024",
       "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TYPE_AUTRES",
       "value": 1
-    },
-    {
-      "conditions": "!(\"autres\" in q_q1_hemato_024)",
-      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TYPE_AUTRES",
-      "value": 0
     }
   ]
 }

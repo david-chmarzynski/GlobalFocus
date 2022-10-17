@@ -1,0 +1,43 @@
+{
+  "oid": "q1_sexe",
+  "title": "Q1 Global Focus Sexe Chromosomique",
+  "estimatedTime": 0,
+  "pricing": 0,
+  "description": "Q1 Global Focus Sexe Chromosomique",
+  "levelMax": "1",
+  "authors": [
+    "Test"
+  ],
+  "chapters": [
+    "chap_q1_sexe"
+  ],
+  "professions": [
+    "DENTIST"
+  ],
+  "diagnostics": [],
+  "reportingTrees": [
+    {
+      "category": "HEALTH",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "SEXE",
+        "type": "SCORE",
+        "ranges": [
+          {
+            "min": 0,
+            "max": 0,
+            "color": "00FF00",
+            "text": "SEXE CHR"
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "color": "00FF00",
+            "text": "SEXE CHR"
+          }
+        ],
+        "children": []
+      }
+    }
+  ]
+}

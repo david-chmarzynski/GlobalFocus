@@ -1,0 +1,12 @@
+{
+  "oid": "q_q1_gynecologie_033",
+  "title": "En quelle année avez-vous fait une interruption médicale de grossesse (IMG) ? ",
+  "text": "En quelle année avez-vous fait une interruption médicale de grossesse (IMG) ? ",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 1900,
+    "max": 2022,
+    "step": 1
+  },
+  "scores": []
+}

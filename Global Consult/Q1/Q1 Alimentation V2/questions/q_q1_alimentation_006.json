@@ -1,7 +1,7 @@
 {
   "oid": "q_q1_alimentation_006",
-  "title": "Sur ces 3 derniers mois, contrôlezvous votre alimentation dans le but de perdre du poids ?",
-  "text": "Sur ces 3 derniers mois, contrôlezvous votre alimentation dans le but de perdre du poids ?",
+  "title": "Sur ces 3 derniers mois, contrôlez-vous votre alimentation dans le but de perdre du poids ?",
+  "text": "Sur ces 3 derniers mois, contrôlez-vous votre alimentation dans le but de perdre du poids ?",
   "type": "SINGLE_CHOICE_RADIO",
   "choices": [
     {
@@ -22,11 +22,6 @@
     }
   ],
   "scores": [
-    {
-      "conditions": "q_q1_alimentation_006 == \"0\"",
-      "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_POIDS",
-      "value": 0
-    },
     {
       "conditions": "q_q1_alimentation_006 == \"1\"",
       "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_POIDS",

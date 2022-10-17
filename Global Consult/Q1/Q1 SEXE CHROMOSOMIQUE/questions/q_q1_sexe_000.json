@@ -1,0 +1,28 @@
+{
+  "oid": "q_q1_sexe_000",
+  "title": "Quel est votre sexe chromosomique ?",
+  "text": "Quel est votre sexe chromosomique ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Homme"
+    },
+    {
+      "code": "1",
+      "text": "Femme"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q1_sexe_000 == \"0\"",
+      "tagOID": "SEXE",
+      "value": 0
+    },
+    {
+      "conditions": "q_q1_sexe_000 == \"1\"",
+      "tagOID": "SEXE",
+      "value": 1
+    }
+  ]
+}

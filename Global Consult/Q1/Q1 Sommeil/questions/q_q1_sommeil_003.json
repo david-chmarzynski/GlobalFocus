@@ -1,0 +1,55 @@
+{
+  "oid": "q_q1_sommeil_003",
+  "title": "Sur ces 3 derniers mois, avez-vous eu de la difficulté à vous endormir ?",
+  "text": "Sur ces 3 derniers mois, avez-vous eu de la difficulté à vous endormir ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais (ou presque)"
+    },
+    {
+      "code": "1",
+      "text": "1 à 3 fois/mois"
+    },
+    {
+      "code": "2",
+      "text": "1 à 2 fois/semaine"
+    },
+    {
+      "code": "3",
+      "text": "3 à 5 fois par semaine"
+    },
+    {
+      "code": "4",
+      "text": "Tous les jours (ou presque)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q1_sommeil_003 == \"0\"",
+      "tagOID": "Tag_VSomEndormissement",
+      "value": 0
+    },
+    {
+      "conditions": "q_q1_sommeil_003 == \"1\"",
+      "tagOID": "Tag_VSomEndormissement",
+      "value": 1
+    },
+    {
+      "conditions": "q_q1_sommeil_003 == \"2\"",
+      "tagOID": "Tag_VSomEndormissement",
+      "value": 2
+    },
+    {
+      "conditions": "q_q1_sommeil_003 == \"3\"",
+      "tagOID": "Tag_VSomEndormissement",
+      "value": 3
+    },
+    {
+      "conditions": "q_q1_sommeil_003 == \"4\"",
+      "tagOID": "Tag_VSomEndormissement",
+      "value": 4
+    }
+  ]
+}

@@ -1,16 +1,44 @@
 {
   "oid": "q_infos_generales_006",
-  "title": "Faites-vous des études ou occupez-vous un emploi actuellement ?",
-  "text": "Faites-vous des études ou occupez-vous un emploi actuellement ?",
+  "title": "Quelle est votre situation actuelle par rapport aux études ou au travail ? (plusieurs réponses possibles)",
+  "text": "Quelle est votre situation actuelle par rapport aux études ou au travail ? (plusieurs réponses possibles)",
   "type": "SINGLE_CHOICE_RADIO",
   "choices": [
     {
       "code": "0",
-      "text": "Oui"
+      "text": "Études (école, collège, lycée, faculté, formations…)"
     },
     {
       "code": "1",
-      "text": "Non"
+      "text": "Emploi rémunéré (salarié, libéral, artisan, entrepreneur…)"
+    },
+    {
+      "code": "2",
+      "text": "Demandeur ou à la recherche d’un emploi"
+    },
+    {
+      "code": "3",
+      "text": "Sans emploi pour raisons de santé (invalidité, maladie chronique, handicap…)"
+    },
+    {
+      "code": "4",
+      "text": "Sans emploi par choix personnel"
+    },
+    {
+      "code": "5",
+      "text": "Sans emploi car pas d’activité professionnelle"
+    },
+    {
+      "code": "6",
+      "text": "Bénévolat-activité associative"
+    },
+    {
+      "code": "7",
+      "text": "Retraite-retiré des affaires"
+    },
+    {
+      "code": "8",
+      "text": "Autre (à préciser question suivante)"
     }
   ]
 }

@@ -179,21 +179,6 @@
           "q_q1_neurologie_001": "aucun"
         }
       }
-    },
-    {
-      "question": "q_q1_neurologie_016",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_q1_neurologie_017",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_q1_neurologie_018",
-      "level": 1,
-      "isGlobal": false
     }
   ]
 }

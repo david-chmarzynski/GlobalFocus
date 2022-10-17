@@ -45,19 +45,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"athérosclérose\" in q_q1_homeostasie_001)",
-      "tagOID": "S_HOMEO_CELL_ATCD_OXYDO_INFLAM_ATHEROSCLEROSE",
-      "value": 0
-    },
-    {
       "conditions": "\"yeux\" in q_q1_homeostasie_001",
       "tagOID": "S_HOMEO_CELL_ATCD_OXYDO_INFLAM_YEUX",
       "value": 1
-    },
-    {
-      "conditions": "!(\"yeux\" in q_q1_homeostasie_001)",
-      "tagOID": "S_HOMEO_CELL_ATCD_OXYDO_INFLAM_YEUX",
-      "value": 0
     },
     {
       "conditions": "\"asthme\" in q_q1_homeostasie_001",
@@ -65,19 +55,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"asthme\" in q_q1_homeostasie_001)",
-      "tagOID": "S_HOMEO_CELL_ATCD_OXYDO_INFLAM_ASTHME",
-      "value": 0
-    },
-    {
       "conditions": "\"neurodégénératif\" in q_q1_homeostasie_001",
       "tagOID": "S_HOMEO_CELL_ATCD_OXYDO_INFLAM_NEURODEGENERATIF",
       "value": 1
-    },
-    {
-      "conditions": "!(\"neurodégénératif\" in q_q1_homeostasie_001)",
-      "tagOID": "S_HOMEO_CELL_ATCD_OXYDO_INFLAM_NEURODEGENERATIF",
-      "value": 0
     },
     {
       "conditions": "\"Cancer\" in q_q1_homeostasie_001",
@@ -85,29 +65,14 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Cancer\" in q_q1_homeostasie_001)",
-      "tagOID": "S_HOMEO_CELL_ATCD_OXYDO_INFLAM_CANCER",
-      "value": 0
-    },
-    {
       "conditions": "\"Maladie auto-immune\" in q_q1_homeostasie_001",
       "tagOID": "S_HOMEO_CELL_ATCD_OXYDO_INFLAM_MAI",
       "value": 1
     },
     {
-      "conditions": "!(\"Maladie auto-immune\" in q_q1_homeostasie_001)",
-      "tagOID": "S_HOMEO_CELL_ATCD_OXYDO_INFLAM_MAI",
-      "value": 0
-    },
-    {
       "conditions": "\"Dépression\" in q_q1_homeostasie_001",
       "tagOID": "S_HOMEO_CELL_ATCD_OXYDO_INFLAM_DEPRESSION",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Dépression\" in q_q1_homeostasie_001)",
-      "tagOID": "S_HOMEO_CELL_ATCD_OXYDO_INFLAM_DEPRESSION",
-      "value": 0
     },
     {
       "conditions": "\"aucun\" in q_q1_homeostasie_001",

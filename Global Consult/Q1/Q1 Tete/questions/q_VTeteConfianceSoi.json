@@ -53,21 +53,6 @@
       "conditions": "q_VTeteConfianceSoi == 7",
       "tagOID": "tag_VTeteConfianceSoi",
       "value": 7
-    },
-    {
-      "conditions": "q_VTeteConfianceSoi == 8",
-      "tagOID": "tag_VTeteConfianceSoi",
-      "value": 8
-    },
-    {
-      "conditions": "q_VTeteConfianceSoi == 9",
-      "tagOID": "tag_VTeteConfianceSoi",
-      "value": 9
-    },
-    {
-      "conditions": "q_VTeteConfianceSoi == 10",
-      "tagOID": "tag_VTeteConfianceSoi",
-      "value": 10
     }
   ]
 }

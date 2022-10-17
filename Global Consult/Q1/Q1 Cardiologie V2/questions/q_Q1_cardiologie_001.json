@@ -69,19 +69,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Hypertension artérielle\" in q_q1_cardiologie_001)",
-      "tagOID": "S_CV_ATCD_HTA",
-      "value": 0
-    },
-    {
       "conditions": "\"Angine de poitrine\" in q_q1_cardiologie_001",
       "tagOID": "S_CV_ATCD_ANGOR",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Angine de poitrine\" in q_q1_cardiologie_001)",
-      "tagOID": "S_CV_ATCD_ANGOR",
-      "value": 0
     },
     {
       "conditions": "\"Infarctus du myocarde\" in q_q1_cardiologie_001",
@@ -89,19 +79,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Infarctus du myocarde\" in q_q1_cardiologie_001)",
-      "tagOID": "S_CV_ATCD_INFARCTUS",
-      "value": 0
-    },
-    {
       "conditions": "\"Accident vasculaire cérébral \" in q_q1_cardiologie_001",
       "tagOID": "S_CV_ATCD_AVC",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Accident vasculaire cérébral \" in q_q1_cardiologie_001)",
-      "tagOID": "S_CV_ATCD_AVC",
-      "value": 0
     },
     {
       "conditions": "\"Artérite\" in q_q1_cardiologie_001",
@@ -109,19 +89,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Artérite\" in q_q1_cardiologie_001)",
-      "tagOID": "S_CV_ATCD_ARTERITE",
-      "value": 0
-    },
-    {
       "conditions": "\"Embolie pulmonaire\" in q_q1_cardiologie_001",
       "tagOID": "S_CV_ATCD_EMBOLIE",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Embolie pulmonaire\" in q_q1_cardiologie_001)",
-      "tagOID": "S_CV_ATCD_EMBOLIE",
-      "value": 0
     },
     {
       "conditions": "\"Phlébite(s)\" in q_q1_cardiologie_001",
@@ -129,19 +99,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Phlébite(s)\" in q_q1_cardiologie_001)",
-      "tagOID": "S_CV_ATCD_PHLEBITE",
-      "value": 0
-    },
-    {
       "conditions": "\"Varices\" in q_q1_cardiologie_001",
       "tagOID": "S_CV_ATCD_VARICE",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Varices\" in q_q1_cardiologie_001)",
-      "tagOID": "S_CV_ATCD_VARICE",
-      "value": 0
     },
     {
       "conditions": "\"Valvulopathie (Insuffisance aortique ou mitrale, rétrécissement aortique ou mitral)\" in q_q1_cardiologie_001",
@@ -149,19 +109,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Valvulopathie (Insuffisance aortique ou mitrale, rétrécissement aortique ou mitral)\" in q_q1_cardiologie_001)",
-      "tagOID": "S_CV_ATCD_VALVULOPATHIE",
-      "value": 0
-    },
-    {
       "conditions": "\"Trouble du rythme cardiaque (fibrillation auriculaire, flutter, extrasystoles,...)\" in q_q1_cardiologie_001",
       "tagOID": "S_CV_ATCD_TDR",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Trouble du rythme cardiaque (fibrillation auriculaire, flutter, extrasystoles,...)\" in q_q1_cardiologie_001)",
-      "tagOID": "S_CV_ATCD_TDR",
-      "value": 0
     },
     {
       "conditions": "\"Cardiomyopathie\" in q_q1_cardiologie_001",
@@ -169,35 +119,20 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Cardiomyopathie\" in q_q1_cardiologie_001)",
-      "tagOID": "S_CV_ATCD_CARDIOMYOPATHIE",
-      "value": 0
-    },
-    {
       "conditions": "\"Anévrysme artériel\" in q_q1_cardiologie_001",
       "tagOID": "S_CV_ATCD_ANEVRYSME",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Anévrysme artériel\" in q_q1_cardiologie_001)",
-      "tagOID": "S_CV_ATCD_ANEVRYSME",
-      "value": 0
     },
     {
       "conditions": "\"Autre(s) antécédent(s) cardiovasculaire(s)\" in q_q1_cardiologie_001",
       "tagOID": "S_CV_ATCD_AUTRES",
       "value": 1
     },
-    {
-      "conditions": "!(\"Autre(s) antécédent(s) cardiovasculaire(s)\" in q_q1_cardiologie_001)",
-      "tagOID": "S_CV_ATCD_AUTRES",
-      "value": 0
-    },
-    {
+        {
       "conditions": "\"aucun\" in q_q1_cardiologie_001",
       "tagOID": "S_CV_ATCD_AUCUN",
       "value": 0
-    },
+    }, 
     {
       "conditions": "!(\"aucun\" in q_q1_cardiologie_001)",
       "tagOID": "S_CV_ATCD_AUCUN",

@@ -1,7 +1,7 @@
 {
   "oid": "q_VSomSuspicionSAOSBerlin7",
-  "title": "Vous sentez-vous fatigué, las ou peu en forme durant votre période d’éveil ?",
-  "text": "Vous sentez-vous fatigué, las ou peu en forme durant votre période d’éveil ?",
+  "title": "Vous sentez-vous fatigué, pas ou peu en forme durant votre période d’éveil ?",
+  "text": "Vous sentez-vous fatigué, pas ou peu en forme durant votre période d’éveil ?",
   "type": "SINGLE_CHOICE_RADIO",
   "choices": [
     {

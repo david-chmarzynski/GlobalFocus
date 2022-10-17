@@ -22,6 +22,7 @@
       "reportingNode": {
         "tagOID": "tag_VContexteVieGlobal",
         "type": "SCORE",
+        "hideNodeIfEmpty": true,
         "ranges": [
           {
             "min": 0,
@@ -52,6 +53,7 @@
           {
             "tagOID": "tag_VContexteVieWEtudesVecu",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -82,6 +84,7 @@
               {
                 "tagOID": "tag_VContexteVieEtudesWOrganisation",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -113,6 +116,7 @@
               {
                 "tagOID": "tag_VContexteVieEtudesWHumain",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -144,6 +148,7 @@
               {
                 "tagOID": "tag_VContexteVieEtudesStress",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -177,6 +182,7 @@
           {
             "tagOID": "tag_VContexteVieQDVGlobal",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -207,6 +213,7 @@
               {
                 "tagOID": "tag_VContexteQDVDouleurs",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -239,6 +246,7 @@
               {
                 "tagOID": "tag_VContexteQDVEmotionnel",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -270,6 +278,7 @@
               {
                 "tagOID": "tag_VContexteQDVSante",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -301,6 +310,7 @@
               {
                 "tagOID": "tag_VContexteQDVCognitif",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -332,6 +342,7 @@
               {
                 "tagOID": "tag_VContexteQDVMobilite",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -363,6 +374,7 @@
               {
                 "tagOID": "tag_VContexteQDVAutonomie",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -394,6 +406,7 @@
               {
                 "tagOID": "tag_VContexteQDVActivites",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -427,6 +440,7 @@
           {
             "tagOID": "tag_VContexteVieFamilleGlobal",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -457,6 +471,7 @@
               {
                 "tagOID": "tag_VContexteFamilleStress",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -488,6 +503,7 @@
               {
                 "tagOID": "tag_VFamilleHumaine",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -519,6 +535,7 @@
               {
                 "tagOID": "tag_VFamillePratique",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,

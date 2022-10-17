@@ -54,11 +54,6 @@
       "conditions": "q_VBougerAP == \"4\"",
       "tagOID": "tag_VBougerAP",
       "value": 4
-    },
-    {
-      "conditions": "q_VBougerAP == \"5\"",
-      "tagOID": "tag_VBougerAP",
-      "value": 5
     }
   ]
 }

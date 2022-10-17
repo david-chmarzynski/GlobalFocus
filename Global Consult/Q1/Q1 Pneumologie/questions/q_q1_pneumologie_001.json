@@ -49,19 +49,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Cancer pulmonaire\" in q_q1_pneumologie_001)",
-      "tagOID": "S_PN_ATCD_CANCER_PULMONAIRE",
-      "value": 0
-    },
-    {
       "conditions": "\"Asthme\" in q_q1_pneumologie_001",
       "tagOID": "S_PN_ATCD_ASTHME",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Asthme\" in q_q1_pneumologie_001)",
-      "tagOID": "S_PN_ATCD_ASTHME",
-      "value": 0
     },
     {
       "conditions": "\"Bronchite chronique\" in q_q1_pneumologie_001",
@@ -69,19 +59,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Bronchite chronique\" in q_q1_pneumologie_001)",
-      "tagOID": "S_PN_ATCD_BPCO",
-      "value": 0
-    },
-    {
       "conditions": "\"Emphysème\" in q_q1_pneumologie_001",
       "tagOID": "S_PN_ATCD_EMPHYSEME",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Emphysème\" in q_q1_pneumologie_001)",
-      "tagOID": "S_PN_ATCD_EMPHYSEME",
-      "value": 0
     },
     {
       "conditions": "\"Dilatation des bronches\" in q_q1_pneumologie_001",
@@ -89,19 +69,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Dilatation des bronches\" in q_q1_pneumologie_001)",
-      "tagOID": "S_PN_ATCD_DILATATION_DES_BRONCHES",
-      "value": 0
-    },
-    {
       "conditions": "\"Tuberculose\" in q_q1_pneumologie_001",
       "tagOID": "S_PN_ATCD_TUBERCULOSE",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Tuberculose\" in q_q1_pneumologie_001)",
-      "tagOID": "S_PN_ATCD_TUBERCULOSE",
-      "value": 0
     },
     {
       "conditions": "\"Lésions pulmonaires et/ou pleurales dues à l’amiante\" in q_q1_pneumologie_001",
@@ -109,19 +79,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"Lésions pulmonaires et/ou pleurales dues à l’amiante\" in q_q1_pneumologie_001)",
-      "tagOID": "S_PN_ATCD_AMIANTE",
-      "value": 0
-    },
-    {
       "conditions": "\"Autre(s) antécédent(s)\" in q_q1_pneumologie_001",
       "tagOID": "S_PN_ATCD_AUTRE",
       "value": 1
-    },
-    {
-      "conditions": "!(\"Autre(s) antécédent(s)\" in q_q1_pneumologie_001)",
-      "tagOID": "S_PN_ATCD_AUTRE",
-      "value": 0
     }
   ]
 }

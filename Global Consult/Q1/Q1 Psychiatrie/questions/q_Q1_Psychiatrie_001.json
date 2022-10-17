@@ -44,14 +44,9 @@
   ],
   "scores": [
     {
-      "conditions": "\"separation\" in q_Q1_Psychiatrie_001",
+      "conditions":  "\"separation\" in q_Q1_Psychiatrie_001",
       "tagOID": "S_PSY_ATCD_ANXIETE_ANXIETE_SEPARATION",
       "value": 1
-    },
-    {
-      "conditions": "!(\"separation\" in q_Q1_Psychiatrie_001)",
-      "tagOID": "S_PSY_ATCD_ANXIETE_ANXIETE_SEPARATION",
-      "value": 0
     },
     {
       "conditions": "\"panique\" in q_Q1_Psychiatrie_001",
@@ -59,19 +54,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"panique\" in q_Q1_Psychiatrie_001)",
-      "tagOID": "S_PSY_ATCD_ANXIETE_PANIQUE",
-      "value": 0
-    },
-    {
       "conditions": "\"stress post-traumatique\" in q_Q1_Psychiatrie_001",
       "tagOID": "S_PSY_ATCD_ANXIETE_STRESS_POST_TRAUMATIQUE",
       "value": 1
-    },
-    {
-      "conditions": "!(\"stress post-traumatique\" in q_Q1_Psychiatrie_001)",
-      "tagOID": "S_PSY_ATCD_ANXIETE_STRESS_POST_TRAUMATIQUE",
-      "value": 0
     },
     {
       "conditions": "\"trouble anxieux gen\" in q_Q1_Psychiatrie_001",
@@ -79,19 +64,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"trouble anxieux gen\" in q_Q1_Psychiatrie_001)",
-      "tagOID": "S_PSY_ATCD_ANXIETE_TAG",
-      "value": 0
-    },
-    {
       "conditions": "\"phobie\" in q_Q1_Psychiatrie_001",
       "tagOID": "S_PSY_ATCD_ANXIETE_PHOBIE",
       "value": 1
-    },
-    {
-      "conditions": "!(\"phobie\" in q_Q1_Psychiatrie_001)",
-      "tagOID": "S_PSY_ATCD_ANXIETE_PHOBIE",
-      "value": 0
     },
     {
       "conditions": "\"phobie sociale\" in q_Q1_Psychiatrie_001",
@@ -99,19 +74,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"phobie sociale\" in q_Q1_Psychiatrie_001)",
-      "tagOID": "S_PSY_ATCD_ANXIETE_PHOBIE_SOCIALE",
-      "value": 0
-    },
-    {
       "conditions": "\"hypochondrie\" in q_Q1_Psychiatrie_001",
       "tagOID": "S_PSY_ATCD_ANXIETE_HYPOCHONDRIE",
       "value": 1
-    },
-    {
-      "conditions": "!(\"hypochondrie\" in q_Q1_Psychiatrie_001)",
-      "tagOID": "S_PSY_ATCD_ANXIETE_HYPOCHONDRIE",
-      "value": 0
     },
     {
       "conditions": "\"TOC\" in q_Q1_Psychiatrie_001",
@@ -119,11 +84,6 @@
       "value": 1
     },
     {
-      "conditions": "!(\"TOC\" in q_Q1_Psychiatrie_001)",
-      "tagOID": "S_PSY_ATCD_ANXIETE_TOC",
-      "value": 0
-    },
-    {
       "conditions": "\"aucun\" in q_Q1_Psychiatrie_001",
       "tagOID": "S_PSY_ATCD_ANXIETE",
       "value": 0
@@ -131,16 +91,6 @@
     {
       "conditions": "!(\"aucun\" in q_Q1_Psychiatrie_001)",
       "tagOID": "S_PSY_ATCD_ANXIETE",
-      "value": 1
-    },
-    {
-      "conditions": "\"aucun\" in q_Q1_Psychiatrie_001",
-      "tagOID": "S_PSY_ATCD",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"aucun\" in q_Q1_Psychiatrie_001)",
-      "tagOID": "S_PSY_ATCD",
       "value": 1
     }
   ]

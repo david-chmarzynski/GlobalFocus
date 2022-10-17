@@ -12,11 +12,6 @@
   "scores":[
     {
       "tagOID": "Tag_VToxiquePersoTabacPassif",
-      "conditions": "q_VToxiquePersoTabacPassif == '0'",
-      "value": 0
-    },
-    {
-      "tagOID": "Tag_VToxiquePersoTabacPassif",
       "conditions": "q_VToxiquePersoTabacPassif == '1'",
       "value": 1
     },

@@ -1,7 +1,7 @@
 {
   "oid": "q_infos_generales_007",
-  "title": "Quelles études faites-vous ou quel travail exercez-vous  ?",
-  "text": "Quelles études faites-vous ou quel travail exercez-vous  ?",
+  "title": "Quelles études suivez-vous actuellement ?",
+  "text": "Quelles études suivez-vous actuellement ?",
   "type": "TEXT",
   "choices": [],
   "scores": []

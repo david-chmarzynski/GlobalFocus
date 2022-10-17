@@ -37,19 +37,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"0\" in q_VAlimentationAtcd)",
-      "tagOID": "tag_VAlimentationAtcd1",
-      "value": 0
-    },
-    {
       "conditions": "\"1\" in q_VAlimentationAtcd",
       "tagOID": "tag_VAlimentationAtcd2",
       "value": 1
-    },
-    {
-      "conditions": "!(\"1\" in q_VAlimentationAtcd)",
-      "tagOID": "tag_VAlimentationAtcd2",
-      "value": 0
     },
     {
       "conditions": "\"2\" in q_VAlimentationAtcd",
@@ -57,29 +47,14 @@
       "value": 1
     },
     {
-      "conditions": "!(\"2\" in q_VAlimentationAtcd)",
-      "tagOID": "tag_VAlimentationAtcd3",
-      "value": 0
-    },
-    {
       "conditions": "\"3\" in q_VAlimentationAtcd",
       "tagOID": "tag_VAlimentationAtcd4",
       "value": 1
     },
     {
-      "conditions": "!(\"3\" in q_VAlimentationAtcd)",
-      "tagOID": "tag_VAlimentationAtcd4",
-      "value": 0
-    },
-    {
       "conditions": "\"4\" in q_VAlimentationAtcd",
       "tagOID": "tag_VAlimentationAtcd5",
       "value": 1
-    },
-    {
-      "conditions": "!(\"4\" in q_VAlimentationAtcd)",
-      "tagOID": "tag_VAlimentationAtcd5",
-      "value": 0
     },
     {
       "conditions": "(\"5\" in q_VAlimentationAtcd)",

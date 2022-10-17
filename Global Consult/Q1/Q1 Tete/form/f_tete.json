@@ -16,6 +16,7 @@
       "reportingNode": {
         "tagOID": "tag_VTeteCouleur",
         "type": "SCORE",
+        "hideNodeIfEmpty": true,
         "ranges": [
           {
             "min": 0,
@@ -46,6 +47,7 @@
           {
             "tagOID": "tag_VTeteTensionEmotionnelle",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -76,6 +78,7 @@
               {
                 "tagOID": "tag_VTeteAnxieteTrait",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -107,6 +110,7 @@
               {
                 "tagOID": "Tag_VTetePerfectionnisme",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -138,6 +142,7 @@
               {
                 "tagOID": "tag_VTeteStressGlobal",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -171,6 +176,7 @@
           {
             "tagOID": "tag_VTeteMotivationStade",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 1,
@@ -213,6 +219,7 @@
               {
                 "tagOID": "tag_VTeteMotivationEnvie",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 9,
@@ -244,6 +251,7 @@
               {
                 "tagOID": "tag_VTeteMotivationConfiance",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 9,
@@ -275,6 +283,7 @@
               {
                 "tagOID": "tag_VTeteMotivationPret",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 9,
@@ -308,6 +317,7 @@
           {
             "tagOID": "tag_VTeteVisionSoiGlobale",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 1,
@@ -350,6 +360,7 @@
               {
                 "tagOID": "tag_VTeteImageCorporelle",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 1,
@@ -393,6 +404,7 @@
               {
                 "tagOID": "tag_VTeteADSGlobale",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 1,
@@ -436,6 +448,7 @@
               {
                 "tagOID": "tag_VTeteConfianceSoi",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 8,
@@ -467,6 +480,7 @@
               {
                 "tagOID": "tag_VTeteEstimeSoi",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 1,

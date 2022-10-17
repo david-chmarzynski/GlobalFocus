@@ -1,0 +1,12 @@
+{
+  "oid": "q_q1_rhumatologie_036",
+  "title": "En quelle année la prothèse du genou droite a-t-elle été pratiquée ?",
+  "text": "En quelle année la prothèse du genou droite a-t-elle été pratiquée ?",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 1900,
+    "max": 2022,
+    "step": 1
+  },
+  "scores": []
+}

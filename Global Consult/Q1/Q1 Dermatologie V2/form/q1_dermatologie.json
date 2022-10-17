@@ -22,6 +22,7 @@
       "reportingNode": {
         "tagOID": "S_DER",
         "type": "SCORE",
+        "hideNodeIfEmpty": true,
         "ranges": [
           {
             "min": 0,
@@ -52,6 +53,7 @@
           {
             "tagOID": "S_DER_ATCD_CANCER_BASO",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -71,6 +73,7 @@
           {
             "tagOID": "S_DER_ATCD_CANCER_SPINO",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -90,6 +93,7 @@
           {
             "tagOID": "S_DER_ATCD_MELANOME",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -109,6 +113,7 @@
           {
             "tagOID": "S_DER_ATCD_DERMATITE_ATOPIQUE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -128,6 +133,7 @@
           {
             "tagOID": "S_DER_ATCD_PSORIASIS",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -147,6 +153,7 @@
           {
             "tagOID": "S_DER_ATCD_VITILIGO",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -166,6 +173,7 @@
           {
             "tagOID": "S_DER_ATCD_PELADE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -185,6 +193,7 @@
           {
             "tagOID": "S_DER_ATCD_AUTRE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,

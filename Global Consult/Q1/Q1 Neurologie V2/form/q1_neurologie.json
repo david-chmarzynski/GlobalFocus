@@ -22,6 +22,7 @@
       "reportingNode": {
         "tagOID": "S_N",
         "type": "SCORE",
+        "hideNodeIfEmpty": true,
         "ranges": [
           {
             "min": 0,
@@ -52,6 +53,7 @@
           {
             "tagOID": "S_N_ATCD",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -70,6 +72,7 @@
               {
                 "tagOID": "S_N_ATCD_MIGRAINE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -89,6 +92,7 @@
               {
                 "tagOID": "S_N_ATCD_EPILEPSIE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -108,6 +112,7 @@
               {
                 "tagOID": "S_N_ATCD_TREMBLEMENT",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -127,6 +132,7 @@
               {
                 "tagOID": "S_N_ATCD_COMA",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -146,6 +152,7 @@
               {
                 "tagOID": "S_N_ATCD_AVC",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -165,6 +172,7 @@
               {
                 "tagOID": "S_N_ATCD_PARKINSON",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -184,6 +192,7 @@
               {
                 "tagOID": "S_N_ATCD_NEURODEGENERATIF",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -203,6 +212,7 @@
               {
                 "tagOID": "S_N_ATCD_SEP",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -222,6 +232,7 @@
               {
                 "tagOID": "S_N_ATCD_NEUROPATHIE",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -241,6 +252,7 @@
               {
                 "tagOID": "S_N_ATCD_TUMEUR_BENIGNE_CERVEAU",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -260,6 +272,7 @@
               {
                 "tagOID": "S_N_ATCD_TUMEUR_MALIGNE_CERVEAU",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -279,6 +292,7 @@
               {
                 "tagOID": "S_N_ATCD_CHIR",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -298,6 +312,7 @@
               {
                 "tagOID": "S_N_ATCD_AUTRES",
                 "type": "SCORE",
+                "hideNodeIfEmpty": true,
                 "ranges": [
                   {
                     "min": 0,
@@ -310,370 +325,6 @@
                     "max": 1,
                     "color": "FF0000",
                     "text": "AUTRES"
-                  }
-                ],
-                "children": []
-              }
-            ]
-          },
-          {
-            "tagOID": "S_N_SYMP_CENTRAL",
-            "type": "SCORE",
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "SYMP CENTRAL"
-              },
-              {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "SYMP CENTRAL"
-              }
-            ],
-            "children": [
-              {
-                "tagOID": "S_N_SYMP_CENTRAL_CEPHALEE",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "CEPHALEE"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "CEPHALEE"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_N_SYMP_CENTRAL_CONFUSION",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "CONFUSION"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "CONFUSION"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_N_SYMP_CENTRAL_ATTENTION",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "ATTENTION"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "ATTENTION"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_N_SYMP_CENTRAL_MEMOIRE",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "MEMOIRE"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "MEMOIRE"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_N_SYMP_CENTRAL_LANGAGE",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "LANGAGE"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "LANGAGE"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_N_SYMP_CENTRAL_EQUILIBRE",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "EQUILIBRE"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "EQUILIBRE"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_N_SYMP_CENTRAL_MALAISE",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "ABSENCE"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "ABSENCE"
-                  }
-                ],
-                "children": []
-              }
-            ]
-          },
-          {
-            "tagOID": "S_N_SYMP_MOTEUR",
-            "type": "SCORE",
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "SYMP MOTEUR"
-              },
-              {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "SYMP MOTEUR"
-              }
-            ],
-            "children": [
-              {
-                "tagOID": "S_N_SYMP_MOTEUR_TREMBLEMENT",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "TREMBLEMENT"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "TREMBLEMENT"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_N_SYMP_MOTEUR_PRAXIE",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "PRAXIE"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "PRAXIE"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_N_SYMP_MOTEUR_MUSCLE",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "FATIG MUSC"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "FATIG MUSC"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_N_SYMP_MOTEUR_CRAMPES",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "CRAMPES"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "CRAMPES"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_N_SYMP_MOTEUR_TICS",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "TICS"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "TICS"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_N_SYMP_MOTEUR_SPASTICITE",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "SPASTICITE"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "SPASTICITE"
-                  }
-                ],
-                "children": []
-              }
-            ]
-          },
-          {
-            "tagOID": "S_N_SYMP_SENSITIF",
-            "type": "SCORE",
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "SYMP SENSITIF"
-              },
-              {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "SYMP SENSITIF"
-              }
-            ],
-            "children": [
-              {
-                "tagOID": "S_N_SYMP_SENSITIF_HYPOESTHESIE",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "HYPOESTH"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "HYPOESTH"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_N_SYMP_SENSITIF_HYPERESTHESIE",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "HYPERESTH"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "HYPERESTH"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_N_SYMP_SENSITIF_PARESTHESIE",
-                "type": "SCORE",
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "PARESTH"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "PARESTH"
                   }
                 ],
                 "children": []

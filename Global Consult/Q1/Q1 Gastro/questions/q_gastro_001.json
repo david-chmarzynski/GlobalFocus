@@ -38,66 +38,6 @@
       "value": 0
     },
     {
-      "conditions": "!(\"0\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_CANCER_ANUS",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"0\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_CANCER_AUTRE",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"0\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_CANCER_COLON",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"0\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_CANCER_DUODENUM",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"0\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_CANCER_ESTOMAC",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"0\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_CANCER_FOIE",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"0\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_CANCER_INTEST_GRELE",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"0\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_CANCER_OESOPHAGE",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"0\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_CANCER_PANCREAS",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"0\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_CANCER_RECTUM",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"0\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_CANCER_SIGMOIDE",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"0\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_CANCER_VOIES_BILIAIRES",
-      "value": 0
-    },
-    {
       "conditions": "\"1\" in q_gastro_001",
       "tagOID": "S_DIG_ATCD_TD_HAUT",
       "value": 1
@@ -105,51 +45,6 @@
     {
       "conditions": "!(\"1\" in q_gastro_001)",
       "tagOID": "S_DIG_ATCD_TD_HAUT",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"1\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_TD_HAUT_AUTRE",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"1\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_TD_HAUT_DUOD",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"1\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_TD_HAUT_GASTRITE",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"1\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_TD_HAUT_HELICOBACTER",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"1\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_TD_HAUT_HERNIE_HIATALE",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"1\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_TD_HAUT_OESOPHAGITE",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"1\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_TD_HAUT_RGO",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"1\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_TD_HAUT_ULC_D",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"1\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_TD_HAUT_ULC_E",
       "value": 0
     },
     {
@@ -163,61 +58,6 @@
       "value": 0
     },
     {
-      "conditions": "!(\"2\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_TD_BAS_AUTRE",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"2\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_TD_BAS_CHRON",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"2\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_TD_BAS_COL_PMEMB",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"2\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_TD_BAS_DIVERTICULE",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"2\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_TD_BAS_F_ANAL",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"2\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_TD_BAS_HEMOR",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"2\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_TD_BAS_INC_ANAL",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"2\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_TD_BAS_POLYPE",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"2\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_TD_BAS_RCH",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"2\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_TD_BAS_SIBO",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"2\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_TD_BAS_TFI",
-      "value": 0
-    },
-    {
       "conditions": "\"3\" in q_gastro_001",
       "tagOID": "S_DIG_ATCD_ANNEXES",
       "value": 1
@@ -225,66 +65,6 @@
     {
       "conditions": "!(\"3\" in q_gastro_001)",
       "tagOID": "S_DIG_ATCD_ANNEXES",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"3\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_ANNEXES_AUTRE",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"3\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_ANNEXES_CHOLANG",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"3\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_ANNEXES_CHOLECY",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"3\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_ANNEXES_CHOLECYSTECTOMIE",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"3\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_ANNEXES_CIRRHOSE",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"3\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_ANNEXES_FIBR",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"3\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_ANNEXES_HEPAT_B",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"3\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_ANNEXES_HEPAT_C",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"3\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_ANNEXES_LITH_V",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"3\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_ANNEXES_PANC_AIG",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"3\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_ANNEXES_PANC_CHR",
-      "value": 0
-    },
-    {
-      "conditions": "!(\"3\" in q_gastro_001)",
-      "tagOID": "S_DIG_ATCD_ANNEXES_STEATOSE",
       "value": 0
     }
   ]

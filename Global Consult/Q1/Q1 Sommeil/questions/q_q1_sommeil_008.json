@@ -1,0 +1,55 @@
+{
+  "oid": "q_q1_sommeil_008",
+  "title": "Sur ces 3 derniers mois, vous sentez-vous fatigué(e) et gêné(e) dans la journée à cause de la mauvaise qualité et/ou quantité de sommeil (manque d’énergie, besoin de dormir ou de faire la sieste, difficultés de concentration ou de mémoire, irritabilité…) ?",
+  "text": "Sur ces 3 derniers mois, vous sentez-vous fatigué(e) et gêné(e) dans la journée à cause de la mauvaise qualité et/ou quantité de sommeil (manque d’énergie, besoin de dormir ou de faire la sieste, difficultés de concentration ou de mémoire, irritabilité…) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais (ou presque)"
+    },
+    {
+      "code": "1",
+      "text": "1 à 3 fois/mois"
+    },
+    {
+      "code": "2",
+      "text": "1 à 2 fois/semaine"
+    },
+    {
+      "code": "3",
+      "text": "3 à 5 fois par semaine"
+    },
+    {
+      "code": "4",
+      "text": "Tous les jours (ou presque)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q1_sommeil_008 == \"0\"",
+      "tagOID": "Tag_VSomAsthénieDiurne",
+      "value": 0
+    },
+    {
+      "conditions": "q_q1_sommeil_008 == \"1\"",
+      "tagOID": "Tag_VSomAsthénieDiurne",
+      "value": 1
+    },
+    {
+      "conditions": "q_q1_sommeil_008 == \"2\"",
+      "tagOID": "Tag_VSomAsthénieDiurne",
+      "value": 2
+    },
+    {
+      "conditions": "q_q1_sommeil_008 == \"3\"",
+      "tagOID": "Tag_VSomAsthénieDiurne",
+      "value": 3
+    },
+    {
+      "conditions": "q_q1_sommeil_008 == \"4\"",
+      "tagOID": "Tag_VSomAsthénieDiurne",
+      "value": 4
+    }
+  ]
+}

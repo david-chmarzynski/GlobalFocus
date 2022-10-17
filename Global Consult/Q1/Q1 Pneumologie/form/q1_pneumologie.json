@@ -22,6 +22,7 @@
       "reportingNode": {
         "tagOID": "S_PN",
         "type": "SCORE",
+        "hideNodeIfEmpty": true,
         "ranges": [
           {
             "min": 0,
@@ -52,6 +53,7 @@
           {
             "tagOID": "S_PN_ATCD_CANCER_PULMONAIRE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -71,6 +73,7 @@
           {
             "tagOID": "S_PN_ATCD_ASTHME",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -90,6 +93,7 @@
           {
             "tagOID": "S_PN_ATCD_BPCO",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -109,6 +113,7 @@
           {
             "tagOID": "S_PN_ATCD_EMPHYSEME",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -128,6 +133,7 @@
           {
             "tagOID": "S_PN_ATCD_DILATATION_DES_BRONCHES",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -147,6 +153,7 @@
           {
             "tagOID": "S_PN_ATCD_TUBERCULOSE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -166,6 +173,7 @@
           {
             "tagOID": "S_PN_ATCD_AMIANTE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,
@@ -185,6 +193,7 @@
           {
             "tagOID": "S_PN_ATCD_AUTRE",
             "type": "SCORE",
+            "hideNodeIfEmpty": true,
             "ranges": [
               {
                 "min": 0,

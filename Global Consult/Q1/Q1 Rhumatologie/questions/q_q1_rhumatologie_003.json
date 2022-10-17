@@ -1,0 +1,91 @@
+{
+  "oid": "q_q1_rhumatologie_003",
+  "title": "Précisez la localisation de votre(vos) intervention(s) (plusieurs réponses possibles)",
+  "text": "Précisez la localisation de votre(vos) intervention(s) (plusieurs réponses possibles)",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "Hernie discale cervicale",
+      "text": "Hernie discale cervicale"
+    },
+    {
+      "code": "Arthrodèse cervicale",
+      "text": "Arthrodèse cervicale"
+    },
+    {
+      "code": "Fracture de vertèbre(s) cervicale(s)",
+      "text": "Fracture de vertèbre(s) cervicale(s)"
+    },
+    {
+      "code": "Fracture de vertèbre(s) dorsale(s)",
+      "text": "Fracture de vertèbre(s) dorsale(s)"
+    },
+    {
+      "code": "Fracture de vertèbre(s) lombaire(s)",
+      "text": "Fracture de vertèbre(s) lombaire(s)"
+    },
+    {
+      "code": "Arthrodèse dorso-lombaire",
+      "text": "Arthrodèse dorso-lombaire"
+    },
+    {
+      "code": "Arthrodèse lombaire",
+      "text": "Arthrodèse lombaire"
+    },
+    {
+      "code": "Hernie discale lombaire",
+      "text": "Hernie discale lombaire"
+    },
+    {
+      "code": "Autre(s) chirurgie(s) du rachis",
+      "text": "Autre(s) chirurgie(s) du rachis"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"Hernie discale cervicale\" in q_q1_rhumatologie_003",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS_HERNIE_CERV",
+      "value": 1
+    },
+    {
+      "conditions": "\"Arthrodèse cervicale\" in q_q1_rhumatologie_003",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS_ARTHROD_CERV",
+      "value": 1
+    },
+    {
+      "conditions": "\"Fracture de vertèbre(s) cervicale(s)\" in q_q1_rhumatologie_003",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS_FRACT_CERV",
+      "value": 1
+    },
+    {
+      "conditions": "\"Fracture de vertèbre(s) dorsale(s)\" in q_q1_rhumatologie_003",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS_FRACT_DORS",
+      "value": 1
+    },
+    {
+      "conditions": "\"Fracture de vertèbre(s) lombaire(s)\" in q_q1_rhumatologie_003",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS_FRACT_LOMB",
+      "value": 1
+    },
+    {
+      "conditions": "\"Arthrodèse dorso-lombaire\" in q_q1_rhumatologie_003",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS_ARTHROD_DO_LO",
+      "value": 1
+    },
+    {
+      "conditions": "\"Arthrodèse lombaire\" in q_q1_rhumatologie_003",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS_ARTHROD_LOMB",
+      "value": 1
+    },
+    {
+      "conditions": "\"Hernie discale lombaire\" in q_q1_rhumatologie_003",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS_HERNIE_LOMB",
+      "value": 1
+    },
+    {
+      "conditions": "\"Autre(s) chirurgie(s) du rachis\" in q_q1_rhumatologie_003",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS_AUTRE",
+      "value": 1
+    }
+  ]
+}

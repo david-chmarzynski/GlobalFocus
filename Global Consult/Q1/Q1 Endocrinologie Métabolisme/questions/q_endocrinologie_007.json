@@ -40,19 +40,9 @@
       "value": "1"
     },
     {
-      "conditions": "!(\"0\" in q_endocrinologie_007)",
-      "tagOID": "S_ENDO_ATCD_METABOLIQUE_DIABETE1",
-      "value": "0"
-    },
-    {
       "conditions": "\"1\" in q_endocrinologie_007",
       "tagOID": "S_ENDO_ATCD_METABOLIQUE_DIABETE2",
       "value": "1"
-    },
-    {
-      "conditions": "!(\"1\" in q_endocrinologie_007)",
-      "tagOID": "S_ENDO_ATCD_METABOLIQUE_DIABETE2",
-      "value": "0"
     },
     {
       "conditions": "\"2\" in q_endocrinologie_007",
@@ -60,19 +50,9 @@
       "value": "1"
     },
     {
-      "conditions": "!(\"2\" in q_endocrinologie_007)",
-      "tagOID": "S_ENDO_ATCD_METABOLIQUE_OBESITE",
-      "value": "0"
-    },
-    {
       "conditions": "\"3\" in q_endocrinologie_007",
       "tagOID": "S_ENDO_ATCD_METABOLIQUE_CHOLESTEROL",
       "value": "1"
-    },
-    {
-      "conditions": "!(\"3\" in q_endocrinologie_007)",
-      "tagOID": "S_ENDO_ATCD_METABOLIQUE_CHOLESTEROL",
-      "value": "0"
     },
     {
       "conditions": "\"4\" in q_endocrinologie_007",
@@ -80,29 +60,14 @@
       "value": "1"
     },
     {
-      "conditions": "!(\"4\" in q_endocrinologie_007)",
-      "tagOID": "S_ENDO_ATCD_METABOLIQUE_TRIGLYCERIDE",
-      "value": "0"
-    },
-    {
       "conditions": "\"5\" in q_endocrinologie_007",
       "tagOID": "S_ENDO_ATCD_METABOLIQUE_URATE",
       "value": "1"
     },
     {
-      "conditions": "!(\"5\" in q_endocrinologie_007)",
-      "tagOID": "S_ENDO_ATCD_METABOLIQUE_URATE",
-      "value": "0"
-    },
-    {
       "conditions": "\"6\" in q_endocrinologie_007",
       "tagOID": "S_ENDO_ATCD_METABOLIQUE_AUTRE",
       "value": "1"
-    },
-    {
-      "conditions": "!(\"6\" in q_endocrinologie_007)",
-      "tagOID": "S_ENDO_ATCD_METABOLIQUE_AUTRE",
-      "value": "0"
     }
   ]
 }

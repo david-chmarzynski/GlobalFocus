@@ -1,28 +1,28 @@
 {
   "oid": "q_endocrinologie_001",
-  "title": "Vous a-t-on diagnostiqué ?",
-  "text": "Vous a-t-on diagnostiqué ?",
+  "title": "Vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies ? (plusieurs réponses possibles)",
+  "text": "Vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies ? (plusieurs réponses possibles)",
   "type": "MULTI_CHOICES",
   "choices": [
     {
       "code": "0",
-      "text": "Une pathologie thyroïdienne (hypo ou hyperthyroïdie, thyroïdite, cancer, nodules...)"
+      "text": "Pathologie thyroïdienne (hypo ou hyperthyroïdie, thyroïdite, cancer, nodules...)"
     },
     {
       "code": "1",
-      "text": "Une pathologie parathyroïdienne (hypo ou hyperparathyroïdie, cancer...)"
+      "text": "Pathologie parathyroïdienne (hypo ou hyperparathyroïdie, cancer...)"
     },
     {
       "code": "2",
-      "text": "Une pathologie de l’hypophyse (hyperprolactinémie, adénome, insuffisance hypophysaire, acromégalie, diabète insipide...)"
+      "text": "Pathologie de l’hypophyse (hyperprolactinémie, adénome, insuffisance hypophysaire, acromégalie, diabète insipide...)"
     },
     {
       "code": "3",
-      "text": "Une pathologie surrénalienne (Cushing, Conn, phéochromocytome, insuffisance surrénalienne...)"
+      "text": "Pathologie surrénalienne (Cushing, Conn, phéochromocytome, insuffisance surrénalienne...)"
     },
     {
       "code": "4",
-      "text": "Une pathologie métabolique (obésité, diabète type 1 ou 2, cholestérol, triglycérides...)"
+      "text": "Pathologie métabolique (obésité, diabète type 1 ou 2, cholestérol, triglycérides...)"
     },
     {
       "code": "5",

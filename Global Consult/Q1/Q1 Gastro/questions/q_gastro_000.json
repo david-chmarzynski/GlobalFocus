@@ -6,19 +6,19 @@
   "choices": [
     {
       "code": "0",
-      "text": "Satisfaisant"
+      "text": "Satisfaisante"
     },
     {
       "code": "1",
-      "text": "Légèrement insatisfaisant"
+      "text": "Légèrement insatisfaisante"
     },
     {
       "code": "2",
-      "text": "Plutôt insatisfaisant"
+      "text": "Plutôt insatisfaisante"
     },
     {
       "code": "3",
-      "text": "Insatisfaisant"
+      "text": "Insatisfaisante"
     }
   ],
   "scores": [

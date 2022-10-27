@@ -1,16 +1,16 @@
 {
   "oid": "q_gastro_004",
-  "title": "Quelle(s) pathologie(s) du tube digestif haut vous a-t-on diagnostiqué ?",
-  "text": "Quelle(s) pathologie(s) du tube digestif haut vous a-t-on diagnostiqué ?",
+  "title": "Quelle(s) pathologie(s) du tube digestif haut vous a-t-on déjà diagnostiqué ? (plusieurs réponses possibles)",
+  "text": "Quelle(s) pathologie(s) du tube digestif haut vous a-t-on déjà diagnostiqué ? (plusieurs réponses possibles)",
   "type": "MULTI_CHOICES",
   "choices": [
     {
       "code": "0",
-      "text": "Œsophagite"
+      "text": "Oesophagite"
     },
     {
       "code": "1",
-      "text": "Reflux gastro-œsophagien "
+      "text": "Reflux gastro-oesophagien "
     },
     {
       "code": "2",

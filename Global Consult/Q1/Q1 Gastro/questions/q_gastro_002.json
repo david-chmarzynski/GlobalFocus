@@ -1,12 +1,12 @@
 {
   "oid": "q_gastro_002",
-  "title": "Quel(s) cancer(s) vous a-t-on diagnostiqué ?",
-  "text": "Quel(s) cancer(s) vous a-t-on diagnostiqué ?",
+  "title": "Quel(s) cancer(s) vous a-t-on diagnostiqué ? (plusieursréponsespossibles)",
+  "text": "Quel(s) cancer(s) vous a-t-on diagnostiqué ? (plusieursréponsespossibles)",
   "type": "MULTI_CHOICES",
   "choices": [
     {
       "code": "0",
-      "text": "Œsophage "
+      "text": "Oesophage "
     },
     {
       "code": "1",

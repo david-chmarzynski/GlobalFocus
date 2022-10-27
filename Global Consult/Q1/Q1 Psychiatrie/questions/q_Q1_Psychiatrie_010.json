@@ -1,7 +1,7 @@
 {
   "oid": "q_Q1_Psychiatrie_010",
-  "title": "En quelle année avez-vous eu votre premier traitement et/ou soins en lien avec  votre équilibre émotionnel et/ou votre santé psychologique ? ",
-  "text": "En quelle année avez-vous eu votre premier traitement et/ou soins en lien avec  votre équilibre émotionnel et/ou votre santé psychologique ? ",
+  "title": "En quelle année avez-vous eu votre premier traitement et/ou soins en lien avec votre équilibre émotionnel et/ou votre santé psychologique ? ",
+  "text": "En quelle année avez-vous eu votre premier traitement et/ou soins en lien avec votre équilibre émotionnel et/ou votre santé psychologique ? ",
   "type": "ANALOG_SCALE",
   "scale": {
     "min": "1900",

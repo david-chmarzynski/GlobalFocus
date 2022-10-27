@@ -2,7 +2,7 @@
   "oid": "q_infos_generales_008_2",
   "title": "Quelle est votre situation actuelle par rapport aux études ou au travail ? (plusieurs réponses possibles)",
   "text": "Quelle est votre situation actuelle par rapport aux études ou au travail ? (plusieurs réponses possibles)",
-  "type": "SINGLE_CHOICE_RADIO",
+  "type": "MULTI_CHOICES",
   "choices": [
     {
       "code": "0",

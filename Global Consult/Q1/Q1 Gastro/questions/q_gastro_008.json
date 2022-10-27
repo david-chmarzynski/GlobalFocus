@@ -1,7 +1,7 @@
 {
   "oid": "q_gastro_008",
-  "title": "Quelle(s) pathologie(s) des organes digestifs annexes vous a-t-on diagnostiqué ?",
-  "text": "Quelle(s) pathologie(s) des organes digestifs annexes vous a-t-on diagnostiqué ?",
+  "title": "Quelle(s) pathologie(s) des organes digestifs annexes vous a-t-on diagnostiqué ? (plusieurs réponses possibles)",
+  "text": "Quelle(s) pathologie(s) des organes digestifs annexes vous a-t-on diagnostiqué ? (plusieurs réponses possibles)",
   "type": "MULTI_CHOICES",
   "choices": [
     {

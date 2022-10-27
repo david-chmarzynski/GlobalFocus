@@ -2,6 +2,7 @@
   "oid": "chap_complet",
   "title": "chap_complet",
   "modules": [
+    "infos_generales",
     "TETE",
     "mod_contexte_vie",
     "mod_VToxique",

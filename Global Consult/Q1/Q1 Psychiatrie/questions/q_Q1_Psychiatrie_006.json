@@ -1,7 +1,7 @@
 {
   "oid": "q_Q1_Psychiatrie_006",
-  "title": "Vous a-t-on diagnostiqué un trouble de la personnalité ? (plusieurs réponses possibles)",
-  "text": "Vous a-t-on diagnostiqué un trouble de la personnalité ? (plusieurs réponses possibles)",
+  "title": "Vous a-t-on diagnostiqué un ou plusieurs de ces troubles de la personnalité ? (plusieurs réponses possibles)",
+  "text": "Vous a-t-on diagnostiqué un ou plusieurs de ces troubles de la personnalité ? (plusieurs réponses possibles)",
   "type": "MULTI_CHOICES",
   "choices": [
     {

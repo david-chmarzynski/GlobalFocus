@@ -6,6 +6,10 @@
   "choices": [
     {
       "code": "0",
+      "text": "Très Satisfaisante"
+    },
+    {
+      "code": "0",
       "text": "Satisfaisante"
     },
     {
@@ -27,6 +31,11 @@
   ],
   "scores": [
     {
+      "conditions": "q_VTeteADSGlobale == '0'",
+      "tagOID": "tag_VTeteADSGlobale",
+      "value": 1
+    },
+    {
       "conditions": "q_VTeteADSGlobale == '1'",
       "tagOID": "tag_VTeteADSGlobale",
       "value": 2
@@ -45,6 +54,11 @@
       "conditions": "q_VTeteADSGlobale == '4'",
       "tagOID": "tag_VTeteADSGlobale",
       "value": 5
+    },
+    {
+      "conditions": "q_VTeteADSGlobale == '5'",
+      "tagOID": "tag_VTeteADSGlobale",
+      "value": 6
     }
   ]
 }

@@ -58,6 +58,16 @@
       "conditions": "q_VTeteMotivationConfiance == 8",
       "tagOID": "tag_VTeteMotivationConfiance",
       "value": 8
+    },
+    {
+      "conditions": "q_VTeteMotivationConfiance == 9",
+      "tagOID": "tag_VTeteMotivationConfiance",
+      "value": 9
+    },
+    {
+      "conditions": "q_VTeteMotivationConfiance == 10",
+      "tagOID": "tag_VTeteMotivationConfiance",
+      "value": 10
     }
   ]
 }

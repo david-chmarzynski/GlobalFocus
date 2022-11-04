@@ -58,19 +58,31 @@
               {
                 "min": 1,
                 "max": 1.9,
-                "color": "FFFF00",
+                "color": "CCFF33",
                 "text": "TENS"
               },
               {
                 "min": 2,
                 "max": 2.9,
-                "color": "FF9900",
+                "color": "FFFF00",
                 "text": "TENS"
               },
               {
                 "min": 3,
                 "max": 3.9,
+                "color": "FF9900",
+                "text": "TENS"
+              },
+              {
+                "min": 4,
+                "max": 4.9,
                 "color": "FF0000",
+                "text": "TENS"
+              },
+              {
+                "min": 5,
+                "max": 5.9,
+                "color": "990000",
                 "text": "TENS"
               }
             ],
@@ -89,19 +101,31 @@
                   {
                     "min": 1,
                     "max": 1.9,
-                    "color": "FFFF00",
+                    "color": "CCFF33",
                     "text": "ANX-TRT"
                   },
                   {
                     "min": 2,
                     "max": 2.9,
-                    "color": "FF9900",
+                    "color": "FFFF00",
                     "text": "ANX-TRT"
                   },
                   {
                     "min": 3,
                     "max": 3.9,
+                    "color": "FF9900",
+                    "text": "ANX-TRT"
+                  },
+                  {
+                    "min": 4,
+                    "max": 4.9,
                     "color": "FF0000",
+                    "text": "ANX-TRT"
+                  },
+                  {
+                    "min": 5,
+                    "max": 5.9,
+                    "color": "990000",
                     "text": "ANX-TRT"
                   }
                 ],
@@ -115,13 +139,13 @@
                   {
                     "min": 0,
                     "max": 0.9,
-                    "color": "00FF00",
+                    "color": "990000",
                     "text": "PERFECT"
                   },
                   {
                     "min": 1,
                     "max": 1.9,
-                    "color": "FFFF00",
+                    "color": "FF0000",
                     "text": "PERFECT"
                   },
                   {
@@ -133,7 +157,19 @@
                   {
                     "min": 3,
                     "max": 3.9,
-                    "color": "FF0000",
+                    "color": "FFFF00",
+                    "text": "PERFECT"
+                  },
+                  {
+                    "min": 4,
+                    "max": 4.9,
+                    "color": "CCFF33",
+                    "text": "PERFECT"
+                  },
+                  {
+                    "min": 5,
+                    "max": 5.9,
+                    "color": "00FF00",
                     "text": "PERFECT"
                   }
                 ],
@@ -206,12 +242,6 @@
                 "min": 5,
                 "max": 5.9,
                 "color": "FF0000",
-                "text": "MOTIV"
-              },
-              {
-                "min": 10,
-                "max": 10.9,
-                "color": "990000",
                 "text": "MOTIV"
               }
             ],
@@ -369,32 +399,32 @@
                     "text": "IM/CORP"
                   },
                   {
-                    "min": 10,
-                    "max": 10.9,
-                    "color": "CCFF33",
-                    "text": "IM/CORP"
-                  },
-                  {
                     "min": 2,
                     "max": 2.9,
-                    "color": "FFFF00",
+                    "color": "CCFF33",
                     "text": "IM/CORP"
                   },
                   {
                     "min": 3,
                     "max": 3.9,
-                    "color": "FF9900",
+                    "color": "FFFF00",
                     "text": "IM/CORP"
                   },
                   {
                     "min": 4,
                     "max": 4.9,
-                    "color": "FF0000",
+                    "color": "FF9900",
                     "text": "IM/CORP"
                   },
                   {
                     "min": 5,
                     "max": 5.9,
+                    "color": "FF0000",
+                    "text": "IM/CORP"
+                  },
+                  {
+                    "min": 6,
+                    "max": 6.9,
                     "color": "990000",
                     "text": "IM/CORP"
                   }
@@ -413,32 +443,32 @@
                     "text": "ADS"
                   },
                   {
-                    "min": 10,
-                    "max": 10.9,
-                    "color": "CCFF33",
-                    "text": "ADS"
-                  },
-                  {
                     "min": 2,
                     "max": 2.9,
-                    "color": "FFFF00",
+                    "color": "CCFF33",
                     "text": "ADS"
                   },
                   {
                     "min": 3,
                     "max": 3.9,
-                    "color": "FF9900",
+                    "color": "FFFF00",
                     "text": "ADS"
                   },
                   {
                     "min": 4,
                     "max": 4.9,
-                    "color": "FF0000",
+                    "color": "FF9900",
                     "text": "ADS"
                   },
                   {
                     "min": 5,
                     "max": 5.9,
+                    "color": "FF0000",
+                    "text": "ADS"
+                  },
+                  {
+                    "min": 6,
+                    "max": 6.9,
                     "color": "990000",
                     "text": "ADS"
                   }

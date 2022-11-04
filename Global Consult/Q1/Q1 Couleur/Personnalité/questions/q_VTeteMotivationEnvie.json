@@ -58,6 +58,16 @@
       "conditions": "q_VTeteMotivationEnvie == 8",
       "tagOID": "tag_VTeteMotivationEnvie",
       "value": 8
+    },
+    {
+      "conditions": "q_VTeteMotivationEnvie == 9",
+      "tagOID": "tag_VTeteMotivationEnvie",
+      "value": 9
+    },
+    {
+      "conditions": "q_VTeteMotivationEnvie == 10",
+      "tagOID": "tag_VTeteMotivationEnvie",
+      "value": 10
     }
   ]
 }

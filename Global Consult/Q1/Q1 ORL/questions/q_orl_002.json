@@ -6,19 +6,19 @@
   "choices": [
     {
       "code": "0",
-      "text": "Un phlegmon et/ou un abcès amygdalien"
+      "text": "Phlegmon et/ou un abcès amygdalien"
     },
     {
       "code": "1",
-      "text": "Une amygdalectomie"
+      "text": "Amygdalectomie"
     },
     {
       "code": "2",
-      "text": "Un polype des cordes vocales"
+      "text": "Polype des cordes vocales"
     },
     {
       "code": "3",
-      "text": "Un cancer"
+      "text": "Cancer"
     },
     {
       "code": "4",

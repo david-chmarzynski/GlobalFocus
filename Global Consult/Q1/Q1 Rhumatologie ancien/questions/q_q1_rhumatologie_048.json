@@ -1,0 +1,109 @@
+{
+  "oid": "q_q1_rhumatologie_048",
+  "title": "Vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies ? (plusieurs réponses possibles)",
+  "text": "Vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies ? (plusieurs réponses possibles)",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "Sciatique",
+      "text": "Sciatique"
+    },
+    {
+      "code": "Cruralgie",
+      "text": "Cruralgie"
+    },
+    {
+      "code": "Canal carpien",
+      "text": "Canal carpien"
+    },
+    {
+      "code": "Myopathie",
+      "text": "Myopathie"
+    },
+    {
+      "code": "Polymyosite",
+      "text": "Polymyosite"
+    },
+    {
+      "code": "Fibromyalgie",
+      "text": "Fibromyalgie"
+    },
+    {
+      "code": "Syndrome de fatigue chronique",
+      "text": "Syndrome de fatigue chronique"
+    },
+    {
+      "code": "Syndrome de fatigue chronique post-infectieux (Covid long, Lyme…)",
+      "text": "Syndrome de fatigue chronique post-infectieux (Covid long, Lyme…)"
+    },
+    {
+      "code": "Algoneurodystrophie",
+      "text": "Algoneurodystrophie"
+    },
+    {
+      "code": "Tendinopathie(s)",
+      "text": "Tendinopathie(s)"
+    },
+    {
+      "code": "Tendinopathie(s) calcifiante(s)",
+      "text": "Tendinopathie(s) calcifiante(s)"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"Sciatique\" in q_q1_rhumatologie_048",
+      "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_SCIATIQUE",
+      "value": 1
+    },
+    {
+      "conditions": "\"Cruralgie\" in q_q1_rhumatologie_048",
+      "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_CRURALGIE",
+      "value": 1
+    },
+    {
+      "conditions": "\"Canal carpien\" in q_q1_rhumatologie_048",
+      "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_CANAL_CAPRIEN",
+      "value": 1
+    },
+    {
+      "conditions": "\"Myopathie\" in q_q1_rhumatologie_048",
+      "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_MYOPATHIE",
+      "value": 1
+    },
+    {
+      "conditions": "\"Polymyosite\" in q_q1_rhumatologie_048",
+      "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_POLYMYOSITE",
+      "value": 1
+    },
+    {
+      "conditions": "\"Fibromyalgie\" in q_q1_rhumatologie_048",
+      "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_FIBROMYALGIE",
+      "value": 1
+    },
+    {
+      "conditions": "\"Syndrome de fatigue chronique\" in q_q1_rhumatologie_048",
+      "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_SFC",
+      "value": 1
+    },
+    {
+      "conditions": "\"Syndrome de fatigue chronique post-infectieux (Covid long, Lyme…)\" in q_q1_rhumatologie_048",
+      "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_SFC8POST_INFECTIEUX",
+      "value": 1
+    },
+    {
+      "conditions": "\"Algoneurodystrophie\" in q_q1_rhumatologie_048",
+      "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_ALGONEUDYSTROPHIE",
+      "value": 1
+    },
+    {
+      "conditions": "\"Tendinopathie(s)\" in q_q1_rhumatologie_048",
+      "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_TENDINITE",
+      "value": 1
+    },
+    {
+      "conditions": "\"Tendinopathie(s) calcifiante(s)\" in q_q1_rhumatologie_048",
+      "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_TENDINOPATHIE_CALCIFIANTE",
+      "value": 1
+    }
+  ]
+}

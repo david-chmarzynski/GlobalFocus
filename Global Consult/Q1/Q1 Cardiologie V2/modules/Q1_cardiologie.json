@@ -145,6 +145,30 @@
       }
     },
     {
+      "question": "q_q1_cardiologie_012",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Endocardite\" in q_q1_cardiologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_cardiologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_cardiologie_012",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Péricardite\" in q_q1_cardiologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_cardiologie_001": "aucun"
+        }
+      }
+    },
+    {
       "question": "q_q1_cardiologie_013",
       "level": 1,
       "isGlobal": true,

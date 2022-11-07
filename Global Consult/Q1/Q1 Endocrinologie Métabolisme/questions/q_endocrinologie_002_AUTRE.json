@@ -1,6 +1,6 @@
 {
   "oid": "q_endocrinologie_002_AUTRE",
-  "title": "Quelle(s) autre(s) pathologie(s) thyroïdienne(s) vous-a(ont) étée(s) diagnostiquée(s) ?",
-  "text": "Quelle(s) autre(s) pathologie(s) thyroïdienne(s) vous-a(ont) étée(s) diagnostiquée(s) ?",
+  "title": "Quelle(s) autre(s) pathologie(s) thyroïdienne(s) vous-a (ont) étée(s) diagnostiquée(s) ?",
+  "text": "Quelle(s) autre(s) pathologie(s) thyroïdienne(s) vous-a (ont) étée(s) diagnostiquée(s) ?",
   "type": "TEXT"
 }

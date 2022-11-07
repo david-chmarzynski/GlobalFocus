@@ -1,7 +1,7 @@
 {
   "oid": "q_endocrinologie_003",
-  "title": "Indiquez la ou les pathologie(s) parathyroïdienne(s) diagnostiquée(s).",
-  "text": "Indiquez la ou les pathologie(s) parathyroïdienne(s) diagnostiquée(s).",
+  "title": "Indiquez la ou les pathologie(s) parathyroïdienne(s) diagnostiquée(s) ?",
+  "text": "Indiquez la ou les pathologie(s) parathyroïdienne(s) diagnostiquée(s) ?",
   "type": "MULTI_CHOICES",
   "choices": [
     {

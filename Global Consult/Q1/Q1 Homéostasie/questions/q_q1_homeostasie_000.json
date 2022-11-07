@@ -19,6 +19,10 @@
     {
       "code": "3",
       "text": "Insatisfaisant"
+    },
+    {
+      "code": "4",
+      "text": "Très insatisfaisant"
     }
   ],
   "scores": [
@@ -41,6 +45,11 @@
       "conditions": "q_q1_homeostasie_000 == \"3\"",
       "tagOID": "S_HOMEO_CELL",
       "value": 3
+    },
+    {
+      "conditions": "q_q1_homeostasie_000 == \"4\"",
+      "tagOID": "S_HOMEO_CELL",
+      "value": 4
     }
   ]
 }

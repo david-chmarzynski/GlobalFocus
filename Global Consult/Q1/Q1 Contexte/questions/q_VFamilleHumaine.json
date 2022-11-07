@@ -19,9 +19,18 @@
     {
       "code": "3",
       "text": "Insatisfaisante"
+    },
+    {
+      "code": "4",
+      "text": "Très insatisfaisante"
     }
   ],
   "scores": [
+    {
+      "conditions": "q_VFamilleHumaine == \"0\"",
+      "tagOID": "tag_VFamilleHumaine",
+      "value": 0
+    },
     {
       "conditions": "q_VFamilleHumaine == \"1\"",
       "tagOID": "tag_VFamilleHumaine",
@@ -36,6 +45,11 @@
       "conditions": "q_VFamilleHumaine == \"3\"",
       "tagOID": "tag_VFamilleHumaine",
       "value": 3
+    },
+    {
+      "conditions": "q_VFamilleHumaine == \"4\"",
+      "tagOID": "tag_VFamilleHumaine",
+      "value": 4
     }
   ]
 }

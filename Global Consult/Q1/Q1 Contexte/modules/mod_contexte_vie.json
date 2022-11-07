@@ -8,61 +8,6 @@
       "isGlobal": false
     },
     {
-      "question": "q_VContexteVieWEtudesSitu",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_VContexteVieWEtudesSituEtudesDetail",
-      "level": 1,
-      "isGlobal": false,
-      "trigger":{
-        "conditions": "!(\"0\" in q_VContexteVieWEtudesSitu)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues":{"q_VContexteVieWEtudesSitu":"8"}
-      }
-    },
-    {
-      "question": "q_VContexteVieWEtudesSituEmploiDetail",
-      "level": 1,
-      "isGlobal": false,
-      "trigger":{
-        "conditions": "!(\"1\" in q_VContexteVieWEtudesSitu)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues":{"q_VContexteVieWEtudesSitu":"8"}
-      }
-    },
-    {
-      "question": "q_VContexteVieWEtudesSituEmploiHeureParSemaine",
-      "level": 1,
-      "isGlobal": false,
-      "trigger":{
-        "conditions": "!(\"1\" in q_VContexteVieWEtudesSitu)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues":{"q_VContexteVieWEtudesSitu":"8"}
-      }
-    },
-    {
-      "question": "q_VContexteVieWEtudesSituEmploiContraintesParticulieres",
-      "level": 1,
-      "isGlobal": false,
-      "trigger":{
-        "conditions": "!(\"1\" in q_VContexteVieWEtudesSitu)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues":{"q_VContexteVieWEtudesSitu":"8"}
-      }
-    },
-    {
-      "question": "q_VContexteVieWEtudesSituAutreDetail",
-      "level": 1,
-      "isGlobal": false,
-      "trigger":{
-        "conditions": "!(\"8\" in q_VContexteVieWEtudesSitu)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues":{"q_VContexteVieWEtudesSitu":"8"}
-      }
-    },
-    {
       "question": "q_VContexteVieWEtudesVecu",
       "level": 1,
       "isGlobal": false

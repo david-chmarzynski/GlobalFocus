@@ -6,18 +6,22 @@
   "choices": [
     {
       "code": "0",
-      "text": "Satisfait(e)"
+      "text": "Très satisfait(e)"
     },
     {
       "code": "1",
-      "text": "Assez satisfait(e)"
+      "text": "Satisfait(e)"
     },
     {
       "code": "2",
-      "text": "Plutôt insatisfait(e)"
+      "text": "Assez satisfait(e)"
     },
     {
       "code": "3",
+      "text": "Plutôt insatisfait(e)"
+    },
+    {
+      "code": "4",
       "text": "Insatisfait(e)"
     }
   ],
@@ -41,6 +45,11 @@
       "conditions": "q_VContexteVieWEtudesVecu == \"3\"",
       "tagOID": "tag_VContexteVieWEtudesVecu",
       "value": 3
+    },
+    {
+      "conditions": "q_VContexteVieWEtudesVecu == \"4\"",
+      "tagOID": "tag_VContexteVieWEtudesVecu",
+      "value": 4
     }
   ]
 }

@@ -6,19 +6,27 @@
   "choices": [
     {
       "code": "0",
-      "text": "Satisfaisant"
+      "text": "Très satisfaisante"
     },
     {
       "code": "1",
-      "text": "Légèrement insatisfaisant"
+      "text": "Satisfaisante"
     },
     {
       "code": "2",
-      "text": "Plutôt insatisfaisant"
+      "text": "Légèrement insatisfaisante"
     },
     {
       "code": "3",
-      "text": "Insatisfaisant (ou très insatisfaisant)"
+      "text": "Plutôt insatisfaisante"
+    },
+    {
+      "code": "4",
+      "text": "Insatisfaisante"
+    },
+    {
+      "code": "5",
+      "text": "Très insatisfaisante"
     }
   ],
   "scores": [
@@ -41,6 +49,16 @@
       "conditions": "q_q1_sommeil_001 == \"3\"",
       "tagOID": "Tag_VSomContexteRythmesGlobal",
       "value": 3
+    },
+    {
+      "conditions": "q_q1_sommeil_001 == \"4\"",
+      "tagOID": "Tag_VSomContexteRythmesGlobal",
+      "value": 4
+    },
+    {
+      "conditions": "q_q1_sommeil_001 == \"5\"",
+      "tagOID": "Tag_VSomContexteRythmesGlobal",
+      "value": 5
     }
   ]
 }

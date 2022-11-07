@@ -1,0 +1,12 @@
+{
+  "oid": "q_q1_cardiologie_008",
+  "title": "En quelle année le diagnostic d’embolie a t’il été posé la première fois ?",
+  "text": "En quelle année le diagnostic d’embolie a t’il été posé la première fois ?",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 1900,
+    "max": 2022,
+    "step": 1
+  },
+  "scores": []
+}

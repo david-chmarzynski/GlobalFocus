@@ -1,0 +1,12 @@
+{
+  "oid": "q_q1_rhumatologie_010",
+  "title": "A quelle date l’arthrodèse lombaire a-t-elle été pratiquée ?",
+  "text": "A quelle date l’arthrodèse lombaire a-t-elle été pratiquée ?",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 1900,
+    "max": 2022,
+    "step": 1
+  },
+  "scores": []
+}

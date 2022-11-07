@@ -6,51 +6,51 @@
   "choices": [
     {
       "code": "0",
-      "text": "Un cancer de l'œil"
+      "text": "Cancer de l'œil"
     },
     {
       "code": "1",
-      "text": "Une dégénérescence maculaire liée à l'âge"
+      "text": "Dégénérescence maculaire liée à l'âge"
     },
     {
       "code": "2",
-      "text": "Un glaucome à angle ouvert"
+      "text": "Glaucome"
     },
     {
       "code": "3",
-      "text": "Une inflammation chronique de type uvéite"
+      "text": "Uvéite chronique"
     },
     {
       "code": "4",
-      "text": "Une inflammation chronique de type kératite"
+      "text": "Kératite chronique"
     },
     {
       "code": "5",
-      "text": "Une cataracte"
+      "text": "Cataracte"
     },
     {
       "code": "6",
-      "text": "Une rétinopathie"
+      "text": "Rétinopathie"
     },
     {
       "code": "7",
-      "text": "Une myopie (difficulté à voir de loin)"
+      "text": "Myopie (difficulté à voir de loin)"
     },
     {
       "code": "8",
-      "text": "Une presbytie (difficulté à voir de près)"
+      "text": "Presbytie (difficulté à voir de près)"
     },
     {
       "code": "9",
-      "text": "Une astigmatie"
+      "text": "Astigmatie"
     },
     {
       "code": "10",
-      "text": "Une hypermétropie"
+      "text": "Hypermétropie"
     },
     {
       "code": "11",
-      "text": "Une cécité d'un ou des deux yeux"
+      "text": "Cécité uni ou bilatérale"
     },
     {
       "code": "13",

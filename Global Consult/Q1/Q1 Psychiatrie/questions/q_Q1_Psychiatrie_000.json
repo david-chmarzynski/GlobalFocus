@@ -19,6 +19,10 @@
     {
       "code": "3",
       "text": "Insatisfaisante"
+    },
+    {
+      "code": "4",
+      "text": "Très insatisfaisante"
     }
   ],
   "scores": [
@@ -41,6 +45,11 @@
       "conditions": "q_Q1_Psychiatrie_000 == \"3\"",
       "tagOID": "S_PSY",
       "value": 3
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_000 == \"4\"",
+      "tagOID": "S_PSY",
+      "value": 4
     }
   ]
 }

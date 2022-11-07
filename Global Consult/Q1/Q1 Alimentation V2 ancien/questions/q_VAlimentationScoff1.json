@@ -1,0 +1,28 @@
+{
+  "oid": "q_VAlimentationScoff1",
+  "title": "Vous faites-vous vomir parce que vous vous sentez mal d’avoir trop mangé ?",
+  "text": "Vous faites-vous vomir parce que vous vous sentez mal d’avoir trop mangé ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VAlimentationScoff1 == \"0\"",
+      "tagOID": "tag_VAlimentationScoff",
+      "value": 1
+    },
+    {
+      "conditions": "q_VAlimentationScoff1 == \"1\"",
+      "tagOID": "tag_VAlimentationScoff",
+      "value": 0
+    }
+  ]
+}

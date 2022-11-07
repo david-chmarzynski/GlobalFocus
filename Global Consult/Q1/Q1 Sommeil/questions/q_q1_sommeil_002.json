@@ -1,7 +1,7 @@
 {
   "oid": "q_q1_sommeil_002",
-  "title": "Sur ces 3 derniers mois, avez-vous eu besoin d’une aide pour dormir (médicament, mélatonine, plantes, alcool, cannabis…) ?",
-  "text": "Sur ces 3 derniers mois, avez-vous eu besoin d’une aide pour dormir (médicament, mélatonine, plantes, alcool, cannabis…) ?",
+  "title": "Sur ces 3 derniers mois, à quelle fréquence avez-vous eu besoin d’une aide pour dormir (médicament, mélatonine, plantes, alcool, cannabis…) ?",
+  "text": "Sur ces 3 derniers mois, à quelle fréquence avez-vous eu besoin d’une aide pour dormir (médicament, mélatonine, plantes, alcool, cannabis…) ?",
   "type": "SINGLE_CHOICE_RADIO",
   "choices": [
     {

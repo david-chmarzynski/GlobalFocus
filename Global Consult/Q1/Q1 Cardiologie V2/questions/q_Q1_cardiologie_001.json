@@ -41,6 +41,14 @@
       "text": "Valvulopathie (Insuffisance aortique ou mitrale, rétrécissement aortique ou mitral)"
     },
     {
+      "code": "Endocardite",
+      "text": "Endocardite"
+    },
+    {
+      "code": "Péricardite",
+      "text": "Péricardite"
+    },
+    {
       "code": "Trouble du rythme cardiaque (fibrillation auriculaire, flutter, extrasystoles,...)",
       "text": "Trouble du rythme cardiaque (fibrillation auriculaire, flutter, extrasystoles,...)"
     },
@@ -106,6 +114,16 @@
     {
       "conditions": "\"Valvulopathie (Insuffisance aortique ou mitrale, rétrécissement aortique ou mitral)\" in q_q1_cardiologie_001",
       "tagOID": "S_CV_ATCD_VALVULOPATHIE",
+      "value": 1
+    },
+    {
+      "conditions": "\"Endocardite\" in q_q1_cardiologie_001",
+      "tagOID": "S_CV_ATCD_ENDOCARDITE",
+      "value": 1
+    },
+    {
+      "conditions": "\"Péricardite\" in q_q1_cardiologie_001",
+      "tagOID": "S_CV_ATCD_PERICARDITE",
       "value": 1
     },
     {

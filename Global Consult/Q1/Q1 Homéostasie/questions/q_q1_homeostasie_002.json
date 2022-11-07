@@ -6,7 +6,7 @@
   "choices": [
     {
       "code": "Pathologie cardio-vasculaire",
-      "text": "Pathologie cardio-vasculaire nécessitant un traitement (angine de poitrine, infarctus du myocarde, artérite des membres inférieurs, accident vasculaire cérébral, trouble du rythme cardiaque, hypertension artérielle) (CV) Maladie cardio-vasculaire traitée : angine de poitrine, infarctus du myocarde, artérite des membres inférieurs, accident vasculaire cérébral, trouble du rythme cardiaque et/ou hypertension artérielle"
+      "text": "Maladie cardio-vasculaire traitée : angine de poitrine, infarctus du myocarde, artérite des membres inférieurs, accident vasculaire cérébral, trouble du rythme cardiaque et/ou hypertension artérielle"
     },
     {
       "code": "Maladie du foie",

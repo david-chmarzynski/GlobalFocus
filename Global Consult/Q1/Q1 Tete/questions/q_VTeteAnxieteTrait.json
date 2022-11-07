@@ -1,0 +1,41 @@
+{
+  "oid": "q_VTeteAnxieteTrait",
+  "title": "Dans votre vie, vous sentez-vous généralement calme, détendu(e), serein(e), apte à faire face aux difficultés ?",
+  "text": "Dans votre vie, vous sentez-vous généralement calme, détendu(e), serein(e), apte à faire face aux difficultés ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisante"
+    },
+    {
+      "code": "1",
+      "text": "Légèrement insatisfaisante"
+    },
+    {
+      "code": "2",
+      "text": "Plutôt insatisfaisante"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisante"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VTeteAnxieteTrait == '1'",
+      "tagOID": "tag_VTeteAnxieteTrait",
+      "value": 1
+    },
+    {
+      "conditions": "q_VTeteAnxieteTrait == '2'",
+      "tagOID": "tag_VTeteAnxieteTrait",
+      "value": 2
+    },
+    {
+      "conditions": "q_VTeteAnxieteTrait == '3'",
+      "tagOID": "tag_VTeteAnxieteTrait",
+      "value": 3
+    }
+  ]
+}

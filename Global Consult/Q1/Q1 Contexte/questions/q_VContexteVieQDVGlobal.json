@@ -6,22 +6,31 @@
   "choices": [
     {
       "code": "0",
-      "text": "Satisfaisante"
+      "text": "Très satisfait(e)"
     },
     {
       "code": "1",
-      "text": "Assez satisfaisante"
+      "text": "Satisfait(e)"
     },
     {
       "code": "2",
-      "text": "Plutôt insatisfaisante"
+      "text": "Assez satisfait(e)"
     },
     {
       "code": "3",
-      "text": "Insatisfaisante"
+      "text": "Plutôt insatisfait(e)"
+    },
+    {
+      "code": "4",
+      "text": "Insatisfait(e)"
     }
   ],
   "scores": [
+    {
+      "conditions": "q_VContexteVieQDVGlobal == \"0\"",
+      "tagOID": "tag_VContexteVieQDVGlobal",
+      "value": 0
+    },
     {
       "conditions": "q_VContexteVieQDVGlobal == \"1\"",
       "tagOID": "tag_VContexteVieQDVGlobal",
@@ -36,6 +45,11 @@
       "conditions": "q_VContexteVieQDVGlobal == \"3\"",
       "tagOID": "tag_VContexteVieQDVGlobal",
       "value": 3
+    },
+    {
+      "conditions": "q_VContexteVieQDVGlobal == \"4\"",
+      "tagOID": "tag_VContexteVieQDVGlobal",
+      "value": 4
     }
   ]
 }

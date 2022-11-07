@@ -1,0 +1,101 @@
+{
+  "oid": "q_q1_alimentation_005",
+  "title": "Suivez-vous actuellement un régime alimentaire particulier pour raison(s) de santé ?",
+  "text": "Suivez-vous actuellement un régime alimentaire particulier pour raison(s) de santé ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Régime pauvre en sel (HTA, insuffisance cardiaque, etc)"
+    },
+    {
+      "code": "1",
+      "text": "Régime/Cholestérol-Triglycérides"
+    },
+    {
+      "code": "2",
+      "text": "Régime/acide urique"
+    },
+    {
+      "code": "3",
+      "text": "Régime limité en protéines (insuffisance rénale)"
+    },
+    {
+      "code": "4",
+      "text": "Régime pauvre en Fodmap’s"
+    },
+    {
+      "code": "5",
+      "text": "Régime/maladie cœliaque"
+    },
+    {
+      "code": "6",
+      "text": "Régime/allergie alimentaire (arachide, lait, œuf, fruits de mer, blé, soja, etc)"
+    },
+    {
+      "code": "7",
+      "text": "Régimes/intolérances alimentaires (lactose, blé, arachide, noisette, kiwi, banane,  crevette, œuf, etc)"
+    },
+    {
+      "code": "8",
+      "text": "Régime cétogène-Kéto"
+    },
+    {
+      "code": "aucun",
+      "text": "Aucune de ces réponses",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"0\" in q_q1_alimentation_005",
+      "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_SEL",
+      "value": 1
+    },
+    {
+      "conditions": "\"1\" in q_q1_alimentation_005",
+      "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_DYSLIP",
+      "value": 1
+    },
+    {
+      "conditions": "\"2\" in q_q1_alimentation_005",
+      "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_URATE",
+      "value": 1
+    },
+    {
+      "conditions": "\"3\" in q_q1_alimentation_005",
+      "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_IR",
+      "value": 1
+    },
+    {
+      "conditions": "\"4\" in q_q1_alimentation_005",
+      "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_FODMAPS",
+      "value": 1
+    },
+    {
+      "conditions": "\"5\" in q_q1_alimentation_005",
+      "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_GLUTEN",
+      "value": 1
+    },
+    {
+      "conditions": "\"6\" in q_q1_alimentation_005",
+      "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_ALLERGIE",
+      "value": 1
+    },
+    {
+      "conditions": "\"7\" in q_q1_alimentation_005",
+      "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_INTOL",
+      "value": 1
+    },
+    {
+      "conditions": "\"8\" in q_q1_alimentation_005",
+      "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_CETOGENE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"aucun\" in q_q1_alimentation_005)",
+      "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ",
+      "value": 1
+    }
+  ]
+}

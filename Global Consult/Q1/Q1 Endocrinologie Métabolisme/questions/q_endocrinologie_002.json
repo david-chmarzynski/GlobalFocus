@@ -1,7 +1,7 @@
 {
   "oid": "q_endocrinologie_002",
-  "title": "Indiquez la ou les pathologie(s) thyroïdienne(s) diagnostiquée(s).",
-  "text": "Indiquez la ou les pathologie(s) thyroïdienne(s) diagnostiquée(s).",
+  "title": "Indiquez la ou les pathologie(s) thyroïdienne(s) diagnostiquée(s) (plusieurs réponses possibles) ?",
+  "text": "Indiquez la ou les pathologie(s) thyroïdienne(s) diagnostiquée(s) (plusieurs réponses possibles) ?",
   "type": "MULTI_CHOICES",
   "choices": [
     {

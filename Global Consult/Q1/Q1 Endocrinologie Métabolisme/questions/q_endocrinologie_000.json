@@ -19,6 +19,10 @@
     {
       "code": "3",
       "text": "Insatisfaisante"
+    },
+    {
+      "code": "4",
+      "text": "Très insatisfaisante"
     }
   ],
   "scores": [
@@ -40,7 +44,12 @@
     {
       "conditions": "q_endocrinologie_000 == \"3\"",
       "tagOID": "S_ENDO",
-      "value": "3"
+      "value": 3
+    },
+    {
+      "conditions": "q_endocrinologie_000 == \"4\"",
+      "tagOID": "S_ENDO",
+      "value": 4
     }
   ]
 }

@@ -19,9 +19,18 @@
     {
       "code": "3",
       "text": "Gênant"
+    },
+    {
+      "code": "4",
+      "text": "Très gênant"
     }
   ],
   "scores": [
+    {
+      "conditions": "q_VContexteQDVCognitif == \"0\"",
+      "tagOID": "tag_VContexteQDVCognitif",
+      "value": 0
+    },
     {
       "conditions": "q_VContexteQDVCognitif == \"1\"",
       "tagOID": "tag_VContexteQDVCognitif",
@@ -36,6 +45,11 @@
       "conditions": "q_VContexteQDVCognitif == \"3\"",
       "tagOID": "tag_VContexteQDVCognitif",
       "value": 3
+    },
+    {
+      "conditions": "q_VContexteQDVCognitif == \"4\"",
+      "tagOID": "tag_VContexteQDVCognitif",
+      "value": 4
     }
   ]
 }

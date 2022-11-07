@@ -1,0 +1,126 @@
+{
+  "oid": "q1_alimentation",
+  "title": "q1_alimentation",
+  "questions": [
+    {
+      "question": "q_q1_alimentation_000",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q1_alimentation_002",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q1_alimentation_001",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q1_alimentation_003",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q1_alimentation_004",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q1_alimentation_056",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q1_alimentation_005",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q1_alimentation_006",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VAlimentationScoff1",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VAlimentationScoff2",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VAlimentationScoff3",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VAlimentationScoff4",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VAlimentationScoff5",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_VAlimentationAtcd",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_VAlimentationDateAtcd1",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"0\" in q_VAlimentationAtcd)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VAlimentationAtcd":""}
+      }
+    },
+    {
+      "question": "q_VAlimentationDateAtcd2",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"1\" in q_VAlimentationAtcd)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VAlimentationAtcd":""}
+      }
+    },
+    {
+      "question": "q_VAlimentationDateAtcd3",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"2\" in q_VAlimentationAtcd)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VAlimentationAtcd":""}
+      }
+    },
+    {
+      "question": "q_VAlimentationDateAtcd4",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"3\" in q_VAlimentationAtcd)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VAlimentationAtcd":""}
+      }
+    },
+    {
+      "question": "q_VAlimentationDateAtcd5",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"4\" in q_VAlimentationAtcd)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues":{"q_VAlimentationAtcd":""}
+      }
+    }
+  ]
+}

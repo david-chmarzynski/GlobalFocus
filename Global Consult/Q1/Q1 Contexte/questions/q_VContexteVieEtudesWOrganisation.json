@@ -6,22 +6,31 @@
   "choices": [
     {
       "code": "0",
-      "text": "Satisfaisante"
+      "text": "Très satisfait(e)"
     },
     {
       "code": "1",
-      "text": "Assez satisfaisante"
+      "text": "Satisfait(e)"
     },
     {
       "code": "2",
-      "text": "Plutôt insatisfaisante"
+      "text": "Assez satisfait(e)"
     },
     {
       "code": "3",
-      "text": "Insatisfaisante"
+      "text": "Plutôt insatisfait(e)"
+    },
+    {
+      "code": "4",
+      "text": "Insatisfait(e)"
     }
   ],
   "scores": [
+    {
+      "conditions": "q_VContexteVieEtudesWOrganisation == \"0\"",
+      "tagOID": "tag_VContexteVieEtudesWOrganisation",
+      "value": 0
+    },
     {
       "conditions": "q_VContexteVieEtudesWOrganisation == \"1\"",
       "tagOID": "tag_VContexteVieEtudesWOrganisation",
@@ -36,6 +45,11 @@
       "conditions": "q_VContexteVieEtudesWOrganisation == \"3\"",
       "tagOID": "tag_VContexteVieEtudesWOrganisation",
       "value": 3
+    },
+    {
+      "conditions": "q_VContexteVieEtudesWOrganisation == \"4\"",
+      "tagOID": "tag_VContexteVieEtudesWOrganisation",
+      "value": 4
     }
   ]
 }

@@ -17,7 +17,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"0\" in q_q1_gynecologie_001) && patient_gender == 'MALE'",
+        "conditions": "!(\"0\" in q_q1_gynecologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_001": "aucun"
@@ -350,18 +350,6 @@
     },
     {
       "question": "q_q1_gynecologie_031",
-      "level": 1,
-      "isGlobal": true,
-      "trigger": {
-        "conditions": "!(\"Interruption volontaire de grossesse (IVG)\" in q_q1_gynecologie_026)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues": {
-          "q_q1_gynecologie_026": "aucun"
-        }
-      }
-    },
-    {
-      "question": "q_q1_gynecologie_032",
       "level": 1,
       "isGlobal": true,
       "trigger": {

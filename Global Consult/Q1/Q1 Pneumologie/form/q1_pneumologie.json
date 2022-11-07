@@ -71,6 +71,26 @@
             "children": []
           },
           {
+            "tagOID": "S_PN_ATCD_CANCER_PLEVRE",
+            "type": "SCORE",
+            "hideNodeIfEmpty": true,
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "KC PLEVRE"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "KC PLEVRE"
+              }
+            ],
+            "children": []
+          },
+          {
             "tagOID": "S_PN_ATCD_ASTHME",
             "type": "SCORE",
             "hideNodeIfEmpty": true,

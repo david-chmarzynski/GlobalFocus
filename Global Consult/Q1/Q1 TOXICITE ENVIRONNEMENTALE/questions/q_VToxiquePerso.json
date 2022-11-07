@@ -1,0 +1,40 @@
+{
+  "oid": "q_VToxiquePerso",
+  "title": "Comment évaluez-vous votre exposition à des produits toxiques en lien direct avec vos comportements personnels (tabac, alcool, drogues, hygiène, alimentation...)",
+  "text": "Comment évaluez-vous votre exposition à des produits toxiques en lien direct avec vos comportements personnels (tabac, alcool, drogues, hygiène, alimentation...)",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices":[
+    {"code": "0", "text": "Exposition nulle ou très faible"},
+    {"code": "1", "text": "Exposition modérée"},
+    {"code": "2", "text": "Exposition moyenne"},
+    {"code": "3", "text": "Exposition forte"},
+    {"code": "4", "text": "Exposition très forte"}
+  ],
+  "scores":[
+    {
+      "tagOID": "Tag_VToxiquePerso",
+      "conditions": "q_VToxiquePerso == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "Tag_VToxiquePerso",
+      "conditions": "q_VToxiquePerso == '1'",
+      "value": 1
+    },
+    {
+      "tagOID": "Tag_VToxiquePerso",
+      "conditions": "q_VToxiquePerso == '2'",
+      "value": 2
+    },
+    {
+      "tagOID": "Tag_VToxiquePerso",
+      "conditions": "q_VToxiquePerso == '3'",
+      "value": 3
+    },
+    {
+      "tagOID": "Tag_VToxiquePerso",
+      "conditions": "q_VToxiquePerso == '4'",
+      "value": 4
+    }
+  ]
+}

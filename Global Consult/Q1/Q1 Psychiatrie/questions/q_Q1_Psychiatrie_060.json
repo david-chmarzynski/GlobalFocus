@@ -1,0 +1,97 @@
+{
+  "oid": "q_Q1_Psychiatrie_060",
+  "title": "Avez-vous actuellement des soins en lien avec  votre équilibre émotionnel et/ou votre santé psychologique? (plusieurs réponses possibles)",
+  "text": "Avez-vous actuellement des soins en lien avec  votre équilibre émotionnel et/ou votre santé psychologique? (plusieurs réponses possibles)",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "hospitalisation de jour",
+      "text": "Hospitalisation de jour en service de soins psychiatriques"
+    },
+    {
+      "code": "consultations psychiatre",
+      "text": "Consultations avec un psychiatre"
+    },
+    {
+      "code": "consultations psychologue",
+      "text": "Consultations avec un psychologue"
+    },
+    {
+      "code": "psychanalyse",
+      "text": "Psychanalyse"
+    },
+    {
+      "code": "tcc",
+      "text": "Psychothérapie comportementale et cognitive (TCC)"
+    },
+    {
+      "code": "hypnose",
+      "text": "Hypnose"
+    },
+    {
+      "code": "EMDR",
+      "text": "EMDR"
+    },
+    {
+      "code": "autres",
+      "text": "Autres soins"
+    },
+    {
+      "code": "aucun",
+      "text": "Aucun soin",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_Q1_Psychiatrie_060 in \"hospitalisation de jour\"",
+      "tagOID": "S_PSY_GLOBAL_SOINS_HOSPITALISATION",
+      "value": 1
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_060 in \"consultations psychiatre\"",
+      "tagOID": "S_PSY_GLOBAL_SOINS_PSYCHIATRE",
+      "value": 1
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_060 in \"consultations psychologue\"",
+      "tagOID": "S_PSY_GLOBAL_SOINS_PSYCHOLOGUE",
+      "value": 1
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_060 in \"psychanalyse\"",
+      "tagOID": "S_PSY_GLOBAL_SOINS_PSYCHANALYSE",
+      "value": 1
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_060 in \"tcc\"",
+      "tagOID": "S_PSY_GLOBAL_SOINS_TCC",
+      "value": 1
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_060 in \"hypnose\"",
+      "tagOID": "S_PSY_GLOBAL_SOINS_HYPNOSE",
+      "value": 1
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_060 in \"EMDR\"",
+      "tagOID": "S_PSY_GLOBAL_SOINS_EMDR",
+      "value": 1
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_060 in \"autres\"",
+      "tagOID": "S_PSY_GLOBAL_SOINS_AUTRES",
+      "value": 1
+    },
+    {
+      "conditions": "q_Q1_Psychiatrie_060 in \"aucun\"",
+      "tagOID": "S_PSY_GLOBAL_SOINS",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_Q1_Psychiatrie_060)",
+      "tagOID": "S_PSY_GLOBAL_SOINS",
+      "value": 1
+    }
+  ]
+}

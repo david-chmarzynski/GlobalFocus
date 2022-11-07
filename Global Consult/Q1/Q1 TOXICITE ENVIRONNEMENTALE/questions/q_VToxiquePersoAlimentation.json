@@ -1,0 +1,40 @@
+{
+  "oid": "q_VToxiquePersoAlimentation",
+  "title": "Faites-vous habituellement attention à avoir une alimentation la plus saine possible ?",
+  "text": "Faites-vous habituellement attention à avoir une alimentation la plus saine possible ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices":[
+    {"code": "0", "text": "Très fréquemment"},
+    {"code": "1", "text": "Fréquemment"},
+    {"code": "2", "text": "Parfois"},
+    {"code": "3", "text": "Rarement"},
+    {"code": "4", "text": "Jamais (ou presque)"}
+  ],
+  "scores":[
+    {
+      "tagOID": "Tag_VToxiquePersoAlimentation",
+      "conditions": "q_VToxiquePersoAlimentation == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "Tag_VToxiquePersoAlimentation",
+      "conditions": "q_VToxiquePersoAlimentation == '1'",
+      "value": 1
+    },
+    {
+      "tagOID": "Tag_VToxiquePersoAlimentation",
+      "conditions": "q_VToxiquePersoAlimentation == '2'",
+      "value": 2
+    },
+    {
+      "tagOID": "Tag_VToxiquePersoAlimentation",
+      "conditions": "q_VToxiquePersoAlimentation == '3'",
+      "value": 3
+    },
+    {
+      "tagOID": "Tag_VToxiquePersoAlimentation",
+      "conditions": "q_VToxiquePersoAlimentation == '4'",
+      "value": 4
+    }
+  ]
+}

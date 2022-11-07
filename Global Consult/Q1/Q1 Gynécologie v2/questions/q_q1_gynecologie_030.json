@@ -1,7 +1,7 @@
 {
   "oid": "q_q1_gynecologie_030",
-  "title": "En quelle année avez-vous fait une fausse-couche spontanée ?",
-  "text": "En quelle année avez-vous fait une fausse-couche spontanée ?",
+  "title": "En quelle année avez-vous fait une fausse-couche spontanée (plusieurs dates possibles) ?",
+  "text": "En quelle année avez-vous fait une fausse-couche spontanée (plusieurs dates possibles) ?",
   "type": "ANALOG_SCALE",
   "scale": {
     "min": 1900,

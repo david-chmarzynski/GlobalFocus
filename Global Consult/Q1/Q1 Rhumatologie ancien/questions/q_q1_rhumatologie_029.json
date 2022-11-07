@@ -1,0 +1,154 @@
+{
+  "oid": "q_q1_rhumatologie_029",
+  "title": "Précisez la localisation de votre(vos) intervention(s) (plusieurs réponses possibles) ?",
+  "text": "Précisez la localisation de votre(vos) intervention(s) (plusieurs réponses possibles) ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "Fracture du bassin",
+      "text": "Fracture du bassin"
+    },
+    {
+      "code": "Fracture de hanche droite",
+      "text": "Fracture de hanche droite"
+    },
+    {
+      "code": "Fracture de hanche gauche",
+      "text": "Fracture de hanche gauche"
+    },
+    {
+      "code": "Prothèse de hanche droite",
+      "text": "Prothèse de hanche droite"
+    },
+    {
+      "code": "Prothèse de hanche gauche",
+      "text": "Prothèse de hanche gauche"
+    },
+    {
+      "code": "Prothèse de genou droit",
+      "text": "Prothèse de genou droit"
+    },
+    {
+      "code": "Prothèse de genou gauche",
+      "text": "Prothèse de genou gauche"
+    },
+    {
+      "code": "Ligament croisé antérieur du genou droit",
+      "text": "Ligament croisé antérieur du genou droit"
+    },
+    {
+      "code": "Ligament croisé antérieur du genou gauche",
+      "text": "Ligament croisé antérieur du genou gauche"
+    },
+    {
+      "code": "Ménisque(s) du genou droit",
+      "text": "Ménisque(s) du genou droit"
+    },
+    {
+      "code": "Ménisque(s) du genou gauche",
+      "text": "Ménisque(s) du genou gauche"
+    },
+    {
+      "code": "Fracture de cheville droite",
+      "text": "Fracture de cheville droite"
+    },
+    {
+      "code": "Fracture de cheville gauche",
+      "text": "Fracture de cheville gauche"
+    },
+    {
+      "code": "Hallux valgus du pied droit",
+      "text": "Hallux valgus du pied droit"
+    },
+    {
+      "code": "Hallux valgus du pied gauche",
+      "text": "Hallux valgus du pied gauche"
+    },
+    {
+      "code": "Autre(s) chirurgie(s) des membres inférieurs",
+      "text": "Autre(s) chirurgie(s) des membres inférieurs"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"Fracture du bassin\" in q_q1_rhumatologie_029",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_BASSIN",
+      "value": 1
+    },
+    {
+      "conditions": "\"Fracture de hanche droite\" in q_q1_rhumatologie_029",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_FRACT_HANCHE_D",
+      "value": 1
+    },
+    {
+      "conditions": "\"Fracture de hanche gauche\" in q_q1_rhumatologie_029",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_FRACT_HANCHE_G",
+      "value": 1
+    },
+    {
+      "conditions": "\"Prothèse de hanche droite\" in q_q1_rhumatologie_029",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_PROTHESE_HANCHE_D",
+      "value": 1
+    },
+    {
+      "conditions": "\"Prothèse de hanche gauche\" in q_q1_rhumatologie_029",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_PROTHESE_HANCHE_G",
+      "value": 1
+    },
+    {
+      "conditions": "\"Prothèse de genou droit\" in q_q1_rhumatologie_029",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_PROTHESE_GENOU_D",
+      "value": 1
+    },
+    {
+      "conditions": "\"Prothèse de genou gauche\" in q_q1_rhumatologie_029",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_PROTHESE_GENOU_G",
+      "value": 1
+    },
+    {
+      "conditions": "\"Ligament croisé antérieur du genou droit\" in q_q1_rhumatologie_029",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_LCA_GENOU_D",
+      "value": 1
+    },
+    {
+      "conditions": "\"Ligament croisé antérieur du genou gauche\" in q_q1_rhumatologie_029",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_LCA_GENOU_G",
+      "value": 1
+    },
+    {
+      "conditions": "\"Ménisque(s) du genou droit\" in q_q1_rhumatologie_029",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_MENISQUE_GENOU_D",
+      "value": 1
+    },
+    {
+      "conditions": "\"Ménisque(s) du genou gauche\" in q_q1_rhumatologie_029",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_MENISQUE_GENOU_G",
+      "value": 1
+    },
+    {
+      "conditions": "\"Fracture de cheville droite\" in q_q1_rhumatologie_029",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_FRACT_CHEVILLE_D",
+      "value": 1
+    },
+    {
+      "conditions": "\"Fracture de cheville gauche\" in q_q1_rhumatologie_029",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_FRACT_CHEVILLE_G",
+      "value": 1
+    },
+    {
+      "conditions": "\"Hallux valgus du pied droit\" in q_q1_rhumatologie_029",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_HALLUX_VALGUS_D",
+      "value": 1
+    },
+    {
+      "conditions": "\"Hallux valgus du pied gauche\" in q_q1_rhumatologie_029",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_HALLUX_VALGUS_G",
+      "value": 1
+    },
+    {
+      "conditions": "\"Autre(s) chirurgie(s) des membres inférieurs\" in q_q1_rhumatologie_029",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_AUTRE",
+      "value": 1
+    }
+  ]
+}

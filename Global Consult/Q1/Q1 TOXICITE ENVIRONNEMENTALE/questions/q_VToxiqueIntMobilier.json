@@ -1,0 +1,40 @@
+{
+  "oid": "q_VToxiqueIntMobilier",
+  "title": "Votre logement contient-il des meubles en bois aggloméré, en matériaux composites ou en plastique ?",
+  "text": "Votre logement contient-il des meubles en bois aggloméré, en matériaux composites ou en plastique ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices":[
+    {"code": "0", "text": "Aucun (ou presque)"},
+    {"code": "1", "text": "Peu nombreux"},
+    {"code": "2", "text": "Assez nombreux"},
+    {"code": "3", "text": "Nombreux"},
+    {"code": "4", "text": "Très nombreux"}
+  ],
+  "scores":[
+    {
+      "tagOID": "Tag_VToxiqueIntMobilier",
+      "conditions": "q_VToxiqueIntMobilier == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "Tag_VToxiqueIntMobilier",
+      "conditions": "q_VToxiqueIntMobilier == '1'",
+      "value": 1
+    },
+    {
+      "tagOID": "Tag_VToxiqueIntMobilier",
+      "conditions": "q_VToxiqueIntMobilier == '2'",
+      "value": 2
+    },
+    {
+      "tagOID": "Tag_VToxiqueIntMobilier",
+      "conditions": "q_VToxiqueIntMobilier == '3'",
+      "value": 3
+    },
+    {
+      "tagOID": "Tag_VToxiqueIntMobilier",
+      "conditions": "q_VToxiqueIntMobilier == '4'",
+      "value": 4
+    }
+  ]
+}

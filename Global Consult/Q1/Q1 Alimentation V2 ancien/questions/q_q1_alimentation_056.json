@@ -1,0 +1,46 @@
+{
+    "oid": "q_q1_alimentation_056",
+    "title": "Sur ces 3 derniers mois, avez-vous du faire attention à votre alimentation pour des raisons de santé, d'intolérance alimentaire, de contrôle du poids, de difficultés financières et/ou d'organisation des courses et des repas ?",
+    "text": "Sur ces 3 derniers mois, avez-vous du faire attention à votre alimentation pour des raisons de santé, d'intolérance alimentaire, de contrôle du poids, de difficultés financières et/ou d'organisation des courses et des repas ?",
+    "type": "SINGLE_CHOICE_RADIO",
+    "choices": [
+      {
+        "code": "0",
+        "text": "Non"
+      },
+      {
+        "code": "1",
+        "text": "Oui, un peu"
+      },
+      {
+        "code": "2",
+        "text": "Oui, moyennement"
+      },
+      {
+        "code": "3",
+        "text": "Oui, beaucoup"
+      }
+    ],
+    "scores": [
+      {
+        "conditions": "q_q1_alimentation_056 == \"0\"",
+        "tagOID": "TAG_VALIMENTATIONCACONTRAINTES",
+        "value": 0
+      },
+      {
+        "conditions": "q_q1_alimentation_056 == \"1\"",
+        "tagOID": "TAG_VALIMENTATIONCACONTRAINTES",
+        "value": 1
+      },
+      {
+        "conditions": "q_q1_alimentation_056 == \"2\"",
+        "tagOID": "TAG_VALIMENTATIONCACONTRAINTES",
+        "value": 2
+      },
+      {
+        "conditions": "q_q1_alimentation_056 == \"3\"",
+        "tagOID": "TAG_VALIMENTATIONCACONTRAINTES",
+        "value": 3
+      }
+    ]
+  }

@@ -1,7 +1,7 @@
 {
   "oid": "q_endocrinologie_004",
-  "title": "Indiquez la ou les pathologie(s) hypophysaire(s) diagnostiquée(s).",
-  "text": "Indiquez la ou les pathologie(s) hypophysaire(s) diagnostiquée(s).",
+  "title": "Indiquez la ou les pathologies hypophysaires diagnostiquée(s) ?",
+  "text": "Indiquez la ou les pathologies hypophysaires diagnostiquée(s) ?",
   "type": "MULTI_CHOICES",
   "choices": [
     {
@@ -14,7 +14,7 @@
     },
     {
       "code": "2",
-      "text": "Insuffisance hypophysaire"
+      "text": "Insuffisance hypophysaire (ou phéochromocytome)"
     },
     {
       "code": "3",

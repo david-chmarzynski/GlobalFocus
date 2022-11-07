@@ -9,6 +9,10 @@
       "text": "Cancer pulmonaire"
     },
     {
+      "code": "Cancer plèvre",
+      "text": "Cancer plèvre"
+    },
+    {
       "code": "Asthme",
       "text": "Asthme"
     },
@@ -46,6 +50,11 @@
     {
       "conditions": "\"Cancer pulmonaire\" in q_q1_pneumologie_001",
       "tagOID": "S_PN_ATCD_CANCER_PULMONAIRE",
+      "value": 1
+    },
+    {
+      "conditions": "\"Cancer plèvre\" in q_q1_pneumologie_001",
+      "tagOID": "S_PN_ATCD_CANCER_PLEVRE",
       "value": 1
     },
     {

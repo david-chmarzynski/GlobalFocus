@@ -1,7 +1,7 @@
 {
   "oid": "q_q1_alimentation_006",
-  "title": "Sur ces 3 derniers mois, contrôlez-vous votre alimentation dans le but de perdre du poids ?",
-  "text": "Sur ces 3 derniers mois, contrôlez-vous votre alimentation dans le but de perdre du poids ?",
+  "title": "Sur ces 3 derniers mois, contrôlez-vous votre alimentation dans le but de perdre du poids (ou de le maintenir) ?",
+  "text": "Sur ces 3 derniers mois, contrôlez-vous votre alimentation dans le but de perdre du poids (ou de le maintenir) ?",
   "type": "SINGLE_CHOICE_RADIO",
   "choices": [
     {
@@ -10,18 +10,27 @@
     },
     {
       "code": "1",
-      "text": "Oui, je fais un peu attention"
+      "text": "Rarement"
     },
     {
       "code": "2",
-      "text": "Oui je fais attention assez souvent"
+      "text": "Assez souvent"
     },
     {
       "code": "3",
-      "text": "Oui je fais attention tout le temps"
+      "text": "Presque tout le temps"
+    },
+    {
+      "code": "4",
+      "text": "Tout le temps"
     }
   ],
   "scores": [
+    {
+      "conditions": "q_q1_alimentation_006 == \"0\"",
+      "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_POIDS",
+      "value": 0
+    },
     {
       "conditions": "q_q1_alimentation_006 == \"1\"",
       "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_POIDS",
@@ -36,6 +45,16 @@
       "conditions": "q_q1_alimentation_006 == \"3\"",
       "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_POIDS",
       "value": 3
+    },
+    {
+      "conditions": "q_q1_alimentation_006 == \"4\"",
+      "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_POIDS",
+      "value": 4
+    },
+    {
+      "conditions": "q_q1_alimentation_006 == \"5\"",
+      "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_POIDS",
+      "value": 5
     }
   ]
 }

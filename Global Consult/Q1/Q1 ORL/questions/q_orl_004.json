@@ -6,31 +6,31 @@
   "choices": [
     {
       "code": "0",
-      "text": "Des acouphènes"
+      "text": "Acouphènes"
     },
     {
       "code": "1",
-      "text": "Une baisse de l'audition"
+      "text": "Baisse de l'audition"
     },
     {
       "code": "2",
-      "text": "Une surdité"
+      "text": "Surdité"
     },
     {
       "code": "3",
-      "text": "Une chirurgie du tympan (drain-yoyo, greffe, etc)"
+      "text": "Chirurgie du tympan (drain-yoyo, greffe, etc)"
     },
     {
       "code": "4",
-      "text": "Une neurinome"
+      "text": "Neurinome"
     },
     {
       "code": "5",
-      "text": "Des vertiges"
+      "text": "Vertiges"
     },
     {
       "code": "6",
-      "text": "Un cancer au niveau de l'oreille"
+      "text": "Cancer au niveau de l'oreille"
     },
     {
       "code": "7",

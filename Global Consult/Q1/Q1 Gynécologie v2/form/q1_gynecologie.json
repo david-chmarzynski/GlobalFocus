@@ -41,6 +41,12 @@
             "max": 3,
             "color": "FF0000",
             "text": "GYN"
+          },
+          {
+            "min": 4,
+            "max": 4,
+            "color": "990000",
+            "text": "GYN"
           }
         ],
         "children": [

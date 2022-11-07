@@ -19,9 +19,18 @@
     {
       "code": "3",
       "text": "Difficultés importantes"
+    },
+    {
+      "code": "4",
+      "text": "Difficultés très importantes"
     }
   ],
   "scores": [
+    {
+      "conditions": "q_VContexteQDVMobilite == \"0\"",
+      "tagOID": "tag_VContexteQDVMobilite",
+      "value": 0
+    },
     {
       "conditions": "q_VContexteQDVMobilite == \"1\"",
       "tagOID": "tag_VContexteQDVMobilite",
@@ -36,6 +45,11 @@
       "conditions": "q_VContexteQDVMobilite == \"3\"",
       "tagOID": "tag_VContexteQDVMobilite",
       "value": 3
+    },
+    {
+      "conditions": "q_VContexteQDVMobilite == \"4\"",
+      "tagOID": "tag_VContexteQDVMobilite",
+      "value": 4
     }
   ]
 }

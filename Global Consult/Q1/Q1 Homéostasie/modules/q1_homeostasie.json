@@ -26,18 +26,6 @@
       "question": "q_q1_homeostasie_004",
       "level": 1,
       "isGlobal": true
-    },
-    {
-      "question": "q_q1_homeostasie_005",
-      "level": 1,
-      "isGlobal": true,
-      "trigger": {
-        "conditions": "!(\"Syndrome d’épuisement (Burnout)\" in q_q1_homeostasie_004)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues": {
-          "q_q1_homeostasie_004": "aucun"
-        }
-      }
     }
   ]
 }

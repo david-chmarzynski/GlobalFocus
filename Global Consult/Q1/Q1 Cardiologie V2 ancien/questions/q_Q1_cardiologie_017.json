@@ -1,0 +1,53 @@
+{
+  "oid": "q_q1_cardiologie_017",
+  "title": "Quel type d’intervention avez-vous subi ?",
+  "text": "Quel type d’intervention avez-vous subi ?",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "Stent",
+      "text": "Stent"
+    },
+    {
+      "code": "Pontage",
+      "text": "Pontage"
+    },
+    {
+      "code": "aucun",
+      "text": "Aucune intervention chirurgicale",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"Stent\" in q_q1_cardiologie_017",
+      "tagOID": "S_CV_ATCD_INFARCTUS_TI_STENT",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Stent\" in q_q1_cardiologie_017)",
+      "tagOID": "S_CV_ATCD_INFARCTUS_TI_STENT",
+      "value": 0
+    },
+    {
+      "conditions": "\"Pontage\" in q_q1_cardiologie_017",
+      "tagOID": "S_CV_ATCD_INFARCTUS_TI_PONTAGE",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Pontage\" in q_q1_cardiologie_017)",
+      "tagOID": "S_CV_ATCD_INFARCTUS_TI_PONTAGE",
+      "value": 0
+    },
+    {
+      "conditions": "\"aucun\" in q_q1_cardiologie_017",
+      "tagOID": "S_CV_ATCD_INFARCTUS_TI_AUCUN",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_q1_cardiologie_017)",
+      "tagOID": "S_CV_ATCD_INFARCTUS_TI_AUCUN",
+      "value": 1
+    }
+  ]
+}

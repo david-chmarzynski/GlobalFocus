@@ -1,0 +1,40 @@
+{
+  "oid": "q_VToxiquePersoAliments",
+  "title": "Consommez-vous des aliments industriels transformés (pizza, biscuits, plats cuisinés…) et/ou des gros poissons (thon, espadon, saumon, dorade…) ?",
+  "text": "Consommez-vous des aliments industriels transformés (pizza, biscuits, plats cuisinés…) et/ou des gros poissons (thon, espadon, saumon, dorade…) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices":[
+    {"code": "0", "text": "Jamais"},
+    {"code": "1", "text": "Rarement"},
+    {"code": "2", "text": "Assez fréquemment"},
+    {"code": "3", "text": "Fréquemment"},
+    {"code": "4", "text": "Très fréquemment"}
+  ],
+  "scores":[
+    {
+      "tagOID": "Tag_VToxiquePersoAliments",
+      "conditions": "q_VToxiquePersoAliments == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "Tag_VToxiquePersoAliments",
+      "conditions": "q_VToxiquePersoAliments == '1'",
+      "value": 1
+    },
+    {
+      "tagOID": "Tag_VToxiquePersoAliments",
+      "conditions": "q_VToxiquePersoAliments == '2'",
+      "value": 2
+    },
+    {
+      "tagOID": "Tag_VToxiquePersoAliments",
+      "conditions": "q_VToxiquePersoAliments == '3'",
+      "value": 3
+    },
+    {
+      "tagOID": "Tag_VToxiquePersoAliments",
+      "conditions": "q_VToxiquePersoAliments == '4'",
+      "value": 4
+    }
+  ]
+}

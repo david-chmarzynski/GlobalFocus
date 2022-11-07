@@ -1,0 +1,118 @@
+{
+    "questionaryName": "Alimentation q1",
+    "chapterOID": "chap_q_vbougerglobal",
+    "chapterTitle": "chap_Alimentation q1",
+    "estimatedTime": 10,
+    "pricing": 10,
+    "levelMax": "1",
+    "authors": [
+      "test"
+    ],
+    "professions": [
+      "DENTIST"
+    ],
+    "companyId": [
+      {}
+    ],
+    "linkedForm": "",
+    "category": "HEALTH",
+    "scoreStrategy": "SUM",
+    "form": [
+      {
+        "formOID": "q_vbougerglobal",
+        "formTitle": "Alimentation q1",
+        "formDescription": "Auto-évaluation du niveau d’activité physique habituelle."
+      }
+    ],
+    "modules": [
+      {
+        "moduleOID": "q_vbougerglobal",
+        "moduleTitle": "Alimentation q1",
+        "questions": [
+          {
+            "module": "",
+            "questionOID": "q_VBougerGlobal",
+            "questionText": "Comment évaluez-vous globalement votre niveau d’activité physique habituelle  dans une journée en prenant en compte les moments actifs ainsi que les moments  d’inactivité (position assise) ?",
+            "type": "SINGLE_CHOICE_RADIO",
+            "isTriggered": false,
+            "triggeredQuestionOID": "",
+            "triggeredValue": 0,
+            "triggeredDefault": "aucun",
+            "tag": "Tag_VBougerGlobal",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": false,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "text": "Très bonne ",
+                "value": 0,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Bonne",
+                "value": 1,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Légèrement  insuffisante",
+                "value": 2,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Plutôt insuffisante",
+                "value": 3,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Insuffisante",
+                "value": 4,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Très insuffisante",
+                "value": "5",
+                "isExclusive": false,
+                "tagOID": ""
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tags": [
+      {
+        "tagOID": "Tag_VBougerGlobal",
+        "tagTitle": "BOUGER",
+        "tagDescription": "BOUGER",
+        "tagType": "SCORE",
+        "sunburstName": "BOUGER",
+        "module": "q_vbougerglobal",
+        "rangeMin": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "rangeMax": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "parent": "",
+        "children": []
+      }
+    ]
+  }

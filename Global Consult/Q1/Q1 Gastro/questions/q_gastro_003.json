@@ -1,7 +1,7 @@
 {
   "oid": "q_gastro_003",
-  "title": "Quelle(s) autre(s) pathologie(s) digestive(s) cancéreuse(s) vous a-t-on diagnostiqué ?",
-  "text": "Quelle(s) autre(s) pathologie(s) digestive(s) cancéreuse(s) vous a-t-on diagnostiqué ?",
+  "title": "Précisez quelle(s) autre(s) pathologie(s) digestive(s) cancéreuse(s) vous a-t-on diagnostiqué ?",
+  "text": "Précisez quelle(s) autre(s) pathologie(s) digestive(s) cancéreuse(s) vous a-t-on diagnostiqué ?",
   "type": "TEXT",
   "choices": [],
   "scores": []

@@ -1,7 +1,7 @@
 {
   "oid": "q_q1_sommeil_010",
-  "title": "Avez-vous un ou plusieurs de ces antécédents de troubles du sommeil diagnostiqué par un médecin ? (plusieurs réponses possibles)",
-  "text": "Avez-vous un ou plusieurs de ces antécédents de troubles du sommeil diagnostiqué par un médecin ? (plusieurs réponses possibles)",
+  "title": "Avez-vous un ou plusieurs de ces antécédents de troubles du sommeil diagnostiqué(s) par un médecin ? (plusieurs réponses possibles)",
+  "text": "Avez-vous un ou plusieurs de ces antécédents de troubles du sommeil diagnostiqué(s) par un médecin ? (plusieurs réponses possibles)",
   "type": "MULTI_CHOICES",
   "choices": [
     {

@@ -19,6 +19,10 @@
     {
       "code": "3",
       "text": "Insatisfaisante"
+    },
+    {
+      "code": "4",
+      "text": "Très insatisfaisante"
     }
   ],
   "scores": [
@@ -41,6 +45,11 @@
       "conditions": "q_q1_gynecologie_000 == \"3\"",
       "tagOID": "S_GYN",
       "value": 3
+    },
+    {
+      "conditions": "q_q1_gynecologie_000 == \"4\"",
+      "tagOID": "S_GYN",
+      "value": 4
     }
   ]
 }

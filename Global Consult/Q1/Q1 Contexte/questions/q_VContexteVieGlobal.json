@@ -6,18 +6,22 @@
   "choices": [
     {
       "code": "0",
-      "text": "Satisfaisante"
+      "text": "Très satisfaisante"
     },
     {
       "code": "1",
-      "text": "Assez satisfaisante"
+      "text": "Satisfaisante"
     },
     {
       "code": "2",
-      "text": "Plutôt insatisfaisante"
+      "text": "Assez satisfaisante"
     },
     {
       "code": "3",
+      "text": "Plutôt insatisfaisante"
+    },
+    {
+      "code": "4",
       "text": "Insatisfaisante"
     }
   ],
@@ -41,6 +45,11 @@
       "conditions": "q_VContexteVieGlobal == \"3\"",
       "tagOID": "tag_VContexteVieGlobal",
       "value": 3
+    },
+    {
+      "conditions": "q_VContexteVieGlobal == \"4\"",
+      "tagOID": "tag_VContexteVieGlobal",
+      "value": 4
     }
   ]
 }

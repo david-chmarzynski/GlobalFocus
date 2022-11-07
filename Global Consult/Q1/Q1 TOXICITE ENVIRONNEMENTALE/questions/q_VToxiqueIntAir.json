@@ -1,0 +1,40 @@
+{
+  "oid": "q_VToxiqueIntAir",
+  "title": "Comment évaluez-vous la qualité de l’air ambiant à l’intérieur de votre domicile (humidité, poussières, acariens, odeurs, fumée de tabac, polluants divers,  renouvellement de l’air par l’aération et la VMC, etc) ?",
+  "text": "Comment évaluez-vous la qualité de l’air ambiant à l’intérieur de votre domicile (humidité, poussières, acariens, odeurs, fumée de tabac, polluants divers,  renouvellement de l’air par l’aération et la VMC, etc) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices":[
+    {"code": "0", "text": "Bonne qualité de l'air"},
+    {"code": "1", "text": "Assez bonne qualité de l'air"},
+    {"code": "2", "text": "Assez mauvaise qualité de l'air"},
+    {"code": "3", "text": "Mauvaise qualité de l'air"},
+    {"code": "4", "text": "Très mauvaise qualité de l'air"}
+  ],
+  "scores":[
+    {
+      "tagOID": "Tag_VToxiqueIntAir",
+      "conditions": "q_VToxiqueIntAir == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "Tag_VToxiqueIntAir",
+      "conditions": "q_VToxiqueIntAir == '1'",
+      "value": 1
+    },
+    {
+      "tagOID": "Tag_VToxiqueIntAir",
+      "conditions": "q_VToxiqueIntAir == '2'",
+      "value": 2
+    },
+    {
+      "tagOID": "Tag_VToxiqueIntAir",
+      "conditions": "q_VToxiqueIntAir == '3'",
+      "value": 3
+    },
+    {
+      "tagOID": "Tag_VToxiqueIntAir",
+      "conditions": "q_VToxiqueIntAir == '4'",
+      "value": 4
+    }
+  ]
+}

@@ -6,27 +6,27 @@
   "choices": [
     {
       "code": "0",
-      "text": "Une rhinite chronique"
+      "text": "Rhinite chronique"
     },
     {
       "code": "1",
-      "text": "Une sinusite chronique"
+      "text": "Sinusite chronique"
     },
     {
       "code": "2",
-      "text": "Une polypose nasale"
+      "text": "Polypose nasale"
     },
     {
       "code": "3",
-      "text": "Une perte de l'odorat"
+      "text": "Perte de l'odorat"
     },
     {
       "code": "4",
-      "text": "Une ablation des végétations (adénoïdectomie)"
+      "text": "Ablation des végétations (adénoïdectomie)"
     },
     {
       "code": "5",
-      "text": "Un cancer au niveau des sinus ou du cavum"
+      "text": "Cancer au niveau des sinus ou du cavum"
     },
     {
       "code": "6",

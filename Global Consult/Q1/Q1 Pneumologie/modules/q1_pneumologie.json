@@ -107,6 +107,18 @@
           "q_q1_pneumologie_001": "aucun"
         }
       }
+    },
+    {
+      "question": "q_q1_pneumologie_010",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Cancer plèvre\" in q_q1_pneumologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_pneumologie_001": "aucun"
+        }
+      }
     }
   ]
 }

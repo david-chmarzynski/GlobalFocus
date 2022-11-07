@@ -64,19 +64,31 @@
               {
                 "min": 1,
                 "max": 1.9,
-                "color": "FFFF00",
+                "color": "CCFF33",
                 "text": "TENS"
               },
               {
                 "min": 2,
                 "max": 2.9,
-                "color": "FF9900",
+                "color": "FFFF00",
                 "text": "TENS"
               },
               {
                 "min": 3,
                 "max": 3.9,
+                "color": "FF9900",
+                "text": "TENS"
+              },
+              {
+                "min": 4,
+                "max": 4.9,
                 "color": "FF0000",
+                "text": "TENS"
+              },
+              {
+                "min": 5,
+                "max": 5.9,
+                "color": "990000",
                 "text": "TENS"
               }
             ],
@@ -95,19 +107,31 @@
                   {
                     "min": 1,
                     "max": 1.9,
-                    "color": "FFFF00",
+                    "color": "CCFF33",
                     "text": "ANX-TRT"
                   },
                   {
                     "min": 2,
                     "max": 2.9,
-                    "color": "FF9900",
+                    "color": "FFFF00",
                     "text": "ANX-TRT"
                   },
                   {
                     "min": 3,
                     "max": 3.9,
+                    "color": "FF9900",
+                    "text": "ANX-TRT"
+                  },
+                  {
+                    "min": 4,
+                    "max": 4.9,
                     "color": "FF0000",
+                    "text": "ANX-TRT"
+                  },
+                  {
+                    "min": 5,
+                    "max": 5.9,
+                    "color": "990000",
                     "text": "ANX-TRT"
                   }
                 ],
@@ -121,13 +145,13 @@
                   {
                     "min": 0,
                     "max": 0.9,
-                    "color": "00FF00",
+                    "color": "990000",
                     "text": "PERFECT"
                   },
                   {
                     "min": 1,
                     "max": 1.9,
-                    "color": "FFFF00",
+                    "color": "FF0000",
                     "text": "PERFECT"
                   },
                   {
@@ -139,7 +163,19 @@
                   {
                     "min": 3,
                     "max": 3.9,
-                    "color": "FF0000",
+                    "color": "FFFF00",
+                    "text": "PERFECT"
+                  },
+                  {
+                    "min": 4,
+                    "max": 4.9,
+                    "color": "CCFF33",
+                    "text": "PERFECT"
+                  },
+                  {
+                    "min": 5,
+                    "max": 5.9,
+                    "color": "00FF00",
                     "text": "PERFECT"
                   }
                 ],
@@ -212,12 +248,6 @@
                 "min": 5,
                 "max": 5.9,
                 "color": "FF0000",
-                "text": "MOTIV"
-              },
-              {
-                "min": 10,
-                "max": 10.9,
-                "color": "990000",
                 "text": "MOTIV"
               }
             ],
@@ -375,32 +405,32 @@
                     "text": "IM/CORP"
                   },
                   {
-                    "min": 10,
-                    "max": 10.9,
-                    "color": "CCFF33",
-                    "text": "IM/CORP"
-                  },
-                  {
                     "min": 2,
                     "max": 2.9,
-                    "color": "FFFF00",
+                    "color": "CCFF33",
                     "text": "IM/CORP"
                   },
                   {
                     "min": 3,
                     "max": 3.9,
-                    "color": "FF9900",
+                    "color": "FFFF00",
                     "text": "IM/CORP"
                   },
                   {
                     "min": 4,
                     "max": 4.9,
-                    "color": "FF0000",
+                    "color": "FF9900",
                     "text": "IM/CORP"
                   },
                   {
                     "min": 5,
                     "max": 5.9,
+                    "color": "FF0000",
+                    "text": "IM/CORP"
+                  },
+                  {
+                    "min": 6,
+                    "max": 6.9,
                     "color": "990000",
                     "text": "IM/CORP"
                   }
@@ -419,32 +449,32 @@
                     "text": "ADS"
                   },
                   {
-                    "min": 10,
-                    "max": 10.9,
-                    "color": "CCFF33",
-                    "text": "ADS"
-                  },
-                  {
                     "min": 2,
                     "max": 2.9,
-                    "color": "FFFF00",
+                    "color": "CCFF33",
                     "text": "ADS"
                   },
                   {
                     "min": 3,
                     "max": 3.9,
-                    "color": "FF9900",
+                    "color": "FFFF00",
                     "text": "ADS"
                   },
                   {
                     "min": 4,
                     "max": 4.9,
-                    "color": "FF0000",
+                    "color": "FF9900",
                     "text": "ADS"
                   },
                   {
                     "min": 5,
                     "max": 5.9,
+                    "color": "FF0000",
+                    "text": "ADS"
+                  },
+                  {
+                    "min": 6,
+                    "max": 6.9,
                     "color": "990000",
                     "text": "ADS"
                   }
@@ -549,18 +579,24 @@
           {
             "min": 1,
             "max": 1.9,
-            "color": "FFFF00",
+            "color": "CCFF33",
             "text": "SATISF/VIE"
           },
           {
             "min": 2,
             "max": 2.9,
-            "color": "FF9900",
+            "color": "FFFF00",
             "text": "SATISF/VIE"
           },
           {
             "min": 3,
             "max": 3.9,
+            "color": "FF9900",
+            "text": "SATISF/VIE"
+          },
+          {
+            "min": 4,
+            "max": 4.9,
             "color": "FF0000",
             "text": "SATISF/VIE"
           }
@@ -580,18 +616,24 @@
               {
                 "min": 1,
                 "max": 1.9,
-                "color": "FFFF00",
+                "color": "CCFF33",
                 "text": "VÉCU/W"
               },
               {
                 "min": 2,
                 "max": 2.9,
-                "color": "FF9900",
+                "color": "FFFF00",
                 "text": "VÉCU/W"
               },
               {
                 "min": 3,
                 "max": 3.9,
+                "color": "FF9900",
+                "text": "VÉCU/W"
+              },
+              {
+                "min": 4,
+                "max": 4.9,
                 "color": "FF0000",
                 "text": "VÉCU/W"
               }
@@ -611,18 +653,24 @@
                   {
                     "min": 1,
                     "max": 1.9,
-                    "color": "FFFF00",
+                    "color": "CCFF33",
                     "text": "ORG/W"
                   },
                   {
                     "min": 2,
                     "max": 2.9,
-                    "color": "FF9900",
+                    "color": "FFFF00",
                     "text": "ORG/W"
                   },
                   {
                     "min": 3,
                     "max": 3.9,
+                    "color": "FF9900",
+                    "text": "ORG/W"
+                  },
+                  {
+                    "min": 4,
+                    "max": 4.9,
                     "color": "FF0000",
                     "text": "ORG/W"
                   }
@@ -643,18 +691,24 @@
                   {
                     "min": 1,
                     "max": 1.9,
-                    "color": "FFFF00",
+                    "color": "CCFF33",
                     "text": "HUM/W"
                   },
                   {
                     "min": 2,
                     "max": 2.9,
-                    "color": "FF9900",
+                    "color": "FFFF00",
                     "text": "HUM/W"
                   },
                   {
                     "min": 3,
                     "max": 3.9,
+                    "color": "FF9900",
+                    "text": "HUM/W"
+                  },
+                  {
+                    "min": 4,
+                    "max": 4.9,
                     "color": "FF0000",
                     "text": "HUM/W"
                   }
@@ -709,18 +763,24 @@
               {
                 "min": 1,
                 "max": 1.9,
-                "color": "FFFF00",
+                "color": "CCFF33",
                 "text": "QDVGLOB"
               },
               {
                 "min": 2,
                 "max": 2.9,
-                "color": "FF9900",
+                "color": "FFFF00",
                 "text": "QDVGLOB"
               },
               {
                 "min": 3,
                 "max": 3.9,
+                "color": "FF9900",
+                "text": "QDVGLOB"
+              },
+              {
+                "min": 4,
+                "max": 4.9,
                 "color": "FF0000",
                 "text": "QDVGLOB"
               }
@@ -787,6 +847,12 @@
                     "max": 3.9,
                     "color": "FF0000",
                     "text": "QDV/EMOT"
+                  },
+                  {
+                    "min": 4,
+                    "max": 4.9,
+                    "color": "990000",
+                    "text": "QDV/EMOT"
                   }
                 ],
                 "children": []
@@ -832,25 +898,31 @@
                     "min": 0,
                     "max": 0.9,
                     "color": "00FF00",
-                    "text": "QDV/COGN"
+                    "text": "COGNITIF"
                   },
                   {
                     "min": 1,
                     "max": 1.9,
                     "color": "FFFF00",
-                    "text": "QDV/COGN"
+                    "text": "COGNITIF"
                   },
                   {
                     "min": 2,
                     "max": 2.9,
                     "color": "FF9900",
-                    "text": "QDV/COGN"
+                    "text": "COGNITIF"
                   },
                   {
                     "min": 3,
                     "max": 3.9,
                     "color": "FF0000",
-                    "text": "QDV/COGN"
+                    "text": "COGNITIF"
+                  },
+                  {
+                    "min": 4,
+                    "max": 4.9,
+                    "color": "990000",
+                    "text": "COGNITIF"
                   }
                 ],
                 "children": []
@@ -883,6 +955,12 @@
                     "max": 3.9,
                     "color": "FF0000",
                     "text": "QDV/MOB"
+                  },
+                  {
+                    "min": 4,
+                    "max": 4.9,
+                    "color": "990000",
+                    "text": "QDV/MOB"
                   }
                 ],
                 "children": []
@@ -914,6 +992,12 @@
                     "min": 3,
                     "max": 3.9,
                     "color": "FF0000",
+                    "text": "QDV/AUTO"
+                  },
+                  {
+                    "min": 4,
+                    "max": 4.9,
+                    "color": "990000",
                     "text": "QDV/AUTO"
                   }
                 ],
@@ -981,6 +1065,12 @@
                 "max": 3.9,
                 "color": "FF0000",
                 "text": "FAM"
+              },
+              {
+                "min": 4,
+                "max": 4.9,
+                "color": "990000",
+                "text": "FAM"
               }
             ],
             "children": [
@@ -1043,6 +1133,12 @@
                     "min": 3,
                     "max": 3.9,
                     "color": "FF0000",
+                    "text": "FAM/HUM"
+                  },
+                  {
+                    "min": 4,
+                    "max": 4.9,
+                    "color": "990000",
                     "text": "FAM/HUM"
                   }
                 ],
@@ -1108,7 +1204,8 @@
                 { "min": 0, "max": 0, "color": "00FF00", "text": "TRAVAIL" },
                 { "min": 1, "max": 1, "color": "FFFF00", "text": "TRAVAIL" },
                 { "min": 2, "max": 2, "color": "FF9900", "text": "TRAVAIL" },
-                { "min": 3, "max": 3, "color": "FF0000", "text": "TRAVAIL" }
+                { "min": 3, "max": 3, "color": "FF0000", "text": "TRAVAIL" },
+                { "min": 4, "max": 4, "color": "990000", "text": "TRAVAIL" }
             ],
             "children":[
               {
@@ -1119,7 +1216,8 @@
                     { "min": 0, "max": 0, "color": "00FF00", "text": "AIR" },
                     { "min": 1, "max": 1, "color": "FFFF00", "text": "AIR" },
                     { "min": 2, "max": 2, "color": "FF9900", "text": "AIR" },
-                    { "min": 3, "max": 3, "color": "FF0000", "text": "AIR" }
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "AIR" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "AIR" }
                 ]
               },
               {
@@ -1130,7 +1228,8 @@
                     { "min": 0, "max": 0, "color": "00FF00", "text": "CHIMIE" },
                     { "min": 1, "max": 1, "color": "FFFF00", "text": "CHIMIE" },
                     { "min": 2, "max": 2, "color": "FF9900", "text": "CHIMIE" },
-                    { "min": 3, "max": 3, "color": "FF0000", "text": "CHIMIE" }
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "CHIMIE" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "CHIMIE" }
                 ]
               },
               {
@@ -1141,7 +1240,8 @@
                     { "min": 0, "max": 0, "color": "00FF00", "text": "INFEC-RADI" },
                     { "min": 1, "max": 1, "color": "FFFF00", "text": "INFEC-RADI" },
                     { "min": 2, "max": 2, "color": "FF9900", "text": "INFEC-RADI" },
-                    { "min": 3, "max": 3, "color": "FF0000", "text": "INFEC-RADI" }
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "INFEC-RADI" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "INFEC-RADI" }
                 ]
               },
               {
@@ -1152,7 +1252,8 @@
                     { "min": 0, "max": 0, "color": "00FF00", "text": "W/BRUI" },
                     { "min": 1, "max": 1, "color": "FFFF00", "text": "W/BRUI" },
                     { "min": 2, "max": 2, "color": "FF9900", "text": "W/BRUI" },
-                    { "min": 3, "max": 3, "color": "FF0000", "text": "W/BRUI" }
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "W/BRUI" },
+                    { "min": 3, "max": 3, "color": "990000", "text": "W/BRUI" }
                 ]
               }
             ]
@@ -1165,7 +1266,8 @@
                 { "min": 0, "max": 0, "color": "00FF00", "text": "TOXIQ" },
                 { "min": 1, "max": 1, "color": "FFFF00", "text": "TOXIQ" },
                 { "min": 2, "max": 2, "color": "FF9900", "text": "TOXIQ" },
-                { "min": 3, "max": 3, "color": "FF0000", "text": "TOXIQ" }
+                { "min": 3, "max": 3, "color": "FF0000", "text": "TOXIQ" },
+                { "min": 4, "max": 4, "color": "990000", "text": "TOXIQ" }
             ],
             "children":[
               {
@@ -1176,7 +1278,8 @@
                     { "min": 0, "max": 0, "color": "00FF00", "text": "EXT/BRUIT" },
                     { "min": 1, "max": 1, "color": "FFFF00", "text": "EXT/BRUIT" },
                     { "min": 2, "max": 2, "color": "FF9900", "text": "EXT/BRUIT" },
-                    { "min": 3, "max": 3, "color": "FF0000", "text": "EXT/BRUIT" }
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "EXT/BRUIT" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "EXT/BRUIT" }
                 ]
               },
               {
@@ -1187,7 +1290,8 @@
                     { "min": 0, "max": 0, "color": "00FF00", "text": "EXT/AIR" },
                     { "min": 1, "max": 1, "color": "FFFF00", "text": "EXT/AIR" },
                     { "min": 2, "max": 2, "color": "FF9900", "text": "EXT/AIR" },
-                    { "min": 3, "max": 3, "color": "FF0000", "text": "EXT/AIR" }
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "EXT/AIR" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "EXT/AIR" }
                 ]
               }
             ]
@@ -1200,7 +1304,8 @@
                 { "min": 0, "max": 0, "color": "00FF00", "text": "POLL-LOG" },
                 { "min": 1, "max": 1, "color": "FFFF00", "text": "POLL-LOG" },
                 { "min": 2, "max": 2, "color": "FF9900", "text": "POLL-LOG" },
-                { "min": 3, "max": 3, "color": "FF0000", "text": "POLL-LOG" }
+                { "min": 3, "max": 3, "color": "FF0000", "text": "POLL-LOG" },
+                { "min": 4, "max": 4, "color": "990000", "text": "POLL-LOG" }
             ],
             "children":[
               {
@@ -1211,7 +1316,8 @@
                     { "min": 0, "max": 0, "color": "00FF00", "text": "L/AIR" },
                     { "min": 1, "max": 1, "color": "FFFF00", "text": "L/AIR" },
                     { "min": 2, "max": 2, "color": "FF9900", "text": "L/AIR" },
-                    { "min": 3, "max": 3, "color": "FF0000", "text": "L/AIR" }
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "L/AIR" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "L/AIR" }
                 ]
               },
               {
@@ -1222,7 +1328,8 @@
                     { "min": 0, "max": 0, "color": "00FF00", "text": "L/AERA" },
                     { "min": 1, "max": 1, "color": "FFFF00", "text": "L/AERA" },
                     { "min": 2, "max": 2, "color": "FF9900", "text": "L/AERA" },
-                    { "min": 3, "max": 3, "color": "FF0000", "text": "L/AERA" }
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "L/AERA" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "L/AERA" }
                 ]
               },
               {
@@ -1233,7 +1340,8 @@
                     { "min": 0, "max": 0, "color": "00FF00", "text": "L/MOB" },
                     { "min": 1, "max": 1, "color": "FFFF00", "text": "L/MOB" },
                     { "min": 2, "max": 2, "color": "FF9900", "text": "L/MOB" },
-                    { "min": 3, "max": 3, "color": "FF0000", "text": "L/MOB" }
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "L/MOB" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "L/MOB" }
                 ]
               },
               {
@@ -1244,7 +1352,8 @@
                     { "min": 0, "max": 0, "color": "00FF00", "text": "L/MENAG" },
                     { "min": 1, "max": 1, "color": "FFFF00", "text": "L/MENAG" },
                     { "min": 2, "max": 2, "color": "FF9900", "text": "L/MENAG" },
-                    { "min": 3, "max": 3, "color": "FF0000", "text": "L/MENAG" }
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "L/MENAG" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "L/MENAG" }
                 ]
               },
               {
@@ -1255,7 +1364,8 @@
                     { "min": 0, "max": 0, "color": "00FF00", "text": "L/CHIM" },
                     { "min": 1, "max": 1, "color": "FFFF00", "text": "L/CHIM" },
                     { "min": 2, "max": 2, "color": "FF9900", "text": "L/CHIM" },
-                    { "min": 3, "max": 3, "color": "FF0000", "text": "L/CHIM" }
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "L/CHIM" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "L/CHIM" }
                 ]
               }
             ]
@@ -1268,7 +1378,8 @@
                 { "min": 0, "max": 0, "color": "00FF00", "text": "TOX-PERS" },
                 { "min": 1, "max": 1, "color": "FFFF00", "text": "TOX-PERS" },
                 { "min": 2, "max": 2, "color": "FF9900", "text": "TOX-PERS" },
-                { "min": 3, "max": 3, "color": "FF0000", "text": "TOX-PERS" }
+                { "min": 3, "max": 3, "color": "FF0000", "text": "TOX-PERS" },
+                { "min": 4, "max": 4, "color": "990000", "text": "TOX-PERS" }
             ],
             "children":[
               {
@@ -1279,7 +1390,8 @@
                     { "min": 0, "max": 0, "color": "00FF00", "text": "P/HYG" },
                     { "min": 1, "max": 1, "color": "FFFF00", "text": "P/HYG" },
                     { "min": 2, "max": 2, "color": "FF9900", "text": "P/HYG" },
-                    { "min": 3, "max": 3, "color": "FF0000", "text": "P/HYG" }
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "P/HYG" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "P/HYG" }
                 ]
               },
               {
@@ -1290,7 +1402,8 @@
                     { "min": 0, "max": 0, "color": "00FF00", "text": "P/ALIM" },
                     { "min": 1, "max": 1, "color": "FFFF00", "text": "P/ALIM" },
                     { "min": 2, "max": 2, "color": "FF9900", "text": "P/ALIM" },
-                    { "min": 3, "max": 3, "color": "FF0000", "text": "P/ALIM" }
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "P/ALIM" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "P/ALIM" }
                 ],
                 "children":[
                   {
@@ -1301,7 +1414,8 @@
                         { "min": 0, "max": 0, "color": "00FF00", "text": "A/PLAST" },
                         { "min": 1, "max": 1, "color": "FFFF00", "text": "A/PLAST" },
                         { "min": 2, "max": 2, "color": "FF9900", "text": "A/PLAST" },
-                        { "min": 3, "max": 3, "color": "FF0000", "text": "A/PLAST" }
+                        { "min": 3, "max": 3, "color": "FF0000", "text": "A/PLAST" },
+                        { "min": 4, "max": 4, "color": "990000", "text": "A/PLAST" }
                     ]
                   },
                   {
@@ -1312,7 +1426,8 @@
                         { "min": 0, "max": 0, "color": "00FF00", "text": "A/CUISS" },
                         { "min": 1, "max": 1, "color": "FFFF00", "text": "A/CUISS" },
                         { "min": 2, "max": 2, "color": "FF9900", "text": "A/CUISS" },
-                        { "min": 3, "max": 3, "color": "FF0000", "text": "A/CUISS" }
+                        { "min": 3, "max": 3, "color": "FF0000", "text": "A/CUISS" },
+                        { "min": 4, "max": 4, "color": "990000", "text": "A/CUISS" }
                     ]
                   },
                   {
@@ -1323,7 +1438,8 @@
                         { "min": 0, "max": 0, "color": "00FF00", "text": "A/NOUR" },
                         { "min": 1, "max": 1, "color": "FFFF00", "text": "A/NOUR" },
                         { "min": 2, "max": 2, "color": "FF9900", "text": "A/NOUR" },
-                        { "min": 3, "max": 3, "color": "FF0000", "text": "A/NOUR" }
+                        { "min": 3, "max": 3, "color": "FF0000", "text": "A/NOUR" },
+                        { "min": 4, "max": 4, "color": "990000", "text": "A/NOUR" }
                     ]
                   }
                 ]
@@ -1336,7 +1452,8 @@
                     { "min": 0, "max": 0, "color": "00FF00", "text": "P/DROG" },
                     { "min": 1, "max": 1, "color": "FFFF00", "text": "P/DROG" },
                     { "min": 2, "max": 2, "color": "FF9900", "text": "P/DROG" },
-                    { "min": 3, "max": 3, "color": "FF0000", "text": "P/DROG" }
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "P/DROG" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "P/DROG" }
                 ]
               },
               {
@@ -1347,7 +1464,8 @@
                     { "min": 0, "max": 0, "color": "00FF00", "text": "P/OL" },
                     { "min": 1, "max": 1, "color": "FFFF00", "text": "P/OL" },
                     { "min": 2, "max": 2, "color": "FF9900", "text": "P/OL" },
-                    { "min": 3, "max": 3, "color": "FF0000", "text": "P/OL" }
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "P/OL" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "P/OL" }
                 ],
                 "children":[
                   {
@@ -1402,7 +1520,8 @@
                       { "min": 0, "max": 0, "color": "00FF00", "text": "PASSIF" },
                       { "min": 1, "max": 1, "color": "FFFF00", "text": "PASSIF" },
                       { "min": 2, "max": 2, "color": "FF9900", "text": "PASSIF" },
-                      { "min": 3, "max": 3, "color": "FF0000", "text": "PASSIF" }
+                      { "min": 3, "max": 3, "color": "FF0000", "text": "PASSIF" },
+                      { "min": 4, "max": 4, "color": "990000", "text": "PASSIF" }
                     ]
                   }
                 ]
@@ -1429,19 +1548,31 @@
           {
             "min": 1,
             "max": 1,
-            "color": "FFFF00",
+            "color": "CCFF33",
             "text": "SATISF/SOM"
           },
           {
             "min": 2,
             "max": 2,
-            "color": "FF9900",
+            "color": "FFFF00",
             "text": "SATISF/SOM"
           },
           {
             "min": 3,
             "max": 3,
+            "color": "FF9900",
+            "text": "SATISF/SOM"
+          },
+          {
+            "min": 4,
+            "max": 4,
             "color": "FF0000",
+            "text": "SATISF/SOM"
+          },
+          {
+            "min": 5,
+            "max": 5,
+            "color": "990000",
             "text": "SATISF/SOM"
           }
         ],
@@ -1460,19 +1591,31 @@
               {
                 "min": 1,
                 "max": 1,
-                "color": "FFFF00",
+                "color": "CCFF33",
                 "text": "CONTEXT/SOM"
               },
               {
                 "min": 2,
                 "max": 2,
-                "color": "FF9900",
+                "color": "FFFF00",
                 "text": "CONTEXT/SOM"
               },
               {
                 "min": 3,
                 "max": 3,
+                "color": "FF9900",
+                "text": "CONTEXT/SOM"
+              },
+              {
+                "min": 4,
+                "max": 4,
                 "color": "FF0000",
+                "text": "CONTEXT/SOM"
+              },
+              {
+                "min": 5,
+                "max": 5,
+                "color": "990000",
                 "text": "CONTEXT/SOM"
               }
             ],
@@ -1606,19 +1749,31 @@
               {
                 "min": 1,
                 "max": 1,
-                "color": "FFFF00",
+                "color": "CCFF33",
                 "text": "QUANT/SOM"
               },
               {
                 "min": 2,
                 "max": 2,
-                "color": "FF9900",
+                "color": "FFFF00",
                 "text": "QUANT/SOM"
               },
               {
                 "min": 3,
                 "max": 3,
+                "color": "FF9900",
+                "text": "QUANT/SOM"
+              },
+              {
+                "min": 4,
+                "max": 4,
                 "color": "FF0000",
+                "text": "QUANT/SOM"
+              },
+              {
+                "min": 5,
+                "max": 5,
+                "color": "990000",
                 "text": "QUANT/SOM"
               }
             ],
@@ -1638,19 +1793,31 @@
               {
                 "min": 1,
                 "max": 1,
-                "color": "FFFF00",
+                "color": "CCFF33",
                 "text": "QUAL/SOM"
               },
               {
                 "min": 2,
                 "max": 2,
-                "color": "FF9900",
+                "color": "FFFF00",
                 "text": "QUAL/SOM"
               },
               {
                 "min": 3,
                 "max": 3,
+                "color": "FF9900",
+                "text": "QUAL/SOM"
+              },
+              {
+                "min": 4,
+                "max": 4,
                 "color": "FF0000",
+                "text": "QUAL/SOM"
+              },
+              {
+                "min": 5,
+                "max": 5,
+                "color": "990000",
                 "text": "QUAL/SOM"
               }
             ],
@@ -3765,6 +3932,12 @@
             "max": 3,
             "color": "FF0000",
             "text": "DIG"
+          },
+          {
+            "min": 4,
+            "max": 4,
+            "color": "990000",
+            "text": "DIG"
           }
         ],
         "children": [
@@ -4726,6 +4899,12 @@
             "max": 3,
             "color": "FF0000",
             "text": "ENDO"
+          },
+          {
+            "min": 4,
+            "max": 4,
+            "color": "990000",
+            "text": "ENDO"
           }
         ],
         "children": [
@@ -5478,6 +5657,12 @@
             "min": 3,
             "max": 3,
             "color": "FF0000",
+            "text": "GYN"
+          },
+          {
+            "min": 4,
+            "max": 4,
+            "color": "990000",
             "text": "GYN"
           }
         ],
@@ -6499,6 +6684,12 @@
             "min": 3,
             "max": 3,
             "color": "FF0000",
+            "text": "HEMAT-IMMU"
+          },
+          {
+            "min": 4,
+            "max": 4,
+            "color": "990000",
             "text": "HEMAT-IMMU"
           }
         ],
@@ -8569,6 +8760,26 @@
             "children": []
           },
           {
+            "tagOID": "S_PN_ATCD_CANCER_PLEVRE",
+            "type": "SCORE",
+            "hideNodeIfEmpty": true,
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0,
+                "color": "00FF00",
+                "text": "KC PLEVRE"
+              },
+              {
+                "min": 1,
+                "max": 1,
+                "color": "FF0000",
+                "text": "KC PLEVRE"
+              }
+            ],
+            "children": []
+          },
+          {
             "tagOID": "S_PN_ATCD_ASTHME",
             "type": "SCORE",
             "hideNodeIfEmpty": true,
@@ -8723,25 +8934,31 @@
             "min": 0,
             "max": 0,
             "color": "00FF00",
-            "text": "URO-NEPHRO"
+            "text": "URO"
           },
           {
             "min": 1,
             "max": 1,
             "color": "FFFF00",
-            "text": "URO-NEPHRO"
+            "text": "URO"
           },
           {
             "min": 2,
             "max": 2,
             "color": "FF9900",
-            "text": "URO-NEPHRO"
+            "text": "URO"
           },
           {
             "min": 3,
             "max": 3,
             "color": "FF0000",
-            "text": "URO-NEPHRO"
+            "text": "URO"
+          },
+          {
+            "min": 4,
+            "max": 4,
+            "color": "990000",
+            "text": "URO"
           }
         ],
         "children": [
@@ -8980,25 +9197,31 @@
             "min": 0,
             "max": 0,
             "color": "00FF00",
-            "text": "NEURO"
+            "text": "NEUR"
           },
           {
             "min": 1,
             "max": 1,
             "color": "FFFF00",
-            "text": "NEURO"
+            "text": "NEUR"
           },
           {
             "min": 2,
             "max": 2,
             "color": "FF9900",
-            "text": "NEURO"
+            "text": "NEUR"
           },
           {
             "min": 3,
             "max": 3,
             "color": "FF0000",
-            "text": "NEURO"
+            "text": "NEUR"
+          },
+          {
+            "min": 4,
+            "max": 4,
+            "color": "990000",
+            "text": "NEUR"
           }
         ],
         "children": [
@@ -9298,25 +9521,31 @@
             "min": 0,
             "max": 0,
             "color": "00FF00",
-            "text": "RMS"
+            "text": "RHU"
           },
           {
             "min": 1,
             "max": 1,
             "color": "FFFF00",
-            "text": "RMS"
+            "text": "RHU"
           },
           {
             "min": 2,
             "max": 2,
             "color": "FF9900",
-            "text": "RMS"
+            "text": "RHU"
           },
           {
             "min": 3,
             "max": 3,
             "color": "FF0000",
-            "text": "RMS"
+            "text": "RHU"
+          },
+          {
+            "min": 4,
+            "max": 4,
+            "color": "990000",
+            "text": "RHU"
           }
         ],
         "children": [
@@ -10739,6 +10968,12 @@
             "max": 3,
             "color": "FF0000",
             "text": "STO"
+          },
+          {
+            "min": 4,
+            "max": 4,
+            "color": "990000",
+            "text": "STO"
           }
         ],
         "children": [
@@ -11016,6 +11251,12 @@
             "max": 3,
             "color": "FF0000",
             "text": "DERMATOLOGIE"
+          },
+          {
+            "min": 4,
+            "max": 4,
+            "color": "990000",
+            "text": "DERMATOLOGIE"
           }
         ],
         "children": [
@@ -11212,6 +11453,12 @@
             "min": 3,
             "max": 3,
             "color": "FF0000",
+            "text": "ORL"
+          },
+          {
+            "min": 4,
+            "max": 4,
+            "color": "990000",
             "text": "ORL"
           }
         ],
@@ -11833,6 +12080,12 @@
             "max": 3,
             "color": "FF0000",
             "text":"EVAL/GLOB"
+          },
+          {
+            "min": 4,
+            "max": 4,
+            "color": "990000",
+            "text":"EVAL/GLOB"
           }
         ],
         "children": [
@@ -12129,6 +12382,12 @@
             "min": 3,
             "max": 3,
             "color": "FF0000",
+            "text": "HOMEO-CELL"
+          },
+          {
+            "min": 4,
+            "max": 4,
+            "color": "990000",
             "text": "HOMEO-CELL"
           }
         ],

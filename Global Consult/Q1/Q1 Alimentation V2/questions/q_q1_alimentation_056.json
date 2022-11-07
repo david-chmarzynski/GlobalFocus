@@ -6,19 +6,23 @@
     "choices": [
       {
         "code": "0",
-        "text": "Non"
+        "text": "Jamais"
       },
       {
         "code": "1",
-        "text": "Oui, un peu"
+        "text": "Rarement"
       },
       {
         "code": "2",
-        "text": "Oui, moyennement"
+        "text": "Assez fréquemment"
       },
       {
         "code": "3",
-        "text": "Oui, beaucoup"
+        "text": "Fréquemment"
+      },
+      {
+        "code": "4",
+        "text": "Très fréquemment"
       }
     ],
     "scores": [
@@ -41,6 +45,11 @@
         "conditions": "q_q1_alimentation_056 == \"3\"",
         "tagOID": "TAG_VALIMENTATIONCACONTRAINTES",
         "value": 3
+      },
+      {
+        "conditions": "q_q1_alimentation_056 == \"4\"",
+        "tagOID": "TAG_VALIMENTATIONCACONTRAINTES",
+        "value": 4
       }
     ]
   }

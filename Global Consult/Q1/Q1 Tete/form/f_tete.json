@@ -1,0 +1,542 @@
+{
+  "oid": "f_tete",
+  "title": "Global Consult Q1 module tête ",
+  "estimatedTime": 30,
+  "pricing": 1,
+  "description": "Auto-évaluation psychologique",
+  "levelMax": "1",
+  "authors": ["Jean-Philippe Astruc", "Jacques Bassier"],
+  "chapters": ["chap_TETE"],
+  "professions": ["DENTIST"],
+  "diagnostics": [],
+  "reportingTrees": [
+    {
+      "category": "LIFE_STYLE",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "tag_VTeteCouleur",
+        "type": "SCORE",
+        "hideNodeIfEmpty": true,
+        "ranges": [
+          {
+            "min": 0,
+            "max": 0.9,
+            "color": "00FF00",
+            "text": "P/COUL"
+          },
+          {
+            "min": 1,
+            "max": 1.9,
+            "color": "FFFF00",
+            "text": "P/COUL"
+          },
+          {
+            "min": 2,
+            "max": 2.9,
+            "color": "0070C0",
+            "text": "P/COUL"
+          },
+          {
+            "min": 3,
+            "max": 3.9,
+            "color": "FF0000",
+            "text": "P/COUL"
+          }
+        ],
+        "children": [
+          {
+            "tagOID": "tag_VTeteTensionEmotionnelle",
+            "type": "SCORE",
+            "hideNodeIfEmpty": true,
+            "ranges": [
+              {
+                "min": 0,
+                "max": 0.9,
+                "color": "00FF00",
+                "text": "TENS"
+              },
+              {
+                "min": 1,
+                "max": 1.9,
+                "color": "FFFF00",
+                "text": "TENS"
+              },
+              {
+                "min": 2,
+                "max": 2.9,
+                "color": "FF9900",
+                "text": "TENS"
+              },
+              {
+                "min": 3,
+                "max": 3.9,
+                "color": "FF0000",
+                "text": "TENS"
+              },
+              {
+                "min": 4,
+                "max": 4.9,
+                "color": "FF0000",
+                "text": "TENS"
+              },
+              {
+                "min": 5,
+                "max": 5.9,
+                "color": "FF0000",
+                "text": "TENS"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "tag_VTeteAnxieteTrait",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0.9,
+                    "color": "00FF00",
+                    "text": "ANX-TRT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "FFFF00",
+                    "text": "ANX-TRT"
+                  },
+                  {
+                    "min": 2,
+                    "max": 2.9,
+                    "color": "FF9900",
+                    "text": "ANX-TRT"
+                  },
+                  {
+                    "min": 3,
+                    "max": 3.9,
+                    "color": "FF0000",
+                    "text": "ANX-TRT"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "Tag_VTetePerfectionnisme",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0.9,
+                    "color": "00FF00",
+                    "text": "PERFECT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "FFFF00",
+                    "text": "PERFECT"
+                  },
+                  {
+                    "min": 2,
+                    "max": 2.9,
+                    "color": "FF9900",
+                    "text": "PERFECT"
+                  },
+                  {
+                    "min": 3,
+                    "max": 3.9,
+                    "color": "FF0000",
+                    "text": "PERFECT"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VTeteStressGlobal",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 3.9,
+                    "color": "00FF00",
+                    "text": "STRESS"
+                  },
+                  {
+                    "min": 4,
+                    "max": 5.9,
+                    "color": "FFFF00",
+                    "text": "STRESS"
+                  },
+                  {
+                    "min": 6,
+                    "max": 7.9,
+                    "color": "FF9900",
+                    "text": "STRESS"
+                  },
+                  {
+                    "min": 8,
+                    "max": 10.9,
+                    "color": "FF0000",
+                    "text": "STRESS"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "tag_VTeteMotivationStade",
+            "type": "SCORE",
+            "hideNodeIfEmpty": true,
+            "ranges": [
+              {
+                "min": 1,
+                "max": 1.9,
+                "color": "00FF00",
+                "text": "MOTIV"
+              },
+              {
+                "min": 2,
+                "max": 2.9,
+                "color": "CCFF33",
+                "text": "MOTIV"
+              },
+              {
+                "min": 3,
+                "max": 3.9,
+                "color": "FFFF00",
+                "text": "MOTIV"
+              },
+              {
+                "min": 4,
+                "max": 4.9,
+                "color": "FF9900",
+                "text": "MOTIV"
+              },
+              {
+                "min": 5,
+                "max": 5.9,
+                "color": "FF0000",
+                "text": "MOTIV"
+              },
+              {
+                "min": 10,
+                "max": 10.9,
+                "color": "990000",
+                "text": "MOTIV"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "tag_VTeteMotivationEnvie",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 9,
+                    "max": 10.9,
+                    "color": "00FF00",
+                    "text": "ENVI"
+                  },
+                  {
+                    "min": 7,
+                    "max": 8.9,
+                    "color": "FFFF00",
+                    "text": "ENVI"
+                  },
+                  {
+                    "min": 5,
+                    "max": 6.9,
+                    "color": "FF9900",
+                    "text": "ENVI"
+                  },
+                  {
+                    "min": 0,
+                    "max": 4.9,
+                    "color": "FF0000",
+                    "text": "ENVI"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VTeteMotivationConfiance",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 9,
+                    "max": 10.9,
+                    "color": "00FF00",
+                    "text": "CONFI"
+                  },
+                  {
+                    "min": 7,
+                    "max": 8.9,
+                    "color": "FFFF00",
+                    "text": "CONFI"
+                  },
+                  {
+                    "min": 5,
+                    "max": 6.9,
+                    "color": "FF9900",
+                    "text": "CONFI"
+                  },
+                  {
+                    "min": 0,
+                    "max": 4.9,
+                    "color": "FF0000",
+                    "text": "CONFI"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VTeteMotivationPret",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 9,
+                    "max": 10.9,
+                    "color": "00FF00",
+                    "text": "PRÊT"
+                  },
+                  {
+                    "min": 7,
+                    "max": 8.9,
+                    "color": "FFFF00",
+                    "text": "PRÊT"
+                  },
+                  {
+                    "min": 5,
+                    "max": 6.9,
+                    "color": "FF9900",
+                    "text": "PRÊT"
+                  },
+                  {
+                    "min": 0,
+                    "max": 4.9,
+                    "color": "FF0000",
+                    "text": "PRÊT"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "tagOID": "tag_VTeteVisionSoiGlobale",
+            "type": "SCORE",
+            "hideNodeIfEmpty": true,
+            "ranges": [
+              {
+                "min": 1,
+                "max": 1.9,
+                "color": "00FF00",
+                "text": "SOI/VIS"
+              },
+              {
+                "min": 2,
+                "max": 2.9,
+                "color": "CCFF33",
+                "text": "SOI/VIS"
+              },
+              {
+                "min": 3,
+                "max": 3.9,
+                "color": "FFFF00",
+                "text": "SOI/VIS"
+              },
+              {
+                "min": 4,
+                "max": 4.9,
+                "color": "FF9900",
+                "text": "SOI/VIS"
+              },
+              {
+                "min": 5,
+                "max": 5.9,
+                "color": "FF0000",
+                "text": "SOI/VIS"
+              },
+              {
+                "min": 6,
+                "max": 6.9,
+                "color": "990000",
+                "text": "SOI/VIS"
+              }
+            ],
+            "children": [
+              {
+                "tagOID": "tag_VTeteImageCorporelle",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "00FF00",
+                    "text": "IM/CORP"
+                  },
+                  {
+                    "min": 10,
+                    "max": 10.9,
+                    "color": "CCFF33",
+                    "text": "IM/CORP"
+                  },
+                  {
+                    "min": 2,
+                    "max": 2.9,
+                    "color": "FFFF00",
+                    "text": "IM/CORP"
+                  },
+                  {
+                    "min": 3,
+                    "max": 3.9,
+                    "color": "FF9900",
+                    "text": "IM/CORP"
+                  },
+                  {
+                    "min": 4,
+                    "max": 4.9,
+                    "color": "FF0000",
+                    "text": "IM/CORP"
+                  },
+                  {
+                    "min": 5,
+                    "max": 5.9,
+                    "color": "990000",
+                    "text": "IM/CORP"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VTeteADSGlobale",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "00FF00",
+                    "text": "ADS"
+                  },
+                  {
+                    "min": 10,
+                    "max": 10.9,
+                    "color": "CCFF33",
+                    "text": "ADS"
+                  },
+                  {
+                    "min": 2,
+                    "max": 2.9,
+                    "color": "FFFF00",
+                    "text": "ADS"
+                  },
+                  {
+                    "min": 3,
+                    "max": 3.9,
+                    "color": "FF9900",
+                    "text": "ADS"
+                  },
+                  {
+                    "min": 4,
+                    "max": 4.9,
+                    "color": "FF0000",
+                    "text": "ADS"
+                  },
+                  {
+                    "min": 5,
+                    "max": 5.9,
+                    "color": "990000",
+                    "text": "ADS"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VTeteConfianceSoi",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 8,
+                    "max": 10.9,
+                    "color": "00FF00",
+                    "text": "SOI/CONF"
+                  },
+                  {
+                    "min": 6,
+                    "max": 7.9,
+                    "color": "FFFF00",
+                    "text": "SOI/CONF"
+                  },
+                  {
+                    "min": 4,
+                    "max": 5.9,
+                    "color": "FF9900",
+                    "text": "SOI/CONF"
+                  },
+                  {
+                    "min": 0,
+                    "max": 3.9,
+                    "color": "FF0000",
+                    "text": "SOI/CONF"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "tag_VTeteEstimeSoi",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 1,
+                    "max": 1.9,
+                    "color": "00FF00",
+                    "text": "SOI/EST"
+                  },
+                  {
+                    "min": 2,
+                    "max": 2.9,
+                    "color": "CCFF33",
+                    "text": "SOI/EST"
+                  },
+                  {
+                    "min": 3,
+                    "max": 3.9,
+                    "color": "FFFF00",
+                    "text": "SOI/EST"
+                  },
+                  {
+                    "min": 4,
+                    "max": 4.9,
+                    "color": "FF9900",
+                    "text": "SOI/EST"
+                  },
+                  {
+                    "min": 5,
+                    "max": 5.9,
+                    "color": "FF0000",
+                    "text": "SOI/EST"
+                  },
+                  {
+                    "min": 6,
+                    "max": 6.9,
+                    "color": "990000",
+                    "text": "SOI/EST"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

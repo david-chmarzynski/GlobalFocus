@@ -1,0 +1,12 @@
+{
+  "oid": "q_q1_pneumologie_005",
+  "title": "A quelle date vous a-t-on diagnostiqué votre bronchite chronique ?",
+  "text": "A quelle date vous a-t-on diagnostiqué votre bronchite chronique ?",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 1900,
+    "max": 2022,
+    "step": 1
+  },
+  "scores": []
+}

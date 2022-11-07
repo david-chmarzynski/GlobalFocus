@@ -1,0 +1,40 @@
+{
+  "oid": "q_VToxiquePersoCuisine",
+  "title": "Dans votre foyer, utilisez-vous des poêles antiadhésives, des récipients en plastique (boites, bouteilles) pour conserver les aliments ou pour les réchauffer au micro-onde, des gobelets en plastique pour boire des boissons chaudes ?",
+  "text": "Dans votre foyer, utilisez-vous des poêles antiadhésives, des récipients en plastique (boites, bouteilles) pour conserver les aliments ou pour les réchauffer au micro-onde, des gobelets en plastique pour boire des boissons chaudes ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices":[
+    {"code": "0", "text": "Jamais"},
+    {"code": "1", "text": "Rarement"},
+    {"code": "2", "text": "Assez fréquemment"},
+    {"code": "3", "text": "Fréquemment"},
+    {"code": "4", "text": "Très fréquemment"}
+  ],
+  "scores":[
+    {
+      "tagOID": "Tag_VToxiquePersoCuisine",
+      "conditions": "q_VToxiquePersoCuisine == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "Tag_VToxiquePersoCuisine",
+      "conditions": "q_VToxiquePersoCuisine == '1'",
+      "value": 1
+    },
+    {
+      "tagOID": "Tag_VToxiquePersoCuisine",
+      "conditions": "q_VToxiquePersoCuisine == '2'",
+      "value": 2
+    },
+    {
+      "tagOID": "Tag_VToxiquePersoCuisine",
+      "conditions": "q_VToxiquePersoCuisine == '3'",
+      "value": 3
+    },
+    {
+      "tagOID": "Tag_VToxiquePersoCuisine",
+      "conditions": "q_VToxiquePersoCuisine == '4'",
+      "value": 4
+    }
+  ]
+}

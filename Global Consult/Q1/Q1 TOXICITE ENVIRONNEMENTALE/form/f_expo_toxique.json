@@ -1,0 +1,386 @@
+{
+  "oid": "f_expo_toxique",
+  "title": "Global Consult Q1 module exposition toxique",
+  "estimatedTime": 5,
+  "pricing": 10,
+  "description": "Exposition Toxique",
+  "levelMax": "1",
+  "authors": [
+    "Jean-Philippe Astruc"
+  ],
+  "chapters": [
+    "chap_VToxique"
+  ],
+  "professions": [
+    "DENTIST"
+  ],
+  "diagnostics": [
+    {
+      "oid": "diag_VToxiquePersoAlcoolFace",
+      "conditions" :
+      {
+          "green": "Tag_VToxiquePersoAlcoolFace <= 4",
+          "orange": "Tag_VToxiquePersoAlcoolFace > 4 && Tag_VToxiquePersoAlcoolFace <= 8",
+          "red": "Tag_VToxiquePersoAlcoolFace > 8"
+      }
+    }
+  ],
+  "formReport": {
+    "reports": {
+      "custom": ""
+    },
+    "reportDiagnostics": []
+  },
+  "reportingTrees": [
+    {
+      "category": "LIFE_STYLE",
+      "scoreStrategy": "SUM",
+      "reportingNode": {
+        "tagOID": "Tag_VToxiqueGlobal",
+        "type": "SCORE",
+        "hideNodeIfEmpty": true,
+        "ranges": [
+            { "min": 0, "max": 0, "color": "00FF00", "text": "GLOBAL" },
+            { "min": 1, "max": 1, "color": "FFFF00", "text": "GLOBAL" },
+            { "min": 2, "max": 2, "color": "FF9900", "text": "GLOBAL" },
+            { "min": 3, "max": 3, "color": "FF0000", "text": "GLOBAL" },
+            { "min": 4, "max": 4, "color": "990000", "text": "GLOBAL" }
+        ],
+        "children":[
+          {
+            "tagOID": "Tag_VToxiqueW",
+            "type": "SCORE",
+            "hideNodeIfEmpty": true,
+            "ranges": [
+                { "min": 0, "max": 0, "color": "00FF00", "text": "TRAVAIL" },
+                { "min": 1, "max": 1, "color": "FFFF00", "text": "TRAVAIL" },
+                { "min": 2, "max": 2, "color": "FF9900", "text": "TRAVAIL" },
+                { "min": 3, "max": 3, "color": "FF0000", "text": "TRAVAIL" },
+                { "min": 4, "max": 4, "color": "990000", "text": "TRAVAIL" }
+            ],
+            "children":[
+              {
+                "tagOID": "Tag_VToxiqueWAir",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "AIR" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "AIR" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "AIR" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "AIR" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "AIR" }
+                ]
+              },
+              {
+                "tagOID": "Tag_VToxiqueWProduits",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "CHIMIE" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "CHIMIE" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "CHIMIE" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "CHIMIE" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "CHIMIE" }
+                ]
+              },
+              {
+                "tagOID": "Tag_VToxiqueWRisques",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "INFEC-RADI" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "INFEC-RADI" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "INFEC-RADI" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "INFEC-RADI" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "INFEC-RADI" }
+                ]
+              },
+              {
+                "tagOID": "Tag_VToxiqueWTemp",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "W/BRUI" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "W/BRUI" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "W/BRUI" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "W/BRUI" },
+                    { "min": 3, "max": 3, "color": "990000", "text": "W/BRUI" }
+                ]
+              }
+            ]
+          },
+          {
+            "tagOID": "Tag_VToxiqueExt",
+            "type": "SCORE",
+            "hideNodeIfEmpty": true,
+            "ranges": [
+                { "min": 0, "max": 0, "color": "00FF00", "text": "TOXIQ" },
+                { "min": 1, "max": 1, "color": "FFFF00", "text": "TOXIQ" },
+                { "min": 2, "max": 2, "color": "FF9900", "text": "TOXIQ" },
+                { "min": 3, "max": 3, "color": "FF0000", "text": "TOXIQ" },
+                { "min": 4, "max": 4, "color": "990000", "text": "TOXIQ" }
+            ],
+            "children":[
+              {
+                "tagOID": "Tag_VToxiqueExtBruit",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "EXT/BRUIT" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "EXT/BRUIT" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "EXT/BRUIT" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "EXT/BRUIT" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "EXT/BRUIT" }
+                ]
+              },
+              {
+                "tagOID": "Tag_VToxiqueExtAir",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "EXT/AIR" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "EXT/AIR" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "EXT/AIR" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "EXT/AIR" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "EXT/AIR" }
+                ]
+              }
+            ]
+          },
+          {
+            "tagOID": "Tag_VToxiqueLogement",
+            "type": "SCORE",
+            "hideNodeIfEmpty": true,
+            "ranges": [
+                { "min": 0, "max": 0, "color": "00FF00", "text": "POLL-LOG" },
+                { "min": 1, "max": 1, "color": "FFFF00", "text": "POLL-LOG" },
+                { "min": 2, "max": 2, "color": "FF9900", "text": "POLL-LOG" },
+                { "min": 3, "max": 3, "color": "FF0000", "text": "POLL-LOG" },
+                { "min": 4, "max": 4, "color": "990000", "text": "POLL-LOG" }
+            ],
+            "children":[
+              {
+                "tagOID": "Tag_VToxiqueIntAir",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "L/AIR" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "L/AIR" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "L/AIR" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "L/AIR" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "L/AIR" }
+                ]
+              },
+              {
+                "tagOID": "Tag_VToxiqueIntAeration",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "L/AERA" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "L/AERA" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "L/AERA" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "L/AERA" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "L/AERA" }
+                ]
+              },
+              {
+                "tagOID": "Tag_VToxiqueIntMobilier",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "L/MOB" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "L/MOB" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "L/MOB" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "L/MOB" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "L/MOB" }
+                ]
+              },
+              {
+                "tagOID": "Tag_VToxiqueIntEntretien",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "L/MENAG" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "L/MENAG" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "L/MENAG" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "L/MENAG" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "L/MENAG" }
+                ]
+              },
+              {
+                "tagOID": "Tag_VToxiqueIntChimique",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "L/CHIM" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "L/CHIM" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "L/CHIM" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "L/CHIM" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "L/CHIM" }
+                ]
+              }
+            ]
+          },
+          {
+            "tagOID": "Tag_VToxiquePerso",
+            "type": "SCORE",
+            "hideNodeIfEmpty": true,
+            "ranges": [
+                { "min": 0, "max": 0, "color": "00FF00", "text": "TOX-PERS" },
+                { "min": 1, "max": 1, "color": "FFFF00", "text": "TOX-PERS" },
+                { "min": 2, "max": 2, "color": "FF9900", "text": "TOX-PERS" },
+                { "min": 3, "max": 3, "color": "FF0000", "text": "TOX-PERS" },
+                { "min": 4, "max": 4, "color": "990000", "text": "TOX-PERS" }
+            ],
+            "children":[
+              {
+                "tagOID": "Tag_VToxiquePersoHygiene",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "P/HYG" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "P/HYG" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "P/HYG" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "P/HYG" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "P/HYG" }
+                ]
+              },
+              {
+                "tagOID": "Tag_VToxiquePersoAlimentation",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "P/ALIM" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "P/ALIM" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "P/ALIM" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "P/ALIM" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "P/ALIM" }
+                ],
+                "children":[
+                  {
+                    "tagOID": "Tag_VToxiquePersoCuisine",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                        { "min": 0, "max": 0, "color": "00FF00", "text": "A/PLAST" },
+                        { "min": 1, "max": 1, "color": "FFFF00", "text": "A/PLAST" },
+                        { "min": 2, "max": 2, "color": "FF9900", "text": "A/PLAST" },
+                        { "min": 3, "max": 3, "color": "FF0000", "text": "A/PLAST" },
+                        { "min": 4, "max": 4, "color": "990000", "text": "A/PLAST" }
+                    ]
+                  },
+                  {
+                    "tagOID": "Tag_VToxiquePersoCuisson",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                        { "min": 0, "max": 0, "color": "00FF00", "text": "A/CUISS" },
+                        { "min": 1, "max": 1, "color": "FFFF00", "text": "A/CUISS" },
+                        { "min": 2, "max": 2, "color": "FF9900", "text": "A/CUISS" },
+                        { "min": 3, "max": 3, "color": "FF0000", "text": "A/CUISS" },
+                        { "min": 4, "max": 4, "color": "990000", "text": "A/CUISS" }
+                    ]
+                  },
+                  {
+                    "tagOID": "Tag_VToxiquePersoAliments",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                        { "min": 0, "max": 0, "color": "00FF00", "text": "A/NOUR" },
+                        { "min": 1, "max": 1, "color": "FFFF00", "text": "A/NOUR" },
+                        { "min": 2, "max": 2, "color": "FF9900", "text": "A/NOUR" },
+                        { "min": 3, "max": 3, "color": "FF0000", "text": "A/NOUR" },
+                        { "min": 4, "max": 4, "color": "990000", "text": "A/NOUR" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tagOID": "Tag_VToxiquePersoDrogues",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "P/DROG" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "P/DROG" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "P/DROG" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "P/DROG" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "P/DROG" }
+                ]
+              },
+              {
+                "tagOID": "Tag_VToxiquePersoAlcool",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "P/OL" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "P/OL" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "P/OL" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "P/OL" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "P/OL" }
+                ],
+                "children":[
+                  {
+                    "tagOID": "Tag_VToxiquePersoAlcoolFace",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                        { "min": 0, "max": 3, "color": "00FF00", "text": "OL/FACE" },
+                        { "min": 4, "max": 8, "color": "FFFF00", "text": "OL/FACE" },
+                        { "min": 9, "max": 50, "color": "FF0000", "text": "OL/FACE" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tagOID": "Tag_VToxiqueTabac",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "TABAC" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "TABAC" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "TABAC" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "TABAC" }
+                ],
+                "children":[
+                  {
+                    "tagOID": "Tag_VToxiquePersoTabacPA1",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                      { "min": 0, "max": 0, "color": "00FF00", "text": "PA" },
+                      { "min": 1, "max": 1, "color": "FFFF00", "text": "PA" },
+                      { "min": 2, "max": 2, "color": "FF9900", "text": "PA" },
+                      { "min": 3, "max": 3, "color": "FF0000", "text": "PA" }
+                    ]
+                  },
+                  {
+                    "tagOID": "Tag_VToxiquePersoTabacHSI",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                      { "min": 0, "max": 0, "color": "FFFF00", "text": "HSI" },
+                      { "min": 1, "max": 1, "color": "FF9900", "text": "HSI" },
+                      { "min": 2, "max": 2, "color": "FF0000", "text": "HSI" }
+                    ]
+                  },
+                  {
+                    "tagOID": "Tag_VToxiquePersoTabacPassif",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                      { "min": 0, "max": 0, "color": "00FF00", "text": "PASSIF" },
+                      { "min": 1, "max": 1, "color": "FFFF00", "text": "PASSIF" },
+                      { "min": 2, "max": 2, "color": "FF9900", "text": "PASSIF" },
+                      { "min": 3, "max": 3, "color": "FF0000", "text": "PASSIF" },
+                      { "min": 4, "max": 4, "color": "990000", "text": "PASSIF" }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

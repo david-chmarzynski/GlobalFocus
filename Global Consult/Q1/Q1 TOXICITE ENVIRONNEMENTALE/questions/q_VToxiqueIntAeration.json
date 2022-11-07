@@ -1,0 +1,40 @@
+{
+  "oid": "q_VToxiqueIntAeration",
+  "title": "À quelle fréquence aérez-vous votre logement pendant au moins 10 minutes ?",
+  "text": "À quelle fréquence aérez-vous votre logement pendant au moins 10 minutes ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices":[
+    {"code": "0", "text": "2 fois par jour en moyenne (ou plus)"},
+    {"code": "1", "text": "1 fois par jour en moyenne"},
+    {"code": "2", "text": "3 à 5 fois par semaine en moyenne"},
+    {"code": "3", "text": "1 à 2 fois par semaine en moyenne"},
+    {"code": "4", "text": "Jamais ou presque"}
+  ],
+  "scores":[
+    {
+      "tagOID": "Tag_VToxiqueIntAeration",
+      "conditions": "q_VToxiqueIntAeration == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "Tag_VToxiqueIntAeration",
+      "conditions": "q_VToxiqueIntAeration == '1'",
+      "value": 1
+    },
+    {
+      "tagOID": "Tag_VToxiqueIntAeration",
+      "conditions": "q_VToxiqueIntAeration == '2'",
+      "value": 2
+    },
+    {
+      "tagOID": "Tag_VToxiqueIntAeration",
+      "conditions": "q_VToxiqueIntAeration == '3'",
+      "value": 3
+    },
+    {
+      "tagOID": "Tag_VToxiqueIntAeration",
+      "conditions": "q_VToxiqueIntAeration == '4'",
+      "value": 4
+    }
+  ]
+}

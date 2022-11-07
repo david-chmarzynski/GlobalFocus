@@ -1,4 +1,4 @@
-{
+```{
   "oid": "q_q1_rhumatologie_047",
   "title": "Vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies ? (plusieurs réponses possibles)",
   "text": "Vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies ? (plusieurs réponses possibles)",
@@ -121,4 +121,4 @@
       "value": 1
     }
   ]
-}
+}```

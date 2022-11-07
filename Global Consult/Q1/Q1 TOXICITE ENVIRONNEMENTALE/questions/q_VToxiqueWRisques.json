@@ -1,0 +1,40 @@
+{
+  "oid": "q_VToxiqueWRisques",
+  "title": "Êtes-vous exposé(e) dans votre environnement de travail à un risque infectieux (microbes, virus, parasites), un contact avec des animaux vivants ou morts, des radiations (rayons X ou gamma) et/ou des UV d’origine artificielle ?",
+  "text": "Êtes-vous exposé(e) dans votre environnement de travail à un risque infectieux (microbes, virus, parasites), un contact avec des animaux vivants ou morts, des radiations (rayons X ou gamma) et/ou des UV d’origine artificielle ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices":[
+    {"code": "0", "text": "Exposition nulle ou très faible"},
+    {"code": "1", "text": "Exposition modérée"},
+    {"code": "2", "text": "Exposition moyenne"},
+    {"code": "3", "text": "Exposition forte"},
+    {"code": "4", "text": "Exposition très forte"}
+  ],
+  "scores":[
+    {
+      "tagOID": "Tag_VToxiqueWRisques",
+      "conditions": "q_VToxiqueWRisques == '0'",
+      "value": 0
+    },
+    {
+      "tagOID": "Tag_VToxiqueWRisques",
+      "conditions": "q_VToxiqueWRisques == '1'",
+      "value": 1
+    },
+    {
+      "tagOID": "Tag_VToxiqueWRisques",
+      "conditions": "q_VToxiqueWRisques == '2'",
+      "value": 2
+    },
+    {
+      "tagOID": "Tag_VToxiqueWRisques",
+      "conditions": "q_VToxiqueWRisques == '3'",
+      "value": 3
+    },
+    {
+      "tagOID": "Tag_VToxiqueWRisques",
+      "conditions": "q_VToxiqueWRisques == '4'",
+      "value": 4
+    }
+  ]
+}

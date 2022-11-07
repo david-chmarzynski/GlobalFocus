@@ -33,18 +33,24 @@
           {
             "min": 1,
             "max": 1.9,
-            "color": "FFFF00",
+            "color": "CCFF33",
             "text": "SATISF/VIE"
           },
           {
             "min": 2,
             "max": 2.9,
-            "color": "FF9900",
+            "color": "FFFF00",
             "text": "SATISF/VIE"
           },
           {
             "min": 3,
             "max": 3.9,
+            "color": "FF9900",
+            "text": "SATISF/VIE"
+          },
+          {
+            "min": 4,
+            "max": 4.9,
             "color": "FF0000",
             "text": "SATISF/VIE"
           }
@@ -64,18 +70,24 @@
               {
                 "min": 1,
                 "max": 1.9,
-                "color": "FFFF00",
+                "color": "CCFF33",
                 "text": "VÉCU/W"
               },
               {
                 "min": 2,
                 "max": 2.9,
-                "color": "FF9900",
+                "color": "FFFF00",
                 "text": "VÉCU/W"
               },
               {
                 "min": 3,
                 "max": 3.9,
+                "color": "FF9900",
+                "text": "VÉCU/W"
+              },
+              {
+                "min": 4,
+                "max": 4.9,
                 "color": "FF0000",
                 "text": "VÉCU/W"
               }
@@ -95,18 +107,24 @@
                   {
                     "min": 1,
                     "max": 1.9,
-                    "color": "FFFF00",
+                    "color": "CCFF33",
                     "text": "ORG/W"
                   },
                   {
                     "min": 2,
                     "max": 2.9,
-                    "color": "FF9900",
+                    "color": "FFFF00",
                     "text": "ORG/W"
                   },
                   {
                     "min": 3,
                     "max": 3.9,
+                    "color": "FF9900",
+                    "text": "ORG/W"
+                  },
+                  {
+                    "min": 4,
+                    "max": 4.9,
                     "color": "FF0000",
                     "text": "ORG/W"
                   }
@@ -127,18 +145,24 @@
                   {
                     "min": 1,
                     "max": 1.9,
-                    "color": "FFFF00",
+                    "color": "CCFF33",
                     "text": "HUM/W"
                   },
                   {
                     "min": 2,
                     "max": 2.9,
-                    "color": "FF9900",
+                    "color": "FFFF00",
                     "text": "HUM/W"
                   },
                   {
                     "min": 3,
                     "max": 3.9,
+                    "color": "FF9900",
+                    "text": "HUM/W"
+                  },
+                  {
+                    "min": 4,
+                    "max": 4.9,
                     "color": "FF0000",
                     "text": "HUM/W"
                   }
@@ -193,18 +217,24 @@
               {
                 "min": 1,
                 "max": 1.9,
-                "color": "FFFF00",
+                "color": "CCFF33",
                 "text": "QDVGLOB"
               },
               {
                 "min": 2,
                 "max": 2.9,
-                "color": "FF9900",
+                "color": "FFFF00",
                 "text": "QDVGLOB"
               },
               {
                 "min": 3,
                 "max": 3.9,
+                "color": "FF9900",
+                "text": "QDVGLOB"
+              },
+              {
+                "min": 4,
+                "max": 4.9,
                 "color": "FF0000",
                 "text": "QDVGLOB"
               }
@@ -271,6 +301,12 @@
                     "max": 3.9,
                     "color": "FF0000",
                     "text": "QDV/EMOT"
+                  },
+                  {
+                    "min": 4,
+                    "max": 4.9,
+                    "color": "990000",
+                    "text": "QDV/EMOT"
                   }
                 ],
                 "children": []
@@ -316,25 +352,31 @@
                     "min": 0,
                     "max": 0.9,
                     "color": "00FF00",
-                    "text": "QDV/COGN"
+                    "text": "COGNITIF"
                   },
                   {
                     "min": 1,
                     "max": 1.9,
                     "color": "FFFF00",
-                    "text": "QDV/COGN"
+                    "text": "COGNITIF"
                   },
                   {
                     "min": 2,
                     "max": 2.9,
                     "color": "FF9900",
-                    "text": "QDV/COGN"
+                    "text": "COGNITIF"
                   },
                   {
                     "min": 3,
                     "max": 3.9,
                     "color": "FF0000",
-                    "text": "QDV/COGN"
+                    "text": "COGNITIF"
+                  },
+                  {
+                    "min": 4,
+                    "max": 4.9,
+                    "color": "990000",
+                    "text": "COGNITIF"
                   }
                 ],
                 "children": []
@@ -367,6 +409,12 @@
                     "max": 3.9,
                     "color": "FF0000",
                     "text": "QDV/MOB"
+                  },
+                  {
+                    "min": 4,
+                    "max": 4.9,
+                    "color": "990000",
+                    "text": "QDV/MOB"
                   }
                 ],
                 "children": []
@@ -398,6 +446,12 @@
                     "min": 3,
                     "max": 3.9,
                     "color": "FF0000",
+                    "text": "QDV/AUTO"
+                  },
+                  {
+                    "min": 4,
+                    "max": 4.9,
+                    "color": "990000",
                     "text": "QDV/AUTO"
                   }
                 ],
@@ -465,6 +519,12 @@
                 "max": 3.9,
                 "color": "FF0000",
                 "text": "FAM"
+              },
+              {
+                "min": 4,
+                "max": 4.9,
+                "color": "990000",
+                "text": "FAM"
               }
             ],
             "children": [
@@ -527,6 +587,12 @@
                     "min": 3,
                     "max": 3.9,
                     "color": "FF0000",
+                    "text": "FAM/HUM"
+                  },
+                  {
+                    "min": 4,
+                    "max": 4.9,
+                    "color": "990000",
                     "text": "FAM/HUM"
                   }
                 ],

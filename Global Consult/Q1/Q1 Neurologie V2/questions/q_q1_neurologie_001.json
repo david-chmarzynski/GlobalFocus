@@ -1,7 +1,7 @@
 {
   "oid": "q_q1_neurologie_001",
-  "title": "Vous a-t-on déjà diagnostiqué une de ces pathologies et/ou vous a-t-on déjà opéré ? (plusieurs réponses possibles)",
-  "text": "Vous a-t-on déjà diagnostiqué une de ces pathologies et/ou vous a-t-on déjà opéré ? (plusieurs réponses possibles)",
+  "title": "Vous a-t-on déjà diagnostiqué une de ces pathologies et/ou vous a-t-on déjà opéré ? (Plusieurs réponses possibles)",
+  "text": "Vous a-t-on déjà diagnostiqué une de ces pathologies et/ou vous a-t-on déjà opéré ? (Plusieurs réponses possibles)",
   "type": "MULTI_CHOICES",
   "choices": [
     {

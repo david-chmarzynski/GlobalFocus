@@ -1,0 +1,70 @@
+{
+  "oid": "q_VAlimentationAtcd",
+  "title": "Avez-vous déjà eu un ou plusieurs de ces antécédents au cours de votre vie ? (plusieurs réponses possibles)",
+  "text": "Avez-vous déjà eu un ou plusieurs de ces antécédents au cours de votre vie ? (plusieurs réponses possibles)",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Troubles des conduites alimentaires (anorexie, accès hyperphagique, boulimie...)"
+    },
+    {
+      "code": "1",
+      "text": "Intervention bariatrique  (ballon, anneau gastrique, sleeve, by-pass…)"
+    },
+    {
+      "code": "2",
+      "text": "Intervention esthétique en lien avec un excès de graisse corporelle (lipoaspiration, lifting, abdomino-plastie…)"
+    },
+    {
+      "code": "3",
+      "text": "Obésité (IMC > 30)"
+    },
+    {
+      "code": "4",
+      "text": "Régimes pour perdre du poids"
+    },
+    {
+      "code": "5",
+      "text": "Aucun de ces antécédents",
+      "exclusive":true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"0\" in q_VAlimentationAtcd",
+      "tagOID": "tag_VAlimentationAtcd1",
+      "value": 1
+    },
+    {
+      "conditions": "\"1\" in q_VAlimentationAtcd",
+      "tagOID": "tag_VAlimentationAtcd2",
+      "value": 1
+    },
+    {
+      "conditions": "\"2\" in q_VAlimentationAtcd",
+      "tagOID": "tag_VAlimentationAtcd3",
+      "value": 1
+    },
+    {
+      "conditions": "\"3\" in q_VAlimentationAtcd",
+      "tagOID": "tag_VAlimentationAtcd4",
+      "value": 1
+    },
+    {
+      "conditions": "\"4\" in q_VAlimentationAtcd",
+      "tagOID": "tag_VAlimentationAtcd5",
+      "value": 1
+    },
+    {
+      "conditions": "(\"5\" in q_VAlimentationAtcd)",
+      "tagOID": "tag_VAlimentationAtcd",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"5\" in q_VAlimentationAtcd)",
+      "tagOID": "tag_VAlimentationAtcd",
+      "value": 1
+    }
+  ]
+}

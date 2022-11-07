@@ -13,6 +13,10 @@
       "text": "Pontage"
     },
     {
+      "code": "Prothèse artérielle",
+      "text": "Prothèse artérielle"
+    },
+    {
       "code": "aucun",
       "text": "Aucune intervention chirurgicale",
       "exclusive": true
@@ -37,6 +41,16 @@
     {
       "conditions": "!(\"Pontage\" in q_q1_cardiologie_017)",
       "tagOID": "S_CV_ATCD_INFARCTUS_TI_PONTAGE",
+      "value": 0
+    },
+    {
+      "conditions": "\"Prothèse artérielle\" in q_q1_cardiologie_017",
+      "tagOID": "S_CV_ATCD_INFARCTUS_TI_PROTHESEART",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"Pontage\" in q_q1_cardiologie_017)",
+      "tagOID": "S_CV_ATCD_INFARCTUS_TI_PROTHESEART",
       "value": 0
     },
     {

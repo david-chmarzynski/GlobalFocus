@@ -16,7 +16,7 @@
     },
     {
       "code": "3",
-      "text": "Période d’activité génitale sans cycle : vous n’avez plus de règles mais vous n’êtes pas encore ménopausée (traitement médical, contraception, hystérectomie, pré-ménopause)",
+      "text": "Période d’activité génitale sans cycle : vous n’avez plus de règles mais vous n’êtes pas encore ménopausée (traitement médical, contraception, hystérectomie)",
       "exclusive": true
     },
     {
@@ -31,12 +31,12 @@
     },
     {
       "code": "6",
-      "text": "Ménopause avec traitement hormonal substitutif (THS) sans règles :  vous n’avez plus de règles depuis plus d’un an et vous prenez un THS sans règles",
+      "text": "Ménopause avec traitement hormonal substitutif (THS) sans règles : vous n’aviez plus de règles depuis plus d’un an et vous prenez un THS",
       "exclusive": true
     },
     {
       "code": "7",
-      "text": "Ménopause avec traitement hormonal substitutif (THS) et conservation des règles :  vous êtes ménopausée et vous prenez un THS qui reproduit des cycles avec règles.",
+      "text": "Ménopause avec traitement hormonal substitutif (THS) et conservation des règles : vous êtes ménopausée et vous prenez un THS qui reproduit des cycles avec règles.",
       "exclusive": true
     }
   ],

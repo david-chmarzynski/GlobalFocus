@@ -1,0 +1,124 @@
+{
+  "oid": "q_q1_rhumatologie_047",
+  "title": "Vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies ? (plusieurs réponses possibles)",
+  "text": "Vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies ? (plusieurs réponses possibles)",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "Ostéopénie",
+      "text": "Ostéopénie"
+    },
+    {
+      "code": "Ostéoporose",
+      "text": "Ostéoporose"
+    },
+    {
+      "code": "Arthrose",
+      "text": "Arthrose"
+    },
+    {
+      "code": "Goutte",
+      "text": "Goutte"
+    },
+    {
+      "code": "Chondro-calcinose articulaire",
+      "text": "Chondrocalcinose articulaire"
+    },
+    {
+      "code": "Périarthrite scapulo-humérale",
+      "text": "Périarthrite scapulo-humérale"
+    },
+    {
+      "code": "Capsulite de l’épaule",
+      "text": "Capsulite de l’épaule"
+    },
+    {
+      "code": "Myélome",
+      "text": "Myélome"
+    },
+    {
+      "code": "Ostéite (infection osseuse)",
+      "text": "Ostéite (infection osseuse)"
+    },
+    {
+      "code": "Cancer primitif osseux (ostéosarcome, chondrosarcoma…)",
+      "text": "Cancer primitif osseux (ostéosarcome, chondrosarcome…)"
+    },
+    {
+      "code": "Métastase(s) osseuse(s)",
+      "text": "Métastase(s) osseuse(s)"
+    },
+    {
+      "code": "aucun",
+      "text": "Aucune de ces pathologies",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"Ostéopénie\" in q_q1_rhumatologie_047",
+      "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_OSTEOPENIE",
+      "value": 1
+    },
+    {
+      "conditions": "\"Ostéoporose\" in q_q1_rhumatologie_047",
+      "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_OSTEOPOROSE",
+      "value": 1
+    },
+    {
+      "conditions": "\"Arthrose\" in q_q1_rhumatologie_047",
+      "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_ARTHROSE",
+      "value": 1
+    },
+    {
+      "conditions": "\"Goutte\" in q_q1_rhumatologie_047",
+      "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_GOUTTE",
+      "value": 1
+    },
+    {
+      "conditions": "\"Chondro-calcinose articulaire\" in q_q1_rhumatologie_047",
+      "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_CHONDROCALCINOSE",
+      "value": 1
+    },
+    {
+      "conditions": "\"Périarthrite scapulo-humérale\" in q_q1_rhumatologie_047",
+      "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_PASH",
+      "value": 1
+    },
+    {
+      "conditions": "\"Capsulite de l’épaule\" in q_q1_rhumatologie_047",
+      "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_CAPS",
+      "value": 1
+    },
+    {
+      "conditions": "\"Myélome\" in q_q1_rhumatologie_047",
+      "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_MYELOME",
+      "value": 1
+    },
+    {
+      "conditions": "\"Ostéite (infection osseuse)\" in q_q1_rhumatologie_047",
+      "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_OSTEITE",
+      "value": 1
+    },
+    {
+      "conditions": "\"Cancer primitif osseux (ostéosarcome, chondrosarcoma…)\" in q_q1_rhumatologie_047",
+      "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_CANCER",
+      "value": 1
+    },
+    {
+      "conditions": "\"Métastase(s) osseuse(s)\" in q_q1_rhumatologie_047",
+      "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_METASTASE",
+      "value": 1
+    },
+    {
+      "conditions": "\"aucun\" in q_q1_rhumatologie_047",
+      "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_AUCUN",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_q1_rhumatologie_047)",
+      "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_AUCUN",
+      "value": 1
+    }
+  ]
+}

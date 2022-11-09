@@ -1,0 +1,893 @@
+{
+  "oid": "q1_rhumatologie",
+  "title": "Q1 Global Focus Rhumatologie",
+  "questions": [
+    {
+      "question": "q_q1_rhumatologie_000",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q1_rhumatologie_001",
+      "level": 1,
+      "isGlobal": false
+    },
+    {
+      "question": "q_q1_rhumatologie_002",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"Chirurgie de l’appareil locomoteur (vertèbres, membres supérieurs et/ou inférieurs)\" in q_q1_rhumatologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_001": 0
+        }
+      }
+
+    },
+    {
+      "question": "q_q1_rhumatologie_003",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"Intervention(s) du rachis (vertèbres, disques)\" in q_q1_rhumatologie_002)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_002": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_004",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Autre(s) chirurgie(s) du rachis\" in q_q1_rhumatologie_003)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_003": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_005",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Hernie discale cervicale\" in q_q1_rhumatologie_003)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_003": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_006",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Arthrodèse cervicale\" in q_q1_rhumatologie_003)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_003": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_007",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Fracture de vertèbre(s) cervicale(s)\" in q_q1_rhumatologie_003)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_003": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_008",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Fracture de vertèbre(s) dorsale(s)\" in q_q1_rhumatologie_003)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_003": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_009",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Arthrodèse dorso-lombaire\" in q_q1_rhumatologie_003)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_003": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_010",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Arthrodèse lombaire\" in q_q1_rhumatologie_003)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_003": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_011",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Hernie discale lombaire\" in q_q1_rhumatologie_003)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_003": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_012",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Fracture de vertèbre(s) lombaire(s)\" in q_q1_rhumatologie_003)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_003": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_013",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Autre(s) chirurgie(s) du rachis\" in q_q1_rhumatologie_003)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_003": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_014",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"Intervention(s) membres supérieurs\" in q_q1_rhumatologie_002)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_002": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_015",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+          "conditions": "!(\"Autre(s) chirurgie(s) des membres supérieurs\" in q_q1_rhumatologie_014)",
+          "scope": "MODULE_SCOPE",
+          "defaultValues": {
+            "q_q1_rhumatologie_014": 0
+          }
+        }
+    },
+    {
+      "question": "q_q1_rhumatologie_016",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Fracture épaule droite\" in q_q1_rhumatologie_014)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_014": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_017",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Fracture épaule gauche\" in q_q1_rhumatologie_014)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_014": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_018",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Coiffe des rotateurs à droite\" in q_q1_rhumatologie_014)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_014": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_019",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Coiffe des rotateurs à gauche\" in q_q1_rhumatologie_014)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_014": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_020",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Coiffe des rotateurs à gauche\" in q_q1_rhumatologie_014)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_014": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_021",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Fracture coude gauche\" in q_q1_rhumatologie_014)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_014": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_022",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Fracture poignet droit\" in q_q1_rhumatologie_014)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_014": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_023",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Fracture poignet gauche\" in q_q1_rhumatologie_014)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_014": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_024",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Fracture main droite\" in q_q1_rhumatologie_014)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_014": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_025",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Fracture main gauche\" in q_q1_rhumatologie_014)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_014": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_026",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Chirurgie arthrose du pouce droit\" in q_q1_rhumatologie_014)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_014": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_027",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Chirurgie arthrose du pouce gauche\" in q_q1_rhumatologie_014)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_014": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_028",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Autre(s) chirurgie(s) des membres supérieurs\" in q_q1_rhumatologie_014)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_014": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_029",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"Intervention(s) membres inférieurs\" in q_q1_rhumatologie_002)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_002": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_030",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Autre(s) chirurgie(s) des membres inférieurs\" in q_q1_rhumatologie_029)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_029": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_031",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Fracture du bassin\" in q_q1_rhumatologie_029)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_029": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_032",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Fracture de hanche droite\" in q_q1_rhumatologie_029)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_029": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_033",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Fracture de hanche gauche\" in q_q1_rhumatologie_029)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_029": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_034",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Prothèse de hanche droite\" in q_q1_rhumatologie_029)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_029": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_035",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Prothèse de hanche gauche\" in q_q1_rhumatologie_029)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_029": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_036",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Prothèse de genou droit\" in q_q1_rhumatologie_029)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_029": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_037",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Prothèse de genou gauche\" in q_q1_rhumatologie_029)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_029": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_038",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Ligament croisé antérieur du genou droit\" in q_q1_rhumatologie_029)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_029": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_039",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Ligament croisé antérieur du genou gauche\" in q_q1_rhumatologie_029)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_029": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_040",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Ménisque(s) du genou droit\" in q_q1_rhumatologie_029)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_029": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_041",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Ménisque(s) du genou gauche\" in q_q1_rhumatologie_029)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_029": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_042",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Fracture de cheville droite\" in q_q1_rhumatologie_029)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_029": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_043",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Fracture de cheville gauche\" in q_q1_rhumatologie_029)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_029": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_044",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Hallux valgus du pied droit\" in q_q1_rhumatologie_029)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_029": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_045",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Hallux valgus du pied gauche\" in q_q1_rhumatologie_029)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_029": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_046",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"Autre(s) chirurgie(s) des membres inférieurs\" in q_q1_rhumatologie_029)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_029": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_047",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"Maladie touchant les os, les articulations, les muscles et les tendons (arthrose, ostéoporose, lombalgies, sciatique, cruralgie, canal carpien, tendinite, rhumatisme inflammatoire, goutte, fibromyalgie, syndrome de fatigue chronique, cancer des os, métastases osseuses, myopathies...)\" in q_q1_rhumatologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_001": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_0470",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"Ostéopénie\" in q_q1_rhumatologie_047)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_047": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_0471",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"Ostéoporose\" in q_q1_rhumatologie_047)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_047": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_0472",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"Arthrose\" in q_q1_rhumatologie_047)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_047": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_0473",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"Goutte\" in q_q1_rhumatologie_047)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_047": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_0474",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"Périarthrite scapulo-humérale\" in q_q1_rhumatologie_047)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_047": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_0475",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"Capsulite de l’épaule\" in q_q1_rhumatologie_047)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_047": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_0476",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"Myélome\" in q_q1_rhumatologie_047)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_047": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_0477",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"Ostéite (infection osseuse)\" in q_q1_rhumatologie_047)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_047": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_0478",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"Cancer primitif osseux (ostéosarcome, chondrosarcoma…)\" in q_q1_rhumatologie_047)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_047": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_0479",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"Métastase(s) osseuse(s)\" in q_q1_rhumatologie_047)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_047": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_048",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"Maladie touchant les os, les articulations, les muscles et les tendons (arthrose, ostéoporose, lombalgies, sciatique, cruralgie, canal carpien, tendinite, rhumatisme inflammatoire, goutte, fibromyalgie, syndrome de fatigue chronique, cancer des os, métastases osseuses, myopathies...)\" in q_q1_rhumatologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_001": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_0480",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"Sciatique\" in q_q1_rhumatologie_048)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_048": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_0481",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"Cruralgie\" in q_q1_rhumatologie_048)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_048": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_0482",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"Canal carpien\" in q_q1_rhumatologie_048)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_048": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_0483",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"Myopathie\" in q_q1_rhumatologie_048)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_048": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_0484",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"Polymyosite\" in q_q1_rhumatologie_048)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_048": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_0485",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"Fibromyalgie\" in q_q1_rhumatologie_048)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_048": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_0486",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"Syndrome de fatigue chronique\" in q_q1_rhumatologie_048)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_048": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_0487",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"Syndrome de fatigue chronique post-infectieux (Covid long, Lyme…)\" in q_q1_rhumatologie_048)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_048": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_0488",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"Algoneurodystrophie\" in q_q1_rhumatologie_048)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_048": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_0489",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"Tendinopathie(s)\" in q_q1_rhumatologie_048)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_048": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_04810",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"Tendinopathie(s) calcifiante(s)\" in q_q1_rhumatologie_048)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_048": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_049",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"Maladie touchant les os, les articulations, les muscles et les tendons (arthrose, ostéoporose, lombalgies, sciatique, cruralgie, canal carpien, tendinite, rhumatisme inflammatoire, goutte, fibromyalgie, syndrome de fatigue chronique, cancer des os, métastases osseuses, myopathies...)\" in q_q1_rhumatologie_001)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_001": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_0490",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"Polyarthrite rhumatoÏde\" in q_q1_rhumatologie_049)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_049": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_0491",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"Spondylarthrite ankylosante\" in q_q1_rhumatologie_049)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_049": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_0492",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"Rhumatisme psoriasique\" in q_q1_rhumatologie_049)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_049": 0
+        }
+      }
+    },
+    {
+      "question": "q_q1_rhumatologie_0493",
+      "level": 1,
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "!(\"Polyarthrite pseudo-rhizomélique\" in q_q1_rhumatologie_049)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_rhumatologie_049": 0
+        }
+      }
+    }
+  ]
+}

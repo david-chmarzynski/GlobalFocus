@@ -1,0 +1,64 @@
+{
+  "oid": "q_q1_alimentation_002",
+  "title": "Que pensez-vous du contenu de votre alimentation habituelle (quantité et équilibre alimentaire) ?",
+  "text": "Que pensez-vous du contenu de votre alimentation habituelle (quantité et équilibre alimentaire) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Très satisfaisante"
+    },
+    {
+      "code": "1",
+      "text": "Satisfaisante"
+    },
+    {
+      "code": "2",
+      "text": "Légèrement insatisfaisante"
+    },
+    {
+      "code": "3",
+      "text": "Plutôt insatisfaisante"
+    },
+    {
+      "code": "4",
+      "text": "Insatisfaisante"
+    },
+    {
+      "code": "5",
+      "text": "Très insatisfaisante"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q1_alimentation_002 == \"0\"",
+      "tagOID": "TAG_VALIMENTATION_CONTENU",
+      "value": 0
+    },
+    {
+      "conditions": "q_q1_alimentation_002 == \"1\"",
+      "tagOID": "TAG_VALIMENTATION_CONTENU",
+      "value": 1
+    },
+    {
+      "conditions": "q_q1_alimentation_002 == \"2\"",
+      "tagOID": "TAG_VALIMENTATION_CONTENU",
+      "value": 2
+    },
+    {
+      "conditions": "q_q1_alimentation_002 == \"3\"",
+      "tagOID": "TAG_VALIMENTATION_CONTENU",
+      "value": 3
+    },
+    {
+      "conditions": "q_q1_alimentation_002 == \"4\"",
+      "tagOID": "TAG_VALIMENTATION_CONTENU",
+      "value": 4
+    },
+    {
+      "conditions": "q_q1_alimentation_002 == \"5\"",
+      "tagOID": "TAG_VALIMENTATION_CONTENU",
+      "value": 5
+    }
+  ]
+}

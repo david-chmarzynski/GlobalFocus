@@ -1,0 +1,12 @@
+{
+  "oid": "q_q1_rhumatologie_0481",
+  "title": "En quelle année le diagnostic de cruralgie a t’il été posé ?",
+  "text": "En quelle année le diagnostic de cruralgie a t’il été posé ?",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 1900,
+    "max": 2022,
+    "step": 1
+  },
+  "scores": []
+}

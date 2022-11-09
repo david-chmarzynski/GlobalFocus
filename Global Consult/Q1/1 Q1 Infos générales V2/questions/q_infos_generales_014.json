@@ -1,0 +1,11 @@
+{
+  "oid": "q_infos_generales_014",
+  "title": "Quel est votre tour de cou (périmètre cervical, en centimètres) ? Pour mesurer votre tour de cou, prenez un mètre de couturière et faites lui  faire le tour de votre cou. La mesure se fait en position debout, la tête droite, à même la peau.",
+  "text": "Quel est votre tour de cou (périmètre cervical, en centimètres) ? Pour mesurer votre tour de cou, prenez un mètre de couturière et faites lui  faire le tour de votre cou. La mesure se fait en position debout, la tête droite, à même la peau",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": "0",
+    "max": "200",
+    "step": 1
+  }
+}

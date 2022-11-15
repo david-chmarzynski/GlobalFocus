@@ -15,32 +15,17 @@
     {
       "question": "q_VContexteVieEtudesWOrganisation",
       "level": 1,
-      "isGlobal": false,
-      "trigger":{
-        "conditions": "!(\"0\" in q_VContexteVieWEtudesSitu || \"1\" in q_VContexteVieWEtudesSitu || \"6\" in q_VContexteVieWEtudesSitu)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues":{"q_VContexteVieWEtudesSitu":"8"}
-      }
+      "isGlobal": false
     },
     {
       "question": "q_VContexteVieEtudesWHumain",
       "level": 1,
-      "isGlobal": false,
-      "trigger":{
-        "conditions": "!(\"0\" in q_VContexteVieWEtudesSitu || \"1\" in q_VContexteVieWEtudesSitu || \"6\" in q_VContexteVieWEtudesSitu)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues":{"q_VContexteVieWEtudesSitu":"8"}
-      }
+      "isGlobal": false
     },
     {
       "question": "q_VContexteVieEtudesStress",
       "level": 1,
-      "isGlobal": false,
-      "trigger":{
-        "conditions": "!(\"0\" in q_VContexteVieWEtudesSitu || \"1\" in q_VContexteVieWEtudesSitu || \"6\" in q_VContexteVieWEtudesSitu)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues":{"q_VContexteVieWEtudesSitu":"8"}
-      }
+      "isGlobal": false
     },
     {
       "question": "q_VContexteVieQDVGlobal",

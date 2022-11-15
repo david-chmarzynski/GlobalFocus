@@ -1,7 +1,7 @@
 {
   "oid": "q_VContexteVieEtudesWHumain",
-  "title": "Êtes-vous satisfait(e) de vos études ou de votre travail actuel sur le plan humain (relations humaines, revenu, épanouissement personnel, perspectives…) ?",
-  "text": "Êtes-vous satisfait(e) de vos études ou de votre travail actuel sur le plan humain (relations humaines, revenu, épanouissement personnel, perspectives…) ?",
+  "title": "Êtes-vous satisfait(e) de vos études ou de votre travail actuel sur le plan humain : relations humaines, revenu, épanouissement personnel, perspectives…) ?",
+  "text": "Êtes-vous satisfait(e) de vos études ou de votre travail actuel sur le plan humain : relations humaines, revenu, épanouissement personnel, perspectives…) ?",
   "type": "SINGLE_CHOICE_RADIO",
   "choices": [
     {

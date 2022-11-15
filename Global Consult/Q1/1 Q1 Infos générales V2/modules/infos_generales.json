@@ -8,14 +8,98 @@
       "isGlobal": true
     },
     {
-      "question": "q_infos_generales_001",
+      "question": "q_infos_generales_001date1",
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "q_infos_generales_000 == \"0\"",
+        "conditions": "!(q_infos_generales_000 == \"1\")",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_infos_generales_000":"0"
+          "q_infos_generales_000": "0"
+        }
+      }
+    },
+    {
+      "question": "q_infos_generales_001date2",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(q_infos_generales_000 == \"2\")",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_infos_generales_000": "0"
+        }
+      }
+    },
+    {
+      "question": "q_infos_generales_001date3",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(q_infos_generales_000 == \"3\")",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_infos_generales_000": "0"
+        }
+      }
+    },
+    {
+      "question": "q_infos_generales_001date4",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(q_infos_generales_000 == \"4\")",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_infos_generales_000": "0"
+        }
+      }
+    },
+    {
+      "question": "q_infos_generales_001date5",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(q_infos_generales_000 == \"5\")",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_infos_generales_000": "0"
+        }
+      }
+    },
+    {
+      "question": "q_infos_generales_001date6",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(q_infos_generales_000 == \"6\")",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_infos_generales_000": "0"
+        }
+      }
+    },
+    {
+      "question": "q_infos_generales_001date7",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(q_infos_generales_000 == \"7\")",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_infos_generales_000": "0"
+        }
+      }
+    },
+    {
+      "question": "q_infos_generales_001date8",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(q_infos_generales_000 == \"8\")",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_infos_generales_000": "0"
         }
       }
     },

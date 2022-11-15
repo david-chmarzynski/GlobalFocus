@@ -82,6 +82,16 @@
       "conditions": "\"Autre(s) antécédent(s)\" in q_q1_dermatologie_001",
       "tagOID": "S_DER_ATCD_AUTRE",
       "value": 1
+    },
+    {
+      "conditions": "!(\"aucun\" in q_q1_dermatologie_001)",
+      "tagOID": "S_DER_ATCD",
+      "value": 1
+    },
+    {
+      "conditions": "\"aucun\" in q_q1_dermatologie_001",
+      "tagOID": "S_DER_ATCD",
+      "value": 0
     }
   ]
 }

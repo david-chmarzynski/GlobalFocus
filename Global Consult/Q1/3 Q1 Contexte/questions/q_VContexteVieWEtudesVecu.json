@@ -1,7 +1,7 @@
 {
   "oid": "q_VContexteVieWEtudesVecu",
-  "title": "Êtes-vous satisfait(e) de votre situation actuelle par rapport aux études-travail-retraite (ou absence) ? ",
-  "text": "Êtes-vous satisfait(e) de votre situation actuelle par rapport aux études-travail-retraite (ou absence) ? ",
+  "title": "Êtes-vous satisfait(e) de votre situation sociale actuelle (études, travail, retraite, activités associatives…) ?",
+  "text": "Êtes-vous satisfait(e) de votre situation sociale actuelle (études, travail, retraite, activités associatives…) ?",
   "type": "SINGLE_CHOICE_RADIO",
   "choices": [
     {

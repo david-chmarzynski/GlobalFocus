@@ -146,14 +146,14 @@
       "tagOID": "S_CV_ATCD_AUTRES",
       "value": 1
     },
-        {
+    {
       "conditions": "\"aucun\" in q_q1_cardiologie_001",
-      "tagOID": "S_CV_ATCD_AUCUN",
+      "tagOID": "S_CV_ATCD",
       "value": 0
-    }, 
+    },
     {
       "conditions": "!(\"aucun\" in q_q1_cardiologie_001)",
-      "tagOID": "S_CV_ATCD_AUCUN",
+      "tagOID": "S_CV_ATCD",
       "value": 1
     }
   ]

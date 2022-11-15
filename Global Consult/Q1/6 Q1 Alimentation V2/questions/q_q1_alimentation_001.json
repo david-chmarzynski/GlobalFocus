@@ -6,27 +6,27 @@
   "choices": [
     {
       "code": "0",
-      "text": "Très satisfaisante"
+      "text": "Très satisfaisant"
     },
     {
       "code": "1",
-      "text": "Satisfaisante"
+      "text": "Satisfaisant"
     },
     {
       "code": "2",
-      "text": "Légèrement insatisfaisante"
+      "text": "Légèrement insatisfaisant"
     },
     {
       "code": "3",
-      "text": "Plutôt insatisfaisante"
+      "text": "Plutôt insatisfaisant"
     },
     {
       "code": "4",
-      "text": "Insatisfaisante"
+      "text": "Insatisfaisant"
     },
     {
       "code": "5",
-      "text": "Très insatisfaisante"
+      "text": "Très insatisfaisant"
     }
   ],
   "scores": [

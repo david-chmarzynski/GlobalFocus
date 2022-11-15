@@ -112,12 +112,12 @@
     },
     {
       "conditions": "\"aucun\" in q_q1_stomatologie_001",
-      "tagOID": "S_STO_ATCD_AUCUN",
+      "tagOID": "S_STO_ATCD",
       "value": 0
     },
     {
       "conditions": "!(\"aucun\" in q_q1_stomatologie_001)",
-      "tagOID": "S_STO_ATCD_AUCUN",
+      "tagOID": "S_STO_ATCD",
       "value": 1
     }
   ]

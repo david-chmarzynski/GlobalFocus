@@ -19,6 +19,11 @@
     {
       "code": "Polyarthrite pseudo-rhizomélique",
       "text": "Polyarthrite pseudo-rhizomélique"
+    },
+    {
+      "code": "aucun",
+      "text": "Aucune de ces maladies",
+      "exclusive": true
     }
   ],
   "scores": [
@@ -40,6 +45,16 @@
     {
       "conditions": "\"Polyarthrite pseudo-rhizomélique\" in q_q1_rhumatologie_049",
       "tagOID": "S_RMS_ATCD_MED_TYPE_AUTO_IMMUN_POLYARTHRITE_PSEUDO_RHIZOMELIQUE",
+      "value": 1
+    },
+    {
+      "conditions": "\"aucun\" in q_q1_rhumatologie_047",
+      "tagOID": "S_RMS_ATCD_MED_TYPE_AUTO_IMMUN_AUCUN",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_q1_rhumatologie_047)",
+      "tagOID": "S_RMS_ATCD_MED_TYPE_AUTO_IMMUN_AUCUN",
       "value": 1
     }
   ]

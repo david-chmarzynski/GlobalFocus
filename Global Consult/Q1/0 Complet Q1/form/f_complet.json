@@ -7745,7 +7745,7 @@
                 ]
               },
               {
-                "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO",
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_ACTUELLEMENT",
                 "type": "SCORE",
                 "hideNodeIfEmpty": true,
                 "ranges": [
@@ -7753,117 +7753,96 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "TRT IMMUNO"
+                    "text": "TRT ACTUEL"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "TRT IMMUNO"
+                    "text": "TRT ACTUEL"
                   }
                 ],
-                "children": [
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_PASSE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
                   {
-                    "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_ACTUELLEMENT",
-                    "type": "SCORE",
-                    "hideNodeIfEmpty": true,
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "TRT ACTUEL"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "TRT ACTUEL"
-                      }
-                    ],
-                    "children": []
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "PASSE"
                   },
                   {
-                    "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_PASSE",
-                    "type": "SCORE",
-                    "hideNodeIfEmpty": true,
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "PASSE"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "PASSE"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_ACTUEL_PASSE",
-                    "type": "SCORE",
-                    "hideNodeIfEmpty": true,
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "TRT ACT-PASS"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "TRT ACT-PASS"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_JAMAIS",
-                    "type": "SCORE",
-                    "hideNodeIfEmpty": true,
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "JAMAIS"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "JAMAIS"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_NSP",
-                    "type": "SCORE",
-                    "hideNodeIfEmpty": true,
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "TRT NSP"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "TRT NSP"
-                      }
-                    ],
-                    "children": []
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "PASSE"
                   }
-                ]
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_ACTUEL_PASSE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "TRT ACT-PASS"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "TRT ACT-PASS"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_JAMAIS",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "JAMAIS"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "JAMAIS"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_NSP",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "TRT NSP"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "TRT NSP"
+                  }
+                ],
+                "children": []
               }
             ]
           },
@@ -7915,13 +7894,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "ALIM"
+                    "text": "ALIMENT"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "ALIM"
+                    "text": "ALIMENT"
                   }
                 ],
                 "children": []
@@ -8296,13 +8275,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "PVH"
+                    "text": "HPV"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "PVH"
+                    "text": "HPV"
                   }
                 ],
                 "children": []
@@ -8493,7 +8472,7 @@
         ],
         "children": [
           {
-            "tagOID": "S_CV_ATCD_HTA",
+            "tagOID": "S_CV_ATCD",
             "type": "SCORE",
             "hideNodeIfEmpty": true,
             "ranges": [
@@ -8501,297 +8480,318 @@
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text": "HTA"
+                "text": "ATCD"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FF0000",
-                "text": "HTA"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_CV_ATCD_ANGOR",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "ANGOR"
-              },
-              {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "ANGOR"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_CV_ATCD_INFARCTUS",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "IDM"
-              },
-              {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "IDM"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_CV_ATCD_AVC",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "AVC"
-              },
-              {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "AVC"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_CV_ATCD_ARTERITE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "ARTERITE"
-              },
-              {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "ARTERITE"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_CV_ATCD_EMBOLIE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "EP"
-              },
-              {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "EP"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_CV_ATCD_PHLEBITE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "PHLEB"
-              },
-              {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "PHLEB"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_CV_ATCD_VARICE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "VARICE"
-              },
-              {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "VARICE"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_CV_ATCD_VALVULOPATHIE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "VALV"
-              },
-              {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "VALV"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_CV_ATCD_ENDOCARD",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "ENDOCARD"
-              },
-              {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "ENDOCARD"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_CV_ATCD_PERICARD",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "PERICARD"
-              },
-              {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "PERICARD"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_CV_ATCD_TDR",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "TDR"
-              },
-              {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "TDR"
+                "text": "ATCD"
               }
             ],
             "children": [
+              {
+              "tagOID": "S_CV_ATCD_HTA",
+                  "type": "SCORE",
+                  "hideNodeIfEmpty": true,
+                  "ranges": [
+                    {
+                      "min": 0,
+                      "max": 0,
+                      "color": "00FF00",
+                      "text": "HTA"
+                    },
+                    {
+                      "min": 1,
+                      "max": 1,
+                      "color": "FF0000",
+                      "text": "HTA"
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "tagOID": "S_CV_ATCD_ANGOR",
+                  "type": "SCORE",
+                  "hideNodeIfEmpty": true,
+                  "ranges": [
+                    {
+                      "min": 0,
+                      "max": 0,
+                      "color": "00FF00",
+                      "text": "ANGOR"
+                    },
+                    {
+                      "min": 1,
+                      "max": 1,
+                      "color": "FF0000",
+                      "text": "ANGOR"
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "tagOID": "S_CV_ATCD_INFARCTUS",
+                  "type": "SCORE",
+                  "hideNodeIfEmpty": true,
+                  "ranges": [
+                    {
+                      "min": 0,
+                      "max": 0,
+                      "color": "00FF00",
+                      "text": "IDM"
+                    },
+                    {
+                      "min": 1,
+                      "max": 1,
+                      "color": "FF0000",
+                      "text": "IDM"
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "tagOID": "S_CV_ATCD_AVC",
+                  "type": "SCORE",
+                  "hideNodeIfEmpty": true,
+                  "ranges": [
+                    {
+                      "min": 0,
+                      "max": 0,
+                      "color": "00FF00",
+                      "text": "AVC"
+                    },
+                    {
+                      "min": 1,
+                      "max": 1,
+                      "color": "FF0000",
+                      "text": "AVC"
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "tagOID": "S_CV_ATCD_ARTERITE",
+                  "type": "SCORE",
+                  "hideNodeIfEmpty": true,
+                  "ranges": [
+                    {
+                      "min": 0,
+                      "max": 0,
+                      "color": "00FF00",
+                      "text": "ARTERITE"
+                    },
+                    {
+                      "min": 1,
+                      "max": 1,
+                      "color": "FF0000",
+                      "text": "ARTERITE"
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "tagOID": "S_CV_ATCD_EMBOLIE",
+                  "type": "SCORE",
+                  "hideNodeIfEmpty": true,
+                  "ranges": [
+                    {
+                      "min": 0,
+                      "max": 0,
+                      "color": "00FF00",
+                      "text": "EP"
+                    },
+                    {
+                      "min": 1,
+                      "max": 1,
+                      "color": "FF0000",
+                      "text": "EP"
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "tagOID": "S_CV_ATCD_PHLEBITE",
+                  "type": "SCORE",
+                  "hideNodeIfEmpty": true,
+                  "ranges": [
+                    {
+                      "min": 0,
+                      "max": 0,
+                      "color": "00FF00",
+                      "text": "PHLEB"
+                    },
+                    {
+                      "min": 1,
+                      "max": 1,
+                      "color": "FF0000",
+                      "text": "PHLEB"
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "tagOID": "S_CV_ATCD_VARICE",
+                  "type": "SCORE",
+                  "hideNodeIfEmpty": true,
+                  "ranges": [
+                    {
+                      "min": 0,
+                      "max": 0,
+                      "color": "00FF00",
+                      "text": "VARICE"
+                    },
+                    {
+                      "min": 1,
+                      "max": 1,
+                      "color": "FF0000",
+                      "text": "VARICE"
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "tagOID": "S_CV_ATCD_VALVULOPATHIE",
+                  "type": "SCORE",
+                  "hideNodeIfEmpty": true,
+                  "ranges": [
+                    {
+                      "min": 0,
+                      "max": 0,
+                      "color": "00FF00",
+                      "text": "VALV"
+                    },
+                    {
+                      "min": 1,
+                      "max": 1,
+                      "color": "FF0000",
+                      "text": "VALV"
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "tagOID": "S_CV_ATCD_ENDOCARD",
+                  "type": "SCORE",
+                  "hideNodeIfEmpty": true,
+                  "ranges": [
+                    {
+                      "min": 0,
+                      "max": 0,
+                      "color": "00FF00",
+                      "text": "ENDOCARD"
+                    },
+                    {
+                      "min": 1,
+                      "max": 1,
+                      "color": "FF0000",
+                      "text": "ENDOCARD"
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "tagOID": "S_CV_ATCD_PERICARD",
+                  "type": "SCORE",
+                  "hideNodeIfEmpty": true,
+                  "ranges": [
+                    {
+                      "min": 0,
+                      "max": 0,
+                      "color": "00FF00",
+                      "text": "PERICARD"
+                    },
+                    {
+                      "min": 1,
+                      "max": 1,
+                      "color": "FF0000",
+                      "text": "PERICARD"
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "tagOID": "S_CV_ATCD_TDR",
+                  "type": "SCORE",
+                  "hideNodeIfEmpty": true,
+                  "ranges": [
+                    {
+                      "min": 0,
+                      "max": 0,
+                      "color": "00FF00",
+                      "text": "TDR"
+                    },
+                    {
+                      "min": 1,
+                      "max": 1,
+                      "color": "FF0000",
+                      "text": "TDR"
+                    }
+                  ],
+                  "children": [
+                  ]
+                },
+                {
+                  "tagOID": "S_CV_ATCD_CARDIOMYOPATHIE",
+                  "type": "SCORE",
+                  "hideNodeIfEmpty": true,
+                  "ranges": [
+                    {
+                      "min": 0,
+                      "max": 0,
+                      "color": "00FF00",
+                      "text": "CARDIOMYO"
+                    },
+                    {
+                      "min": 1,
+                      "max": 1,
+                      "color": "FF0000",
+                      "text": "CARDIOMYO"
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "tagOID": "S_CV_ATCD_ANEVRYSME",
+                  "type": "SCORE",
+                  "hideNodeIfEmpty": true,
+                  "ranges": [
+                    {
+                      "min": 0,
+                      "max": 0,
+                      "color": "00FF00",
+                      "text": "ANEVRYSM"
+                    },
+                    {
+                      "min": 1,
+                      "max": 1,
+                      "color": "FF0000",
+                      "text": "ANEVRYSM"
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "tagOID": "S_CV_ATCD_AUTRES",
+                  "type": "SCORE",
+                  "hideNodeIfEmpty": true,
+                  "ranges": [
+                    {
+                      "min": 0,
+                      "max": 0,
+                      "color": "00FF00",
+                      "text": "AUTRES"
+                    },
+                    {
+                      "min": 1,
+                      "max": 1,
+                      "color": "FF0000",
+                      "text": "AUTRES"
+                    }
+                  ],
+                  "children": []
+                }
             ]
-          },
-          {
-            "tagOID": "S_CV_ATCD_CARDIOMYOPATHIE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "CARDIOMYO"
-              },
-              {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "CARDIOMYO"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_CV_ATCD_ANEVRYSME",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "ANEVRYSM"
-              },
-              {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "ANEVRYSM"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_CV_ATCD_AUTRES",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "AUTRES"
-              },
-              {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "AUTRES"
-              }
-            ],
-            "children": []
           }
         ]
       }
@@ -8831,7 +8831,7 @@
         ],
         "children": [
           {
-            "tagOID": "S_PN_ATCD_CANCER_PULMONAIRE",
+            "tagOID": "S_PN_ATCD",
             "type": "SCORE",
             "hideNodeIfEmpty": true,
             "ranges": [
@@ -8839,176 +8839,197 @@
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text": "KC PULM"
+                "text": "ATCD"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FF0000",
-                "text": "KC PULM"
+                "text": "ATCD"
               }
             ],
-            "children": []
-          },
-          {
-            "tagOID": "S_PN_ATCD_CANCER_PLEVRE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
+            "children": [
               {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "KC PLEVRE"
+                "tagOID": "S_PN_ATCD_CANCER_PULMONAIRE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "KC PULM"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "KC PULM"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "KC PLEVRE"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_PN_ATCD_ASTHME",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "ASTHME"
+                "tagOID": "S_PN_ATCD_CANCER_PLEVRE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "KC PLEVRE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "KC PLEVRE"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "ASTHME"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_PN_ATCD_BPCO",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "BPCO"
+                "tagOID": "S_PN_ATCD_ASTHME",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ASTHME"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ASTHME"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "BPCO"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_PN_ATCD_EMPHYSEME",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "EMPHYS"
+                "tagOID": "S_PN_ATCD_BPCO",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "BPCO"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "BPCO"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "EMPHYS"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_PN_ATCD_DILATATION_DES_BRONCHES",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "DDB"
+                "tagOID": "S_PN_ATCD_EMPHYSEME",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "EMPHYS"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "EMPHYS"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "DDB"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_PN_ATCD_TUBERCULOSE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "BK"
+                "tagOID": "S_PN_ATCD_DILATATION_DES_BRONCHES",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "DDB"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "DDB"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "BK"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_PN_ATCD_AMIANTE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "AMIANTE"
+                "tagOID": "S_PN_ATCD_TUBERCULOSE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "BK"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "BK"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "AMIANTE"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_PN_ATCD_AUTRE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "AUTRE ATCD"
+                "tagOID": "S_PN_ATCD_AMIANTE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AMIANTE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AMIANTE"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "AUTRE ATCD"
+                "tagOID": "S_PN_ATCD_AUTRE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AUTRE ATCD"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AUTRE ATCD"
+                  }
+                ],
+                "children": []
               }
-            ],
-            "children": []
+            ]
           }
         ]
       }
@@ -9054,7 +9075,7 @@
         ],
         "children": [
           {
-            "tagOID": "S_UN_ATCD_CANCER_REIN",
+            "tagOID": "S_UN_ATCD",
             "type": "SCORE",
             "hideNodeIfEmpty": true,
             "ranges": [
@@ -9062,216 +9083,237 @@
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text": "KC REIN"
+                "text": "ATCD"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FF0000",
-                "text": "KC REIN"
+                "text": "ATCD"
               }
             ],
-            "children": []
-          },
-          {
-            "tagOID": "S_UN_ATCD_CANCER_VESSIE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
+            "children": [
               {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "KC VESSIE"
+                "tagOID": "S_UN_ATCD_CANCER_REIN",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "KC REIN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "KC REIN"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "KC VESSIE"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_UN_ATCD_POLYKYSTOSE_RENALE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "POLYK"
+                "tagOID": "S_UN_ATCD_CANCER_VESSIE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "KC VESSIE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "KC VESSIE"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "POLYK"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_UN_ATCD_INSUFFISANCE_RENALE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "INS REN"
+                "tagOID": "S_UN_ATCD_POLYKYSTOSE_RENALE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "POLYK"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "POLYK"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "INS REN"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_UN_ATCD_LITHIASE _URINAIRE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "LITH URI"
+                "tagOID": "S_UN_ATCD_INSUFFISANCE_RENALE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "INS REN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "INS REN"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "LITH URI"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_UN_ATCD_PYELONEPHRITE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "PYELONEP"
+                "tagOID": "S_UN_ATCD_LITHIASE _URINAIRE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "LITH URI"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "LITH URI"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "PYELONEP"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_UN_ATCD_MALFORMATION_URETERE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "MALF URET"
+                "tagOID": "S_UN_ATCD_PYELONEPHRITE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "PYELONEP"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "PYELONEP"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "MALF URET"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_UN_ATCD_POLYPE_VESSIE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "POLYP VES"
+                "tagOID": "S_UN_ATCD_MALFORMATION_URETERE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "MALF URET"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "MALF URET"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "POLYP VES"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_UN_ATCD_INFECTION_URINAIRE_REPETITION",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "INF URI"
+                "tagOID": "S_UN_ATCD_POLYPE_VESSIE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "POLYP VES"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "POLYP VES"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "INF URI"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_UN_ATCD_INCONTINENCE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "INCONT"
+                "tagOID": "S_UN_ATCD_INFECTION_URINAIRE_REPETITION",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "INF URI"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "INF URI"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "INCONT"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_UN_ATCD_AUTRES",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "AUTRES"
+                "tagOID": "S_UN_ATCD_INCONTINENCE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "INCONT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "INCONT"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "AUTRES"
+                "tagOID": "S_UN_ATCD_AUTRES",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AUTRES"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AUTRES"
+                  }
+                ],
+                "children": []
               }
-            ],
-            "children": []
+            ]
           }
         ]
       }
@@ -11069,7 +11111,7 @@
         ],
         "children": [
           {
-            "tagOID": "S_STO_ATCD_PARODONTITE",
+            "tagOID": "S_STO_ATCD",
             "type": "SCORE",
             "hideNodeIfEmpty": true,
             "ranges": [
@@ -11077,236 +11119,237 @@
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text": "PARODON"
+                "text": "ATCD"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FF0000",
-                "text": "PARODON"
+                "text": "ATCD"
               }
             ],
-            "children": []
-          },
-          {
-            "tagOID": "S_STO_ATCD_BRUXISME",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
+            "children": [
               {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "BRUXISME"
+                "tagOID": "S_STO_ATCD_PARODONTITE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "PARODON"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "PARODON"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "BRUXISME"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_STO_ATCD_BIPHOSPHONATE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "BIPHOSPH"
+                "tagOID": "S_STO_ATCD_BRUXISME",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "BRUXISME"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "BRUXISME"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "BIPHOSPH"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_STO_ATCD_ORTHODONTIE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "ORTHODON"
+                "tagOID": "S_STO_ATCD_BIPHOSPHONATE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "BIPHOSPH"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "BIPHOSPH"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "ORTHODON"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_STO_ATCD_CARIE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "CARIE"
+                "tagOID": "S_STO_ATCD_ORTHODONTIE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ORTHODON"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ORTHODON"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "CARIE"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_STO_ATCD_GREFFE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "GREFFE"
+                "tagOID": "S_STO_ATCD_CARIE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CARIE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CARIE"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "GREFFE"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_STO_ATCD_BRIDGE_COURONNE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "BRID/COU"
+                "tagOID": "S_STO_ATCD_GREFFE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "GREFFE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "GREFFE"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "BRID/COU"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_STO_ATCD_IMPLANT",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "IMPLANT"
+                "tagOID": "S_STO_ATCD_BRIDGE_COURONNE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "BRID/COU"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "BRID/COU"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "IMPLANT"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_STO_ATCD_DENTIER",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "DENTIER"
+                "tagOID": "S_STO_ATCD_IMPLANT",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "IMPLANT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "IMPLANT"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "DENTIER"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_STO_ATCD_ORTHESE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "ORTHESE"
+                "tagOID": "S_STO_ATCD_DENTIER",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "DENTIER"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "DENTIER"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "ORTHESE"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_STO_ATCD_AUTRE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "AUTRE"
+                "tagOID": "S_STO_ATCD_ORTHESE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ORTHESE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ORTHESE"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "AUTRE"
+                "tagOID": "S_STO_ATCD_AUTRE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AUTRE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AUTRE"
+                  }
+                ],
+                "children": []
               }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_STO_ATCD_AUCUN",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "EFFACE"
-              },
-              {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "EFFACE"
-              }
-            ],
-            "children": []
+            ]
           }
         ]
       }
@@ -11352,7 +11395,7 @@
         ],
         "children": [
           {
-            "tagOID": "S_DER_ATCD_CANCER_BASO",
+            "tagOID": "S_DER_ATCD",
             "type": "SCORE",
             "hideNodeIfEmpty": true,
             "ranges": [
@@ -11360,156 +11403,177 @@
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text": "KC BASOC"
+                "text": "ATCD"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FF0000",
-                "text": "KC BASOC"
+                "text": "ATCD"
               }
             ],
-            "children": []
-          },
-          {
-            "tagOID": "S_DER_ATCD_CANCER_SPINO",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
+            "children": [
               {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "KC SPINOC"
+                "tagOID": "S_DER_ATCD_CANCER_BASO",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "KC BASOC"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "KC BASOC"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "KC SPINOC"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_DER_ATCD_MELANOME",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "MELAN"
+                "tagOID": "S_DER_ATCD_CANCER_SPINO",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "KC SPINOC"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "KC SPINOC"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "MELAN"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_DER_ATCD_DERMATITE_ATOPIQUE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "ECZEMA"
+                "tagOID": "S_DER_ATCD_MELANOME",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "MELAN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "MELAN"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "ECZEMA"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_DER_ATCD_PSORIASIS",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "PSORIAS"
+                "tagOID": "S_DER_ATCD_DERMATITE_ATOPIQUE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ECZEMA"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ECZEMA"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "PSORIAS"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_DER_ATCD_VITILIGO",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "VITILIGO"
+                "tagOID": "S_DER_ATCD_PSORIASIS",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "PSORIAS"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "PSORIAS"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "VITILIGO"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_DER_ATCD_PELADE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "PELADE"
+                "tagOID": "S_DER_ATCD_VITILIGO",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "VITILIGO"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "VITILIGO"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "PELADE"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_DER_ATCD_AUTRE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "AUTRE"
+                "tagOID": "S_DER_ATCD_PELADE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "PELADE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "PELADE"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "AUTRE"
+                "tagOID": "S_DER_ATCD_AUTRE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "AUTRE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "AUTRE"
+                  }
+                ],
+                "children": []
               }
-            ],
-            "children": []
+            ]
           }
         ]
       }
@@ -12181,7 +12245,7 @@
         ],
         "children": [
           {
-            "tagOID": "S_OPH_ATCD_CANCER_OEIL",
+            "tagOID": "S_OPH_ATCD",
             "type": "SCORE",
             "hideNodeIfEmpty": true,
             "ranges": [
@@ -12189,256 +12253,277 @@
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text":"CANCER"
+                "text": "ATCD"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FF0000",
-                "text":"CANCER"
+                "text": "ATCD"
               }
             ],
-            "children": []
-          },
-          {
-            "tagOID": "S_OPH_ATCD_DMLA",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
+            "children": [
               {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text":"DMLA"
+                "tagOID": "S_OPH_ATCD_CANCER_OEIL",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"CANCER"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"CANCER"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text":"DMLA"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_OPH_ATCD_GLAUCOME",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text":"GLAU"
+                "tagOID": "S_OPH_ATCD_DMLA",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"DMLA"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"DMLA"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text":"GLAU"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_OPH_ATCD_UVEITE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text":"UVEIT"
+                "tagOID": "S_OPH_ATCD_GLAUCOME",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"GLAU"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"GLAU"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text":"UVEIT"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_OPH_ATCD_KERATITE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text":"KERA"
+                "tagOID": "S_OPH_ATCD_UVEITE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"UVEIT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"UVEIT"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text":"KERA"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_OPH_ATCD_CATARACTE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text":"CATA"
+                "tagOID": "S_OPH_ATCD_KERATITE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"KERA"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"KERA"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text":"CATA"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_OPH_ATCD_RETINE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text":"RETINO"
+                "tagOID": "S_OPH_ATCD_CATARACTE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"CATA"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"CATA"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text":"RETINO"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_OPH_ATCD_MYOPIE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text":"MYOP"
+                "tagOID": "S_OPH_ATCD_RETINE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"RETINO"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"RETINO"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text":"MYOP"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_OPH_ATCD_PRESBYTIE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text":"PRESB"
+                "tagOID": "S_OPH_ATCD_MYOPIE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"MYOP"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"MYOP"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text":"PRESB"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_OPH_ATCD_ASTIGMATIE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text":"ASTI"
+                "tagOID": "S_OPH_ATCD_PRESBYTIE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"PRESB"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"PRESB"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text":"ASTI"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_OPH_ATCD_HYPERMETROPIE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text":"HYPER"
+                "tagOID": "S_OPH_ATCD_ASTIGMATIE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"ASTI"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"ASTI"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text":"HYPER"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_OPH_ATCD_CECITE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text":"CECIT"
+                "tagOID": "S_OPH_ATCD_HYPERMETROPIE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"HYPER"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"HYPER"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text":"CECIT"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_OPH_ATCD_AUTRE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text":"AUTRE"
+                "tagOID": "S_OPH_ATCD_CECITE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"CECIT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"CECIT"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text":"AUTRE"
+                "tagOID": "S_OPH_ATCD_AUTRE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"AUTRE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"AUTRE"
+                  }
+                ],
+                "children": []
               }
-            ],
-            "children": []
+            ]
           }
         ]
       }

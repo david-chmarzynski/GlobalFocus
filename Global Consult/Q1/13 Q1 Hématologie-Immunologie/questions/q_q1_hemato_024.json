@@ -1,7 +1,7 @@
 {
   "oid": "q_q1_hemato_024",
-  "title": "Parmi cette liste, quelle(s) maladie(s) auto-immune(s) avez-vous ? (plusieurs réponses possibles)",
-  "text": "Parmi cette liste, quelle(s) maladie(s) auto-immune(s) avez-vous ? (plusieurs réponses possibles)",
+  "title": "Parmi cette liste, quelle(s) maladie(s) auto-immune(s) avez-vous ? (Plusieurs réponses possibles)",
+  "text": "Parmi cette liste, quelle(s) maladie(s) auto-immune(s) avez-vous ? (Plusieurs réponses possibles)",
   "type": "MULTI_CHOICES",
   "displayChoices": true,
   "choices": [
@@ -40,6 +40,10 @@
     {
       "code": "autres",
       "text": "Autre(s)  maladie(s) auto-immune(s) que celles ci-dessus"
+    },
+    {
+      "code": "aucun",
+      "text": "Aucune de ces réponses"
     }
   ],
   "scores": [
@@ -86,6 +90,16 @@
     {
       "conditions": "\"autres\" in q_q1_hemato_024",
       "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TYPE_AUTRES",
+      "value": 1
+    },
+    {
+      "conditions": "\"aucun\" in q_q1_hemato_024",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_q1_hemato_024)",
+      "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI",
       "value": 1
     }
   ]

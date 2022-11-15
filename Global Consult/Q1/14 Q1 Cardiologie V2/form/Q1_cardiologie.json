@@ -57,7 +57,7 @@
         ],
         "children": [
           {
-            "tagOID": "S_CV_ATCD_HTA",
+            "tagOID": "S_CV_ATCD",
             "type": "SCORE",
             "hideNodeIfEmpty": true,
             "ranges": [
@@ -65,297 +65,318 @@
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text": "HTA"
+                "text": "ATCD"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FF0000",
-                "text": "HTA"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_CV_ATCD_ANGOR",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "ANGOR"
-              },
-              {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "ANGOR"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_CV_ATCD_INFARCTUS",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "IDM"
-              },
-              {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "IDM"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_CV_ATCD_AVC",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "AVC"
-              },
-              {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "AVC"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_CV_ATCD_ARTERITE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "ARTERITE"
-              },
-              {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "ARTERITE"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_CV_ATCD_EMBOLIE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "EP"
-              },
-              {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "EP"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_CV_ATCD_PHLEBITE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "PHLEB"
-              },
-              {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "PHLEB"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_CV_ATCD_VARICE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "VARICE"
-              },
-              {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "VARICE"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_CV_ATCD_VALVULOPATHIE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "VALV"
-              },
-              {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "VALV"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_CV_ATCD_ENDOCARD",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "ENDOCARD"
-              },
-              {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "ENDOCARD"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_CV_ATCD_PERICARD",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "PERICARD"
-              },
-              {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "PERICARD"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_CV_ATCD_TDR",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "TDR"
-              },
-              {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "TDR"
+                "text": "ATCD"
               }
             ],
             "children": [
+              {
+              "tagOID": "S_CV_ATCD_HTA",
+                  "type": "SCORE",
+                  "hideNodeIfEmpty": true,
+                  "ranges": [
+                    {
+                      "min": 0,
+                      "max": 0,
+                      "color": "00FF00",
+                      "text": "HTA"
+                    },
+                    {
+                      "min": 1,
+                      "max": 1,
+                      "color": "FF0000",
+                      "text": "HTA"
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "tagOID": "S_CV_ATCD_ANGOR",
+                  "type": "SCORE",
+                  "hideNodeIfEmpty": true,
+                  "ranges": [
+                    {
+                      "min": 0,
+                      "max": 0,
+                      "color": "00FF00",
+                      "text": "ANGOR"
+                    },
+                    {
+                      "min": 1,
+                      "max": 1,
+                      "color": "FF0000",
+                      "text": "ANGOR"
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "tagOID": "S_CV_ATCD_INFARCTUS",
+                  "type": "SCORE",
+                  "hideNodeIfEmpty": true,
+                  "ranges": [
+                    {
+                      "min": 0,
+                      "max": 0,
+                      "color": "00FF00",
+                      "text": "IDM"
+                    },
+                    {
+                      "min": 1,
+                      "max": 1,
+                      "color": "FF0000",
+                      "text": "IDM"
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "tagOID": "S_CV_ATCD_AVC",
+                  "type": "SCORE",
+                  "hideNodeIfEmpty": true,
+                  "ranges": [
+                    {
+                      "min": 0,
+                      "max": 0,
+                      "color": "00FF00",
+                      "text": "AVC"
+                    },
+                    {
+                      "min": 1,
+                      "max": 1,
+                      "color": "FF0000",
+                      "text": "AVC"
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "tagOID": "S_CV_ATCD_ARTERITE",
+                  "type": "SCORE",
+                  "hideNodeIfEmpty": true,
+                  "ranges": [
+                    {
+                      "min": 0,
+                      "max": 0,
+                      "color": "00FF00",
+                      "text": "ARTERITE"
+                    },
+                    {
+                      "min": 1,
+                      "max": 1,
+                      "color": "FF0000",
+                      "text": "ARTERITE"
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "tagOID": "S_CV_ATCD_EMBOLIE",
+                  "type": "SCORE",
+                  "hideNodeIfEmpty": true,
+                  "ranges": [
+                    {
+                      "min": 0,
+                      "max": 0,
+                      "color": "00FF00",
+                      "text": "EP"
+                    },
+                    {
+                      "min": 1,
+                      "max": 1,
+                      "color": "FF0000",
+                      "text": "EP"
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "tagOID": "S_CV_ATCD_PHLEBITE",
+                  "type": "SCORE",
+                  "hideNodeIfEmpty": true,
+                  "ranges": [
+                    {
+                      "min": 0,
+                      "max": 0,
+                      "color": "00FF00",
+                      "text": "PHLEB"
+                    },
+                    {
+                      "min": 1,
+                      "max": 1,
+                      "color": "FF0000",
+                      "text": "PHLEB"
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "tagOID": "S_CV_ATCD_VARICE",
+                  "type": "SCORE",
+                  "hideNodeIfEmpty": true,
+                  "ranges": [
+                    {
+                      "min": 0,
+                      "max": 0,
+                      "color": "00FF00",
+                      "text": "VARICE"
+                    },
+                    {
+                      "min": 1,
+                      "max": 1,
+                      "color": "FF0000",
+                      "text": "VARICE"
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "tagOID": "S_CV_ATCD_VALVULOPATHIE",
+                  "type": "SCORE",
+                  "hideNodeIfEmpty": true,
+                  "ranges": [
+                    {
+                      "min": 0,
+                      "max": 0,
+                      "color": "00FF00",
+                      "text": "VALV"
+                    },
+                    {
+                      "min": 1,
+                      "max": 1,
+                      "color": "FF0000",
+                      "text": "VALV"
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "tagOID": "S_CV_ATCD_ENDOCARD",
+                  "type": "SCORE",
+                  "hideNodeIfEmpty": true,
+                  "ranges": [
+                    {
+                      "min": 0,
+                      "max": 0,
+                      "color": "00FF00",
+                      "text": "ENDOCARD"
+                    },
+                    {
+                      "min": 1,
+                      "max": 1,
+                      "color": "FF0000",
+                      "text": "ENDOCARD"
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "tagOID": "S_CV_ATCD_PERICARD",
+                  "type": "SCORE",
+                  "hideNodeIfEmpty": true,
+                  "ranges": [
+                    {
+                      "min": 0,
+                      "max": 0,
+                      "color": "00FF00",
+                      "text": "PERICARD"
+                    },
+                    {
+                      "min": 1,
+                      "max": 1,
+                      "color": "FF0000",
+                      "text": "PERICARD"
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "tagOID": "S_CV_ATCD_TDR",
+                  "type": "SCORE",
+                  "hideNodeIfEmpty": true,
+                  "ranges": [
+                    {
+                      "min": 0,
+                      "max": 0,
+                      "color": "00FF00",
+                      "text": "TDR"
+                    },
+                    {
+                      "min": 1,
+                      "max": 1,
+                      "color": "FF0000",
+                      "text": "TDR"
+                    }
+                  ],
+                  "children": [
+                  ]
+                },
+                {
+                  "tagOID": "S_CV_ATCD_CARDIOMYOPATHIE",
+                  "type": "SCORE",
+                  "hideNodeIfEmpty": true,
+                  "ranges": [
+                    {
+                      "min": 0,
+                      "max": 0,
+                      "color": "00FF00",
+                      "text": "CARDIOMYO"
+                    },
+                    {
+                      "min": 1,
+                      "max": 1,
+                      "color": "FF0000",
+                      "text": "CARDIOMYO"
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "tagOID": "S_CV_ATCD_ANEVRYSME",
+                  "type": "SCORE",
+                  "hideNodeIfEmpty": true,
+                  "ranges": [
+                    {
+                      "min": 0,
+                      "max": 0,
+                      "color": "00FF00",
+                      "text": "ANEVRYSM"
+                    },
+                    {
+                      "min": 1,
+                      "max": 1,
+                      "color": "FF0000",
+                      "text": "ANEVRYSM"
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "tagOID": "S_CV_ATCD_AUTRES",
+                  "type": "SCORE",
+                  "hideNodeIfEmpty": true,
+                  "ranges": [
+                    {
+                      "min": 0,
+                      "max": 0,
+                      "color": "00FF00",
+                      "text": "AUTRES"
+                    },
+                    {
+                      "min": 1,
+                      "max": 1,
+                      "color": "FF0000",
+                      "text": "AUTRES"
+                    }
+                  ],
+                  "children": []
+                }
             ]
-          },
-          {
-            "tagOID": "S_CV_ATCD_CARDIOMYOPATHIE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "CARDIOMYO"
-              },
-              {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "CARDIOMYO"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_CV_ATCD_ANEVRYSME",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "ANEVRYSM"
-              },
-              {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "ANEVRYSM"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_CV_ATCD_AUTRES",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text": "AUTRES"
-              },
-              {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text": "AUTRES"
-              }
-            ],
-            "children": []
           }
         ]
       }

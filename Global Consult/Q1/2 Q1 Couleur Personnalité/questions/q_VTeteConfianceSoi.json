@@ -1,0 +1,73 @@
+{
+  "oid": "q_VTeteConfianceSoi",
+  "title": "Sur une échelle de 0 (pas du tout confiance) à 10 (tout à fait confiance) comment évaluez-vous votre confiance en vous, votre capacité à réussir à atteindre habituellement vos objectifs ?",
+  "text": "Sur une échelle de 0 (pas du tout confiance) à 10 (tout à fait confiance) comment évaluez-vous votre confiance en vous, votre capacité à réussir à atteindre habituellement vos objectifs ?",
+  "type": "ANALOG_SCALE",
+  "scale": {
+    "min": 0.0,
+    "max": 10.0,
+    "step": 1.0,
+    "maxText": "Tout à fait confiance",
+    "minText": "Pas du tout confiance",
+    "maxValue": "10",
+    "midValue": "5",
+    "minValue": "0"
+  },
+  "scores": [
+    {
+      "conditions": "q_VTeteConfianceSoi == 0",
+      "tagOID": "tag_VTeteConfianceSoi",
+      "value": 0
+    },
+    {
+      "conditions": "q_VTeteConfianceSoi == 1",
+      "tagOID": "tag_VTeteConfianceSoi",
+      "value": 1
+    },
+    {
+      "conditions": "q_VTeteConfianceSoi == 2",
+      "tagOID": "tag_VTeteConfianceSoi",
+      "value": 2
+    },
+    {
+      "conditions": "q_VTeteConfianceSoi == 3",
+      "tagOID": "tag_VTeteConfianceSoi",
+      "value": 3
+    },
+    {
+      "conditions": "q_VTeteConfianceSoi == 4",
+      "tagOID": "tag_VTeteConfianceSoi",
+      "value": 4
+    },
+    {
+      "conditions": "q_VTeteConfianceSoi == 5",
+      "tagOID": "tag_VTeteConfianceSoi",
+      "value": 5
+    },
+    {
+      "conditions": "q_VTeteConfianceSoi == 6",
+      "tagOID": "tag_VTeteConfianceSoi",
+      "value": 6
+    },
+    {
+      "conditions": "q_VTeteConfianceSoi == 7",
+      "tagOID": "tag_VTeteConfianceSoi",
+      "value": 7
+    },
+    {
+      "conditions": "q_VTeteConfianceSoi == 8",
+      "tagOID": "tag_VTeteConfianceSoi",
+      "value": 8
+    },
+    {
+      "conditions": "q_VTeteConfianceSoi == 9",
+      "tagOID": "tag_VTeteConfianceSoi",
+      "value": 9
+    },
+    {
+      "conditions": "q_VTeteConfianceSoi == 10",
+      "tagOID": "tag_VTeteConfianceSoi",
+      "value": 10
+    }
+  ]
+}

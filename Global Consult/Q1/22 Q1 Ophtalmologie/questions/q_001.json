@@ -53,11 +53,11 @@
       "text": "Cécité uni ou bilatérale"
     },
     {
-      "code": "13",
+      "code": "12",
       "text": "Autre(s) antécédent(s)"
     },
     {
-      "code": "12",
+      "code": "13",
       "text": "Aucun de ces antécédents",
       "exclusive":true
     }
@@ -124,18 +124,18 @@
       "value": "1"
     },
     {
-      "conditions": "!(\"12\" in q_S_OPH_001)",
-      "tagOID": "S_OPH_ATCD",
+      "conditions": "\"12\" in q_S_OPH_001",
+      "tagOID": "S_OPH_ATCD_AUTRE",
       "value": "1"
     },
     {
-      "conditions": "!(\"13\" in q_S_OPH_001)",
-      "tagOID": "S_OPH_ATCD_AUTRE",
+      "conditions": "\"13\" in q_S_OPH_001",
+      "tagOID": "S_OPH_ATCD",
       "value": "0"
     },
     {
-      "conditions": "\"13\" in q_S_OPH_001",
-      "tagOID": "S_OPH_ATCD_AUTRE",
+      "conditions": "!(\"13\" in q_S_OPH_001)",
+      "tagOID": "S_OPH_ATCD",
       "value": "1"
     }
   ]

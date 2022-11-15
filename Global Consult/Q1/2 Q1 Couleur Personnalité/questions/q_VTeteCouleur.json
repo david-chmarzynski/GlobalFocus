@@ -1,0 +1,46 @@
+{
+  "oid": "q_VTeteCouleur",
+  "title": "De quelle description vous sentez-vous le (la) plus proche ? (une seule réponse)",
+  "text": "De quelle description vous sentez-vous le (la) plus proche ? (une seule réponse)",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Je suis sensible, empathique, rêveur(se), imaginatif(ve)"
+    },
+    {
+      "code": "1",
+      "text": "Je suis chaleureux(se), extraverti(e), créati(ve), curieux(se)"
+    },
+    {
+      "code": "2",
+      "text": "Je suis prudent(e), ordonné(e), consciencieux(se), respectueux(se), fidèle"
+    },
+    {
+      "code": "3",
+      "text": "Je suis direct(e), motivé(e) par les challenges, analytique, centré(e) sur l’essentiel, je me décide rapidement"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VTeteCouleur == '0'",
+      "tagOID": "tag_VTeteCouleur",
+      "value": 0
+    },
+    {
+      "conditions": "q_VTeteCouleur == '1'",
+      "tagOID": "tag_VTeteCouleur",
+      "value": 1
+    },
+    {
+      "conditions": "q_VTeteCouleur == '2'",
+      "tagOID": "tag_VTeteCouleur",
+      "value": 2
+    },
+    {
+      "conditions": "q_VTeteCouleur == '3'",
+      "tagOID": "tag_VTeteCouleur",
+      "value": 3
+    }
+  ]
+}

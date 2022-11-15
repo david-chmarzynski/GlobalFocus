@@ -244,21 +244,9 @@
       }
     },
     {
-      "question": "q_q1_hemato_023",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
       "question": "q_q1_hemato_024",
       "level": 1,
-      "isGlobal": true,
-      "trigger": {
-        "conditions": "(\"0\" in q_q1_hemato_023) || (0 in q_q1_hemato_023)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues": {
-          "q_q1_hemato_023": "aucun"
-        }
-      }
+      "isGlobal": true
     },
     {
       "question": "q_q1_hemato_025",

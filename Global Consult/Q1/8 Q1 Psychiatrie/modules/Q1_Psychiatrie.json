@@ -73,22 +73,22 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"suicide\" in q_Q1_Psychiatrie_002)",
+        "conditions": "!(\"depression suicide\" in q_Q1_Psychiatrie_002)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_Q1_Psychiatrie_002": "autre"
+          "q_Q1_Psychiatrie_002": "aucun"
         }
       }
     },
     {
-      "question": "q_Q1_Psychiatrie_062",
+      "question": "q_Q1_Psychiatrie_013",
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Oui\" in q_Q1_Psychiatrie_002)",
+        "conditions": "!(\"Burn Out\" in q_Q1_Psychiatrie_002)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_Q1_Psychiatrie_002": "Non"
+          "q_Q1_Psychiatrie_002": "aucun"
         }
       }
     },
@@ -125,35 +125,6 @@
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_Q1_Psychiatrie_005": "aucun"
-        }
-      }
-    },
-    {
-      "question": "q_Q1_Psychiatrie_060",
-      "level": 1,
-      "isGlobal": true
-    },
-    {
-      "question": "q_Q1_Psychiatrie_061",
-      "level": 1,
-      "isGlobal": true,
-      "trigger": {
-        "conditions": "!(\"Oui\" in q_Q1_Psychiatrie_060)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues": {
-          "q_Q1_Psychiatrie_060": "Non"
-        }
-      }
-    },
-    {
-      "question": "q_Q1_Psychiatrie_062",
-      "level": 1,
-      "isGlobal": true,
-      "trigger": {
-        "conditions": "!(\"Burn Out\" in q_Q1_Psychiatrie_002)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues": {
-          "q_Q1_Psychiatrie_002": "Non"
         }
       }
     }

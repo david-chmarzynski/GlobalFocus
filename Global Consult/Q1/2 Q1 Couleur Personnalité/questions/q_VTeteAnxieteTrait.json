@@ -1,0 +1,64 @@
+{
+  "oid": "q_VTeteAnxieteTrait",
+  "title": "Dans votre vie, vous sentez-vous généralement calme, détendu, serein, confiant ? (choisissez la réponse la plus proche de votre fonctionnement habituel)",
+  "text": "Dans votre vie, vous sentez-vous généralement calme, détendu, serein, confiant ? (choisissez la réponse la plus proche de votre fonctionnement habituel)",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Toujours"
+    },
+    {
+      "code": "1",
+      "text": "Le plus souvent"
+    },
+    {
+      "code": "2",
+      "text": "Souvent"
+    },
+    {
+      "code": "3",
+      "text": "Parfois"
+    },
+    {
+      "code": "4",
+      "text": "Presque jamais"
+    },
+    {
+      "code": "5",
+      "text": "Jamais"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VTeteAnxieteTrait == '0'",
+      "tagOID": "tag_VTeteAnxieteTrait",
+      "value": 0
+    },
+    {
+      "conditions": "q_VTeteAnxieteTrait == '1'",
+      "tagOID": "tag_VTeteAnxieteTrait",
+      "value": 1
+    },
+    {
+      "conditions": "q_VTeteAnxieteTrait == '2'",
+      "tagOID": "tag_VTeteAnxieteTrait",
+      "value": 2
+    },
+    {
+      "conditions": "q_VTeteAnxieteTrait == '3'",
+      "tagOID": "tag_VTeteAnxieteTrait",
+      "value": 3
+    },
+    {
+      "conditions": "q_VTeteAnxieteTrait == '4'",
+      "tagOID": "tag_VTeteAnxieteTrait",
+      "value": 4
+    },
+    {
+      "conditions": "q_VTeteAnxieteTrait == '5'",
+      "tagOID": "tag_VTeteAnxieteTrait",
+      "value": 5
+    }
+  ]
+}

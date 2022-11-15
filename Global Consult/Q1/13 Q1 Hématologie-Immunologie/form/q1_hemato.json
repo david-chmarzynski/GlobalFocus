@@ -1055,7 +1055,7 @@
                 ]
               },
               {
-                "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO",
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_ACTUELLEMENT",
                 "type": "SCORE",
                 "hideNodeIfEmpty": true,
                 "ranges": [
@@ -1063,117 +1063,96 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "TRT IMMUNO"
+                    "text": "TRT ACTUEL"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "TRT IMMUNO"
+                    "text": "TRT ACTUEL"
                   }
                 ],
-                "children": [
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_PASSE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
                   {
-                    "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_ACTUELLEMENT",
-                    "type": "SCORE",
-                    "hideNodeIfEmpty": true,
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "TRT ACTUEL"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "TRT ACTUEL"
-                      }
-                    ],
-                    "children": []
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "PASSE"
                   },
                   {
-                    "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_PASSE",
-                    "type": "SCORE",
-                    "hideNodeIfEmpty": true,
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "PASSE"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "PASSE"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_ACTUEL_PASSE",
-                    "type": "SCORE",
-                    "hideNodeIfEmpty": true,
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "TRT ACT-PASS"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "TRT ACT-PASS"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_JAMAIS",
-                    "type": "SCORE",
-                    "hideNodeIfEmpty": true,
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "JAMAIS"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "JAMAIS"
-                      }
-                    ],
-                    "children": []
-                  },
-                  {
-                    "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_NSP",
-                    "type": "SCORE",
-                    "hideNodeIfEmpty": true,
-                    "ranges": [
-                      {
-                        "min": 0,
-                        "max": 0,
-                        "color": "00FF00",
-                        "text": "TRT NSP"
-                      },
-                      {
-                        "min": 1,
-                        "max": 1,
-                        "color": "FF0000",
-                        "text": "TRT NSP"
-                      }
-                    ],
-                    "children": []
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "PASSE"
                   }
-                ]
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_ACTUEL_PASSE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "TRT ACT-PASS"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "TRT ACT-PASS"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_JAMAIS",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "JAMAIS"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "JAMAIS"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_NSP",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "TRT NSP"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "TRT NSP"
+                  }
+                ],
+                "children": []
               }
             ]
           },
@@ -1225,13 +1204,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "ALIM"
+                    "text": "ALIMENT"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "ALIM"
+                    "text": "ALIMENT"
                   }
                 ],
                 "children": []
@@ -1606,13 +1585,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "PVH"
+                    "text": "HPV"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "PVH"
+                    "text": "HPV"
                   }
                 ],
                 "children": []

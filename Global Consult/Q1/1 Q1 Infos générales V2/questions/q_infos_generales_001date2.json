@@ -1,0 +1,8 @@
+{
+  "oid": "q_infos_generales_001date2",
+  "title": "En quelle année vous êtes-vous marié(e) ? (format JJ/MM/AAAA)",
+  "text": "En quelle année vous êtes-vous marié(e) ? (format JJ/MM/AAAA)",
+  "type": "TEXT",
+  "choices": [],
+  "scores": []
+}

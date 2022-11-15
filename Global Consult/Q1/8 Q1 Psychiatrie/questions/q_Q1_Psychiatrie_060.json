@@ -1,7 +1,7 @@
 {
   "oid": "q_Q1_Psychiatrie_060",
-  "title": "Avez-vous actuellement des soins en lien avec  votre équilibre émotionnel et/ou votre santé psychologique? (plusieurs réponses possibles)",
-  "text": "Avez-vous actuellement des soins en lien avec  votre équilibre émotionnel et/ou votre santé psychologique? (plusieurs réponses possibles)",
+  "title": "Avez-vous actuellement des soins en lien avec votre équilibre émotionnel et/ou votre santé psychologique? (plusieurs réponses possibles)",
+  "text": "Avez-vous actuellement des soins en lien avec votre équilibre émotionnel et/ou votre santé psychologique? (plusieurs réponses possibles)",
   "type": "MULTI_CHOICES",
   "choices": [
     {

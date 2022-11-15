@@ -61,7 +61,7 @@
         ],
         "children": [
           {
-            "tagOID": "S_OPH_ATCD_CANCER_OEIL",
+            "tagOID": "S_OPH_ATCD",
             "type": "SCORE",
             "hideNodeIfEmpty": true,
             "ranges": [
@@ -69,256 +69,277 @@
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text":"CANCER"
+                "text": "ATCD"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FF0000",
-                "text":"CANCER"
+                "text": "ATCD"
               }
             ],
-            "children": []
-          },
-          {
-            "tagOID": "S_OPH_ATCD_DMLA",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
+            "children": [
               {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text":"DMLA"
+                "tagOID": "S_OPH_ATCD_CANCER_OEIL",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"CANCER"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"CANCER"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text":"DMLA"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_OPH_ATCD_GLAUCOME",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text":"GLAU"
+                "tagOID": "S_OPH_ATCD_DMLA",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"DMLA"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"DMLA"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text":"GLAU"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_OPH_ATCD_UVEITE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text":"UVEIT"
+                "tagOID": "S_OPH_ATCD_GLAUCOME",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"GLAU"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"GLAU"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text":"UVEIT"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_OPH_ATCD_KERATITE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text":"KERA"
+                "tagOID": "S_OPH_ATCD_UVEITE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"UVEIT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"UVEIT"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text":"KERA"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_OPH_ATCD_CATARACTE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text":"CATA"
+                "tagOID": "S_OPH_ATCD_KERATITE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"KERA"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"KERA"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text":"CATA"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_OPH_ATCD_RETINE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text":"RETINO"
+                "tagOID": "S_OPH_ATCD_CATARACTE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"CATA"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"CATA"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text":"RETINO"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_OPH_ATCD_MYOPIE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text":"MYOP"
+                "tagOID": "S_OPH_ATCD_RETINE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"RETINO"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"RETINO"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text":"MYOP"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_OPH_ATCD_PRESBYTIE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text":"PRESB"
+                "tagOID": "S_OPH_ATCD_MYOPIE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"MYOP"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"MYOP"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text":"PRESB"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_OPH_ATCD_ASTIGMATIE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text":"ASTI"
+                "tagOID": "S_OPH_ATCD_PRESBYTIE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"PRESB"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"PRESB"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text":"ASTI"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_OPH_ATCD_HYPERMETROPIE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text":"HYPER"
+                "tagOID": "S_OPH_ATCD_ASTIGMATIE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"ASTI"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"ASTI"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text":"HYPER"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_OPH_ATCD_CECITE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text":"CECIT"
+                "tagOID": "S_OPH_ATCD_HYPERMETROPIE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"HYPER"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"HYPER"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text":"CECIT"
-              }
-            ],
-            "children": []
-          },
-          {
-            "tagOID": "S_OPH_ATCD_AUTRE",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
-                "color": "00FF00",
-                "text":"AUTRE"
+                "tagOID": "S_OPH_ATCD_CECITE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"CECIT"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"CECIT"
+                  }
+                ],
+                "children": []
               },
               {
-                "min": 1,
-                "max": 1,
-                "color": "FF0000",
-                "text":"AUTRE"
+                "tagOID": "S_OPH_ATCD_AUTRE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text":"AUTRE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text":"AUTRE"
+                  }
+                ],
+                "children": []
               }
-            ],
-            "children": []
+            ]
           }
         ]
       }

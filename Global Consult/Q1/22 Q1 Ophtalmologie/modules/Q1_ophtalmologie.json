@@ -17,7 +17,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"13\" in q_S_OPH_001)",
+        "conditions": "!(\"12\" in q_S_OPH_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_S_OPH_001":"12"

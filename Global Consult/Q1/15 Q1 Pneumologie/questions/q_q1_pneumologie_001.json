@@ -91,6 +91,16 @@
       "conditions": "\"Autre(s) antécédent(s)\" in q_q1_pneumologie_001",
       "tagOID": "S_PN_ATCD_AUTRE",
       "value": 1
+    },
+    {
+      "conditions": "\"aucun\" in q_q1_pneumologie_001",
+      "tagOID": "S_PN_ATCD",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_q1_pneumologie_001)",
+      "tagOID": "S_PN_ATCD",
+      "value": 0
     }
   ]
 }

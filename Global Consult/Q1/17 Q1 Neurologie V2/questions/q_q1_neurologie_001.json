@@ -127,6 +127,16 @@
       "conditions": "\"autres\" in q_q1_neurologie_001",
       "tagOID": "S_N_ATCD_AUTRES",
       "value": 1
+    },
+    {
+      "conditions": "\"aucun\" in q_q1_neurologie_001",
+      "tagOID": "S_N_ATCD",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_q1_neurologie_001)",
+      "tagOID": "S_N_ATCD",
+      "value": 1
     }
   ]
 }

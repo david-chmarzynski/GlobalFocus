@@ -32,9 +32,19 @@
   ],
   "scores": [
     {
+      "conditions": "!(\"0\" in q_endocrinologie_001)",
+      "tagOID": "S_ENDO_ATCD_THYROIDE",
+      "value": "0"
+    },
+    {
       "conditions": "\"0\" in q_endocrinologie_001",
       "tagOID": "S_ENDO_ATCD_THYROIDE",
       "value": "1"
+    },
+    {
+      "conditions": "!(\"1\" in q_endocrinologie_001)",
+      "tagOID": "S_ENDO_ATCD_PARATHYROIDE",
+      "value": "0"
     },
     {
       "conditions": "\"1\" in q_endocrinologie_001",
@@ -42,14 +52,29 @@
       "value": "1"
     },
     {
+      "conditions": "!(\"2\" in q_endocrinologie_001)",
+      "tagOID": "S_ENDO_ATCD_HYPOPHYSE",
+      "value": "0"
+    },
+    {
       "conditions": "\"2\" in q_endocrinologie_001",
       "tagOID": "S_ENDO_ATCD_HYPOPHYSE",
       "value": "1"
     },
     {
+      "conditions": "!(\"3\" in q_endocrinologie_001)",
+      "tagOID": "S_ENDO_ATCD_SURRENALE",
+      "value": "0"
+    },
+    {
       "conditions": "\"3\" in q_endocrinologie_001",
       "tagOID": "S_ENDO_ATCD_SURRENALE",
       "value": "1"
+    },
+    {
+      "conditions": "!(\"4\" in q_endocrinologie_001)",
+      "tagOID": "S_ENDO_ATCD_METABOLIQUE",
+      "value": "0"
     },
     {
       "conditions": "\"4\" in q_endocrinologie_001",
@@ -60,6 +85,11 @@
       "conditions": "!(\"5\" in q_endocrinologie_001)",
       "tagOID": "S_ENDO_ATCD",
       "value": "1"
+    },
+    {
+      "conditions": "(\"5\" in q_endocrinologie_001)",
+      "tagOID": "S_ENDO_ATCD",
+      "value": "0"
     }
   ]
 }

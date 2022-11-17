@@ -17,7 +17,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"0\" in q_q1_gynecologie_001)",
+        "conditions": "(q_q1_gynecologie_001 == '0') && (patient_gender == 'MALE')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_001": "aucun"

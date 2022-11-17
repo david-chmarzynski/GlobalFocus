@@ -14,7 +14,17 @@
   "professions": [
     "DENTIST"
   ],
-  "diagnostics": [],
+  "diagnostics": [
+    {
+      "oid": "diagnosticSAOS",
+      "conditions" :
+      {
+          "SAOS_VERT": "tag_VSomSuspicionSAOSBerlinCAT1 < 2 && tag_VSomSuspicionSAOSBerlinCAT2 < 2 && tag_VSomSuspicionSAOSBerlinCAT3 < 2",
+          "SAOS_ORANGE": "tag_VSomSuspicionSAOSBerlinCAT1 >= 2 && tag_VSomSuspicionSAOSBerlinCAT2 == 1",
+          "SAOS_ROUGE": "(tag_VSomSuspicionSAOSBerlinCAT1 >= 2 && tag_VSomSuspicionSAOSBerlinCAT2 >= 2) ||  (tag_VSomSuspicionSAOSBerlinCAT2 >= 2 && tag_VSomSuspicionSAOSBerlinCAT3 >= 2)(tag_VSomSuspicionSAOSBerlinCAT1 >= 2 && tag_VSomSuspicionSAOSBerlinCAT3 >= 2)"
+      }
+    }
+  ],
   "reportingTrees": [
     {
       "category": "LIFE_STYLE",

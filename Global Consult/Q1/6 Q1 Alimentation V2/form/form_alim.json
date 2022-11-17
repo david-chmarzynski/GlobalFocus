@@ -1,9 +1,9 @@
 {
   "oid": "form_alim",
-  "title": "Global consult Q1 Alimentation",
+  "title": "Q1 Global Focus Alimentation",
   "estimatedTime": 10,
   "pricing": 10,
-  "description": "Global consult Q1 module alimentation",
+  "description": "Q1 Global Focus Alimentation",
   "levelMax": "1",
   "authors": [
     "Jean-Philippe Astruc"

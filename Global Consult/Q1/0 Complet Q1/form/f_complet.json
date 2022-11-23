@@ -609,6 +609,12 @@
             "max": 4.9,
             "color": "FF0000",
             "text": "SATISF/VIE"
+          },
+          {
+            "min": 5,
+            "max": 5.9,
+            "color": "990000",
+            "text": "SATISF/VIE"
           }
         ],
         "children": [
@@ -645,6 +651,12 @@
                 "min": 4,
                 "max": 4.9,
                 "color": "FF0000",
+                "text": "VÉCU/W"
+              },
+              {
+                "min": 5,
+                "max": 5.9,
+                "color": "990000",
                 "text": "VÉCU/W"
               }
             ],
@@ -683,6 +695,12 @@
                     "max": 4.9,
                     "color": "FF0000",
                     "text": "ORG/W"
+                  },
+                  {
+                    "min": 5,
+                    "max": 5.9,
+                    "color": "990000",
+                    "text": "ORG/W"
                   }
                 ],
                 "children": []
@@ -720,6 +738,12 @@
                     "min": 4,
                     "max": 4.9,
                     "color": "FF0000",
+                    "text": "HUM/W"
+                  },
+                  {
+                    "min": 5,
+                    "max": 5.9,
+                    "color": "990000",
                     "text": "HUM/W"
                   }
                 ],
@@ -792,6 +816,12 @@
                 "min": 4,
                 "max": 4.9,
                 "color": "FF0000",
+                "text": "QDVGLOB"
+              },
+              {
+                "min": 5,
+                "max": 5.9,
+                "color": "990000",
                 "text": "QDVGLOB"
               }
             ],

@@ -1,0 +1,55 @@
+{
+  "oid": "q_VTeteStressPSS4",
+  "title": "Au cours du dernier mois,  combien de fois avez-vous trouvé  que les difficultés s'accumulaient à  un tel point que vous ne pouviez  les surmonter ? ",
+  "text": "Au cours du dernier mois,  combien de fois avez-vous trouvé  que les difficultés s'accumulaient à  un tel point que vous ne pouviez  les surmonter ? ",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "Presque jamais (rarement)"
+    },
+    {
+      "code": "2",
+      "text": "Parfois"
+    },
+    {
+      "code": "3",
+      "text": "Assez souvent"
+    },
+    {
+      "code": "4",
+      "text": "Très souvent"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VTeteStressPSS4 == \"0\"",
+      "tagOID": "Tag_VTeteStressPSS4",
+      "value": 0
+    },
+    {
+      "conditions": "q_VTeteStressPSS4 == \"1\"",
+      "tagOID": "Tag_VTeteStressPSS4",
+      "value": 1
+    },
+    {
+      "conditions": "q_VTeteStressPSS4 == \"2\"",
+      "tagOID": "Tag_VTeteStressPSS4",
+      "value": 2
+    },
+    {
+      "conditions": "q_VTeteStressPSS4 == \"3\"",
+      "tagOID": "Tag_VTeteStressPSS4",
+      "value": 3
+    },
+    {
+      "conditions": "q_VTeteStressPSS4 == \"4\"",
+      "tagOID": "Tag_VTeteStressPSS4",
+      "value": 4
+    }
+  ]
+}

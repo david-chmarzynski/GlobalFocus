@@ -23,6 +23,10 @@
     {
       "code": "4",
       "text": "Insatisfait(e)"
+    },
+    {
+      "code": "4",
+      "text": "Très insatisfait(e)"
     }
   ],
   "scores": [
@@ -50,6 +54,11 @@
       "conditions": "q_VContexteVieQDVGlobal == \"4\"",
       "tagOID": "tag_VContexteVieQDVGlobal",
       "value": 4
+    },
+    {
+      "conditions": "q_VContexteVieQDVGlobal == \"5\"",
+      "tagOID": "tag_VContexteVieQDVGlobal",
+      "value": 5
     }
   ]
 }

@@ -1,0 +1,28 @@
+{
+  "oid": "q_VTeteImageCorporelleBDD-Q1",
+  "title": "etes-vous très préoccupé(e) par  l’aspect d’une partie de votre  corps que vous trouvez  inesthétique ? ",
+  "text": "etes-vous très préoccupé(e) par  l’aspect d’une partie de votre  corps que vous trouvez  inesthétique ? ",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VTeteImageCorporelleBDD-Q1 == \"0\"",
+      "tagOID": "Tag_VTeteImageCorporelleBDD1",
+      "value": 1
+    },
+    {
+      "conditions": "q_VTeteImageCorporelleBDD-Q1 == \"1\"",
+      "tagOID": "Tag_VTeteImageCorporelleBDD1",
+      "value": 0
+    }
+  ]
+}

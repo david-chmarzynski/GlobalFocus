@@ -1,0 +1,28 @@
+{
+  "oid": "q_VTeteImageCorporelleBDD-Q6",
+  "title": "Est-ce que la principale préoccupation  concernant votre apparence est que  vous ne vous trouvez pas assez mince  ou que vous aimeriez être plus gros ?",
+  "text": "Est-ce que la principale préoccupation  concernant votre apparence est que  vous ne vous trouvez pas assez mince  ou que vous aimeriez être plus gros ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VTeteImageCorporelleBDD-Q6 == \"0\"",
+      "tagOID": "Tag_VTeteImageCorporelleBDD6",
+      "value": 0
+    },
+    {
+      "conditions": "q_VTeteImageCorporelleBDD-Q6 == \"1\"",
+      "tagOID": "Tag_VTeteImageCorporelleBDD6",
+      "value": 1
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "oid": "q_VTeteStressPSS1",
+  "title": "Au cours du dernier mois,  combien de fois vous a t’il semblé  difficile de contrôler les choses  importantes de votre vie ?",
+  "text": "Au cours du dernier mois,  combien de fois vous a t’il semblé  difficile de contrôler les choses  importantes de votre vie ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "Presque jamais (rarement)"
+    },
+    {
+      "code": "2",
+      "text": "Parfois"
+    },
+    {
+      "code": "3",
+      "text": "Assez souvent"
+    },
+    {
+      "code": "4",
+      "text": "Très souvent"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VTeteStressPSS1 == \"0\"",
+      "tagOID": "Tag_VTeteStressPSS1",
+      "value": 0
+    },
+    {
+      "conditions": "q_VTeteStressPSS1 == \"1\"",
+      "tagOID": "Tag_VTeteStressPSS1",
+      "value": 1
+    },
+    {
+      "conditions": "q_VTeteStressPSS1 == \"2\"",
+      "tagOID": "Tag_VTeteStressPSS1",
+      "value": 2
+    },
+    {
+      "conditions": "q_VTeteStressPSS1 == \"3\"",
+      "tagOID": "Tag_VTeteStressPSS1",
+      "value": 3
+    },
+    {
+      "conditions": "q_VTeteStressPSS1 == \"4\"",
+      "tagOID": "Tag_VTeteStressPSS1",
+      "value": 4
+    }
+  ]
+}

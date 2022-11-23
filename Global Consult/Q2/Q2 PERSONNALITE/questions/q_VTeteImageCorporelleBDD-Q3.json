@@ -1,0 +1,28 @@
+{
+  "oid": "q_VTeteImageCorporelleBDD-Q3",
+  "title": "Si Oui, y pensez-vous souvent et  aimeriez-vous y penser moins  souvent ?",
+  "text": "Si Oui, y pensez-vous souvent et  aimeriez-vous y penser moins  souvent ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VTeteImageCorporelleBDD-Q3 == \"0\"",
+      "tagOID": "Tag_VTeteImageCorporelleBDD3",
+      "value": 1
+    },
+    {
+      "conditions": "q_VTeteImageCorporelleBDD-Q3 == \"1\"",
+      "tagOID": "Tag_VTeteImageCorporelleBDD3",
+      "value": 0
+    }
+  ]
+}

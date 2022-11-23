@@ -1,0 +1,55 @@
+{
+  "oid": "q_VTeteStressPSS2",
+  "title": "Au cours du dernier mois,  combien de fois vous etes-vous  senti(e) confiant(e) dans vos  capacités à prendre en main vos  problèmes personnels ?",
+  "text": "Au cours du dernier mois,  combien de fois vous etes-vous  senti(e) confiant(e) dans vos  capacités à prendre en main vos  problèmes personnels ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "Presque jamais (rarement)"
+    },
+    {
+      "code": "2",
+      "text": "Parfois"
+    },
+    {
+      "code": "3",
+      "text": "Assez souvent"
+    },
+    {
+      "code": "4",
+      "text": "Très souvent"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VTeteStressPSS2 == \"0\"",
+      "tagOID": "Tag_VTeteStressPSS2",
+      "value": 0
+    },
+    {
+      "conditions": "q_VTeteStressPSS2 == \"1\"",
+      "tagOID": "Tag_VTeteStressPSS2",
+      "value": 1
+    },
+    {
+      "conditions": "q_VTeteStressPSS2 == \"2\"",
+      "tagOID": "Tag_VTeteStressPSS2",
+      "value": 2
+    },
+    {
+      "conditions": "q_VTeteStressPSS2 == \"3\"",
+      "tagOID": "Tag_VTeteStressPSS2",
+      "value": 3
+    },
+    {
+      "conditions": "q_VTeteStressPSS2 == \"4\"",
+      "tagOID": "Tag_VTeteStressPSS2",
+      "value": 4
+    }
+  ]
+}

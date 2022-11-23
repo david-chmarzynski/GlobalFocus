@@ -1,0 +1,55 @@
+{
+  "oid": "q_VTeteImageCorporelleBDD-Q5",
+  "title": "Combien de  temps  pensez- vous par jour à  votre(vos)  défaut(s) ?",
+  "text": "Combien de  temps  pensez- vous par jour à  votre(vos)  défaut(s) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais ou presque"
+    },
+    {
+      "code": "0",
+      "text": "Moins d’1heure/jour "
+    },
+    {
+      "code": "4",
+      "text": "Entre 1 et 3  heures/jour"
+    },
+    {
+      "code": "4",
+      "text": "Entre trois et six  heures/jour "
+    },
+    {
+      "code": "4",
+      "text": "Plus de 6 heures/jour"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q2_tete_004 == \"0\"",
+      "tagOID": "Tag_VTeteImageCorporelleBDD5",
+      "value": 0
+    },
+    {
+      "conditions": "q_q2_tete_004 == \"0\"",
+      "tagOID": "Tag_VTeteImageCorporelleBDD5",
+      "value": 0
+    },
+    {
+      "conditions": "q_q2_tete_004 == \"4\"",
+      "tagOID": "Tag_VTeteImageCorporelleBDD5",
+      "value": 4
+    },
+    {
+      "conditions": "q_q2_tete_004 == \"4\"",
+      "tagOID": "Tag_VTeteImageCorporelleBDD5",
+      "value": 4
+    },
+    {
+      "conditions": "q_q2_tete_004 == \"4\"",
+      "tagOID": "Tag_VTeteImageCorporelleBDD5",
+      "value": 4
+    }
+  ]
+}

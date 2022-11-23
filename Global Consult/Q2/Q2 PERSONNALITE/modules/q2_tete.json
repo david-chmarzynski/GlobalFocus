@@ -1,0 +1,136 @@
+{
+  "oid": "q2_tete",
+  "title": "Q2 Personnalité",
+  "questions": [
+    {
+      "question": "q_VTeteStressPSS1",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_VTeteStressPSS2",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_VTeteStressPSS3",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_VTeteStressPSS4",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_VTeteImageCorporelleBDD-Q1",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_VTeteImageCorporelleBDD-Q2",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"1\" in q_VTeteImageCorporelleBDD-Q1)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_VTeteImageCorporelleBDD-Q1": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_VTeteImageCorporelleBDD-Q3",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"1\" in q_VTeteImageCorporelleBDD-Q2)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_VTeteImageCorporelleBDD-Q2": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_VTeteImageCorporelleBDD-Q4",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"1\" in q_VTeteImageCorporelleBDD-Q3)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_VTeteImageCorporelleBDD-Q3": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_VTeteImageCorporelleBDD-Q5",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "(\"0\" in q_VTeteImageCorporelleBDD-Q4)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_VTeteImageCorporelleBDD-Q4": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_VTeteImageCorporelleBDD-Q6",
+      "level": 1,
+      "isGlobal": true
+    }
+  ],
+  "calculations":[
+    {
+      "oid": "calc_image_corp",
+      "type": "NORMAL",
+      "isGlobal": true,
+      "calculation": "q_image_corp1 + q_image_corp2",
+      "title": "Calcul normal",
+      "text": "Calcul normal",
+      "scores": [
+        {
+          "tagOID": "calc_image_corp_color",
+          "conditions": "calc_image_corp < 10",
+          "value": 0
+        },
+        {
+          "tagOID": "calc_image_corp_color",
+          "conditions": "calc_image_corp == 10",
+          "value": 1
+        },
+        {
+          "tagOID": "calc_image_corp_color",
+          "conditions": "calc_image_corp == 11",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "oid": "calc_stress",
+      "type": "NORMAL",
+      "isGlobal": true,
+      "calculation": "q_VTeteStressPSS1 + q_VTeteStressPSS2 + q_VTeteStressPSS3 + q_VTeteStressPSS4",
+      "title": "Calcul normal",
+      "text": "Calcul normal",
+      "scores": [
+        {
+          "tagOID": "calc_stress_color",
+          "conditions": "calc_stress < 4",
+          "value": 0
+        },
+        {
+          "tagOID": "calc_stress_color",
+          "conditions": "calc_stress > 3 && calc_stress < 11",
+          "value": 1
+        },
+        {
+          "tagOID": "calc_stress_color",
+          "conditions": "calc_stress > 10 && calc_stress < 17",
+          "value": 2
+        }
+      ]
+    }
+  ]
+}

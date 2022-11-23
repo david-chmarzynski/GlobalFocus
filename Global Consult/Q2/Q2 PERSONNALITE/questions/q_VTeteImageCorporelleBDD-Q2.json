@@ -1,0 +1,28 @@
+{
+  "oid": "q_VTeteImageCorporelleBDD-Q2",
+  "title": "Est-ce que ces préoccupations  vous inquiètent ? ",
+  "text": "Est-ce que ces préoccupations  vous inquiètent ? ",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VTeteImageCorporelleBDD-Q2 == \"0\"",
+      "tagOID": "Tag_VTeteImageCorporelleBDD2",
+      "value": 1
+    },
+    {
+      "conditions": "q_VTeteImageCorporelleBDD-Q2 == \"1\"",
+      "tagOID": "Tag_VTeteImageCorporelleBDD2",
+      "value": 0
+    }
+  ]
+}

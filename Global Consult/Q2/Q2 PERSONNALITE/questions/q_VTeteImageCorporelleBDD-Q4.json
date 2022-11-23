@@ -1,0 +1,81 @@
+{
+  "oid": "q_VTeteImageCorporelleBDD-Q4",
+  "title": "Est-ce que  votre(vos)  défaut(s) :  (Plusieurs  réponses  possibles  sauf si  réponse  aucune)",
+  "text": "Est-ce que  votre(vos)  défaut(s) :  (Plusieurs  réponses  possibles  sauf si  réponse  aucune)",
+  "type": "MULTI_CHOICES",
+  "choices": [
+    {
+      "code": "0",
+      "text": "vous cause(nt) du  stress, des tourments  ou des souffrances ?"
+    },
+    {
+      "code": "1",
+      "text": "interfère(nt) avec  votre vie sociale ? "
+    },
+    {
+      "code": "2",
+      "text": "interfère(nt) avec vos  études, votre travail  ou vous empêche(nt)  de remplir vos  fonctions ?"
+    },
+    {
+      "code": "3",
+      "text": "vous fait(font) éviter  des choses ? "
+    },
+    {
+      "code": "4",
+      "text": "Aucune de ces  réponses",
+      "exclusive": true
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "\"0\" in q_VTeteImageCorporelleBDD-Q4",
+      "tagOID": "Tag_VTeteImageCorporelleBDD4",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"0\" in q_VTeteImageCorporelleBDD-Q4)",
+      "tagOID": "Tag_VTeteImageCorporelleBDD4",
+      "value": 3
+    },
+    {
+      "conditions": "\"1\" in q_VTeteImageCorporelleBDD-Q4",
+      "tagOID": "Tag_VTeteImageCorporelleBDD4",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"1\" in q_VTeteImageCorporelleBDD-Q4)",
+      "tagOID": "Tag_VTeteImageCorporelleBDD4",
+      "value": 3
+    },
+    {
+      "conditions": "\"2\" in q_VTeteImageCorporelleBDD-Q4",
+      "tagOID": "Tag_VTeteImageCorporelleBDD4",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"2\" in q_VTeteImageCorporelleBDD-Q4)",
+      "tagOID": "Tag_VTeteImageCorporelleBDD4",
+      "value": 3
+    },
+    {
+      "conditions": "\"3\" in q_VTeteImageCorporelleBDD-Q4",
+      "tagOID": "Tag_VTeteImageCorporelleBDD4",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"3\" in q_VTeteImageCorporelleBDD-Q4)",
+      "tagOID": "Tag_VTeteImageCorporelleBDD4",
+      "value": 3
+    },
+    {
+      "conditions": "\"4\" in q_VTeteImageCorporelleBDD-Q4",
+      "tagOID": "Tag_VTeteImageCorporelleBDD4",
+      "value": 3
+    },
+    {
+      "conditions": "!(\"4\" in q_VTeteImageCorporelleBDD-Q4)",
+      "tagOID": "Tag_VTeteImageCorporelleBDD4",
+      "value": 0
+    }
+  ]
+}

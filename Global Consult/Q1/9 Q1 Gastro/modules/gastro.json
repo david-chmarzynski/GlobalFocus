@@ -49,7 +49,7 @@
       }
     },
     {
-      "question": "q_gastro_005",
+      "question": "q_gastro_008",
       "level": 1,
       "isGlobal": true,
       "trigger": {
@@ -68,7 +68,7 @@
         "conditions": "!(\"2\" in q_gastro_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_gastro_005": ""
+          "q_gastro_008": ""
         }
       }
     },
@@ -245,99 +245,15 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"0\" in q_gastro_003)",
+        "conditions": "!(\"0\" in q_gastro_004)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_gastro_003": ""
+          "q_gastro_004": ""
         }
       }
     },
     {
       "question": "q_gastro_date_012",
-      "level": 1,
-      "isGlobal": true,
-      "trigger": {
-        "conditions": "!(\"1\" in q_gastro_003)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues": {
-          "q_gastro_003": ""
-        }
-      }
-    },
-    {
-      "question": "q_gastro_date_013",
-      "level": 1,
-      "isGlobal": true,
-      "trigger": {
-        "conditions": "!(\"2\" in q_gastro_003)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues": {
-          "q_gastro_003": ""
-        }
-      }
-    },
-    {
-      "question": "q_gastro_date_014",
-      "level": 1,
-      "isGlobal": true,
-      "trigger": {
-        "conditions": "!(\"3\" in q_gastro_003)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues": {
-          "q_gastro_003": ""
-        }
-      }
-    },
-    {
-      "question": "q_gastro_date_015",
-      "level": 1,
-      "isGlobal": true,
-      "trigger": {
-        "conditions": "!(\"4\" in q_gastro_003)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues": {
-          "q_gastro_003": ""
-        }
-      }
-    },
-    {
-      "question": "q_gastro_date_015_1",
-      "level": 1,
-      "isGlobal": true,
-      "trigger": {
-        "conditions": "!(\"8\" in q_gastro_003)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues": {
-          "q_gastro_003": ""
-        }
-      }
-    },
-    {
-      "question": "q_gastro_date_016",
-      "level": 1,
-      "isGlobal": true,
-      "trigger": {
-        "conditions": "!(\"5\" in q_gastro_003)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues": {
-          "q_gastro_003": ""
-        }
-      }
-    },
-    {
-      "question": "q_gastro_date_017",
-      "level": 1,
-      "isGlobal": true,
-      "trigger": {
-        "conditions": "!(\"6\" in q_gastro_003)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues": {
-          "q_gastro_003": ""
-        }
-      }
-    },
-    {
-      "question": "q_gastro_date_018",
       "level": 1,
       "isGlobal": true,
       "trigger": {
@@ -349,19 +265,7 @@
       }
     },
     {
-      "question": "q_gastro_date_019",
-      "level": 1,
-      "isGlobal": true,
-      "trigger": {
-        "conditions": "!(\"0\" in q_gastro_004)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues": {
-          "q_gastro_004": ""
-        }
-      }
-    },
-    {
-      "question": "q_gastro_date_020",
+      "question": "q_gastro_date_013",
       "level": 1,
       "isGlobal": true,
       "trigger": {
@@ -373,7 +277,7 @@
       }
     },
     {
-      "question": "q_gastro_date_021",
+      "question": "q_gastro_date_014",
       "level": 1,
       "isGlobal": true,
       "trigger": {
@@ -385,7 +289,7 @@
       }
     },
     {
-      "question": "q_gastro_date_022",
+      "question": "q_gastro_date_015",
       "level": 1,
       "isGlobal": true,
       "trigger": {
@@ -397,43 +301,7 @@
       }
     },
     {
-      "question": "q_gastro_date_023",
-      "level": 1,
-      "isGlobal": true,
-      "trigger": {
-        "conditions": "!(\"5\" in q_gastro_004)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues": {
-          "q_gastro_004": ""
-        }
-      }
-    },
-    {
-      "question": "q_gastro_date_024",
-      "level": 1,
-      "isGlobal": true,
-      "trigger": {
-        "conditions": "!(\"6\" in q_gastro_004)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues": {
-          "q_gastro_004": ""
-        }
-      }
-    },
-    {
-      "question": "q_gastro_date_025",
-      "level": 1,
-      "isGlobal": true,
-      "trigger": {
-        "conditions": "!(\"7\" in q_gastro_004)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues": {
-          "q_gastro_004": ""
-        }
-      }
-    },
-    {
-      "question": "q_gastro_date_026",
+      "question": "q_gastro_date_015_1",
       "level": 1,
       "isGlobal": true,
       "trigger": {
@@ -445,14 +313,146 @@
       }
     },
     {
+      "question": "q_gastro_date_016",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"5\" in q_gastro_004)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_gastro_004": ""
+        }
+      }
+    },
+    {
+      "question": "q_gastro_date_017",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"6\" in q_gastro_004)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_gastro_004": ""
+        }
+      }
+    },
+    {
+      "question": "q_gastro_date_018",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"1\" in q_gastro_006)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_gastro_006": ""
+        }
+      }
+    },
+    {
+      "question": "q_gastro_date_019",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"0\" in q_gastro_006)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_gastro_006": ""
+        }
+      }
+    },
+    {
+      "question": "q_gastro_date_020",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"2\" in q_gastro_006)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_gastro_006": ""
+        }
+      }
+    },
+    {
+      "question": "q_gastro_date_021",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"3\" in q_gastro_006)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_gastro_006": ""
+        }
+      }
+    },
+    {
+      "question": "q_gastro_date_022",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"4\" in q_gastro_006)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_gastro_006": ""
+        }
+      }
+    },
+    {
+      "question": "q_gastro_date_023",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"5\" in q_gastro_006)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_gastro_006": ""
+        }
+      }
+    },
+    {
+      "question": "q_gastro_date_024",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"6\" in q_gastro_006)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_gastro_006": ""
+        }
+      }
+    },
+    {
+      "question": "q_gastro_date_025",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"7\" in q_gastro_006)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_gastro_006": ""
+        }
+      }
+    },
+    {
+      "question": "q_gastro_date_026",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"8\" in q_gastro_006)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_gastro_006": ""
+        }
+      }
+    },
+    {
       "question": "q_gastro_date_027",
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"9\" in q_gastro_004)",
+        "conditions": "!(\"9\" in q_gastro_006)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_gastro_004": ""
+          "q_gastro_006": ""
         }
       }
     },
@@ -461,10 +461,10 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"0\" in q_gastro_005)",
+        "conditions": "!(\"0\" in q_gastro_008)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_gastro_005": ""
+          "q_gastro_008": ""
         }
       }
     },
@@ -473,10 +473,10 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"1\" in q_gastro_005)",
+        "conditions": "!(\"1\" in q_gastro_008)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_gastro_005": ""
+          "q_gastro_008": ""
         }
       }
     },
@@ -485,10 +485,10 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"2\" in q_gastro_005)",
+        "conditions": "!(\"2\" in q_gastro_008)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_gastro_005": ""
+          "q_gastro_008": ""
         }
       }
     },
@@ -497,10 +497,10 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"3\" in q_gastro_005)",
+        "conditions": "!(\"3\" in q_gastro_008)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_gastro_005": ""
+          "q_gastro_008": ""
         }
       }
     },
@@ -509,10 +509,10 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"4\" in q_gastro_005)",
+        "conditions": "!(\"4\" in q_gastro_008)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_gastro_005": ""
+          "q_gastro_008": ""
         }
       }
     },
@@ -521,10 +521,10 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"5\" in q_gastro_005)",
+        "conditions": "!(\"5\" in q_gastro_008)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_gastro_005": ""
+          "q_gastro_008": ""
         }
       }
     },
@@ -533,10 +533,10 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"6\" in q_gastro_005)",
+        "conditions": "!(\"6\" in q_gastro_008)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_gastro_005": ""
+          "q_gastro_008": ""
         }
       }
     },
@@ -545,10 +545,10 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"7\" in q_gastro_005)",
+        "conditions": "!(\"7\" in q_gastro_008)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_gastro_005": ""
+          "q_gastro_008": ""
         }
       }
     },
@@ -557,10 +557,10 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"8\" in q_gastro_005)",
+        "conditions": "!(\"8\" in q_gastro_008)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_gastro_005": ""
+          "q_gastro_008": ""
         }
       }
     },
@@ -569,10 +569,10 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"9\" in q_gastro_005)",
+        "conditions": "!(\"9\" in q_gastro_008)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_gastro_005": ""
+          "q_gastro_008": ""
         }
       }
     },
@@ -581,10 +581,10 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"10\" in q_gastro_005)",
+        "conditions": "!(\"10\" in q_gastro_008)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_gastro_005": ""
+          "q_gastro_008": ""
         }
       }
     },
@@ -593,13 +593,13 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"11\" in q_gastro_002 || \"7\" in q_gastro_003 || \"10\" in q_gastro_004 || \"11\" in q_gastro_005) ",
+        "conditions": "!(\"11\" in q_gastro_002 || \"7\" in q_gastro_003 || \"10\" in q_gastro_004 || \"11\" in q_gastro_008) ",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_gastro_002": "",
           "q_gastro_003": "",
           "q_gastro_004": "",
-          "q_gastro_005": ""
+          "q_gastro_008": ""
         }
       }
     }

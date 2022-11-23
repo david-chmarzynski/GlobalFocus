@@ -1,0 +1,337 @@
+{
+    "questionaryName": "Q2_TETE",
+    "chapterOID": "chap_q2_tete",
+    "chapterTitle": "chap_Q2_TETE",
+    "estimatedTime": 10,
+    "pricing": 10,
+    "levelMax": "1",
+    "authors": [
+      "test"
+    ],
+    "professions": [
+      "DENTIST"
+    ],
+    "companyId": [
+      {}
+    ],
+    "linkedForm": "",
+    "category": "HEALTH",
+    "scoreStrategy": "SUM",
+    "form": [
+      {
+        "formOID": "q2_tete",
+        "formTitle": "Q2_TETE",
+        "formDescription": "Q2_TETE"
+      }
+    ],
+    "modules": [
+      {
+        "moduleOID": "q2_tete",
+        "moduleTitle": "Q2_TETE",
+        "questions": [
+          {
+            "module": "",
+            "questionOID": "q_VTeteStressPSS1",
+            "questionText": "Au cours du dernier mois,  combien de fois vous a t’il semblé  difficile de contrôler les choses  importantes de votre vie ?",
+            "type": "SINGLE_CHOICE_RADIO",
+            "isTriggered": false,
+            "triggeredQuestionOID": "",
+            "triggeredValue": 0,
+            "triggeredDefault": "aucun",
+            "tag": "Tag_VTeteStressPSS1",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "text": "Jamais",
+                "value": 0,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Presque jamais (rarement)",
+                "value": 1,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Parfois",
+                "value": 2,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Assez souvent",
+                "value": 3,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Très souvent",
+                "value": "4",
+                "isExclusive": false,
+                "tagOID": ""
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_VTeteStressPSS2",
+            "questionText": "Au cours du dernier mois,  combien de fois vous êtes-vous  senti(e) confiant(e) dans vos  capacités à prendre en main vos  problèmes personnels ?",
+            "type": "SINGLE_CHOICE_RADIO",
+            "isTriggered": false,
+            "triggeredQuestionOID": "q_VTeteStressPSS1",
+            "triggeredValue": 0,
+            "triggeredDefault": "aucun",
+            "tag": "Tag_VTeteStressPSS2",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "text": "Jamais",
+                "value": 0,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Presque jamais (rarement)",
+                "value": 1,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Parfois",
+                "value": 2,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Assez souvent",
+                "value": 3,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Très souvent",
+                "value": "4",
+                "isExclusive": false,
+                "tagOID": ""
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_VTeteStressPSS3",
+            "questionText": "Au cours du dernier mois,  combien de fois avez-vous senti  que les choses allaient comme  vous le vouliez ?  ",
+            "type": "SINGLE_CHOICE_RADIO",
+            "isTriggered": false,
+            "triggeredQuestionOID": "q_VTeteStressPSS2",
+            "triggeredValue": 0,
+            "triggeredDefault": "aucun",
+            "tag": "Tag_VTeteStressPSS3",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "text": "Jamais",
+                "value": 0,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Presque jamais (rarement)",
+                "value": 1,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Parfois",
+                "value": 2,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Assez souvent",
+                "value": 3,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Très souvent",
+                "value": "4",
+                "isExclusive": false,
+                "tagOID": ""
+              }
+            ]
+          },
+          {
+            "module": "",
+            "questionOID": "q_VTeteStressPSS4",
+            "questionText": "Au cours du dernier mois,  combien de fois avez-vous trouvé  que les difficultés s'accumulaient à  un tel point que vous ne pouviez  les surmonter ? ",
+            "type": "SINGLE_CHOICE_RADIO",
+            "isTriggered": false,
+            "triggeredQuestionOID": "q_VTeteStressPSS3",
+            "triggeredValue": 0,
+            "triggeredDefault": "aucun",
+            "tag": "Tag_VTeteStressPSS4",
+            "scope": "MODULE_SCOPE",
+            "isGlobal": true,
+            "isCalculation": false,
+            "calculation": [],
+            "isWithConditions": false,
+            "conditions": [],
+            "answers": [
+              {
+                "text": "Jamais",
+                "value": 0,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Presque jamais (rarement)",
+                "value": 1,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Parfois",
+                "value": 2,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Assez souvent",
+                "value": 3,
+                "isExclusive": false,
+                "tagOID": ""
+              },
+              {
+                "text": "Très souvent",
+                "value": "4",
+                "isExclusive": false,
+                "tagOID": ""
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tags": [
+      {
+        "tagOID": "Tag_VTeteStressPSS1",
+        "tagTitle": "1",
+        "tagDescription": "1",
+        "tagType": "SCORE",
+        "sunburstName": "1",
+        "module": "q2_tete",
+        "rangeMin": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "rangeMax": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "parent": "",
+        "children": []
+      },
+      {
+        "tagOID": "Tag_VTeteStressPSS2",
+        "tagTitle": "2",
+        "tagDescription": "2",
+        "tagType": "SCORE",
+        "sunburstName": "2",
+        "module": "q2_tete",
+        "rangeMin": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "rangeMax": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "parent": "",
+        "children": []
+      },
+      {
+        "tagOID": "Tag_VTeteStressPSS3",
+        "tagTitle": "3",
+        "tagDescription": "3",
+        "tagType": "SCORE",
+        "sunburstName": "3",
+        "module": "q2_tete",
+        "rangeMin": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "rangeMax": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "parent": "",
+        "children": []
+      },
+      {
+        "tagOID": "Tag_VTeteStressPSS4",
+        "tagTitle": "4",
+        "tagDescription": "4",
+        "tagType": "SCORE",
+        "sunburstName": "4",
+        "module": "q2_tete",
+        "rangeMin": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "rangeMax": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "parent": "",
+        "children": []
+      }
+    ]
+  }

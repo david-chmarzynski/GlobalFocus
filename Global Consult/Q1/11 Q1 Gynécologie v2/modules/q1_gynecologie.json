@@ -29,7 +29,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "(\"0\" in q_q1_gynecologie_001)",
+        "conditions": "(q_q1_gynecologie_001 == '0')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_001": "aucun"
@@ -41,7 +41,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"autres\" in q_q1_gynecologie_003)",
+        "conditions": "q_q1_gynecologie_003 != 'autres')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_003": "aucun"
@@ -53,7 +53,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Cancer du sein\" in q_q1_gynecologie_003)",
+        "conditions": "(q_q1_gynecologie_003 != 'Cancer du sein')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_003": "aucun"
@@ -65,7 +65,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Cancer du sein\" in q_q1_gynecologie_003)",
+        "conditions": "(q_q1_gynecologie_003 != 'Cancer du sein')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_003": "aucun"
@@ -77,7 +77,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Kyste bénin du sein\" in q_q1_gynecologie_003)",
+        "conditions": "(q_q1_gynecologie_003 != 'Kyste bénin du sein')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_003": "aucun"
@@ -89,7 +89,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Mastose\" in q_q1_gynecologie_003)",
+        "conditions": "(q_q1_gynecologie_003 != 'Mastose')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_003": "aucun"
@@ -101,7 +101,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Chirurgie à visée médicale\" in q_q1_gynecologie_003)",
+        "conditions": "(q_q1_gynecologie_003 != 'Chirurgie à visée médicale')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_003": "aucun"
@@ -113,7 +113,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Chirurgie à visée médicale (mastectomie totale) \" in q_q1_gynecologie_003)",
+        "conditions": "(q_q1_gynecologie_003 != 'Chirurgie à visée médicale (mastectomie totale) ')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_003": "aucun"
@@ -125,7 +125,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Chirurgie esthétique des seins (prothèses mammaires)\" in q_q1_gynecologie_003)",
+        "conditions": "(q_q1_gynecologie_003 != 'Chirurgie esthétique des seins (prothèses mammaires)')",
         "scope": "PATIENT_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_003": "aucun"
@@ -137,7 +137,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Chirurgie esthétique des seins (réduction mammaire, reconstruction …)\" in q_q1_gynecologie_003)",
+        "conditions": "(q_q1_gynecologie_003 != 'Chirurgie esthétique des seins (réduction mammaire, reconstruction …)')",
         "scope": "PATIENT_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_003": "aucun"
@@ -149,7 +149,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Infection et/ou abcès du sein\" in q_q1_gynecologie_003)",
+        "conditions": "(q_q1_gynecologie_003 != 'Infection et/ou abcès du sein')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_003": "aucun"
@@ -161,7 +161,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"autres\" in q_q1_gynecologie_003)",
+        "conditions": "(q_q1_gynecologie_003 != 'autres')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_003": "aucun"
@@ -173,7 +173,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "(\"0\" in q_q1_gynecologie_001)",
+        "conditions": "(q_q1_gynecologie_001 == '0')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_001": "aucun"
@@ -185,7 +185,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Cancer de l’ovaire\" in q_q1_gynecologie_015)",
+        "conditions": "(q_q1_gynecologie_015 != 'Cancer de l’ovaire')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_015": "aucun"
@@ -197,7 +197,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Cancer de l’ovaire\" in q_q1_gynecologie_015)",
+        "conditions": "(q_q1_gynecologie_015 != 'Cancer de l’ovaire')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_015": "aucun"
@@ -209,7 +209,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Ablation chirurgicale d’un(des) ovaire(s) (ovariectomie)\" in q_q1_gynecologie_015)",
+        "conditions": "(q_q1_gynecologie_015 != 'Ablation chirurgicale d’un(des) ovaire(s) (ovariectomie)')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_015": "aucun"
@@ -221,7 +221,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Kyste fonctionnel de l’ovaire\" in q_q1_gynecologie_015)",
+        "conditions": "(q_q1_gynecologie_015 != 'Kyste fonctionnel de l’ovaire')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_015": "aucun"
@@ -233,7 +233,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Syndrome des ovaires poly-kystiques\" in q_q1_gynecologie_015)",
+        "conditions": "(q_q1_gynecologie_015 != 'Syndrome des ovaires poly-kystiques')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_015": "aucun"
@@ -245,7 +245,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Syndrome prémenstruel\" in q_q1_gynecologie_015)",
+        "conditions": "(q_q1_gynecologie_015 != 'Syndrome prémenstruel')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_015": "aucun"
@@ -257,7 +257,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Infertilité\" in q_q1_gynecologie_015)",
+        "conditions": "(q_q1_gynecologie_015 != 'Infertilité')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_015": "aucun"
@@ -269,7 +269,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Procréation médicalement assistée (PMA)\" in q_q1_gynecologie_015)",
+        "conditions": "(q_q1_gynecologie_015 != 'Procréation médicalement assistée (PMA)')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_015": "aucun"
@@ -281,7 +281,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"autres\" in q_q1_gynecologie_015)",
+        "conditions": "(q_q1_gynecologie_015 != 'autres')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_015": "aucun"
@@ -293,7 +293,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "(\"0\" in q_q1_gynecologie_001)",
+        "conditions": "(q_q1_gynecologie_001 == '0')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_001": "aucun"
@@ -305,7 +305,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"autres\" in q_q1_gynecologie_026)",
+        "conditions": "(q_q1_gynecologie_026 != 'autres')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_026": "aucun"
@@ -317,7 +317,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Cancer de l’endomètre (utérus)\" in q_q1_gynecologie_026)",
+        "conditions": "(q_q1_gynecologie_026 != 'Cancer de l’endomètre (utérus)')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_026": "aucun"
@@ -329,7 +329,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Cancer du col de l’utérus\" in q_q1_gynecologie_026)",
+        "conditions": "(q_q1_gynecologie_026 != 'Cancer du col de l’utérus')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_026": "aucun"
@@ -341,7 +341,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Fausse-couche spontanée (FCS)\" in q_q1_gynecologie_026)",
+        "conditions": "(q_q1_gynecologie_026 != 'Fausse-couche spontanée (FCS)')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_026": "aucun"
@@ -353,7 +353,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Interruption volontaire de grossesse (IVG)\" in q_q1_gynecologie_026)",
+        "conditions": "(q_q1_gynecologie_026 != 'Interruption volontaire de grossesse (IVG)')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_026": "aucun"
@@ -365,7 +365,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Interruption médicale de grossesse (IMG)\" in q_q1_gynecologie_026)",
+        "conditions": "(q_q1_gynecologie_026 != 'Interruption médicale de grossesse (IMG)')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_026": "aucun"
@@ -377,7 +377,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Grossesse extra-utérine (GEU)\" in q_q1_gynecologie_026)",
+        "conditions": "(q_q1_gynecologie_026 != 'Grossesse extra-utérine (GEU)')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_026": "aucun"
@@ -389,7 +389,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Césarienne\" in q_q1_gynecologie_026)",
+        "conditions": "(q_q1_gynecologie_026 != 'Césarienne')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_026": "aucun"
@@ -401,7 +401,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Fibrome de l’utérus\" in q_q1_gynecologie_026)",
+        "conditions": "(q_q1_gynecologie_026 != 'Fibrome de l’utérus')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_026": "aucun"
@@ -413,7 +413,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Ablation de l’utérus (Hystérectomie)\" in q_q1_gynecologie_026)",
+        "conditions": "(q_q1_gynecologie_026 != 'Ablation de l’utérus (Hystérectomie)')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_026": "aucun"
@@ -425,7 +425,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Endométriose\" in q_q1_gynecologie_026)",
+        "conditions": "(q_q1_gynecologie_026 != 'Endométriose')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_026": "aucun"
@@ -437,7 +437,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Salpingite (infection des trompes)\" in q_q1_gynecologie_026)",
+        "conditions": "(q_q1_gynecologie_026 != 'Salpingite (infection des trompes)')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_026": "aucun"
@@ -449,7 +449,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Infection à Papillomavirus (HPV)\" in q_q1_gynecologie_026)",
+        "conditions": "(q_q1_gynecologie_026 != 'Infection à Papillomavirus (HPV)')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_026": "aucun"
@@ -461,7 +461,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Dysplasie du col de l’utérus\" in q_q1_gynecologie_026)",
+        "conditions": "(q_q1_gynecologie_026 != 'Dysplasie du col de l’utérus')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_026": "aucun"
@@ -473,7 +473,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Conisation du col de l’utérus\" in q_q1_gynecologie_026)",
+        "conditions": "(q_q1_gynecologie_026 != 'Conisation du col de l’utérus')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_026": "aucun"
@@ -485,7 +485,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"autres\" in q_q1_gynecologie_026)",
+        "conditions": "(q_q1_gynecologie_026 != 'autres')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_026": "aucun"
@@ -497,7 +497,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "(\"0\" in q_q1_gynecologie_001)",
+        "conditions": "(q_q1_gynecologie_001 == '0')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_001": "aucun"
@@ -509,7 +509,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Cancer du vagin\" in q_q1_gynecologie_044)",
+        "conditions": "(q_q1_gynecologie_044 != 'Cancer du vagin')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_044": "aucun"
@@ -521,7 +521,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Cancer du vagin\" in q_q1_gynecologie_044)",
+        "conditions": "(q_q1_gynecologie_044 != 'Cancer du vagin')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_044": "aucun"
@@ -533,7 +533,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Cancer de la vulve\" in q_q1_gynecologie_044)",
+        "conditions": "(q_q1_gynecologie_044 != 'Cancer de la vulve')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_044": "aucun"
@@ -545,7 +545,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Prolapsus génital (descente d’organe)\" in q_q1_gynecologie_044)",
+        "conditions": "(q_q1_gynecologie_044 != 'Prolapsus génital (descente d’organe)')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_044": "aucun"
@@ -557,7 +557,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Bartholinite\" in q_q1_gynecologie_044)",
+        "conditions": "(q_q1_gynecologie_044 != 'Bartholinite')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_044": "aucun"
@@ -569,7 +569,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Mycose(s) de la vulve et/ou du vagin\" in q_q1_gynecologie_044)",
+        "conditions": "(q_q1_gynecologie_044 != 'Mycose(s) de la vulve et/ou du vagin')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_044": "aucun"
@@ -581,7 +581,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Herpès génital\" in q_q1_gynecologie_044)",
+        "conditions": "(q_q1_gynecologie_044 != 'Herpès génital')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_044": "aucun"
@@ -593,7 +593,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Infection(s) à Chlamydiae\" in q_q1_gynecologie_044)",
+        "conditions": "(q_q1_gynecologie_044 != 'Infection(s) à Chlamydiae')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_044": "aucun"
@@ -605,7 +605,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Infection(s) à Gonocoque\" in q_q1_gynecologie_044)",
+        "conditions": "(q_q1_gynecologie_044 != 'Infection(s) à Gonocoque')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_044": "aucun"
@@ -617,7 +617,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Infection(s) à mycoplasme\" in q_q1_gynecologie_044)",
+        "conditions": "(q_q1_gynecologie_044 != 'Infection(s) à mycoplasme')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_044": "aucun"
@@ -629,7 +629,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Infection(s) à trichomonas\" in q_q1_gynecologie_044)",
+        "conditions": "(q_q1_gynecologie_044 != 'Infection(s) à trichomonas')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_044": "aucun"
@@ -641,7 +641,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Syphilis\" in q_q1_gynecologie_044)",
+        "conditions": "(q_q1_gynecologie_044 != 'Syphilis')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_044": "aucun"
@@ -653,7 +653,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Autre(s) infection(s) du vagin et/ou de la vulve\" in q_q1_gynecologie_044)",
+        "conditions": "(q_q1_gynecologie_044 != 'Autre(s) infection(s) du vagin et/ou de la vulve')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_044": "aucun"
@@ -665,7 +665,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"autres\" in q_q1_gynecologie_044)",
+        "conditions": "(q_q1_gynecologie_044 != 'autres')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_044": "aucun"
@@ -677,7 +677,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "(\"0\" in q_q1_gynecologie_001) || (\"1\" in q_q1_gynecologie_001)",
+        "conditions": "(q_q1_gynecologie_001 == '0') || (q_q1_gynecologie_001 == '1')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_001": "aucun"
@@ -689,7 +689,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "(\"0\" in q_q1_gynecologie_001) || (\"1\" in q_q1_gynecologie_001) || (\"4\" in q_q1_gynecologie_001) || (\"5\" in q_q1_gynecologie_001) || (\"6\" in q_q1_gynecologie_001)",
+        "conditions": "(q_q1_gynecologie_001 == '0') || (q_q1_gynecologie_001 == '1') || (q_q1_gynecologie_001 == '4') || (q_q1_gynecologie_001 == '5') || (q_q1_gynecologie_001 == '6')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_001": "aucun"
@@ -701,7 +701,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "(\"0\" in q_q1_gynecologie_001) || (\"1\" in q_q1_gynecologie_001) || (\"4\" in q_q1_gynecologie_001) || (\"5\" in q_q1_gynecologie_001) || (\"6\" in q_q1_gynecologie_001)",
+        "conditions": "(q_q1_gynecologie_001 == '0') || (q_q1_gynecologie_001 == '1') || (q_q1_gynecologie_001 == '4') || (q_q1_gynecologie_001 == '5') || (q_q1_gynecologie_001 == '6')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_001": "aucun"
@@ -713,7 +713,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "(\"0\" in q_q1_gynecologie_001) || (\"1\" in q_q1_gynecologie_001) || (\"4\" in q_q1_gynecologie_001) || (\"5\" in q_q1_gynecologie_001) || (\"6\" in q_q1_gynecologie_001)",
+        "conditions": "(q_q1_gynecologie_001 == '0') || (q_q1_gynecologie_001 == '1') || (q_q1_gynecologie_001 == '4') || (q_q1_gynecologie_001 == '5') || (q_q1_gynecologie_001 == '6')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_001": "aucun"
@@ -725,7 +725,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "(\"0\" in q_q1_gynecologie_001)",
+        "conditions": "(q_q1_gynecologie_001 == '0')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_001": "aucun"
@@ -737,7 +737,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "(\"0\" in q_q1_gynecologie_001)",
+        "conditions": "(q_q1_gynecologie_001 == '0')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_001": "aucun"
@@ -749,7 +749,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"0\" in q_q1_gynecologie_065)",
+        "conditions": "(q_q1_gynecologie_065 != '0')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_065": "aucun"
@@ -761,7 +761,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"0\" in q_q1_gynecologie_065)",
+        "conditions": "(q_q1_gynecologie_065 != '0')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_065": "aucun"
@@ -773,7 +773,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "(\"0\" in q_q1_gynecologie_001) || (\"1\" in q_q1_gynecologie_001) || (\"2\" in q_q1_gynecologie_001) || (\"3\" in q_q1_gynecologie_001) || (\"4\" in q_q1_gynecologie_001)",
+        "conditions": "(q_q1_gynecologie_001 == '0') || (q_q1_gynecologie_001 == '1') || (q_q1_gynecologie_001 == '2') || (q_q1_gynecologie_001 == '3') || (q_q1_gynecologie_001 == '4')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_001": "aucun"

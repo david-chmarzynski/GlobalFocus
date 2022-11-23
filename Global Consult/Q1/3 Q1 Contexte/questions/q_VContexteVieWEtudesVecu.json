@@ -23,6 +23,10 @@
     {
       "code": "4",
       "text": "Insatisfait(e)"
+    },
+    {
+      "code": "5",
+      "text": "Très nsatisfait(e)"
     }
   ],
   "scores": [
@@ -50,6 +54,11 @@
       "conditions": "q_VContexteVieWEtudesVecu == \"4\"",
       "tagOID": "tag_VContexteVieWEtudesVecu",
       "value": 4
+    },
+    {
+      "conditions": "q_VContexteVieWEtudesVecu == \"5\"",
+      "tagOID": "tag_VContexteVieWEtudesVecu",
+      "value": 5
     }
   ]
 }

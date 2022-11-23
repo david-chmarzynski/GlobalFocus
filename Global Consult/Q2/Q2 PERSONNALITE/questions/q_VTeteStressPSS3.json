@@ -1,0 +1,55 @@
+{
+  "oid": "q_VTeteStressPSS3",
+  "title": "Au cours du dernier mois,  combien de fois avez-vous senti  que les choses allaient comme  vous le vouliez ?  ",
+  "text": "Au cours du dernier mois,  combien de fois avez-vous senti  que les choses allaient comme  vous le vouliez ?  ",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "Presque jamais (rarement)"
+    },
+    {
+      "code": "2",
+      "text": "Parfois"
+    },
+    {
+      "code": "3",
+      "text": "Assez souvent"
+    },
+    {
+      "code": "4",
+      "text": "Très souvent"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_VTeteStressPSS3 == \"0\"",
+      "tagOID": "Tag_VTeteStressPSS3",
+      "value": 0
+    },
+    {
+      "conditions": "q_VTeteStressPSS3 == \"1\"",
+      "tagOID": "Tag_VTeteStressPSS3",
+      "value": 1
+    },
+    {
+      "conditions": "q_VTeteStressPSS3 == \"2\"",
+      "tagOID": "Tag_VTeteStressPSS3",
+      "value": 2
+    },
+    {
+      "conditions": "q_VTeteStressPSS3 == \"3\"",
+      "tagOID": "Tag_VTeteStressPSS3",
+      "value": 3
+    },
+    {
+      "conditions": "q_VTeteStressPSS3 == \"4\"",
+      "tagOID": "Tag_VTeteStressPSS3",
+      "value": 4
+    }
+  ]
+}

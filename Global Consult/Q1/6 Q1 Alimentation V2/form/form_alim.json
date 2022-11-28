@@ -493,8 +493,8 @@
                         "text": "POIDS"
                       },
                       {
-                        "min": 3,
-                        "max": 3,
+                        "min": 4,
+                        "max": 4,
                         "color": "990000",
                         "text": "POIDS"
                       }

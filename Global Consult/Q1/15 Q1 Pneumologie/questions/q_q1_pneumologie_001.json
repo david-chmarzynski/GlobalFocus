@@ -100,7 +100,7 @@
     {
       "conditions": "!(\"aucun\" in q_q1_pneumologie_001)",
       "tagOID": "S_PN_ATCD",
-      "value": 0
+      "value": 1
     }
   ]
 }

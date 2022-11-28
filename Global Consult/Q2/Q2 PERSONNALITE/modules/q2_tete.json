@@ -111,7 +111,7 @@
       "oid": "calc_stress",
       "type": "NORMAL",
       "isGlobal": true,
-      "calculation": "q_VTeteStressPSS1 + q_VTeteStressPSS2 + q_VTeteStressPSS3 + q_VTeteStressPSS4",
+      "calculation": "Integer.parseInt(q_VTeteStressPSS1) + q_VTeteStressPSS2 + q_VTeteStressPSS3 + q_VTeteStressPSS4",
       "title": "Calcul normal",
       "text": "Calcul normal",
       "scores": [

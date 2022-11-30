@@ -138,9 +138,11 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(q_infos_generales_006 == \"8\")",
+        "conditions": "!(\"8\" in q_infos_generales_006)",
         "scope": "MODULE_SCOPE",
-        "defaultValues": {"q_infos_generales_006":"8"}
+        "defaultValues": {
+          "q_infos_generales_006": 0
+        }
       }
     },
     {
@@ -148,9 +150,11 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(q_infos_generales_006 == \"0\")",
+        "conditions": "!(\"0\" in q_infos_generales_006)",
         "scope": "MODULE_SCOPE",
-        "defaultValues": {"q_infos_generales_006":"0"}
+        "defaultValues": {
+          "q_infos_generales_006": 0
+        }
       }
     },
     {
@@ -158,9 +162,11 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(q_infos_generales_006 == \"1\")",
+        "conditions": "!(\"1\" in q_infos_generales_006)",
         "scope": "MODULE_SCOPE",
-        "defaultValues": {"q_infos_generales_006":"1"}
+        "defaultValues": {
+          "q_infos_generales_006": 0
+        }
       }
     },
     {
@@ -168,9 +174,11 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(q_infos_generales_006 == \"1\")",
+        "conditions": "!(\"1\" in q_infos_generales_006)",
         "scope": "MODULE_SCOPE",
-        "defaultValues": {"q_infos_generales_006":"1"}
+        "defaultValues": {
+          "q_infos_generales_006": 0
+        }
       }
     },
     {
@@ -178,9 +186,11 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(q_infos_generales_006 == \"1\")",
+        "conditions": "!(\"1\" in q_infos_generales_006)",
         "scope": "MODULE_SCOPE",
-        "defaultValues": {"q_infos_generales_006":"1"}
+        "defaultValues": {
+          "q_infos_generales_006": 0
+        }
       }
     },
     {

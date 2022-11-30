@@ -70,31 +70,31 @@
               {
                 "min": 4,
                 "max": 4,
-                "color": "CCFF33",
+                "color": "00FF00",
                 "text": "AP"
               },
               {
                 "min": 3,
                 "max": 3,
-                "color": "FFFF00",
+                "color": "CCFF33",
                 "text": "AP"
               },
               {
                 "min": 2,
                 "max": 2,
-                "color": "FF9900",
+                "color": "FFFF00",
                 "text": "AP"
               },
               {
                 "min": 1,
                 "max": 1,
-                "color": "FF0000",
+                "color": "FF9900",
                 "text": "AP"
               },
               {
                 "min": 0,
                 "max": 0,
-                "color": "990000",
+                "color": "FF0000",
                 "text": "AP"
               }
             ],

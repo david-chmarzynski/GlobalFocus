@@ -38,37 +38,37 @@
             "min": 0,
             "max": 0,
             "color": "00FF00",
-            "text": "SATISF/SOM"
+            "text": "DORMIR"
           },
           {
             "min": 1,
             "max": 1,
             "color": "CCFF33",
-            "text": "SATISF/SOM"
+            "text": "DORMIR"
           },
           {
             "min": 2,
             "max": 2,
             "color": "FFFF00",
-            "text": "SATISF/SOM"
+            "text": "DORMIR"
           },
           {
             "min": 3,
             "max": 3,
             "color": "FF9900",
-            "text": "SATISF/SOM"
+            "text": "DORMIR"
           },
           {
             "min": 4,
             "max": 4,
             "color": "FF0000",
-            "text": "SATISF/SOM"
+            "text": "DORMIR"
           },
           {
             "min": 5,
             "max": 5,
             "color": "990000",
-            "text": "SATISF/SOM"
+            "text": "DORMIR"
           }
         ],
         "children": [
@@ -426,26 +426,36 @@
             ],
             "children": [
               {
-                "diagnosticOID": "diagnosticSAOS",
-                "type": "DIAGNOSTIC",
-                "diagnosticTitle": "SAOS",
-                "diagnostics": {
-                  "SAOS_VERT": {
-                    "text": "SAOS",
+                "tagOID": "tag_VSSJR",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0.9,
                     "color": "00FF00",
-                    "severity": 0
+                    "text": "SJSR"
                   },
-                  "SAOS_ORANGE": {
-                    "text": "SAOS",
+                  {
+                    "min": 1,
+                    "max": 2.9,
+                    "color": "FFFF00",
+                    "text": "SJSR"
+                  },
+                  {
+                    "min": 3,
+                    "max": 4.9,
                     "color": "FF9900",
-                    "severity": 1
+                    "text": "SJSR"
                   },
-                  "SAOS_ROUGE": {
-                    "text": "SAOS",
+                  {
+                    "min": 5,
+                    "max": 20.9,
                     "color": "FF0000",
-                    "severity": 2
+                    "text": "SJSR"
                   }
-                }
+                ],
+                "children": []
               },
               {
                 "tagOID": "tag_VSSJR",

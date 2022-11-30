@@ -43,7 +43,8 @@
     },
     {
       "code": "aucun",
-      "text": "Aucune de ces réponses"
+      "text": "Aucune de ces réponses",
+      "exclusive": true
     }
   ],
   "scores": [

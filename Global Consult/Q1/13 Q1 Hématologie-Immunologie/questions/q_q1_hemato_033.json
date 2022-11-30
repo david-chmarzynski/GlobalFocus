@@ -80,17 +80,17 @@
     {
       "conditions": "\"Non, jamais\" in q_q1_hemato_033",
       "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO_JAMAIS",
-      "value": 1
+      "value": 0
     },
     {
       "conditions": "\"Non, jamais\" in q_q1_hemato_033",
       "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO",
-      "value": 1
+      "value": 0
     },
     {
       "conditions": "!(\"Non, jamais\" in q_q1_hemato_033)",
       "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO",
-      "value": 0
+      "value": 1
     },
     {
       "conditions": "\"Je ne sais pas\" in q_q1_hemato_033",
@@ -105,7 +105,7 @@
     {
       "conditions": "!(\"Je ne sais pas\" in q_q1_hemato_033)",
       "tagOID": "S_HE-IM_ATCD_IMMUNO_MAI_TRAITEMENT_IMMUNO",
-      "value": 0
+      "value": 2
     }
   ]
 }

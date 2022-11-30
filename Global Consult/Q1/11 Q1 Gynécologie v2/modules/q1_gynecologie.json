@@ -41,7 +41,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "q_q1_gynecologie_003 != 'autres')",
+        "conditions": "(q_q1_gynecologie_003 != '8')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_003": "aucun"
@@ -53,7 +53,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "(q_q1_gynecologie_003 != 'Cancer du sein')",
+        "conditions": "(q_q1_gynecologie_003 != '0')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_003": "aucun"
@@ -65,7 +65,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "(q_q1_gynecologie_003 != 'Cancer du sein')",
+        "conditions": "(q_q1_gynecologie_003 != '0')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_003": "aucun"
@@ -77,7 +77,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "(q_q1_gynecologie_003 != 'Kyste bénin du sein')",
+        "conditions": "(q_q1_gynecologie_003 != '1')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_003": "aucun"
@@ -89,7 +89,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "(q_q1_gynecologie_003 != 'Mastose')",
+        "conditions": "(q_q1_gynecologie_003 != '2')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_003": "aucun"
@@ -101,7 +101,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "(q_q1_gynecologie_003 != 'Chirurgie à visée médicale')",
+        "conditions": "(q_q1_gynecologie_003 != '3')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_003": "aucun"
@@ -113,7 +113,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "(q_q1_gynecologie_003 != 'Chirurgie à visée médicale (mastectomie totale) ')",
+        "conditions": "(q_q1_gynecologie_003 != '4')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_003": "aucun"
@@ -125,7 +125,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "(q_q1_gynecologie_003 != 'Chirurgie esthétique des seins (prothèses mammaires)')",
+        "conditions": "(q_q1_gynecologie_003 != '5')",
         "scope": "PATIENT_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_003": "aucun"
@@ -137,7 +137,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "(q_q1_gynecologie_003 != 'Chirurgie esthétique des seins (réduction mammaire, reconstruction …)')",
+        "conditions": "(q_q1_gynecologie_003 != '6')",
         "scope": "PATIENT_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_003": "aucun"
@@ -149,7 +149,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "(q_q1_gynecologie_003 != 'Infection et/ou abcès du sein')",
+        "conditions": "(q_q1_gynecologie_003 != '7')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_003": "aucun"
@@ -161,7 +161,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "(q_q1_gynecologie_003 != 'autres')",
+        "conditions": "(q_q1_gynecologie_003 != '8')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_gynecologie_003": "aucun"

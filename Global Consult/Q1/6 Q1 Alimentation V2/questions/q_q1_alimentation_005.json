@@ -1,5 +1,5 @@
 {
-  "oid": "q_q1_alimentation_005",
+  "oid": "q_q1_alimentation_005)",
   "title": "Suivez-vous actuellement un régime alimentaire particulier pour raison(s) de santé ?",
   "text": "Suivez-vous actuellement un régime alimentaire particulier pour raison(s) de santé ?",
   "type": "MULTI_CHOICES",
@@ -48,92 +48,92 @@
   ],
   "scores": [
     {
-      "conditions": "\"0\" in q_q1_alimentation_005",
+      "conditions": "!(\"0\" in q_q1_alimentation_005)",
       "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_SEL",
       "value": 0
     },
     {
-      "conditions": "\"0\" in q_q1_alimentation_005",
+      "conditions": "(\"0\" in q_q1_alimentation_005)",
       "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_SEL",
       "value": 1
     },
     {
-      "conditions": "\"1\" in q_q1_alimentation_005",
+      "conditions": "!(\"1\" in q_q1_alimentation_005)",
       "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_DYSLIP",
       "value": 0
     },
     {
-      "conditions": "\"1\" in q_q1_alimentation_005",
+      "conditions": "(\"1\" in q_q1_alimentation_005)",
       "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_SEL",
       "value": 1
     },
     {
-      "conditions": "\"2\" in q_q1_alimentation_005",
+      "conditions": "!(\"2\" in q_q1_alimentation_005)",
       "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_URATE",
       "value": 0
     },
     {
-      "conditions": "\"2\" in q_q1_alimentation_005",
+      "conditions": "(\"2\" in q_q1_alimentation_005)",
       "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_SEL",
       "value": 1
     },
     {
-      "conditions": "\"3\" in q_q1_alimentation_005",
+      "conditions": "!(\"3\" in q_q1_alimentation_005)",
       "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_IR",
       "value": 0
     },
     {
-      "conditions": "\"3\" in q_q1_alimentation_005",
+      "conditions": "(\"3\" in q_q1_alimentation_005)",
       "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_SEL",
       "value": 1
     },
     {
-      "conditions": "\"4\" in q_q1_alimentation_005",
+      "conditions": "!(\"4\" in q_q1_alimentation_005)",
       "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_FODMAPS",
       "value": 0
     },
     {
-      "conditions": "\"4\" in q_q1_alimentation_005",
+      "conditions": "(\"4\" in q_q1_alimentation_005)",
       "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_SEL",
       "value": 1
     },
     {
-      "conditions": "\"5\" in q_q1_alimentation_005",
+      "conditions": "!(\"5\" in q_q1_alimentation_005)",
       "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_GLUTEN",
       "value": 0
     },
     {
-      "conditions": "\"5\" in q_q1_alimentation_005",
+      "conditions": "(\"5\" in q_q1_alimentation_005)",
       "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_SEL",
       "value": 1
     },
     {
-      "conditions": "\"6\" in q_q1_alimentation_005",
+      "conditions": "!(\"6\" in q_q1_alimentation_005)",
       "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_ALLERGIE",
       "value": 0
     },
     {
-      "conditions": "\"6\" in q_q1_alimentation_005",
+      "conditions": "(\"6\" in q_q1_alimentation_005)",
       "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_SEL",
       "value": 1
     },
     {
-      "conditions": "\"7\" in q_q1_alimentation_005",
+      "conditions": "!(\"7\" in q_q1_alimentation_005)",
       "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_INTOL",
       "value": 0
     },
     {
-      "conditions": "\"7\" in q_q1_alimentation_005",
+      "conditions": "(\"7\" in q_q1_alimentation_005)",
       "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_SEL",
       "value": 1
     },
     {
-      "conditions": "\"8\" in q_q1_alimentation_005",
+      "conditions": "!(\"8\" in q_q1_alimentation_005)",
       "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_CETOGENE",
       "value": 0
     },
     {
-      "conditions": "\"8\" in q_q1_alimentation_005",
+      "conditions": "(\"8\" in q_q1_alimentation_005)",
       "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_SEL",
       "value": 1
     },

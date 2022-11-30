@@ -28,37 +28,37 @@
             "min": 0,
             "max": 0.9,
             "color": "00FF00",
-            "text": "SATISF/VIE"
+            "text": "CONTEXTE"
           },
           {
             "min": 1,
             "max": 1.9,
             "color": "CCFF33",
-            "text": "SATISF/VIE"
+            "text": "CONTEXTE"
           },
           {
             "min": 2,
             "max": 2.9,
             "color": "FFFF00",
-            "text": "SATISF/VIE"
+            "text": "CONTEXTE"
           },
           {
             "min": 3,
             "max": 3.9,
             "color": "FF9900",
-            "text": "SATISF/VIE"
+            "text": "CONTEXTE"
           },
           {
             "min": 4,
             "max": 4.9,
             "color": "FF0000",
-            "text": "SATISF/VIE"
+            "text": "CONTEXTE"
           },
           {
             "min": 5,
             "max": 5.9,
             "color": "990000",
-            "text": "SATISF/VIE"
+            "text": "CONTEXTE"
           }
         ],
         "children": [

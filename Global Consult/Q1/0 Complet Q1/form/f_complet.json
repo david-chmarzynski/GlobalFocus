@@ -23,6 +23,15 @@
           "SAOS_ORANGE": "tag_VSomSuspicionSAOSBerlinCAT1 >= 2 && tag_VSomSuspicionSAOSBerlinCAT2 == 1",
           "SAOS_ROUGE": "(tag_VSomSuspicionSAOSBerlinCAT1 >= 2 && tag_VSomSuspicionSAOSBerlinCAT2 >= 2) ||  (tag_VSomSuspicionSAOSBerlinCAT2 >= 2 && tag_VSomSuspicionSAOSBerlinCAT3 >= 2)(tag_VSomSuspicionSAOSBerlinCAT1 >= 2 && tag_VSomSuspicionSAOSBerlinCAT3 >= 2)"
       }
+    },
+    {
+      "oid": "diag_VToxiquePersoAlcoolFace",
+      "conditions" :
+      {
+          "green": "Tag_VToxiquePersoAlcoolFace <= 4",
+          "orange": "Tag_VToxiquePersoAlcoolFace > 4 && Tag_VToxiquePersoAlcoolFace <= 8",
+          "red": "Tag_VToxiquePersoAlcoolFace > 8"
+      }
     }
   ],
   "reportingTrees": [
@@ -38,25 +47,25 @@
             "min": 0,
             "max": 0.9,
             "color": "00FF00",
-            "text": "P/COUL"
+            "text": "C/PERS"
           },
           {
             "min": 1,
             "max": 1.9,
             "color": "FFFF00",
-            "text": "P/COUL"
+            "text": "C/PERS"
           },
           {
             "min": 2,
             "max": 2.9,
             "color": "0070C0",
-            "text": "P/COUL"
+            "text": "C/PERS"
           },
           {
             "min": 3,
             "max": 3.9,
             "color": "FF0000",
-            "text": "P/COUL"
+            "text": "C/PERS"
           }
         ],
         "children": [
@@ -584,37 +593,37 @@
             "min": 0,
             "max": 0.9,
             "color": "00FF00",
-            "text": "SATISF/VIE"
+            "text": "CONTEXTE"
           },
           {
             "min": 1,
             "max": 1.9,
             "color": "CCFF33",
-            "text": "SATISF/VIE"
+            "text": "CONTEXTE"
           },
           {
             "min": 2,
             "max": 2.9,
             "color": "FFFF00",
-            "text": "SATISF/VIE"
+            "text": "CONTEXTE"
           },
           {
             "min": 3,
             "max": 3.9,
             "color": "FF9900",
-            "text": "SATISF/VIE"
+            "text": "CONTEXTE"
           },
           {
             "min": 4,
             "max": 4.9,
             "color": "FF0000",
-            "text": "SATISF/VIE"
+            "text": "CONTEXTE"
           },
           {
             "min": 5,
             "max": 5.9,
             "color": "990000",
-            "text": "SATISF/VIE"
+            "text": "CONTEXTE"
           }
         ],
         "children": [
@@ -1229,11 +1238,11 @@
         "type": "SCORE",
         "hideNodeIfEmpty": true,
         "ranges": [
-            { "min": 0, "max": 0, "color": "00FF00", "text": "GLOBAL" },
-            { "min": 1, "max": 1, "color": "FFFF00", "text": "GLOBAL" },
-            { "min": 2, "max": 2, "color": "FF9900", "text": "GLOBAL" },
-            { "min": 3, "max": 3, "color": "FF0000", "text": "GLOBAL" },
-            { "min": 4, "max": 4, "color": "990000", "text": "GLOBAL" }
+            { "min": 0, "max": 0, "color": "00FF00", "text": "TOXICITE" },
+            { "min": 1, "max": 1, "color": "FFFF00", "text": "TOXICITE" },
+            { "min": 2, "max": 2, "color": "FF9900", "text": "TOXICITE" },
+            { "min": 3, "max": 3, "color": "FF0000", "text": "TOXICITE" },
+            { "min": 4, "max": 4, "color": "990000", "text": "TOXICITE" }
         ],
         "children":[
           {
@@ -1583,37 +1592,37 @@
             "min": 0,
             "max": 0,
             "color": "00FF00",
-            "text": "SATISF/SOM"
+            "text": "DORMIR"
           },
           {
             "min": 1,
             "max": 1,
             "color": "CCFF33",
-            "text": "SATISF/SOM"
+            "text": "DORMIR"
           },
           {
             "min": 2,
             "max": 2,
             "color": "FFFF00",
-            "text": "SATISF/SOM"
+            "text": "DORMIR"
           },
           {
             "min": 3,
             "max": 3,
             "color": "FF9900",
-            "text": "SATISF/SOM"
+            "text": "DORMIR"
           },
           {
             "min": 4,
             "max": 4,
             "color": "FF0000",
-            "text": "SATISF/SOM"
+            "text": "DORMIR"
           },
           {
             "min": 5,
             "max": 5,
             "color": "990000",
-            "text": "SATISF/SOM"
+            "text": "DORMIR"
           }
         ],
         "children": [
@@ -2242,37 +2251,37 @@
             "min": 0,
             "max": 0,
             "color": "00FF00",
-            "text": "EVAL/ALIM"
+            "text": "MANGER"
           },
           {
             "min": 1,
             "max": 1,
             "color": "CCFF33",
-            "text": "EVAL/ALIM"
+            "text": "MANGER"
           },
           {
             "min": 2,
             "max": 2,
             "color": "FFFF00",
-            "text": "EVAL/ALIM"
+            "text": "MANGER"
           },
           {
             "min": 3,
             "max": 3,
             "color": "FF9900",
-            "text": "EVAL/ALIM"
+            "text": "MANGER"
           },
           {
             "min": 4,
             "max": 4,
             "color": "FF0000",
-            "text": "EVAL/ALIM"
+            "text": "MANGER"
           },
           {
             "min": 5,
             "max": 5,
             "color": "990000",
-            "text": "EVAL/ALIM"
+            "text": "MANGER"
           }
         ],
         "children": [
@@ -2707,8 +2716,8 @@
                         "text": "POIDS"
                       },
                       {
-                        "min": 3,
-                        "max": 3,
+                        "min": 4,
+                        "max": 4,
                         "color": "990000",
                         "text": "POIDS"
                       }
@@ -4967,31 +4976,31 @@
             "min": 0,
             "max": 0,
             "color": "00FF00",
-            "text": "ENDO"
+            "text": "END"
           },
           {
             "min": 1,
             "max": 1,
             "color": "FFFF00",
-            "text": "ENDO"
+            "text": "END"
           },
           {
             "min": 2,
             "max": 2,
             "color": "FF9900",
-            "text": "ENDO"
+            "text": "END"
           },
           {
             "min": 3,
             "max": 3,
             "color": "FF0000",
-            "text": "ENDO"
+            "text": "END"
           },
           {
             "min": 4,
             "max": 4,
             "color": "990000",
-            "text": "ENDO"
+            "text": "END"
           }
         ],
         "children": [
@@ -6753,31 +6762,31 @@
             "min": 0,
             "max": 0,
             "color": "00FF00",
-            "text": "HEMAT-IMMU"
+            "text": "H-I"
           },
           {
             "min": 1,
             "max": 1,
             "color": "FFFF00",
-            "text": "HEMAT-IMMU"
+            "text": "H-I"
           },
           {
             "min": 2,
             "max": 2,
             "color": "FF9900",
-            "text": "HEMAT-IMMU"
+            "text": "H-I"
           },
           {
             "min": 3,
             "max": 3,
             "color": "FF0000",
-            "text": "HEMAT-IMMU"
+            "text": "H-I"
           },
           {
             "min": 4,
             "max": 4,
             "color": "990000",
-            "text": "HEMAT-IMMU"
+            "text": "H-I"
           }
         ],
         "children": [
@@ -8849,25 +8858,25 @@
             "min": 0,
             "max": 0,
             "color": "00FF00",
-            "text": "PNEU"
+            "text": "PNE"
           },
           {
             "min": 1,
             "max": 1,
             "color": "FFFF00",
-            "text": "PNEU"
+            "text": "PNE"
           },
           {
             "min": 2,
             "max": 2,
             "color": "FF9900",
-            "text": "PNEU"
+            "text": "PNE"
           },
           {
             "min": 3,
             "max": 3,
             "color": "FF0000",
-            "text": "PNEU"
+            "text": "PNE"
           }
         ],
         "children": [
@@ -9371,31 +9380,31 @@
             "min": 0,
             "max": 0,
             "color": "00FF00",
-            "text": "NEUR"
+            "text": "NEU"
           },
           {
             "min": 1,
             "max": 1,
             "color": "FFFF00",
-            "text": "NEUR"
+            "text": "NEU"
           },
           {
             "min": 2,
             "max": 2,
             "color": "FF9900",
-            "text": "NEUR"
+            "text": "NEU"
           },
           {
             "min": 3,
             "max": 3,
             "color": "FF0000",
-            "text": "NEUR"
+            "text": "NEU"
           },
           {
             "min": 4,
             "max": 4,
             "color": "990000",
-            "text": "NEUR"
+            "text": "NEU"
           }
         ],
         "children": [
@@ -9695,31 +9704,31 @@
             "min": 0,
             "max": 0,
             "color": "00FF00",
-            "text": "RMS"
+            "text": "RHU"
           },
           {
             "min": 1,
             "max": 1,
             "color": "FFFF00",
-            "text": "RMS"
+            "text": "RHU"
           },
           {
             "min": 2,
             "max": 2,
             "color": "FF9900",
-            "text": "RMS"
+            "text": "RHU"
           },
           {
             "min": 3,
             "max": 3,
             "color": "FF0000",
-            "text": "RMS"
+            "text": "RHU"
           },
           {
             "min": 3,
             "max": 3,
             "color": "990000",
-            "text": "RMS"
+            "text": "RHU"
           }
         ],
         "children": [
@@ -11407,31 +11416,31 @@
             "min": 0,
             "max": 0,
             "color": "00FF00",
-            "text": "DERMATOLOGIE"
+            "text": "DER"
           },
           {
             "min": 1,
             "max": 1,
             "color": "FFFF00",
-            "text": "DERMATOLOGIE"
+            "text": "DER"
           },
           {
             "min": 2,
             "max": 2,
             "color": "FF9900",
-            "text": "DERMATOLOGIE"
+            "text": "DER"
           },
           {
             "min": 3,
             "max": 3,
             "color": "FF0000",
-            "text": "DERMATOLOGIE"
+            "text": "DER"
           },
           {
             "min": 4,
             "max": 4,
             "color": "990000",
-            "text": "DERMATOLOGIE"
+            "text": "DER"
           }
         ],
         "children": [
@@ -12257,31 +12266,31 @@
             "min": 0,
             "max": 0,
             "color": "00FF00",
-            "text":"EVAL/GLOB"
+            "text":"OPH"
           },
           {
             "min": 1,
             "max": 1,
             "color": "FFFF00",
-            "text":"EVAL/GLOB"
+            "text":"OPH"
           },
           {
             "min": 2,
             "max": 2,
             "color": "FF0000",
-            "text":"EVAL/GLOB"
+            "text":"OPH"
           },
           {
             "min": 3,
             "max": 3,
             "color": "FF0000",
-            "text":"EVAL/GLOB"
+            "text":"OPH"
           },
           {
             "min": 4,
             "max": 4,
             "color": "990000",
-            "text":"EVAL/GLOB"
+            "text":"OPH"
           }
         ],
         "children": [
@@ -12581,31 +12590,31 @@
             "min": 0,
             "max": 0,
             "color": "00FF00",
-            "text": "HOMEO-CELL"
+            "text": "CEL"
           },
           {
             "min": 1,
             "max": 1,
             "color": "FFFF00",
-            "text": "HOMEO-CELL"
+            "text": "CEL"
           },
           {
             "min": 2,
             "max": 2,
             "color": "FF9900",
-            "text": "HOMEO-CELL"
+            "text": "CEL"
           },
           {
             "min": 3,
             "max": 3,
             "color": "FF0000",
-            "text": "HOMEO-CELL"
+            "text": "CEL"
           },
           {
             "min": 4,
             "max": 4,
             "color": "990000",
-            "text": "HOMEO-CELL"
+            "text": "CEL"
           }
         ],
         "children": [

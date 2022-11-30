@@ -5,100 +5,100 @@
   "type": "MULTI_CHOICES",
   "choices": [
     {
-      "code": "Cancer du sein",
+      "code": "0",
       "text": "Cancer du sein"
     },
     {
-      "code": "Kyste bénin du sein",
+      "code": "1",
       "text": "Kyste bénin du sein"
     },
     {
-      "code": "Mastose",
+      "code": "2",
       "text": "Mastose"
     },
     {
-      "code": "Chirurgie à visée médicale",
+      "code": "3",
       "text": "Chirurgie à visée médicale (ablation d’une lésion, mastectomie partielle)"
     },
     {
-      "code": "Chirurgie à visée médicale (mastectomie totale) ",
+      "code": "4",
       "text": "Chirurgie à visée médicale (mastectomie totale)"
     },
     {
-      "code": "Chirurgie esthétique des seins (prothèses mammaires)",
+      "code": "5",
       "text": "Chirurgie esthétique des seins (prothèses mammaires)"
     },
     {
-      "code": "Chirurgie esthétique des seins (réduction mammaire, reconstruction …)",
+      "code": "6",
       "text": "Chirurgie esthétique des seins (réduction mammaire, reconstruction …)"
     },
     {
-      "code": "Infection et/ou abcès du sein",
+      "code": "7",
       "text": "Infection et/ou abcès du sein"
     },
     {
-      "code": "autres",
+      "code": "8",
       "text": "Autre(s) antécédent(s) au niveau du sein"
     },
     {
-      "code": "aucun",
+      "code": "9",
       "text": "Aucun de ces antécédents",
       "exclusive": true
     }
   ],
   "scores": [
     {
-      "conditions": "\"Cancer du sein\" in q_q1_gynecologie_003",
+      "conditions": "\"0\" in q_q1_gynecologie_003",
       "tagOID": "S_GYN_ATCD_SEIN_CANCER",
       "value": 1
     },
     {
-      "conditions": "\"Kyste bénin du sein\" in q_q1_gynecologie_003",
+      "conditions": "\"1\" in q_q1_gynecologie_003",
       "tagOID": "S_GYN_ATCD_SEIN_KYSTE",
       "value": 1
     },
     {
-      "conditions": "\"Mastose\" in q_q1_gynecologie_003",
+      "conditions": "\"2\" in q_q1_gynecologie_003",
       "tagOID": "S_GYN_ATCD_SEIN_MASTOSE",
       "value": 1
     },
     {
-      "conditions": "\"Chirurgie à visée médicale\" in q_q1_gynecologie_003",
+      "conditions": "\"3\" in q_q1_gynecologie_003",
       "tagOID": "S_GYN_ATCD_SEIN_MASTECTOMIE_PARTIELLE",
       "value": 1
     },
     {
-      "conditions": "\"Chirurgie à visée médicale (mastectomie totale) \" in q_q1_gynecologie_003",
+      "conditions": "\"4\" in q_q1_gynecologie_003",
       "tagOID": "S_GYN_ATCD_SEIN_MASTECTOMIE_TOTALE",
       "value": 1
     },
     {
-      "conditions": "\"Chirurgie esthétique des seins (prothèses mammaires)\" in q_q1_gynecologie_003",
+      "conditions": "\"5\" in q_q1_gynecologie_003",
       "tagOID": "S_GYN_ATCD_SEIN_PROTHESE",
       "value": 1
     },
     {
-      "conditions": "\"Chirurgie esthétique des seins (réduction mammaire, reconstruction …)\" in q_q1_gynecologie_003",
+      "conditions": "\"6\" in q_q1_gynecologie_003",
       "tagOID": "S_GYN_ATCD_SEIN_REDUCTION",
       "value": 1
     },
     {
-      "conditions": "\"Infection et/ou abcès du sein\" in q_q1_gynecologie_003",
+      "conditions": "\"7\" in q_q1_gynecologie_003",
       "tagOID": "S_GYN_ATCD_SEIN_MASTITE",
       "value": 1
     },
     {
-      "conditions": "\"autres\" in q_q1_gynecologie_003",
+      "conditions": "\"8\" in q_q1_gynecologie_003",
       "tagOID": "S_GYN_ATCD_SEIN_AUTRES",
       "value": 1
     },
     {
-      "conditions": "\"aucun\" in q_q1_gynecologie_003",
+      "conditions": "\"9\" in q_q1_gynecologie_003",
       "tagOID": "S_GYN_ATCD_SEIN",
       "value": 0
     },
     {
-      "conditions": "!(\"aucun\" in q_q1_gynecologie_003)",
+      "conditions": "!(\"9\" in q_q1_gynecologie_003)",
       "tagOID": "S_GYN_ATCD_SEIN",
       "value": 1
     }

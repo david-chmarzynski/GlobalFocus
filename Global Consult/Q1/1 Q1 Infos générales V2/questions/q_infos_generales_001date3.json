@@ -1,8 +1,11 @@
 {
   "oid": "q_infos_generales_001date3",
-  "title": "En quelle année vous êtes-vous séparé(e) ? (format JJ/MM/AAAA)",
-  "text": "En quelle année vous êtes-vous séparé(e) ? (format JJ/MM/AAAA)",
-  "type": "TEXT",
-  "choices": [],
-  "scores": []
+  "title": "En quelle année vous êtes-vous séparé(e) ?",
+  "text": "En quelle année vous êtes-vous séparé(e) ?",
+  "type": "INTEGER",
+  "scale": {
+    "min": "1900",
+    "max": "3000",
+    "step": 1
+  }
 }

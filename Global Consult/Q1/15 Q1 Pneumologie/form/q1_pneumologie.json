@@ -28,25 +28,25 @@
             "min": 0,
             "max": 0,
             "color": "00FF00",
-            "text": "PNEU"
+            "text": "PNE"
           },
           {
             "min": 1,
             "max": 1,
             "color": "FFFF00",
-            "text": "PNEU"
+            "text": "PNE"
           },
           {
             "min": 2,
             "max": 2,
             "color": "FF9900",
-            "text": "PNEU"
+            "text": "PNE"
           },
           {
             "min": 3,
             "max": 3,
             "color": "FF0000",
-            "text": "PNEU"
+            "text": "PNE"
           }
         ],
         "children": [

@@ -1,11 +1,8 @@
 {
   "oid": "q_infos_generales_005",
-  "title": "Quelles sont leurs dates de naissance ?",
-  "text": "Quelles sont leurs dates de naissance ?",
-  "type": "INTEGER",
-  "scale": {
-    "min": "1900",
-    "max": "3000",
-    "step": 1
-  }
+  "title": "Quel est sa/Quels sont leurs date(s) de naissance ? (format JJ/MM/AAAA)",
+  "text": "Quel est sa/Quels sont leurs date(s) de naissance ? (format JJ/MM/AAAA)",
+  "type": "TEXT",
+  "choices": [],
+  "scores": []
 }

@@ -301,7 +301,6 @@
                     ],
                     "children": [
                       {
-                        
                         "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_SEL",
                         "type": "SCORE",
                         "hideNodeIfEmpty": true,

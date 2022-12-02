@@ -10,4 +10,5 @@
 **Tour de hanches :** {{global_q_infos_generales_013_answer}} \n\n 
 **Tour de cou (périmètre cervical) :** {{global_q_infos_generales_014_answer}} \n\n \n\n --- \n##
 
-| **Poids actuel** | **Poids idéal** | **Taille** | **IMC** | **Périmètre ombilical** | **Tour de hanches** | **Tour de cou (périmètre cervical)** || --- | --- | --- | --- | --- | --- | --- || {{global_q_infos_generales_009_answer}} | {{global_q_infos_generales_010_answer}} | {{global_q_infos_generales_011_answer}} |  | {{global_q_infos_generales_012_answer}} | {{global_q_infos_generales_013_answer}} | {{global_q_infos_generales_014_answer}} |
+| **Poids actuel** | **Poids idéal** | **Taille** | **IMC** | **Périmètre ombilical** | **Tour de hanches** | **Tour de cou (périmètre cervical)** |\r\n| --- | --- | --- | --- | --- | --- | --- |\r\n| {{global_q_infos_generales_009_answer}} | {{global_q_infos_generales_010_answer}} | {{global_q_infos_generales_011_answer}} |  | {{global_q_infos_generales_012_answer}} | {{global_q_infos_generales_013_answer}} | {{global_q_infos_generales_014_answer}} |
+| titre colonne 1 | titre colonne 2 |\r\n| --- | --- |\r\n| du contenu | encore du contenu |

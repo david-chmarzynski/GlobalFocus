@@ -70,46 +70,6 @@
             ],
             "children": [
               {
-                "tagOID": "S_GYN_ATCD_VULVE_VAGIN_MYCOSE",
-                "type": "SCORE",
-                "hideNodeIfEmpty": true,
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "MYCOS"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "MYCOS"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_GYN_ATCD_VULVE_VAGIN_AUTRES",
-                "type": "SCORE",
-                "hideNodeIfEmpty": true,
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "AUTRE INF"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "AUTRE INF"
-                  }
-                ],
-                "children": []
-              },
-              {
                 "tagOID": "S_GYN_ATCD_VULVE_VAGIN_CANCER_VAGIN",
                 "type": "SCORE",
                 "hideNodeIfEmpty": true,

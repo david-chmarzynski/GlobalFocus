@@ -65,37 +65,37 @@
                 "min": 5,
                 "max": 5,
                 "color": "00FF00",
-                "text": "AP"
+                "text": "ACT-PHYS"
               },
               {
                 "min": 4,
                 "max": 4,
                 "color": "00FF00",
-                "text": "AP"
+                "text": "ACT-PHYS"
               },
               {
                 "min": 3,
                 "max": 3,
                 "color": "CCFF33",
-                "text": "AP"
+                "text": "ACT-PHYS"
               },
               {
                 "min": 2,
                 "max": 2,
                 "color": "FFFF00",
-                "text": "AP"
+                "text": "ACT-PHYS"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FF9900",
-                "text": "AP"
+                "text": "ACT-PHYS"
               },
               {
                 "min": 0,
                 "max": 0,
                 "color": "FF0000",
-                "text": "AP"
+                "text": "ACT-PHYS"
               }
             ],
             "children": []
@@ -109,37 +109,37 @@
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text": "SEDENT"
+                "text": "SÉDENTAIRE"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "CCFF33",
-                "text": "SEDENT"
+                "text": "SÉDENTAIRE"
               },
               {
                 "min": 2,
                 "max": 2,
                 "color": "FFFF00",
-                "text": "SEDENT"
+                "text": "SÉDENTAIRE"
               },
               {
                 "min": 3,
                 "max": 3,
                 "color": "FF9900",
-                "text": "SEDENT"
+                "text": "SÉDENTAIRE"
               },
               {
                 "min": 4,
                 "max": 4,
                 "color": "FF0000",
-                "text": "SEDENT"
+                "text": "SÉDENTAIRE"
               },
               {
                 "min": 5,
                 "max": 5,
                 "color": "990000",
-                "text": "SEDENT"
+                "text": "SÉDENTAIRE"
               }
             ],
             "children": []

@@ -71,37 +71,37 @@
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text": "EVAL/CONT"
+                "text": "CONTENU"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "CCFF33",
-                "text": "EVAL/CONT"
+                "text": "CONTENU"
               },
               {
                 "min": 2,
                 "max": 2,
                 "color": "FFFF00",
-                "text": "EVAL/CONT"
+                "text": "CONTENU"
               },
               {
                 "min": 3,
                 "max": 3,
                 "color": "FF9900",
-                "text": "EVAL/CONT"
+                "text": "CONTENU"
               },
               {
                 "min": 4,
                 "max": 4,
                 "color": "FF0000",
-                "text": "EVAL/CONT"
+                "text": "CONTENU"
               },
               {
                 "min": 5,
                 "max": 5,
                 "color": "990000",
-                "text": "EVAL/CONT"
+                "text": "CONTENU"
               }
             ],
             "children": [
@@ -114,49 +114,49 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "OMNI"
+                    "text": "CHOIX"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "00FF00",
-                    "text": "FLEX"
+                    "text": "CHOIX"
                   },
                   {
                     "min": 2,
                     "max": 2,
                     "color": "00FF00",
-                    "text": "1/2VÉGÉ"
+                    "text": "CHOIX"
                   },
                   {
                     "min": 3,
                     "max": 3,
                     "color": "FFFF00",
-                    "text": "LO/VÉGÉ"
+                    "text": "CHOIX"
                   },
                   {
                     "min": 4,
                     "max": 4,
                     "color": "FF9900",
-                    "text": "L/VÉGÉ"
+                    "text": "CHOIX"
                   },
                   {
                     "min": 5,
                     "max": 5,
                     "color": "FF9900",
-                    "text": "VGTAL"
+                    "text": "CHOIX"
                   },
                   {
                     "min": 6,
                     "max": 6,
                     "color": "FF9900",
-                    "text": "VEGAN"
+                    "text": "CHOIX"
                   },
                   {
                     "min": 7,
                     "max": 7,
                     "color": "FF9900",
-                    "text": "KÉTO"
+                    "text": "CHOIX"
                   }
                 ],
                 "children": []
@@ -170,31 +170,31 @@
                     "min": 0,
                     "max": 0,
                     "color": "FFFF00",
-                    "text": "PMD"
+                    "text": "TYPOLOGIE"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF9900",
-                    "text": "GMD"
+                    "text": "TYPOLOGIE"
                   },
                   {
                     "min": 2,
                     "max": 2,
                     "color": "00FF00",
-                    "text": "STAND"
+                    "text": "TYPOLOGIE"
                   },
                   {
                     "min": 3,
                     "max": 3,
                     "color": "FF9900",
-                    "text": "PMP"
+                    "text": "TYPOLOGIE"
                   },
                   {
                     "min": 4,
                     "max": 4,
                     "color": "FF0000",
-                    "text": "GMM"
+                    "text": "TYPOLOGIE"
                   }
                 ],
                 "children": []
@@ -290,17 +290,18 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text": "CONTR/SANTÉ"
+                        "text": "SANTÉ"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text": "CONTR/SANTÉ"
+                        "text": "SANTÉ"
                       }
                     ],
                     "children": [
                       {
+                        
                         "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_SEL",
                         "type": "SCORE",
                         "hideNodeIfEmpty": true,
@@ -511,19 +512,19 @@
                     "min": 0,
                     "max": 0.9,
                     "color": "00FF00",
-                    "text": "TCA/SCOFF"
+                    "text": "TCA?"
                   },
                   {
                     "min": 1,
                     "max": 1.9,
                     "color": "FF9900",
-                    "text": "TCA/SCOFF"
+                    "text": "TCA?"
                   },
                   {
                     "min": 2,
                     "max": 5.9,
                     "color": "FF0000",
-                    "text": "TCA/SCOFF"
+                    "text": "TCA?"
                   }
                 ],
                 "children": []
@@ -537,13 +538,13 @@
                     "min": 0,
                     "max": 0.9,
                     "color": "00FF00",
-                    "text": "ATCD/ALIM"
+                    "text": "ATCD"
                   },
                   {
                     "min": 1,
                     "max": 1.9,
                     "color": "FF0000",
-                    "text": "ATCD/ALIM"
+                    "text": "ATCD"
                   }
                 ],
                 "children": [
@@ -602,7 +603,7 @@
                         "min": 1,
                         "max": 1.9,
                         "color": "FF0000",
-                        "text": "I/ESTH"
+                        "text": "I/ESTHE"
                       }
                     ],
                     "children": []

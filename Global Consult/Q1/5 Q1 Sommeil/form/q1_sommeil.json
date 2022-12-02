@@ -81,37 +81,37 @@
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text": "CONTEXT/SOM"
+                "text": "CONTEXT"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "CCFF33",
-                "text": "CONTEXT/SOM"
+                "text": "CONTEXT"
               },
               {
                 "min": 2,
                 "max": 2,
                 "color": "FFFF00",
-                "text": "CONTEXT/SOM"
+                "text": "CONTEXT"
               },
               {
                 "min": 3,
                 "max": 3,
                 "color": "FF9900",
-                "text": "CONTEXT/SOM"
+                "text": "CONTEXT"
               },
               {
                 "min": 4,
                 "max": 4,
                 "color": "FF0000",
-                "text": "CONTEXT/SOM"
+                "text": "CONTEXT"
               },
               {
                 "min": 5,
                 "max": 5,
                 "color": "990000",
-                "text": "CONTEXT/SOM"
+                "text": "CONTEXT"
               }
             ],
             "children": []
@@ -125,31 +125,31 @@
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text": "AIDE/SOM"
+                "text": "AIDE"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FFFF00",
-                "text": "AIDE/SOM"
+                "text": "AIDE"
               },
               {
                 "min": 2,
                 "max": 2,
                 "color": "FF9900",
-                "text": "AIDE/SOM"
+                "text": "AIDE"
               },
               {
                 "min": 3,
                 "max": 3,
                 "color": "FF0000",
-                "text": "AIDE/SOM"
+                "text": "AIDE"
               },
               {
                 "min": 4,
                 "max": 4,
                 "color": "990000",
-                "text": "AIDE/SOM"
+                "text": "AIDE"
               }
             ],
             "children": []
@@ -163,31 +163,31 @@
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text": "ENDORM"
+                "text": "S'ENDORMIR"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FFFF00",
-                "text": "ENDORM"
+                "text": "S'ENDORMIR"
               },
               {
                 "min": 2,
                 "max": 2,
                 "color": "FF9900",
-                "text": "ENDORM"
+                "text": "S'ENDORMIR"
               },
               {
                 "min": 3,
                 "max": 3,
                 "color": "FF0000",
-                "text": "ENDORM"
+                "text": "S'ENDORMIR"
               },
               {
                 "min": 4,
                 "max": 4,
                 "color": "990000",
-                "text": "ENDORM"
+                "text": "S'ENDORMIR"
               }
             ],
             "children": []
@@ -201,31 +201,31 @@
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text": "MAINT"
+                "text": "MAINTENIR"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FFFF00",
-                "text": "MAINT"
+                "text": "MAINTENIR"
               },
               {
                 "min": 2,
                 "max": 2,
                 "color": "FF9900",
-                "text": "MAINT"
+                "text": "MAINTENIR"
               },
               {
                 "min": 3,
                 "max": 3,
                 "color": "FF0000",
-                "text": "MAINT"
+                "text": "MAINTENIR"
               },
               {
                 "min": 4,
                 "max": 4,
                 "color": "990000",
-                "text": "MAINT"
+                "text": "MAINTENIR"
               }
             ],
             "children": []
@@ -239,37 +239,37 @@
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text": "QUANT/SOM"
+                "text": "DURÉE"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "CCFF33",
-                "text": "QUANT/SOM"
+                "text": "DURÉE"
               },
               {
                 "min": 2,
                 "max": 2,
                 "color": "FFFF00",
-                "text": "QUANT/SOM"
+                "text": "DURÉE"
               },
               {
                 "min": 3,
                 "max": 3,
                 "color": "FF9900",
-                "text": "QUANT/SOM"
+                "text": "DURÉE"
               },
               {
                 "min": 4,
                 "max": 4,
                 "color": "FF0000",
-                "text": "QUANT/SOM"
+                "text": "DURÉE"
               },
               {
                 "min": 5,
                 "max": 5,
                 "color": "990000",
-                "text": "QUANT/SOM"
+                "text": "DURÉE"
               }
             ],
             "children": []
@@ -283,37 +283,37 @@
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text": "QUAL/SOM"
+                "text": "QUALITÉ"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "CCFF33",
-                "text": "QUAL/SOM"
+                "text": "QUALITÉ"
               },
               {
                 "min": 2,
                 "max": 2,
                 "color": "FFFF00",
-                "text": "QUAL/SOM"
+                "text": "QUALITÉ"
               },
               {
                 "min": 3,
                 "max": 3,
                 "color": "FF9900",
-                "text": "QUAL/SOM"
+                "text": "QUALITÉ"
               },
               {
                 "min": 4,
                 "max": 4,
                 "color": "FF0000",
-                "text": "QUAL/SOM"
+                "text": "QUALITÉ"
               },
               {
                 "min": 5,
                 "max": 5,
                 "color": "990000",
-                "text": "QUAL/SOM"
+                "text": "QUALITÉ"
               }
             ],
             "children": []
@@ -327,31 +327,31 @@
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text": "ASTH-M"
+                "text": "ASTHÉ-MAT"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FFFF00",
-                "text": "ASTH-M"
+                "text": "ASTHÉ-MAT"
               },
               {
                 "min": 2,
                 "max": 2,
                 "color": "FF9900",
-                "text": "ASTH-M"
+                "text": "ASTHÉ-MAT"
               },
               {
                 "min": 3,
                 "max": 3,
                 "color": "FF0000",
-                "text": "ASTH-M"
+                "text": "ASTHÉ-MAT"
               },
               {
                 "min": 4,
                 "max": 4,
                 "color": "990000",
-                "text": "ASTH-M"
+                "text": "ASTHÉ-MAT"
               }
             ],
             "children": []
@@ -365,31 +365,31 @@
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text": "ASTH-J"
+                "text": "ASTHÉ-JOUR"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FFFF00",
-                "text": "ASTH-J"
+                "text": "ASTHÉ-JOUR"
               },
               {
                 "min": 2,
                 "max": 2,
                 "color": "FF9900",
-                "text": "ASTH-J"
+                "text": "ASTHÉ-JOUR"
               },
               {
                 "min": 3,
                 "max": 3,
                 "color": "FF0000",
-                "text": "ASTH-J"
+                "text": "ASTHÉ-JOUR"
               },
               {
                 "min": 4,
                 "max": 4,
                 "color": "990000",
-                "text": "ASTH-J"
+                "text": "ASTHÉ-JOUR"
               }
             ],
             "children": []
@@ -403,25 +403,25 @@
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text": "TRBLE/SOM"
+                "text": "PATH-SOM?"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FFFF00",
-                "text": "TRBLE/SOM"
+                "text": "PATH-SOM?"
               },
               {
                 "min": 2,
                 "max": 2,
                 "color": "FF9900",
-                "text": "TRBLE/SOM"
+                "text": "PATH-SOM?"
               },
               {
                 "min": 3,
                 "max": 3,
                 "color": "FF0000",
-                "text": "TRBLE/SOM"
+                "text": "PATH-SOM?"
               }
             ],
             "children": [
@@ -434,57 +434,25 @@
                     "min": 0,
                     "max": 0.9,
                     "color": "00FF00",
-                    "text": "SJSR"
+                    "text": "SJSR?"
                   },
                   {
                     "min": 1,
                     "max": 2.9,
                     "color": "FFFF00",
-                    "text": "SJSR"
+                    "text": "SJSR?"
                   },
                   {
                     "min": 3,
                     "max": 4.9,
                     "color": "FF9900",
-                    "text": "SJSR"
+                    "text": "SJSR?"
                   },
                   {
                     "min": 5,
                     "max": 20.9,
                     "color": "FF0000",
-                    "text": "SJSR"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "tag_VSSJR",
-                "type": "SCORE",
-                "hideNodeIfEmpty": true,
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0.9,
-                    "color": "00FF00",
-                    "text": "SJSR"
-                  },
-                  {
-                    "min": 1,
-                    "max": 2.9,
-                    "color": "FFFF00",
-                    "text": "SJSR"
-                  },
-                  {
-                    "min": 3,
-                    "max": 4.9,
-                    "color": "FF9900",
-                    "text": "SJSR"
-                  },
-                  {
-                    "min": 5,
-                    "max": 20.9,
-                    "color": "FF0000",
-                    "text": "SJSR"
+                    "text": "SJSR?"
                   }
                 ],
                 "children": []
@@ -500,13 +468,13 @@
                 "min": 1,
                 "max": 1,
                 "color": "00FF00",
-                "text": "ATCD-P"
+                "text": "ATCD-PERSO"
               },
               {
                 "min": 0,
                 "max": 0,
                 "color": "FF0000",
-                "text": "ATCD-P"
+                "text": "ATCD-PERSO"
               }
             ],
             "children": [

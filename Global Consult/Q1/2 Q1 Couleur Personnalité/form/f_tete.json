@@ -53,37 +53,37 @@
                 "min": 0,
                 "max": 0.9,
                 "color": "00FF00",
-                "text": "TENS"
+                "text": "TENDU"
               },
               {
                 "min": 1,
                 "max": 1.9,
                 "color": "CCFF33",
-                "text": "TENS"
+                "text": "TENDU"
               },
               {
                 "min": 2,
                 "max": 2.9,
                 "color": "FFFF00",
-                "text": "TENS"
+                "text": "TENDU"
               },
               {
                 "min": 3,
                 "max": 3.9,
                 "color": "FF9900",
-                "text": "TENS"
+                "text": "TENDU"
               },
               {
                 "min": 4,
                 "max": 4.9,
                 "color": "FF0000",
-                "text": "TENS"
+                "text": "TENDU"
               },
               {
                 "min": 5,
                 "max": 5.9,
                 "color": "990000",
-                "text": "TENS"
+                "text": "TENDU"
               }
             ],
             "children": [
@@ -96,37 +96,37 @@
                     "min": 0,
                     "max": 0.9,
                     "color": "00FF00",
-                    "text": "ANX-TRT"
+                    "text": "ANX-TRAIT"
                   },
                   {
                     "min": 1,
                     "max": 1.9,
                     "color": "CCFF33",
-                    "text": "ANX-TRT"
+                    "text": "ANX-TRAIT"
                   },
                   {
                     "min": 2,
                     "max": 2.9,
                     "color": "FFFF00",
-                    "text": "ANX-TRT"
+                    "text": "ANX-TRAIT"
                   },
                   {
                     "min": 3,
                     "max": 3.9,
                     "color": "FF9900",
-                    "text": "ANX-TRT"
+                    "text": "ANX-TRAIT"
                   },
                   {
                     "min": 4,
                     "max": 4.9,
                     "color": "FF0000",
-                    "text": "ANX-TRT"
+                    "text": "ANX-TRAIT"
                   },
                   {
                     "min": 5,
                     "max": 5.9,
                     "color": "990000",
-                    "text": "ANX-TRT"
+                    "text": "ANX-TRAIT"
                   }
                 ],
                 "children": []
@@ -218,31 +218,31 @@
                 "min": 1,
                 "max": 1.9,
                 "color": "00FF00",
-                "text": "MOTIV"
+                "text": "MOTIVÉ"
               },
               {
                 "min": 2,
                 "max": 2.9,
                 "color": "CCFF33",
-                "text": "MOTIV"
+                "text": "MOTIVÉ"
               },
               {
                 "min": 3,
                 "max": 3.9,
                 "color": "FFFF00",
-                "text": "MOTIV"
+                "text": "MOTIVÉ"
               },
               {
                 "min": 4,
                 "max": 4.9,
                 "color": "FF9900",
-                "text": "MOTIV"
+                "text": "MOTIVÉ"
               },
               {
                 "min": 5,
                 "max": 5.9,
                 "color": "FF0000",
-                "text": "MOTIV"
+                "text": "MOTIVÉ"
               }
             ],
             "children": [
@@ -255,25 +255,25 @@
                     "min": 9,
                     "max": 10.9,
                     "color": "00FF00",
-                    "text": "ENVI"
+                    "text": "ENVIE"
                   },
                   {
                     "min": 7,
                     "max": 8.9,
                     "color": "FFFF00",
-                    "text": "ENVI"
+                    "text": "ENVIE"
                   },
                   {
                     "min": 5,
                     "max": 6.9,
                     "color": "FF9900",
-                    "text": "ENVI"
+                    "text": "ENVIE"
                   },
                   {
                     "min": 0,
                     "max": 4.9,
                     "color": "FF0000",
-                    "text": "ENVI"
+                    "text": "ENVIE"
                   }
                 ],
                 "children": []
@@ -287,25 +287,25 @@
                     "min": 9,
                     "max": 10.9,
                     "color": "00FF00",
-                    "text": "CONFI"
+                    "text": "CONFIANCE"
                   },
                   {
                     "min": 7,
                     "max": 8.9,
                     "color": "FFFF00",
-                    "text": "CONFI"
+                    "text": "CONFIANCE"
                   },
                   {
                     "min": 5,
                     "max": 6.9,
                     "color": "FF9900",
-                    "text": "CONFI"
+                    "text": "CONFIANCE"
                   },
                   {
                     "min": 0,
                     "max": 4.9,
                     "color": "FF0000",
-                    "text": "CONFI"
+                    "text": "CONFIANCE"
                   }
                 ],
                 "children": []
@@ -353,37 +353,37 @@
                 "min": 1,
                 "max": 1.9,
                 "color": "00FF00",
-                "text": "SOI/VIS"
+                "text": "VISION/SOI"
               },
               {
                 "min": 2,
                 "max": 2.9,
                 "color": "CCFF33",
-                "text": "SOI/VIS"
+                "text": "VISION/SOI"
               },
               {
                 "min": 3,
                 "max": 3.9,
                 "color": "FFFF00",
-                "text": "SOI/VIS"
+                "text": "VISION/SOI"
               },
               {
                 "min": 4,
                 "max": 4.9,
                 "color": "FF9900",
-                "text": "SOI/VIS"
+                "text": "VISION/SOI"
               },
               {
                 "min": 5,
                 "max": 5.9,
                 "color": "FF0000",
-                "text": "SOI/VIS"
+                "text": "VISION/SOI"
               },
               {
                 "min": 6,
                 "max": 6.9,
                 "color": "990000",
-                "text": "SOI/VIS"
+                "text": "VISION/SOI"
               }
             ],
             "children": [
@@ -396,37 +396,37 @@
                     "min": 1,
                     "max": 1.9,
                     "color": "00FF00",
-                    "text": "IM/CORP"
+                    "text": "CORPS"
                   },
                   {
                     "min": 2,
                     "max": 2.9,
                     "color": "CCFF33",
-                    "text": "IM/CORP"
+                    "text": "CORPS"
                   },
                   {
                     "min": 3,
                     "max": 3.9,
                     "color": "FFFF00",
-                    "text": "IM/CORP"
+                    "text": "CORPS"
                   },
                   {
                     "min": 4,
                     "max": 4.9,
                     "color": "FF9900",
-                    "text": "IM/CORP"
+                    "text": "CORPS"
                   },
                   {
                     "min": 5,
                     "max": 5.9,
                     "color": "FF0000",
-                    "text": "IM/CORP"
+                    "text": "CORPS"
                   },
                   {
                     "min": 6,
                     "max": 6.9,
                     "color": "990000",
-                    "text": "IM/CORP"
+                    "text": "CORPS"
                   }
                 ],
                 "children": []
@@ -440,37 +440,37 @@
                     "min": 1,
                     "max": 1.9,
                     "color": "00FF00",
-                    "text": "ADS"
+                    "text": "AFFIRMATION"
                   },
                   {
                     "min": 2,
                     "max": 2.9,
                     "color": "CCFF33",
-                    "text": "ADS"
+                    "text": "AFFIRMATION"
                   },
                   {
                     "min": 3,
                     "max": 3.9,
                     "color": "FFFF00",
-                    "text": "ADS"
+                    "text": "AFFIRMATION"
                   },
                   {
                     "min": 4,
                     "max": 4.9,
                     "color": "FF9900",
-                    "text": "ADS"
+                    "text": "AFFIRMATION"
                   },
                   {
                     "min": 5,
                     "max": 5.9,
                     "color": "FF0000",
-                    "text": "ADS"
+                    "text": "AFFIRMATION"
                   },
                   {
                     "min": 6,
                     "max": 6.9,
                     "color": "990000",
-                    "text": "ADS"
+                    "text": "AFFIRMATION"
                   }
                 ],
                 "children": []
@@ -484,25 +484,25 @@
                     "min": 8,
                     "max": 10.9,
                     "color": "00FF00",
-                    "text": "SOI/CONF"
+                    "text": "CONFIANCE"
                   },
                   {
                     "min": 6,
                     "max": 7.9,
                     "color": "FFFF00",
-                    "text": "SOI/CONF"
+                    "text": "CONFIANCE"
                   },
                   {
                     "min": 4,
                     "max": 5.9,
                     "color": "FF9900",
-                    "text": "SOI/CONF"
+                    "text": "CONFIANCE"
                   },
                   {
                     "min": 0,
                     "max": 3.9,
                     "color": "FF0000",
-                    "text": "SOI/CONF"
+                    "text": "CONFIANCE"
                   }
                 ],
                 "children": []
@@ -516,37 +516,37 @@
                     "min": 1,
                     "max": 1.9,
                     "color": "00FF00",
-                    "text": "SOI/EST"
+                    "text": "ESTIME"
                   },
                   {
                     "min": 2,
                     "max": 2.9,
                     "color": "CCFF33",
-                    "text": "SOI/EST"
+                    "text": "ESTIME"
                   },
                   {
                     "min": 3,
                     "max": 3.9,
                     "color": "FFFF00",
-                    "text": "SOI/EST"
+                    "text": "ESTIME"
                   },
                   {
                     "min": 4,
                     "max": 4.9,
                     "color": "FF9900",
-                    "text": "SOI/EST"
+                    "text": "ESTIME"
                   },
                   {
                     "min": 5,
                     "max": 5.9,
                     "color": "FF0000",
-                    "text": "SOI/EST"
+                    "text": "ESTIME"
                   },
                   {
                     "min": 6,
                     "max": 6.9,
                     "color": "990000",
-                    "text": "SOI/EST"
+                    "text": "ESTIME"
                   }
                 ],
                 "children": []

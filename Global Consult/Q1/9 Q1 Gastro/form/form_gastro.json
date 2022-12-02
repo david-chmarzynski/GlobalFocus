@@ -84,13 +84,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "ŒSO"
+                    "text": "Kc ŒSO"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "ŒSO"
+                    "text": "Kc ŒSO"
                   }
                 ],
                 "children": []
@@ -104,13 +104,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "ESTOMAC"
+                    "text": "Kc ESTOMAC"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "ESTOMAC"
+                    "text": "Kc ESTOMAC"
                   }
                 ],
                 "children": []
@@ -124,13 +124,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "DUOD"
+                    "text": "Kc DUOD"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "DUOD"
+                    "text": "Kc DUOD"
                   }
                 ],
                 "children": []
@@ -144,13 +144,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "INT GREL"
+                    "text": "Kc INT GR"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "INT GREL"
+                    "text": "Kc INT GR"
                   }
                 ],
                 "children": []
@@ -164,13 +164,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "COLON"
+                    "text": "Kc COLON"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "COLON"
+                    "text": "Kc COLON"
                   }
                 ],
                 "children": []
@@ -184,13 +184,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "SIGM"
+                    "text": "Kc SIGM"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "SIGM"
+                    "text": "Kc SIGM"
                   }
                 ],
                 "children": []
@@ -204,13 +204,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "RECTUM"
+                    "text": "Kc RECTUM"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "RECTUM"
+                    "text": "Kc RECTUM"
                   }
                 ],
                 "children": []
@@ -224,13 +224,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "ANUS"
+                    "text": "Kc ANUS"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "ANUS"
+                    "text": "Kc ANUS"
                   }
                 ],
                 "children": []
@@ -244,13 +244,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "FOIE"
+                    "text": "Kc FOIE"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "FOIE"
+                    "text": "Kc FOIE"
                   }
                 ],
                 "children": []
@@ -264,13 +264,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "VB"
+                    "text": "Kc VB"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "VB"
+                    "text": "Kc VB"
                   }
                 ],
                 "children": []
@@ -284,13 +284,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "PANCR"
+                    "text": "Kc PANCREAS"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "PANCR"
+                    "text": "Kc PANCREAS"
                   }
                 ],
                 "children": []
@@ -326,13 +326,13 @@
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text": "DIG HAUT"
+                "text": "DIG HT"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FF0000",
-                "text": "DIG HAUT"
+                "text": "DIG HT"
               }
             ],
             "children": [
@@ -345,13 +345,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "OESOPH"
+                    "text": "OESOPHAGITE"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "OESOPH"
+                    "text": "OESOPHAGITE"
                   }
                 ],
                 "children": []
@@ -385,13 +385,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "HER HIAT"
+                    "text": "HERNIE HIATALE"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "HER HIAT"
+                    "text": "HERNIE HIATALE"
                   }
                 ],
                 "children": []
@@ -405,13 +405,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "GASTRIT"
+                    "text": "GASTRITE"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "GASTRIT"
+                    "text": "GASTRITE"
                   }
                 ],
                 "children": []
@@ -425,13 +425,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "ULC/ESTO"
+                    "text": "ULCUS ESTO"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "ULC/ESTO"
+                    "text": "ULCUS ESTO"
                   }
                 ],
                 "children": []
@@ -445,13 +445,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "ULC/DUO"
+                    "text": "ULCUS DUOD"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "ULC/DUO"
+                    "text": "ULCUS DUOD"
                   }
                 ],
                 "children": []
@@ -465,13 +465,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "HELICO"
+                    "text": "HELICO PYL"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "HELICO"
+                    "text": "HELICO PYL"
                   }
                 ],
                 "children": []
@@ -485,13 +485,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "DUOD"
+                    "text": "DUODENITE"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "DUOD"
+                    "text": "DUODENITE"
                   }
                 ],
                 "children": []
@@ -586,13 +586,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "POLYP"
+                    "text": "POLYPE"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "POLYP"
+                    "text": "POLYPE"
                   }
                 ],
                 "children": []
@@ -606,13 +606,33 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "DIVERTI"
+                    "text": "DIVERTICULE"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "DIVERTI"
+                    "text": "DIVERTICULE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_DIG_ATCD_TD_BAS_CHRON",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CROHN"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CROHN"
                   }
                 ],
                 "children": []
@@ -646,13 +666,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "COL/PMEMB"
+                    "text": "COL PSE MEMB"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "COL/PMEMB"
+                    "text": "COL PSE MEMB"
                   }
                 ],
                 "children": []
@@ -666,13 +686,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "HEMORRO"
+                    "text": "HEMORROÏDE"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "HEMORRO"
+                    "text": "HEMORROÏDE"
                   }
                 ],
                 "children": []
@@ -686,13 +706,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "F_ANAL"
+                    "text": "FISS ANUS"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "F_ANAL"
+                    "text": "FISS ANUS"
                   }
                 ],
                 "children": []
@@ -706,13 +726,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "INC/ANAL"
+                    "text": "INCONTINENCE"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "INC/ANAL"
+                    "text": "INCONTINENCE"
                   }
                 ],
                 "children": []
@@ -767,13 +787,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "STEAT"
+                    "text": "STEATOSE"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "STEAT"
+                    "text": "STEATOSE"
                   }
                 ],
                 "children": []
@@ -787,13 +807,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "FIBR/H"
+                    "text": "FIBR HEPAT"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "FIBR/H"
+                    "text": "FIBR HEPAT"
                   }
                 ],
                 "children": []
@@ -807,13 +827,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "CIRRH"
+                    "text": "CIRRHOSE"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "CIRRH"
+                    "text": "CIRRHOSE"
                   }
                 ],
                 "children": []
@@ -827,13 +847,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "HEPAT/B"
+                    "text": "HEPAT B"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "HEPAT/B"
+                    "text": "HEPAT B"
                   }
                 ],
                 "children": []
@@ -847,13 +867,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "HEPAT/C"
+                    "text": "HEPAT C"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "HEPAT/C"
+                    "text": "HEPAT C"
                   }
                 ],
                 "children": []
@@ -887,13 +907,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "CHOLECY"
+                    "text": "CHOLECYSTITE"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "CHOLECY"
+                    "text": "CHOLECYSTITE"
                   }
                 ],
                 "children": []
@@ -907,13 +927,33 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "LITH/VB"
+                    "text": "LITH VB"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "LITH/VB"
+                    "text": "LITH VB"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_DIG_ATCD_ANNEXES_CHOLECYSTECTOMIE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "ABLA VB"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "ABLA VB"
                   }
                 ],
                 "children": []
@@ -927,13 +967,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "PANC/A"
+                    "text": "PANC AIG"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "PANC/A"
+                    "text": "PANC AIG"
                   }
                 ],
                 "children": []
@@ -947,13 +987,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "PANC/C"
+                    "text": "PANC CHR"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "PANC/C"
+                    "text": "PANC CHR"
                   }
                 ],
                 "children": []

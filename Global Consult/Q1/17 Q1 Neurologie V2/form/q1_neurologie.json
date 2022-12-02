@@ -28,31 +28,31 @@
             "min": 0,
             "max": 0,
             "color": "00FF00",
-            "text": "NEU"
+            "text": "NEUR"
           },
           {
             "min": 1,
             "max": 1,
             "color": "FFFF00",
-            "text": "NEU"
+            "text": "NEUR"
           },
           {
             "min": 2,
             "max": 2,
             "color": "FF9900",
-            "text": "NEU"
+            "text": "NEUR"
           },
           {
             "min": 3,
             "max": 3,
             "color": "FF0000",
-            "text": "NEU"
+            "text": "NEUR"
           },
           {
             "min": 4,
             "max": 4,
             "color": "990000",
-            "text": "NEU"
+            "text": "NEUR"
           }
         ],
         "children": [
@@ -284,13 +284,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "TUMEUR MAL CERV"
+                    "text": "TUM MAL CERV"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "TUMEUR MAL CERV"
+                    "text": "TUM MAL CERV"
                   }
                 ],
                 "children": []

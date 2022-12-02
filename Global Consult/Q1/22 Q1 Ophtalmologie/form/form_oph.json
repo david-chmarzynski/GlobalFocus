@@ -128,13 +128,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text":"GLAU"
+                    "text":"GLAUCOME"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text":"GLAU"
+                    "text":"GLAUCOME"
                   }
                 ],
                 "children": []
@@ -148,13 +148,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text":"UVEIT"
+                    "text":"UVEITE"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text":"UVEIT"
+                    "text":"UVEITE"
                   }
                 ],
                 "children": []
@@ -168,13 +168,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text":"KERA"
+                    "text":"KERATITE"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text":"KERA"
+                    "text":"KERATITE"
                   }
                 ],
                 "children": []
@@ -188,13 +188,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text":"CATA"
+                    "text":"CATARACTE"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text":"CATA"
+                    "text":"CATARACTE"
                   }
                 ],
                 "children": []
@@ -208,13 +208,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text":"RETINO"
+                    "text":"RETINOPAT"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text":"RETINO"
+                    "text":"RETINOPAT"
                   }
                 ],
                 "children": []
@@ -228,13 +228,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text":"MYOP"
+                    "text":"MYOPIE"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text":"MYOP"
+                    "text":"MYOPIE"
                   }
                 ],
                 "children": []
@@ -248,13 +248,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text":"PRESB"
+                    "text":"PRESBYTE"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text":"PRESB"
+                    "text":"PRESBYTE"
                   }
                 ],
                 "children": []
@@ -268,13 +268,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text":"ASTI"
+                    "text":"ASTIGMATE"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text":"ASTI"
+                    "text":"ASTIGMATE"
                   }
                 ],
                 "children": []
@@ -288,13 +288,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text":"HYPER"
+                    "text":"HYPERMETROPE"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text":"HYPER"
+                    "text":"HYPERMETROPE"
                   }
                 ],
                 "children": []
@@ -308,13 +308,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text":"CECIT"
+                    "text":"CECITE"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text":"CECIT"
+                    "text":"CECITE"
                   }
                 ],
                 "children": []

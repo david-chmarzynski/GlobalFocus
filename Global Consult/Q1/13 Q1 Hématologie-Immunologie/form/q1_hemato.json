@@ -460,13 +460,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "THROMBOCYT"
+                    "text": "THROMBCYT"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "THROMBOCYT"
+                    "text": "THROMBCYT"
                   }
                 ],
                 "children": []
@@ -540,13 +540,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "PURP THROMB"
+                    "text": "PURP THROMBOT"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "PURP THROMB"
+                    "text": "PURP THROMBOT"
                   }
                 ],
                 "children": []
@@ -600,13 +600,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "FACT V"
+                    "text": "FACT 5"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "FACT V"
+                    "text": "FACT 5"
                   }
                 ],
                 "children": []
@@ -801,19 +801,19 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "KC MULTI EN REM"
+                    "text": "KC>1 EN REM"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "KC MULTI EN REM"
+                    "text": "KC>1 EN REM"
                   }
                 ],
                 "children": []
               },
               {
-                "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_KC_PLUSIEURS_EN_TRT",
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_TRAITEMENT_CHIR",
                 "type": "SCORE",
                 "hideNodeIfEmpty": true,
                 "ranges": [
@@ -821,13 +821,153 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "KC MULTI EN TRT"
+                    "text": "CHIR"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "KC MULTI EN TRT"
+                    "text": "CHIR"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_TRAITEMENT_RADIOTH",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "RADIOTH"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "RADIOTH"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_TRAITEMENT_CHIMIO",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CHIMIO"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CHIMIO"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_TRAITEMENT_THERAPIES_CIBLEES",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "THER CIBL"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "THER CIBL"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_TRAITEMENT_HORMONOTH",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "HORMONOTH"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "HORMONOTH"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_TRAITEMENT_IMMUNOTH",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "IMMUNOTH"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "IMMUNOTH"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_TRAITEMENT_CURIETH",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "CURIETH"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "CURIETH"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_HE-IM_ATCD_IMMUNO_CANCER_TRAITEMENT_GREFFE_MOELLE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "GREF MOELLE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "GREF MOELLE"
                   }
                 ],
                 "children": []
@@ -887,13 +1027,13 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text": "LUPUS"
+                        "text": "LED"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text": "LUPUS"
+                        "text": "LED"
                       }
                     ],
                     "children": []
@@ -1027,13 +1167,13 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text": "MAL PERIODE"
+                        "text": "MAL PERIOD"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text": "MAL PERIODE"
+                        "text": "MAL PERIOD"
                       }
                     ],
                     "children": []
@@ -1551,13 +1691,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "OREILLONS"
+                    "text": "OREILLON"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "OREILLONS"
+                    "text": "OREILLON"
                   }
                 ],
                 "children": []
@@ -1731,13 +1871,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "PALUD"
+                    "text": "PALU"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "PALUD"
+                    "text": "PALU"
                   }
                 ],
                 "children": []

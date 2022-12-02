@@ -89,13 +89,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "ACOU"
+                    "text": "ACOUPH"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "ACOU"
+                    "text": "ACOUPH"
                   }
                 ],
                 "children": []
@@ -109,13 +109,33 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "HYPO"
+                    "text": "HYPOACOUSIE"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "HYPO"
+                    "text": "HYPOACOUSIE"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "tagOID": "S_ORL_ATCD_OREILLE_SURDITE",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                  {
+                    "min": 0,
+                    "max": 0,
+                    "color": "00FF00",
+                    "text": "SURDITE"
+                  },
+                  {
+                    "min": 1,
+                    "max": 1,
+                    "color": "FF0000",
+                    "text": "SURDITE"
                   }
                 ],
                 "children": []
@@ -129,13 +149,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "CHIR"
+                    "text": "CHIR TYMP"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "CHIR"
+                    "text": "CHIR TYMP"
                   }
                 ],
                 "children": []
@@ -149,13 +169,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "NEURI"
+                    "text": "NEURINO"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "NEURI"
+                    "text": "NEURINO"
                   }
                 ],
                 "children": []
@@ -169,13 +189,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "VERTIG"
+                    "text": "VERTIGES"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "VERTIG"
+                    "text": "VERTIGES"
                   }
                 ],
                 "children": []
@@ -189,13 +209,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "CANCER"
+                    "text": "Kc OREILLE"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "CANCER"
+                    "text": "Kc OREILLE"
                   }
                 ],
                 "children": []
@@ -231,13 +251,13 @@
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text": "A/NEZ"
+                "text": "ATCD NEZ"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FF0000",
-                "text": "A/NEZ"
+                "text": "ATCD NEZ"
               }
             ],
             "children": [
@@ -250,13 +270,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "RHIN"
+                    "text": "RHIN CHR"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "RHIN"
+                    "text": "RHIN CHR"
                   }
                 ],
                 "children": []
@@ -270,13 +290,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "SINUS"
+                    "text": "SIN CHR"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "SINUS"
+                    "text": "SIN CHR"
                   }
                 ],
                 "children": []
@@ -290,13 +310,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "POLYP"
+                    "text": "POLYP NAS"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "POLYP"
+                    "text": "POLYP NAS"
                   }
                 ],
                 "children": []
@@ -310,13 +330,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "ANO"
+                    "text": "ANOSMIE"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "ANO"
+                    "text": "ANOSMIE"
                   }
                 ],
                 "children": []
@@ -330,13 +350,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "ADENO"
+                    "text": "ADENOIDECT"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "ADENO"
+                    "text": "ADENOIDECT"
                   }
                 ],
                 "children": []
@@ -350,13 +370,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "CANCER"
+                    "text": "Kc NEZ"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "CANCER"
+                    "text": "Kc NEZ"
                   }
                 ],
                 "children": []
@@ -392,13 +412,13 @@
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text": "A/GORGE"
+                "text": "ATCD GORGE"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FF0000",
-                "text": "A/GORGE"
+                "text": "ATCD GORGE"
               }
             ],
             "children": [
@@ -431,13 +451,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "AMYGD"
+                    "text": "AMYGDALECT"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "AMYGD"
+                    "text": "AMYGDALECT"
                   }
                 ],
                 "children": []
@@ -451,13 +471,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "POLYP"
+                    "text": "POLYP VOC"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "POLYP"
+                    "text": "POLYP VOC"
                   }
                 ],
                 "children": []
@@ -471,13 +491,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "CANCER"
+                    "text": "Kc GORGE"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "CANCER"
+                    "text": "Kc GORGE"
                   }
                 ],
                 "children": []
@@ -513,13 +533,13 @@
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text": "A/BOUCHE"
+                "text": "ATCD BOUCHE"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FF0000",
-                "text": "A/BOUCHE"
+                "text": "ATCD BOUCHE"
               }
             ],
             "children": [
@@ -552,13 +572,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "MYCOS"
+                    "text": "MYCOSE"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "MYCOS"
+                    "text": "MYCOSE"
                   }
                 ],
                 "children": []
@@ -572,13 +592,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "LITHIA"
+                    "text": "LITHIASE"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "LITHIA"
+                    "text": "LITHIASE"
                   }
                 ],
                 "children": []
@@ -592,13 +612,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "AGUEU"
+                    "text": "AGUEUSIE"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "AGUEU"
+                    "text": "AGUEUSIE"
                   }
                 ],
                 "children": []
@@ -612,13 +632,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "CANCER"
+                    "text": "Kc BOUCHE"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "CANCER"
+                    "text": "Kc BOUCHE"
                   }
                 ],
                 "children": []

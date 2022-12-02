@@ -40,11 +40,11 @@
         "type": "SCORE",
         "hideNodeIfEmpty": true,
         "ranges": [
-            { "min": 0, "max": 0, "color": "00FF00", "text": "TOXICITE" },
-            { "min": 1, "max": 1, "color": "FFFF00", "text": "TOXICITE" },
-            { "min": 2, "max": 2, "color": "FF9900", "text": "TOXICITE" },
-            { "min": 3, "max": 3, "color": "FF0000", "text": "TOXICITE" },
-            { "min": 4, "max": 4, "color": "990000", "text": "TOXICITE" }
+            { "min": 0, "max": 0, "color": "00FF00", "text": "TOXIQ" },
+            { "min": 1, "max": 1, "color": "FFFF00", "text": "TOXIQ" },
+            { "min": 2, "max": 2, "color": "FF9900", "text": "TOXIQ" },
+            { "min": 3, "max": 3, "color": "FF0000", "text": "TOXIQ" },
+            { "min": 4, "max": 4, "color": "990000", "text": "TOXIQ" }
         ],
         "children":[
           {
@@ -96,15 +96,27 @@
                 ]
               },
               {
+                "tagOID": "Tag_VToxiqueWBruit",
+                "type": "SCORE",
+                "hideNodeIfEmpty": true,
+                "ranges": [
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "BRUIT" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "BRUIT" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "BRUIT" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "BRUIT" },
+                    { "min": 3, "max": 3, "color": "990000", "text": "BRUIT" }
+                ]
+              },
+              {
                 "tagOID": "Tag_VToxiqueWTemp",
                 "type": "SCORE",
                 "hideNodeIfEmpty": true,
                 "ranges": [
-                    { "min": 0, "max": 0, "color": "00FF00", "text": "W/BRUI" },
-                    { "min": 1, "max": 1, "color": "FFFF00", "text": "W/BRUI" },
-                    { "min": 2, "max": 2, "color": "FF9900", "text": "W/BRUI" },
-                    { "min": 3, "max": 3, "color": "FF0000", "text": "W/BRUI" },
-                    { "min": 3, "max": 3, "color": "990000", "text": "W/BRUI" }
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "THERMIQUE" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "THERMIQUE" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "THERMIQUE" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "THERMIQUE" },
+                    { "min": 3, "max": 3, "color": "990000", "text": "THERMIQUE" }
                 ]
               }
             ]
@@ -114,11 +126,11 @@
             "type": "SCORE",
             "hideNodeIfEmpty": true,
             "ranges": [
-                { "min": 0, "max": 0, "color": "00FF00", "text": "TOXIQ" },
-                { "min": 1, "max": 1, "color": "FFFF00", "text": "TOXIQ" },
-                { "min": 2, "max": 2, "color": "FF9900", "text": "TOXIQ" },
-                { "min": 3, "max": 3, "color": "FF0000", "text": "TOXIQ" },
-                { "min": 4, "max": 4, "color": "990000", "text": "TOXIQ" }
+                { "min": 0, "max": 0, "color": "00FF00", "text": "EXTÉRIEUR" },
+                { "min": 1, "max": 1, "color": "FFFF00", "text": "EXTÉRIEUR" },
+                { "min": 2, "max": 2, "color": "FF9900", "text": "EXTÉRIEUR" },
+                { "min": 3, "max": 3, "color": "FF0000", "text": "EXTÉRIEUR" },
+                { "min": 4, "max": 4, "color": "990000", "text": "EXTÉRIEUR" }
             ],
             "children":[
               {
@@ -126,11 +138,11 @@
                 "type": "SCORE",
                 "hideNodeIfEmpty": true,
                 "ranges": [
-                    { "min": 0, "max": 0, "color": "00FF00", "text": "EXT/BRUIT" },
-                    { "min": 1, "max": 1, "color": "FFFF00", "text": "EXT/BRUIT" },
-                    { "min": 2, "max": 2, "color": "FF9900", "text": "EXT/BRUIT" },
-                    { "min": 3, "max": 3, "color": "FF0000", "text": "EXT/BRUIT" },
-                    { "min": 4, "max": 4, "color": "990000", "text": "EXT/BRUIT" }
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "BRUIT" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "BRUIT" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "BRUIT" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "BRUIT" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "BRUIT" }
                 ]
               },
               {
@@ -138,11 +150,11 @@
                 "type": "SCORE",
                 "hideNodeIfEmpty": true,
                 "ranges": [
-                    { "min": 0, "max": 0, "color": "00FF00", "text": "EXT/AIR" },
-                    { "min": 1, "max": 1, "color": "FFFF00", "text": "EXT/AIR" },
-                    { "min": 2, "max": 2, "color": "FF9900", "text": "EXT/AIR" },
-                    { "min": 3, "max": 3, "color": "FF0000", "text": "EXT/AIR" },
-                    { "min": 4, "max": 4, "color": "990000", "text": "EXT/AIR" }
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "AIR" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "AIR" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "AIR" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "AIR" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "AIR" }
                 ]
               }
             ]
@@ -152,11 +164,11 @@
             "type": "SCORE",
             "hideNodeIfEmpty": true,
             "ranges": [
-                { "min": 0, "max": 0, "color": "00FF00", "text": "POLL-LOG" },
-                { "min": 1, "max": 1, "color": "FFFF00", "text": "POLL-LOG" },
-                { "min": 2, "max": 2, "color": "FF9900", "text": "POLL-LOG" },
-                { "min": 3, "max": 3, "color": "FF0000", "text": "POLL-LOG" },
-                { "min": 4, "max": 4, "color": "990000", "text": "POLL-LOG" }
+                { "min": 0, "max": 0, "color": "00FF00", "text": "LOGEMENT" },
+                { "min": 1, "max": 1, "color": "FFFF00", "text": "LOGEMENT" },
+                { "min": 2, "max": 2, "color": "FF9900", "text": "LOGEMENT" },
+                { "min": 3, "max": 3, "color": "FF0000", "text": "LOGEMENT" },
+                { "min": 4, "max": 4, "color": "990000", "text": "LOGEMENT" }
             ],
             "children":[
               {
@@ -164,11 +176,11 @@
                 "type": "SCORE",
                 "hideNodeIfEmpty": true,
                 "ranges": [
-                    { "min": 0, "max": 0, "color": "00FF00", "text": "L/AIR" },
-                    { "min": 1, "max": 1, "color": "FFFF00", "text": "L/AIR" },
-                    { "min": 2, "max": 2, "color": "FF9900", "text": "L/AIR" },
-                    { "min": 3, "max": 3, "color": "FF0000", "text": "L/AIR" },
-                    { "min": 4, "max": 4, "color": "990000", "text": "L/AIR" }
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "AIR" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "AIR" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "AIR" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "AIR" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "AIR" }
                 ]
               },
               {
@@ -176,11 +188,11 @@
                 "type": "SCORE",
                 "hideNodeIfEmpty": true,
                 "ranges": [
-                    { "min": 0, "max": 0, "color": "00FF00", "text": "L/AERA" },
-                    { "min": 1, "max": 1, "color": "FFFF00", "text": "L/AERA" },
-                    { "min": 2, "max": 2, "color": "FF9900", "text": "L/AERA" },
-                    { "min": 3, "max": 3, "color": "FF0000", "text": "L/AERA" },
-                    { "min": 4, "max": 4, "color": "990000", "text": "L/AERA" }
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "AERATION" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "AERATION" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "AERATION" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "AERATION" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "AERATION" }
                 ]
               },
               {
@@ -188,11 +200,11 @@
                 "type": "SCORE",
                 "hideNodeIfEmpty": true,
                 "ranges": [
-                    { "min": 0, "max": 0, "color": "00FF00", "text": "L/MOB" },
-                    { "min": 1, "max": 1, "color": "FFFF00", "text": "L/MOB" },
-                    { "min": 2, "max": 2, "color": "FF9900", "text": "L/MOB" },
-                    { "min": 3, "max": 3, "color": "FF0000", "text": "L/MOB" },
-                    { "min": 4, "max": 4, "color": "990000", "text": "L/MOB" }
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "MOBILIER" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "MOBILIER" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "MOBILIER" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "MOBILIER" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "MOBILIER" }
                 ]
               },
               {
@@ -200,11 +212,11 @@
                 "type": "SCORE",
                 "hideNodeIfEmpty": true,
                 "ranges": [
-                    { "min": 0, "max": 0, "color": "00FF00", "text": "L/MENAG" },
-                    { "min": 1, "max": 1, "color": "FFFF00", "text": "L/MENAG" },
-                    { "min": 2, "max": 2, "color": "FF9900", "text": "L/MENAG" },
-                    { "min": 3, "max": 3, "color": "FF0000", "text": "L/MENAG" },
-                    { "min": 4, "max": 4, "color": "990000", "text": "L/MENAG" }
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "PROD-MÉNAG" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "PROD-MÉNAG" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "PROD-MÉNAG" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "PROD-MÉNAG" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "PROD-MÉNAG" }
                 ]
               },
               {
@@ -212,11 +224,11 @@
                 "type": "SCORE",
                 "hideNodeIfEmpty": true,
                 "ranges": [
-                    { "min": 0, "max": 0, "color": "00FF00", "text": "L/CHIM" },
-                    { "min": 1, "max": 1, "color": "FFFF00", "text": "L/CHIM" },
-                    { "min": 2, "max": 2, "color": "FF9900", "text": "L/CHIM" },
-                    { "min": 3, "max": 3, "color": "FF0000", "text": "L/CHIM" },
-                    { "min": 4, "max": 4, "color": "990000", "text": "L/CHIM" }
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "PHYTO-SAN" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "PHYTO-SAN" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "PHYTO-SAN" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "PHYTO-SAN" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "PHYTO-SAN" }
                 ]
               }
             ]
@@ -226,11 +238,11 @@
             "type": "SCORE",
             "hideNodeIfEmpty": true,
             "ranges": [
-                { "min": 0, "max": 0, "color": "00FF00", "text": "TOX-PERS" },
-                { "min": 1, "max": 1, "color": "FFFF00", "text": "TOX-PERS" },
-                { "min": 2, "max": 2, "color": "FF9900", "text": "TOX-PERS" },
-                { "min": 3, "max": 3, "color": "FF0000", "text": "TOX-PERS" },
-                { "min": 4, "max": 4, "color": "990000", "text": "TOX-PERS" }
+                { "min": 0, "max": 0, "color": "00FF00", "text": "PERSO-TOX" },
+                { "min": 1, "max": 1, "color": "FFFF00", "text": "PERSO-TOX" },
+                { "min": 2, "max": 2, "color": "FF9900", "text": "PERSO-TOX" },
+                { "min": 3, "max": 3, "color": "FF0000", "text": "PERSO-TOX" },
+                { "min": 4, "max": 4, "color": "990000", "text": "PERSO-TOX" }
             ],
             "children":[
               {
@@ -238,11 +250,11 @@
                 "type": "SCORE",
                 "hideNodeIfEmpty": true,
                 "ranges": [
-                    { "min": 0, "max": 0, "color": "00FF00", "text": "P/HYG" },
-                    { "min": 1, "max": 1, "color": "FFFF00", "text": "P/HYG" },
-                    { "min": 2, "max": 2, "color": "FF9900", "text": "P/HYG" },
-                    { "min": 3, "max": 3, "color": "FF0000", "text": "P/HYG" },
-                    { "min": 4, "max": 4, "color": "990000", "text": "P/HYG" }
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "HYG-COSMET" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "HYG-COSMET" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "HYG-COSMET" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "HYG-COSMET" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "HYG-COSMET" }
                 ]
               },
               {
@@ -250,11 +262,11 @@
                 "type": "SCORE",
                 "hideNodeIfEmpty": true,
                 "ranges": [
-                    { "min": 0, "max": 0, "color": "00FF00", "text": "P/ALIM" },
-                    { "min": 1, "max": 1, "color": "FFFF00", "text": "P/ALIM" },
-                    { "min": 2, "max": 2, "color": "FF9900", "text": "P/ALIM" },
-                    { "min": 3, "max": 3, "color": "FF0000", "text": "P/ALIM" },
-                    { "min": 4, "max": 4, "color": "990000", "text": "P/ALIM" }
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "NOURRITURE" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "NOURRITURE" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "NOURRITURE" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "NOURRITURE" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "NOURRITURE" }
                 ],
                 "children":[
                   {
@@ -262,11 +274,11 @@
                     "type": "SCORE",
                     "hideNodeIfEmpty": true,
                     "ranges": [
-                        { "min": 0, "max": 0, "color": "00FF00", "text": "A/PLAST" },
-                        { "min": 1, "max": 1, "color": "FFFF00", "text": "A/PLAST" },
-                        { "min": 2, "max": 2, "color": "FF9900", "text": "A/PLAST" },
-                        { "min": 3, "max": 3, "color": "FF0000", "text": "A/PLAST" },
-                        { "min": 4, "max": 4, "color": "990000", "text": "A/PLAST" }
+                        { "min": 0, "max": 0, "color": "00FF00", "text": "USTENSILES" },
+                        { "min": 1, "max": 1, "color": "FFFF00", "text": "USTENSILES" },
+                        { "min": 2, "max": 2, "color": "FF9900", "text": "USTENSILES" },
+                        { "min": 3, "max": 3, "color": "FF0000", "text": "USTENSILES" },
+                        { "min": 4, "max": 4, "color": "990000", "text": "USTENSILES" }
                     ]
                   },
                   {
@@ -274,11 +286,11 @@
                     "type": "SCORE",
                     "hideNodeIfEmpty": true,
                     "ranges": [
-                        { "min": 0, "max": 0, "color": "00FF00", "text": "A/CUISS" },
-                        { "min": 1, "max": 1, "color": "FFFF00", "text": "A/CUISS" },
-                        { "min": 2, "max": 2, "color": "FF9900", "text": "A/CUISS" },
-                        { "min": 3, "max": 3, "color": "FF0000", "text": "A/CUISS" },
-                        { "min": 4, "max": 4, "color": "990000", "text": "A/CUISS" }
+                        { "min": 0, "max": 0, "color": "00FF00", "text": "CUISSON" },
+                        { "min": 1, "max": 1, "color": "FFFF00", "text": "CUISSON" },
+                        { "min": 2, "max": 2, "color": "FF9900", "text": "CUISSON" },
+                        { "min": 3, "max": 3, "color": "FF0000", "text": "CUISSON" },
+                        { "min": 4, "max": 4, "color": "990000", "text": "CUISSON" }
                     ]
                   },
                   {
@@ -286,11 +298,11 @@
                     "type": "SCORE",
                     "hideNodeIfEmpty": true,
                     "ranges": [
-                        { "min": 0, "max": 0, "color": "00FF00", "text": "A/NOUR" },
-                        { "min": 1, "max": 1, "color": "FFFF00", "text": "A/NOUR" },
-                        { "min": 2, "max": 2, "color": "FF9900", "text": "A/NOUR" },
-                        { "min": 3, "max": 3, "color": "FF0000", "text": "A/NOUR" },
-                        { "min": 4, "max": 4, "color": "990000", "text": "A/NOUR" }
+                        { "min": 0, "max": 0, "color": "00FF00", "text": "ALIMENTS" },
+                        { "min": 1, "max": 1, "color": "FFFF00", "text": "ALIMENTS" },
+                        { "min": 2, "max": 2, "color": "FF9900", "text": "ALIMENTS" },
+                        { "min": 3, "max": 3, "color": "FF0000", "text": "ALIMENTS" },
+                        { "min": 4, "max": 4, "color": "990000", "text": "ALIMENTS" }
                     ]
                   }
                 ]
@@ -300,11 +312,11 @@
                 "type": "SCORE",
                 "hideNodeIfEmpty": true,
                 "ranges": [
-                    { "min": 0, "max": 0, "color": "00FF00", "text": "P/DROG" },
-                    { "min": 1, "max": 1, "color": "FFFF00", "text": "P/DROG" },
-                    { "min": 2, "max": 2, "color": "FF9900", "text": "P/DROG" },
-                    { "min": 3, "max": 3, "color": "FF0000", "text": "P/DROG" },
-                    { "min": 4, "max": 4, "color": "990000", "text": "P/DROG" }
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "DROGUES" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "DROGUES" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "DROGUES" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "DROGUES" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "DROGUES" }
                 ]
               },
               {
@@ -312,11 +324,11 @@
                 "type": "SCORE",
                 "hideNodeIfEmpty": true,
                 "ranges": [
-                    { "min": 0, "max": 0, "color": "00FF00", "text": "P/OL" },
-                    { "min": 1, "max": 1, "color": "FFFF00", "text": "P/OL" },
-                    { "min": 2, "max": 2, "color": "FF9900", "text": "P/OL" },
-                    { "min": 3, "max": 3, "color": "FF0000", "text": "P/OL" },
-                    { "min": 4, "max": 4, "color": "990000", "text": "P/OL" }
+                    { "min": 0, "max": 0, "color": "00FF00", "text": "ALCOOL" },
+                    { "min": 1, "max": 1, "color": "FFFF00", "text": "ALCOOL" },
+                    { "min": 2, "max": 2, "color": "FF9900", "text": "ALCOOL" },
+                    { "min": 3, "max": 3, "color": "FF0000", "text": "ALCOOL" },
+                    { "min": 4, "max": 4, "color": "990000", "text": "ALCOOL" }
                 ],
                 "children":[
                   {
@@ -324,9 +336,9 @@
                     "type": "SCORE",
                     "hideNodeIfEmpty": true,
                     "ranges": [
-                        { "min": 0, "max": 3, "color": "00FF00", "text": "OL/FACE" },
-                        { "min": 4, "max": 8, "color": "FFFF00", "text": "OL/FACE" },
-                        { "min": 9, "max": 50, "color": "FF0000", "text": "OL/FACE" }
+                        { "min": 0, "max": 3, "color": "00FF00", "text": "DEPENDANCE" },
+                        { "min": 4, "max": 8, "color": "FFFF00", "text": "DEPENDANCE" },
+                        { "min": 9, "max": 50, "color": "FF0000", "text": "DEPENDANCE" }
                     ]
                   }
                 ]
@@ -347,10 +359,10 @@
                     "type": "SCORE",
                     "hideNodeIfEmpty": true,
                     "ranges": [
-                      { "min": 0, "max": 0, "color": "00FF00", "text": "PA" },
-                      { "min": 1, "max": 1, "color": "FFFF00", "text": "PA" },
-                      { "min": 2, "max": 2, "color": "FF9900", "text": "PA" },
-                      { "min": 3, "max": 3, "color": "FF0000", "text": "PA" }
+                      { "min": 0, "max": 0, "color": "00FF00", "text": "PAQUETS/AN" },
+                      { "min": 1, "max": 1, "color": "FFFF00", "text": "PAQUETS/AN" },
+                      { "min": 2, "max": 2, "color": "FF9900", "text": "PAQUETS/AN" },
+                      { "min": 3, "max": 3, "color": "FF0000", "text": "PAQUETS/AN" }
                     ]
                   },
                   {
@@ -358,9 +370,9 @@
                     "type": "SCORE",
                     "hideNodeIfEmpty": true,
                     "ranges": [
-                      { "min": 0, "max": 0, "color": "FFFF00", "text": "HSI" },
-                      { "min": 1, "max": 1, "color": "FF9900", "text": "HSI" },
-                      { "min": 2, "max": 2, "color": "FF0000", "text": "HSI" }
+                      { "min": 0, "max": 0, "color": "FFFF00", "text": "DEPENDANCE" },
+                      { "min": 1, "max": 1, "color": "FF9900", "text": "DEPENDANCE" },
+                      { "min": 2, "max": 2, "color": "FF0000", "text": "DEPENDANCE" }
                     ]
                   },
                   {

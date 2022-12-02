@@ -5,19 +5,33 @@
     {
       "question": "q_q1_andrologie_000",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": false,
+      "trigger": {
+        "conditions": "(patient_gender == 'FEMALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "patient_gender": "aucun"
+        }
+      }
     },
     {
       "question": "q_q1_andrologie_001",
       "level": 1,
-      "isGlobal": true
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "(patient_gender == 'FEMALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "patient_gender": "aucun"
+        }
+      }
     },
     {
       "question": "q_q1_andrologie_002",
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"autres\" in q_q1_andrologie_001)",
+        "conditions": "!('autres' in q_q1_andrologie_001) || (patient_gender == 'FEMALE')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_andrologie_001": "aucun"
@@ -29,7 +43,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"cancer prostate\" in q_q1_andrologie_001)",
+        "conditions": "!('cancer prostate' in q_q1_andrologie_001) || (patient_gender == 'FEMALE')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_andrologie_001": "aucun"
@@ -41,7 +55,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Cancer des testicules\" in q_q1_andrologie_001)",
+        "conditions": "!('Cancer des testicules' in q_q1_andrologie_001) || (patient_gender == 'FEMALE')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_andrologie_001": "aucun"
@@ -53,7 +67,7 @@
       "level": 1,
       "isGlobal": false,
       "trigger": {
-        "conditions": "!(\"adenome\" in q_q1_andrologie_001)",
+        "conditions": "!('adenome' in q_q1_andrologie_001) || (patient_gender == 'FEMALE')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_andrologie_001": "aucun"
@@ -65,7 +79,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Chirurgie prostatique\" in q_q1_andrologie_001)",
+        "conditions": "!('Chirurgie prostatique' in q_q1_andrologie_001) || (patient_gender == 'FEMALE')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_andrologie_001": "aucun"
@@ -77,7 +91,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"orchite\" in q_q1_andrologie_001)",
+        "conditions": "!('orchite' in q_q1_andrologie_001) || (patient_gender == 'FEMALE')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_andrologie_001": "aucun"
@@ -89,7 +103,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Torsion du testicule\" in q_q1_andrologie_001)",
+        "conditions": "!('Torsion du testicule' in q_q1_andrologie_001) || (patient_gender == 'FEMALE')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_andrologie_001": "aucun"
@@ -101,7 +115,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Epididymite\" in q_q1_andrologie_001)",
+        "conditions": "!('Epididymite' in q_q1_andrologie_001) || (patient_gender == 'FEMALE')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_andrologie_001": "aucun"
@@ -113,7 +127,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Infertilité\" in q_q1_andrologie_001)",
+        "conditions": "!('Infertilité' in q_q1_andrologie_001) || (patient_gender == 'FEMALE')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_andrologie_001": "aucun"
@@ -125,7 +139,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Varicocèle\" in q_q1_andrologie_001)",
+        "conditions": "!('Varicocèle' in q_q1_andrologie_001) || (patient_gender == 'FEMALE')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_andrologie_001": "aucun"
@@ -137,7 +151,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"chlamydia\" in q_q1_andrologie_001)",
+        "conditions": "!('chlamydia' in q_q1_andrologie_001) || (patient_gender == 'FEMALE')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_andrologie_001": "aucun"
@@ -149,7 +163,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"mst\" in q_q1_andrologie_001)",
+        "conditions": "!('mst' in q_q1_andrologie_001) || (patient_gender == 'FEMALE')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_andrologie_001": "aucun"
@@ -161,7 +175,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"autres\" in q_q1_andrologie_001)",
+        "conditions": "!('autres' in q_q1_andrologie_001) || (patient_gender == 'FEMALE')",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_andrologie_001": "aucun"

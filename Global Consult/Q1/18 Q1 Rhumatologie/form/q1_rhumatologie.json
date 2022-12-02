@@ -123,13 +123,13 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text": "ART CER"
+                        "text": "ARTHROD CER"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text": "ART CER"
+                        "text": "ARTHROD CER"
                       }
                     ],
                     "children": []
@@ -203,13 +203,13 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text": "ART D-L"
+                        "text": "ARTHROD D-L"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text": "ART D-L"
+                        "text": "ARTHROD D-L"
                       }
                     ],
                     "children": []
@@ -223,13 +223,13 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text": "ART LOM"
+                        "text": "ARTHROD LOM"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text": "ART LOM"
+                        "text": "ARTHROD LOM"
                       }
                     ],
                     "children": []
@@ -304,13 +304,13 @@
                         "min": 0,
                         "max": 0,
                         "color": "00FF00",
-                        "text": "FRACT EPD"
+                        "text": "FRACT EP D"
                       },
                       {
                         "min": 1,
                         "max": 1,
                         "color": "FF0000",
-                        "text": "FRACT EPD"
+                        "text": "FRACT EP D"
                       }
                     ],
                     "children": []

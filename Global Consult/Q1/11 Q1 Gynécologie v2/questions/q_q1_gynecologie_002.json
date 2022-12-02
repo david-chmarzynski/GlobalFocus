@@ -21,13 +21,23 @@
   "scores": [
     {
       "conditions": "\"mycose\" in q_q1_gynecologie_002",
-      "tagOID": "S_GYN_ATCD_VULVE_VAGIN_MYCOSE",
+      "tagOID": "S_GYN_ATCD_VULVE_VAGIN",
       "value": 1
     },
     {
+      "conditions": "!(\"mycose\" in q_q1_gynecologie_002)",
+      "tagOID": "S_GYN_ATCD_VULVE_VAGIN",
+      "value": 0
+    },
+    {
       "conditions": "\"autres\" in q_q1_gynecologie_002",
-      "tagOID": "S_GYN_ATCD_VULVE_VAGIN_AUTRES",
+      "tagOID": "S_GYN_ATCD_VULVE_VAGIN",
       "value": 1
+    },
+    {
+      "conditions": "!(\"autres\" in q_q1_gynecologie_002)",
+      "tagOID": "S_GYN_ATCD_VULVE_VAGIN",
+      "value": 0
     },
     {
       "conditions": "\"aucun\" in q_q1_gynecologie_002",

@@ -22,31 +22,31 @@
             "min": 0,
             "max": 0,
             "color": "00FF00",
-            "text": "END"
+            "text": "ENDO"
           },
           {
             "min": 1,
             "max": 1,
             "color": "FFFF00",
-            "text": "END"
+            "text": "ENDO"
           },
           {
             "min": 2,
             "max": 2,
             "color": "FF9900",
-            "text": "END"
+            "text": "ENDO"
           },
           {
             "min": 3,
             "max": 3,
             "color": "FF0000",
-            "text": "END"
+            "text": "ENDO"
           },
           {
             "min": 4,
             "max": 4,
             "color": "990000",
-            "text": "END"
+            "text": "ENDO"
           }
         ],
         "children": [
@@ -59,13 +59,13 @@
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text": "METABO"
+                "text": "METAB"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FF0000",
-                "text": "METABO"
+                "text": "METAB"
               }
             ],
             "children": [
@@ -78,13 +78,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "DIAB1"
+                    "text": "DID"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "DIAB1"
+                    "text": "DID"
                   }
                 ],
                 "children": []
@@ -98,13 +98,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "DIAB2"
+                    "text": "DT2"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "DIAB2"
+                    "text": "DT2"
                   }
                 ],
                 "children": []
@@ -118,13 +118,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "OBES"
+                    "text": "OBÉSITÉ"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "OBES"
+                    "text": "OBÉSITÉ"
                   }
                 ],
                 "children": []
@@ -220,13 +220,13 @@
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text": "SURRENALE"
+                "text": "SURRENAL"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FF0000",
-                "text": "SURRENALE"
+                "text": "SURRENAL"
               }
             ],
             "children": [
@@ -239,13 +239,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "HY-PLAS"
+                    "text": "HYPERPL"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "HY-PLAS"
+                    "text": "HYPERPL"
                   }
                 ]
               },
@@ -277,13 +277,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "ADD"
+                    "text": "ADDISON"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "ADD"
+                    "text": "ADDISON"
                   }
                 ]
               },
@@ -296,13 +296,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "CUSH"
+                    "text": "CUSHING"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "CUSH"
+                    "text": "CUSHING"
                   }
                 ]
               },
@@ -315,13 +315,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "PHEO"
+                    "text": "PHEOCHR"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "PHEO"
+                    "text": "PHEOCHR"
                   }
                 ],
                 "children": []
@@ -354,13 +354,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "INSUF"
+                    "text": "INSUFF"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "INSUF"
+                    "text": "INSUFF"
                   }
                 ],
                 "children": []
@@ -415,13 +415,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "HY-PROLA"
+                    "text": "PROLACT"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "HY-PROLA"
+                    "text": "PROLACT"
                   }
                 ],
                 "children": []
@@ -435,13 +435,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "ADENOM"
+                    "text": "ADENOME"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "ADENOM"
+                    "text": "ADENOME"
                   }
                 ]
               },
@@ -454,13 +454,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "INSUF"
+                    "text": "INSUFF"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "INSUF"
+                    "text": "INSUFF"
                   }
                 ]
               },
@@ -473,13 +473,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "ACRO"
+                    "text": "ACROMEG"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "ACRO"
+                    "text": "ACROMEG"
                   }
                 ]
               },
@@ -492,13 +492,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "DIAB"
+                    "text": "DIAB_INSI"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "DIAB"
+                    "text": "DIAB_INSI"
                   }
                 ]
               },
@@ -552,13 +552,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "HYPO"
+                    "text": "HYPOPARA"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "HYPO"
+                    "text": "HYPOPARA"
                   }
                 ],
                 "children": []
@@ -572,13 +572,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "HYPER"
+                    "text": "HYPERPARA"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "HYPER"
+                    "text": "HYPERPARA"
                   }
                 ],
                 "children": []
@@ -592,13 +592,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "CANCER"
+                    "text": "CANCER PARA"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "CANCER"
+                    "text": "CANCER PARA"
                   }
                 ],
                 "children": []
@@ -634,13 +634,13 @@
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text": "THYR"
+                "text": "THYROID"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FF0000",
-                "text": "THYR"
+                "text": "THYROID"
               }
             ],
             "children": [
@@ -653,13 +653,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "HYPO"
+                    "text": "HYPOTHY"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "HYPO"
+                    "text": "HYPOTHY"
                   }
                 ],
                 "children": []
@@ -673,13 +673,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "HYPER"
+                    "text": "HYPERTHY"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "HYPER"
+                    "text": "HYPERTHY"
                   }
                 ],
                 "children": []
@@ -693,13 +693,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "CANCER"
+                    "text": "CANCER THY"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "CANCER"
+                    "text": "CANCER THY"
                   }
                 ],
                 "children": []
@@ -713,13 +713,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "NODULE"
+                    "text": "NODULE THY"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "NODULE"
+                    "text": "NODULE THY"
                   }
                 ],
                 "children": []
@@ -733,13 +733,13 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "THYR"
+                    "text": "THYROIDITE"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "THYR"
+                    "text": "THYROIDITE"
                   }
                 ],
                 "children": []

@@ -1080,6 +1080,12 @@
                     "max": 3.9,
                     "color": "FF0000",
                     "text": "ACTIVITÉS"
+                  },
+                  {
+                    "min": 4,
+                    "max": 4.9,
+                    "color": "FF0000",
+                    "text": "ACTIVITÉS"
                   }
                 ],
                 "children": []
@@ -3611,13 +3617,13 @@
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text": "ATCD TR NEURO-DEV"
+                "text": "ATCD TROUBLE NEURO-DEV"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FF0000",
-                "text": "ATCD TR NEURO-DEV"
+                "text": "ATCD TROUBLE NEURO-DEV"
               }
             ],
             "children": [
@@ -8990,13 +8996,13 @@
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text": "ATCD"
+                "text": "ATCD CV"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FF0000",
-                "text": "ATCD"
+                "text": "ATCD CV"
               }
             ],
             "children": [
@@ -9349,13 +9355,13 @@
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text": "ATCD"
+                "text": "ATCD PNE"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FF0000",
-                "text": "ATCD"
+                "text": "ATCD PNE"
               }
             ],
             "children": [
@@ -9593,13 +9599,13 @@
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text": "ATCD"
+                "text": "ATCD URO"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FF0000",
-                "text": "ATCD"
+                "text": "ATCD URO"
               }
             ],
             "children": [
@@ -9877,13 +9883,13 @@
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text": "ATCD"
+                "text": "ATCD NEUR"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FF0000",
-                "text": "ATCD"
+                "text": "ATCD NEUR"
               }
             ],
             "children": [
@@ -11629,13 +11635,13 @@
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text": "ATCD"
+                "text": "ATCD STO"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FF0000",
-                "text": "ATCD"
+                "text": "ATCD STO"
               }
             ],
             "children": [
@@ -11913,13 +11919,13 @@
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text": "ATCD"
+                "text": "ATCD DER"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FF0000",
-                "text": "ATCD"
+                "text": "ATCD DER"
               }
             ],
             "children": [
@@ -12783,13 +12789,13 @@
                 "min": 0,
                 "max": 0,
                 "color": "00FF00",
-                "text": "ATCD"
+                "text": "ATCD OPH"
               },
               {
                 "min": 1,
                 "max": 1,
                 "color": "FF0000",
-                "text": "ATCD"
+                "text": "ATCD OPH"
               }
             ],
             "children": [

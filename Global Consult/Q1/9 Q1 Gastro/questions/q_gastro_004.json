@@ -1,7 +1,7 @@
 {
   "oid": "q_gastro_004",
-  "title": "Quelle(s) pathologie(s) du tube digestif haut vous a-t-on diagnostiqué ?",
-  "text": "Quelle(s) pathologie(s) du tube digestif haut vous a-t-on diagnostiqué ?",
+  "title": "Vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies digestives ? (Plusieurs réponses possibles sauf si \"Aucunantécédent\")",
+  "text": "Vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies digestives ? (Plusieurs réponses possibles sauf si \"Aucunantécédent\")",
   "type": "MULTI_CHOICES",
   "choices": [
     {
@@ -39,6 +39,11 @@
     {
       "code": "7",
       "text": "Autre(s) antécédent(s)"
+    },
+    {
+      "code": "9",
+      "text": "Aucun antécédent",
+      "exclusive": true
     }
   ],
   "scores": [

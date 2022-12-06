@@ -1,7 +1,7 @@
 {
   "oid": "q_orl_002",
-  "title": "Au niveau de la gorge (amygdales, cordes vocales, pharynx, larynx, etc), vous a-t-on déjà diagnostiqué ? ",
-  "text": "Au niveau de la gorge (amygdales, cordes vocales, pharynx, larynx, etc), vous a-t-on déjà diagnostiqué ? ",
+  "title": "Au niveau de la gorge (amygdales, cordes vocales, pharynx, larynx, etc), vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
+  "text": "Au niveau de la gorge (amygdales, cordes vocales, pharynx, larynx, etc), vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
   "type": "MULTI_CHOICES",
   "choices": [
     {
@@ -26,7 +26,7 @@
     },
     {
       "code": "5",
-      "text": "Aucun de ces antécédents",
+      "text": "Aucun antécédent",
       "exclusive": true
     }
   ],

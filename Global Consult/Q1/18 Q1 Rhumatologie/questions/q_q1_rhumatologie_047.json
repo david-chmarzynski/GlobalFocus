@@ -1,7 +1,7 @@
 {
   "oid": "q_q1_rhumatologie_047",
-  "title": "Vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies ? (plusieurs réponses possibles)",
-  "text": "Vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies ? (plusieurs réponses possibles)",
+  "title": "Vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
+  "text": "Vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
   "type": "MULTI_CHOICES",
   "choices": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "code": "aucun",
-      "text": "Aucune de ces pathologies",
+      "text": "Aucun antécédent",
       "exclusive": true
     }
   ],

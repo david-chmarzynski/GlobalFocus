@@ -1,7 +1,7 @@
 {
   "oid": "q_orl_001",
-  "title": "Au niveau de la bouche (langue, lèvre, gencive, glandes salivaires, etc), vous a-t-on déjà diagnostiqué ?",
-  "text": "Au niveau de la bouche (langue, lèvre, gencive, glandes salivaires, etc), vous a-t-on déjà diagnostiqué ?",
+  "title": "Au niveau de la bouche (langue, lèvre, gencive, glandes salivaires, etc), vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
+  "text": "Au niveau de la bouche (langue, lèvre, gencive, glandes salivaires, etc), vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
   "type": "MULTI_CHOICES",
   "choices": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "code": "6",
-      "text": "Aucun de ces antécédents",
+      "text": "Aucun antécédent",
       "exclusive": true
     }
   ],

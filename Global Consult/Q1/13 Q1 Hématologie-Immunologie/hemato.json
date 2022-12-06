@@ -146,7 +146,7 @@
             {
               "text": "Aucun antécédent",
               "value": "aucun",
-              "isExclusive": false,
+              "isExclusive": true,
               "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GR_AUCUN"
             }
           ]
@@ -523,7 +523,7 @@
             {
               "text": "Aucun antécédent",
               "value": "aucun",
-              "isExclusive": false,
+              "isExclusive": true,
               "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_GB_AUCUN"
             }
           ]
@@ -837,7 +837,7 @@
             {
               "text": "Aucun antécédent",
               "value": "aucun",
-              "isExclusive": false,
+              "isExclusive": true,
               "tagOID": "S_HE-IM_ATCD_HEMATOLOGIE_COAG_AUCUN"
             }
           ]

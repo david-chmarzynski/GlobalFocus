@@ -1,7 +1,7 @@
 {
   "oid": "q_q1_rhumatologie_048",
-  "title": "Vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies ? (plusieurs réponses possibles)",
-  "text": "Vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies ? (plusieurs réponses possibles)",
+  "title": "Vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
+  "text": "Vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
   "type": "MULTI_CHOICES",
   "choices": [
     {
@@ -47,6 +47,11 @@
     {
       "code": "Tendinopathie(s) calcifiante(s)",
       "text": "Tendinopathie(s) calcifiante(s)"
+    },
+    {
+      "code": "Aucun antécédent",
+      "text": "Aucun antécédent",
+      "exclusive": true
     }
   ],
   "scores": [

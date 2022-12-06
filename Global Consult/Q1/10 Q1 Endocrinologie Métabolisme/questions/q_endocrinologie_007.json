@@ -1,7 +1,7 @@
 {
   "oid": "q_endocrinologie_007",
-  "title": "Indiquez la ou les pathologies métaboliques diagnostiquées ?",
-  "text": "Indiquez la ou les pathologies métaboliques diagnostiquées ?",
+  "title": "Vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies métaboliques ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
+  "text": "Vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies métaboliques ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
   "type": "MULTI_CHOICES",
   "choices": [
     {
@@ -31,6 +31,11 @@
     {
       "code": "6",
       "text": "Autre(s) réponse(s)"
+    },
+    {
+      "code": "7",
+      "text": "Aucun antécédent",
+      "exclusive": true
     }
   ],
   "scores": [

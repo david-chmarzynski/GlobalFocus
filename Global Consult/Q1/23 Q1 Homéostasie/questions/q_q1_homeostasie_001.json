@@ -1,7 +1,7 @@
 {
   "oid": "q_q1_homeostasie_001",
-  "title": "Présentez-vous actuellement une de ces situations médicales pour lesquelles le stress oxydo-inflammatoire peut jouer un rôle favorisant ? (plusieurs réponses possibles)",
-  "text": "Présentez-vous actuellement une de ces situations médicales pour lesquelles le stress oxydo-inflammatoire peut jouer un rôle favorisant ? (plusieurs réponses possibles)",
+  "title": "Présentez-vous actuellement une de ces situations médicales pour lesquelles le stress oxydo-inflammatoire peut jouer un rôle favorisant ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
+  "text": "Présentez-vous actuellement une de ces situations médicales pour lesquelles le stress oxydo-inflammatoire peut jouer un rôle favorisant ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
   "type": "MULTI_CHOICES",
   "choices": [
     {
@@ -33,8 +33,8 @@
       "text": "Dépression (hors déprime saisonnière et/ou cyclothymie)"
     },
     {
-      "code": "aucun",
-      "text": "Aucune de ces situations",
+      "code": "Aucun antécédent",
+      "text": "Aucun antécédent",
       "exclusive": true
     }
   ],

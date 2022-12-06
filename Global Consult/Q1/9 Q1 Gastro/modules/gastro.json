@@ -8,21 +8,9 @@
       "isGlobal": true
     },
     {
-      "question": "q_gastro_001",
-      "level": 1,
-      "isGlobal": true
-    },
-    {
       "question": "q_gastro_002",
       "level": 1,
-      "isGlobal": true,
-      "trigger": {
-        "conditions": "!(\"0\" in q_gastro_001)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues": {
-          "q_gastro_001": ""
-        }
-      }
+      "isGlobal": true
     },
     {
       "question": "q_gastro_003",
@@ -39,14 +27,7 @@
     {
       "question": "q_gastro_004",
       "level": 1,
-      "isGlobal": true,
-      "trigger": {
-        "conditions": "!(\"1\" in q_gastro_001)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues": {
-          "q_gastro_003": ""
-        }
-      }
+      "isGlobal": true
     },
     {
       "question": "q_gastro_008",
@@ -63,14 +44,7 @@
     {
       "question": "q_gastro_006",
       "level": 1,
-      "isGlobal": true,
-      "trigger": {
-        "conditions": "!(\"2\" in q_gastro_001)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues": {
-          "q_gastro_008": ""
-        }
-      }
+      "isGlobal": true
     },
     {
       "question": "q_gastro_007",
@@ -87,14 +61,7 @@
     {
       "question": "q_gastro_008",
       "level": 1,
-      "isGlobal": true,
-      "trigger": {
-        "conditions": "!(\"3\" in q_gastro_001)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues": {
-          "q_gastro_001": ""
-        }
-      }
+      "isGlobal": true
     },
     {
       "question": "q_gastro_009",
@@ -593,12 +560,45 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"11\" in q_gastro_002 || \"7\" in q_gastro_003 || \"10\" in q_gastro_004 || \"11\" in q_gastro_008) ",
+        "conditions": "!(\"11\" in q_gastro_002)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
-          "q_gastro_002": "",
-          "q_gastro_003": "",
-          "q_gastro_004": "",
+          "q_gastro_002": ""
+        }
+      }
+    },
+    {
+      "question": "q_gastro_date_039_1",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"7\" in q_gastro_003)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_gastro_003": ""
+        }
+      }
+    },
+    {
+      "question": "q_gastro_date_039_2",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"10\" in q_gastro_004)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_gastro_004": ""
+        }
+      }
+    },
+    {
+      "question": "q_gastro_date_039_3",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"11\" in q_gastro_008)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
           "q_gastro_008": ""
         }
       }

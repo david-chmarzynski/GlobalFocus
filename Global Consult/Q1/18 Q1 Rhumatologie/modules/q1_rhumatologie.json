@@ -8,34 +8,9 @@
       "isGlobal": false
     },
     {
-      "question": "q_q1_rhumatologie_001",
-      "level": 1,
-      "isGlobal": false
-    },
-    {
-      "question": "q_q1_rhumatologie_002",
-      "level": 1,
-      "isGlobal": false,
-      "trigger": {
-        "conditions": "!(\"Chirurgie de l’appareil locomoteur (vertèbres, membres supérieurs et/ou inférieurs)\" in q_q1_rhumatologie_001)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues": {
-          "q_q1_rhumatologie_001": 0
-        }
-      }
-
-    },
-    {
       "question": "q_q1_rhumatologie_003",
       "level": 1,
-      "isGlobal": false,
-      "trigger": {
-        "conditions": "!(\"Intervention(s) du rachis (vertèbres, disques)\" in q_q1_rhumatologie_002)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues": {
-          "q_q1_rhumatologie_002": 0
-        }
-      }
+      "isGlobal": false
     },
     {
       "question": "q_q1_rhumatologie_004",
@@ -160,14 +135,7 @@
     {
       "question": "q_q1_rhumatologie_014",
       "level": 1,
-      "isGlobal": false,
-      "trigger": {
-        "conditions": "!(\"Intervention(s) membres supérieurs\" in q_q1_rhumatologie_002)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues": {
-          "q_q1_rhumatologie_002": 0
-        }
-      }
+      "isGlobal": false
     },
     {
       "question": "q_q1_rhumatologie_015",
@@ -340,14 +308,7 @@
     {
       "question": "q_q1_rhumatologie_029",
       "level": 1,
-      "isGlobal": false,
-      "trigger": {
-        "conditions": "!(\"Intervention(s) membres inférieurs\" in q_q1_rhumatologie_002)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues": {
-          "q_q1_rhumatologie_002": 0
-        }
-      }
+      "isGlobal": false
     },
     {
       "question": "q_q1_rhumatologie_030",
@@ -556,14 +517,7 @@
     {
       "question": "q_q1_rhumatologie_047",
       "level": 1,
-      "isGlobal": false,
-      "trigger": {
-        "conditions": "!(\"Maladie touchant les os, les articulations, les muscles et les tendons (arthrose, ostéoporose, lombalgies, sciatique, cruralgie, canal carpien, tendinite, rhumatisme inflammatoire, goutte, fibromyalgie, syndrome de fatigue chronique, cancer des os, métastases osseuses, myopathies...)\" in q_q1_rhumatologie_001)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues": {
-          "q_q1_rhumatologie_001": 0
-        }
-      }
+      "isGlobal": false
     },
     {
       "question": "q_q1_rhumatologie_0470",
@@ -688,14 +642,7 @@
     {
       "question": "q_q1_rhumatologie_048",
       "level": 1,
-      "isGlobal": false,
-      "trigger": {
-        "conditions": "!(\"Maladie touchant les os, les articulations, les muscles et les tendons (arthrose, ostéoporose, lombalgies, sciatique, cruralgie, canal carpien, tendinite, rhumatisme inflammatoire, goutte, fibromyalgie, syndrome de fatigue chronique, cancer des os, métastases osseuses, myopathies...)\" in q_q1_rhumatologie_001)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues": {
-          "q_q1_rhumatologie_001": 0
-        }
-      }
+      "isGlobal": false
     },
     {
       "question": "q_q1_rhumatologie_0480",
@@ -832,14 +779,7 @@
     {
       "question": "q_q1_rhumatologie_049",
       "level": 1,
-      "isGlobal": false,
-      "trigger": {
-        "conditions": "!(\"Maladie touchant les os, les articulations, les muscles et les tendons (arthrose, ostéoporose, lombalgies, sciatique, cruralgie, canal carpien, tendinite, rhumatisme inflammatoire, goutte, fibromyalgie, syndrome de fatigue chronique, cancer des os, métastases osseuses, myopathies...)\" in q_q1_rhumatologie_001)",
-        "scope": "MODULE_SCOPE",
-        "defaultValues": {
-          "q_q1_rhumatologie_001": 0
-        }
-      }
+      "isGlobal": false
     },
     {
       "question": "q_q1_rhumatologie_0490",

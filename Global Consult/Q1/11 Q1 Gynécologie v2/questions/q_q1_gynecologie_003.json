@@ -1,7 +1,7 @@
 {
   "oid": "q_q1_gynecologie_003",
-  "title": "Avez-vous déjà eu une ou plusieurs de ces pathologies, situations ou traitements ?",
-  "text": "Avez-vous déjà eu une ou plusieurs de ces pathologies, situations ou traitements ?",
+  "title": "Avez-vous déjà eu une ou plusieurs de ces pathologies, situations ou traitements ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
+  "text": "Avez-vous déjà eu une ou plusieurs de ces pathologies, situations ou traitements ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
   "type": "MULTI_CHOICES",
   "choices": [
     {
@@ -42,7 +42,7 @@
     },
     {
       "code": "9",
-      "text": "Aucun de ces antécédents",
+      "text": "Aucun antécédent",
       "exclusive": true
     }
   ],

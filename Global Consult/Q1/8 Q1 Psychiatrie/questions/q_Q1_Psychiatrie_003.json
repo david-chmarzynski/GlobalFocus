@@ -1,7 +1,7 @@
 {
   "oid": "q_Q1_Psychiatrie_003",
-  "title": "Avez-vous déjà eu un traitement et/ou des soins en lien avec votre équilibre émotionnel et/ou votre santé psychologique ? (plusieurs réponses possibles)",
-  "text": "Avez-vous déjà eu un traitement et/ou des soins en lien avec votre équilibre émotionnel et/ou votre santé psychologique ? (plusieurs réponses possibles)",
+  "title": "Avez-vous déjà eu un traitement et/ou des soins en lien avec votre équilibre émotionnel et/ou votre santé psychologique ? (Plusieurs réponses possibles sauf si \"Aucun soin\")",
+  "text": "Avez-vous déjà eu un traitement et/ou des soins en lien avec votre équilibre émotionnel et/ou votre santé psychologique ? (Plusieurs réponses possibles sauf si \"Aucun soin\")",
   "type": "MULTI_CHOICES",
   "choices": [
     {

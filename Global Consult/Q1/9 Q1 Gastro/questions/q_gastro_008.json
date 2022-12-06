@@ -1,7 +1,7 @@
 {
   "oid": "q_gastro_008",
-  "title": "Quelle(s) pathologie(s) des organes digestifs annexes vous a-t-on diagnostiqué (plusieurs réponses possibles) ?",
-  "text": "Quelle(s) pathologie(s) des organes digestifs annexes vous a-t-on diagnostiqué (plusieurs réponses possibles) ?",
+  "title": "Vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies digestives ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
+  "text": "Vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies digestives ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
   "type": "MULTI_CHOICES",
   "choices": [
     {
@@ -51,6 +51,11 @@
     {
       "code": "11",
       "text": "Autre(s) antécédent(s) (hépatites A, D, E, médicamenteuse, auto-immune et autres pathologies…)"
+    },
+    {
+      "code": "12",
+      "text": "Aucun antécédent",
+      "exclusive": true
     }
   ],
   "scores": [

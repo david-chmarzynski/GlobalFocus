@@ -1,7 +1,7 @@
 {
   "oid": "q_q1_hemato_022",
-  "title": "Qu’avez-vous déjà eu comme traitement(s) anti-cancéreux (plusieurs réponses possibles) ?",
-  "text": "Qu’avez-vous déjà eu comme traitement(s) anti-cancéreux (plusieurs réponses possibles) ?",
+  "title": "Qu’avez-vous déjà eu comme traitement(s) anti-cancéreux (plusieurs réponses possibles) ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
+  "text": "Qu’avez-vous déjà eu comme traitement(s) anti-cancéreux (plusieurs réponses possibles) ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
   "type": "MULTI_CHOICES",
   "choices": [
     {

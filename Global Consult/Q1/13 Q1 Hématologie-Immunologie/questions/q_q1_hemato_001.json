@@ -1,7 +1,7 @@
 {
   "oid": "q_q1_hemato_001",
-  "title": "Avez-vous déjà eu une ou plusieurs de ces pathologies ou situations en lien avec les globules rouges ?",
-  "text": "Avez-vous déjà eu une ou plusieurs de ces pathologies ou situations en lien avec les globules rouges ?",
+  "title": "Avez-vous déjà eu une ou plusieurs de ces pathologies ou situations en lien avec les globules rouges ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
+  "text": "Avez-vous déjà eu une ou plusieurs de ces pathologies ou situations en lien avec les globules rouges ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
   "type": "MULTI_CHOICES",
   "choices": [
     {

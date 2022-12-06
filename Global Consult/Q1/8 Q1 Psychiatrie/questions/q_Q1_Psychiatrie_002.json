@@ -1,7 +1,7 @@
 {
   "oid": "q_Q1_Psychiatrie_002",
-  "title": "Vous a-t-on déjà diagnostiqué un trouble dépressif? (plusieurs réponses possibles)",
-  "text": "Vous a-t-on déjà diagnostiqué un trouble dépressif? (plusieurs réponses possibles)",
+  "title": "Vous a-t-on déjà diagnostiqué un trouble dépressif? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
+  "text": "Vous a-t-on déjà diagnostiqué un trouble dépressif? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
   "type": "MULTI_CHOICES",
   "choices": [
     {
@@ -38,7 +38,7 @@
     },
     {
       "code": "aucun",
-      "text": "Aucun de ces antécédents",
+      "text": "Aucun antécédents",
       "exclusive": true
     }
   ],

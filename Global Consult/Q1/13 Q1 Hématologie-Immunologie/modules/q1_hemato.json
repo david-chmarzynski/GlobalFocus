@@ -227,6 +227,18 @@
       "isGlobal": true
     },
     {
+      "question": "q_q1_hemato_037",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"autres\" in q_q1_hemato_020)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_hemato_020": "aucun"
+        }
+      }
+    },
+    {
       "question": "q_q1_hemato_021",
       "level": 1,
       "isGlobal": true

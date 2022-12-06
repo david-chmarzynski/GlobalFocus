@@ -1,7 +1,7 @@
 {
   "oid": "q_Q1_Psychiatrie_005",
-  "title": "Vous a-t-on déjà diagnostiqué un trouble neurodéveloppemental et/ou des apprentissages et/ou du comportement ? (plusieurs réponses possibles)",
-  "text": "Vous a-t-on déjà diagnostiqué un trouble neurodéveloppemental et/ou des apprentissages et/ou du comportement ? (plusieurs réponses possibles)",
+  "title": "Vous a-t-on déjà diagnostiqué un trouble neuro-développemental et/ou des apprentissages et/ou du comportement ? (Plusieurs réponses possibles sauf si \"Aucun trouble diagnostiqué\")",
+  "text": "Vous a-t-on déjà diagnostiqué un trouble neuro-développemental et/ou des apprentissages et/ou du comportement ? (Plusieurs réponses possibles sauf si \"Aucun trouble diagnostiqué\")",
   "type": "MULTI_CHOICES",
   "choices": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "code": "aucun",
-      "text": "Aucun de ces antécédents",
+      "text": "Aucun trouble diagnostiqué",
       "exclusive": true
     }
   ],

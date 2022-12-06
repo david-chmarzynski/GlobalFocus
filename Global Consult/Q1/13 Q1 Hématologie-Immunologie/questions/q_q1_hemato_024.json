@@ -1,7 +1,7 @@
 {
   "oid": "q_q1_hemato_024",
-  "title": "Parmi cette liste, quelle(s) maladie(s) auto-immune(s) avez-vous ? (Plusieurs réponses possibles)",
-  "text": "Parmi cette liste, quelle(s) maladie(s) auto-immune(s) avez-vous ? (Plusieurs réponses possibles)",
+  "title": "Parmi cette liste, quelle(s) maladie(s) auto-immune(s) avez-vous ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
+  "text": "Parmi cette liste, quelle(s) maladie(s) auto-immune(s) avez-vous ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
   "type": "MULTI_CHOICES",
   "displayChoices": true,
   "choices": [
@@ -43,7 +43,7 @@
     },
     {
       "code": "aucun",
-      "text": "Aucune de ces réponses",
+      "text": "Aucun antécédent",
       "exclusive": true
     }
   ],

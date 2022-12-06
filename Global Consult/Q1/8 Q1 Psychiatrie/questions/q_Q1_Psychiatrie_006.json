@@ -1,7 +1,7 @@
 {
   "oid": "q_Q1_Psychiatrie_006",
-  "title": "Vous a-t-on diagnostiqué un trouble de la personnalité ? (plusieurs réponses possibles)",
-  "text": "Vous a-t-on diagnostiqué un trouble de la personnalité ? (plusieurs réponses possibles)",
+  "title": "Vous a-t-on diagnostiqué un trouble de la personnalité ? (Plusieurs réponses possibles sauf si \"Aucun trouble diagnostiqué\")",
+  "text": "Vous a-t-on diagnostiqué un trouble de la personnalité ? (Plusieurs réponses possibles sauf si \"Aucun trouble diagnostiqué\")",
   "type": "MULTI_CHOICES",
   "choices": [
     {
@@ -46,7 +46,7 @@
     },
     {
       "code": "aucun",
-      "text": "Aucun de ces antécédents",
+      "text": "Aucun trouble diagnostiqué",
       "exclusive": true
     }
   ],

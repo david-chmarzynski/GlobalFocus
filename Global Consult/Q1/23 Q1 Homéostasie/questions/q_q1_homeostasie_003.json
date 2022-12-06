@@ -1,7 +1,7 @@
 {
   "oid": "q_q1_homeostasie_003",
-  "title": "Présentez-vous actuellement une de ces situations médicales pour lesquelles un déséquilibre acido-basique de l’organisme peut jouer un rôle favorisant ? (plusieurs réponses possibles)",
-  "text": "Présentez-vous actuellement une de ces situations médicales pour lesquelles un déséquilibre acido-basique de l’organisme peut jouer un rôle favorisant ? (plusieurs réponses possibles)",
+  "title": "Présentez-vous actuellement une de ces situations médicales pour lesquelles un déséquilibre acido-basique de l’organisme peut jouer un rôle favorisant ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
+  "text": "Présentez-vous actuellement une de ces situations médicales pour lesquelles un déséquilibre acido-basique de l’organisme peut jouer un rôle favorisant ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
   "type": "MULTI_CHOICES",
   "choices": [
     {
@@ -29,8 +29,8 @@
       "text": "Trouble du déficit de l'attention avec ou sans hyperactivité"
     },
     {
-      "code": "aucun",
-      "text": "Aucune de ces situations",
+      "code": "Aucun de ces antécédents",
+      "text": "Aucun de ces antécédents",
       "exclusive": true
     }
   ],

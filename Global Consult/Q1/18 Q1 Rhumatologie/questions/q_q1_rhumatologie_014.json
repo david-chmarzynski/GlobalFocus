@@ -1,7 +1,7 @@
 {
   "oid": "q_q1_rhumatologie_014",
-  "title": "Précisez la localisation de votre(vos) intervention(s) (plusieurs réponses possibles) ?",
-  "text": "Précisez la localisation de votre(vos) intervention(s) (plusieurs réponses possibles) ?",
+  "title": "Vous a-t-on opéré des membres inférieurs ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
+  "text": "Vous a-t-on opéré des membres inférieurs ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
   "type": "MULTI_CHOICES",
   "choices": [
     {
@@ -55,6 +55,11 @@
     {
       "code": "Autre(s) chirurgie(s) des membres supérieurs",
       "text": "Autre(s) chirurgie(s) des membres supérieurs"
+    },
+    {
+      "code": "Aucun antécédent",
+      "text": "Aucun antécédent",
+      "exclusive": true
     }
   ],
   "scores": [

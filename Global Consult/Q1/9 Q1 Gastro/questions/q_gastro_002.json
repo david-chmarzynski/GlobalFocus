@@ -1,7 +1,7 @@
 {
   "oid": "q_gastro_002",
-  "title": "Quel(s) cancer(s) vous a-t-on diagnostiqué (plusieurs réponses possibles) ?",
-  "text": "Quel(s) cancer(s) vous a-t-on diagnostiqué (plusieurs réponses possibles) ?",
+  "title": "Vous a-t-on déjà diagnostiqué un ou plusieurs de ces cancers digestifs ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
+  "text": "Vous a-t-on déjà diagnostiqué un ou plusieurs de ces cancers digestifs ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
   "type": "MULTI_CHOICES",
   "choices": [
     {
@@ -51,6 +51,11 @@
     {
       "code": "11",
       "text": "Autre(s) cancer(s)"
+    },
+    {
+      "code": "12",
+      "text": "Aucun antécédent",
+      "exclusive": true
     }
   ],
   "scores": [

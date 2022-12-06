@@ -1,7 +1,7 @@
 {
   "oid": "q_q1_hemato_034",
-  "title": "Avez-vous une ou plusieurs de ces allergies ? (plusieurs réponses possibles)",
-  "text": "Avez-vous une ou plusieurs de ces allergies ? (plusieurs réponses possibles)",
+  "title": "Avez-vous une ou plusieurs de ces allergies ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
+  "text": "Avez-vous une ou plusieurs de ces allergies ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
   "type": "MULTI_CHOICES",
   "choices": [
     {
@@ -38,7 +38,7 @@
     },
     {
       "code": "aucun",
-      "text": "Aucune allergie",
+      "text": "Aucun antécédent",
       "exclusive": true
     }
   ],

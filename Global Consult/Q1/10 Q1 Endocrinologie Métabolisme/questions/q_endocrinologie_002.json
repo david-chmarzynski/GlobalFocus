@@ -1,7 +1,7 @@
 {
   "oid": "q_endocrinologie_002",
-  "title": "Indiquez la ou les pathologie(s) thyroïdienne(s) diagnostiquée(s) (plusieurs réponses possibles) ?",
-  "text": "Indiquez la ou les pathologie(s) thyroïdienne(s) diagnostiquée(s) (plusieurs réponses possibles) ?",
+  "title": "Vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies thyroïdiennes ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
+  "text": "Vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies thyroïdiennes ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
   "type": "MULTI_CHOICES",
   "choices": [
     {
@@ -27,6 +27,11 @@
     {
       "code": "5",
       "text": "Autre(s)"
+    },
+    {
+      "code": "6",
+      "text": "Aucun antécédent",
+      "exclusive": true
     }
   ],
   "scores": [

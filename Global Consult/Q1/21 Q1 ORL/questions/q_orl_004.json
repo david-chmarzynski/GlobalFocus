@@ -1,7 +1,7 @@
 {
   "oid": "q_orl_004",
-  "title": "Au niveau des oreilles, vous a-t-on déjà diagnostiqué ?",
-  "text": "Au niveau des oreilles, vous a-t-on déjà diagnostiqué ?",
+  "title": "Au niveau des oreilles, vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
+  "text": "Au niveau des oreilles, vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
   "type": "MULTI_CHOICES",
   "choices": [
     {
@@ -38,7 +38,7 @@
     },
     {
       "code": "8",
-      "text": "Aucun de ces antécédents",
+      "text": "Aucun antécédent",
       "exclusive": true
     }
   ],

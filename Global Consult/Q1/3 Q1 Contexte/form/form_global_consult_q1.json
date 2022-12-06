@@ -515,6 +515,12 @@
                     "max": 3.9,
                     "color": "FF0000",
                     "text": "ACTIVITÉS"
+                  },
+                  {
+                    "min": 4,
+                    "max": 4.9,
+                    "color": "FF0000",
+                    "text": "ACTIVITÉS"
                   }
                 ],
                 "children": []

@@ -1,7 +1,7 @@
 {
   "oid": "q_S_OPH_001",
-  "title": "Vous a-t-on diagnostiqué ?",
-  "text": "Vous a-t-on diagnostiqué ?",
+  "title": "Vous a-t-on déjà diagnostiqué une de ces pathologies ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
+  "text": "Vous a-t-on déjà diagnostiqué une de ces pathologies ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
   "type": "MULTI_CHOICES",
   "choices": [
     {
@@ -58,7 +58,7 @@
     },
     {
       "code": "13",
-      "text": "Aucun de ces antécédents",
+      "text": "Aucun antécédent",
       "exclusive":true
     }
   ],

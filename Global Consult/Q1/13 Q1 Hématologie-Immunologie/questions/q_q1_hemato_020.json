@@ -1,7 +1,7 @@
 {
   "oid": "q_q1_hemato_020",
-  "title": "Avez-vous déjà eu une ou plusieurs de ces pathologies en lien avec les plaquettes ou des facteurs de coagulation ?",
-  "text": "Avez-vous déjà eu une ou plusieurs de ces pathologies en lien avec les plaquettes ou des facteurs de coagulation ?",
+  "title": "Avez-vous déjà eu une ou plusieurs de ces pathologies en lien avec les plaquettes ou des facteurs de coagulation ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
+  "text": "Avez-vous déjà eu une ou plusieurs de ces pathologies en lien avec les plaquettes ou des facteurs de coagulation ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
   "type": "MULTI_CHOICES",
   "choices": [
     {

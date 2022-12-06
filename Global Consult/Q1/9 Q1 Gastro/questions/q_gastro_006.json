@@ -1,7 +1,7 @@
 {
   "oid": "q_gastro_006",
-  "title": "Quelle(s) pathologie(s) du tube digestif bas vous a-t-on diagnostiqué ?",
-  "text": "Quelle(s) pathologie(s) du tube digestif bas vous a-t-on diagnostiqué ?",
+  "title": "Vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies digestives ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
+  "text": "Vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies digestives ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
   "type": "MULTI_CHOICES",
   "choices": [
     {
@@ -47,6 +47,11 @@
     {
       "code": "10",
       "text": "Autre(s) antécédent(s)"
+    },
+    {
+      "code": "11",
+      "text": "Aucun antécédent",
+      "exclusive": true
     }
   ],
   "scores": [

@@ -1,7 +1,7 @@
 {
   "oid": "q_endocrinologie_003",
-  "title": "Indiquez la ou les pathologie(s) parathyroïdienne(s) diagnostiquée(s) ?",
-  "text": "Indiquez la ou les pathologie(s) parathyroïdienne(s) diagnostiquée(s) ?",
+  "title": "Vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies parathyroïdiennes ? (plusieurs réponses possibles sauf si \"Aucun antécédent\")",
+  "text": "Vous a-t-on déjà diagnostiqué une ou plusieurs de ces pathologies parathyroïdiennes ? (plusieurs réponses possibles sauf si \"Aucun antécédent\")",
   "type": "MULTI_CHOICES",
   "choices": [
     {
@@ -19,6 +19,11 @@
     {
       "code": "3",
       "text": "Autre(s)"
+    },
+    {
+      "code": "4",
+      "text": "Aucun antécédent",
+      "exclusive": true
     }
   ],
   "scores": [

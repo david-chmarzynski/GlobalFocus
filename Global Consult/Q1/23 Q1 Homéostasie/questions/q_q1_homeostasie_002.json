@@ -1,7 +1,7 @@
 {
   "oid": "q_q1_homeostasie_002",
-  "title": "Présentez-vous actuellement une de ces situations médicales pour lesquelles un déficit d’apports en oméga 3 peut jouer un rôle favorisant ? (plusieurs réponses possibles)",
-  "text": "Présentez-vous actuellement une de ces situations médicales pour lesquelles un déficit d’apports en oméga 3 peut jouer un rôle favorisant ? (plusieurs réponses possibles)",
+  "title": "Présentez-vous actuellement une de ces situations médicales pour lesquelles un déficit d’apports en oméga 3 peut jouer un rôle favorisant ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
+  "text": "Présentez-vous actuellement une de ces situations médicales pour lesquelles un déficit d’apports en oméga 3 peut jouer un rôle favorisant ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
   "type": "MULTI_CHOICES",
   "choices": [
     {
@@ -37,8 +37,8 @@
       "text": "Dépression, cyclothymie, bipolarité"
     },
     {
-      "code": "aucun",
-      "text": "Aucune de ces situations",
+      "code": "Aucun antécédent",
+      "text": "Aucun antécédent",
       "exclusive": true
     }
   ],

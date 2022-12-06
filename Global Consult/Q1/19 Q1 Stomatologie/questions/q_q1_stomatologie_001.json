@@ -1,7 +1,7 @@
 {
   "oid": "q_q1_stomatologie_001",
-  "title": "Avez-vous eu ou vous a-t-on diagnostiqué ? (plusieurs réponses possibles)",
-  "text": "Avez-vous eu ou vous a-t-on diagnostiqué ? (plusieurs réponses possibles)",
+  "title": "Avez-vous eu ou vous a-t-on diagnostiqué ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
+  "text": "Avez-vous eu ou vous a-t-on diagnostiqué ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
   "type": "MULTI_CHOICES",
   "choices": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "code": "aucun",
-      "text": "Aucun de ces antécédents",
+      "text": "Aucun antécédent",
       "exclusive": true
     }
   ],

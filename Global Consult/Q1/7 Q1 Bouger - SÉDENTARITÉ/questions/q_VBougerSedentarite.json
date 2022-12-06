@@ -37,7 +37,7 @@
       "value": 4
     },
     {
-      "conditions": "q_VBougerSedentarite >= 9",
+      "conditions": "q_VBougerSedentarite > 9",
       "tagOID": "tag_VBougerSedentarite",
       "value": 5
     }

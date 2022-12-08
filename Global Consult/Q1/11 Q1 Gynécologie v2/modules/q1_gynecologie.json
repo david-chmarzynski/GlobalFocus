@@ -5,7 +5,7 @@
     {
       "question": "q_q1_gynecologie_000",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "(patient_gender == 'MALE')",
         "scope": "MODULE_SCOPE",

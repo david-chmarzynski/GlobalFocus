@@ -1,7 +1,7 @@
 {
   "oid": "q_q1_hemato_019",
-  "title": "Précisez quel(s) est/sont le(s) autre(s) diagnostic(s) posé(s) ?",
-  "text": "Précisez quel(s) est/sont le(s) autre(s) diagnostic(s) posé(s) ?",
+  "title": "Précisez quelle(s) autre(s) pathologie(s) des globules blancs avez-vous eu ?",
+  "text": "Précisez quelle(s) autre(s) pathologie(s) des globules blancs avez-vous eu ?",
   "type": "TEXT",
   "choices": [],
   "scores": []

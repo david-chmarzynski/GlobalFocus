@@ -1,0 +1,959 @@
+{
+  "oid": "q1_sphere_genitale",
+  "title": "Q1 Global Focus Sphère Génitale",
+  "questions": [
+    {
+      "question": "q_q1_sphere_genitale",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
+      "question": "q_q1_gynecologie_001",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "(patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "patient_gender": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_002",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "(q_q1_gynecologie_001 != '0') || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_003",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "(q_q1_gynecologie_001 == '0') || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_004",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('8' in q_q1_gynecologie_003) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_003": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_005",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('0' in q_q1_gynecologie_003) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_003": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_006",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('0' in q_q1_gynecologie_003) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_003": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_007",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('1' in q_q1_gynecologie_003) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_003": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_008",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('2' in q_q1_gynecologie_003) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_003": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_009",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('3' in q_q1_gynecologie_003) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_003": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_010",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('4' in q_q1_gynecologie_003) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_003": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_011",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('5' in q_q1_gynecologie_003) || (patient_gender == 'MALE')",
+        "scope": "PATIENT_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_003": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_012",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('6' in q_q1_gynecologie_003) || (patient_gender == 'MALE')",
+        "scope": "PATIENT_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_003": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_013",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('7' in q_q1_gynecologie_003) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_003": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_014",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('8' in q_q1_gynecologie_003) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_003": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_015",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "(q_q1_gynecologie_001 == '0') || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_016",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Cancer de l’ovaire' in q_q1_gynecologie_015) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_015": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_017",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Cancer de l’ovaire' in q_q1_gynecologie_015) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_015": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_018",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Ablation chirurgicale d’un(des) ovaire(s) (ovariectomie)' in q_q1_gynecologie_015) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_015": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_019",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Kyste fonctionnel de l’ovaire' in q_q1_gynecologie_015) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_015": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_020",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Syndrome des ovaires poly-kystiques' in q_q1_gynecologie_015) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_015": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_022",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Syndrome prémenstruel' in q_q1_gynecologie_015) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_015": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_023",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Infertilité' in q_q1_gynecologie_015) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_015": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_024",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Procréation médicalement assistée (PMA)' in q_q1_gynecologie_015) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_015": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_025",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('autres' in q_q1_gynecologie_015) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_015": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_026",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "(q_q1_gynecologie_001 == '0') || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_027",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('autres' in q_q1_gynecologie_026) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_026": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_028",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Cancer de l’endomètre (utérus)' in q_q1_gynecologie_026) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_026": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_029",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Cancer du col de l’utérus' in q_q1_gynecologie_026) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_026": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_030",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Fausse-couche spontanée (FCS)' in q_q1_gynecologie_026) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_026": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_031",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Interruption volontaire de grossesse (IVG)' in q_q1_gynecologie_026) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_026": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_033",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Interruption médicale de grossesse (IMG)' in q_q1_gynecologie_026) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_026": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_034",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Grossesse extra-utérine (GEU)' in q_q1_gynecologie_026) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_026": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_035",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Césarienne' in q_q1_gynecologie_026) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_026": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_036",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Fibrome de l’utérus' in q_q1_gynecologie_026) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_026": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_037",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Ablation de l’utérus (Hystérectomie)' in q_q1_gynecologie_026) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_026": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_038",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Endométriose' in q_q1_gynecologie_026) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_026": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_039",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Salpingite (infection des trompes)' in q_q1_gynecologie_026) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_026": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_040",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Infection à Papillomavirus (HPV)' in q_q1_gynecologie_026) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_026": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_041",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Dysplasie du col de l’utérus' in q_q1_gynecologie_026) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_026": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_042",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Conisation du col de l’utérus' in q_q1_gynecologie_026) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_026": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_043",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('autres' in q_q1_gynecologie_026) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_026": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_044",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "(q_q1_gynecologie_001 == '0') || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_045",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('autres' in q_q1_gynecologie_044) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_044": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_046",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Cancer du vagin' in q_q1_gynecologie_044) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_044": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_047",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Cancer de la vulve' in q_q1_gynecologie_044) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_044": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_048",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Prolapsus génital (descente d’organe)' in q_q1_gynecologie_044) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_044": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_049",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Bartholinite' in q_q1_gynecologie_044) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_044": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_050",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Mycose(s) de la vulve et/ou du vagin' in q_q1_gynecologie_044) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_044": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_051",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Herpès génital' in q_q1_gynecologie_044) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_044": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_052",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Infection(s) à Chlamydiae' in q_q1_gynecologie_044) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_044": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_053",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Infection(s) à Gonocoque' in q_q1_gynecologie_044) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_044": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_054",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Infection(s) à mycoplasme' in q_q1_gynecologie_044) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_044": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_055",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Infection(s) à trichomonas' in q_q1_gynecologie_044) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_044": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_057",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Syphilis' in q_q1_gynecologie_044) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_044": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_058",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Autre(s) infection(s) du vagin et/ou de la vulve' in q_q1_gynecologie_044) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_044": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_059",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('autres' in q_q1_gynecologie_044) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_044": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_060",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "(q_q1_gynecologie_001 == '0') || (q_q1_gynecologie_001 == '1') || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_061",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "(q_q1_gynecologie_001 == '0') || (q_q1_gynecologie_001 == '1') || (q_q1_gynecologie_001 == '4') || (q_q1_gynecologie_001 == '5') || (q_q1_gynecologie_001 == '6') || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_062",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "(q_q1_gynecologie_001 == '0') || (q_q1_gynecologie_001 == '1') || (q_q1_gynecologie_001 == '4') || (q_q1_gynecologie_001 == '5') || (q_q1_gynecologie_001 == '6') || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_063",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "(q_q1_gynecologie_001 == '0') || (q_q1_gynecologie_001 == '1') || (q_q1_gynecologie_001 == '4') || (q_q1_gynecologie_001 == '5') || (q_q1_gynecologie_001 == '6') || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_064",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "(q_q1_gynecologie_001 == '0') || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_065",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "(q_q1_gynecologie_001 == '0') || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_066",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('0' in q_q1_gynecologie_065) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_065": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_067",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('0' in q_q1_gynecologie_065) || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_065": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_gynecologie_068",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "(q_q1_gynecologie_001 == '0') || (q_q1_gynecologie_001 == '1') || (q_q1_gynecologie_001 == '2') || (q_q1_gynecologie_001 == '3') || (q_q1_gynecologie_001 == '4') || (patient_gender == 'MALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_gynecologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_andrologie_001",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "(patient_gender == 'FEMALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "patient_gender": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_andrologie_002",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('autres' in q_q1_andrologie_001) || (patient_gender == 'FEMALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_andrologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_andrologie_003",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('cancer prostate' in q_q1_andrologie_001) || (patient_gender == 'FEMALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_andrologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_andrologie_004",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Cancer des testicules' in q_q1_andrologie_001) || (patient_gender == 'FEMALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_andrologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_andrologie_005",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('adenome' in q_q1_andrologie_001) || (patient_gender == 'FEMALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_andrologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_andrologie_006",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Chirurgie prostatique' in q_q1_andrologie_001) || (patient_gender == 'FEMALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_andrologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_andrologie_007",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('orchite' in q_q1_andrologie_001) || (patient_gender == 'FEMALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_andrologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_andrologie_008",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Torsion du testicule' in q_q1_andrologie_001) || (patient_gender == 'FEMALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_andrologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_andrologie_009",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Epididymite' in q_q1_andrologie_001) || (patient_gender == 'FEMALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_andrologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_andrologie_010",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Infertilité' in q_q1_andrologie_001) || (patient_gender == 'FEMALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_andrologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_andrologie_011",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('Varicocèle' in q_q1_andrologie_001) || (patient_gender == 'FEMALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_andrologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_andrologie_012",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('chlamydia' in q_q1_andrologie_001) || (patient_gender == 'FEMALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_andrologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_andrologie_013",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('mst' in q_q1_andrologie_001) || (patient_gender == 'FEMALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_andrologie_001": "aucun"
+        }
+      }
+    },
+    {
+      "question": "q_q1_andrologie_014",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!('autres' in q_q1_andrologie_001) || (patient_gender == 'FEMALE')",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_q1_andrologie_001": "aucun"
+        }
+      }
+    }
+  ]
+}

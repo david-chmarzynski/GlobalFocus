@@ -1,7 +1,7 @@
 {
   "oid": "q_q1_rhumatologie_003",
-  "title": "Vous a-t-on opéré du rachis (colonne vertébrale) ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
-  "text": "Vous a-t-on opéré du rachis (colonne vertébrale) ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
+  "title": "Vous a-t-on déjà opéré du rachis (colonne vertébrale) ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
+  "text": "Vous a-t-on déjà opéré du rachis (colonne vertébrale) ? (Plusieurs réponses possibles sauf si \"Aucun antécédent\")",
   "type": "MULTI_CHOICES",
   "choices": [
     {

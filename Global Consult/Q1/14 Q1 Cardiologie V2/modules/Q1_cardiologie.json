@@ -5,12 +5,12 @@
     {
       "question": "q_q1_cardiologie_000",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_q1_cardiologie_001",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_q1_cardiologie_002",

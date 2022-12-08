@@ -34,7 +34,7 @@
           "triggeredDefault": 0,
           "tag": "S_HOMEO_CELL",
           "scope": "MODULE_SCOPE",
-          "isGlobal": false,
+          "isGlobal": true,
           "isCalculation": false,
           "calculation": [],
           "isWithConditions": false,

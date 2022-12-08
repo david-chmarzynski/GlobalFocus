@@ -1,0 +1,55 @@
+{
+  "oid": "q_q1_sphere_genitale",
+  "title": "Comment évaluez-vous votre fonctionnement et/ou votre santé au niveau de la sphère génitale (libido, organes sexuels, reproduction) ?",
+  "text": "Comment évaluez-vous votre fonctionnement et/ou votre santé au niveau de la sphère génitale (libido, organes sexuels, reproduction) ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Satisfaisante"
+    },
+    {
+      "code": "1",
+      "text": "Légèrement insatisfaisante"
+    },
+    {
+      "code": "2",
+      "text": "Plutôt insatisfaisante"
+    },
+    {
+      "code": "3",
+      "text": "Insatisfaisante"
+    },
+    {
+      "code": "4",
+      "text": "Très insatisfaisante"
+    }
+  ],
+  "scores": [
+    {
+      "conditions": "q_q1_sphere_genitale == \"0\"",
+      "tagOID": "S_SG",
+      "value": 0
+    },
+    {
+      "conditions": "q_q1_sphere_genitale == \"1\"",
+      "tagOID": "S_SG",
+      "value": 1
+    },
+    {
+      "conditions": "q_q1_sphere_genitale == \"2\"",
+      "tagOID": "S_SG",
+      "value": 2
+    },
+    {
+      "conditions": "q_q1_sphere_genitale == \"3\"",
+      "tagOID": "S_SG",
+      "value": 3
+    },
+    {
+      "conditions": "q_q1_sphere_genitale == \"4\"",
+      "tagOID": "S_SG",
+      "value": 4
+    }
+  ]
+}

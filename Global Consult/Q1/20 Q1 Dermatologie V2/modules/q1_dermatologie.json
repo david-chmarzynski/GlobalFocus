@@ -5,12 +5,12 @@
     {
       "question": "q_q1_dermatologie_000",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_q1_dermatologie_001",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_q1_dermatologie_002",

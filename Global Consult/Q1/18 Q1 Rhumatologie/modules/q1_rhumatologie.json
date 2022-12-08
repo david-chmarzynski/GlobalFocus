@@ -5,12 +5,12 @@
     {
       "question": "q_q1_rhumatologie_000",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_q1_rhumatologie_003",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_q1_rhumatologie_004",
@@ -135,7 +135,7 @@
     {
       "question": "q_q1_rhumatologie_014",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_q1_rhumatologie_015",
@@ -202,7 +202,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Coiffe des rotateurs à gauche\" in q_q1_rhumatologie_014)",
+        "conditions": "!(\"Fracture coude droit\" in q_q1_rhumatologie_014)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_q1_rhumatologie_014": 0
@@ -308,7 +308,7 @@
     {
       "question": "q_q1_rhumatologie_029",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_q1_rhumatologie_030",
@@ -517,12 +517,12 @@
     {
       "question": "q_q1_rhumatologie_047",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_q1_rhumatologie_0470",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "!(\"Ostéopénie\" in q_q1_rhumatologie_047)",
         "scope": "MODULE_SCOPE",
@@ -534,7 +534,7 @@
     {
       "question": "q_q1_rhumatologie_0471",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "!(\"Ostéoporose\" in q_q1_rhumatologie_047)",
         "scope": "MODULE_SCOPE",
@@ -546,7 +546,7 @@
     {
       "question": "q_q1_rhumatologie_0472",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "!(\"Arthrose\" in q_q1_rhumatologie_047)",
         "scope": "MODULE_SCOPE",
@@ -558,7 +558,7 @@
     {
       "question": "q_q1_rhumatologie_0473",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "!(\"Goutte\" in q_q1_rhumatologie_047)",
         "scope": "MODULE_SCOPE",
@@ -570,7 +570,7 @@
     {
       "question": "q_q1_rhumatologie_0474",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "!(\"Périarthrite scapulo-humérale\" in q_q1_rhumatologie_047)",
         "scope": "MODULE_SCOPE",
@@ -582,7 +582,7 @@
     {
       "question": "q_q1_rhumatologie_0475",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "!(\"Capsulite de l’épaule\" in q_q1_rhumatologie_047)",
         "scope": "MODULE_SCOPE",
@@ -594,7 +594,7 @@
     {
       "question": "q_q1_rhumatologie_0476",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "!(\"Myélome\" in q_q1_rhumatologie_047)",
         "scope": "MODULE_SCOPE",
@@ -606,7 +606,7 @@
     {
       "question": "q_q1_rhumatologie_0477",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "!(\"Ostéite (infection osseuse)\" in q_q1_rhumatologie_047)",
         "scope": "MODULE_SCOPE",
@@ -618,7 +618,7 @@
     {
       "question": "q_q1_rhumatologie_0478",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "!(\"Cancer primitif osseux (ostéosarcome, chondrosarcoma…)\" in q_q1_rhumatologie_047)",
         "scope": "MODULE_SCOPE",
@@ -630,7 +630,7 @@
     {
       "question": "q_q1_rhumatologie_0479",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "!(\"Métastase(s) osseuse(s)\" in q_q1_rhumatologie_047)",
         "scope": "MODULE_SCOPE",
@@ -642,12 +642,12 @@
     {
       "question": "q_q1_rhumatologie_048",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_q1_rhumatologie_0480",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "!(\"Sciatique\" in q_q1_rhumatologie_048)",
         "scope": "MODULE_SCOPE",
@@ -659,7 +659,7 @@
     {
       "question": "q_q1_rhumatologie_0481",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "!(\"Cruralgie\" in q_q1_rhumatologie_048)",
         "scope": "MODULE_SCOPE",
@@ -671,7 +671,7 @@
     {
       "question": "q_q1_rhumatologie_0482",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "!(\"Canal carpien\" in q_q1_rhumatologie_048)",
         "scope": "MODULE_SCOPE",
@@ -683,7 +683,7 @@
     {
       "question": "q_q1_rhumatologie_0483",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "!(\"Myopathie\" in q_q1_rhumatologie_048)",
         "scope": "MODULE_SCOPE",
@@ -695,7 +695,7 @@
     {
       "question": "q_q1_rhumatologie_0484",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "!(\"Polymyosite\" in q_q1_rhumatologie_048)",
         "scope": "MODULE_SCOPE",
@@ -707,7 +707,7 @@
     {
       "question": "q_q1_rhumatologie_0485",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "!(\"Fibromyalgie\" in q_q1_rhumatologie_048)",
         "scope": "MODULE_SCOPE",
@@ -719,7 +719,7 @@
     {
       "question": "q_q1_rhumatologie_0486",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "!(\"Syndrome de fatigue chronique\" in q_q1_rhumatologie_048)",
         "scope": "MODULE_SCOPE",
@@ -731,7 +731,7 @@
     {
       "question": "q_q1_rhumatologie_0487",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "!(\"Syndrome de fatigue chronique post-infectieux (Covid long, Lyme…)\" in q_q1_rhumatologie_048)",
         "scope": "MODULE_SCOPE",
@@ -743,7 +743,7 @@
     {
       "question": "q_q1_rhumatologie_0488",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "!(\"Algoneurodystrophie\" in q_q1_rhumatologie_048)",
         "scope": "MODULE_SCOPE",
@@ -755,7 +755,7 @@
     {
       "question": "q_q1_rhumatologie_0489",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "!(\"Tendinopathie(s)\" in q_q1_rhumatologie_048)",
         "scope": "MODULE_SCOPE",
@@ -767,7 +767,7 @@
     {
       "question": "q_q1_rhumatologie_04810",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "!(\"Tendinopathie(s) calcifiante(s)\" in q_q1_rhumatologie_048)",
         "scope": "MODULE_SCOPE",
@@ -779,12 +779,12 @@
     {
       "question": "q_q1_rhumatologie_049",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_q1_rhumatologie_0490",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "!(\"Polyarthrite rhumatoÏde\" in q_q1_rhumatologie_049)",
         "scope": "MODULE_SCOPE",
@@ -796,7 +796,7 @@
     {
       "question": "q_q1_rhumatologie_0491",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "!(\"Spondylarthrite ankylosante\" in q_q1_rhumatologie_049)",
         "scope": "MODULE_SCOPE",
@@ -808,7 +808,7 @@
     {
       "question": "q_q1_rhumatologie_0492",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "!(\"Rhumatisme psoriasique\" in q_q1_rhumatologie_049)",
         "scope": "MODULE_SCOPE",
@@ -820,7 +820,7 @@
     {
       "question": "q_q1_rhumatologie_0493",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "!(\"Polyarthrite pseudo-rhizomélique\" in q_q1_rhumatologie_049)",
         "scope": "MODULE_SCOPE",

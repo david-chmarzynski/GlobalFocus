@@ -5,7 +5,7 @@
     {
       "question": "q_q1_andrologie_000",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "(patient_gender == 'FEMALE')",
         "scope": "MODULE_SCOPE",
@@ -65,7 +65,7 @@
     {
       "question": "q_q1_andrologie_005",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "!('adenome' in q_q1_andrologie_001) || (patient_gender == 'FEMALE')",
         "scope": "MODULE_SCOPE",

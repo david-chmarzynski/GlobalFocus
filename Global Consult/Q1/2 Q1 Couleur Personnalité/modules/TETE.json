@@ -5,72 +5,72 @@
     {
       "question": "q_VTeteCouleur",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VTeteTensionEmotionnelle",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VTeteAnxieteTrait",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VTetePerfectionnisme",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VTeteStressGlobal",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VTeteMotivationStade",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VTeteMotivationEnvie",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VTeteMotivationConfiance",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VTeteMotivationPret",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VTeteVisionSoiGlobale",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VTeteImageCorporelle",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VTeteADSGlobale",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VTeteConfianceSoi",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VTeteEstimeSoi",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     }
   ]
 }

@@ -5,72 +5,72 @@
     {
       "question": "q_VAlimentationGlobal",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VAlimentationContenuGlobal",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VAlimentationComportementGlobal",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VAlimentationContrainteChoix",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VAlimentationTypologie",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VAlimentationContrainteSante",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VAlimentationContraintePoids",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VAlimentationScoff1",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VAlimentationScoff2",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VAlimentationScoff3",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VAlimentationScoff4",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VAlimentationScoff5",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VAlimentationAtcd",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VAlimentationDateAtcd1",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "!(\"0\" in q_VAlimentationAtcd)",
         "scope": "MODULE_SCOPE",
@@ -80,7 +80,7 @@
     {
       "question": "q_VAlimentationDateAtcd2",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "!(\"1\" in q_VAlimentationAtcd)",
         "scope": "MODULE_SCOPE",
@@ -90,7 +90,7 @@
     {
       "question": "q_VAlimentationDateAtcd3",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "!(\"2\" in q_VAlimentationAtcd)",
         "scope": "MODULE_SCOPE",
@@ -100,7 +100,7 @@
     {
       "question": "q_VAlimentationDateAtcd4",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "!(\"3\" in q_VAlimentationAtcd)",
         "scope": "MODULE_SCOPE",
@@ -110,7 +110,7 @@
     {
       "question": "q_VAlimentationDateAtcd5",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "!(\"4\" in q_VAlimentationAtcd)",
         "scope": "MODULE_SCOPE",

@@ -5,62 +5,62 @@
     {
       "question": "q_q1_sommeil_000",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_q1_sommeil_001",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_q1_sommeil_002",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_q1_sommeil_003",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_q1_sommeil_004",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_q1_sommeil_005",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_q1_sommeil_006",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_q1_sommeil_007",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_q1_sommeil_008",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_q1_sommeil_009",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VSomSuspicionSAOSBerlin1",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VSomSuspicionSAOSBerlin2",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "q_VSomSuspicionSAOSBerlin1 != '0'",
         "scope": "MODULE_SCOPE",
@@ -70,7 +70,7 @@
     {
       "question": "q_VSomSuspicionSAOSBerlin3",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "q_VSomSuspicionSAOSBerlin1 != '0'",
         "scope": "MODULE_SCOPE",
@@ -80,7 +80,7 @@
     {
       "question": "q_VSomSuspicionSAOSBerlin4",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "q_VSomSuspicionSAOSBerlin1 != '0'",
         "scope": "MODULE_SCOPE",
@@ -90,27 +90,27 @@
     {
       "question": "q_VSomSuspicionSAOSBerlin5",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VSomSuspicionSAOSBerlin6",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VSomSuspicionSAOSBerlin7",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VSomSuspicionSAOSBerlin8",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VSomSuspicionSAOSBerlin9",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "q_VSomSuspicionSAOSBerlin8 == '1'",
         "scope": "MODULE_SCOPE",
@@ -120,22 +120,22 @@
     {
       "question": "q_VSomSuspicionSAOSBerlin10",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VSomSyndromeJambesSansRepos1",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VSomSyndromeJambesSansRepos2",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_q1_sommeil_010",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     }
   ],
   "calculations": [

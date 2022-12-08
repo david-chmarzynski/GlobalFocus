@@ -5,7 +5,7 @@
     {
       "question": "q_Q1_uro_nephrologie_000",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_Q1_uro_nephrologie_001",

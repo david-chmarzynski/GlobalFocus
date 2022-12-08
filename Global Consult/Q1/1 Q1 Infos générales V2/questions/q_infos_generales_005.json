@@ -1,7 +1,7 @@
 {
   "oid": "q_infos_generales_005",
-  "title": "Quel est sa/Quels sont leurs année(s) de naissance ?",
-  "text": "Quel est sa/Quels sont leurs année(s) de naissance ?",
+  "title": "Quelle est sa/Quelles sont leurs année(s) de naissance ?",
+  "text": "Quelle est sa/Quelles sont leurs année(s) de naissance ?",
   "type": "TEXT",
   "choices": [],
   "scores": []

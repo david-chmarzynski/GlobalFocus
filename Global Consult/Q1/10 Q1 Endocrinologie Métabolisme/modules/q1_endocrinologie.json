@@ -5,7 +5,7 @@
     {
       "question": "q_endocrinologie_000",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_endocrinologie_002",
@@ -46,7 +46,7 @@
     {
       "question": "q_endocrinologie_006",
       "level": 1,
-      "isGlobal": false,
+      "isGlobal": true,
       "trigger": {
         "conditions": "!(\"3\" in q_endocrinologie_001)",
         "scope": "MODULE_SCOPE",

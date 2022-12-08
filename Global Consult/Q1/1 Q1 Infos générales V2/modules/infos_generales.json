@@ -3,6 +3,11 @@
   "title": "Informations générales",
   "questions": [
     {
+      "question": "q_infos_generales_sexe",
+      "level": 1,
+      "isGlobal": true
+    },
+    {
       "question": "q_infos_generales_000",
       "level": 1,
       "isGlobal": true

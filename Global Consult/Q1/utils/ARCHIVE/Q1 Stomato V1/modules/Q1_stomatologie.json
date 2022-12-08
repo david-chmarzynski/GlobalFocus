@@ -5,7 +5,7 @@
     {
       "question": "q_S_STO_000",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_S_STO_001",

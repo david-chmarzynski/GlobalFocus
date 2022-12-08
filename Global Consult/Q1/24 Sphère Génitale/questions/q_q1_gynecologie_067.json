@@ -1,0 +1,8 @@
+{
+  "oid": "q_q1_gynecologie_067",
+  "title": "Pour chaque allaitement, précisez par ordre chronologique la durée de chacun d’entre eux ? (Exemple : Si maman ayant eu 3 enfants et pas d’allaitement pour le 1er enfant,  allaitement de 3 mois pour le 2ème et de 6 mois pour le 3ème, la réponse sera : 0-3-6 mois)",
+  "text": "Pour chaque allaitement, précisez par ordre chronologique la durée de chacun d’entre eux ? (Exemple : Si maman ayant eu 3 enfants et pas d’allaitement pour le 1er enfant,  allaitement de 3 mois pour le 2ème et de 6 mois pour le 3ème, la réponse sera : 0-3-6 mois)",
+  "type": "TEXT",
+  "choices": [],
+  "scores": []
+}

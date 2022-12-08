@@ -5763,7 +5763,7 @@
       "category": "HEALTH",
       "scoreStrategy": "SUM",
       "reportingNode": {
-        "tagOID": "S_GYN",
+        "tagOID": "S_SG",
         "type": "SCORE",
         "hideNodeIfEmpty": true,
         "ranges": [
@@ -5771,31 +5771,31 @@
             "min": 0,
             "max": 0,
             "color": "00FF00",
-            "text": "GYN"
+            "text": "GÉNITAL"
           },
           {
             "min": 1,
             "max": 1,
             "color": "FFFF00",
-            "text": "GYN"
+            "text": "GÉNITAL"
           },
           {
             "min": 2,
             "max": 2,
             "color": "FF9900",
-            "text": "GYN"
+            "text": "GÉNITAL"
           },
           {
             "min": 3,
             "max": 3,
             "color": "FF0000",
-            "text": "GYN"
+            "text": "GÉNITAL"
           },
           {
             "min": 4,
             "max": 4,
             "color": "990000",
-            "text": "GYN"
+            "text": "GÉNITAL"
           }
         ],
         "children": [
@@ -6742,50 +6742,7 @@
                 "children": []
               }
             ]
-          }
-        ]
-      }
-    },
-    {
-      "category": "HEALTH",
-      "scoreStrategy": "SUM",
-      "reportingNode": {
-        "tagOID": "S_AND",
-        "type": "SCORE",
-        "hideNodeIfEmpty": true,
-        "ranges": [
-          {
-            "min": 0,
-            "max": 0,
-            "color": "00FF00",
-            "text": "ANDRO"
           },
-          {
-            "min": 1,
-            "max": 1,
-            "color": "FFFF00",
-            "text": "ANDRO"
-          },
-          {
-            "min": 2,
-            "max": 2,
-            "color": "FF9900",
-            "text": "ANDRO"
-          },
-          {
-            "min": 3,
-            "max": 3,
-            "color": "FF0000",
-            "text": "ANDRO"
-          },
-          {
-            "min": 4,
-            "max": 4,
-            "color": "990000",
-            "text": "ANDRO"
-          }
-        ],
-        "children": [
           {
             "tagOID": "S_AND_ATCD",
             "type": "SCORE",

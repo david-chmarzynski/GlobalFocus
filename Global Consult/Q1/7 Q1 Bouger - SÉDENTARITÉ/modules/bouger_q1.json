@@ -5,17 +5,17 @@
     {
       "question": "q_VBougerGlobal",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VBougerAP",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VBougerSedentarite",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     }
   ],
   "calculations": [

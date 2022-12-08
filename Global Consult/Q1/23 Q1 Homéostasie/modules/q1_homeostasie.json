@@ -5,7 +5,7 @@
     {
       "question": "q_q1_homeostasie_000",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_q1_homeostasie_001",

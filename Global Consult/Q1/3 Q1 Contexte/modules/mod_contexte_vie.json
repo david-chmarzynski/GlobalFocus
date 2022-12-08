@@ -5,87 +5,115 @@
     {
       "question": "q_VContexteVieGlobal",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VContexteVieWEtudesVecu",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"0\" in q_infos_generales_006) || !(\"1\" in q_infos_generales_006) || !(\"5\" in q_infos_generales_006)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_infos_generales_006": "aucun"
+        }
+      }
     },
     {
       "question": "q_VContexteVieEtudesWOrganisation",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"0\" in q_infos_generales_006) || !(\"1\" in q_infos_generales_006) || !(\"5\" in q_infos_generales_006)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_infos_generales_006": "aucun"
+        }
+      }
     },
     {
       "question": "q_VContexteVieEtudesWHumain",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"0\" in q_infos_generales_006) || !(\"1\" in q_infos_generales_006) || !(\"5\" in q_infos_generales_006)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_infos_generales_006": "aucun"
+        }
+      }
     },
     {
       "question": "q_VContexteVieEtudesStress",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"0\" in q_infos_generales_006) || !(\"1\" in q_infos_generales_006) || !(\"5\" in q_infos_generales_006)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "q_infos_generales_006": "aucun"
+        }
+      }
     },
     {
       "question": "q_VContexteVieQDVGlobal",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VContexteQDVDouleurs",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VContexteQDVEmotionnel",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VContexteQDVSante",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VContexteQDVCognitif",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VContexteQDVMobilite",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VContexteQDVAutonomie",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VContexteQDVActivites",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VContexteVieFamilleGlobal",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VContexteFamilleStress",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VFamilleHumaine",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     },
     {
       "question": "q_VFamillePratique",
       "level": 1,
-      "isGlobal": false
+      "isGlobal": true
     }
   ]
 }

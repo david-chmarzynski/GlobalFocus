@@ -1,0 +1,16 @@
+{
+  "oid": "q_infos_generales_sexe",
+  "title": "Quel est votre sexe de naissance (sexe chromosomique) ? ",
+  "text": "Quel est votre sexe de naissance (sexe chromosomique) ? ",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Homme"
+    },
+    {
+      "code": "1",
+      "text": "Femme"
+    }
+  ]
+}

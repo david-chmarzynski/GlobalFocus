@@ -33,7 +33,7 @@
       "text": "Dépression (hors déprime saisonnière et/ou cyclothymie)"
     },
     {
-      "code": "Aucun antécédent",
+      "code": "aucun",
       "text": "Aucun antécédent",
       "exclusive": true
     }

@@ -73,6 +73,16 @@
       "conditions": "\"6\" in q_endocrinologie_007",
       "tagOID": "S_ENDO_ATCD_METABOLIQUE_AUTRE",
       "value": "1"
+    },
+    {
+      "conditions": "\"7\" in q_endocrinologie_007",
+      "tagOID": "S_ENDO_ATCD_METABOLIQUE",
+      "value": "0"
+    },
+    {
+      "conditions": "!(\"7\" in q_endocrinologie_007)",
+      "tagOID": "S_ENDO_ATCD_METABOLIQUE",
+      "value": "1"
     }
   ]
 }

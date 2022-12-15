@@ -1,44 +1,16 @@
 {
   "oid": "q_infos_generales_000",
-  "title": "Quelle est votre situation familiale (au sens de l’état civil) ? ",
-  "text": "Quelle est votre situation familiale (au sens de l’état civil) ? ",
+  "title": "Quel est votre sexe de naissance (sexe chromosomique) ?",
+  "text": "Quel est votre sexe de naissance (sexe chromosomique) ?",
   "type": "SINGLE_CHOICE_RADIO",
   "choices": [
     {
       "code": "0",
-      "text": "Célibataire (jamais marié)"
+      "text": "Homme"
     },
     {
       "code": "1",
-      "text": "Pacsé(e)"
-    },
-    {
-      "code": "2",
-      "text": "Marié(e)"
-    },
-    {
-      "code": "3",
-      "text": "Séparé(e)"
-    },
-    {
-      "code": "4",
-      "text": "Séparé(e), mais en couple"
-    },
-    {
-      "code": "5",
-      "text": "Divorcé(e)"
-    },
-    {
-      "code": "6",
-      "text": "Divorcé(e), mais en couple"
-    },
-    {
-      "code": "7",
-      "text": "Veuf(ve)"
-    },
-    {
-      "code": "8",
-      "text": "Veuf(ve), mais en couple"
+      "text": "Femme"
     }
   ]
 }

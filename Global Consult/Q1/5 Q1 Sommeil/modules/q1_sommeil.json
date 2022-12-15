@@ -137,27 +137,5 @@
       "level": 1,
       "isGlobal": true
     }
-  ],
-  "calculations": [
-    {
-      "oid": "GIMC",
-      "title": "GIMC",
-      "text": "GIMC",
-      "type": "NORMAL",
-      "calculation": "0 + imc",
-      "isGlobal": true,
-      "scores": [
-        {
-          "conditions": "imc < 30",
-          "tagOID": "tag_VSomSuspicionSAOSBerlinCAT3",
-          "value": 0
-        },
-        {
-          "conditions": "imc > 30",
-          "tagOID": "tag_VSomSuspicionSAOSBerlinCAT3",
-          "value": 2
-        }
-      ]
-    }
   ]
 }

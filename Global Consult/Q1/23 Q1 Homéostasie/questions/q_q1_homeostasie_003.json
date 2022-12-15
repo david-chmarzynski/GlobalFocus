@@ -29,7 +29,7 @@
       "text": "Trouble du déficit de l'attention avec ou sans hyperactivité"
     },
     {
-      "code": "Aucun de ces antécédents",
+      "code": "aucun",
       "text": "Aucun de ces antécédents",
       "exclusive": true
     }

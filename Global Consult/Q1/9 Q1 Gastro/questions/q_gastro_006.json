@@ -109,6 +109,16 @@
       "conditions": "\"10\" in q_gastro_006",
       "tagOID": "S_DIG_ATCD_TD_BAS_AUTRE",
       "value": 1
+    },
+    {
+      "conditions": "\"11\" in q_gastro_006",
+      "tagOID": "S_DIG_ATCD_TD_BAS",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"11\" in q_gastro_006)",
+      "tagOID": "S_DIG_ATCD_TD_BAS",
+      "value": 1
     }
   ]
 }

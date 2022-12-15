@@ -14,7 +14,17 @@
   "professions": [
     "DENTIST"
   ],
-  "diagnostics": [],
+  "diagnostics": [
+    {
+      "oid": "diagnosticScoff",
+      "conditions" :
+      {
+          "SCOFF_VERT": "tag_VAlimentationScoff == 0",
+          "SCOFF_ORANGE": "tag_VAlimentationScoff == 1",
+          "SCOFF_ROUGE": "tag_VAlimentationScoff > 1"
+      }
+    }
+  ],
   "reportingTrees": [
     {
       "category": "LIFE_STYLE",

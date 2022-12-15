@@ -118,6 +118,16 @@
       "conditions": "\"11\" in q_gastro_002",
       "tagOID": "S_DIG_ATCD_CANCER_AUTRE",
       "value": 1
+    },
+    {
+      "conditions": "\"12\" in q_gastro_002",
+      "tagOID": "S_DIG_ATCD_CANCER",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"12\" in q_gastro_002)",
+      "tagOID": "S_DIG_ATCD_CANCER",
+      "value": 1
     }
   ]
 }

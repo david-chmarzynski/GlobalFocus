@@ -23,6 +23,16 @@
           "SAOS_ORANGE": "tag_VSomSuspicionSAOSBerlinCAT1 >= 2 && tag_VSomSuspicionSAOSBerlinCAT2 == 1",
           "SAOS_ROUGE": "(tag_VSomSuspicionSAOSBerlinCAT1 >= 2 && tag_VSomSuspicionSAOSBerlinCAT2 >= 2) ||  (tag_VSomSuspicionSAOSBerlinCAT2 >= 2 && tag_VSomSuspicionSAOSBerlinCAT3 >= 2)(tag_VSomSuspicionSAOSBerlinCAT1 >= 2 && tag_VSomSuspicionSAOSBerlinCAT3 >= 2)"
       }
+    },
+    {
+      "oid": "diagnosticSJSR",
+      "conditions" :
+      {
+          "SJSR_VERT": "tag_VSJSR == 0",
+          "SJSR_JAUNE": "tag_VSJSR == 1 || tag_VSJSR == 2",
+          "SJSR_ORANGE": "tag_VSJSR == 3 || tag_VSJSR == 4",
+          "SJSR_ROUGE": "tag_VSJSR > 4"
+      }
     }
   ],
   "reportingTrees": [
@@ -426,7 +436,29 @@
             ],
             "children": [
               {
-                "tagOID": "tag_VSSJR",
+                "diagnosticOID": "diagnosticSAOS",
+                "type": "DIAGNOSTIC",
+                "diagnosticTitle": "SAOS",
+                "diagnostics": {
+                  "SAOS_VERT": {
+                    "text": "SAOS",
+                    "color": "00FF00",
+                    "severity": 0
+                  },
+                  "SAOS_ORANGE": {
+                    "text": "SAOS",
+                    "color": "FF9900",
+                    "severity": 1
+                  },
+                  "SAOS_ROUGE": {
+                    "text": "SAOS",
+                    "color": "FF0000",
+                    "severity": 2
+                  }
+                }
+              },
+              {
+                "tagOID": "tag_VSJSR",
                 "type": "SCORE",
                 "hideNodeIfEmpty": true,
                 "ranges": [

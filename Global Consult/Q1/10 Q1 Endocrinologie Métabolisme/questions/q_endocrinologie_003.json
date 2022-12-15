@@ -46,6 +46,16 @@
       "conditions": "\"3\" in q_endocrinologie_003",
       "tagOID": "S_ENDO_ATCD_PARATHYROIDE_AUTRE",
       "value": "1"
+    },
+    {
+      "conditions": "\"4\" in q_endocrinologie_003",
+      "tagOID": "S_ENDO_ATCD_PARATHYROIDE",
+      "value": "0"
+    },
+    {
+      "conditions": "!(\"4\" in q_endocrinologie_003)",
+      "tagOID": "S_ENDO_ATCD_PARATHYROIDE",
+      "value": "1"
     }
   ]
 }

@@ -37,7 +37,7 @@
       "text": "Dépression, cyclothymie, bipolarité"
     },
     {
-      "code": "Aucun antécédent",
+      "code": "aucun",
       "text": "Aucun antécédent",
       "exclusive": true
     }

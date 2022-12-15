@@ -91,6 +91,16 @@
       "conditions": "\"8\" in q_gastro_004",
       "tagOID": "S_DIG_ATCD_TD_HAUT_HELICOBACTER",
       "value": 1
+    },
+    {
+      "conditions": "\"9\" in q_gastro_004",
+      "tagOID": "S_DIG_ATCD_TD_HAUT",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"9\" in q_gastro_004)",
+      "tagOID": "S_DIG_ATCD_TD_HAUT",
+      "value": 1
     }
   ]
 }

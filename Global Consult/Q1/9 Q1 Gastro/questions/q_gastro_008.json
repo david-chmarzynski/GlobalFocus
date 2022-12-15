@@ -118,6 +118,16 @@
       "conditions": "\"11\" in q_gastro_008",
       "tagOID": "S_DIG_ATCD_ANNEXES_AUTRE",
       "value": 1
+    },
+    {
+      "conditions": "\"13\" in q_gastro_008",
+      "tagOID": "S_DIG_ATCD_ANNEXES_PANC_CHR",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"13\" in q_gastro_008)",
+      "tagOID": "S_DIG_ATCD_ANNEXES_AUTRE",
+      "value": 1
     }
   ]
 }

@@ -64,6 +64,16 @@
       "conditions": "\"5\" in q_endocrinologie_004",
       "tagOID": "S_ENDO_ATCD_HYPOPHYSE_AUTRE",
       "value": "1"
+    },
+    {
+      "conditions": "\"6\" in q_endocrinologie_004",
+      "tagOID": "S_ENDO_ATCD_HYPOPHYSE",
+      "value": "0"
+    },
+    {
+      "conditions": "!(\"6\" in q_endocrinologie_004)",
+      "tagOID": "S_ENDO_ATCD_HYPOPHYSE",
+      "value": "1"
     }
   ]
 }

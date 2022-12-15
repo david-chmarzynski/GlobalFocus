@@ -48,19 +48,9 @@
   ],
   "scores": [
     {
-      "conditions": "!(\"sel\" in q_q1_alimentation_005)",
-      "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_SEL",
-      "value": 0
-    },
-    {
       "conditions": "\"sel\" in q_q1_alimentation_005",
       "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_SEL",
       "value": 1
-    },
-    {
-      "conditions": "!(\"dyslip\" in q_q1_alimentation_005)",
-      "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_DYSLIP",
-      "value": 0
     },
     {
       "conditions": "\"dyslip\" in q_q1_alimentation_005",
@@ -68,19 +58,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"urate\" in q_q1_alimentation_005)",
-      "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_URATE",
-      "value": 0
-    },
-    {
       "conditions": "\"urate\" in q_q1_alimentation_005",
       "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_URATE",
       "value": 1
-    },
-    {
-      "conditions": "!(\"ir\" in q_q1_alimentation_005)",
-      "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_IR",
-      "value": 0
     },
     {
       "conditions": "\"ir\" in q_q1_alimentation_005",
@@ -88,19 +68,9 @@
       "value": 1
     },
     {
-      "conditions": "!(\"fodmaps\" in q_q1_alimentation_005)",
-      "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_FODMAPS",
-      "value": 0
-    },
-    {
       "conditions": "\"fodmaps\" in q_q1_alimentation_005",
       "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_FODMAPS",
       "value": 1
-    },
-    {
-      "conditions": "!(\"gluten\" in q_q1_alimentation_005)",
-      "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_GLUTEN",
-      "value": 0
     },
     {
       "conditions": "\"gluten\" in q_q1_alimentation_005",
@@ -108,29 +78,14 @@
       "value": 1
     },
     {
-      "conditions": "!(\"allergie\" in q_q1_alimentation_005)",
-      "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_ALLERGIE",
-      "value": 0
-    },
-    {
       "conditions": "\"allergie\" in q_q1_alimentation_005",
       "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_ALLERGIE",
       "value": 1
     },
     {
-      "conditions": "!(\"intol\" in q_q1_alimentation_005)",
-      "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_INTOL",
-      "value": 0
-    },
-    {
       "conditions": "\"intol\" in q_q1_alimentation_005",
       "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_INTOL",
       "value": 1
-    },
-    {
-      "conditions": "!(\"cetogene\" in q_q1_alimentation_005)",
-      "tagOID": "TAG_VALIMENTATION_COMPORTEMENT_CONTRAINTE_SANTÉ_CETOGENE",
-      "value": 0
     },
     {
       "conditions": "\"cetogene\" in q_q1_alimentation_005",

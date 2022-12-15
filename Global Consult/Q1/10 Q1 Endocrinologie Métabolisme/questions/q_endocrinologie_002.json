@@ -64,6 +64,16 @@
       "conditions": "\"5\" in q_endocrinologie_002",
       "tagOID": "S_ENDO_ATCD_THYROIDE_AUTRE",
       "value": "1"
+    },
+    {
+      "conditions": "\"6\" in q_endocrinologie_002",
+      "tagOID": "S_ENDO_ATCD_THYROIDE_THYROIDITE",
+      "value": "0"
+    },
+    {
+      "conditions": "!(\"6\" in q_endocrinologie_002)",
+      "tagOID": "S_ENDO_ATCD_THYROIDE_AUTRE",
+      "value": "1"
     }
   ]
 }

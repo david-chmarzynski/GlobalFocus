@@ -3,12 +3,12 @@
   "title": "Informations générales",
   "questions": [
     {
-      "question": "q_infos_generales_sexe",
+      "question": "q_infos_generales_000",
       "level": 1,
       "isGlobal": true
     },
     {
-      "question": "q_infos_generales_000",
+      "question": "q_infos_generales_001",
       "level": 1,
       "isGlobal": true
     },
@@ -277,6 +277,17 @@
         "scope": "MODULE_SCOPE",
         "defaultValues": {"q_infos_generales_021":"0"}
       }
+    }
+  ],
+  "calculations":[
+    {
+      "oid": "calc_imc",
+      "type": "NORMAL",
+      "isGlobal": true,
+      "calculation": "q_infos_generales_009 / ((q_infos_generales_011 / 100) * (q_infos_generales_011 / 100))",
+      "title": "Calul IMC",
+      "text": "Calul IMC",
+      "scores": []
     }
   ]
 }

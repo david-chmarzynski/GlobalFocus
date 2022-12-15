@@ -37,8 +37,18 @@
       "value": 1
     },
     {
+      "conditions": "!(\"0\" in q_VAlimentationAtcd)",
+      "tagOID": "tag_VAlimentationAtcd",
+      "value": 1
+    },
+    {
       "conditions": "\"1\" in q_VAlimentationAtcd",
       "tagOID": "tag_VAlimentationAtcd2",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"1\" in q_VAlimentationAtcd)",
+      "tagOID": "tag_VAlimentationAtcd",
       "value": 1
     },
     {
@@ -47,13 +57,28 @@
       "value": 1
     },
     {
+      "conditions": "!(\"2\" in q_VAlimentationAtcd)",
+      "tagOID": "tag_VAlimentationAtcd",
+      "value": 1
+    },
+    {
       "conditions": "\"3\" in q_VAlimentationAtcd",
       "tagOID": "tag_VAlimentationAtcd4",
       "value": 1
     },
     {
+      "conditions": "!(\"3\" in q_VAlimentationAtcd)",
+      "tagOID": "tag_VAlimentationAtcd",
+      "value": 1
+    },
+    {
       "conditions": "\"4\" in q_VAlimentationAtcd",
       "tagOID": "tag_VAlimentationAtcd5",
+      "value": 1
+    },
+    {
+      "conditions": "!(\"4\" in q_VAlimentationAtcd)",
+      "tagOID": "tag_VAlimentationAtcd",
       "value": 1
     },
     {

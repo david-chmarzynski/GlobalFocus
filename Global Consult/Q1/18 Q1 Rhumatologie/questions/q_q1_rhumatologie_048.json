@@ -49,7 +49,7 @@
       "text": "Tendinopathie(s) calcifiante(s)"
     },
     {
-      "code": "Aucun antécédent",
+      "code": "aucun",
       "text": "Aucun antécédent",
       "exclusive": true
     }
@@ -108,6 +108,16 @@
     {
       "conditions": "\"Tendinopathie(s) calcifiante(s)\" in q_q1_rhumatologie_048",
       "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_TENDINOPATHIE_CALCIFIANTE",
+      "value": 1
+    },
+    {
+      "conditions": "\"aucun\" in q_q1_rhumatologie_003",
+      "tagOID": "S_RMS_ATCD_MED",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_q1_rhumatologie_003)",
+      "tagOID": "S_RMS_ATCD_MED",
       "value": 1
     }
   ]

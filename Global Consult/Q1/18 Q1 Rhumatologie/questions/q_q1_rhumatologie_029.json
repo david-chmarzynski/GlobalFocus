@@ -69,7 +69,7 @@
       "text": "Autre(s) chirurgie(s) des membres inférieurs"
     },
     {
-      "code": "Aucun antécédent",
+      "code": "aucun",
       "text": "Aucun antécédent",
       "exclusive": true
     }
@@ -153,6 +153,16 @@
     {
       "conditions": "\"Autre(s) chirurgie(s) des membres inférieurs\" in q_q1_rhumatologie_029",
       "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF_AUTRE",
+      "value": 1
+    },
+    {
+      "conditions": "\"aucun\" in q_q1_rhumatologie_003",
+      "tagOID": "S_RMS_ATCD_CHIR",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_q1_rhumatologie_003)",
+      "tagOID": "S_RMS_ATCD_CHIR",
       "value": 1
     }
   ]

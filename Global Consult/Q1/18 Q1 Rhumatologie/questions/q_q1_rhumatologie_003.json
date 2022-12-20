@@ -41,7 +41,7 @@
       "text": "Autre(s) chirurgie(s) du rachis"
     },
     {
-      "code": "Aucun antécédent",
+      "code": "aucun",
       "text": "Aucun antécédent",
       "exclusive": true
     }
@@ -90,6 +90,16 @@
     {
       "conditions": "\"Autre(s) chirurgie(s) du rachis\" in q_q1_rhumatologie_003",
       "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS_AUTRE",
+      "value": 1
+    },
+    {
+      "conditions": "\"aucun\" in q_q1_rhumatologie_003",
+      "tagOID": "S_RMS_ATCD_CHIR",
+      "value": 0
+    },
+    {
+      "conditions": "!(\"aucun\" in q_q1_rhumatologie_003)",
+      "tagOID": "S_RMS_ATCD_CHIR",
       "value": 1
     }
   ]

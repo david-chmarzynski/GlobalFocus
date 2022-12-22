@@ -455,7 +455,87 @@
                     "color": "FF0000",
                     "severity": 2
                   }
-                }
+                },
+                "children": [
+                  {
+                    "tagOID": "tag_VSomSuspicionSAOSBerlinCAT1",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0.9,
+                        "color": "00FF00",
+                        "text": "CAT1"
+                      },
+                      {
+                        "min": 3,
+                        "max": 4.9,
+                        "color": "FF9900",
+                        "text": "CAT1"
+                      },
+                      {
+                        "min": 5,
+                        "max": 20.9,
+                        "color": "FF0000",
+                        "text": "CAT1"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "tag_VSomSuspicionSAOSBerlinCAT2",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0.9,
+                        "color": "00FF00",
+                        "text": "CAT2"
+                      },
+                      {
+                        "min": 3,
+                        "max": 4.9,
+                        "color": "FF9900",
+                        "text": "CAT2"
+                      },
+                      {
+                        "min": 5,
+                        "max": 20.9,
+                        "color": "FF0000",
+                        "text": "CAT2"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "tag_VSomSuspicionSAOSBerlinCAT3",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0.9,
+                        "color": "00FF00",
+                        "text": "CAT3"
+                      },
+                      {
+                        "min": 3,
+                        "max": 4.9,
+                        "color": "FF9900",
+                        "text": "CAT3"
+                      },
+                      {
+                        "min": 5,
+                        "max": 20.9,
+                        "color": "FF0000",
+                        "text": "CAT3"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
               },
               {
                 "tagOID": "tag_VSJSR",

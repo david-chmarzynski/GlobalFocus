@@ -1,7 +1,7 @@
 {
   "oid": "q_q1_gynecologie_067",
-  "title": "Pour chaque allaitement, précisez combien de mois ?",
-  "text": "Pour chaque allaitement, précisez combien de mois ?",
+  "title": "Pour chaque allaitement, précisez par ordre chronologique la durée de chacun d’entre eux ? (Exemple : Vous avez eu 3 enfants. Vous n’avez pas allaité votre 1er enfant mais vous avez allaité votre 2ème enfant pendant 3 mois et votre 3ème enfant pendant 6 mois. La réponse sera : 0-3-6 mois",
+  "text": "Pour chaque allaitement, précisez par ordre chronologique la durée de chacun d’entre eux ? (Exemple : Vous avez eu 3 enfants. Vous n’avez pas allaité votre 1er enfant mais vous avez allaité votre 2ème enfant pendant 3 mois et votre 3ème enfant pendant 6 mois. La réponse sera : 0-3-6 mois",
   "type": "TEXT",
   "choices": [],
   "scores": []

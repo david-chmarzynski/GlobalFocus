@@ -1,8 +1,16 @@
 {
   "oid": "q_infos_generales_018",
-  "title": "Si vous avez des allergies autres que médicamenteuses, merci de les indiquer ici :",
-  "text": "Si vous avez des allergies autres que médicamenteuses, merci de les indiquer ici :",
-  "type": "TEXT",
-  "choices": [],
-  "scores": []
+  "title": "Avez-vous des allergies autres que médicamenteuses ?",
+  "text": "Avez-vous des allergies autres que médicamenteuses ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ]
 }

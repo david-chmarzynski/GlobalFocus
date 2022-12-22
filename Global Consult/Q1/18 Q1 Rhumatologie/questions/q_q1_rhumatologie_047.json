@@ -121,13 +121,13 @@
       "value": 1
     },
     {
-      "conditions": "\"aucun\" in q_q1_rhumatologie_003",
-      "tagOID": "S_RMS_ATCD_MED",
+      "conditions": "\"aucun\" in q_q1_rhumatologie_047",
+      "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART",
       "value": 0
     },
     {
-      "conditions": "!(\"aucun\" in q_q1_rhumatologie_003)",
-      "tagOID": "S_RMS_ATCD_MED",
+      "conditions": "!(\"aucun\" in q_q1_rhumatologie_047)",
+      "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART",
       "value": 1
     }
   ]

@@ -129,13 +129,13 @@
       "value": 1
     },
     {
-      "conditions": "\"aucun\" in q_q1_rhumatologie_003",
-      "tagOID": "S_RMS_ATCD_CHIR",
+      "conditions": "\"aucun\" in q_q1_rhumatologie_014",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP",
       "value": 0
     },
     {
-      "conditions": "!(\"aucun\" in q_q1_rhumatologie_003)",
-      "tagOID": "S_RMS_ATCD_CHIR",
+      "conditions": "!(\"aucun\" in q_q1_rhumatologie_014)",
+      "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP",
       "value": 1
     }
   ]

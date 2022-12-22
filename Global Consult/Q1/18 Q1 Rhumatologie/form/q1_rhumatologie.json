@@ -14,7 +14,24 @@
   "professions": [
     "DENTIST"
   ],
-  "diagnostics": [],
+  "diagnostics": [
+    {
+      "oid": "diagnosticCHIR",
+      "conditions" :
+      {
+        "CHIR_VERT": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS == 0 || S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP == 0 || S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF == 0",
+        "CHIR_ROUGE": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS == 1 || S_RMS_ATCD_CHIR_LOCALISATION_MBRES_SUP == 1 || S_RMS_ATCD_CHIR_LOCALISATION_MBRES_INF == 1"
+      }
+    },
+    {
+      "oid": "diagnosticMED",
+      "conditions" :
+      {
+        "MED_VERT": "S_RMS_ATCD_MED_TYPE_OS_ART == 0 || S_RMS_ATCD_MED_TYPE_NEURO_MUSC == 0 || S_RMS_ATCD_MED_TYPE_AUTO_IMMUN == 0",
+        "MED_ROUGE": "S_RMS_ATCD_MED_TYPE_OS_ART == 1 || S_RMS_ATCD_MED_TYPE_NEURO_MUSC == 1 || S_RMS_ATCD_MED_TYPE_AUTO_IMMUN == 1"
+      }
+    }
+  ],
   "reportingTrees": [
     {
       "category": "HEALTH",
@@ -49,31 +66,29 @@
             "text": "RHU"
           },
           {
-            "min": 3,
-            "max": 3,
+            "min": 4,
+            "max": 4,
             "color": "990000",
             "text": "RHU"
           }
         ],
         "children": [
           {
-            "tagOID": "S_RMS_ATCD_CHIR",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
+            "diagnosticOID": "diagnosticCHIR",
+            "type": "DIAGNOSTIC",
+            "diagnosticTitle": "ATCD CHIR",
+            "diagnostics": {
+              "CHIR_VERT": {
+                "text": "ATCD CHIR",
                 "color": "00FF00",
-                "text": "ATCD CHIR"
+                "severity": 0
               },
-              {
-                "min": 1,
-                "max": 1,
+              "CHIR_ROUGE": {
+                "text": "ATCD CHIR",
                 "color": "FF0000",
-                "text": "ATCD CHIR"
+                "severity": 2
               }
-            ],
+            },
             "children": [
               {
                 "tagOID": "S_RMS_ATCD_CHIR_LOCALISATION_RACHIS",
@@ -901,26 +916,24 @@
             ]
           },
           {
-            "tagOID": "S_RMS_ATCD_MED",
-            "type": "SCORE",
-            "hideNodeIfEmpty": true,
-            "ranges": [
-              {
-                "min": 0,
-                "max": 0,
+            "diagnosticOID": "diagnosticMED",
+            "type": "DIAGNOSTIC",
+            "diagnosticTitle": "ATCD MED",
+            "diagnostics": {
+              "MED_VERT": {
+                "text": "ATCD MED",
                 "color": "00FF00",
-                "text": "ATCD MED"
+                "severity": 0
               },
-              {
-                "min": 1,
-                "max": 1,
+              "MED_ROUGE": {
+                "text": "ATCD MED",
                 "color": "FF0000",
-                "text": "ATCD MED"
+                "severity": 2
               }
-            ],
+            },
             "children": [
               {
-                "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_OSTEOPENIE",
+                "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART",
                 "type": "SCORE",
                 "hideNodeIfEmpty": true,
                 "ranges": [
@@ -928,19 +941,240 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "OSTEOPENIE"
+                    "text": "OS ART"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "OSTEOPENIE"
+                    "text": "OS ART"
                   }
                 ],
-                "children": []
+                "children": [
+                  {
+                    "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_OSTEOPENIE",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "OSTEOPENIE"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "OSTEOPENIE"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_OSTEOPOROSE",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "OSTEOPOR"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "OSTEOPOR"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_ARTHROSE",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "ARTHROSE"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "ARTHROSE"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_GOUTTE",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "GOUTTE"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "GOUTTE"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_CHONDROCALCINOSE",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "CCA"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "CCA"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_PASH",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "PASH"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "PASH"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_CAPS",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "CAPS"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "CAPS"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_MYELOME",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "MYELOME"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "MYELOME"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_OSTEITE",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "OSTEITE"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "OSTEITE"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_CANCER",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "CANCER"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "CANCER"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_METASTASE",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "META"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "META"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
               },
               {
-                "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_OSTEOPOROSE",
+                "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC",
                 "type": "SCORE",
                 "hideNodeIfEmpty": true,
                 "ranges": [
@@ -948,19 +1182,240 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "OSTEOPOR"
+                    "text": "NEURO MUSC"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "OSTEOPOR"
+                    "text": "NEURO MUSC"
                   }
                 ],
-                "children": []
+                "children": [
+                  {
+                    "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_SCIATIQUE",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "SCIAT"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "SCIAT"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_CRURALGIE",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "CRURAL"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "CRURAL"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_CANAL_CAPRIEN",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "C CARPIEN"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "C CARPIEN"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_MYOPATHIE",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "MYOPATH"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "MYOPATH"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_POLYMYOSITE",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "POLYMYO"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "POLYMYO"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_FIBROMYALGIE",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "FIBROMYA"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "FIBROMYA"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_SFC",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "SFC"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "SFC"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_SFC8POST_INFECTIEUX",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "SFC POST INF"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "SFC POST INF"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_ALGONEUDYSTROPHIE",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "ALGONEURO"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "ALGONEURO"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_TENDINITE",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "TEND"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "TEND"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_TENDINOPATHIE_CALCIFIANTE",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "TEND CALC"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "TEND CALC"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
               },
               {
-                "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_ARTHROSE",
+                "tagOID": "S_RMS_ATCD_MED_TYPE_AUTO_IMMUN",
                 "type": "SCORE",
                 "hideNodeIfEmpty": true,
                 "ranges": [
@@ -968,476 +1423,97 @@
                     "min": 0,
                     "max": 0,
                     "color": "00FF00",
-                    "text": "ARTHROSE"
+                    "text": "AUTO IMMUN"
                   },
                   {
                     "min": 1,
                     "max": 1,
                     "color": "FF0000",
-                    "text": "ARTHROSE"
+                    "text": "AUTO IMMUN"
                   }
                 ],
-                "children": []
-              },
-              {
-                "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_GOUTTE",
-                "type": "SCORE",
-                "hideNodeIfEmpty": true,
-                "ranges": [
+                "children": [
                   {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "GOUTTE"
+                    "tagOID": "S_RMS_ATCD_MED_TYPE_AUTO_IMMUN_POLYARTHRITE_RHUMATOIDE",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "PR"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "PR"
+                      }
+                    ],
+                    "children": []
                   },
                   {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "GOUTTE"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_CHONDROCALCINOSE",
-                "type": "SCORE",
-                "hideNodeIfEmpty": true,
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "CCA"
+                    "tagOID": "S_RMS_ATCD_MED_TYPE_AUTO_IMMUN_SPONDYLARTHRITE_ANKYOLOSANTE",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "SA"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "SA"
+                      }
+                    ],
+                    "children": []
                   },
                   {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "CCA"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_PASH",
-                "type": "SCORE",
-                "hideNodeIfEmpty": true,
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "PASH"
+                    "tagOID": "S_RMS_ATCD_MED_TYPE_AUTO_IMMUN_RHUMATISME_PSORIASIQUE",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "RHU PSO"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "RHU PSO"
+                      }
+                    ],
+                    "children": []
                   },
                   {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "PASH"
+                    "tagOID": "S_RMS_ATCD_MED_TYPE_AUTO_IMMUN_POLYARTHRITE_PSEUDO_RHIZOMELIQUE",
+                    "type": "SCORE",
+                    "hideNodeIfEmpty": true,
+                    "ranges": [
+                      {
+                        "min": 0,
+                        "max": 0,
+                        "color": "00FF00",
+                        "text": "PPR"
+                      },
+                      {
+                        "min": 1,
+                        "max": 1,
+                        "color": "FF0000",
+                        "text": "PPR"
+                      }
+                    ],
+                    "children": []
                   }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_CAPS",
-                "type": "SCORE",
-                "hideNodeIfEmpty": true,
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "CAPS"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "CAPS"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_MYELOME",
-                "type": "SCORE",
-                "hideNodeIfEmpty": true,
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "MYELOME"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "MYELOME"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_OSTEITE",
-                "type": "SCORE",
-                "hideNodeIfEmpty": true,
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "OSTEITE"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "OSTEITE"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_CANCER",
-                "type": "SCORE",
-                "hideNodeIfEmpty": true,
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "CANCER"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "CANCER"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_RMS_ATCD_MED_TYPE_OS_ART_METASTASE",
-                "type": "SCORE",
-                "hideNodeIfEmpty": true,
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "META"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "META"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_SCIATIQUE",
-                "type": "SCORE",
-                "hideNodeIfEmpty": true,
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "SCIAT"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "SCIAT"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_CRURALGIE",
-                "type": "SCORE",
-                "hideNodeIfEmpty": true,
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "CRURAL"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "CRURAL"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_CANAL_CAPRIEN",
-                "type": "SCORE",
-                "hideNodeIfEmpty": true,
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "C CARPIEN"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "C CARPIEN"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_MYOPATHIE",
-                "type": "SCORE",
-                "hideNodeIfEmpty": true,
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "MYOPATH"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "MYOPATH"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_POLYMYOSITE",
-                "type": "SCORE",
-                "hideNodeIfEmpty": true,
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "POLYMYO"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "POLYMYO"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_FIBROMYALGIE",
-                "type": "SCORE",
-                "hideNodeIfEmpty": true,
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "FIBROMYA"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "FIBROMYA"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_SFC",
-                "type": "SCORE",
-                "hideNodeIfEmpty": true,
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "SFC"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "SFC"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_SFC8POST_INFECTIEUX",
-                "type": "SCORE",
-                "hideNodeIfEmpty": true,
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "SFC POST INF"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "SFC POST INF"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_ALGONEUDYSTROPHIE",
-                "type": "SCORE",
-                "hideNodeIfEmpty": true,
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "ALGONEURO"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "ALGONEURO"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_TENDINITE",
-                "type": "SCORE",
-                "hideNodeIfEmpty": true,
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "TEND"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "TEND"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_RMS_ATCD_MED_TYPE_NEURO_MUSC_TENDINOPATHIE_CALCIFIANTE",
-                "type": "SCORE",
-                "hideNodeIfEmpty": true,
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "TEND CALC"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "TEND CALC"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_RMS_ATCD_MED_TYPE_AUTO_IMMUN_POLYARTHRITE_RHUMATOIDE",
-                "type": "SCORE",
-                "hideNodeIfEmpty": true,
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "PR"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "PR"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_RMS_ATCD_MED_TYPE_AUTO_IMMUN_SPONDYLARTHRITE_ANKYOLOSANTE",
-                "type": "SCORE",
-                "hideNodeIfEmpty": true,
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "SA"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "SA"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_RMS_ATCD_MED_TYPE_AUTO_IMMUN_RHUMATISME_PSORIASIQUE",
-                "type": "SCORE",
-                "hideNodeIfEmpty": true,
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "RHU PSO"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "RHU PSO"
-                  }
-                ],
-                "children": []
-              },
-              {
-                "tagOID": "S_RMS_ATCD_MED_TYPE_AUTO_IMMUN_POLYARTHRITE_PSEUDO_RHIZOMELIQUE",
-                "type": "SCORE",
-                "hideNodeIfEmpty": true,
-                "ranges": [
-                  {
-                    "min": 0,
-                    "max": 0,
-                    "color": "00FF00",
-                    "text": "PPR"
-                  },
-                  {
-                    "min": 1,
-                    "max": 1,
-                    "color": "FF0000",
-                    "text": "PPR"
-                  }
-                ],
-                "children": []
+                ]
               }
             ]
           }

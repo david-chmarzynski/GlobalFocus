@@ -17,7 +17,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"cancer du rein\" in q_Q1_uro_nephrologie_001)",
+        "conditions": "!(\"Cancer du rein\" in q_Q1_uro_nephrologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_Q1_uro_nephrologie_001": "aucun"
@@ -29,7 +29,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"cancer de la vessie\" in q_Q1_uro_nephrologie_000)",
+        "conditions": "!(\"Cancer de la vessie\" in q_Q1_uro_nephrologie_000)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_Q1_uro_nephrologie_001": "aucun"
@@ -65,7 +65,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Coliques néphrétiques (calculs rénaux)\" in q_Q1_uro_nephrologie_001)",
+        "conditions": "!(\"Coliques néphrétiques\" in q_Q1_uro_nephrologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_Q1_uro_nephrologie_001": "aucun"
@@ -101,7 +101,7 @@
       "level": 1,
       "isGlobal": true,
       "trigger": {
-        "conditions": "!(\"Polype(s) de la vessie \" in q_Q1_uro_nephrologie_001)",
+        "conditions": "!(\"Polype(s) de la vessie\" in q_Q1_uro_nephrologie_001)",
         "scope": "MODULE_SCOPE",
         "defaultValues": {
           "q_Q1_uro_nephrologie_001": "aucun"

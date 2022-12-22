@@ -1,8 +1,16 @@
 {
   "oid": "q_infos_generales_017",
-  "title": "Si vous avez des allergies médicamenteuses, merci de les indiquer ici :",
-  "text": "Si vous avez des allergies médicamenteuses, merci de les indiquer ici :",
-  "type": "TEXT",
-  "choices": [],
-  "scores": []
+  "title": "Avez-vous des allergies médicamenteuses ?",
+  "text": "Avez-vous des allergies médicamenteuses ?",
+  "type": "SINGLE_CHOICE_RADIO",
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    }
+  ]
 }

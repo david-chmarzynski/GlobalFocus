@@ -244,9 +244,29 @@
       "isGlobal": true
     },
     {
+      "question": "q_infos_generales_017text",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"0\" in q_infos_generales_017)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {"q_infos_generales_017":"0"}
+      }
+    },
+    {
       "question": "q_infos_generales_018",
       "level": 1,
       "isGlobal": true
+    },
+    {
+      "question": "q_infos_generales_018text",
+      "level": 1,
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"0\" in q_infos_generales_018)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {"q_infos_generales_018":"0"}
+      }
     },
     {
       "question": "q_infos_generales_019",
